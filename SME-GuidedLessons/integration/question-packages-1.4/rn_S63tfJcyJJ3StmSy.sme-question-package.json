@@ -1,0 +1,959 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_S63tfJcyJJ3StmSy",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "0a9f82b625218555b7b2be0d86e009bc7fb4e8437fb3deac05e41bd882fbd2f7",
+    "pinnedRef": "b6839b5b1bc6d71aaf5ddf44bef25bc23e48ae3b"
+  },
+  "packageId": "ial-chemistry::rn_S63tfJcyJJ3StmSy",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L1::Q1",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L1",
+      "stem": "In 2Na + Cl2 -> 2NaCl, the chlorine is",
+      "misconceptionClass": "agent identification",
+      "options": [
+        {
+          "key": "A",
+          "text": "The oxidising agent, reduced from 0 to -1 as each atom gains an electron",
+          "correct": true,
+          "explanation": "Chlorine takes the electrons sodium loses, which is reduction and hence oxidising behaviour.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The reducing agent, oxidised from 0 to -1",
+          "correct": false,
+          "explanation": "Gaining electrons is reduction; the agent that causes oxidation is itself reduced.",
+          "misconception": "role confused"
+        },
+        {
+          "key": "C",
+          "text": "Oxidised, losing electrons to sodium",
+          "correct": false,
+          "explanation": "Electron flow runs from sodium to chlorine, not the reverse.",
+          "misconception": "direction reversed"
+        },
+        {
+          "key": "D",
+          "text": "A catalyst that speeds the metal's oxidation",
+          "correct": false,
+          "explanation": "Chlorine is consumed into the salt, so it is a reactant.",
+          "misconception": "role wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L1::Q2",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L1",
+      "stem": "Calcium reacting with bromine forms CaBr2 because",
+      "misconceptionClass": "formula logic",
+      "options": [
+        {
+          "key": "A",
+          "text": "Two bromine atoms share their electrons with calcium covalently",
+          "correct": false,
+          "explanation": "The product is ionic, not covalent.",
+          "misconception": "bonding wrong"
+        },
+        {
+          "key": "B",
+          "text": "Each calcium atom loses two electrons, needing two bromine atoms to accept one each",
+          "correct": true,
+          "explanation": "Ca -> Ca2+ + 2e- pairs with Br2 + 2e- -> 2Br-, giving the 1:2 formula.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Bromine donates two electrons to calcium",
+          "correct": false,
+          "explanation": "The halogen is the electron acceptor in these reactions.",
+          "misconception": "direction reversed"
+        },
+        {
+          "key": "D",
+          "text": "Calcium is a Group 1 metal with one valence electron",
+          "correct": false,
+          "explanation": "Calcium is Group 2 and loses two electrons.",
+          "misconception": "group wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L1::Q3",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L1",
+      "stem": "Iodine fails to oxidise iron(II) because",
+      "misconceptionClass": "oxidising failure",
+      "options": [
+        {
+          "key": "A",
+          "text": "Iron(II) ions repel iodine molecules",
+          "correct": false,
+          "explanation": "No repulsion argument applies; the thermodynamics of electron capture decides.",
+          "misconception": "reason invented"
+        },
+        {
+          "key": "B",
+          "text": "Iron(II) is already fully oxidised",
+          "correct": false,
+          "explanation": "Iron(II) can still rise to iron(III), as chlorine and bromine prove.",
+          "misconception": "fact wrong"
+        },
+        {
+          "key": "C",
+          "text": "Its electron capture is too weak to pull Fe2+ up to Fe3+",
+          "correct": true,
+          "explanation": "The oxidising power of iodine falls short of the iron(III)/iron(II) pull.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Iodine molecules cannot accept any electrons at all",
+          "correct": false,
+          "explanation": "Iodine accepts electrons from stronger reducing agents; it is just too weak for Fe2+.",
+          "misconception": "absolute wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L1::Q4",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L1",
+      "stem": "In Cl2 + 2Fe2+ -> 2Cl- + 2Fe3+, how many electrons move in total?",
+      "misconceptionClass": "electron counting",
+      "options": [
+        {
+          "key": "A",
+          "text": "Four, two per chlorine atom",
+          "correct": false,
+          "explanation": "Each chlorine atom gains only one electron to reach -1.",
+          "misconception": "counting wrong"
+        },
+        {
+          "key": "B",
+          "text": "One, a single electron hops once",
+          "correct": false,
+          "explanation": "Two iron(II) ions are oxidised, so two electrons move.",
+          "misconception": "counting wrong"
+        },
+        {
+          "key": "C",
+          "text": "None, this is not a redox reaction",
+          "correct": false,
+          "explanation": "Both iron and chlorine change oxidation number, so electrons transfer.",
+          "misconception": "redox denied"
+        },
+        {
+          "key": "D",
+          "text": "Two, one to each chlorine atom, one lost by each iron(II)",
+          "correct": true,
+          "explanation": "Each Fe2+ loses one electron and each chlorine atom gains one, so the ledger closes at two.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L1::Q5",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L1",
+      "stem": "Mixing iron(III) solution with potassium iodide gives iodine because",
+      "misconceptionClass": "reversal logic",
+      "options": [
+        {
+          "key": "A",
+          "text": "Iron(III) is a strong enough oxidising agent to take electrons from iodide",
+          "correct": true,
+          "explanation": "Fe3+ oxidises I- to I2 while being reduced to Fe2+, the demonstrated reversal.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Iodine donates electrons to iron(III)",
+          "correct": false,
+          "explanation": "Iodide loses the electrons; iodine is the product of that oxidation.",
+          "misconception": "role reversed"
+        },
+        {
+          "key": "C",
+          "text": "Iron(III) reduces iodide to iodine",
+          "correct": false,
+          "explanation": "Reduction of iodide would keep it as I-, not produce I2.",
+          "misconception": "process wrong"
+        },
+        {
+          "key": "D",
+          "text": "The iodide acts as the oxidising agent",
+          "correct": false,
+          "explanation": "The oxidising agent is iron(III); iodide is oxidised.",
+          "misconception": "role reversed"
+        }
+      ]
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L1::Q6",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L1",
+      "stem": "Write the equation for calcium reacting with bromine.",
+      "misconceptionClass": "equation recall",
+      "kind": "recall",
+      "modelAnswer": "Ca (s) + Br2 (l) -> CaBr2 (s), with calcium oxidised from 0 to +2.",
+      "keywords": [
+        "Ca",
+        "Br2",
+        "CaBr2"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L1::Q7",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L1",
+      "stem": "State which halogens can oxidise iron(II) to iron(III).",
+      "misconceptionClass": "capability recall",
+      "kind": "recall",
+      "modelAnswer": "Chlorine and bromine achieve the iron(III) oxidation; iodine cannot.",
+      "keywords": [
+        "chlorine",
+        "bromine",
+        "iodine"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L1::Q8",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L1",
+      "stem": "Explain why the halogens are described as oxidising agents in their reactions with metals.",
+      "misconceptionClass": "agent explanation",
+      "kind": "explain-why",
+      "modelAnswer": "In every such reaction the halogen molecules gain the electrons the metal atoms lose, so the halogen is reduced and the metal oxidised, which is precisely the action of an oxidising agent.",
+      "keywords": [
+        "electrons",
+        "reduced",
+        "oxidising"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L1::Q9",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L1",
+      "stem": "A solution of Fe2+ contaminated with I- is treated with chlorine water. State and explain the two redox changes that occur.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Chlorine oxidises both: each Fe2+ loses an electron to become Fe3+, and each I- loses an electron to give brown iodine, while the chlorine is reduced to chloride - two oxidations sharing one reduced reagent.",
+      "keywords": [
+        "chlorine",
+        "iron(II)",
+        "iodide"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L2::Q1",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L2",
+      "stem": "A disproportionation reaction is one in which",
+      "misconceptionClass": "definition",
+      "options": [
+        {
+          "key": "A",
+          "text": "A compound splits into its elements",
+          "correct": false,
+          "explanation": "Decomposition into elements is not disproportionation.",
+          "misconception": "definition wrong"
+        },
+        {
+          "key": "B",
+          "text": "A single species is simultaneously oxidised and reduced",
+          "correct": true,
+          "explanation": "Disproportionation splits one oxidation state into a higher and a lower one simultaneously.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Two different species exchange oxidation numbers",
+          "correct": false,
+          "explanation": "That is a normal redox reaction, not disproportionation.",
+          "misconception": "definition wrong"
+        },
+        {
+          "key": "D",
+          "text": "A species is oxidised without any electron movement",
+          "correct": false,
+          "explanation": "Oxidation always involves electron loss or an equivalent oxidation-number rise.",
+          "misconception": "chemistry wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L2::Q2",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L2",
+      "stem": "In Cl2 + 2OH- -> Cl- + ClO- + H2O, the chlorine that becomes ClO- has been",
+      "misconceptionClass": "branch identification",
+      "options": [
+        {
+          "key": "A",
+          "text": "Neither, because its charge is still negative",
+          "correct": false,
+          "explanation": "The ionic charge and oxidation number are different bookkeeping quantities.",
+          "misconception": "concepts confused"
+        },
+        {
+          "key": "B",
+          "text": "Hydrated rather than redox-changed",
+          "correct": false,
+          "explanation": "The +1 oxidation state is a genuine redox change.",
+          "misconception": "process wrong"
+        },
+        {
+          "key": "C",
+          "text": "Oxidised, from 0 to +1",
+          "correct": true,
+          "explanation": "Rising to +1 in chlorate(I) means electron loss, so oxidation.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Reduced, from 0 to +1",
+          "correct": false,
+          "explanation": "A rise in oxidation number is oxidation, not reduction.",
+          "misconception": "direction reversed"
+        }
+      ]
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L2::Q3",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L2",
+      "stem": "Which change happens to the chlorine that forms Cl- in cold alkali?",
+      "misconceptionClass": "branch identification",
+      "options": [
+        {
+          "key": "A",
+          "text": "Oxidation, from 0 to -1",
+          "correct": false,
+          "explanation": "A falling oxidation number is reduction, not oxidation.",
+          "misconception": "direction reversed"
+        },
+        {
+          "key": "B",
+          "text": "No change, since -1 is chlorine's usual state",
+          "correct": false,
+          "explanation": "The free chlorine started at 0, so the fall is a real change.",
+          "misconception": "change denied"
+        },
+        {
+          "key": "C",
+          "text": "Displacement of hydroxide from solution",
+          "correct": false,
+          "explanation": "No displacement occurs; the chloride forms by electron gain.",
+          "misconception": "process wrong"
+        },
+        {
+          "key": "D",
+          "text": "Reduction, from 0 to -1 by gaining one electron",
+          "correct": true,
+          "explanation": "Falling to -1 is electron gain, the reduction branch of the disproportionation.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L2::Q4",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L2",
+      "stem": "The cold-alkali ionic equation balances in charge because",
+      "misconceptionClass": "charge balance",
+      "options": [
+        {
+          "key": "A",
+          "text": "The two hydroxide ions' -2 charge equals the chloride and chlorate(I) charges combined",
+          "correct": true,
+          "explanation": "-1 + (-1) = -2 on the right matches -2 on the left.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Water neutralises all charges on both sides",
+          "correct": false,
+          "explanation": "Water is neutral and cannot account for the charged balance.",
+          "misconception": "reason wrong"
+        },
+        {
+          "key": "C",
+          "text": "Chlorine molecules carry no charge so charges vanish",
+          "correct": false,
+          "explanation": "The charged species on both sides must still balance.",
+          "misconception": "logic wrong"
+        },
+        {
+          "key": "D",
+          "text": "Both sides sum to zero charge",
+          "correct": false,
+          "explanation": "Both sides carry -2, not zero.",
+          "misconception": "arithmetic wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L2::Q5",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L2",
+      "stem": "Why does temperature matter for chlorine in alkali?",
+      "misconceptionClass": "temperature effect",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hot alkali stops disproportionation entirely",
+          "correct": false,
+          "explanation": "Hot alkali still disproportionates, into the +5 branch.",
+          "misconception": "reaction denied"
+        },
+        {
+          "key": "B",
+          "text": "Different temperatures give different products: cold alkali yields chlorate(I), hot alkali yields chlorate(V)",
+          "correct": true,
+          "explanation": "Around 15 degrees the +1 product forms; around 70 degrees the +5 product takes over.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Temperature changes only the rate, never the products",
+          "correct": false,
+          "explanation": "For chlorine in alkali the product identity itself changes with temperature.",
+          "misconception": "claim wrong"
+        },
+        {
+          "key": "D",
+          "text": "Cold alkali prevents any reaction occurring",
+          "correct": false,
+          "explanation": "Cold alkali does react, giving the +1 branch.",
+          "misconception": "reaction denied"
+        }
+      ]
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L2::Q6",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L2",
+      "stem": "Define disproportionation.",
+      "misconceptionClass": "definition",
+      "kind": "recall",
+      "modelAnswer": "A reaction in which one species is simultaneously oxidised and reduced, splitting into a higher and a lower oxidation state.",
+      "keywords": [
+        "oxidised",
+        "reduced",
+        "simultaneously"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L2::Q7",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L2",
+      "stem": "Write the ionic equation for chlorine in cold dilute alkali.",
+      "misconceptionClass": "equation recall",
+      "kind": "recall",
+      "modelAnswer": "Cl2 (aq) + 2OH- (aq) -> Cl- (aq) + ClO- (aq) + H2O (l).",
+      "keywords": [
+        "Cl2",
+        "OH-",
+        "ClO-"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L2::Q8",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L2",
+      "stem": "Explain how the cold-alkali reaction shows disproportionation of chlorine.",
+      "misconceptionClass": "evidence explanation",
+      "kind": "explain-why",
+      "modelAnswer": "One chlorine atom ends at -1 in chloride and another at +1 in chlorate(I), both from neutral chlorine at 0, so the same species has been reduced and oxidised in the same reaction.",
+      "keywords": [
+        "chloride",
+        "chlorate",
+        "oxidised"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L2::Q9",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L2",
+      "stem": "A student claims chlorine in cold alkali is purely reduced because chloride forms. Correct the claim using oxidation numbers.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Only half the chlorine is reduced to -1; the other half rises to +1 in chlorate(I), so chlorine as a whole is disproportionated, oxidised and reduced simultaneously.",
+      "keywords": [
+        "chloride",
+        "chlorate",
+        "disproportionation"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L3::Q1",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L3",
+      "stem": "In hot alkali, chlorine's oxidation states after reaction are",
+      "misconceptionClass": "state pair",
+      "options": [
+        {
+          "key": "A",
+          "text": "-1 and +7, reaching perchlorate",
+          "correct": false,
+          "explanation": "Chlorate(VII) is not formed with dilute hot alkali here.",
+          "misconception": "state wrong"
+        },
+        {
+          "key": "B",
+          "text": "0 throughout, as disproportionation needs no change",
+          "correct": false,
+          "explanation": "Disproportionation requires both a rise and a fall from 0.",
+          "misconception": "change denied"
+        },
+        {
+          "key": "C",
+          "text": "-1 in chloride and +5 in chlorate(V)",
+          "correct": true,
+          "explanation": "Five atoms fall to -1 and one climbs to +5, the hot-alkali pair.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "-1 and +1, as in the cold reaction",
+          "correct": false,
+          "explanation": "The +1 chlorate(I) belongs to cold alkali; heat switches the product to +5.",
+          "misconception": "temperature confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L3::Q2",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L3",
+      "stem": "The electron ledger for 3Cl2 + 6OH- -> 5Cl- + ClO3- + 3H2O closes because",
+      "misconceptionClass": "ledger balance",
+      "options": [
+        {
+          "key": "A",
+          "text": "Each chlorine atom both gains and loses five electrons",
+          "correct": false,
+          "explanation": "Each atom takes exactly one branch, not both.",
+          "misconception": "ledger wrong"
+        },
+        {
+          "key": "B",
+          "text": "Hydroxide ions donate the missing five electrons",
+          "correct": false,
+          "explanation": "Hydroxide supplies oxygen and charge balance, not the redox electrons.",
+          "misconception": "role wrong"
+        },
+        {
+          "key": "C",
+          "text": "Water absorbs the extra electrons at the end",
+          "correct": false,
+          "explanation": "Water is a product, not an electron sink.",
+          "misconception": "role wrong"
+        },
+        {
+          "key": "D",
+          "text": "Five chlorine atoms each gain one electron while one chlorine atom loses five",
+          "correct": true,
+          "explanation": "5 x 1 gained equals 1 x 5 lost, so the transfer is balanced.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L3::Q3",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L3",
+      "stem": "Chlorate(V), ClO3-, contains chlorine with oxidation number",
+      "misconceptionClass": "oxidation number compute",
+      "options": [
+        {
+          "key": "A",
+          "text": "+5, since three oxygens at -2 plus +5 gives the -1 ion charge",
+          "correct": true,
+          "explanation": "x + 3(-2) = -1 gives x = +5.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "+1, matching the cold-alkali product",
+          "correct": false,
+          "explanation": "That is chlorate(I), ClO-, a different ion.",
+          "misconception": "ion confused"
+        },
+        {
+          "key": "C",
+          "text": "+3, halfway between the branches",
+          "correct": false,
+          "explanation": "No chlorine(III) product appears in these equations.",
+          "misconception": "value wrong"
+        },
+        {
+          "key": "D",
+          "text": "-1, like all chlorine products",
+          "correct": false,
+          "explanation": "The chlorate(V) chlorine is oxidised, not reduced.",
+          "misconception": "sign wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L3::Q4",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L3",
+      "stem": "How many hydroxide ions appear in the hot-alkali ionic equation per 3 chlorine molecules?",
+      "misconceptionClass": "stoichiometry",
+      "options": [
+        {
+          "key": "A",
+          "text": "Three, one per water formed",
+          "correct": false,
+          "explanation": "Three waters are formed but six hydroxides are consumed.",
+          "misconception": "counting wrong"
+        },
+        {
+          "key": "B",
+          "text": "Six, supplying the oxygen atoms for chlorate(V) and the water",
+          "correct": true,
+          "explanation": "6OH- provides the three oxygens of ClO3- and the three waters.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Two, exactly as in the cold-alkali equation",
+          "correct": false,
+          "explanation": "The cold equation's 2OH- does not carry enough oxygen for the hot products.",
+          "misconception": "stoichiometry wrong"
+        },
+        {
+          "key": "D",
+          "text": "Five, one per chloride formed",
+          "correct": false,
+          "explanation": "Chloride needs no oxygen; the six hydroxides feed the oxide count.",
+          "misconception": "logic wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L3::Q5",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L3",
+      "stem": "Compared with the cold reaction, the hot reaction differs chiefly in",
+      "misconceptionClass": "comparison",
+      "options": [
+        {
+          "key": "A",
+          "text": "Whether disproportionation happens at all",
+          "correct": false,
+          "explanation": "Both temperatures give disproportionation; only the products differ.",
+          "misconception": "claim wrong"
+        },
+        {
+          "key": "B",
+          "text": "The role of water as a product",
+          "correct": false,
+          "explanation": "Water forms in both ionic equations.",
+          "misconception": "feature wrong"
+        },
+        {
+          "key": "C",
+          "text": "The oxidation state of the oxidised chlorine: +5 instead of +1",
+          "correct": true,
+          "explanation": "Heat shifts the disproportionation branch from chlorate(I) to chlorate(V).",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The oxidation state of the reduced chlorine: -3 instead of -1",
+          "correct": false,
+          "explanation": "The reduced branch is still chloride at -1 in both.",
+          "misconception": "branch wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L3::Q6",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L3",
+      "stem": "Write the ionic equation for chlorine in hot dilute alkali.",
+      "misconceptionClass": "equation recall",
+      "kind": "recall",
+      "modelAnswer": "3Cl2 (aq) + 6OH- (aq) -> 5Cl- (aq) + ClO3- (aq) + 3H2O (l).",
+      "keywords": [
+        "3Cl2",
+        "ClO3-",
+        "ionic"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L3::Q7",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L3",
+      "stem": "State the oxidation-number changes chlorine undergoes in hot alkali.",
+      "misconceptionClass": "oxidation numbers",
+      "kind": "recall",
+      "modelAnswer": "Five atoms fall from 0 to -1 in chloride and one atom rises from 0 to +5 in chlorate(V).",
+      "keywords": [
+        "-1",
+        "+5",
+        "chloride"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L3::Q8",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L3",
+      "stem": "Show that the hot-alkali equation is a disproportionation using electron counting.",
+      "misconceptionClass": "electron proof",
+      "kind": "explain-why",
+      "modelAnswer": "Of the six chlorine atoms, five each gain one electron (0 to -1) and one loses five electrons (0 to +5); five gained equals five lost, so chlorine is both reduced and oxidised.",
+      "keywords": [
+        "five",
+        "electrons",
+        "disproportionation"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L3::Q9",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L3",
+      "stem": "Predict, with reasoning, how many chlorate(V) ions form from 6 Cl2 molecules in excess hot alkali.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "6 Cl2 holds 12 chlorine atoms; one in six is oxidised, so 2 chlorate(V) ions form alongside 10 chloride ions, keeping the five-to-one ratio.",
+      "keywords": [
+        "chlorate",
+        "ratio",
+        "atoms"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L4::Q1",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L4",
+      "stem": "When chlorine reacts with water, the products are",
+      "misconceptionClass": "product pair",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chloride and chlorate(V) ions only",
+          "correct": false,
+          "explanation": "That pair belongs to alkali conditions, not pure water.",
+          "misconception": "conditions confused"
+        },
+        {
+          "key": "B",
+          "text": "Hydrogen and chlorine oxide gases",
+          "correct": false,
+          "explanation": "No gas evolution is the chemistry here; both products stay dissolved.",
+          "misconception": "products wrong"
+        },
+        {
+          "key": "C",
+          "text": "Sodium chloride and water",
+          "correct": false,
+          "explanation": "Sodium is not present in chlorine water.",
+          "misconception": "reagent wrong"
+        },
+        {
+          "key": "D",
+          "text": "Hydrochloric acid and chloric(I) acid",
+          "correct": true,
+          "explanation": "HCl and HClO form as chlorine is reduced and oxidised simultaneously.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L4::Q2",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L4",
+      "stem": "The chlorine that ends in HClO has been",
+      "misconceptionClass": "branch role",
+      "options": [
+        {
+          "key": "A",
+          "text": "Oxidised from 0 to +1",
+          "correct": true,
+          "explanation": "Rising to +1 in the acid is the oxidation branch of the water disproportionation.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Reduced from 0 to +1",
+          "correct": false,
+          "explanation": "An oxidation-number rise is oxidation.",
+          "misconception": "direction reversed"
+        },
+        {
+          "key": "C",
+          "text": "Unchanged, since HClO is neutral",
+          "correct": false,
+          "explanation": "Molecule neutrality does not fix the atom's oxidation number at 0.",
+          "misconception": "logic wrong"
+        },
+        {
+          "key": "D",
+          "text": "Displaced from solution by the water",
+          "correct": false,
+          "explanation": "No displacement happens; chlorine reacts with the water itself.",
+          "misconception": "process wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L4::Q3",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L4",
+      "stem": "Why does chloric(I) acid sterilise water?",
+      "misconceptionClass": "function",
+      "options": [
+        {
+          "key": "A",
+          "text": "It removes chlorine from the water again",
+          "correct": false,
+          "explanation": "The acid IS the chlorine treatment, not its removal.",
+          "misconception": "logic reversed"
+        },
+        {
+          "key": "B",
+          "text": "It kills bacteria in the water",
+          "correct": true,
+          "explanation": "The +1 chlorine species is the bactericide that makes the supply safe.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "It neutralises all dissolved salts",
+          "correct": false,
+          "explanation": "Sterilisation targets microbes, not salt content.",
+          "misconception": "function wrong"
+        },
+        {
+          "key": "D",
+          "text": "It raises the boiling point of the water",
+          "correct": false,
+          "explanation": "Boiling point is irrelevant to disinfection.",
+          "misconception": "function wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L4::Q4",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L4",
+      "stem": "HClO dissociating in water gives",
+      "misconceptionClass": "dissociation",
+      "options": [
+        {
+          "key": "A",
+          "text": "H2 and O2, decomposing to elements",
+          "correct": false,
+          "explanation": "No such decomposition occurs in solution.",
+          "misconception": "products wrong"
+        },
+        {
+          "key": "B",
+          "text": "HCl and hydroxide",
+          "correct": false,
+          "explanation": "That would reverse the disproportionation.",
+          "misconception": "process wrong"
+        },
+        {
+          "key": "C",
+          "text": "H+ and ClO-, and the chlorate(I) ion also sterilises",
+          "correct": true,
+          "explanation": "The dissociation spreads the +1 chlorine into a second active species.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "H+ and Cl-, completing reduction",
+          "correct": false,
+          "explanation": "Cl- is the -1 branch, not the dissociation of HClO.",
+          "misconception": "ion confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L4::Q5",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L4",
+      "stem": "Which statement about chlorine in water is correct?",
+      "misconceptionClass": "synthesis",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chlorine only dissolves physically, without reaction",
+          "correct": false,
+          "explanation": "Chemical disproportionation occurs, not mere dissolution.",
+          "misconception": "reaction denied"
+        },
+        {
+          "key": "B",
+          "text": "Only reduction of chlorine occurs in water",
+          "correct": false,
+          "explanation": "The +1 branch proves oxidation happens too.",
+          "misconception": "branch denied"
+        },
+        {
+          "key": "C",
+          "text": "The sterilising species is chloride ion",
+          "correct": false,
+          "explanation": "Chloride is the reduced, inactive branch; HClO and ClO- sterilise.",
+          "misconception": "species wrong"
+        },
+        {
+          "key": "D",
+          "text": "Chlorine is both oxidised and reduced, so the reaction is disproportionation",
+          "correct": true,
+          "explanation": "The 0 state splits into -1 (HCl) and +1 (HClO), the defining pattern.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L4::Q6",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L4",
+      "stem": "Name the two acids formed when chlorine reacts with water.",
+      "misconceptionClass": "product recall",
+      "kind": "recall",
+      "modelAnswer": "Hydrochloric acid (HCl) and chloric(I) acid (HClO).",
+      "keywords": [
+        "hydrochloric",
+        "chloric",
+        "acids"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L4::Q7",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L4",
+      "stem": "State the role of ClO- in treated water.",
+      "misconceptionClass": "role recall",
+      "kind": "recall",
+      "modelAnswer": "The chlorate(I) ion acts as a sterilising agent, killing bacteria alongside chloric(I) acid.",
+      "keywords": [
+        "sterilising",
+        "bacteria",
+        "ClO-"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L4::Q8",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L4",
+      "stem": "Explain why treating water with chlorine is a disproportionation reaction.",
+      "misconceptionClass": "disproportionation proof",
+      "kind": "explain-why",
+      "modelAnswer": "Chlorine at 0 splits into the -1 state in HCl and the +1 state in HClO, so the same element is simultaneously reduced and oxidised.",
+      "keywords": [
+        "-1",
+        "+1",
+        "chlorine"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_S63tfJcyJJ3StmSy::L4::Q9",
+      "moduleId": "rn_S63tfJcyJJ3StmSy::L4",
+      "stem": "A water board reduces chlorine dose but must still kill bacteria. Explain why a small dose can remain effective.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "The +1 chlorine species are potent bactericides used catalytically in the sense that each HClO/ClO- unit attacks bacteria; even low concentrations maintain a sterilising presence throughout the supply.",
+      "keywords": [
+        "bacteria",
+        "chloric(I)",
+        "dose"
+      ],
+      "options": []
+    }
+  ]
+}

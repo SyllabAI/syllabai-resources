@@ -1,0 +1,123 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_SsdjB2PTSDhv4YGf",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "731f90a069497a6f1a58a3e3dfcb3bcd71c730aaad1e128bf3fb4a23812e76f3",
+    "pinnedRef": "b6839b5b1bc6d71aaf5ddf44bef25bc23e48ae3b"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_SsdjB2PTSDhv4YGf",
+    "topicTitle": "2. Energetics, Group Chemistry, Halogenoalkanes & Alcohols",
+    "subtopicTitle": "Industrial Compromises",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/2-energetics-group-chemistry-halogenoalkanes-and-alcohols/2-6-introduction-to-kinetics-and-equilibria/2-6-7-industrial-compromises",
+    "specAnchors": [
+      {
+        "code": "9.11",
+        "text": "evaluate data to explain the necessity, for many industrial processes, to reach a compromise between the yield and the rate of reaction"
+      }
+    ],
+    "primer": {
+      "text": "Industry cannot maximise yield, rate and cost at once, so it negotiates. Using the Haber process as the arena, this note prices the temperature and pressure compromises - 450 degrees, 20 megapascals, roughly a third conversion - and weighs finance, energy and safety against every extra percent.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_SsdjB2PTSDhv4YGf::L1",
+        "title": "The Haber compromise: yield against rate and cost",
+        "sourceHeadings": [
+          "The Yield-Rate Compromise"
+        ],
+        "specRefs": [
+          "9.11"
+        ],
+        "opening": "The Haber process squeezes ammonia from nitrogen and hydrogen, and every condition chosen is a treaty between thermodynamics and economics: 450 degrees for speed-with-yield, 20 megapascals for acceptable cost, and a catalyst to make it all brisk.",
+        "keyPoints": [
+          "Haber equilibrium: N2 + 3H2 <=> 2NH3, exothermic in the forward direction.",
+          "Higher temperature raises rate but lowers yield, since the equilibrium shifts left; higher pressure raises yield (4 reactant moles versus 2 product moles).",
+          "About 450 oC and 20 MPa (200 atmospheres) give roughly 35 percent yield in acceptable time; doubling pressure to 40 MPa adds only about 7 percent.",
+          "The compromise weighs financial cost, energy and environmental needs, and worker safety against yield."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Cold gives yield but no speed, hot gives speed but no yield, huge pressure gives yield but costs a fortune - so industry plants the flag at 450 oC and 20 MPa and recycles unreacted gas instead.",
+            "analogy": "Farming a slow crop in a short season: you plant at the date that balances ripeness against the calendar, not the date that maximises either alone.",
+            "examPointer": "Quote both conditions with their numbers (450 oC, 20 MPa, ~35 percent) and name all three compromise considerations for evaluation questions."
+          },
+          "medium": {
+            "restatement": "The 4-to-2 gas mole imbalance makes pressure the thermodynamic ally and the accountant's enemy; temperature is the pure trade - kinetic gains against equilibrium losses - so the chosen 450 oC is a productivity optimum, not a thermodynamic one.",
+            "analogy": "A bicycle gear: neither the hardest nor the easiest gear maximises distance per hour; the middle gear does.",
+            "examPointer": "Connect each condition to its Le Chatelier effect AND its cost effect - one without the other is half an answer."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_SsdjB2PTSDhv4YGf::L1::Q1",
+          "rn_SsdjB2PTSDhv4YGf::L1::Q2",
+          "rn_SsdjB2PTSDhv4YGf::L1::Q3",
+          "rn_SsdjB2PTSDhv4YGf::L1::Q4",
+          "rn_SsdjB2PTSDhv4YGf::L1::Q5",
+          "rn_SsdjB2PTSDhv4YGf::L1::Q6",
+          "rn_SsdjB2PTSDhv4YGf::L1::Q7",
+          "rn_SsdjB2PTSDhv4YGf::L1::Q8",
+          "rn_SsdjB2PTSDhv4YGf::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "yield",
+          "definition": "The fraction of reactants converted into the desired product per pass through the process.",
+          "firstLesson": 1
+        },
+        {
+          "term": "compromise conditions",
+          "definition": "Reaction conditions chosen to balance yield, rate, cost and safety rather than maximise any one.",
+          "firstLesson": 1
+        },
+        {
+          "term": "percentage conversion",
+          "definition": "The share of reactant stock turned into ammonia per pass, roughly 35 percent at the compromised conditions.",
+          "firstLesson": 1
+        }
+      ],
+      "workedExample": {
+        "prompt": "The exam hint frames the temperature compromise as: is it better to produce 100 g of ammonia per hour or 1000 g per day? Decide with arithmetic.",
+        "steps": [
+          "Convert the hourly option to a daily figure: 100 g per hour times 24 hours.",
+          "100 x 24 = 2400 g per day.",
+          "Compare 2400 g per day against 1000 g per day, noting the hourly plant also delivers product continuously."
+        ],
+        "finalAnswer": "100 g per hour wins: 2400 g per day beats 1000 g per day, so accepting a slower rate but steady production is the better compromise."
+      }
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/f5f82a98ced2-conditions-for-haber-process.png",
+        "alt": "Conditions for Haber process, IGCSE & GCSE Chemistry revision notes",
+        "sourceHeading": "The Yield-Rate Compromise",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "The yield of ammonia with varying conditions for the Haber Process"
+      }
+    ]
+  }
+}

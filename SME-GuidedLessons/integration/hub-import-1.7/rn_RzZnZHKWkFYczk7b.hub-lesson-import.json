@@ -1,0 +1,262 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_RzZnZHKWkFYczk7b",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "2a92784856cc74b4eb9455cb8c6f613681bd141cc0559b32805fcad837f8a3dc",
+    "pinnedRef": "b6839b5b1bc6d71aaf5ddf44bef25bc23e48ae3b"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_RzZnZHKWkFYczk7b",
+    "topicTitle": "2. Energetics, Group Chemistry, Halogenoalkanes & Alcohols",
+    "subtopicTitle": "Le Chatelier's Principle",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/2-energetics-group-chemistry-halogenoalkanes-and-alcohols/2-6-introduction-to-kinetics-and-equilibria/2-6-6-le-chateliers-principle",
+    "specAnchors": [
+      {
+        "code": "13.7",
+        "text": "understand that the effect of temperature on the position of equilibrium is explained using a change in the value of the equilibrium constant"
+      }
+    ],
+    "primer": {
+      "text": "Disturb an equilibrium and it pushes back. This note arms you with Le Chatelier's principle across all three levers - concentration, pressure and temperature - with the gas-mole census for pressure questions and the endothermic compass for heat, right down to the equal-moles case where nothing moves.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_RzZnZHKWkFYczk7b::L1",
+        "title": "Position of equilibrium and the counteracting principle",
+        "sourceHeadings": [
+          "The Position of Equilibrium",
+          "Le Chatelier’s principle"
+        ],
+        "specRefs": [
+          "13.7"
+        ],
+        "opening": "Equilibrium has an address: left means reactant-rich, right means product-rich. Le Chatelier's principle is the navigation rule - disturb the system and it moves to soften the disturbance, shifting concentration, pressure or temperature.",
+        "keyPoints": [
+          "The position of equilibrium describes how the product and reactant amounts balance in the mixture.",
+          "Shifting left raises reactant concentration; shifting right raises product concentration.",
+          "Le Chatelier's principle: a change to a system at equilibrium moves the position to counteract the change.",
+          "The principle predicts shifts for changes in concentration, pressure and temperature."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "The equilibrium's 'position' is where the mixture's balance sits; any imposed change is answered by a shift that partially undoes it.",
+            "analogy": "A see-saw with an automatic rider: add weight to one side and the rider slides that way to restore balance.",
+            "examPointer": "Answer format: state the shift direction, then say which side's concentration rises as a result."
+          },
+          "medium": {
+            "restatement": "Counteraction is partial, never complete: the system reduces the imposed change but cannot erase it. The three levers - concentration, pressure, temperature - each map onto a specific directional response.",
+            "analogy": "A thermostat that cools when you heat the room: it dampens your change without reversing it.",
+            "examPointer": "Name all three levers when the question asks 'when is the principle used to predict shifts'."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_RzZnZHKWkFYczk7b::L1::Q1",
+          "rn_RzZnZHKWkFYczk7b::L1::Q2",
+          "rn_RzZnZHKWkFYczk7b::L1::Q3",
+          "rn_RzZnZHKWkFYczk7b::L1::Q4",
+          "rn_RzZnZHKWkFYczk7b::L1::Q5",
+          "rn_RzZnZHKWkFYczk7b::L1::Q6",
+          "rn_RzZnZHKWkFYczk7b::L1::Q7",
+          "rn_RzZnZHKWkFYczk7b::L1::Q8",
+          "rn_RzZnZHKWkFYczk7b::L1::Q9"
+        ],
+        "figureIds": []
+      },
+      {
+        "id": "rn_RzZnZHKWkFYczk7b::L2",
+        "title": "Concentration levers on the equilibrium position",
+        "sourceHeadings": [
+          "Effects of concentration"
+        ],
+        "specRefs": [
+          "13.7"
+        ],
+        "opening": "Feed the reactants or drain the products and the equilibrium rewards you: adding reactant or removing product both push the position rightward, lifting yield. The esterification mixture shows the arithmetic of each disturbance.",
+        "keyPoints": [
+          "Increasing reactant concentration shifts the position right, using up the excess and forming more products.",
+          "Decreasing reactant concentration shifts left to replace the lost reactant, consuming products.",
+          "Increasing product concentration shifts left; decreasing product concentration shifts right, boosting yield.",
+          "To maximise yield, raise reactant concentration or remove products as they form."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Add reactant: rightward shift eats the excess. Remove reactant: leftward shift rebuilds it. The same mirror logic runs for products, and industrial chemists exploit the product-removal case.",
+            "analogy": "A shop restocks whatever gets bought: clear the shelves (products) and the supplier (forward reaction) restocks harder.",
+            "examPointer": "Quote the yield rule - increase reactant concentration or continuously remove products - when asked how to push an equilibrium rightward."
+          },
+          "medium": {
+            "restatement": "Each disturbance forces a temporary rate imbalance: adding reactant spikes the forward rate, so composition drifts right until rates re-equalise. The counteraction never restores the original concentrations exactly.",
+            "analogy": "Overfilling one end of a balanced tank sends water flowing toward the other end until levels settle somewhere new.",
+            "examPointer": "In the esterification example, adding ethyl ethanoate (a product) shifts the position left - recognising product species matters more than their name."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_RzZnZHKWkFYczk7b::L2::Q1",
+          "rn_RzZnZHKWkFYczk7b::L2::Q2",
+          "rn_RzZnZHKWkFYczk7b::L2::Q3",
+          "rn_RzZnZHKWkFYczk7b::L2::Q4",
+          "rn_RzZnZHKWkFYczk7b::L2::Q5",
+          "rn_RzZnZHKWkFYczk7b::L2::Q6",
+          "rn_RzZnZHKWkFYczk7b::L2::Q7",
+          "rn_RzZnZHKWkFYczk7b::L2::Q8",
+          "rn_RzZnZHKWkFYczk7b::L2::Q9"
+        ],
+        "figureIds": []
+      },
+      {
+        "id": "rn_RzZnZHKWkFYczk7b::L3",
+        "title": "Pressure levers and the gas-mole census",
+        "sourceHeadings": [
+          "Effects of pressure"
+        ],
+        "specRefs": [
+          "13.7"
+        ],
+        "opening": "Pressure only speaks to gases: squeeze an equilibrium and it retreats toward whichever side holds fewer gas moles. Count the molecules, pick the side - and when the counts tie, nothing moves at all.",
+        "keyPoints": [
+          "Pressure changes affect only equilibria with gaseous reactants or products.",
+          "Increasing pressure shifts the position toward the side with fewer moles of gas.",
+          "Decreasing pressure shifts toward the side with more moles of gas.",
+          "With matching gas-mole totals on the two sides, pressure shifts nothing."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Count gas moles left and right: the higher-pressure side loses. Solids and liquids carry no vote; equal gas counts mean no response at all.",
+            "analogy": "A crowded bus sheds passengers toward the emptier carriage when squeezed - gases do the same, retreating to the less crowded side.",
+            "examPointer": "Count only gaseous species; solids like CaCO3 and CaO contribute zero to the census."
+          },
+          "medium": {
+            "restatement": "Raising pressure raises collision frequency per volume; the system offsets the squeeze by shifting to the lower-mole side, reducing total gas count. Equal counts give no directional preference, so no shift occurs.",
+            "analogy": "Squeezing a balloon with unequal pockets: air migrates to the roomier side.",
+            "examPointer": "For CaCO3 <=> CaO + CO2, the left side has zero gas moles - compression pushes leftward against the carbon dioxide."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_RzZnZHKWkFYczk7b::L3::Q1",
+          "rn_RzZnZHKWkFYczk7b::L3::Q2",
+          "rn_RzZnZHKWkFYczk7b::L3::Q3",
+          "rn_RzZnZHKWkFYczk7b::L3::Q4",
+          "rn_RzZnZHKWkFYczk7b::L3::Q5",
+          "rn_RzZnZHKWkFYczk7b::L3::Q6",
+          "rn_RzZnZHKWkFYczk7b::L3::Q7",
+          "rn_RzZnZHKWkFYczk7b::L3::Q8",
+          "rn_RzZnZHKWkFYczk7b::L3::Q9"
+        ],
+        "figureIds": []
+      },
+      {
+        "id": "rn_RzZnZHKWkFYczk7b::L4",
+        "title": "Temperature levers and the endothermic compass",
+        "sourceHeadings": [
+          "Effects of temperature"
+        ],
+        "specRefs": [
+          "13.7"
+        ],
+        "opening": "Temperature shifts ride the sign of the enthalpy change: heating pushes equilibrium in the endothermic direction, cooling in the exothermic. The hydrogen-carbon dioxide mixture with its +41.2 kJ mol-1 forward change gives the rule a number to bite on.",
+        "keyPoints": [
+          "Raising the temperature drives the equilibrium toward the endothermic side, absorbing the extra heat.",
+          "Decreasing temperature shifts the position in the exothermic direction.",
+          "For H2 + CO2 <=> H2O + CO with forward ΔH = +41.2 kJ mol-1, heating shifts the position right.",
+          "If heating increases a product, the forward reaction is endothermic by Le Chatelier's principle."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Heat is a product of exothermic directions and a reactant of endothermic ones; treat added heat like added reactant and the shift direction follows mechanically.",
+            "analogy": "A see-saw where heat is a weight: dump heat on the exothermic side and the balance tips toward the endothermic side to absorb it.",
+            "examPointer": "Deduce enthalpy sign from observations too: if warming raises a product, the forward reaction absorbs heat - it is endothermic."
+          },
+          "medium": {
+            "restatement": "The temperature lever uniquely alters the equilibrium constant itself, unlike concentration and pressure which only shift position. The endothermic direction consumes imposed heat; the exothermic direction releases it, restoring balance.",
+            "analogy": "Two banks of a river trading heat like currency: warming hands more heat to the bank that spends it (endothermic).",
+            "examPointer": "State explicitly that only temperature changes K - a favourite discrimination question against the other two levers."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_RzZnZHKWkFYczk7b::L4::Q1",
+          "rn_RzZnZHKWkFYczk7b::L4::Q2",
+          "rn_RzZnZHKWkFYczk7b::L4::Q3",
+          "rn_RzZnZHKWkFYczk7b::L4::Q4",
+          "rn_RzZnZHKWkFYczk7b::L4::Q5",
+          "rn_RzZnZHKWkFYczk7b::L4::Q6",
+          "rn_RzZnZHKWkFYczk7b::L4::Q7",
+          "rn_RzZnZHKWkFYczk7b::L4::Q8",
+          "rn_RzZnZHKWkFYczk7b::L4::Q9"
+        ],
+        "figureIds": []
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "position of equilibrium",
+          "definition": "The balance between product amounts and reactant amounts held in an equilibrium mixture.",
+          "firstLesson": 1
+        },
+        {
+          "term": "Le Chatelier's principle",
+          "definition": "The rule that a system at equilibrium shifts to counteract any imposed change.",
+          "firstLesson": 1
+        },
+        {
+          "term": "endothermic direction",
+          "definition": "The reaction direction that absorbs heat; favoured by increasing temperature.",
+          "firstLesson": 4
+        }
+      ],
+      "workedExample": {
+        "prompt": "Pressure on the equilibrium N2O4 (g) <=> 2NO2 (g) is raised. Predict the shift.",
+        "steps": [
+          "Count gas moles on each side: 1 mole of N2O4 on the left versus 2 moles of NO2 on the right.",
+          "Apply the census rule: increasing pressure shifts toward the side with fewer gas moles.",
+          "The left side (1 mole) is the fewer-mole side, so the position moves left, reducing total gas count and softening the pressure rise."
+        ],
+        "finalAnswer": "The equilibrium shifts to the left (toward N2O4)."
+      }
+    }
+  }
+}

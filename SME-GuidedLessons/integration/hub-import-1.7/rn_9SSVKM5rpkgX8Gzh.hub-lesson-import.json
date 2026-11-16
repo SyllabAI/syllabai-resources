@@ -1,0 +1,396 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_9SSVKM5rpkgX8Gzh",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "8d2fcd161f4b6c5d94a3c5a7898fe17aff3c79fa6a73550ab713660dd6f24f94",
+    "pinnedRef": "b6839b5b1bc6d71aaf5ddf44bef25bc23e48ae3b"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_9SSVKM5rpkgX8Gzh",
+    "topicTitle": "2. Energetics, Group Chemistry, Halogenoalkanes & Alcohols",
+    "subtopicTitle": "Rates of Reaction",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/2-energetics-group-chemistry-halogenoalkanes-and-alcohols/2-6-introduction-to-kinetics-and-equilibria/2-6-2-rates-of-reaction",
+    "specAnchors": [
+      {
+        "code": "9.3",
+        "text": "be able to calculate the rate of a reaction from: i the time taken for a reaction, using rate = 1/time ii the gradient of suitable graph, by drawing a tangent, either for initial rate, or at a time, t"
+      }
+    ],
+    "primer": {
+      "text": "Rate is a gradient wearing units. This note teaches the tangent craft on product-versus-time curves, then tours the lab methods - mass loss, gas syringes, disappearing crosses and quenched titrations - with each method's strengths and its sampling traps laid bare.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_9SSVKM5rpkgX8Gzh::L1",
+        "title": "Reading rate from graphs and tangents",
+        "sourceHeadings": [
+          "Rates of Reaction - Graphs & Calculations"
+        ],
+        "specRefs": [
+          "9.3"
+        ],
+        "opening": "Rate is a gradient in disguise: plot amount against time and the steepness of the curve speaks the reaction's speed. Draw a tangent, read the triangle, divide - that is the whole craft of instantaneous rate.",
+        "keyPoints": [
+          "Rate of reaction has units mol dm-3 s-1 and equals the change in amount of reactant or product divided by time.",
+          "As a reaction proceeds, reactant concentration falls and product concentration rises.",
+          "On a graph, rate at a moment is the gradient of a tangent to the curve at that time.",
+          "A large tangent triangle reaching gridlines minimises reading error."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Steep early, flat late: the curve's gradient falls as reactants are consumed. The tangent's triangle (change in y over change in x) converts steepness into a rate number with units.",
+            "analogy": "A slide that starts steep and flattens near the bottom: your speed is the slope where you stand, read from how much height you lose over how much ground.",
+            "examPointer": "Draw the tangent with a large triangle crossing gridlines, then compute change in y divided by change in x - small triangles magnify misreads."
+          },
+          "medium": {
+            "restatement": "The instantaneous rate is a derivative read graphically: tangent gradient at the chosen time. Concentration axes give mol dm-3 s-1; gas volume axes give cm3 s-1. The curve flattens because reactant depletion throttles successful collisions.",
+            "analogy": "The curve is a road; the tangent is your compass heading at one instant, and the triangle is the map square you use to measure the heading.",
+            "examPointer": "State units explicitly - a bare number loses the mark; pick the units the axes demand."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_9SSVKM5rpkgX8Gzh::L1::Q1",
+          "rn_9SSVKM5rpkgX8Gzh::L1::Q2",
+          "rn_9SSVKM5rpkgX8Gzh::L1::Q3",
+          "rn_9SSVKM5rpkgX8Gzh::L1::Q4",
+          "rn_9SSVKM5rpkgX8Gzh::L1::Q5",
+          "rn_9SSVKM5rpkgX8Gzh::L1::Q6",
+          "rn_9SSVKM5rpkgX8Gzh::L1::Q7",
+          "rn_9SSVKM5rpkgX8Gzh::L1::Q8",
+          "rn_9SSVKM5rpkgX8Gzh::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01",
+          "fig-02",
+          "fig-03"
+        ]
+      },
+      {
+        "id": "rn_9SSVKM5rpkgX8Gzh::L2",
+        "title": "Measuring rate by mass loss",
+        "sourceHeadings": [
+          "Changes in mass"
+        ],
+        "specRefs": [
+          "9.3"
+        ],
+        "opening": "Let the gas carry the mass away: a balance under the reaction vessel tracks how much product escapes per second. Simple, but only for dense gases - light hydrogen barely dents the reading.",
+        "keyPoints": [
+          "When a gas escapes the vessel, mass decreases, so mass loss over time measures rate.",
+          "Calcium carbonate with hydrochloric acid releases CO2, mass being recorded every few seconds.",
+          "The mass-loss graph is equivalent to amount of reactant against time.",
+          "The gas must be dense enough; CO2 (Mr 44.0) registers, hydrogen (Mr 2.0) does not."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Mass loss is a product meter: each escaping gram marks progress. Dense gases move the balance visibly; Mr 2.0 hydrogen disappears into rounding noise.",
+            "analogy": "A leaky water tank on a scale: heavy drips show clearly, faint mist does not.",
+            "examPointer": "Justify gas choice by molar mass when asked why hydrogen is unsuitable for mass-loss rate experiments."
+          },
+          "medium": {
+            "restatement": "The balance converts a concentration change into a mass signal without touching the mixture; the trade-off is sensitivity limited by the gas's molar mass and balance resolution (2-3 decimal places).",
+            "analogy": "Watching a truck leave a car park by weighbridge works; watching a cyclist leave does not register.",
+            "examPointer": "Name 'gas must be sufficiently dense' as the limitation, quoting Mr values 44.0 versus 2.0."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_9SSVKM5rpkgX8Gzh::L2::Q1",
+          "rn_9SSVKM5rpkgX8Gzh::L2::Q2",
+          "rn_9SSVKM5rpkgX8Gzh::L2::Q3",
+          "rn_9SSVKM5rpkgX8Gzh::L2::Q4",
+          "rn_9SSVKM5rpkgX8Gzh::L2::Q5",
+          "rn_9SSVKM5rpkgX8Gzh::L2::Q6",
+          "rn_9SSVKM5rpkgX8Gzh::L2::Q7",
+          "rn_9SSVKM5rpkgX8Gzh::L2::Q8",
+          "rn_9SSVKM5rpkgX8Gzh::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-04",
+          "fig-05"
+        ]
+      },
+      {
+        "id": "rn_9SSVKM5rpkgX8Gzh::L3",
+        "title": "Measuring rate by gas volume",
+        "sourceHeadings": [
+          "Volumes of gases"
+        ],
+        "specRefs": [
+          "9.3"
+        ],
+        "opening": "Trap the gas and time its growth: a syringe or an inverted cylinder over water turns product formation into a rising volume curve. Volume is a product meter, read every few seconds into a graph whose gradient is the rate.",
+        "keyPoints": [
+          "Trapping the product gas and reading its volume as time passes gives a rate signal.",
+          "Magnesium with hydrochloric acid produces hydrogen, collected by gas syringe or inverted cylinder.",
+          "The inverted measuring cylinder works when the gas is not water-soluble.",
+          "The volume graph plots amount of product against time, and its gradient is the rate."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Collected volume climbs steeply early, flattening as reactants thin out; each reading marks cumulative product, and the gradient between readings is the rate.",
+            "analogy": "Filling a bath from a tap that slows down: early marks rise fast, late marks crawl.",
+            "examPointer": "Choose the syringe for soluble gases; the inverted cylinder only when the gas is not water-soluble."
+          },
+          "medium": {
+            "restatement": "Gas volume translates stoichiometry into observable progress without sampling the mixture; it measures the product side directly, complementing mass loss's reactant view. Water solubility decides the collection apparatus.",
+            "analogy": "A growing balloon taped to a ruler: every centimetre is product made so far.",
+            "examPointer": "State 'not water-soluble' as the condition for the inverted-cylinder variant - the examiner checks that qualification."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_9SSVKM5rpkgX8Gzh::L3::Q1",
+          "rn_9SSVKM5rpkgX8Gzh::L3::Q2",
+          "rn_9SSVKM5rpkgX8Gzh::L3::Q3",
+          "rn_9SSVKM5rpkgX8Gzh::L3::Q4",
+          "rn_9SSVKM5rpkgX8Gzh::L3::Q5",
+          "rn_9SSVKM5rpkgX8Gzh::L3::Q6",
+          "rn_9SSVKM5rpkgX8Gzh::L3::Q7",
+          "rn_9SSVKM5rpkgX8Gzh::L3::Q8",
+          "rn_9SSVKM5rpkgX8Gzh::L3::Q9"
+        ],
+        "figureIds": [
+          "fig-06",
+          "fig-07",
+          "fig-08"
+        ]
+      },
+      {
+        "id": "rn_9SSVKM5rpkgX8Gzh::L4",
+        "title": "Concentration changes, quenching and the disappearing cross",
+        "sourceHeadings": [
+          "Measuring concentration changes"
+        ],
+        "specRefs": [
+          "9.3"
+        ],
+        "opening": "Sampling concentration mid-reaction is invasive - unless you quench, freezing the chemistry for titration. Often it is easier to stop the clock at a visible endpoint, as the thiosulfate-sulfur cross does, at the cost of a single data point.",
+        "keyPoints": [
+          "Taking and titrating samples can disturb the rate unless the reaction is deliberately stopped, called quenching.",
+          "It is often convenient to time a visible endpoint, such as magnesium dissolving completely in acid.",
+          "Sodium thiosulfate with hydrochloric acid slowly forms yellow sulfur that hides a cross beneath the flask.",
+          "The endpoint method's main limitation is that it yields only one piece of data."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Quenching halts the sampled aliquot so titration reads a true concentration; endpoint timing trades many data points for one clean visible moment.",
+            "analogy": "Freezing a scoop of soup to test its heat versus watching for the crouton to sink - one is precise and invasive, the other quick and single-shot.",
+            "examPointer": "Name quenching explicitly and state the one-data-point limitation of cross experiments."
+          },
+          "medium": {
+            "restatement": "The disappearing cross couples rate to turbidity: sulfur colloids scatter light until the printed cross vanishes, and that fixed endpoint time compares rates across conditions. Consistency of judgement (same cross, same eye) is the hidden control.",
+            "analogy": "A fogged window: you time how long the garden takes to blur beyond recognition - the same window, the same criterion, every run.",
+            "examPointer": "Quote the thiosulfate equation with its sulfur product when describing the classic experiment."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_9SSVKM5rpkgX8Gzh::L4::Q1",
+          "rn_9SSVKM5rpkgX8Gzh::L4::Q2",
+          "rn_9SSVKM5rpkgX8Gzh::L4::Q3",
+          "rn_9SSVKM5rpkgX8Gzh::L4::Q4",
+          "rn_9SSVKM5rpkgX8Gzh::L4::Q5",
+          "rn_9SSVKM5rpkgX8Gzh::L4::Q6",
+          "rn_9SSVKM5rpkgX8Gzh::L4::Q7",
+          "rn_9SSVKM5rpkgX8Gzh::L4::Q8",
+          "rn_9SSVKM5rpkgX8Gzh::L4::Q9"
+        ],
+        "figureIds": [
+          "fig-09",
+          "fig-10",
+          "fig-11"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "tangent",
+          "definition": "A straight line touching a curve at one point whose gradient equals the instantaneous rate there.",
+          "firstLesson": 1
+        },
+        {
+          "term": "quenching",
+          "definition": "Deliberately stopping a reaction in a removed sample so its concentration can be analysed faithfully.",
+          "firstLesson": 4
+        },
+        {
+          "term": "initial rate",
+          "definition": "The rate at time zero, found from the tangent drawn at the start of the curve.",
+          "firstLesson": 4
+        }
+      ],
+      "workedExample": {
+        "prompt": "The iodine-methanoic acid reaction releases carbon dioxide, plotted as volume against time. Using the tangent at the 20-second mark, find the rate.",
+        "steps": [
+          "Draw the tangent to the curve at 20 seconds, extending it to cross gridlines.",
+          "Complete a large right triangle on the tangent and read off the change in y and change in x.",
+          "Divide: rate = change in y / change in x = 24 / 40.",
+          "Attach units from the axes: volume in cm3 over time in seconds."
+        ],
+        "finalAnswer": "0.60 cm3 s-1"
+      }
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/2691feb4d1eb-6-1-2-rate-of-reaction-graphs.png",
+        "alt": "Rate of reaction graphs, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Rates of Reaction - Graphs & Calculations",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Rate of reaction graphs"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/737bb85fdad6-6-1-2-rate-of-reaction-worked-example-question.png",
+        "alt": "Rate of reaction - Worked Example Question, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Rates of Reaction - Graphs & Calculations",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-03",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/ad9fff4a6ecf-6-1-2-rate-of-reaction-worked-example-answer.png",
+        "alt": "Rate of reaction - Worked Example Answer, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Rates of Reaction - Graphs & Calculations",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-04",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/5b2862d9e30a-6-1-3-measuring-mass-changes.png",
+        "alt": "Measuring mass changes, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Changes in mass",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "Measuring changes in mass using a balance"
+      },
+      {
+        "id": "fig-05",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/7121f7c93499-6-1-3-mass-loss-graph.png",
+        "alt": "Mass loss graph, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Changes in mass",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "Mass loss of a product against time"
+      },
+      {
+        "id": "fig-06",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/529015928e70-6-1-3-gas-collection-set-up.png",
+        "alt": "Gas collection Set Up, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Volumes of gases",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique",
+        "caption": "Collecting gases experimental set up"
+      },
+      {
+        "id": "fig-07",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/aa9d739a12f6-6-1-3-gas-collection-alternative-set-up.png",
+        "alt": "Gas collection alternative set up, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Volumes of gases",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique",
+        "caption": "Alternative gas collection set up"
+      },
+      {
+        "id": "fig-08",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/9e0dc94f9ea4-6-1-3-graph-of-gas-evolved-against-time.png",
+        "alt": "Graph of gas evolved against time, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Volumes of gases",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique",
+        "caption": "Graph of gas volume evolved against time"
+      },
+      {
+        "id": "fig-09",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/b21650f0a141-6-1-3-the-disappearing-cross-experiment.png",
+        "alt": "The Disappearing Cross Experiment, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Measuring concentration changes",
+        "moduleIds": [
+          "L4"
+        ],
+        "binding": "heading-unique",
+        "caption": "The disappearing cross experiment"
+      },
+      {
+        "id": "fig-10",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/8b400a7c1c84-8-1-1-initial-rates-method-results-table.png",
+        "alt": "Initial Rates Method- Results Table, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Measuring concentration changes",
+        "moduleIds": [
+          "L4"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-11",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/f5ff62514d84-8-1-1-initial-rates-method-results-graph.png",
+        "alt": "Initial Rates Method - Results Graph, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Measuring concentration changes",
+        "moduleIds": [
+          "L4"
+        ],
+        "binding": "heading-unique"
+      }
+    ]
+  }
+}

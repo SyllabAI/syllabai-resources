@@ -1,0 +1,723 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_39XDBpbksn43sPhh",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "c0e4230224b2a9ab0eac56669b18d8c9ac0b6e5ac36ffb3cab7789f24b4d8cee",
+    "pinnedRef": "b6839b5b1bc6d71aaf5ddf44bef25bc23e48ae3b"
+  },
+  "packageId": "ial-chemistry::rn_39XDBpbksn43sPhh",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_39XDBpbksn43sPhh::L1::Q1",
+      "moduleId": "rn_39XDBpbksn43sPhh::L1",
+      "stem": "In a nucleophilic substitution of a halogenoalkane, the nucleophile attacks",
+      "misconceptionClass": "attack target",
+      "options": [
+        {
+          "key": "A",
+          "text": "The carbon atom carrying the partial positive charge",
+          "correct": true,
+          "explanation": "The d+ carbon is the electron-seeking target of the electron-rich nucleophile.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The halogen atom carrying the partial negative charge",
+          "correct": false,
+          "explanation": "Nucleophiles seek positive centres, not negative halogens.",
+          "misconception": "target wrong"
+        },
+        {
+          "key": "C",
+          "text": "A hydrogen atom on the chain",
+          "correct": false,
+          "explanation": "Attack lands at the functional carbon, not random hydrogens.",
+          "misconception": "target wrong"
+        },
+        {
+          "key": "D",
+          "text": "The solvent molecules",
+          "correct": false,
+          "explanation": "Solvent is not the substrate.",
+          "misconception": "target wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_39XDBpbksn43sPhh::L1::Q2",
+      "moduleId": "rn_39XDBpbksn43sPhh::L1",
+      "stem": "Halogenoalkanes undergo nucleophilic substitution because",
+      "misconceptionClass": "reactivity cause",
+      "options": [
+        {
+          "key": "A",
+          "text": "Carbon repels the nucleophile",
+          "correct": false,
+          "explanation": "It attracts it.",
+          "misconception": "direction reversed"
+        },
+        {
+          "key": "B",
+          "text": "The C-X bond is polar, giving carbon a partial positive charge",
+          "correct": true,
+          "explanation": "The d+ carbon invites electron-pair donation.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "The C-X bond is non-polar and unstable",
+          "correct": false,
+          "explanation": "The bond is polar, not non-polar.",
+          "misconception": "claim wrong"
+        },
+        {
+          "key": "D",
+          "text": "The halogen donates electrons to carbon",
+          "correct": false,
+          "explanation": "The halogen withdraws electron density; it does not donate.",
+          "misconception": "direction reversed"
+        }
+      ]
+    },
+    {
+      "id": "rn_39XDBpbksn43sPhh::L1::Q3",
+      "moduleId": "rn_39XDBpbksn43sPhh::L1",
+      "stem": "The species replaced by the nucleophile is",
+      "misconceptionClass": "leaving group",
+      "options": [
+        {
+          "key": "A",
+          "text": "A hydrogen from the chain",
+          "correct": false,
+          "explanation": "No hydrogen leaves in substitution.",
+          "misconception": "claim wrong"
+        },
+        {
+          "key": "B",
+          "text": "The solvent",
+          "correct": false,
+          "explanation": "Solvent is not part of the substrate.",
+          "misconception": "claim wrong"
+        },
+        {
+          "key": "C",
+          "text": "The halogen atom bearing the partial negative charge",
+          "correct": true,
+          "explanation": "X departs with the bond's electron pair as X-.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "An alkyl group of the chain",
+          "correct": false,
+          "explanation": "The skeleton stays intact.",
+          "misconception": "claim wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_39XDBpbksn43sPhh::L1::Q4",
+      "moduleId": "rn_39XDBpbksn43sPhh::L1",
+      "stem": "Which option correctly describes the electronic role of the nucleophile?",
+      "misconceptionClass": "electron role",
+      "options": [
+        {
+          "key": "A",
+          "text": "It accepts an electron pair from carbon",
+          "correct": false,
+          "explanation": "That is electrophilic behaviour.",
+          "misconception": "role reversed"
+        },
+        {
+          "key": "B",
+          "text": "It removes a single electron, radical-style",
+          "correct": false,
+          "explanation": "No radical chemistry runs here.",
+          "misconception": "mechanism wrong"
+        },
+        {
+          "key": "C",
+          "text": "It shares equally without net donation",
+          "correct": false,
+          "explanation": "Donation is directional and unequal.",
+          "misconception": "claim wrong"
+        },
+        {
+          "key": "D",
+          "text": "It donates a lone pair of electrons into the d+ carbon",
+          "correct": true,
+          "explanation": "Pair donation forms the new C-Nu bond.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_39XDBpbksn43sPhh::L1::Q5",
+      "moduleId": "rn_39XDBpbksn43sPhh::L1",
+      "stem": "After the substitution, the halogen ends up as",
+      "misconceptionClass": "product form",
+      "options": [
+        {
+          "key": "A",
+          "text": "A halide ion, X-, carrying the departed electron pair",
+          "correct": true,
+          "explanation": "Heterolytic departure hands both electrons to the halogen.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "A neutral halogen molecule",
+          "correct": false,
+          "explanation": "No X2 forms in the substitution step.",
+          "misconception": "product wrong"
+        },
+        {
+          "key": "C",
+          "text": "A covalent acid HX",
+          "correct": false,
+          "explanation": "HX is not the immediate substitution product in alkali routes.",
+          "misconception": "product wrong"
+        },
+        {
+          "key": "D",
+          "text": "Still bonded to carbon",
+          "correct": false,
+          "explanation": "Substitution means it left.",
+          "misconception": "claim wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_39XDBpbksn43sPhh::L1::Q6",
+      "moduleId": "rn_39XDBpbksn43sPhh::L1",
+      "stem": "Define nucleophilic substitution.",
+      "misconceptionClass": "definition",
+      "kind": "recall",
+      "modelAnswer": "A reaction in which a nucleophile attacks a carbon with a partial positive charge and replaces the atom or group carrying the partial negative charge.",
+      "keywords": [
+        "nucleophile",
+        "attack",
+        "replace"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_39XDBpbksn43sPhh::L1::Q7",
+      "moduleId": "rn_39XDBpbksn43sPhh::L1",
+      "stem": "State why the C-X bond is polar.",
+      "misconceptionClass": "polarity recall",
+      "kind": "recall",
+      "modelAnswer": "The halogen is more electronegative than carbon, so it draws the bonding electrons and carries the partial negative charge.",
+      "keywords": [
+        "electronegative",
+        "electrons",
+        "partial"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_39XDBpbksn43sPhh::L1::Q8",
+      "moduleId": "rn_39XDBpbksn43sPhh::L1",
+      "stem": "Explain why the carbon of the C-X bond attracts nucleophiles.",
+      "misconceptionClass": "attraction logic",
+      "kind": "explain-why",
+      "modelAnswer": "The electronegativity difference leaves carbon electron-poor (d+), and electron-rich nucleophiles are attracted to exactly such centres.",
+      "keywords": [
+        "electron-poor",
+        "attract",
+        "nucleophile"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_39XDBpbksn43sPhh::L1::Q9",
+      "moduleId": "rn_39XDBpbksn43sPhh::L1",
+      "stem": "Sketch reasoning: what happens to the electron pair of the C-X bond when the nucleophile attacks?",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "The pair departs entirely with the halogen as X-, so the carbon never exceeds four bonds - the incoming nucleophile's pair replaces the departing one.",
+      "keywords": [
+        "pair",
+        "halogen",
+        "departs"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_39XDBpbksn43sPhh::L2::Q1",
+      "moduleId": "rn_39XDBpbksn43sPhh::L2",
+      "stem": "In the OH- mechanism, the first curly arrow starts from",
+      "misconceptionClass": "arrow origin",
+      "options": [
+        {
+          "key": "A",
+          "text": "The solvent",
+          "correct": false,
+          "explanation": "No solvent arrow appears in the step.",
+          "misconception": "arrow wrong"
+        },
+        {
+          "key": "B",
+          "text": "The lone pair on the hydroxide oxygen",
+          "correct": true,
+          "explanation": "The donation begins at the electron source - the OH- lone pair.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "The carbon atom of the halogenoalkane",
+          "correct": false,
+          "explanation": "Arrows show electron movement; carbon is the destination, not the source.",
+          "misconception": "direction reversed"
+        },
+        {
+          "key": "D",
+          "text": "The halogen atom",
+          "correct": false,
+          "explanation": "The halogen's arrow runs in the opposite, departing direction.",
+          "misconception": "arrow wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_39XDBpbksn43sPhh::L2::Q2",
+      "moduleId": "rn_39XDBpbksn43sPhh::L2",
+      "stem": "The second curly arrow in the OH- mechanism shows",
+      "misconceptionClass": "departure arrow",
+      "options": [
+        {
+          "key": "A",
+          "text": "A hydrogen pair moving to oxygen",
+          "correct": false,
+          "explanation": "No hydrogen transfer occurs.",
+          "misconception": "arrow wrong"
+        },
+        {
+          "key": "B",
+          "text": "The C-C bond pair shifting",
+          "correct": false,
+          "explanation": "The skeleton stays intact.",
+          "misconception": "arrow wrong"
+        },
+        {
+          "key": "C",
+          "text": "The C-X bonding pair moving onto the halogen atom",
+          "correct": true,
+          "explanation": "The departing pair lands on X, making X-.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The O-H bond pair moving to hydrogen",
+          "correct": false,
+          "explanation": "No O-H arrow exists in this step.",
+          "misconception": "arrow wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_39XDBpbksn43sPhh::L2::Q3",
+      "moduleId": "rn_39XDBpbksn43sPhh::L2",
+      "stem": "The overall charge ledger for CH3CH2Br + OH- -> CH3CH2OH + Br- shows",
+      "misconceptionClass": "charge ledger",
+      "options": [
+        {
+          "key": "A",
+          "text": "Two negatives on the left and none on the right",
+          "correct": false,
+          "explanation": "Both sides carry exactly one negative charge.",
+          "misconception": "ledger wrong"
+        },
+        {
+          "key": "B",
+          "text": "Zero throughout",
+          "correct": false,
+          "explanation": "Ions are present on both sides.",
+          "misconception": "ledger wrong"
+        },
+        {
+          "key": "C",
+          "text": "A positive charge appearing mid-mechanism",
+          "correct": false,
+          "explanation": "No positive intermediate forms in the concerted step.",
+          "misconception": "ledger wrong"
+        },
+        {
+          "key": "D",
+          "text": "One negative charge on each side, carried by OH- then Br-",
+          "correct": true,
+          "explanation": "Neutral alcohol formation conserves the single negative unit.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_39XDBpbksn43sPhh::L2::Q4",
+      "moduleId": "rn_39XDBpbksn43sPhh::L2",
+      "stem": "Why does no intermediate form in the OH- substitution mechanism?",
+      "misconceptionClass": "concerted logic",
+      "options": [
+        {
+          "key": "A",
+          "text": "Attack and departure happen in one concerted step",
+          "correct": true,
+          "explanation": "The entering and exiting movements are simultaneous.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The carbon rejects any fifth bond",
+          "correct": false,
+          "explanation": "That is the consequence, not the step's classification.",
+          "misconception": "consequence wrong"
+        },
+        {
+          "key": "C",
+          "text": "The solvent blocks intermediates",
+          "correct": false,
+          "explanation": "Solvent does not forbid intermediates.",
+          "misconception": "reason wrong"
+        },
+        {
+          "key": "D",
+          "text": "Bromide is too slow to leave",
+          "correct": false,
+          "explanation": "It leaves exactly as OH- arrives.",
+          "misconception": "claim wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_39XDBpbksn43sPhh::L2::Q5",
+      "moduleId": "rn_39XDBpbksn43sPhh::L2",
+      "stem": "The product alcohol in the aqueous alkali mechanism forms because",
+      "misconceptionClass": "product logic",
+      "options": [
+        {
+          "key": "A",
+          "text": "Water adds across the chain",
+          "correct": false,
+          "explanation": "No addition chemistry runs in substitution.",
+          "misconception": "claim wrong"
+        },
+        {
+          "key": "B",
+          "text": "The carbon-oxygen bond replaces the carbon-halogen bond",
+          "correct": true,
+          "explanation": "The OH group stays covalently attached to the carbon skeleton.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "The hydroxide remains an ion in solution",
+          "correct": false,
+          "explanation": "It is consumed into the neutral alcohol.",
+          "misconception": "claim wrong"
+        },
+        {
+          "key": "D",
+          "text": "The halogen donates electrons to oxygen",
+          "correct": false,
+          "explanation": "No such donation occurs.",
+          "misconception": "claim wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_39XDBpbksn43sPhh::L2::Q6",
+      "moduleId": "rn_39XDBpbksn43sPhh::L2",
+      "stem": "Write the overall equation for bromoethane with aqueous OH-.",
+      "misconceptionClass": "equation recall",
+      "kind": "recall",
+      "modelAnswer": "CH3CH2Br + OH- -> CH3CH2OH + Br-, the alcohol and bromide ion.",
+      "keywords": [
+        "CH3CH2Br",
+        "OH-",
+        "Br-"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_39XDBpbksn43sPhh::L2::Q7",
+      "moduleId": "rn_39XDBpbksn43sPhh::L2",
+      "stem": "State the two curly arrows drawn in the OH- mechanism.",
+      "misconceptionClass": "mechanism recall",
+      "kind": "recall",
+      "modelAnswer": "One from the OH- lone pair to the d+ carbon, one from the C-X bond onto the halogen as X- leaves.",
+      "keywords": [
+        "lone",
+        "C-X",
+        "arrows"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_39XDBpbksn43sPhh::L2::Q8",
+      "moduleId": "rn_39XDBpbksn43sPhh::L2",
+      "stem": "Explain why the mechanism is described as substitution.",
+      "misconceptionClass": "class logic",
+      "kind": "explain-why",
+      "modelAnswer": "One group (OH) substitutes into the position vacated by another (Br), on an unchanged carbon skeleton - the defining pattern of substitution.",
+      "keywords": [
+        "substitutes",
+        "skeleton",
+        "group"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_39XDBpbksn43sPhh::L2::Q9",
+      "moduleId": "rn_39XDBpbksn43sPhh::L2",
+      "stem": "A student draws the OH- mechanism but forgets the negative charge on the departing bromide. Why is the drawing wrong?",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "The C-X bonding pair departs WITH the halogen, so bromide must carry the negative charge - omitting it breaks both the charge ledger and the electron bookkeeping.",
+      "keywords": [
+        "charge",
+        "bromide",
+        "ledger"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_39XDBpbksn43sPhh::L3::Q1",
+      "moduleId": "rn_39XDBpbksn43sPhh::L3",
+      "stem": "The intermediate in the ammonia mechanism is",
+      "misconceptionClass": "intermediate identity",
+      "options": [
+        {
+          "key": "A",
+          "text": "CH3NH2+ radical",
+          "correct": false,
+          "explanation": "No radicals form.",
+          "misconception": "species wrong"
+        },
+        {
+          "key": "B",
+          "text": "NH4OH",
+          "correct": false,
+          "explanation": "No such intermediate appears.",
+          "misconception": "species wrong"
+        },
+        {
+          "key": "C",
+          "text": "[CH3NH3]+Cl-, a substituted ammonium salt",
+          "correct": true,
+          "explanation": "Nitrogen carries four bonds and the positive charge after attack.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "CH3NH2 free amine",
+          "correct": false,
+          "explanation": "That is the final product, after deprotonation.",
+          "misconception": "stage confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_39XDBpbksn43sPhh::L3::Q2",
+      "moduleId": "rn_39XDBpbksn43sPhh::L3",
+      "stem": "The role of the second ammonia molecule is",
+      "misconceptionClass": "step 2 role",
+      "options": [
+        {
+          "key": "A",
+          "text": "To attack carbon a second time",
+          "correct": false,
+          "explanation": "The carbon already carries its nitrogen.",
+          "misconception": "role wrong"
+        },
+        {
+          "key": "B",
+          "text": "To replace the chloride ion",
+          "correct": false,
+          "explanation": "Chloride simply pairs with NH4+.",
+          "misconception": "role wrong"
+        },
+        {
+          "key": "C",
+          "text": "To catalyse the first step",
+          "correct": false,
+          "explanation": "Each ammonia is consumed stoichiometrically.",
+          "misconception": "role wrong"
+        },
+        {
+          "key": "D",
+          "text": "To remove a proton from the intermediate, forming NH4Cl and the free amine",
+          "correct": true,
+          "explanation": "Ammonia acts as base in the deprotonation beat.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_39XDBpbksn43sPhh::L3::Q3",
+      "moduleId": "rn_39XDBpbksn43sPhh::L3",
+      "stem": "In the first beat, where does the attacking lone pair of ammonia land?",
+      "misconceptionClass": "arrow origin",
+      "options": [
+        {
+          "key": "A",
+          "text": "The lone pair on ammonia's nitrogen to the d+ carbon",
+          "correct": true,
+          "explanation": "The nitrogen lone pair is the electron source.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The C-Cl bond to the carbon",
+          "correct": false,
+          "explanation": "The C-Cl pair departs to chlorine instead.",
+          "misconception": "arrow wrong"
+        },
+        {
+          "key": "C",
+          "text": "Chloride to nitrogen",
+          "correct": false,
+          "explanation": "Chloride is a spectator until pairing with NH4+.",
+          "misconception": "arrow wrong"
+        },
+        {
+          "key": "D",
+          "text": "A C-H bond to nitrogen",
+          "correct": false,
+          "explanation": "No C-H arrow exists here.",
+          "misconception": "arrow wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_39XDBpbksn43sPhh::L3::Q4",
+      "moduleId": "rn_39XDBpbksn43sPhh::L3",
+      "stem": "The co-product NH4Cl forms in step 2 because",
+      "misconceptionClass": "co-product logic",
+      "options": [
+        {
+          "key": "A",
+          "text": "The solvent supplies the proton",
+          "correct": false,
+          "explanation": "The proton comes from the intermediate's nitrogen.",
+          "misconception": "source wrong"
+        },
+        {
+          "key": "B",
+          "text": "The second ammonia keeps the removed proton, pairing with chloride",
+          "correct": true,
+          "explanation": "NH3 + H+ -> NH4+ alongside the existing Cl-.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Chloride attacks ammonia",
+          "correct": false,
+          "explanation": "Chloride has no attacking role.",
+          "misconception": "claim wrong"
+        },
+        {
+          "key": "D",
+          "text": "Ammonia decomposes to nitrogen and hydrogen",
+          "correct": false,
+          "explanation": "No decomposition occurs.",
+          "misconception": "claim wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_39XDBpbksn43sPhh::L3::Q5",
+      "moduleId": "rn_39XDBpbksn43sPhh::L3",
+      "stem": "Excess ammonia is used in this route to",
+      "misconceptionClass": "excess logic",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dissolve the halogenoalkane",
+          "correct": false,
+          "explanation": "Ethanol is the solvent.",
+          "misconception": "reason wrong"
+        },
+        {
+          "key": "B",
+          "text": "Neutralise the ammonium chloride",
+          "correct": false,
+          "explanation": "No neutralisation is intended.",
+          "misconception": "reason wrong"
+        },
+        {
+          "key": "C",
+          "text": "Prevent the amine product reacting further by substitution",
+          "correct": true,
+          "explanation": "Surplus NH3 out-competes the amine as nucleophile.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Speed up the deprotonation step only",
+          "correct": false,
+          "explanation": "The excess also guards against over-substitution.",
+          "misconception": "reason partial"
+        }
+      ]
+    },
+    {
+      "id": "rn_39XDBpbksn43sPhh::L3::Q6",
+      "moduleId": "rn_39XDBpbksn43sPhh::L3",
+      "stem": "Write the two equations for chloromethane with ammonia.",
+      "misconceptionClass": "equations recall",
+      "kind": "recall",
+      "modelAnswer": "CH3Cl + NH3 -> [CH3NH3]+Cl-; then [CH3NH3]+Cl- + NH3 -> CH3NH2 + NH4Cl.",
+      "keywords": [
+        "CH3Cl",
+        "NH3",
+        "CH3NH2"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_39XDBpbksn43sPhh::L3::Q7",
+      "moduleId": "rn_39XDBpbksn43sPhh::L3",
+      "stem": "Name the final organic product and the inorganic co-product.",
+      "misconceptionClass": "product recall",
+      "kind": "recall",
+      "modelAnswer": "The primary amine (e.g. methylamine) and ammonium chloride.",
+      "keywords": [
+        "amine",
+        "ammonium",
+        "chloride"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_39XDBpbksn43sPhh::L3::Q8",
+      "moduleId": "rn_39XDBpbksn43sPhh::L3",
+      "stem": "Explain why the intermediate carries a positive charge on nitrogen.",
+      "misconceptionClass": "charge logic",
+      "kind": "explain-why",
+      "modelAnswer": "After donating its lone pair, nitrogen holds four bonds (three H plus the carbon) and thus one unit of formal positive charge.",
+      "keywords": [
+        "four",
+        "bonds",
+        "positive"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_39XDBpbksn43sPhh::L3::Q9",
+      "moduleId": "rn_39XDBpbksn43sPhh::L3",
+      "stem": "Sum the two ammonia steps into one overall equation for chloromethane.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "CH3Cl + 2NH3 -> CH3NH2 + NH4Cl: one ammonia attacks, the second deprotonates, so two equivalents are consumed overall.",
+      "keywords": [
+        "2NH3",
+        "overall",
+        "equation"
+      ],
+      "options": []
+    }
+  ]
+}

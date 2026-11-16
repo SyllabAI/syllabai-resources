@@ -1,0 +1,959 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_gWsWTfZwwv5w8ZSs",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "2e888c74d488d5edf13d2fb42d25219b38d749144c47b0335feadc3ccab03dfb",
+    "pinnedRef": "b6839b5b1bc6d71aaf5ddf44bef25bc23e48ae3b"
+  },
+  "packageId": "ial-chemistry::rn_gWsWTfZwwv5w8ZSs",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L1::Q1",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L1",
+      "stem": "Which reaction is an addition?",
+      "misconceptionClass": "classification",
+      "options": [
+        {
+          "key": "A",
+          "text": "C2H4 + Br2 -> C2H4Br2",
+          "correct": true,
+          "explanation": "Two reactants become one product across the double bond - the addition signature.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "CH3CH2Br + OH- -> C2H5OH + Br-",
+          "correct": false,
+          "explanation": "Two products from two reactant fragments with substitution running the show.",
+          "misconception": "class wrong"
+        },
+        {
+          "key": "C",
+          "text": "CH3CH2Br -> C2H4 + HBr",
+          "correct": false,
+          "explanation": "One reactant yielding two products is elimination.",
+          "misconception": "class wrong"
+        },
+        {
+          "key": "D",
+          "text": "CH3CHO + [O] -> CH3COOH",
+          "correct": false,
+          "explanation": "That is oxidation of an aldehyde.",
+          "misconception": "class wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L1::Q2",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L1",
+      "stem": "Elimination reactions are usually recognised because",
+      "misconceptionClass": "recognition rule",
+      "options": [
+        {
+          "key": "A",
+          "text": "Oxygen is gained by the organic compound",
+          "correct": false,
+          "explanation": "Oxygen gain marks oxidation.",
+          "misconception": "class confused"
+        },
+        {
+          "key": "B",
+          "text": "More products form than reactants, often an alkene plus a small molecule",
+          "correct": true,
+          "explanation": "The castoff small molecule plus the unsaturated organic product mark elimination.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Two reactants form exactly one product",
+          "correct": false,
+          "explanation": "That is addition, the opposite census.",
+          "misconception": "class confused"
+        },
+        {
+          "key": "D",
+          "text": "An atom is swapped for another atom",
+          "correct": false,
+          "explanation": "That is substitution.",
+          "misconception": "class confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L1::Q3",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L1",
+      "stem": "Ethene reacting with water forms ethanol by",
+      "misconceptionClass": "example class",
+      "options": [
+        {
+          "key": "A",
+          "text": "Elimination of oxygen",
+          "correct": false,
+          "explanation": "Nothing is eliminated; bond count falls.",
+          "misconception": "class wrong"
+        },
+        {
+          "key": "B",
+          "text": "Reduction by loss of hydrogen",
+          "correct": false,
+          "explanation": "Hydrogen is gained, but the pattern is addition.",
+          "misconception": "class wrong"
+        },
+        {
+          "key": "C",
+          "text": "Addition, across the double bond",
+          "correct": true,
+          "explanation": "Water adds across C=C to give the saturated alcohol.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Substitution of a hydrogen atom",
+          "correct": false,
+          "explanation": "No atom is swapped; the whole water molecule adds.",
+          "misconception": "class wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L1::Q4",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L1",
+      "stem": "Bromoethane with hydroxide can follow two different pathways: to ethanol (substitution) or to ethene plus water and bromide (elimination). The distinguishing feature of the elimination route is",
+      "misconceptionClass": "pathway contrast",
+      "options": [
+        {
+          "key": "A",
+          "text": "Retention of the C-Br bond",
+          "correct": false,
+          "explanation": "Elimination breaks the C-Br bond, ejecting bromide.",
+          "misconception": "chemistry wrong"
+        },
+        {
+          "key": "B",
+          "text": "Consumption of the double bond",
+          "correct": false,
+          "explanation": "The double bond is created here, not consumed.",
+          "misconception": "direction reversed"
+        },
+        {
+          "key": "C",
+          "text": "Addition of hydroxide across a double bond",
+          "correct": false,
+          "explanation": "There is no initial double bond to add across.",
+          "misconception": "chemistry wrong"
+        },
+        {
+          "key": "D",
+          "text": "Formation of a new carbon-carbon double bond",
+          "correct": true,
+          "explanation": "Elimination desaturates the chain by creating C=C.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L1::Q5",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L1",
+      "stem": "In C2H4 + H2 -> C2H6, the double bond",
+      "misconceptionClass": "bond accounting",
+      "options": [
+        {
+          "key": "A",
+          "text": "Is consumed as the molecule becomes saturated",
+          "correct": true,
+          "explanation": "Addition saturates the alkene into an alkane.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Is created by the hydrogen",
+          "correct": false,
+          "explanation": "Hydrogen addition destroys the double bond.",
+          "misconception": "direction reversed"
+        },
+        {
+          "key": "C",
+          "text": "Stays unchanged",
+          "correct": false,
+          "explanation": "The product ethane has no double bond.",
+          "misconception": "claim wrong"
+        },
+        {
+          "key": "D",
+          "text": "Becomes a triple bond",
+          "correct": false,
+          "explanation": "Nothing in the equation supports that.",
+          "misconception": "claim wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L1::Q6",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L1",
+      "stem": "Define an addition reaction.",
+      "misconceptionClass": "definition",
+      "kind": "recall",
+      "modelAnswer": "A reaction in which two reactants combine to form a single product, typically across a carbon-carbon double bond.",
+      "keywords": [
+        "two",
+        "single",
+        "product"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L1::Q7",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L1",
+      "stem": "State what elimination reactions typically produce.",
+      "misconceptionClass": "product recall",
+      "kind": "recall",
+      "modelAnswer": "An alkene plus a small eliminated molecule such as water or a hydrogen halide.",
+      "keywords": [
+        "alkene",
+        "small",
+        "molecule"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L1::Q8",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L1",
+      "stem": "Explain why alkenes are the classic substrates for addition reactions.",
+      "misconceptionClass": "substrate logic",
+      "kind": "explain-why",
+      "modelAnswer": "The electron-rich double bond opens to accept two new substituents, converting the unsaturated alkene into a saturated single product.",
+      "keywords": [
+        "double",
+        "bond",
+        "saturated"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L1::Q9",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L1",
+      "stem": "Classify: C2H4 + H2O -> C2H5OH and CH3CH2Br -> C2H4 + HBr. State the bond change in each.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "First is addition: the C=C is consumed. Second is elimination: a new C=C is created as HBr is ejected.",
+      "keywords": [
+        "addition",
+        "elimination",
+        "bond"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L2::Q1",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L2",
+      "stem": "In CH3CH2Br + OH- -> C2H5OH + Br-, the hydroxide has",
+      "misconceptionClass": "substitution role",
+      "options": [
+        {
+          "key": "A",
+          "text": "Acted as a catalyst",
+          "correct": false,
+          "explanation": "Hydroxide is consumed into the product.",
+          "misconception": "role wrong"
+        },
+        {
+          "key": "B",
+          "text": "Replaced the bromine atom on the carbon chain",
+          "correct": true,
+          "explanation": "The bromo group is swapped for hydroxyl - the substitution signature.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Been oxidised to oxygen gas",
+          "correct": false,
+          "explanation": "No oxygen gas forms; hydroxide becomes part of the alcohol.",
+          "misconception": "chemistry wrong"
+        },
+        {
+          "key": "D",
+          "text": "Added across a double bond",
+          "correct": false,
+          "explanation": "Bromoethane has no double bond.",
+          "misconception": "chemistry wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L2::Q2",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L2",
+      "stem": "Organic oxidation can be described as",
+      "misconceptionClass": "oxidation definition",
+      "options": [
+        {
+          "key": "A",
+          "text": "Replacement of one group by another",
+          "correct": false,
+          "explanation": "That is substitution.",
+          "misconception": "class confused"
+        },
+        {
+          "key": "B",
+          "text": "Splitting a molecule with water",
+          "correct": false,
+          "explanation": "That is hydrolysis.",
+          "misconception": "class confused"
+        },
+        {
+          "key": "C",
+          "text": "Loss of hydrogen or gain of oxygen by the organic molecule",
+          "correct": true,
+          "explanation": "Both descriptions track the oxidation ladder's climb.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Gain of hydrogen or loss of oxygen",
+          "correct": false,
+          "explanation": "Those describe reduction.",
+          "misconception": "direction reversed"
+        }
+      ]
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L2::Q3",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L2",
+      "stem": "CH3CHO + [O] -> CH3COOH shows",
+      "misconceptionClass": "example reading",
+      "options": [
+        {
+          "key": "A",
+          "text": "An acid reduced to an aldehyde",
+          "correct": false,
+          "explanation": "The arrow runs from aldehyde to acid, uphill the oxidation ladder.",
+          "misconception": "direction reversed"
+        },
+        {
+          "key": "B",
+          "text": "A substitution of hydrogen by oxygen",
+          "correct": false,
+          "explanation": "The transformation is oxidation, not a positional swap.",
+          "misconception": "class wrong"
+        },
+        {
+          "key": "C",
+          "text": "Elimination of water",
+          "correct": false,
+          "explanation": "No water is eliminated here.",
+          "misconception": "class wrong"
+        },
+        {
+          "key": "D",
+          "text": "An aldehyde oxidised to a carboxylic acid",
+          "correct": true,
+          "explanation": "Ethanal gains oxygen, climbing to ethanoic acid.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L2::Q4",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L2",
+      "stem": "Which reagent could supply the [O] in the aldehyde oxidation?",
+      "misconceptionClass": "reagent knowledge",
+      "options": [
+        {
+          "key": "A",
+          "text": "Acidified potassium dichromate(VI), Fehling's solution or Tollens' reagent",
+          "correct": true,
+          "explanation": "All three are standard aldehyde oxidising agents.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Lithium aluminium hydride",
+          "correct": false,
+          "explanation": "That is a reducing agent, supplying [H].",
+          "misconception": "agent wrong"
+        },
+        {
+          "key": "C",
+          "text": "Sodium chloride solution",
+          "correct": false,
+          "explanation": "No oxidising power there.",
+          "misconception": "agent wrong"
+        },
+        {
+          "key": "D",
+          "text": "Ethanol as a co-solvent",
+          "correct": false,
+          "explanation": "Solvents do not oxidise.",
+          "misconception": "agent wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L2::Q5",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L2",
+      "stem": "The oxidising agent in CH3CHO + [O] -> CH3COOH is itself",
+      "misconceptionClass": "agent fate",
+      "options": [
+        {
+          "key": "A",
+          "text": "Converted into hydroxide",
+          "correct": false,
+          "explanation": "No such product is implied.",
+          "misconception": "claim wrong"
+        },
+        {
+          "key": "B",
+          "text": "Reduced, as it accepts electrons from the aldehyde",
+          "correct": true,
+          "explanation": "Oxidation and reduction always pair; the agent comes down.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Oxidised, donating electrons to the aldehyde",
+          "correct": false,
+          "explanation": "The agent receives electrons; it is reduced.",
+          "misconception": "direction reversed"
+        },
+        {
+          "key": "D",
+          "text": "Unchanged, acting as a catalyst",
+          "correct": false,
+          "explanation": "The agent is consumed in stoichiometric redox.",
+          "misconception": "role wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L2::Q6",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L2",
+      "stem": "Define a substitution reaction.",
+      "misconceptionClass": "definition",
+      "kind": "recall",
+      "modelAnswer": "A reaction swapping an atom or group inside a compound for a different atom or group.",
+      "keywords": [
+        "swapping",
+        "atom",
+        "group"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L2::Q7",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L2",
+      "stem": "Name two oxidising agents used for aldehyde oxidation.",
+      "misconceptionClass": "reagent recall",
+      "kind": "recall",
+      "modelAnswer": "Acidified potassium dichromate(VI) and Tollens' reagent (or Fehling's solution).",
+      "keywords": [
+        "dichromate",
+        "Tollens",
+        "Fehling"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L2::Q8",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L2",
+      "stem": "Explain why the conversion of an aldehyde to a carboxylic acid is oxidation.",
+      "misconceptionClass": "ladder logic",
+      "kind": "explain-why",
+      "modelAnswer": "The molecule gains oxygen (equivalently loses relative hydrogen content), raising its position on the oxidation ladder while the reagent is reduced.",
+      "keywords": [
+        "oxygen",
+        "ladder",
+        "reduced"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L2::Q9",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L2",
+      "stem": "Classify CH3CH2Br + OH- -> C2H4 + H2O + Br- versus the same reagents giving C2H5OH + Br-. What single condition change steers between them?",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "First is elimination, second substitution; switching from ethanolic to aqueous hydroxide conditions steers the reaction from elimination toward substitution.",
+      "keywords": [
+        "elimination",
+        "substitution",
+        "aqueous"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L3::Q1",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L3",
+      "stem": "CH3CHO + [H] -> CH3CH2OH is",
+      "misconceptionClass": "classification",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hydrolysis, splitting with water",
+          "correct": false,
+          "explanation": "No water acts in this equation.",
+          "misconception": "class wrong"
+        },
+        {
+          "key": "B",
+          "text": "Substitution of oxygen by hydrogen",
+          "correct": false,
+          "explanation": "No atom is swapped in place; the whole molecule is reduced.",
+          "misconception": "class wrong"
+        },
+        {
+          "key": "C",
+          "text": "Reduction, gaining hydrogen to form the alcohol",
+          "correct": true,
+          "explanation": "Hydrogen gain marks reduction, descending from aldehyde to alcohol.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Oxidation, losing hydrogen",
+          "correct": false,
+          "explanation": "Hydrogen is gained here, not lost.",
+          "misconception": "direction reversed"
+        }
+      ]
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L3::Q2",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L3",
+      "stem": "Which reagent typically supplies the [H] for aldehyde reduction?",
+      "misconceptionClass": "reagent knowledge",
+      "options": [
+        {
+          "key": "A",
+          "text": "Acidified dichromate(VI)",
+          "correct": false,
+          "explanation": "That oxidises; it cannot supply hydrogen.",
+          "misconception": "agent wrong"
+        },
+        {
+          "key": "B",
+          "text": "Tollens' reagent",
+          "correct": false,
+          "explanation": "Another oxidising agent for aldehydes.",
+          "misconception": "agent wrong"
+        },
+        {
+          "key": "C",
+          "text": "Concentrated sulfuric acid",
+          "correct": false,
+          "explanation": "Not a hydride donor in this context.",
+          "misconception": "agent wrong"
+        },
+        {
+          "key": "D",
+          "text": "Lithium aluminium hydride",
+          "correct": true,
+          "explanation": "LiAlH4 is the standard hydride donor for carbonyl reduction.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L3::Q3",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L3",
+      "stem": "Hydrolysis of CH3Cl gives",
+      "misconceptionClass": "hydrolysis products",
+      "options": [
+        {
+          "key": "A",
+          "text": "Methanol and hydrogen chloride",
+          "correct": true,
+          "explanation": "Water splits the C-Cl bond, installing OH on carbon and taking Cl as HCl.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Methane and chlorine",
+          "correct": false,
+          "explanation": "No such split occurs.",
+          "misconception": "products wrong"
+        },
+        {
+          "key": "C",
+          "text": "Methanal and H2",
+          "correct": false,
+          "explanation": "Neither product appears in hydrolysis.",
+          "misconception": "products wrong"
+        },
+        {
+          "key": "D",
+          "text": "Chloromethane and water again",
+          "correct": false,
+          "explanation": "That is the starting material unchanged.",
+          "misconception": "products wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L3::Q4",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L3",
+      "stem": "The word hydrolysis literally suggests",
+      "misconceptionClass": "etymology",
+      "options": [
+        {
+          "key": "A",
+          "text": "Burning in water",
+          "correct": false,
+          "explanation": "No combustion is implied.",
+          "misconception": "meaning wrong"
+        },
+        {
+          "key": "B",
+          "text": "Splitting by water",
+          "correct": true,
+          "explanation": "Hydro (water) plus lysis (splitting) names the mechanism.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Adding hydrogen",
+          "correct": false,
+          "explanation": "That is hydrogenation, not hydrolysis.",
+          "misconception": "meaning confused"
+        },
+        {
+          "key": "D",
+          "text": "Removing oxygen",
+          "correct": false,
+          "explanation": "That is reduction's oxygen side.",
+          "misconception": "meaning confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L3::Q5",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L3",
+      "stem": "Organic reduction differs from organic oxidation because reduction",
+      "misconceptionClass": "mirror logic",
+      "options": [
+        {
+          "key": "A",
+          "text": "Increases oxygen content",
+          "correct": false,
+          "explanation": "Oxygen gain is oxidation.",
+          "misconception": "direction reversed"
+        },
+        {
+          "key": "B",
+          "text": "Only applies to alkenes",
+          "correct": false,
+          "explanation": "Reduction applies across many functional groups.",
+          "misconception": "scope wrong"
+        },
+        {
+          "key": "C",
+          "text": "Gains hydrogen or loses oxygen, descending the oxidation ladder",
+          "correct": true,
+          "explanation": "Reduction runs the ladder's downhill direction.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Always requires water",
+          "correct": false,
+          "explanation": "Water is the hydrolysis reagent, not reduction's.",
+          "misconception": "agent confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L3::Q6",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L3",
+      "stem": "Define a hydrolysis reaction.",
+      "misconceptionClass": "definition",
+      "kind": "recall",
+      "modelAnswer": "A reaction in which water splits a compound, its fragments installing across the broken bond.",
+      "keywords": [
+        "water",
+        "split",
+        "compound"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L3::Q7",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L3",
+      "stem": "State the organic products of reducing ethanal with [H].",
+      "misconceptionClass": "product recall",
+      "kind": "recall",
+      "modelAnswer": "Ethanol, the primary alcohol CH3CH2OH.",
+      "keywords": [
+        "ethanol",
+        "alcohol",
+        "primary"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L3::Q8",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L3",
+      "stem": "Explain why aldehyde-to-alcohol conversion is reduction.",
+      "misconceptionClass": "ladder logic",
+      "kind": "explain-why",
+      "modelAnswer": "The molecule gains hydrogen (equivalently loses relative oxygen content), moving down the oxidation ladder while the hydride donor is oxidised.",
+      "keywords": [
+        "hydrogen",
+        "ladder",
+        "reduction"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L3::Q9",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L3",
+      "stem": "A student mixes chloromethane with water and detects an acidic product. Identify the products and classify the reaction.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Methanol and hydrogen chloride form; the HCl explains the acidity, and the reaction is hydrolysis - water splitting the halogenoalkane.",
+      "keywords": [
+        "methanol",
+        "hydrogen chloride",
+        "hydrolysis"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L4::Q1",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L4",
+      "stem": "Addition polymerisation works by",
+      "misconceptionClass": "mechanism",
+      "options": [
+        {
+          "key": "A",
+          "text": "Splitting a polymer with water into monomers",
+          "correct": false,
+          "explanation": "That is the reverse idea, hydrolysis of polymers.",
+          "misconception": "process reversed"
+        },
+        {
+          "key": "B",
+          "text": "Swapping substituents between monomers",
+          "correct": false,
+          "explanation": "No substitution occurs; monomers simply link.",
+          "misconception": "process wrong"
+        },
+        {
+          "key": "C",
+          "text": "Burning monomers into residue",
+          "correct": false,
+          "explanation": "No combustion is involved.",
+          "misconception": "process wrong"
+        },
+        {
+          "key": "D",
+          "text": "Breaking open alkene double bonds to link monomers into a chain",
+          "correct": true,
+          "explanation": "The spent double bonds become the single-bond backbone of the polymer.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L4::Q2",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L4",
+      "stem": "In the polymer from 1,2-dichloroethene, the repeat unit",
+      "misconceptionClass": "repeat unit",
+      "options": [
+        {
+          "key": "A",
+          "text": "Carries the two chlorine atoms on its two carbons, with the double bond consumed",
+          "correct": true,
+          "explanation": "The monomer's substituents ride into the repeat unit intact.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Loses its chlorine atoms during polymerisation",
+          "correct": false,
+          "explanation": "Addition polymerisation conserves all atoms.",
+          "misconception": "claim wrong"
+        },
+        {
+          "key": "C",
+          "text": "Keeps its double bond inside the chain",
+          "correct": false,
+          "explanation": "The double bond is spent making the links.",
+          "misconception": "claim wrong"
+        },
+        {
+          "key": "D",
+          "text": "Gains extra carbons from the catalyst",
+          "correct": false,
+          "explanation": "No carbons are added; the catalyst is not part of the chain.",
+          "misconception": "claim wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L4::Q3",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L4",
+      "stem": "The polymer backbone of an addition polymer consists of",
+      "misconceptionClass": "backbone structure",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ionic bonds between units",
+          "correct": false,
+          "explanation": "The chain is covalent throughout.",
+          "misconception": "structure wrong"
+        },
+        {
+          "key": "B",
+          "text": "Single carbon-carbon bonds linking the repeat units",
+          "correct": true,
+          "explanation": "Spent double bonds become the saturated backbone.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Alternating double and single bonds",
+          "correct": false,
+          "explanation": "The double bonds are consumed in linking.",
+          "misconception": "structure wrong"
+        },
+        {
+          "key": "D",
+          "text": "Carbon-halogen bonds in the backbone",
+          "correct": false,
+          "explanation": "Halogen bonds are side substituents, not backbone.",
+          "misconception": "structure wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L4::Q4",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L4",
+      "stem": "Which statement about atom conservation in addition polymerisation is correct?",
+      "misconceptionClass": "conservation",
+      "options": [
+        {
+          "key": "A",
+          "text": "Half the monomer mass becomes waste",
+          "correct": false,
+          "explanation": "Nothing is wasted in addition polymerisation.",
+          "misconception": "claim wrong"
+        },
+        {
+          "key": "B",
+          "text": "Only carbon and hydrogen enter the chain",
+          "correct": false,
+          "explanation": "Substituents like chlorine enter too.",
+          "misconception": "claim wrong"
+        },
+        {
+          "key": "C",
+          "text": "Every atom of every monomer appears in the polymer",
+          "correct": true,
+          "explanation": "Addition polymerisation loses nothing - n monomers give one chain of n repeat units.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Small molecules are eliminated as the chain grows",
+          "correct": false,
+          "explanation": "That describes condensation polymerisation, not addition.",
+          "misconception": "class confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L4::Q5",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L4",
+      "stem": "The monomer for a poly(alkene) must contain",
+      "misconceptionClass": "monomer requirement",
+      "options": [
+        {
+          "key": "A",
+          "text": "A carbon-carbon triple bond",
+          "correct": false,
+          "explanation": "Alkynes are not the AS-level polymerisation case.",
+          "misconception": "requirement wrong"
+        },
+        {
+          "key": "B",
+          "text": "At least two halogen atoms",
+          "correct": false,
+          "explanation": "Halogen-free alkenes like ethene polymerise readily.",
+          "misconception": "requirement wrong"
+        },
+        {
+          "key": "C",
+          "text": "An ester linkage",
+          "correct": false,
+          "explanation": "Esters belong to condensation chemistry.",
+          "misconception": "requirement wrong"
+        },
+        {
+          "key": "D",
+          "text": "A carbon-carbon double bond",
+          "correct": true,
+          "explanation": "The openable double bond is the polymerisation handle.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L4::Q6",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L4",
+      "stem": "State what happens to the alkene double bond during addition polymerisation.",
+      "misconceptionClass": "process recall",
+      "kind": "recall",
+      "modelAnswer": "It breaks open, and its electrons form the single bonds joining monomers into the chain.",
+      "keywords": [
+        "breaks",
+        "open",
+        "single"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L4::Q7",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L4",
+      "stem": "Name the polymerisation type known at AS level.",
+      "misconceptionClass": "type recall",
+      "kind": "recall",
+      "modelAnswer": "Addition polymerisation of alkene monomers.",
+      "keywords": [
+        "addition",
+        "polymerisation",
+        "alkene"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L4::Q8",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L4",
+      "stem": "Explain why addition polymerisation conserves atoms completely.",
+      "misconceptionClass": "conservation logic",
+      "kind": "explain-why",
+      "modelAnswer": "No small molecule is eliminated: the chain is simply the monomers' atoms relinked through spent double bonds, so n monomers give a repeat-unit chain carrying every atom.",
+      "keywords": [
+        "eliminated",
+        "relinked",
+        "atoms"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_gWsWTfZwwv5w8ZSs::L4::Q9",
+      "moduleId": "rn_gWsWTfZwwv5w8ZSs::L4",
+      "stem": "A polymer sample is poly(1,2-dichloroethene). State the monomer and the fate of its double bond.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "The monomer is 1,2-dichloroethene; its double bond breaks open and becomes the single-bond linkage within the chain, both chlorine atoms riding on the repeat unit.",
+      "keywords": [
+        "monomer",
+        "double",
+        "chlorine"
+      ],
+      "options": []
+    }
+  ]
+}

@@ -1,0 +1,959 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_qcHQYDcrw8qqYc2w",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "c03bd283c8ee84a17b2934f628374fda1b72291f8006de8378a605b7e32763bb",
+    "pinnedRef": "b6839b5b1bc6d71aaf5ddf44bef25bc23e48ae3b"
+  },
+  "packageId": "ial-chemistry::rn_qcHQYDcrw8qqYc2w",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L1::Q1",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L1",
+      "stem": "A nucleophile is defined as",
+      "misconceptionClass": "definition",
+      "options": [
+        {
+          "key": "A",
+          "text": "An electron-rich species able to give away a pair of electrons",
+          "correct": true,
+          "explanation": "Attraction to positive centres follows from that richness.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "An electron-poor species seeking electrons",
+          "correct": false,
+          "explanation": "That is the electrophile.",
+          "misconception": "role reversed"
+        },
+        {
+          "key": "C",
+          "text": "Any species with a full negative charge",
+          "correct": false,
+          "explanation": "Definition runs on electron-pair donation, not charge alone.",
+          "misconception": "definition wrong"
+        },
+        {
+          "key": "D",
+          "text": "A catalyst for halogenoalkanes",
+          "correct": false,
+          "explanation": "Nucleophiles are consumed as reactants.",
+          "misconception": "role wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L1::Q2",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L1",
+      "stem": "Which conditions convert a halogenoalkane to an alcohol?",
+      "misconceptionClass": "condition selection",
+      "options": [
+        {
+          "key": "A",
+          "text": "Concentrated sulfuric acid",
+          "correct": false,
+          "explanation": "That reagent belongs to halide tests, not alcohol synthesis.",
+          "misconception": "reagent wrong"
+        },
+        {
+          "key": "B",
+          "text": "Warm aqueous sodium hydroxide",
+          "correct": true,
+          "explanation": "Aqueous OH- with gentle warming hydrolyses the C-X bond to the alcohol.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Hot ethanolic sodium hydroxide",
+          "correct": false,
+          "explanation": "Ethanolic conditions eliminate to the alkene instead.",
+          "misconception": "conditions wrong"
+        },
+        {
+          "key": "D",
+          "text": "Cold dry ammonia gas",
+          "correct": false,
+          "explanation": "Ammonia gives amines, and only under ethanolic pressure-heating.",
+          "misconception": "conditions wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L1::Q3",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L1",
+      "stem": "Why must water be the primary solvent for the alcohol route?",
+      "misconceptionClass": "solvent logic",
+      "options": [
+        {
+          "key": "A",
+          "text": "Water catalyses the reaction",
+          "correct": false,
+          "explanation": "Water is the solvent medium, not a catalyst.",
+          "misconception": "role wrong"
+        },
+        {
+          "key": "B",
+          "text": "The alcohol dissolves only in water",
+          "correct": false,
+          "explanation": "Solubility of the product is not the governing reason.",
+          "misconception": "reason wrong"
+        },
+        {
+          "key": "C",
+          "text": "Ethanolic conditions steer the reaction to elimination, forming an alkene",
+          "correct": true,
+          "explanation": "Solvent choice selects the pathway: aqueous substitution versus ethanolic elimination.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Ethanol would freeze the mixture",
+          "correct": false,
+          "explanation": "No freezing effect is involved.",
+          "misconception": "reason wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L1::Q4",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L1",
+      "stem": "The hydroxide ion beats water as a nucleophile because",
+      "misconceptionClass": "nucleophilicity",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is lighter and moves faster",
+          "correct": false,
+          "explanation": "Mass is not the deciding factor.",
+          "misconception": "reason wrong"
+        },
+        {
+          "key": "B",
+          "text": "It is larger and more visible",
+          "correct": false,
+          "explanation": "Size and visibility are irrelevant.",
+          "misconception": "reason wrong"
+        },
+        {
+          "key": "C",
+          "text": "Water is not a nucleophile at all",
+          "correct": false,
+          "explanation": "Water is a weak nucleophile - it eventually substitutes.",
+          "misconception": "claim wrong"
+        },
+        {
+          "key": "D",
+          "text": "It carries a full negative charge where water's oxygen carries only partial charge",
+          "correct": true,
+          "explanation": "Full charge means stronger electron-pair donation and faster attack.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L1::Q5",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L1",
+      "stem": "Rank the halogenoalkanes by rate of hydrolysis with aqueous OH-:",
+      "misconceptionClass": "rate ranking",
+      "options": [
+        {
+          "key": "A",
+          "text": "Iodoalkane fastest, then bromo, then chloro, fluoro unreactive",
+          "correct": true,
+          "explanation": "Weakest C-X bond (C-I) breaks fastest; C-F is too strong to react.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Fluoro fastest, following electronegativity",
+          "correct": false,
+          "explanation": "Electronegativity is outweighed by bond enthalpy.",
+          "misconception": "ranking wrong"
+        },
+        {
+          "key": "C",
+          "text": "Chloro fastest, since C-Cl is most polar",
+          "correct": false,
+          "explanation": "Polarity suggests but bond strength decides.",
+          "misconception": "ranking wrong"
+        },
+        {
+          "key": "D",
+          "text": "All equal rates, as each carries one halogen",
+          "correct": false,
+          "explanation": "The C-X bond strength varies hugely down the group.",
+          "misconception": "claim wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L1::Q6",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L1",
+      "stem": "Define the term nucleophile.",
+      "misconceptionClass": "definition",
+      "kind": "recall",
+      "modelAnswer": "A species rich in electrons that gives a pair away to an electron-deficient centre.",
+      "keywords": [
+        "electron-rich",
+        "donate",
+        "pair"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L1::Q7",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L1",
+      "stem": "State the conditions and product for the alcohol route.",
+      "misconceptionClass": "condition recall",
+      "kind": "recall",
+      "modelAnswer": "Warm aqueous NaOH or KOH (ethanol as co-solvent) gives the alcohol by hydrolysis.",
+      "keywords": [
+        "aqueous",
+        "warm",
+        "alcohol"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L1::Q8",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L1",
+      "stem": "Explain why fluoroalkanes do not undergo the hydroxide substitution at all.",
+      "misconceptionClass": "rate explanation",
+      "kind": "explain-why",
+      "modelAnswer": "The C-F bond is the strongest carbon-halogen bond, so hydroxide cannot break it under these conditions.",
+      "keywords": [
+        "C-F",
+        "strong",
+        "bond"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L1::Q9",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L1",
+      "stem": "A chemist accidentally uses pure ethanol as solvent with NaOH instead of aqueous alkali. Predict the organic product and name the reaction class.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "An alkene forms by elimination rather than the intended alcohol; the reaction class switches from nucleophilic substitution (hydrolysis) to elimination.",
+      "keywords": [
+        "alkene",
+        "elimination",
+        "solvent"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L2::Q1",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L2",
+      "stem": "The nucleophile in the nitrile-forming reaction is",
+      "misconceptionClass": "reagent identification",
+      "options": [
+        {
+          "key": "A",
+          "text": "The halide ion leaving",
+          "correct": false,
+          "explanation": "The halide departs; it does not attack.",
+          "misconception": "role reversed"
+        },
+        {
+          "key": "B",
+          "text": "The cyanide ion, CN-",
+          "correct": true,
+          "explanation": "Cyanide donates its carbon lone pair to the halogenoalkane.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "The hydroxide ion",
+          "correct": false,
+          "explanation": "Hydroxide gives alcohols, not nitriles.",
+          "misconception": "reagent wrong"
+        },
+        {
+          "key": "D",
+          "text": "Ammonia",
+          "correct": false,
+          "explanation": "Ammonia gives amines.",
+          "misconception": "reagent wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L2::Q2",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L2",
+      "stem": "The conditions for forming a nitrile are",
+      "misconceptionClass": "condition selection",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ethanolic NaOH with warming",
+          "correct": false,
+          "explanation": "That combination gives elimination to the alkene.",
+          "misconception": "conditions wrong"
+        },
+        {
+          "key": "B",
+          "text": "Dry ammonia under pressure",
+          "correct": false,
+          "explanation": "Ammonia's route gives primary amines.",
+          "misconception": "conditions wrong"
+        },
+        {
+          "key": "C",
+          "text": "Ethanolic KCN, heated under reflux",
+          "correct": true,
+          "explanation": "Reflux heat with ethanolic cyanide drives the substitution.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Aqueous KCN at room temperature",
+          "correct": false,
+          "explanation": "The standard route specifies ethanol and reflux.",
+          "misconception": "conditions wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L2::Q3",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L2",
+      "stem": "Bromoethane reacting with ethanolic KCN gives propanenitrile because",
+      "misconceptionClass": "chain extension",
+      "options": [
+        {
+          "key": "A",
+          "text": "The bromine is replaced by three carbons",
+          "correct": false,
+          "explanation": "Only one carbon is added per substitution.",
+          "misconception": "count wrong"
+        },
+        {
+          "key": "B",
+          "text": "Two bromoethane molecules fuse together",
+          "correct": false,
+          "explanation": "No dimerisation occurs.",
+          "misconception": "mechanism wrong"
+        },
+        {
+          "key": "C",
+          "text": "The ethanol solvent adds a carbon",
+          "correct": false,
+          "explanation": "The solvent does not enter the product.",
+          "misconception": "claim wrong"
+        },
+        {
+          "key": "D",
+          "text": "The cyanide ion contributes its own carbon, extending the chain from two to three",
+          "correct": true,
+          "explanation": "C2 substrate plus the C of CN- gives a C3 nitrile.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L2::Q4",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L2",
+      "stem": "A chemist wants a compound with one more carbon than the best available starting material. The useful reaction is",
+      "misconceptionClass": "synthetic strategy",
+      "options": [
+        {
+          "key": "A",
+          "text": "Halogenoalkane with ethanolic KCN under reflux",
+          "correct": true,
+          "explanation": "Cyanide substitution adds exactly one carbon.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Halogenoalkane with aqueous NaOH",
+          "correct": false,
+          "explanation": "That route keeps the carbon count unchanged.",
+          "misconception": "route wrong"
+        },
+        {
+          "key": "C",
+          "text": "Halogenoalkane with ammonia",
+          "correct": false,
+          "explanation": "Amines also keep the substrate's carbon count.",
+          "misconception": "route wrong"
+        },
+        {
+          "key": "D",
+          "text": "Halogenoalkane with water alone",
+          "correct": false,
+          "explanation": "Water's slow hydrolysis adds no carbon.",
+          "misconception": "route wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L2::Q5",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L2",
+      "stem": "In propanenitrile formed from bromoethane, the nitrile carbon counts as",
+      "misconceptionClass": "counting convention",
+      "options": [
+        {
+          "key": "A",
+          "text": "Carbon 3",
+          "correct": false,
+          "explanation": "The nitrile carbon carries the highest priority and is numbered 1.",
+          "misconception": "count wrong"
+        },
+        {
+          "key": "B",
+          "text": "Carbon 1 of the three-carbon chain",
+          "correct": true,
+          "explanation": "Nitrile carbon is included in the parent count.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "A side group outside the chain count",
+          "correct": false,
+          "explanation": "The -C#N carbon is part of the counted chain.",
+          "misconception": "count wrong"
+        },
+        {
+          "key": "D",
+          "text": "Not part of the molecule",
+          "correct": false,
+          "explanation": "It is the very carbon cyanide donated.",
+          "misconception": "claim wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L2::Q6",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L2",
+      "stem": "State the product class and conditions for the cyanide route.",
+      "misconceptionClass": "route recall",
+      "kind": "recall",
+      "modelAnswer": "A nitrile forms when the halogenoalkane is heated under reflux with ethanolic KCN.",
+      "keywords": [
+        "nitrile",
+        "reflux",
+        "ethanolic"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L2::Q7",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L2",
+      "stem": "State the synthetic value of the cyanide substitution.",
+      "misconceptionClass": "value recall",
+      "kind": "recall",
+      "modelAnswer": "It extends the carbon chain by one carbon, enabling synthesis of larger molecules from smaller starting materials.",
+      "keywords": [
+        "extends",
+        "carbon",
+        "chain"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L2::Q8",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L2",
+      "stem": "Explain why the cyanide ion is nucleophilic.",
+      "misconceptionClass": "nucleophilicity logic",
+      "kind": "explain-why",
+      "modelAnswer": "Cyanide carries a full negative charge with a lone pair on its carbon, so it donates an electron pair into the halogenoalkane's electron-poor carbon.",
+      "keywords": [
+        "negative",
+        "lone",
+        "donate"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L2::Q9",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L2",
+      "stem": "Predict the organic product of 1-chloropropane with ethanolic KCN under reflux, and give its carbon count.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Butanenitrile: the C3 chain gains cyanide's carbon to give a four-carbon nitrile (the nitrile carbon counted as C1).",
+      "keywords": [
+        "butanenitrile",
+        "four",
+        "carbons"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L3::Q1",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L3",
+      "stem": "The nucleophile in primary amine synthesis is",
+      "misconceptionClass": "reagent identification",
+      "options": [
+        {
+          "key": "A",
+          "text": "The ammonium ion",
+          "correct": false,
+          "explanation": "NH4+ has no lone pair to donate.",
+          "misconception": "reagent wrong"
+        },
+        {
+          "key": "B",
+          "text": "The halide ion",
+          "correct": false,
+          "explanation": "The halide leaves; it does not attack.",
+          "misconception": "role reversed"
+        },
+        {
+          "key": "C",
+          "text": "The ammonia molecule, NH3",
+          "correct": true,
+          "explanation": "Ammonia's lone pair performs the substitution.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The amide ion only",
+          "correct": false,
+          "explanation": "The route uses ammonia molecules.",
+          "misconception": "reagent wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L3::Q2",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L3",
+      "stem": "Excess ammonia is used because",
+      "misconceptionClass": "excess logic",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ammonia is expensive and must be recovered",
+          "correct": false,
+          "explanation": "Excess implies using more, not saving.",
+          "misconception": "logic reversed"
+        },
+        {
+          "key": "B",
+          "text": "Ammonia lowers the pressure needed",
+          "correct": false,
+          "explanation": "Pressure is applied regardless.",
+          "misconception": "claim wrong"
+        },
+        {
+          "key": "C",
+          "text": "The halide needs neutralising",
+          "correct": false,
+          "explanation": "No neutralisation role is assigned to excess NH3.",
+          "misconception": "claim wrong"
+        },
+        {
+          "key": "D",
+          "text": "The amine product is more reactive than ammonia and could undergo further substitution",
+          "correct": true,
+          "explanation": "Flooding with NH3 keeps collisions on ammonia rather than the amine.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L3::Q3",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L3",
+      "stem": "Bromoethane with excess ethanolic ammonia under pressure and heat gives",
+      "misconceptionClass": "product identification",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ethylamine, a primary amine",
+          "correct": true,
+          "explanation": "NH2 replaces Br on the two-carbon chain.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Propanenitrile",
+          "correct": false,
+          "explanation": "That is the cyanide route's product.",
+          "misconception": "route confused"
+        },
+        {
+          "key": "C",
+          "text": "Diethylamine, a secondary amine",
+          "correct": false,
+          "explanation": "Further substitution is suppressed by the excess ammonia.",
+          "misconception": "product wrong"
+        },
+        {
+          "key": "D",
+          "text": "Ethanol",
+          "correct": false,
+          "explanation": "That is the aqueous alkali route.",
+          "misconception": "route confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L3::Q4",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L3",
+      "stem": "Why must the halogenoalkane be primary for this route as taught?",
+      "misconceptionClass": "substrate condition",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tertiary substrates would eliminate explosively",
+          "correct": false,
+          "explanation": "No such hazard is the stated reason.",
+          "misconception": "claim wrong"
+        },
+        {
+          "key": "B",
+          "text": "The taught substitution installs NH2 on a primary carbon to give a primary amine",
+          "correct": true,
+          "explanation": "The route as specified targets primary halogenoalkanes.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Secondary halogenoalkanes are too reactive to store",
+          "correct": false,
+          "explanation": "Storage stability is not the reason.",
+          "misconception": "reason wrong"
+        },
+        {
+          "key": "D",
+          "text": "Ammonia cannot attack secondary carbons at all",
+          "correct": false,
+          "explanation": "The specification simply teaches the primary route.",
+          "misconception": "claim wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L3::Q5",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L3",
+      "stem": "Heating under pressure in the amine route serves to",
+      "misconceptionClass": "condition logic",
+      "options": [
+        {
+          "key": "A",
+          "text": "Catalyse the substitution",
+          "correct": false,
+          "explanation": "Conditions are not catalysts.",
+          "misconception": "claim wrong"
+        },
+        {
+          "key": "B",
+          "text": "Convert ammonia into amide ions",
+          "correct": false,
+          "explanation": "No such conversion is part of the route.",
+          "misconception": "claim wrong"
+        },
+        {
+          "key": "C",
+          "text": "Keep gaseous ammonia dissolved in the reacting ethanolic solution while warming the reaction",
+          "correct": true,
+          "explanation": "Pressure retains NH3 so the nucleophile stays available.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Raise the boiling point of the amine",
+          "correct": false,
+          "explanation": "The amine's properties are irrelevant.",
+          "misconception": "reason wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L3::Q6",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L3",
+      "stem": "State the conditions for the amine route.",
+      "misconceptionClass": "condition recall",
+      "kind": "recall",
+      "modelAnswer": "Excess ethanolic ammonia, heated under pressure, with a primary halogenoalkane.",
+      "keywords": [
+        "excess",
+        "ethanolic",
+        "pressure"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L3::Q7",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L3",
+      "stem": "Name the organic product class and one example.",
+      "misconceptionClass": "product recall",
+      "kind": "recall",
+      "modelAnswer": "Primary amine; for example ethylamine from bromoethane.",
+      "keywords": [
+        "primary",
+        "amine",
+        "ethylamine"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L3::Q8",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L3",
+      "stem": "Explain why the amine product could cause further substitution if ammonia were not in excess.",
+      "misconceptionClass": "suppression logic",
+      "kind": "explain-why",
+      "modelAnswer": "The amine's nitrogen still carries a lone pair, making it a nucleophile able to attack remaining halogenoalkane; excess ammonia out-competes it.",
+      "keywords": [
+        "lone",
+        "nucleophile",
+        "compete"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L3::Q9",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L3",
+      "stem": "1-bromopropane reacts with excess ethanolic ammonia under pressure. Name the product and state its carbon count.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Propylamine (a primary amine) with three carbons - the substitution conserves the chain length.",
+      "keywords": [
+        "propylamine",
+        "three",
+        "carbons"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L4::Q1",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L4",
+      "stem": "The conditions for the alkene route are",
+      "misconceptionClass": "condition selection",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cold aqueous sodium hydroxide",
+          "correct": false,
+          "explanation": "Aqueous conditions give substitution to the alcohol.",
+          "misconception": "conditions wrong"
+        },
+        {
+          "key": "B",
+          "text": "Ethanolic KCN under reflux",
+          "correct": false,
+          "explanation": "That gives the nitrile substitution.",
+          "misconception": "route confused"
+        },
+        {
+          "key": "C",
+          "text": "Water alone at room temperature",
+          "correct": false,
+          "explanation": "Water hydrolyses too slowly and stays on the substitution track.",
+          "misconception": "conditions wrong"
+        },
+        {
+          "key": "D",
+          "text": "Hot ethanolic sodium hydroxide",
+          "correct": true,
+          "explanation": "Ethanol solvent plus heat selects the elimination pathway.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L4::Q2",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L4",
+      "stem": "In the elimination, the C-X bond breaks",
+      "misconceptionClass": "bond fission",
+      "options": [
+        {
+          "key": "A",
+          "text": "Heterolytically, both electrons leaving with the halogen as X-",
+          "correct": true,
+          "explanation": "The pair departs with the electronegative halogen.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Homolytically, one electron to carbon and one to halogen",
+          "correct": false,
+          "explanation": "No radicals form in this route.",
+          "misconception": "fission wrong"
+        },
+        {
+          "key": "C",
+          "text": "Not at all, as X- stays bonded",
+          "correct": false,
+          "explanation": "The halogen leaves as an ion.",
+          "misconception": "claim wrong"
+        },
+        {
+          "key": "D",
+          "text": "By sharing with the hydroxide",
+          "correct": false,
+          "explanation": "Hydroxide takes hydrogen, not the C-X electrons.",
+          "misconception": "mechanism wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L4::Q3",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L4",
+      "stem": "Bromoethane heated with ethanolic NaOH gives",
+      "misconceptionClass": "product identification",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ethylamine",
+          "correct": false,
+          "explanation": "No ammonia is present.",
+          "misconception": "product wrong"
+        },
+        {
+          "key": "B",
+          "text": "Ethene",
+          "correct": true,
+          "explanation": "The elimination installs the double bond on the two-carbon chain.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Ethanol",
+          "correct": false,
+          "explanation": "That is the aqueous route's product.",
+          "misconception": "route confused"
+        },
+        {
+          "key": "D",
+          "text": "Ethanenitrile",
+          "correct": false,
+          "explanation": "No cyanide is present.",
+          "misconception": "product wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L4::Q4",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L4",
+      "stem": "The role of hydroxide in the elimination route is best described as",
+      "misconceptionClass": "role shift",
+      "options": [
+        {
+          "key": "A",
+          "text": "A solvent for the halogenoalkane",
+          "correct": false,
+          "explanation": "Ethanol is the solvent.",
+          "misconception": "role wrong"
+        },
+        {
+          "key": "B",
+          "text": "A catalyst consumed and regenerated",
+          "correct": false,
+          "explanation": "Hydroxide is consumed to water.",
+          "misconception": "role wrong"
+        },
+        {
+          "key": "C",
+          "text": "A base removing hydrogen so the double bond can form",
+          "correct": true,
+          "explanation": "The base's proton-abstraction role, not its nucleophilic one, dominates in ethanol.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "A nucleophile substituting the halogen",
+          "correct": false,
+          "explanation": "That is the aqueous-route role.",
+          "misconception": "role confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L4::Q5",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L4",
+      "stem": "Why does changing the solvent from water to ethanol flip substitution into elimination?",
+      "misconceptionClass": "solvent logic",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ethanol reacts directly with the halogenoalkane",
+          "correct": false,
+          "explanation": "Ethanol is the solvent, not a reactant here.",
+          "misconception": "claim wrong"
+        },
+        {
+          "key": "B",
+          "text": "Water prevents all reactions",
+          "correct": false,
+          "explanation": "Water supports substitution readily.",
+          "misconception": "claim wrong"
+        },
+        {
+          "key": "C",
+          "text": "The halogen behaves differently in ethanol",
+          "correct": false,
+          "explanation": "The substrate is unchanged; the pathway balance shifts.",
+          "misconception": "reason wrong"
+        },
+        {
+          "key": "D",
+          "text": "Solvation and conditions change the balance of pathways, favouring H removal over lone-pair attack",
+          "correct": true,
+          "explanation": "The medium tunes which role of OH- wins.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L4::Q6",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L4",
+      "stem": "State the products when a halogenoalkane undergoes ethanolic elimination.",
+      "misconceptionClass": "product recall",
+      "kind": "recall",
+      "modelAnswer": "An alkene plus halide ion (X-) - the C-X bond breaks heterolytically.",
+      "keywords": [
+        "alkene",
+        "halide",
+        "heterolytic"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L4::Q7",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L4",
+      "stem": "State the elimination product from bromoethane.",
+      "misconceptionClass": "product recall",
+      "kind": "recall",
+      "modelAnswer": "Ethene, the two-carbon alkene carrying the new double bond.",
+      "keywords": [
+        "ethene",
+        "double",
+        "bond"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L4::Q8",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L4",
+      "stem": "Explain why heating is required for the elimination route.",
+      "misconceptionClass": "condition logic",
+      "kind": "explain-why",
+      "modelAnswer": "Elimination has a higher energetic demand than substitution, so sustained heating under the ethanolic conditions drives the pathway.",
+      "keywords": [
+        "heat",
+        "demand",
+        "elimination"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_qcHQYDcrw8qqYc2w::L4::Q9",
+      "moduleId": "rn_qcHQYDcrw8qqYc2w::L4",
+      "stem": "Predict the product of 2-bromopropane with hot ethanolic NaOH and state what happens to the C-Br bond.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Propene forms; the C-Br bond breaks heterolytically, the electron pair leaving with bromide while the freed electrons build the C=C.",
+      "keywords": [
+        "propene",
+        "heterolytic",
+        "C-Br"
+      ],
+      "options": []
+    }
+  ]
+}

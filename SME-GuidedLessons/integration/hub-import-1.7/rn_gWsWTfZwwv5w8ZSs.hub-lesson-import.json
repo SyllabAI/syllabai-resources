@@ -1,0 +1,276 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_gWsWTfZwwv5w8ZSs",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "2e888c74d488d5edf13d2fb42d25219b38d749144c47b0335feadc3ccab03dfb",
+    "pinnedRef": "b6839b5b1bc6d71aaf5ddf44bef25bc23e48ae3b"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_gWsWTfZwwv5w8ZSs",
+    "topicTitle": "2. Energetics, Group Chemistry, Halogenoalkanes & Alcohols",
+    "subtopicTitle": "Types of Reaction",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/2-energetics-group-chemistry-halogenoalkanes-and-alcohols/2-7-organic-chemistry-introduction/2-7-1-types-of-reaction",
+    "specAnchors": [
+      {
+        "code": "10.1",
+        "text": "be able to classify reactions (including those in Unit 1) as addition, elimination, substitution, oxidation, reduction, hydrolysis or polymerisation"
+      }
+    ],
+    "primer": {
+      "text": "Organic reactions sort into families by their bookkeeping: addition merges, elimination splits, substitution swaps, redox climbs and falls, hydrolysis lets water wedge, polymerisation chains. This note runs each family through its signature equation so classification becomes instant.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_gWsWTfZwwv5w8ZSs::L1",
+        "title": "Addition and elimination: molecular bookkeeping",
+        "sourceHeadings": [
+          "Addition reactions",
+          "Elimination reactions"
+        ],
+        "specRefs": [
+          "10.1"
+        ],
+        "opening": "Two reactants collapsing into one product is the addition signature; one reactant sprouting extra products - typically an alkene plus a small castoff - is elimination. Ethene's conversions give both patterns their textbook examples.",
+        "keyPoints": [
+          "Addition reactions combine two reactants into a single product, classically across the alkene double bond.",
+          "Ethene adds hydrogen to give ethane, bromine to give 1,2-dibromoethane, and water to give ethanol.",
+          "Elimination reactions produce more products than reactants, usually an alkene plus a small molecule.",
+          "Bromoethane with hydroxide under ethanolic conditions eliminates to ethene, water and bromide."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Addition merges everything into one molecule (nothing discarded); elimination throws a small molecule out and leaves a double bond behind.",
+            "analogy": "Addition snaps two LEGO bricks into one assembly; elimination pries one brick off an assembly, leaving a hole (the double bond) behind.",
+            "examPointer": "Count reactant and product species when classifying: 2-to-1 signals addition, 1-to-2+ signals elimination."
+          },
+          "medium": {
+            "restatement": "Addition saturates the double bond by spreading two new substituents across it; elimination desaturates by carving a new double bond from adjacent carbons while ejecting a small molecule such as water or a hydrogen halide.",
+            "analogy": "Addition zips a jacket shut across an open gap; elimination unzips a new gap where none existed.",
+            "examPointer": "Spot the double bond: formed in elimination, consumed in addition - that is the structural tell for classification questions."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_gWsWTfZwwv5w8ZSs::L1::Q1",
+          "rn_gWsWTfZwwv5w8ZSs::L1::Q2",
+          "rn_gWsWTfZwwv5w8ZSs::L1::Q3",
+          "rn_gWsWTfZwwv5w8ZSs::L1::Q4",
+          "rn_gWsWTfZwwv5w8ZSs::L1::Q5",
+          "rn_gWsWTfZwwv5w8ZSs::L1::Q6",
+          "rn_gWsWTfZwwv5w8ZSs::L1::Q7",
+          "rn_gWsWTfZwwv5w8ZSs::L1::Q8",
+          "rn_gWsWTfZwwv5w8ZSs::L1::Q9"
+        ],
+        "figureIds": []
+      },
+      {
+        "id": "rn_gWsWTfZwwv5w8ZSs::L2",
+        "title": "Substitution and oxidation: swaps and electron loss",
+        "sourceHeadings": [
+          "Substitution reactions",
+          "Oxidation reactions"
+        ],
+        "specRefs": [
+          "10.1"
+        ],
+        "opening": "Substitution swaps one atom or group for another; oxidation hands the organic molecule to an oxidising agent, tracked as oxygen gain or hydrogen loss. Bromoethane to ethanol shows the swap; ethanal to ethanoic acid shows the climb.",
+        "keyPoints": [
+          "Substitution swaps an atom or group inside the compound for a different atom or group.",
+          "CH3CH2Br + OH- -> C2H5OH + Br- swaps bromide for hydroxide.",
+          "Organic oxidation can involve loss of hydrogen or gain of oxygen, driven by an oxidising agent such as acidified dichromate, Fehling's or Tollens'.",
+          "CH3CHO + [O] -> CH3COOH oxidises the aldehyde to the acid."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "A substitution is an exchange at one position on the carbon skeleton; oxidation raises the oxygen content or lowers the hydrogen content of the whole molecule.",
+            "analogy": "Substitution is swapping a house's front door; oxidation is renovating the house by adding a floor (oxygen) or removing bricks (hydrogen).",
+            "examPointer": "The [O] notation stands for the oxidising agent's oxygen equivalent - name a real reagent (acidified dichromate(VI), Fehling's, Tollens') when asked."
+          },
+          "medium": {
+            "restatement": "Substitution conserves the carbon skeleton while trading functional groups; oxidation moves the molecule up the oxidation ladder (alkane -> alcohol -> aldehyde -> acid). The oxidising agent is reduced in the same transaction.",
+            "analogy": "A tenant swap in one room versus a whole-building renovation: substitution trades one fixture, oxidation transforms the building's energy rating.",
+            "examPointer": "Quote the C2H4Br2-free example equation CH3CHO + [O] -> CH3COOH and name at least one oxidising agent."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_gWsWTfZwwv5w8ZSs::L2::Q1",
+          "rn_gWsWTfZwwv5w8ZSs::L2::Q2",
+          "rn_gWsWTfZwwv5w8ZSs::L2::Q3",
+          "rn_gWsWTfZwwv5w8ZSs::L2::Q4",
+          "rn_gWsWTfZwwv5w8ZSs::L2::Q5",
+          "rn_gWsWTfZwwv5w8ZSs::L2::Q6",
+          "rn_gWsWTfZwwv5w8ZSs::L2::Q7",
+          "rn_gWsWTfZwwv5w8ZSs::L2::Q8",
+          "rn_gWsWTfZwwv5w8ZSs::L2::Q9"
+        ],
+        "figureIds": []
+      },
+      {
+        "id": "rn_gWsWTfZwwv5w8ZSs::L3",
+        "title": "Reduction and hydrolysis: hydrogen gain and water splitting",
+        "sourceHeadings": [
+          "Reduction reactions",
+          "Hydrolysis reactions"
+        ],
+        "specRefs": [
+          "10.1"
+        ],
+        "opening": "Reduction is oxidation's mirror: hydrogen gained or oxygen lost, often with lithium aluminium hydride supplying the [H]. Hydrolysis sounds like water doing the splitting - and with chloromethane it does, yielding methanol and hydrogen chloride.",
+        "keyPoints": [
+          "Organic reduction can involve gain of hydrogen or loss of oxygen.",
+          "CH3CHO + [H] -> CH3CH2OH reduces the aldehyde to the primary alcohol, the [H] often from lithium aluminium hydride.",
+          "Hydrolysis is a reaction with water that splits a compound, e.g. CH3Cl + H2O -> CH3OH + HCl.",
+          "The name hydrolysis means splitting (lysis) by water (hydro)."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Reduction descends the oxidation ladder - aldehyde back to alcohol - via hydrogen gain or oxygen loss; hydrolysis invites water to cleave a bond and deliver its halves to the fragments.",
+            "analogy": "Reduction is undressing the molecule of oxygen or dressing it in hydrogen; hydrolysis is letting water act as the splitting wedge.",
+            "examPointer": "Keep the [H] agent straight: lithium aluminium hydride reduces; dichromate oxidises - reversing them is a classic error."
+          },
+          "medium": {
+            "restatement": "Hydrogen addition saturates or deoxygenates the substrate; water's split into H and OH fragments installs them across the broken bond, as chloromethane shows with methanol and HCl as products.",
+            "analogy": "Water arrives as a two-handed helper, giving one hand (OH) to the carbon and the other (H) to the departing group.",
+            "examPointer": "Quote the chloromethane example when defining hydrolysis - it is the note's canonical case."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_gWsWTfZwwv5w8ZSs::L3::Q1",
+          "rn_gWsWTfZwwv5w8ZSs::L3::Q2",
+          "rn_gWsWTfZwwv5w8ZSs::L3::Q3",
+          "rn_gWsWTfZwwv5w8ZSs::L3::Q4",
+          "rn_gWsWTfZwwv5w8ZSs::L3::Q5",
+          "rn_gWsWTfZwwv5w8ZSs::L3::Q6",
+          "rn_gWsWTfZwwv5w8ZSs::L3::Q7",
+          "rn_gWsWTfZwwv5w8ZSs::L3::Q8",
+          "rn_gWsWTfZwwv5w8ZSs::L3::Q9"
+        ],
+        "figureIds": []
+      },
+      {
+        "id": "rn_gWsWTfZwwv5w8ZSs::L4",
+        "title": "Addition polymerisation: monomers into chains",
+        "sourceHeadings": [
+          "Polymerisation reactions"
+        ],
+        "specRefs": [
+          "10.1"
+        ],
+        "opening": "Addition polymerisation is addition iterated: alkene double bonds break open and chain together into poly(alkenes), the plastic family. One monomer's repeat unit echoes down a chain thousands long.",
+        "keyPoints": [
+          "At AS level, addition polymerisation is the known polymerisation type.",
+          "Each monomer spends its alkene double bond, opening it to link into the growing chain.",
+          "The repeat unit mirrors the monomer minus its double bond, repeated along the chain.",
+          "Poly(alkenes) such as poly(1,2-dichloroethene) form from the corresponding substituted alkenes."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Every monomer donates its double bond to the chain; the polymer's backbone is single bonds with each repeat unit carrying the monomer's substituents.",
+            "analogy": "Paperclips with a hook (double bond) that interlocks into a long strip: each clip spends its hook joining to neighbours.",
+            "examPointer": "When drawing polymers, strip the C=C from the repeat unit and add continuing bonds through the brackets."
+          },
+          "medium": {
+            "restatement": "Polymerisation conserves atoms exactly - the chain is the monomer collection linked end to end. Substituents (chlorine atoms in dichloroethene) ride along unchanged on the saturated backbone.",
+            "analogy": "A train built from identical carriages: each carriage (repeat unit) keeps its passengers (substituents) while couplings (single bonds) replace the open hooks (double bonds).",
+            "examPointer": "Check atom conservation in repeat-unit questions: nothing is lost in addition polymerisation."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_gWsWTfZwwv5w8ZSs::L4::Q1",
+          "rn_gWsWTfZwwv5w8ZSs::L4::Q2",
+          "rn_gWsWTfZwwv5w8ZSs::L4::Q3",
+          "rn_gWsWTfZwwv5w8ZSs::L4::Q4",
+          "rn_gWsWTfZwwv5w8ZSs::L4::Q5",
+          "rn_gWsWTfZwwv5w8ZSs::L4::Q6",
+          "rn_gWsWTfZwwv5w8ZSs::L4::Q7",
+          "rn_gWsWTfZwwv5w8ZSs::L4::Q8",
+          "rn_gWsWTfZwwv5w8ZSs::L4::Q9"
+        ],
+        "figureIds": [
+          "fig-01"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "addition reaction",
+          "definition": "A reaction joining two reactants into a single product, typically across the alkene double bond.",
+          "firstLesson": 1
+        },
+        {
+          "term": "elimination reaction",
+          "definition": "A reaction removing a small molecule from a larger one, leaving an alkene and the castoff fragment.",
+          "firstLesson": 1
+        },
+        {
+          "term": "hydrolysis",
+          "definition": "A reaction in which water splits a compound into fragments.",
+          "firstLesson": 3
+        },
+        {
+          "term": "addition polymerisation",
+          "definition": "Chain growth where alkene monomers open their double bonds and link end to end into a saturated backbone.",
+          "firstLesson": 4
+        }
+      ],
+      "workedExample": null
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/520ecf57a6f5-9118-7-7-polymerisation-polymers-from-one-alkene.png",
+        "alt": "Diagram showing polymerisation of 1,2-dichloroethene to form poly(1,2-dichloroethene), highlighting monomer, repeating unit, and polymer structure.",
+        "sourceHeading": "Polymerisation reactions",
+        "moduleIds": [
+          "L4"
+        ],
+        "binding": "heading-unique",
+        "caption": "Addition polymerisation of one alkene monomer is polymerised, a (poly)alkene is formed"
+      }
+    ]
+  }
+}

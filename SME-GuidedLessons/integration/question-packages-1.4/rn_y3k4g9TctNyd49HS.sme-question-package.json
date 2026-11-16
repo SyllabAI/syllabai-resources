@@ -1,0 +1,488 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_y3k4g9TctNyd49HS",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "0a98a5df9fd68465e38f7f7fe81bc7fa094db154431c737c5535133396c4bd19",
+    "pinnedRef": "b6839b5b1bc6d71aaf5ddf44bef25bc23e48ae3b"
+  },
+  "packageId": "ial-chemistry::rn_y3k4g9TctNyd49HS",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_y3k4g9TctNyd49HS::L1::Q1",
+      "moduleId": "rn_y3k4g9TctNyd49HS::L1",
+      "stem": "The halogen prefix for bromine is",
+      "misconceptionClass": "prefix recall",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bromo",
+          "correct": true,
+          "explanation": "Bromine substituents take the bromo prefix.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Bromide",
+          "correct": false,
+          "explanation": "Bromide names the ion, not the substituent.",
+          "misconception": "prefix wrong"
+        },
+        {
+          "key": "C",
+          "text": "Brom",
+          "correct": false,
+          "explanation": "The full prefix is bromo.",
+          "misconception": "prefix wrong"
+        },
+        {
+          "key": "D",
+          "text": "Bromium",
+          "correct": false,
+          "explanation": "No such nomenclature prefix exists.",
+          "misconception": "prefix wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_y3k4g9TctNyd49HS::L1::Q2",
+      "moduleId": "rn_y3k4g9TctNyd49HS::L1",
+      "stem": "CH3CH(Br)CH3 is named",
+      "misconceptionClass": "naming application",
+      "options": [
+        {
+          "key": "A",
+          "text": "2-bromopropan-2-ol",
+          "correct": false,
+          "explanation": "No alcohol group exists in this molecule.",
+          "misconception": "functional group wrong"
+        },
+        {
+          "key": "B",
+          "text": "2-bromopropane, the bromine sitting on the middle carbon",
+          "correct": true,
+          "explanation": "Numbering from either end gives the halogen locant 2 on the three-carbon chain.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "1-bromopropane, since bromine comes first",
+          "correct": false,
+          "explanation": "The bromine is on carbon 2, not an end carbon.",
+          "misconception": "locant wrong"
+        },
+        {
+          "key": "D",
+          "text": "propane-2-bromide",
+          "correct": false,
+          "explanation": "The prefix form is bromo with locant before it.",
+          "misconception": "format wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_y3k4g9TctNyd49HS::L1::Q3",
+      "moduleId": "rn_y3k4g9TctNyd49HS::L1",
+      "stem": "CH3CH(Cl)CH2Br is named",
+      "misconceptionClass": "naming application",
+      "options": [
+        {
+          "key": "A",
+          "text": "1-bromo-2-chloropropanol",
+          "correct": false,
+          "explanation": "No alcohol is present.",
+          "misconception": "functional group wrong"
+        },
+        {
+          "key": "B",
+          "text": "dichloropropane",
+          "correct": false,
+          "explanation": "The substituents are bromo and chloro, not two chloros.",
+          "misconception": "substituent wrong"
+        },
+        {
+          "key": "C",
+          "text": "1-bromo-2-chloropropane, halogen prefixes in alphabetical order",
+          "correct": true,
+          "explanation": "Bromo precedes chloro alphabetically, locants 1 and 2 assigned.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "2-chloro-1-bromopropane, following the locant order",
+          "correct": false,
+          "explanation": "Alphabetical order of prefixes, not locant order, governs the listing.",
+          "misconception": "rule wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_y3k4g9TctNyd49HS::L1::Q4",
+      "moduleId": "rn_y3k4g9TctNyd49HS::L1",
+      "stem": "The parent name of CH3CH2CH2Br comes from",
+      "misconceptionClass": "parent logic",
+      "options": [
+        {
+          "key": "A",
+          "text": "The halogen's own element name",
+          "correct": false,
+          "explanation": "The halogen only supplies the prefix.",
+          "misconception": "logic wrong"
+        },
+        {
+          "key": "B",
+          "text": "The number of halogen atoms",
+          "correct": false,
+          "explanation": "Atom count does not set the parent name.",
+          "misconception": "logic wrong"
+        },
+        {
+          "key": "C",
+          "text": "The position of the halogen",
+          "correct": false,
+          "explanation": "Position supplies the locant, not the parent.",
+          "misconception": "logic wrong"
+        },
+        {
+          "key": "D",
+          "text": "The three-carbon alkane propane",
+          "correct": true,
+          "explanation": "Halogenoalkane names build on the original alkane skeleton.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_y3k4g9TctNyd49HS::L1::Q5",
+      "moduleId": "rn_y3k4g9TctNyd49HS::L1",
+      "stem": "Which name correctly uses both numbering and alphabetical rules?",
+      "misconceptionClass": "rule synthesis",
+      "options": [
+        {
+          "key": "A",
+          "text": "1-bromo-2-chloropropane",
+          "correct": true,
+          "explanation": "Alphabetical listing (bromo before chloro) with correct locants.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "2-chloro-1-bromopropane",
+          "correct": false,
+          "explanation": "That lists by locant, breaking the alphabetical rule.",
+          "misconception": "rule violated"
+        },
+        {
+          "key": "C",
+          "text": "bromo-chloropropane without numbers",
+          "correct": false,
+          "explanation": "Locants are mandatory for positional isomers.",
+          "misconception": "locants missing"
+        },
+        {
+          "key": "D",
+          "text": "1-chloro-1-bromopropane for CH3CH(Cl)CH2Br",
+          "correct": false,
+          "explanation": "The locants 1 and 2 are wrong for that structure.",
+          "misconception": "locants wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_y3k4g9TctNyd49HS::L1::Q6",
+      "moduleId": "rn_y3k4g9TctNyd49HS::L1",
+      "stem": "Write the name of CH3CH2CH2Br.",
+      "misconceptionClass": "naming recall",
+      "kind": "recall",
+      "modelAnswer": "1-bromopropane, bromine on the first carbon of the propane chain.",
+      "keywords": [
+        "1-bromopropane",
+        "propane",
+        "carbon"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_y3k4g9TctNyd49HS::L1::Q7",
+      "moduleId": "rn_y3k4g9TctNyd49HS::L1",
+      "stem": "State the four halogen prefixes in nomenclature.",
+      "misconceptionClass": "prefix recall",
+      "kind": "recall",
+      "modelAnswer": "Fluoro, chloro, bromo and iodo, for fluorine, chlorine, bromine and iodine respectively.",
+      "keywords": [
+        "fluoro",
+        "chloro",
+        "bromo",
+        "iodo"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_y3k4g9TctNyd49HS::L1::Q8",
+      "moduleId": "rn_y3k4g9TctNyd49HS::L1",
+      "stem": "Explain why CH3CH(Br)CH3 and CH3CH2CH2Br have different names despite the same molecular formula.",
+      "misconceptionClass": "isomer logic",
+      "kind": "explain-why",
+      "modelAnswer": "The bromine occupies different carbon positions, so the locants differ, giving positional isomers 2-bromopropane versus 1-bromopropane.",
+      "keywords": [
+        "position",
+        "isomers",
+        "locant"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_y3k4g9TctNyd49HS::L1::Q9",
+      "moduleId": "rn_y3k4g9TctNyd49HS::L1",
+      "stem": "A student draws CH3CH2CH(Cl)CH3 and names it 3-chlorobutane. Correct the name.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Numbering from the nearer end gives carbon 2 for the chlorine, so the correct name is 2-chlorobutane.",
+      "keywords": [
+        "2-chlorobutane",
+        "numbering",
+        "butane"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_y3k4g9TctNyd49HS::L2::Q1",
+      "moduleId": "rn_y3k4g9TctNyd49HS::L2",
+      "stem": "A primary halogenoalkane has the C-X carbon attached to",
+      "misconceptionClass": "classification",
+      "options": [
+        {
+          "key": "A",
+          "text": "No other carbon atoms",
+          "correct": false,
+          "explanation": "Such a carbon would be in methyl halide, treated as primary-adjacent but the definition here requires one alkyl group.",
+          "misconception": "count wrong"
+        },
+        {
+          "key": "B",
+          "text": "Exactly one other alkyl group",
+          "correct": true,
+          "explanation": "One alkyl neighbour defines the primary class.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Two other alkyl groups",
+          "correct": false,
+          "explanation": "That is secondary.",
+          "misconception": "class wrong"
+        },
+        {
+          "key": "D",
+          "text": "Three other alkyl groups",
+          "correct": false,
+          "explanation": "That is tertiary.",
+          "misconception": "class wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_y3k4g9TctNyd49HS::L2::Q2",
+      "moduleId": "rn_y3k4g9TctNyd49HS::L2",
+      "stem": "2-bromopropane, CH3CH(Br)CH3, is classified as",
+      "misconceptionClass": "classification",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tertiary, since bromine is heavy",
+          "correct": false,
+          "explanation": "Halogen identity plays no role.",
+          "misconception": "logic wrong"
+        },
+        {
+          "key": "B",
+          "text": "Unclassifiable without a skeletal formula",
+          "correct": false,
+          "explanation": "The condensed formula already shows the neighbours.",
+          "misconception": "claim wrong"
+        },
+        {
+          "key": "C",
+          "text": "Secondary, its C-Br carbon joins two methyl groups",
+          "correct": true,
+          "explanation": "Two alkyl neighbours mark the secondary class.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Primary, since the chain is short",
+          "correct": false,
+          "explanation": "Chain length is irrelevant; neighbours count.",
+          "misconception": "logic wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_y3k4g9TctNyd49HS::L2::Q3",
+      "moduleId": "rn_y3k4g9TctNyd49HS::L2",
+      "stem": "Which structural feature defines a tertiary halogenoalkane?",
+      "misconceptionClass": "definition",
+      "options": [
+        {
+          "key": "A",
+          "text": "The molecule contains three halogen atoms",
+          "correct": false,
+          "explanation": "Halogen count is irrelevant to the class.",
+          "misconception": "feature wrong"
+        },
+        {
+          "key": "B",
+          "text": "The carbon chain has three carbons",
+          "correct": false,
+          "explanation": "Chain length does not set the class.",
+          "misconception": "feature wrong"
+        },
+        {
+          "key": "C",
+          "text": "The halogen is iodine",
+          "correct": false,
+          "explanation": "Element choice is irrelevant.",
+          "misconception": "feature wrong"
+        },
+        {
+          "key": "D",
+          "text": "The halogen-bearing carbon is attached to three other alkyl groups",
+          "correct": true,
+          "explanation": "Three alkyl neighbours define tertiary.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_y3k4g9TctNyd49HS::L2::Q4",
+      "moduleId": "rn_y3k4g9TctNyd49HS::L2",
+      "stem": "In drawing halogenoalkanes, you are also expected to produce",
+      "misconceptionClass": "drawing expectation",
+      "options": [
+        {
+          "key": "A",
+          "text": "Structural, displayed and skeletal formulae",
+          "correct": true,
+          "explanation": "All three representation styles are examinable.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Only 3D models",
+          "correct": false,
+          "explanation": "Models help but the expected forms are the three formula types.",
+          "misconception": "expectation wrong"
+        },
+        {
+          "key": "C",
+          "text": "Orbital diagrams",
+          "correct": false,
+          "explanation": "Orbitals belong to bonding theory, not this skill.",
+          "misconception": "expectation wrong"
+        },
+        {
+          "key": "D",
+          "text": "Electron density maps",
+          "correct": false,
+          "explanation": "Not part of the expectation here.",
+          "misconception": "expectation wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_y3k4g9TctNyd49HS::L2::Q5",
+      "moduleId": "rn_y3k4g9TctNyd49HS::L2",
+      "stem": "How do the alkyl-group counts around the C-X carbon differ for CH3CH2CH2Br and (CH3)2CHBr?",
+      "misconceptionClass": "isomer contrast",
+      "options": [
+        {
+          "key": "A",
+          "text": "Molar mass",
+          "correct": false,
+          "explanation": "Identical formulae give identical mass.",
+          "misconception": "mass same"
+        },
+        {
+          "key": "B",
+          "text": "The first touches one alkyl group, the second two",
+          "correct": true,
+          "explanation": "One alkyl neighbour marks the primary class; two mark the secondary.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Molecular formula",
+          "correct": false,
+          "explanation": "Both are C3H7Br.",
+          "misconception": "formula same"
+        },
+        {
+          "key": "D",
+          "text": "The halogen involved",
+          "correct": false,
+          "explanation": "Both carry bromine.",
+          "misconception": "halogen same"
+        }
+      ]
+    },
+    {
+      "id": "rn_y3k4g9TctNyd49HS::L2::Q6",
+      "moduleId": "rn_y3k4g9TctNyd49HS::L2",
+      "stem": "Define a secondary halogenoalkane.",
+      "misconceptionClass": "definition",
+      "kind": "recall",
+      "modelAnswer": "A halogenoalkane whose halogen-bearing carbon is attached to two other alkyl groups.",
+      "keywords": [
+        "halogen",
+        "carbon",
+        "two"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_y3k4g9TctNyd49HS::L2::Q7",
+      "moduleId": "rn_y3k4g9TctNyd49HS::L2",
+      "stem": "State how many alkyl groups attach to the C-X carbon in a tertiary halogenoalkane.",
+      "misconceptionClass": "count recall",
+      "kind": "recall",
+      "modelAnswer": "Three alkyl groups.",
+      "keywords": [
+        "three",
+        "alkyl",
+        "groups"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_y3k4g9TctNyd49HS::L2::Q8",
+      "moduleId": "rn_y3k4g9TctNyd49HS::L2",
+      "stem": "Explain why classification depends only on the C-X carbon's neighbours.",
+      "misconceptionClass": "definition logic",
+      "kind": "explain-why",
+      "modelAnswer": "The class names the substitution degree of the functional carbon, so only the alkyl groups bonded to that specific carbon count.",
+      "keywords": [
+        "functional",
+        "carbon",
+        "neighbours"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_y3k4g9TctNyd49HS::L2::Q9",
+      "moduleId": "rn_y3k4g9TctNyd49HS::L2",
+      "stem": "Classify 1-bromobutane and 2-bromo-2-methylpropane without drawing full formulae.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "1-bromobutane: the C-Br carbon is an end carbon with one alkyl neighbour - primary. 2-bromo-2-methylpropane: the C-Br carbon touches three methyl groups - tertiary.",
+      "keywords": [
+        "primary",
+        "tertiary",
+        "neighbour"
+      ],
+      "options": []
+    }
+  ]
+}
