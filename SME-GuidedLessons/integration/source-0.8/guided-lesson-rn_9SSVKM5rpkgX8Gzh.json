@@ -1,0 +1,1206 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_9SSVKM5rpkgX8Gzh",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "2. Energetics, Group Chemistry, Halogenoalkanes & Alcohols",
+  "subtopicTitle": "Rates of Reaction",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/2-energetics-group-chemistry-halogenoalkanes-and-alcohols/2-6-introduction-to-kinetics-and-equilibria/2-6-2-rates-of-reaction"
+ },
+ "specPoints": [
+  {
+   "code": "9.3",
+   "text": "be able to calculate the rate of a reaction from: i the time taken for a reaction, using rate = 1/time ii the gradient of suitable graph, by drawing a tangent, either for initial rate, or at a time, t"
+  }
+ ],
+ "primer": {
+  "text": "Rate is a gradient wearing units. This note teaches the tangent craft on product-versus-time curves, then tours the lab methods - mass loss, gas syringes, disappearing crosses and quenched titrations - with each method's strengths and its sampling traps laid bare.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Reading rate from graphs and tangents",
+   "sourceHeadings": [
+    "Rates of Reaction - Graphs & Calculations"
+   ],
+   "specRefs": [
+    "9.3"
+   ],
+   "opening": "Rate is a gradient in disguise: plot amount against time and the steepness of the curve speaks the reaction's speed. Draw a tangent, read the triangle, divide - that is the whole craft of instantaneous rate.",
+   "keyPoints": [
+    "Rate of reaction has units mol dm-3 s-1 and equals the change in amount of reactant or product divided by time.",
+    "As a reaction proceeds, reactant concentration falls and product concentration rises.",
+    "On a graph, rate at a moment is the gradient of a tangent to the curve at that time.",
+    "A large tangent triangle reaching gridlines minimises reading error."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Steep early, flat late: the curve's gradient falls as reactants are consumed. The tangent's triangle (change in y over change in x) converts steepness into a rate number with units.",
+     "analogy": "A slide that starts steep and flattens near the bottom: your speed is the slope where you stand, read from how much height you lose over how much ground.",
+     "examPointer": "Draw the tangent with a large triangle crossing gridlines, then compute change in y divided by change in x - small triangles magnify misreads."
+    },
+    "medium": {
+     "restatement": "The instantaneous rate is a derivative read graphically: tangent gradient at the chosen time. Concentration axes give mol dm-3 s-1; gas volume axes give cm3 s-1. The curve flattens because reactant depletion throttles successful collisions.",
+     "analogy": "The curve is a road; the tangent is your compass heading at one instant, and the triangle is the map square you use to measure the heading.",
+     "examPointer": "State units explicitly - a bare number loses the mark; pick the units the axes demand."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Rate of reaction is defined as",
+     "misconceptionClass": "definition",
+     "options": [
+      {
+       "key": "A",
+       "text": "The change in amount of reactant or product per unit time",
+       "correct": true,
+       "explanation": "Rate quantifies how quickly concentration shifts, in mol dm-3 s-1.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The total amount of product made before the reaction stops",
+       "correct": false,
+       "explanation": "That is the yield, not the rate.",
+       "misconception": "quantity confused"
+      },
+      {
+       "key": "C",
+       "text": "The time a reaction takes from start to finish",
+       "correct": false,
+       "explanation": "That is duration; rate divides change by that time.",
+       "misconception": "quantity confused"
+      },
+      {
+       "key": "D",
+       "text": "The gradient of the reactant curve multiplied by time",
+       "correct": false,
+       "explanation": "The gradient IS the rate; no extra multiplication applies.",
+       "misconception": "logic wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "On a graph of product volume against time, the reaction is fastest",
+     "misconceptionClass": "graph reading",
+     "options": [
+      {
+       "key": "A",
+       "text": "Where the curve is steepest, usually at the start",
+       "correct": true,
+       "explanation": "Steepest gradient means most product forming per second.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Where the curve flattens near the end",
+       "correct": false,
+       "explanation": "A flat curve signals reactants exhausted and rate near zero.",
+       "misconception": "reading wrong"
+      },
+      {
+       "key": "C",
+       "text": "At the point of maximum volume",
+       "correct": false,
+       "explanation": "Maximum volume is the endpoint, where rate has fallen to zero.",
+       "misconception": "reading wrong"
+      },
+      {
+       "key": "D",
+       "text": "Anywhere, since rate is constant throughout",
+       "correct": false,
+       "explanation": "Rates decline as reactants are consumed.",
+       "misconception": "assumption wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A tangent drawn at 20 seconds gives the rate",
+     "misconceptionClass": "tangent meaning",
+     "options": [
+      {
+       "key": "A",
+       "text": "At exactly 20 seconds, the instantaneous rate",
+       "correct": true,
+       "explanation": "The tangent's gradient reads the speed at that single moment.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Averaged over the whole reaction",
+       "correct": false,
+       "explanation": "The average rate comes from endpoint-to-endpoint gradients, not tangents.",
+       "misconception": "rate type wrong"
+      },
+      {
+       "key": "C",
+       "text": "At the start of the reaction",
+       "correct": false,
+       "explanation": "Only if the tangent touches at time zero.",
+       "misconception": "time wrong"
+      },
+      {
+       "key": "D",
+       "text": "At the end of the reaction",
+       "correct": false,
+       "explanation": "The tangent location sets the time, which is 20 seconds here.",
+       "misconception": "time wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why should the tangent triangle be large?",
+     "misconceptionClass": "technique reason",
+     "options": [
+      {
+       "key": "A",
+       "text": "Large triangles reach gridlines, reducing misreads of both axes",
+       "correct": true,
+       "explanation": "Bigger spans shrink relative reading error in the gradient.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Large triangles make the curve steeper",
+       "correct": false,
+       "explanation": "The curve's steepness is fixed; the triangle only measures it.",
+       "misconception": "logic wrong"
+      },
+      {
+       "key": "C",
+       "text": "Small triangles are not allowed by examiners",
+       "correct": false,
+       "explanation": "Size guidance is about accuracy, not a ban.",
+       "misconception": "reason wrong"
+      },
+      {
+       "key": "D",
+       "text": "The tangent only exists for large triangles",
+       "correct": false,
+       "explanation": "A tangent is a line; triangle size is a measuring choice.",
+       "misconception": "logic wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "As reactants are used up, the curve of product against time",
+     "misconceptionClass": "curve behaviour",
+     "options": [
+      {
+       "key": "A",
+       "text": "Becomes less steep because successful collisions become rarer",
+       "correct": true,
+       "explanation": "Falling reactant concentration throttles the collision-driven rate.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Becomes steeper as products accumulate",
+       "correct": false,
+       "explanation": "Accumulated products do not accelerate the forward reaction here.",
+       "misconception": "logic reversed"
+      },
+      {
+       "key": "C",
+       "text": "Stays a straight line throughout",
+       "correct": false,
+       "explanation": "A straight line would mean constant rate, which does not hold.",
+       "misconception": "shape wrong"
+      },
+      {
+       "key": "D",
+       "text": "Dips below the time axis",
+       "correct": false,
+       "explanation": "Product volume is positive and rising.",
+       "misconception": "shape wrong"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the units of rate of reaction when concentration is plotted.",
+     "misconceptionClass": "units recall",
+     "modelAnswer": "Mol dm-3 s-1, concentration change per second.",
+     "keywords": [
+      "mol",
+      "concentration",
+      "second"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Describe how to find the rate at a given time from a curve.",
+     "misconceptionClass": "method recall",
+     "modelAnswer": "Draw a tangent to the curve at that time, complete a large triangle, and divide the change in y by the change in x.",
+     "keywords": [
+      "tangent",
+      "triangle",
+      "gradient"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the rate decreases as the reaction proceeds.",
+     "misconceptionClass": "decline explanation",
+     "modelAnswer": "Reactant concentration falls, so collision frequency drops and fewer successful collisions occur per unit time, flattening the curve's gradient.",
+     "keywords": [
+      "reactant",
+      "collisions",
+      "gradient"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A tangent at 20 s spans 24 cm3 vertically and 40 s horizontally. State the rate with units.",
+     "misconceptionClass": "application",
+     "modelAnswer": "Rate = 24 / 40 = 0.60 cm3 s-1 at the 20-second mark.",
+     "keywords": [
+      "24",
+      "40",
+      "rate"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Measuring rate by mass loss",
+   "sourceHeadings": [
+    "Changes in mass"
+   ],
+   "specRefs": [
+    "9.3"
+   ],
+   "opening": "Let the gas carry the mass away: a balance under the reaction vessel tracks how much product escapes per second. Simple, but only for dense gases - light hydrogen barely dents the reading.",
+   "keyPoints": [
+    "When a gas escapes the vessel, mass decreases, so mass loss over time measures rate.",
+    "Calcium carbonate with hydrochloric acid releases CO2, mass being recorded every few seconds.",
+    "The mass-loss graph is equivalent to amount of reactant against time.",
+    "The gas must be dense enough; CO2 (Mr 44.0) registers, hydrogen (Mr 2.0) does not."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Mass loss is a product meter: each escaping gram marks progress. Dense gases move the balance visibly; Mr 2.0 hydrogen disappears into rounding noise.",
+     "analogy": "A leaky water tank on a scale: heavy drips show clearly, faint mist does not.",
+     "examPointer": "Justify gas choice by molar mass when asked why hydrogen is unsuitable for mass-loss rate experiments."
+    },
+    "medium": {
+     "restatement": "The balance converts a concentration change into a mass signal without touching the mixture; the trade-off is sensitivity limited by the gas's molar mass and balance resolution (2-3 decimal places).",
+     "analogy": "Watching a truck leave a car park by weighbridge works; watching a cyclist leave does not register.",
+     "examPointer": "Name 'gas must be sufficiently dense' as the limitation, quoting Mr values 44.0 versus 2.0."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "A balance under the reaction vessel can time a rate because",
+     "misconceptionClass": "method basis",
+     "options": [
+      {
+       "key": "A",
+       "text": "Escaping gas lowers the vessel's mass proportionally to product formed",
+       "correct": true,
+       "explanation": "The balance tracks product escape as a mass signal over time.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The balance measures concentration directly",
+       "correct": false,
+       "explanation": "Mass is measured; concentration is inferred.",
+       "misconception": "instrument wrong"
+      },
+      {
+       "key": "C",
+       "text": "All gases have large molar masses",
+       "correct": false,
+       "explanation": "Hydrogen's Mr 2.0 is far too light to register reliably.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "D",
+       "text": "The vessel stays sealed",
+       "correct": false,
+       "explanation": "The method relies on gas leaving, not staying.",
+       "misconception": "setup wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Hydrogen production is poorly tracked by mass loss because",
+     "misconceptionClass": "sensitivity limit",
+     "options": [
+      {
+       "key": "A",
+       "text": "Its molar mass is only 2.0, too small for a 2-3 d.p. balance",
+       "correct": true,
+       "explanation": "Tiny mass changes vanish below the balance's resolution.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Hydrogen is not produced in reactions",
+       "correct": false,
+       "explanation": "Plenty of reactions produce hydrogen.",
+       "misconception": "fact wrong"
+      },
+      {
+       "key": "C",
+       "text": "Hydrogen reacts with the balance",
+       "correct": false,
+       "explanation": "No such interference exists.",
+       "misconception": "reason invented"
+      },
+      {
+       "key": "D",
+       "text": "Hydrogen cannot escape the vessel",
+       "correct": false,
+       "explanation": "It escapes readily; the reading simply barely moves.",
+       "misconception": "logic wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "In the CaCO3 + HCl experiment, the mass is recorded",
+     "misconceptionClass": "protocol recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "Every few seconds as the CO2 escapes",
+       "correct": true,
+       "explanation": "Frequent sampling captures the falling mass curve.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Only once at the end",
+       "correct": false,
+       "explanation": "A single reading gives no rate.",
+       "misconception": "protocol wrong"
+      },
+      {
+       "key": "C",
+       "text": "Only at the start",
+       "correct": false,
+       "explanation": "The starting mass is the baseline, not the rate data.",
+       "misconception": "protocol wrong"
+      },
+      {
+       "key": "D",
+       "text": "After the vessel is sealed",
+       "correct": false,
+       "explanation": "Sealing would stop the mass loss the method depends on.",
+       "misconception": "setup wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The mass-loss graph mirrors a graph of",
+     "misconceptionClass": "graph equivalence",
+     "options": [
+      {
+       "key": "A",
+       "text": "Amount of reactant against time",
+       "correct": true,
+       "explanation": "Mass lost equals reactant consumed, so the shapes correspond.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Temperature against pressure",
+       "correct": false,
+       "explanation": "Unrelated axes for this method.",
+       "misconception": "axes wrong"
+      },
+      {
+       "key": "C",
+       "text": "Product concentration against volume",
+       "correct": false,
+       "explanation": "No volume axis appears in mass loss.",
+       "misconception": "axes wrong"
+      },
+      {
+       "key": "D",
+       "text": "Catalyst mass against time",
+       "correct": false,
+       "explanation": "Catalyst mass does not change.",
+       "misconception": "axes wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which product gas registers on the balance in a mass-loss experiment?",
+     "misconceptionClass": "gas selection",
+     "options": [
+      {
+       "key": "A",
+       "text": "Carbon dioxide, Mr 44.0",
+       "correct": true,
+       "explanation": "Dense enough to shift a sensitive balance measurably.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Hydrogen, Mr 2.0",
+       "correct": false,
+       "explanation": "Far too light for reliable mass readings.",
+       "misconception": "gas wrong"
+      },
+      {
+       "key": "C",
+       "text": "Any gas, since all are weighed equally",
+       "correct": false,
+       "explanation": "Molar mass decides the signal size.",
+       "misconception": "logic wrong"
+      },
+      {
+       "key": "D",
+       "text": "Water vapour only",
+       "correct": false,
+       "explanation": "The method targets product gas escape such as CO2.",
+       "misconception": "gas wrong"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State one limitation of the mass-loss method.",
+     "misconceptionClass": "limitation recall",
+     "modelAnswer": "The gas must be sufficiently dense; a light gas like hydrogen changes the mass too little to measure.",
+     "keywords": [
+      "dense",
+      "hydrogen",
+      "balance"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Name a reaction suitable for the mass-loss method.",
+     "misconceptionClass": "example recall",
+     "modelAnswer": "Calcium carbonate reacting with hydrochloric acid, which releases carbon dioxide.",
+     "keywords": [
+      "calcium",
+      "carbonate",
+      "dioxide"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the mass-loss curve flattens as time passes.",
+     "misconceptionClass": "curve explanation",
+     "modelAnswer": "Reactant depletion lowers the rate, so less gas escapes per second and the mass stops dropping steeply.",
+     "keywords": [
+      "reactant",
+      "gas",
+      "rate"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A student records 0.12 g lost in the first 30 s and 0.02 g in the next 30 s. Comment on the rate change and its cause.",
+     "misconceptionClass": "application",
+     "modelAnswer": "The rate fell from about 0.004 g s-1 to about 0.0007 g s-1: acid is being consumed, so fewer successful collisions occur and gas escapes more slowly.",
+     "keywords": [
+      "rate",
+      "acid",
+      "consumed"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Measuring rate by gas volume",
+   "sourceHeadings": [
+    "Volumes of gases"
+   ],
+   "specRefs": [
+    "9.3"
+   ],
+   "opening": "Trap the gas and time its growth: a syringe or an inverted cylinder over water turns product formation into a rising volume curve. Volume is a product meter, read every few seconds into a graph whose gradient is the rate.",
+   "keyPoints": [
+    "Trapping the product gas and reading its volume as time passes gives a rate signal.",
+    "Magnesium with hydrochloric acid produces hydrogen, collected by gas syringe or inverted cylinder.",
+    "The inverted measuring cylinder works when the gas is not water-soluble.",
+    "The volume graph plots amount of product against time, and its gradient is the rate."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Collected volume climbs steeply early, flattening as reactants thin out; each reading marks cumulative product, and the gradient between readings is the rate.",
+     "analogy": "Filling a bath from a tap that slows down: early marks rise fast, late marks crawl.",
+     "examPointer": "Choose the syringe for soluble gases; the inverted cylinder only when the gas is not water-soluble."
+    },
+    "medium": {
+     "restatement": "Gas volume translates stoichiometry into observable progress without sampling the mixture; it measures the product side directly, complementing mass loss's reactant view. Water solubility decides the collection apparatus.",
+     "analogy": "A growing balloon taped to a ruler: every centimetre is product made so far.",
+     "examPointer": "State 'not water-soluble' as the condition for the inverted-cylinder variant - the examiner checks that qualification."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "A gas syringe measures rate by recording",
+     "misconceptionClass": "apparatus function",
+     "options": [
+      {
+       "key": "A",
+       "text": "The volume of gas produced at intervals of time",
+       "correct": true,
+       "explanation": "Volume growth over time is the product meter of this method.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The mass of gas escaping",
+       "correct": false,
+       "explanation": "That is the mass-loss method's signal.",
+       "misconception": "method confused"
+      },
+      {
+       "key": "C",
+       "text": "The pressure only",
+       "correct": false,
+       "explanation": "Volume, not pressure, is the recorded variable here.",
+       "misconception": "variable wrong"
+      },
+      {
+       "key": "D",
+       "text": "The concentration of remaining acid",
+       "correct": false,
+       "explanation": "Sampling concentration is a different, harder method.",
+       "misconception": "method confused"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The inverted measuring cylinder setup is appropriate only when",
+     "misconceptionClass": "apparatus condition",
+     "options": [
+      {
+       "key": "A",
+       "text": "The gas is not soluble in water",
+       "correct": true,
+       "explanation": "Soluble gas would dissolve into the water instead of collecting.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The reaction is exothermic",
+       "correct": false,
+       "explanation": "Enthalpy change is irrelevant to collection choice.",
+       "misconception": "condition wrong"
+      },
+      {
+       "key": "C",
+       "text": "The gas is denser than air",
+       "correct": false,
+       "explanation": "Displacement direction is not the stated criterion.",
+       "misconception": "condition wrong"
+      },
+      {
+       "key": "D",
+       "text": "The gas is coloured",
+       "correct": false,
+       "explanation": "Colour is irrelevant to volume collection.",
+       "misconception": "condition wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "In the Mg + HCl experiment, the volume-time graph's gradient gives",
+     "misconceptionClass": "graph meaning",
+     "options": [
+      {
+       "key": "A",
+       "text": "The rate of hydrogen production",
+       "correct": true,
+       "explanation": "Volume per second is the rate of product formation.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The activation energy",
+       "correct": false,
+       "explanation": "Ea needs a different analysis entirely.",
+       "misconception": "quantity confused"
+      },
+      {
+       "key": "C",
+       "text": "The total yield at completion",
+       "correct": false,
+       "explanation": "The final plateau gives yield; the gradient gives rate.",
+       "misconception": "quantity confused"
+      },
+      {
+       "key": "D",
+       "text": "The concentration of the acid",
+       "correct": false,
+       "explanation": "Acid concentration is a set condition, not read from this graph.",
+       "misconception": "quantity confused"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which collected gas is measured by volume over time?",
+     "misconceptionClass": "matching",
+     "options": [
+      {
+       "key": "A",
+       "text": "Mg + HCl hydrogen by gas syringe; CaCO3 + HCl CO2 by either method",
+       "correct": true,
+       "explanation": "Hydrogen suits syringe; CO2 works by syringe or inverted cylinder.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Hydrogen by inverted cylinder over water",
+       "correct": false,
+       "explanation": "Hydrogen is barely soluble, so cylinder works too - but the classic pairing is syringe.",
+       "misconception": "pairing wrong"
+      },
+      {
+       "key": "C",
+       "text": "CO2 by inverted cylinder over water only",
+       "correct": false,
+       "explanation": "CO2 can also be collected cleanly by syringe.",
+       "misconception": "pairing wrong"
+      },
+      {
+       "key": "D",
+       "text": "Oxygen by mass loss",
+       "correct": false,
+       "explanation": "O2 (Mr 32) could register by mass, but the stated pairing is wrong.",
+       "misconception": "pairing wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Volume measurement offers which advantage over mass loss?",
+     "misconceptionClass": "method comparison",
+     "options": [
+      {
+       "key": "A",
+       "text": "It tracks light gases such as hydrogen effectively",
+       "correct": true,
+       "explanation": "Volume responds to moles, so Mr 2.0 hydrogen registers perfectly.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It needs no apparatus",
+       "correct": false,
+       "explanation": "Syringes and cylinders are apparatus.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "C",
+       "text": "It avoids graphs entirely",
+       "correct": false,
+       "explanation": "Volume data is graphed exactly like mass data.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "D",
+       "text": "It measures reactant consumption directly",
+       "correct": false,
+       "explanation": "Volume reads the product side.",
+       "misconception": "logic wrong"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the condition for using an inverted measuring cylinder over water.",
+     "misconceptionClass": "condition recall",
+     "modelAnswer": "The collected gas must not be soluble in water.",
+     "keywords": [
+      "gas",
+      "soluble",
+      "water"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Name the gas and reagents in the classic gas-volume rate experiment.",
+     "misconceptionClass": "example recall",
+     "modelAnswer": "Magnesium with hydrochloric acid producing hydrogen gas.",
+     "keywords": [
+      "magnesium",
+      "hydrochloric",
+      "hydrogen"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the volume curve rises steeply then flattens.",
+     "misconceptionClass": "curve explanation",
+     "modelAnswer": "Early on, high reactant concentrations give frequent successful collisions and fast gas evolution; as reactants deplete, the volume gain per second shrinks.",
+     "keywords": [
+      "collisions",
+      "gas",
+      "deplete"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A syringe reads 18 cm3 at 10 s and 42 cm3 at 30 s. Estimate the average rate in that window with units.",
+     "misconceptionClass": "application",
+     "modelAnswer": "Rate = (42 - 18) / (30 - 10) = 24 / 20 = 1.2 cm3 s-1 across the 10-30 s window.",
+     "keywords": [
+      "42",
+      "20",
+      "rate"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Concentration changes, quenching and the disappearing cross",
+   "sourceHeadings": [
+    "Measuring concentration changes"
+   ],
+   "specRefs": [
+    "9.3"
+   ],
+   "opening": "Sampling concentration mid-reaction is invasive - unless you quench, freezing the chemistry for titration. Often it is easier to stop the clock at a visible endpoint, as the thiosulfate-sulfur cross does, at the cost of a single data point.",
+   "keyPoints": [
+    "Taking and titrating samples can disturb the rate unless the reaction is deliberately stopped, called quenching.",
+    "It is often convenient to time a visible endpoint, such as magnesium dissolving completely in acid.",
+    "Sodium thiosulfate with hydrochloric acid slowly forms yellow sulfur that hides a cross beneath the flask.",
+    "The endpoint method's main limitation is that it yields only one piece of data."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Quenching halts the sampled aliquot so titration reads a true concentration; endpoint timing trades many data points for one clean visible moment.",
+     "analogy": "Freezing a scoop of soup to test its heat versus watching for the crouton to sink - one is precise and invasive, the other quick and single-shot.",
+     "examPointer": "Name quenching explicitly and state the one-data-point limitation of cross experiments."
+    },
+    "medium": {
+     "restatement": "The disappearing cross couples rate to turbidity: sulfur colloids scatter light until the printed cross vanishes, and that fixed endpoint time compares rates across conditions. Consistency of judgement (same cross, same eye) is the hidden control.",
+     "analogy": "A fogged window: you time how long the garden takes to blur beyond recognition - the same window, the same criterion, every run.",
+     "examPointer": "Quote the thiosulfate equation with its sulfur product when describing the classic experiment."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Quenching a reaction sample means",
+     "misconceptionClass": "definition",
+     "options": [
+      {
+       "key": "A",
+       "text": "Deliberately stopping the reaction in the sample so it can be analysed",
+       "correct": true,
+       "explanation": "The stopped aliquot preserves the concentration snapshot for titration.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Cooling the apparatus with ice water",
+       "correct": false,
+       "explanation": "Cooling is one quenching tactic, but quenching means stopping the reaction.",
+       "misconception": "definition narrow"
+      },
+      {
+       "key": "C",
+       "text": "Adding more reactant to speed up",
+       "correct": false,
+       "explanation": "That changes the reaction, not the sample.",
+       "misconception": "action wrong"
+      },
+      {
+       "key": "D",
+       "text": "Filtering out the precipitate",
+       "correct": false,
+       "explanation": "Filtration is separation, not reaction stopping.",
+       "misconception": "action wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The sodium thiosulfate + hydrochloric acid experiment times",
+     "misconceptionClass": "classic experiment",
+     "options": [
+      {
+       "key": "A",
+       "text": "How long the yellow sulfur precipitate takes to hide a cross under the flask",
+       "correct": true,
+       "explanation": "Turbidity growth is the clock of the disappearing cross.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "How long the acid takes to evaporate",
+       "correct": false,
+       "explanation": "No evaporation is involved.",
+       "misconception": "endpoint wrong"
+      },
+      {
+       "key": "C",
+       "text": "The mass of sulfur formed",
+       "correct": false,
+       "explanation": "Only the visibility endpoint is timed.",
+       "misconception": "variable wrong"
+      },
+      {
+       "key": "D",
+       "text": "The temperature rise",
+       "correct": false,
+       "explanation": "The reaction is not monitored by temperature here.",
+       "misconception": "variable wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The main limitation of endpoint timing is",
+     "misconceptionClass": "limitation",
+     "options": [
+      {
+       "key": "A",
+       "text": "It produces only one data point per run",
+       "correct": true,
+       "explanation": "A single time trades resolution for simplicity.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It needs expensive apparatus",
+       "correct": false,
+       "explanation": "A flask, paper cross and stopwatch suffice.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "C",
+       "text": "It cannot compare conditions",
+       "correct": false,
+       "explanation": "Comparing endpoint times across conditions is its main use.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "D",
+       "text": "It requires radioactive tracers",
+       "correct": false,
+       "explanation": "Nothing radioactive appears.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why can taking samples for titration disturb a rate measurement?",
+     "misconceptionClass": "sampling hazard",
+     "options": [
+      {
+       "key": "A",
+       "text": "Sampling and analysing can affect the reaction rate unless the sample is quenched",
+       "correct": true,
+       "explanation": "Removing reactant and changing temperature perturb the remaining mixture.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Titrations are too slow for any rate work",
+       "correct": false,
+       "explanation": "Quenched aliquots are standard rate tools.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "C",
+       "text": "Indicators destroy reactants",
+       "correct": false,
+       "explanation": "The perturbation is mechanical and thermal, not indicator chemistry.",
+       "misconception": "reason wrong"
+      },
+      {
+       "key": "D",
+       "text": "Samples cannot be removed from flasks",
+       "correct": false,
+       "explanation": "They can, with pipettes.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Na2S2O3 + 2HCl -> 2NaCl + SO2 + H2O + S shows sulfur as",
+     "misconceptionClass": "product identification",
+     "options": [
+      {
+       "key": "A",
+       "text": "A yellow precipitate responsible for the cloudiness",
+       "correct": true,
+       "explanation": "Colloidal sulfur scatters light until the cross disappears.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "A gas escaping the flask",
+       "correct": false,
+       "explanation": "SO2 is the gaseous product; sulfur stays put.",
+       "misconception": "product confused"
+      },
+      {
+       "key": "C",
+       "text": "A soluble product",
+       "correct": false,
+       "explanation": "The sulfur is the visible insoluble colloid.",
+       "misconception": "state wrong"
+      },
+      {
+       "key": "D",
+       "text": "A catalyst",
+       "correct": false,
+       "explanation": "Sulfur is a product, not a catalyst.",
+       "misconception": "role wrong"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Define quenching.",
+     "misconceptionClass": "definition",
+     "modelAnswer": "Deliberately stopping a reaction, typically in a removed sample, so its concentration can be measured faithfully.",
+     "keywords": [
+      "stopping",
+      "sample",
+      "concentration"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State what is timed in the disappearing cross experiment.",
+     "misconceptionClass": "protocol recall",
+     "modelAnswer": "The time until the yellow sulfur precipitate obscures a cross drawn under the flask and viewed from above.",
+     "keywords": [
+      "sulfur",
+      "cross",
+      "time"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why endpoint timing suits condition comparisons despite its limitation.",
+     "misconceptionClass": "method logic",
+     "modelAnswer": "Because every run shares the identical endpoint criterion, the reciprocal of the recorded time provides a comparable rate index across concentrations or temperatures.",
+     "keywords": [
+      "endpoint",
+      "criterion",
+      "comparable"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Halving the thiosulfate concentration lengthens the cross time. Explain with collision theory why the clock slows.",
+     "misconceptionClass": "application",
+     "modelAnswer": "Fewer thiosulfate particles per volume lowers collision frequency with acid, so sulfur forms more slowly and the turbidity reaches the cross-hiding threshold later.",
+     "keywords": [
+      "collision",
+      "frequency",
+      "sulfur"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "tangent",
+    "definition": "A straight line touching a curve at one point whose gradient equals the instantaneous rate there.",
+    "firstLesson": 1
+   },
+   {
+    "term": "quenching",
+    "definition": "Deliberately stopping a reaction in a removed sample so its concentration can be analysed faithfully.",
+    "firstLesson": 4
+   },
+   {
+    "term": "initial rate",
+    "definition": "The rate at time zero, found from the tangent drawn at the start of the curve.",
+    "firstLesson": 4
+   }
+  ],
+  "workedExample": {
+   "prompt": "The iodine-methanoic acid reaction releases carbon dioxide, plotted as volume against time. Using the tangent at the 20-second mark, find the rate.",
+   "steps": [
+    "Draw the tangent to the curve at 20 seconds, extending it to cross gridlines.",
+    "Complete a large right triangle on the tangent and read off the change in y and change in x.",
+    "Divide: rate = change in y / change in x = 24 / 40.",
+    "Attach units from the axes: volume in cm3 over time in seconds."
+   ],
+   "finalAnswer": "0.60 cm3 s-1"
+  }
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/2691feb4d1eb-6-1-2-rate-of-reaction-graphs.png",
+   "alt": "Rate of reaction graphs, downloadable IB Chemistry revision notes",
+   "sourceHeading": "Rates of Reaction - Graphs & Calculations",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "Rate of reaction graphs"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/737bb85fdad6-6-1-2-rate-of-reaction-worked-example-question.png",
+   "alt": "Rate of reaction - Worked Example Question, downloadable IB Chemistry revision notes",
+   "sourceHeading": "Rates of Reaction - Graphs & Calculations",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-03",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/ad9fff4a6ecf-6-1-2-rate-of-reaction-worked-example-answer.png",
+   "alt": "Rate of reaction - Worked Example Answer, downloadable IB Chemistry revision notes",
+   "sourceHeading": "Rates of Reaction - Graphs & Calculations",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-04",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/5b2862d9e30a-6-1-3-measuring-mass-changes.png",
+   "alt": "Measuring mass changes, downloadable IB Chemistry revision notes",
+   "sourceHeading": "Changes in mass",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "Measuring changes in mass using a balance"
+  },
+  {
+   "id": "fig-05",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/7121f7c93499-6-1-3-mass-loss-graph.png",
+   "alt": "Mass loss graph, downloadable IB Chemistry revision notes",
+   "sourceHeading": "Changes in mass",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "Mass loss of a product against time"
+  },
+  {
+   "id": "fig-06",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/529015928e70-6-1-3-gas-collection-set-up.png",
+   "alt": "Gas collection Set Up, downloadable IB Chemistry revision notes",
+   "sourceHeading": "Volumes of gases",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique",
+   "caption": "Collecting gases experimental set up"
+  },
+  {
+   "id": "fig-07",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/aa9d739a12f6-6-1-3-gas-collection-alternative-set-up.png",
+   "alt": "Gas collection alternative set up, downloadable IB Chemistry revision notes",
+   "sourceHeading": "Volumes of gases",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique",
+   "caption": "Alternative gas collection set up"
+  },
+  {
+   "id": "fig-08",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/9e0dc94f9ea4-6-1-3-graph-of-gas-evolved-against-time.png",
+   "alt": "Graph of gas evolved against time, downloadable IB Chemistry revision notes",
+   "sourceHeading": "Volumes of gases",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique",
+   "caption": "Graph of gas volume evolved against time"
+  },
+  {
+   "id": "fig-09",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/b21650f0a141-6-1-3-the-disappearing-cross-experiment.png",
+   "alt": "The Disappearing Cross Experiment, downloadable IB Chemistry revision notes",
+   "sourceHeading": "Measuring concentration changes",
+   "moduleIds": [
+    "L4"
+   ],
+   "binding": "heading-unique",
+   "caption": "The disappearing cross experiment"
+  },
+  {
+   "id": "fig-10",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/8b400a7c1c84-8-1-1-initial-rates-method-results-table.png",
+   "alt": "Initial Rates Method- Results Table, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Measuring concentration changes",
+   "moduleIds": [
+    "L4"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-11",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/f5ff62514d84-8-1-1-initial-rates-method-results-graph.png",
+   "alt": "Initial Rates Method - Results Graph, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Measuring concentration changes",
+   "moduleIds": [
+    "L4"
+   ],
+   "binding": "heading-unique"
+  }
+ ]
+}

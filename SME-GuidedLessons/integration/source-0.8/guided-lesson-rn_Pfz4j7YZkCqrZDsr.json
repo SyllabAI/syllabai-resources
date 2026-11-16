@@ -1,0 +1,855 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_Pfz4j7YZkCqrZDsr",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "2. Energetics, Group Chemistry, Halogenoalkanes & Alcohols",
+  "subtopicTitle": "Collision Theory",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/2-energetics-group-chemistry-halogenoalkanes-and-alcohols/2-6-introduction-to-kinetics-and-equilibria/2-6-1-collision-theory"
+ },
+ "specPoints": [
+  {
+   "code": "9.1",
+   "text": "understand, in terms of the collision theory, the effect of changes in concentration, temperature, pressure and surface area on the rate of a chemical reaction"
+  }
+ ],
+ "primer": {
+  "text": "Reactions are collision stories: particles must meet often enough, hard enough, and facing the right way. This note builds the collision trio - frequency, energy and activation hurdle - and shows how concentration, pressure, temperature and surface area each rewrite the crash statistics.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Successful collisions and the rate trio",
+   "sourceHeadings": [
+    "Collision Theory"
+   ],
+   "specRefs": [
+    "9.1"
+   ],
+   "opening": "Reacting particles crash together constantly, yet only a few crashes make products. Collision theory splits those crashes by frequency, by energy, and by the activation hurdle, and rate ends up counting the successful collisions per unit time.",
+   "keyPoints": [
+    "Rate of reaction depends on collision frequency, collision energy, and the activation energy.",
+    "Rate ultimately measures the number of successful or effective collisions per unit time.",
+    "A successful collision needs the correct orientation and sufficient energy for bonds to break and new bonds to form.",
+    "Unsuccessful collisions bounce the particles apart without reaction."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Particles must meet (frequency), meet hard enough (energy) and meet facing the right way (orientation) for a reaction; everything else is a bounce.",
+     "analogy": "Darts hitting a board: you must throw often, throw hard, and aim - missing any one means no score.",
+     "examPointer": "When asked why a condition changes rate, always end at 'more frequent successful collisions per unit time'."
+    },
+    "medium": {
+     "restatement": "Only collisions that combine adequate kinetic energy with productive geometry convert reactant bonds into product bonds; the rate is a census of those effective impacts, not of all impacts.",
+     "analogy": "Two key-and-lock attempts per second can both fail if the key is soft or turned the wrong way; only a hard, correctly turned turn opens the lock.",
+     "examPointer": "Distinguish 'collision frequency' (how often) from 'successful collisions' (how often AND productive) - conflating them loses the analysis mark."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "A successful collision requires the particles to collide with",
+     "misconceptionClass": "success conditions",
+     "options": [
+      {
+       "key": "A",
+       "text": "Sufficient energy and the correct orientation",
+       "correct": true,
+       "explanation": "Both conditions together let bonds break and new bonds form.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "High speed only, whatever the direction",
+       "correct": false,
+       "explanation": "Energy without orientation leaves the collision ineffective.",
+       "misconception": "condition missing"
+      },
+      {
+       "key": "C",
+       "text": "Correct orientation only, whatever the energy",
+       "correct": false,
+       "explanation": "Orientation without the activation energy still bounces the pair apart.",
+       "misconception": "condition missing"
+      },
+      {
+       "key": "D",
+       "text": "Identical masses in each collision",
+       "correct": false,
+       "explanation": "Particle masses need not match for reaction.",
+       "misconception": "condition invented"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "An unsuccessful collision is one in which the particles",
+     "misconceptionClass": "failure mode",
+     "options": [
+      {
+       "key": "A",
+       "text": "Bounce apart because of wrong orientation or too little energy",
+       "correct": true,
+       "explanation": "Both failure routes leave the reactants unchanged.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Always combine to form a temporary compound",
+       "correct": false,
+       "explanation": "No product forms in an unsuccessful collision.",
+       "misconception": "outcome wrong"
+      },
+      {
+       "key": "C",
+       "text": "Transfer all their energy to the surroundings",
+       "correct": false,
+       "explanation": "Energy transfer is not the definition of failure here.",
+       "misconception": "mechanism wrong"
+      },
+      {
+       "key": "D",
+       "text": "Stick together as an intermediate",
+       "correct": false,
+       "explanation": "Unsuccessful collisions separate the particles again.",
+       "misconception": "outcome wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The rate of a chemical reaction is ultimately determined by",
+     "misconceptionClass": "rate determinant",
+     "options": [
+      {
+       "key": "A",
+       "text": "The number of successful collisions per unit time",
+       "correct": true,
+       "explanation": "Rate counts effective collisions, not raw collision numbers.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The total number of collisions however weak",
+       "correct": false,
+       "explanation": "Most collisions fail; counting them overstates the rate.",
+       "misconception": "logic wrong"
+      },
+      {
+       "key": "C",
+       "text": "The mass of the largest reactant particle",
+       "correct": false,
+       "explanation": "Mass is not the direct determinant.",
+       "misconception": "factor wrong"
+      },
+      {
+       "key": "D",
+       "text": "The temperature alone in every case",
+       "correct": false,
+       "explanation": "Temperature matters, but only through the collision factors it feeds.",
+       "misconception": "factor narrowed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which list gives the three rate-controlling factors named in collision theory?",
+     "misconceptionClass": "factor trio",
+     "options": [
+      {
+       "key": "A",
+       "text": "Collision frequency, collision energy, activation energy",
+       "correct": true,
+       "explanation": "These three together decide how many collisions succeed.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Pressure, catalysts and light intensity",
+       "correct": false,
+       "explanation": "These are condition levers, not the theory's named trio.",
+       "misconception": "factor wrong"
+      },
+      {
+       "key": "C",
+       "text": "Molar mass, density and polarity",
+       "correct": false,
+       "explanation": "None of these is the collision-theory trio.",
+       "misconception": "factor wrong"
+      },
+      {
+       "key": "D",
+       "text": "Surface area, temperature and a colour change",
+       "correct": false,
+       "explanation": "The colour change is a measuring method, not a factor.",
+       "misconception": "factor wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Bonds in the reactants break and new bonds form only when",
+     "misconceptionClass": "bond condition",
+     "options": [
+      {
+       "key": "A",
+       "text": "A collision carries at least the activation energy and correct geometry",
+       "correct": true,
+       "explanation": "The energy hurdle and orientation together allow bond reorganisation.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Any collision occurs, however gentle",
+       "correct": false,
+       "explanation": "Gentle collisions bounce off without reaction.",
+       "misconception": "condition wrong"
+      },
+      {
+       "key": "C",
+       "text": "The particles are at absolute rest",
+       "correct": false,
+       "explanation": "Resting particles do not collide at all.",
+       "misconception": "logic wrong"
+      },
+      {
+       "key": "D",
+       "text": "A catalyst is always present",
+       "correct": false,
+       "explanation": "Catalysts help but uncatalysed successful collisions still occur.",
+       "misconception": "condition wrong"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the two conditions for an effective collision.",
+     "misconceptionClass": "condition recall",
+     "modelAnswer": "The particles must collide with energy at least equal to the activation energy and in the correct orientation.",
+     "keywords": [
+      "activation",
+      "energy",
+      "orientation"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Define an unsuccessful collision.",
+     "misconceptionClass": "definition",
+     "modelAnswer": "A collision in which the particles lack the energy or the orientation needed to react, so they bounce apart without forming products.",
+     "keywords": [
+      "energy",
+      "orientation",
+      "bounce"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why most collisions do not lead to reaction.",
+     "misconceptionClass": "failure explanation",
+     "modelAnswer": "Most colliding pairs either lack the minimum activation energy or meet in an unproductive orientation, so bonds stay intact and the particles separate unchanged.",
+     "keywords": [
+      "energy",
+      "orientation",
+      "bonds"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A reaction between two gases suddenly speeds up when the mixture is compressed. Explain using collision theory.",
+     "misconceptionClass": "application",
+     "modelAnswer": "Compression packs the same particles into a smaller volume, raising collision frequency; with the same fraction of successful collisions, more effective collisions occur per unit time and the rate rises.",
+     "keywords": [
+      "collision",
+      "frequency",
+      "volume"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Controlling collision frequency",
+   "sourceHeadings": [
+    "Collision frequency",
+    "Collision energy"
+   ],
+   "specRefs": [
+    "9.1"
+   ],
+   "opening": "Four levers move collision frequency: concentration, pressure, temperature and particle size. But frequency alone is not the whole story - each collision must also carry enough energy, which is where most pairs fail.",
+   "keyPoints": [
+    "Collision frequency counts the collisions between reactant particles in each unit of time.",
+    "Raising concentration, pressure, temperature or surface area all raise collision frequency.",
+    "Higher concentration or pressure packs more particles into the same space for more frequent meetings.",
+    "Not every collision succeeds: most pairs lack the energy to break the necessary bonds."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "More particles in less space, faster-moving particles, or more exposed surface all raise the meeting rate; but only collisions with sufficient energy can react.",
+     "analogy": "A busy crossroads: more traffic means more encounters, yet only encounters with enough momentum to unlock the gate lead anywhere.",
+     "examPointer": "Pair each condition with its mechanism: concentration/pressure = more particles per volume; temperature = more kinetic energy; surface area = more exposed particles."
+    },
+    "medium": {
+     "restatement": "Frequency is a counting problem - collisions per second - while success is an energy problem per collision. Temperature is the one lever that raises both counts at once: more collisions and a bigger energetic share of them.",
+     "analogy": "Speeding up a queue raises the number of handshakes per minute, but only firm grips (energetic collisions) conclude deals.",
+     "examPointer": "Do not claim higher concentration raises collision energy - it only raises collision frequency."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Increasing the concentration of a solution increases rate because",
+     "misconceptionClass": "concentration mechanism",
+     "options": [
+      {
+       "key": "A",
+       "text": "More particles occupy the same volume, so collisions happen more often",
+       "correct": true,
+       "explanation": "Crowding raises collision frequency, hence more successful collisions per unit time.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Each collision carries more energy",
+       "correct": false,
+       "explanation": "Concentration does not change the energy of individual collisions.",
+       "misconception": "mechanism wrong"
+      },
+      {
+       "key": "C",
+       "text": "The activation energy becomes smaller",
+       "correct": false,
+       "explanation": "Ea is fixed for a given reaction at a given temperature.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "D",
+       "text": "The particles change orientation more efficiently",
+       "correct": false,
+       "explanation": "Orientation is unaffected by concentration.",
+       "misconception": "mechanism wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Raising the pressure of a gas reaction raises rate because",
+     "misconceptionClass": "pressure mechanism",
+     "options": [
+      {
+       "key": "A",
+       "text": "The same number of particles now sits in a smaller volume, colliding more often",
+       "correct": true,
+       "explanation": "Compression concentrates the particles, lifting collision frequency.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The molecules gain kinetic energy from compression",
+       "correct": false,
+       "explanation": "Kinetic energy rises with temperature, not with pressure at fixed T.",
+       "misconception": "mechanism wrong"
+      },
+      {
+       "key": "C",
+       "text": "The activation energy barrier drops",
+       "correct": false,
+       "explanation": "The barrier is a property of the reaction, not the pressure.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "D",
+       "text": "Fewer particles are needed for the reaction",
+       "correct": false,
+       "explanation": "Stoichiometry is unchanged by pressure.",
+       "misconception": "logic wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which condition raises BOTH collision frequency and collision energy?",
+     "misconceptionClass": "dual lever",
+     "options": [
+      {
+       "key": "A",
+       "text": "Increasing the temperature",
+       "correct": true,
+       "explanation": "Heat raises kinetic energy, speeding particles so they meet more often and hit harder.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Increasing the concentration",
+       "correct": false,
+       "explanation": "Concentration raises frequency only.",
+       "misconception": "lever wrong"
+      },
+      {
+       "key": "C",
+       "text": "Grinding a solid into powder",
+       "correct": false,
+       "explanation": "Surface area raises frequency only.",
+       "misconception": "lever wrong"
+      },
+      {
+       "key": "D",
+       "text": "Adding an inert gas at constant volume",
+       "correct": false,
+       "explanation": "Inert gas barely changes the reactant collision count.",
+       "misconception": "lever wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Increasing the surface area of a solid reactant works by",
+     "misconceptionClass": "surface mechanism",
+     "options": [
+      {
+       "key": "A",
+       "text": "Exposing more particles for collision at the interface",
+       "correct": true,
+       "explanation": "More available surface means more collision opportunities per unit time.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Lowering the activation energy of the reaction",
+       "correct": false,
+       "explanation": "Ea is unchanged by subdivision.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "C",
+       "text": "Increasing the energy of each collision",
+       "correct": false,
+       "explanation": "Collision energy is set by temperature, not surface area.",
+       "misconception": "mechanism wrong"
+      },
+      {
+       "key": "D",
+       "text": "Dissolving the solid faster",
+       "correct": false,
+       "explanation": "Dissolution is not the mechanism for a solid-solid or solid-gas reaction.",
+       "misconception": "mechanism wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A mixture has frequent collisions yet reacts slowly. The best explanation is",
+     "misconceptionClass": "slow rate puzzle",
+     "options": [
+      {
+       "key": "A",
+       "text": "Most collisions lack sufficient energy to overcome the activation energy",
+       "correct": true,
+       "explanation": "High frequency with low success still gives a slow rate.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The collisions are too frequent to succeed",
+       "correct": false,
+       "explanation": "There is no such effect; frequency helps.",
+       "misconception": "logic wrong"
+      },
+      {
+       "key": "C",
+       "text": "The particles are colliding in the wrong container",
+       "correct": false,
+       "explanation": "Container choice is not a collision-theory factor.",
+       "misconception": "reason invented"
+      },
+      {
+       "key": "D",
+       "text": "The activation energy is zero",
+       "correct": false,
+       "explanation": "With zero Ea almost every energetic collision would succeed.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State four ways to increase collision frequency.",
+     "misconceptionClass": "frequency recall",
+     "modelAnswer": "Increase concentration, increase pressure, increase temperature, or increase the surface area of the reacting particles.",
+     "keywords": [
+      "concentration",
+      "pressure",
+      "surface"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Define collision frequency.",
+     "misconceptionClass": "definition",
+     "modelAnswer": "The number of collisions between reactant particles per unit time in the system.",
+     "keywords": [
+      "collisions",
+      "unit",
+      "time"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why temperature is the most powerful of the four frequency levers.",
+     "misconceptionClass": "temperature primacy",
+     "modelAnswer": "Temperature raises collision frequency and also increases the proportion of collisions carrying at least the activation energy, so it lifts both factors that decide the rate.",
+     "keywords": [
+      "frequency",
+      "energy",
+      "proportion"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Marble chips react faster as powder than as lumps with the same acid. Explain with collision theory, and state one lever the student must keep constant for a fair test.",
+     "misconceptionClass": "application",
+     "modelAnswer": "Powder exposes far more surface, so more acid particles collide with exposed solid per unit time, raising successful collisions; concentration and temperature must be kept constant for the comparison to be fair.",
+     "keywords": [
+      "surface",
+      "collision",
+      "constant"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Activation energy and reaction profiles",
+   "sourceHeadings": [
+    "Activation Energy"
+   ],
+   "specRefs": [
+    "9.1"
+   ],
+   "opening": "Every reaction charges a toll: the activation energy, the minimum energy a collision must carry before bonds will reorganise. Exothermic profiles show a low hill; endothermic ones a taller climb, because reactants start below their products.",
+   "keyPoints": [
+    "The activation energy Ea is the minimum energy reactant particles need before reaction can occur.",
+    "Exothermic reactants start above their products, leaving a relatively small barrier to climb.",
+    "Endothermic reactants start below their products, so the barrier to climb is relatively larger.",
+    "Even correctly oriented collisions fail if their energy is below Ea."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "The energy hill between reactants and products is the activation energy; exothermic reactants sit high and pay a small toll, endothermic reactants sit low and pay a larger one.",
+     "analogy": "A summit between two valleys: walking downhill-to-downhill is an easy climb; climbing from a low valley to a high one is a longer haul.",
+     "examPointer": "On profiles, always mark Ea as the vertical gap from reactants to the curve's peak, and label the exothermic/endothermic starting levels."
+    },
+    "medium": {
+     "restatement": "Kinetic energy distributions explain the toll: only the tail of particles beyond Ea can react regardless of orientation. Endothermic reactions pay the toll plus the net energy gain, which is why their Ea is comparatively larger.",
+     "analogy": "A theme-park ride with a height bar: only riders taller than the bar (energy above Ea) get through, however perfectly they queue (orientation).",
+     "examPointer": "Quote 'minimum energy' verbatim in Ea definitions and connect relative profile heights to exothermic versus endothermic classification."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Activation energy is",
+     "misconceptionClass": "definition",
+     "options": [
+      {
+       "key": "A",
+       "text": "The minimum energy colliding particles must possess for a reaction to occur",
+       "correct": true,
+       "explanation": "Below Ea, no collision can convert reactants into products.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The total energy released by an exothermic reaction",
+       "correct": false,
+       "explanation": "That is the enthalpy change, not Ea.",
+       "misconception": "quantity confused"
+      },
+      {
+       "key": "C",
+       "text": "The energy of the products minus the reactants",
+       "correct": false,
+       "explanation": "That describes ΔH, not the barrier height.",
+       "misconception": "quantity confused"
+      },
+      {
+       "key": "D",
+       "text": "The average kinetic energy of the mixture",
+       "correct": false,
+       "explanation": "The average sits below Ea for most reactions; Ea is the threshold.",
+       "misconception": "quantity confused"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "On an energy profile for an endothermic reaction, the reactants sit",
+     "misconceptionClass": "profile reading",
+     "options": [
+      {
+       "key": "A",
+       "text": "Lower than the products, giving a relatively larger activation energy",
+       "correct": true,
+       "explanation": "Climbing uphill needs a bigger barrier, matching endothermic absorption.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Higher than the products, giving a small barrier",
+       "correct": false,
+       "explanation": "That describes the exothermic profile.",
+       "misconception": "profile confused"
+      },
+      {
+       "key": "C",
+       "text": "At the same level as the products",
+       "correct": false,
+       "explanation": "Endothermic reactions have a net energy rise.",
+       "misconception": "profile wrong"
+      },
+      {
+       "key": "D",
+       "text": "At the curve's maximum",
+       "correct": false,
+       "explanation": "The maximum is the transition state, not the reactants.",
+       "misconception": "profile wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A collision with perfect orientation still fails when",
+     "misconceptionClass": "orientation limit",
+     "options": [
+      {
+       "key": "A",
+       "text": "Its energy is below the activation energy",
+       "correct": true,
+       "explanation": "Both conditions are required; failing one is enough to bounce the pair apart.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The particles are gases",
+       "correct": false,
+       "explanation": "Gas-phase collisions succeed regularly when conditions are met.",
+       "misconception": "condition wrong"
+      },
+      {
+       "key": "C",
+       "text": "The temperature is high",
+       "correct": false,
+       "explanation": "High temperature raises success, not failure.",
+       "misconception": "logic reversed"
+      },
+      {
+       "key": "D",
+       "text": "A catalyst is absent",
+       "correct": false,
+       "explanation": "Catalysis is optional; uncatalysed successful collisions occur.",
+       "misconception": "condition wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why is the exothermic barrier comparatively small?",
+     "misconceptionClass": "barrier comparison",
+     "options": [
+      {
+       "key": "A",
+       "text": "The reactants already sit higher in energy than the products",
+       "correct": true,
+       "explanation": "Starting high means less climb to the transition state.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Exothermic reactions release no energy",
+       "correct": false,
+       "explanation": "They release the surplus after the barrier is crossed.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "C",
+       "text": "Their particles always collide harder",
+       "correct": false,
+       "explanation": "Collision energy depends on temperature, not reaction type.",
+       "misconception": "mechanism wrong"
+      },
+      {
+       "key": "D",
+       "text": "Products in exothermic reactions have no energy",
+       "correct": false,
+       "explanation": "Products still carry energy; they are simply lower than reactants.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Rate experiments commonly measure reaction progress by tracking",
+     "misconceptionClass": "measuring routes",
+     "options": [
+      {
+       "key": "A",
+       "text": "Reactant lost, product formed, a colour change, or precipitate formation timing",
+       "correct": true,
+       "explanation": "All four translate successful collisions into observable change.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Only the mass of the catalyst",
+       "correct": false,
+       "explanation": "Catalyst mass is constant and uninformative here.",
+       "misconception": "method wrong"
+      },
+      {
+       "key": "C",
+       "text": "The activation energy directly",
+       "correct": false,
+       "explanation": "Ea is deduced from analysis, not read during the run.",
+       "misconception": "method wrong"
+      },
+      {
+       "key": "D",
+       "text": "The particle orientation with a camera",
+       "correct": false,
+       "explanation": "Orientation is a model concept, not a lab measurement.",
+       "misconception": "method wrong"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Define activation energy.",
+     "misconceptionClass": "definition",
+     "modelAnswer": "The minimum energy that reactant particles must possess for a collision to lead to reaction.",
+     "keywords": [
+      "minimum",
+      "energy",
+      "reaction"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Compare the activation energy of exothermic and endothermic reactions.",
+     "misconceptionClass": "comparison recall",
+     "modelAnswer": "Exothermic reactions have a relatively small Ea because reactants start above products; endothermic reactions have a relatively larger Ea because reactants start below products.",
+     "keywords": [
+      "exothermic",
+      "endothermic",
+      "larger"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why a catalyst lowers Ea without changing collision frequency.",
+     "misconceptionClass": "catalyst preview",
+     "modelAnswer": "A catalyst provides an alternative pathway with a lower energy barrier, so the same collision population now has a larger fraction above the reduced Ea - frequency is untouched, success fraction rises.",
+     "keywords": [
+      "pathway",
+      "barrier",
+      "fraction"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Two reactions share identical conditions and collision frequencies, but reaction A is much faster. Sketch reasoning in words comparing their Ea values.",
+     "misconceptionClass": "application",
+     "modelAnswer": "Reaction A must have the lower activation energy: with equal collision counts, the mixture whose energy distribution clears the smaller barrier yields far more successful collisions per unit time.",
+     "keywords": [
+      "activation",
+      "barrier",
+      "successful"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "collision frequency",
+    "definition": "The number of collisions between reactant particles per unit time in the system.",
+    "firstLesson": 2
+   },
+   {
+    "term": "effective collision",
+    "definition": "A collision with the correct orientation and at least the activation energy, producing reaction.",
+    "firstLesson": 1
+   },
+   {
+    "term": "activation energy",
+    "definition": "The minimum energy a collision must carry before reactant bonds can break and products form.",
+    "firstLesson": 3
+   }
+  ],
+  "workedExample": null
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/0a9832fd4e0e-1-8-reaction-kinetics-effective-and-non-effectiv.png",
+   "alt": "Reaction Kinetics Effective and Non-Effective Collisions, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Collision Theory",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "(a) shows an ineffective collision due to the particles not having enough energy whereas (b) shows an effective collision where the particles have the correct orientation and enough energy for a chemical reaction to take place"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/20b940d4ad56-exothermic-reaction-profile.png",
+   "alt": "exothermic-reaction-profile",
+   "sourceHeading": "Activation Energy",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique",
+   "caption": "The diagram shows that the reactants are higher in energy than the products in the exothermic reaction, so the energy needed for the reactants to go over the energy barrier is relatively small"
+  },
+  {
+   "id": "fig-03",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/26e9ecd8668f-endothermic-reaction-profile.png",
+   "alt": "endothermic-reaction-profile",
+   "sourceHeading": "Activation Energy",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique",
+   "caption": "The diagram shows that the reactants are lower in energy than the products in the endothermic reaction, so the energy needed for the reactants to go over the energy barrier is relatively large"
+  }
+ ]
+}

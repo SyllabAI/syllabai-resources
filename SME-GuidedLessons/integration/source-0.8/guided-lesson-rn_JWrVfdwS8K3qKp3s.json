@@ -1,0 +1,584 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_JWrVfdwS8K3qKp3s",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "2. Energetics, Group Chemistry, Halogenoalkanes & Alcohols",
+  "subtopicTitle": "Maxwell-Boltzmann Distributions",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/2-energetics-group-chemistry-halogenoalkanes-and-alcohols/2-6-introduction-to-kinetics-and-equilibria/2-6-3-maxwell-boltzmann-distributions"
+ },
+ "specPoints": [
+  {
+   "code": "9.4",
+   "text": "understand qualitatively, in terms of the Maxwell-Boltzmann distribution of molecular energies, how changes in temperature affect the rate of a reaction"
+  }
+ ],
+ "primer": {
+  "text": "Molecular energies spread across a skewed curve: few slow, few fast, most middling. This note reads the Maxwell-Boltzmann shape, marks the reactive tail beyond the activation energy, and shows how heating flattens the peak, shifts it right and swells exactly that tail.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Reading the Maxwell-Boltzmann curve",
+   "sourceHeadings": [
+    "Maxwell-Boltzmann distribution curve"
+   ],
+   "specRefs": [
+    "9.4"
+   ],
+   "opening": "A sample of gas molecules shares energy unequally: a few slow, a few fast, most in between. The Maxwell-Boltzmann curve maps that spread, and only the small area beyond the activation energy marks molecules able to react.",
+   "keyPoints": [
+    "A Maxwell-Boltzmann distribution curve shows the spread of molecular energies at a given temperature.",
+    "A few molecules have very low energy, a few very high, and most sit in between.",
+    "Only the small proportion of molecules with energy at or above the activation energy can react effectively.",
+    "The curve starts at the origin: no molecule has zero energy."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "The curve rises steeply, peaks at the most likely energy, then trails off; the shaded tail beyond Ea holds the reactive minority.",
+     "analogy": "A city's income chart: a few very rich, a few very poor, a broad middle - and only those above a threshold can afford the ticket (reaction).",
+     "examPointer": "On sketches, anchor the curve at the origin, mark the peak, and shade only beyond Ea when asked for the reacting fraction."
+    },
+    "medium": {
+     "restatement": "Energy is quantised per collision but distributed statistically across the sample; temperature sets the shape, Ea sets the cutoff. Reaction rate scales with the area beyond Ea, not the peak height.",
+     "analogy": "A stadium wave with only its crest able to open the exit gate - the crest's size, not the crowd's height, decides the flow.",
+     "examPointer": "Never sketch a curve touching the energy axis away from the origin - zero-energy molecules do not exist."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "A Maxwell-Boltzmann distribution curve plots",
+     "misconceptionClass": "axes identification",
+     "options": [
+      {
+       "key": "A",
+       "text": "Number of molecules against their energy",
+       "correct": true,
+       "explanation": "The vertical axis counts molecules; the horizontal axis measures energy.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Temperature against pressure",
+       "correct": false,
+       "explanation": "Neither axis is temperature or pressure.",
+       "misconception": "axes wrong"
+      },
+      {
+       "key": "C",
+       "text": "Rate against time",
+       "correct": false,
+       "explanation": "That is a rate curve, not an energy distribution.",
+       "misconception": "axes wrong"
+      },
+      {
+       "key": "D",
+       "text": "Energy against concentration",
+       "correct": false,
+       "explanation": "Concentration never appears on this curve.",
+       "misconception": "axes wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Most molecules in a gas sample have energies that are",
+     "misconceptionClass": "population reading",
+     "options": [
+      {
+       "key": "A",
+       "text": "In the middle range around the curve's peak",
+       "correct": true,
+       "explanation": "The peak marks the most probable energy, where the population concentrates.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "At the very highest values",
+       "correct": false,
+       "explanation": "Only a few molecules occupy the high-energy tail.",
+       "misconception": "population wrong"
+      },
+      {
+       "key": "C",
+       "text": "At exactly zero",
+       "correct": false,
+       "explanation": "The curve passes through the origin; zero-energy molecules are absent.",
+       "misconception": "population wrong"
+      },
+      {
+       "key": "D",
+       "text": "Evenly spread across all values",
+       "correct": false,
+       "explanation": "The distribution is skewed, not uniform.",
+       "misconception": "population wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Molecules able to react on collision are found",
+     "misconceptionClass": "reactive tail",
+     "options": [
+      {
+       "key": "A",
+       "text": "In the small area beyond the activation energy",
+       "correct": true,
+       "explanation": "Only that energetic tail clears the reaction barrier.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "At the peak of the curve",
+       "correct": false,
+       "explanation": "Peak molecules are the most common but not necessarily energetic enough.",
+       "misconception": "location wrong"
+      },
+      {
+       "key": "C",
+       "text": "At the low-energy start of the curve",
+       "correct": false,
+       "explanation": "Low-energy molecules cannot clear Ea.",
+       "misconception": "location wrong"
+      },
+      {
+       "key": "D",
+       "text": "Anywhere on the curve equally",
+       "correct": false,
+       "explanation": "Energy decides reactivity, so location matters.",
+       "misconception": "logic wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why does the curve begin at the origin?",
+     "misconceptionClass": "origin reason",
+     "options": [
+      {
+       "key": "A",
+       "text": "No molecule possesses zero energy",
+       "correct": true,
+       "explanation": "Every molecule carries at least some kinetic energy.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Energy cannot be measured in a gas",
+       "correct": false,
+       "explanation": "Energies are measured and plotted routinely.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "C",
+       "text": "The axes only allow positive counts",
+       "correct": false,
+       "explanation": "Axis conventions are not the physical reason.",
+       "misconception": "reason wrong"
+      },
+      {
+       "key": "D",
+       "text": "Zero energy molecules react instantly",
+       "correct": false,
+       "explanation": "They do not exist in the sample at all.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The small proportion of effective molecules matters for rate because",
+     "misconceptionClass": "rate linkage",
+     "options": [
+      {
+       "key": "A",
+       "text": "Rate scales with how many molecules exceed the activation energy",
+       "correct": true,
+       "explanation": "The reactive tail's size, times collision frequency, sets the rate.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Rate depends only on the peak position",
+       "correct": false,
+       "explanation": "The peak marks the modal energy, not the reactive count.",
+       "misconception": "logic wrong"
+      },
+      {
+       "key": "C",
+       "text": "Rate falls as more molecules gain energy",
+       "correct": false,
+       "explanation": "More energetic molecules raise the rate.",
+       "misconception": "logic reversed"
+      },
+      {
+       "key": "D",
+       "text": "Rate is independent of molecular energies",
+       "correct": false,
+       "explanation": "Energy versus Ea is exactly what drives success.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Describe the shape of the Maxwell-Boltzmann distribution.",
+     "misconceptionClass": "shape recall",
+     "modelAnswer": "It starts at the origin, rises to a peak at the most probable energy, then trails off in a long tail of a few very energetic molecules.",
+     "keywords": [
+      "origin",
+      "peak",
+      "tail"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State what fraction of molecules can react at a given temperature.",
+     "misconceptionClass": "fraction recall",
+     "modelAnswer": "Only the small proportion whose energy equals or exceeds the activation energy.",
+     "keywords": [
+      "proportion",
+      "activation",
+      "energy"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the curve is not symmetrical.",
+     "misconceptionClass": "shape explanation",
+     "modelAnswer": "There is a minimum energy floor but no maximum ceiling, so the population piles up around the peak and stretches into a long high-energy tail, giving a skewed curve.",
+     "keywords": [
+      "floor",
+      "tail",
+      "skewed"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A catalyst lowers Ea for a gaseous reaction. Describe the change on the Maxwell-Boltzmann curve and the rate consequence.",
+     "misconceptionClass": "application",
+     "modelAnswer": "The curve's shape is unchanged, but the Ea line moves left, so the shaded area beyond it grows; a larger fraction of molecules can now react and the rate rises.",
+     "keywords": [
+      "shaded",
+      "area",
+      "rate"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Heating the distribution",
+   "sourceHeadings": [
+    "Changes in temperature"
+   ],
+   "specRefs": [
+    "9.4"
+   ],
+   "opening": "Add ten degrees and the whole curve reorganises: the peak drops and slides right, and the tail beyond the activation energy fattens dramatically. Rate climbs for two reasons at once - more collisions, and far more energetic ones.",
+   "keyPoints": [
+    "Heating gives particles more kinetic energy, so they move faster and collide more frequently.",
+    "A greater proportion of molecules then exceed the activation energy.",
+    "At higher temperature the curve flattens and its peak shifts to the right.",
+    "Rate rises from both more frequent collisions and a bigger energetic fraction."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Higher temperature spreads the same population over higher energies: peak down and right, tail beyond Ea much fatter, so successful collisions multiply.",
+     "analogy": "Stretching dough sideways flattens its centre while extending its far edge - the tail of fast molecules grows the same way.",
+     "examPointer": "Sketch both curves (T and T+10) on one pair of axes and mark that total area is conserved while the beyond-Ea area grows."
+    },
+    "medium": {
+     "restatement": "Kinetic energy scales with absolute temperature, so a modest Celsius rise shifts many molecules across the Ea threshold - the exponential tail effect that makes heating disproportionately powerful for rates.",
+     "analogy": "A queue crossing a fixed turnstile height: raise everyone's shoe soles by two centimetres and the number clearing the bar jumps far more than 2 percent.",
+     "examPointer": "Always give BOTH causes (frequency and energetic fraction) when explaining temperature effects on rate - one alone is half marks."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Increasing temperature changes the Maxwell-Boltzmann curve by",
+     "misconceptionClass": "curve change",
+     "options": [
+      {
+       "key": "A",
+       "text": "Flattening it and shifting the peak to the right",
+       "correct": true,
+       "explanation": "The same population spreads over higher energies, lowering and moving the maximum.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Tallening the peak and shifting it left",
+       "correct": false,
+       "explanation": "That describes cooling, not heating.",
+       "misconception": "direction reversed"
+      },
+      {
+       "key": "C",
+       "text": "Leaving it entirely unchanged",
+       "correct": false,
+       "explanation": "Temperature reshapes the distribution directly.",
+       "misconception": "change denied"
+      },
+      {
+       "key": "D",
+       "text": "Moving the curve's origin off zero",
+       "correct": false,
+       "explanation": "The origin stays at zero energy.",
+       "misconception": "artifact wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The proportion of molecules exceeding the activation energy after heating",
+     "misconceptionClass": "tail effect",
+     "options": [
+      {
+       "key": "A",
+       "text": "Increases substantially, fattening the area beyond Ea",
+       "correct": true,
+       "explanation": "The high-energy tail grows, enlarging the reactive fraction.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Decreases as molecules spread out",
+       "correct": false,
+       "explanation": "Spreading raises the tail share.",
+       "misconception": "direction reversed"
+      },
+      {
+       "key": "C",
+       "text": "Stays constant since Ea is fixed",
+       "correct": false,
+       "explanation": "Ea is fixed, but the population above it grows.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "D",
+       "text": "Becomes impossible to compare between temperatures",
+       "correct": false,
+       "explanation": "The same axes allow direct comparison.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Heating raises reaction rate because of",
+     "misconceptionClass": "dual cause",
+     "options": [
+      {
+       "key": "A",
+       "text": "More frequent collisions AND a greater energetic fraction",
+       "correct": true,
+       "explanation": "Both factors rise together under heating.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "More frequent collisions only",
+       "correct": false,
+       "explanation": "Half the answer; the energetic fraction matters more.",
+       "misconception": "cause partial"
+      },
+      {
+       "key": "C",
+       "text": "A lower activation energy",
+       "correct": false,
+       "explanation": "Heating does not change Ea; the catalyst does.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "D",
+       "text": "A larger activation energy",
+       "correct": false,
+       "explanation": "A larger barrier would slow the reaction.",
+       "misconception": "direction reversed"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "After a 10 oC temperature rise, the peak of the distribution",
+     "misconceptionClass": "peak reading",
+     "options": [
+      {
+       "key": "A",
+       "text": "Shifts right and lowers slightly",
+       "correct": true,
+       "explanation": "Higher energies spread the population, moving the most probable energy up and flattening the maximum.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Stays in place",
+       "correct": false,
+       "explanation": "The whole point of heating is the rightward shift.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "C",
+       "text": "Shifts left and rises",
+       "correct": false,
+       "explanation": "That is the cooling signature.",
+       "misconception": "direction reversed"
+      },
+      {
+       "key": "D",
+       "text": "Disappears entirely",
+       "correct": false,
+       "explanation": "A distribution always has a most probable energy.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which statement about total molecule count on the two-temperature sketch is correct?",
+     "misconceptionClass": "area logic",
+     "options": [
+      {
+       "key": "A",
+       "text": "The area under each curve equals the same total number of molecules",
+       "correct": true,
+       "explanation": "Heating redistributes energies; it creates no new molecules.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The hotter curve has less total area",
+       "correct": false,
+       "explanation": "Total area is conserved across temperatures.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "C",
+       "text": "Only the tail area is conserved",
+       "correct": false,
+       "explanation": "The tail grows; the total is what stays fixed.",
+       "misconception": "logic wrong"
+      },
+      {
+       "key": "D",
+       "text": "Area has no physical meaning here",
+       "correct": false,
+       "explanation": "Area under the curve is exactly the molecule count.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the two effects of heating on collision behaviour.",
+     "misconceptionClass": "effects recall",
+     "modelAnswer": "Particles move faster so collisions are more frequent, and a greater proportion of collisions involve energy above the activation energy.",
+     "keywords": [
+      "frequent",
+      "proportion",
+      "activation"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Describe the curve change when temperature increases.",
+     "misconceptionClass": "curve recall",
+     "modelAnswer": "The curve flattens, its peak shifts right, and the area beyond the activation energy grows.",
+     "keywords": [
+      "flattens",
+      "peak",
+      "right"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why a modest temperature rise can produce a large rate increase.",
+     "misconceptionClass": "magnitude explanation",
+     "modelAnswer": "The high-energy tail holds the reacting molecules, and heating redistributes a substantial slice of the population across the Ea threshold, multiplying the reactive fraction far beyond the proportional temperature change.",
+     "keywords": [
+      "tail",
+      "fraction",
+      "threshold"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A reaction doubles in rate when warmed from 20 to 30 oC. Explain using the curve, not the thermometer.",
+     "misconceptionClass": "application",
+     "modelAnswer": "The +10 oC shift moves enough molecules beyond Ea to roughly double the shaded reactive area, while collisions also become somewhat more frequent - the tail growth does the heavy lifting.",
+     "keywords": [
+      "tail",
+      "double",
+      "activation"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "Maxwell-Boltzmann distribution",
+    "definition": "The graph showing how molecular energies are spread across a gas sample at a fixed temperature.",
+    "firstLesson": 1
+   },
+   {
+    "term": "most probable energy",
+    "definition": "The energy at the curve's peak, where the largest number of molecules sits.",
+    "firstLesson": 1
+   },
+   {
+    "term": "reactive tail",
+    "definition": "The small high-energy fraction of molecules whose energy reaches the activation energy.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": null
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/2e8e27149a53-1-8-reaction-kinetics-boltzmann-distribution-cur.png",
+   "alt": "Reaction Kinetics Boltzmann Distribution Curve, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Maxwell-Boltzmann distribution curve",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "The Maxwell-Boltzmann distribution curve shows the distribution of the energies and the activation energy"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/90129403e9cb-1-8-reaction-kinetics-boltzmann-distribution-cur.png",
+   "alt": "Reaction Kinetics Boltzmann Distribution Curve at higher Temperature, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Changes in temperature",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "The Maxwell-Boltzmann distribution curve at T oC and when the temperature is increased by 10 oC"
+  }
+ ]
+}

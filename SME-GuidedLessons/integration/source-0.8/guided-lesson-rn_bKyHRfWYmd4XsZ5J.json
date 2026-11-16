@@ -1,0 +1,593 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_bKyHRfWYmd4XsZ5J",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "2. Energetics, Group Chemistry, Halogenoalkanes & Alcohols",
+  "subtopicTitle": "Reaction Mechanisms: Introduction",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/2-energetics-group-chemistry-halogenoalkanes-and-alcohols/2-7-organic-chemistry-introduction/2-7-2-reaction-mechanisms-introduction"
+ },
+ "specPoints": [
+  {
+   "code": "10.2",
+   "text": "understand the concept of a reaction mechanism"
+  },
+  {
+   "code": "10.5",
+   "text": "understand the link between bond polarity and the type of reaction mechanism a compound will undergo"
+  }
+ ],
+ "primer": {
+  "text": "Mechanisms are electron choreography, drawn with curly arrows - two heads for pairs, one for lone electrons. This note teaches the notation, then uses bond polarity as the fortune-teller: non-polar mixtures turn radical, polar bonds breed electrophiles and nucleophiles for addition and substitution.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Curly arrows: the grammar of mechanisms",
+   "sourceHeadings": [
+    "Reaction Mechanisms - Introduction"
+   ],
+   "specRefs": [
+    "10.2"
+   ],
+   "opening": "Equations count the molecules; mechanisms choreograph the electrons. Double-headed curly arrows move electron pairs, single-headed fish-hooks move lone electrons, and three reaction families - addition, substitution, elimination - carry the notation.",
+   "keyPoints": [
+    "Reaction mechanisms show how a reaction actually takes place, unlike equations which show amounts and stoichiometry.",
+    "A double-headed curly arrow carries an electron pair from its source to its destination.",
+    "Single-headed fish-hook arrows carry one electron each, marking homolytic splits, radical termination and propagation.",
+    "Curly arrows feature in addition, substitution and elimination mechanisms."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "The arrow is a traffic sign for electrons: two heads means a pair moves, one head means a single electron moves - and every mechanism step is drawn with them.",
+     "analogy": "Two-lane versus single-lane roads: pairs travel the dual carriageway (double-headed), solitary radicals take the single-track (fish-hook).",
+     "examPointer": "Never mix arrow types in one step: pair arrows for heterolytic chemistry, fish-hooks only for radical steps."
+    },
+    "medium": {
+     "restatement": "Electron-pair movement begins from a bond or a lone pair and lands where the new bond forms; radical chemistry moves single electrons during fission, propagation and termination. The three families named reuse the same notation across organic chemistry.",
+     "analogy": "Ballroom dancers (pairs) versus solo street dancers (single electrons): the choreography arrows differ accordingly.",
+     "examPointer": "An arrow's tail starts AT the electron source (bond or lone pair) - tails never start from atoms or charges."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "What do reaction mechanisms show that equations do not?",
+     "misconceptionClass": "purpose distinction",
+     "options": [
+      {
+       "key": "A",
+       "text": "How the reaction actually takes place, step by step",
+       "correct": true,
+       "explanation": "Mechanisms choreograph electron movement; equations only count species.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The overall stoichiometry in detail",
+       "correct": false,
+       "explanation": "Equations already provide stoichiometry.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "C",
+       "text": "The enthalpy change of the reaction",
+       "correct": false,
+       "explanation": "Enthalpy is thermochemistry, not mechanism.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "D",
+       "text": "The masses of the products",
+       "correct": false,
+       "explanation": "Mass data belongs to equations and calculations.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A double-headed curly arrow represents",
+     "misconceptionClass": "arrow meaning",
+     "options": [
+      {
+       "key": "A",
+       "text": "The movement of a pair of electrons",
+       "correct": true,
+       "explanation": "Two heads, two electrons - the pair convention of heterolytic chemistry.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The movement of a single electron",
+       "correct": false,
+       "explanation": "Single electrons use the fish-hook arrow.",
+       "misconception": "arrow wrong"
+      },
+      {
+       "key": "C",
+       "text": "The movement of an atom",
+       "correct": false,
+       "explanation": "Atoms are not moved by curly arrows; electrons are.",
+       "misconception": "meaning wrong"
+      },
+      {
+       "key": "D",
+       "text": "A reversible reaction step",
+       "correct": false,
+       "explanation": "Reversibility uses half-arrows in equations, not curly arrows.",
+       "misconception": "meaning wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A single-headed fish-hook arrow is used when",
+     "misconceptionClass": "fish-hook context",
+     "options": [
+      {
+       "key": "A",
+       "text": "A covalent bond splits homolytically, giving two radicals",
+       "correct": true,
+       "explanation": "One electron goes to each fragment, so each movement is single-headed.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "A nucleophile donates a lone pair to a cation",
+       "correct": false,
+       "explanation": "Lone-pair donation moves a pair, needing a double-headed arrow.",
+       "misconception": "context wrong"
+      },
+      {
+       "key": "C",
+       "text": "Water splits a halogenoalkane",
+       "correct": false,
+       "explanation": "Hydrolysis mechanisms use pair arrows.",
+       "misconception": "context wrong"
+      },
+      {
+       "key": "D",
+       "text": "An electrophile adds to an alkene",
+       "correct": false,
+       "explanation": "Electrophilic addition moves electron pairs.",
+       "misconception": "context wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Radical termination involves",
+     "misconceptionClass": "termination step",
+     "options": [
+      {
+       "key": "A",
+       "text": "Two radicals combining their unpaired electrons into a covalent bond",
+       "correct": true,
+       "explanation": "The fish-hook arrows bring the two single electrons together into one bond.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "A bond splitting evenly into two radicals",
+       "correct": false,
+       "explanation": "That is homolytic fission, the initiation-side step.",
+       "misconception": "step confused"
+      },
+      {
+       "key": "C",
+       "text": "A radical reacting with a stable compound to propagate",
+       "correct": false,
+       "explanation": "That is propagation, not termination.",
+       "misconception": "step confused"
+      },
+      {
+       "key": "D",
+       "text": "A pair of electrons attacking a positive centre",
+       "correct": false,
+       "explanation": "Pair chemistry, not radical termination.",
+       "misconception": "context wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which three reaction families use curly-arrow mechanisms?",
+     "misconceptionClass": "family trio",
+     "options": [
+      {
+       "key": "A",
+       "text": "Addition, substitution and elimination",
+       "correct": true,
+       "explanation": "The note names exactly these three as the curly-arrow families.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Combustion, neutralisation and precipitation",
+       "correct": false,
+       "explanation": "None of these uses organic curly-arrow notation here.",
+       "misconception": "trio wrong"
+      },
+      {
+       "key": "C",
+       "text": "Redox, hydrolysis and esterification",
+       "correct": false,
+       "explanation": "Not the named trio at this level.",
+       "misconception": "trio wrong"
+      },
+      {
+       "key": "D",
+       "text": "Polymerisation, cracking and distillation",
+       "correct": false,
+       "explanation": "Distillation is not even a reaction.",
+       "misconception": "trio wrong"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State what a double-headed curly arrow shows.",
+     "misconceptionClass": "notation recall",
+     "modelAnswer": "An electron pair travels from the arrow's tail (a bond or lone pair) to its head, where the new bond or ion forms.",
+     "keywords": [
+      "pair",
+      "travels",
+      "tail"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Name the arrow type that moves one electron.",
+     "misconceptionClass": "notation recall",
+     "modelAnswer": "The single-headed fish-hook (half curly) arrow.",
+     "keywords": [
+      "fish-hook",
+      "single",
+      "electron"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why homolytic fission needs single-headed arrows.",
+     "misconceptionClass": "fission logic",
+     "modelAnswer": "The bond's two electrons split one to each fragment, so each electron's movement is drawn with its own single-headed arrow.",
+     "keywords": [
+      "split",
+      "electron",
+      "radical"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A mechanism step shows a methyl radical's unpaired electron joining a chlorine atom's unpaired electron. Draw the arrow type and name the step.",
+     "misconceptionClass": "application",
+     "modelAnswer": "Two fish-hook arrows (one from each unpaired electron) converge into the new C-Cl bond; this is radical termination.",
+     "keywords": [
+      "fish-hook",
+      "termination",
+      "bond"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Bond polarity points to the mechanism",
+   "sourceHeadings": [
+    "Bond Polarity & Mechanisms"
+   ],
+   "specRefs": [
+    "10.5"
+   ],
+   "opening": "Polarity is the fortune-teller of mechanisms: all-non-polar bonds hint at homolytic fission and radical substitution, while a clearly polar bond invites heterolytic fission and the electrophile-nucleophile cast. Ethane versus ethene with HBr show both readings.",
+   "keyPoints": [
+    "Bond polarity can suggest the likely mechanism of a reaction.",
+    "Ethane with chlorine: all bonds non-polar or barely polar, so homolytic fission and free radical substitution are suggested.",
+    "HBr added to ethene: the polar H-Br bond breaks heterolytically, and the alkene's double bond attracts the electrophile, suggesting electrophilic addition.",
+    "Heterolytic fission creates an electron-deficient electrophile and an electron-rich nucleophile."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "No polarity to exploit means radicals; a polar bond splits into a positive electrophile and a negative nucleophile, and the alkene's electron-rich double bond waves the electrophile in.",
+     "analogy": "A neutral crowd disperses evenly (radicals); a magnet pair snaps into plus and minus (heterolytic ions) - the mechanism follows the magnetism.",
+     "examPointer": "Justify mechanism choice with TWO polarity sentences: bond polarity of reagent, then the attraction target (double bond or d+ carbon)."
+    },
+    "medium": {
+     "restatement": "Heterolytic fission of a polar bond gives the electrophile (electron deficient) and nucleophile (electron rich); homolytic fission of non-polar bonds gives radicals. The substrate's feature - electron-rich pi bond or d+ carbon - selects which species attacks first.",
+     "analogy": "A see-saw with a weight (polar bond) tips riders into defined roles; an unweighted see-saw leaves both riders free-ranging (radicals).",
+     "examPointer": "Name the mechanism fully: 'free radical substitution' and 'electrophilic addition' - partial names cost the mark."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "The reaction C2H6 + Cl2 -> C2H5Cl + HCl is likely to proceed by",
+     "misconceptionClass": "mechanism deduction",
+     "options": [
+      {
+       "key": "A",
+       "text": "Free radical substitution, since all bonds are non-polar or barely polar",
+       "correct": true,
+       "explanation": "No polarity exists to drive heterolytic fission, so radicals form homolytically.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Electrophilic addition, since chlorine is an electrophile",
+       "correct": false,
+       "explanation": "There is no double bond to add across in ethane.",
+       "misconception": "mechanism wrong"
+      },
+      {
+       "key": "C",
+       "text": "Nucleophilic substitution, since chloride is a nucleophile",
+       "correct": false,
+       "explanation": "No polar C-X bond exists in ethane for nucleophilic attack.",
+       "misconception": "mechanism wrong"
+      },
+      {
+       "key": "D",
+       "text": "Elimination, since HCl is eliminated",
+       "correct": false,
+       "explanation": "The pattern is substitution of H by Cl, not elimination.",
+       "misconception": "class wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Heterolytic fission of a covalent bond produces",
+     "misconceptionClass": "fission products",
+     "options": [
+      {
+       "key": "A",
+       "text": "A positive electron-deficient ion and a negative electron-rich ion",
+       "correct": true,
+       "explanation": "The pair goes to one fragment, leaving the other electron-poor.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Two neutral radicals each carrying one electron",
+       "correct": false,
+       "explanation": "That is homolytic fission's outcome.",
+       "misconception": "fission confused"
+      },
+      {
+       "key": "C",
+       "text": "Two positive ions sharing the electron pair",
+       "correct": false,
+       "explanation": "The pair lands on only one fragment.",
+       "misconception": "chemistry wrong"
+      },
+      {
+       "key": "D",
+       "text": "No charged species at all",
+       "correct": false,
+       "explanation": "Heterolytic fission is defined by ion formation.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "In ethene reacting with HBr, the electrophile is attracted to",
+     "misconceptionClass": "attraction target",
+     "options": [
+      {
+       "key": "A",
+       "text": "The electron-rich carbon-carbon double bond",
+       "correct": true,
+       "explanation": "The pi electrons draw the electron-seeking electrophile.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The hydrogen atoms of ethene",
+       "correct": false,
+       "explanation": "Hydrogens are not the electron-rich site.",
+       "misconception": "target wrong"
+      },
+      {
+       "key": "C",
+       "text": "The bromide ion formed",
+       "correct": false,
+       "explanation": "Bromide is the nucleophile-side product.",
+       "misconception": "species confused"
+      },
+      {
+       "key": "D",
+       "text": "The reaction solvent",
+       "correct": false,
+       "explanation": "Solvent is not the reacting target.",
+       "misconception": "target wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why does the polarity of H-Br suggest heterolytic fission?",
+     "misconceptionClass": "polarity logic",
+     "options": [
+      {
+       "key": "A",
+       "text": "The bond already carries d+ H and d- Br, so the pair drifts to bromine as it breaks",
+       "correct": true,
+       "explanation": "Existing polarity pre-figures the unequal split of the bonding pair.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Non-polar bonds always split heterolytically",
+       "correct": false,
+       "explanation": "Non-polar bonds split homolytically.",
+       "misconception": "direction wrong"
+      },
+      {
+       "key": "C",
+       "text": "Bromine is a radical former with hydrogen",
+       "correct": false,
+       "explanation": "No radical chemistry is implied by the polar bond.",
+       "misconception": "mechanism wrong"
+      },
+      {
+       "key": "D",
+       "text": "Hydrogen repels electrons completely",
+       "correct": false,
+       "explanation": "Polarity is partial charge, not full repulsion.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A nucleophile is best described as",
+     "misconceptionClass": "nucleophile definition",
+     "options": [
+      {
+       "key": "A",
+       "text": "An electron-rich species attracted to positive or electron-deficient centres",
+       "correct": true,
+       "explanation": "Nucleophiles donate electron pairs to d+ targets.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "An electron-deficient species seeking electrons",
+       "correct": false,
+       "explanation": "That is the electrophile.",
+       "misconception": "role reversed"
+      },
+      {
+       "key": "C",
+       "text": "A neutral radical seeking bonds",
+       "correct": false,
+       "explanation": "Radicals are the homolytic cast, not nucleophiles.",
+       "misconception": "role confused"
+      },
+      {
+       "key": "D",
+       "text": "Any negative ion whatsoever",
+       "correct": false,
+       "explanation": "Definition runs on electron richness and attraction, not charge alone.",
+       "misconception": "definition wrong"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the likely mechanism when all bonds in a reaction mixture are non-polar.",
+     "misconceptionClass": "deduction recall",
+     "modelAnswer": "Homolytic fission and free radical substitution.",
+     "keywords": [
+      "homolytic",
+      "radical",
+      "substitution"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Name the species created by heterolytic fission.",
+     "misconceptionClass": "species recall",
+     "modelAnswer": "A positive electrophile (electron deficient) and a negative nucleophile (electron rich).",
+     "keywords": [
+      "electrophile",
+      "nucleophile",
+      "negative"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why ethene reacts with HBr by electrophilic addition.",
+     "misconceptionClass": "mechanism justification",
+     "modelAnswer": "H-Br is polar, suggesting heterolytic fission into H+ (electrophile) and Br-; the electron-rich double bond of ethene attracts the electrophile, so electrophilic addition follows.",
+     "keywords": [
+      "polar",
+      "electrophile",
+      "double"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Predict, with polarity reasoning, whether methane chlorination or ethene bromination is the radical reaction.",
+     "misconceptionClass": "application",
+     "modelAnswer": "Methane chlorination is the radical one: all its bonds are non-polar, so homolytic fission and radical substitution apply; ethene bromination instead runs electrophilic addition through the polarised Br-Br approaching the pi bond.",
+     "keywords": [
+      "radical",
+      "polarity",
+      "addition"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "curly arrow",
+    "definition": "The notation showing electron movement in mechanisms; double-headed for pairs, single-headed for single electrons.",
+    "firstLesson": 1
+   },
+   {
+    "term": "homolytic fission",
+    "definition": "Bond breaking in which each fragment takes one electron, forming two radicals.",
+    "firstLesson": 1
+   },
+   {
+    "term": "heterolytic fission",
+    "definition": "Bond breaking in which one fragment takes the electron pair, forming an electrophile and a nucleophile.",
+    "firstLesson": 2
+   },
+   {
+    "term": "electrophile",
+    "definition": "An electron-deficient species attracted to electron-rich centres such as double bonds.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": null
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/e487b402b633-homolytic-arrow-example-propagation.png",
+   "alt": "homolytic-arrow-example---propagation",
+   "sourceHeading": "Reaction Mechanisms - Introduction",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "During this propagation step, the unpaired electron from chlorine and one of the electrons from the C-H bond react together to form a new covalent bond and the other electron from the C-H bond moves to form a methyl radical"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/5416900997b5-ev8e-maa-heterloytic-arrow-example.png",
+   "alt": "Ev8e_MAa_heterloytic-arrow-example",
+   "sourceHeading": "Reaction Mechanisms - Introduction",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "During this step of an addition reaction, the lone pair from the bromide ion reacts with the positive carbocation to form a new covalent bond"
+  }
+ ]
+}

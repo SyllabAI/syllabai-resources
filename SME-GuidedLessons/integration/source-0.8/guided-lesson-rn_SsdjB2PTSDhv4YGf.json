@@ -1,0 +1,322 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_SsdjB2PTSDhv4YGf",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "2. Energetics, Group Chemistry, Halogenoalkanes & Alcohols",
+  "subtopicTitle": "Industrial Compromises",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/2-energetics-group-chemistry-halogenoalkanes-and-alcohols/2-6-introduction-to-kinetics-and-equilibria/2-6-7-industrial-compromises"
+ },
+ "specPoints": [
+  {
+   "code": "9.11",
+   "text": "evaluate data to explain the necessity, for many industrial processes, to reach a compromise between the yield and the rate of reaction"
+  }
+ ],
+ "primer": {
+  "text": "Industry cannot maximise yield, rate and cost at once, so it negotiates. Using the Haber process as the arena, this note prices the temperature and pressure compromises - 450 degrees, 20 megapascals, roughly a third conversion - and weighs finance, energy and safety against every extra percent.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "The Haber compromise: yield against rate and cost",
+   "sourceHeadings": [
+    "The Yield-Rate Compromise"
+   ],
+   "specRefs": [
+    "9.11"
+   ],
+   "opening": "The Haber process squeezes ammonia from nitrogen and hydrogen, and every condition chosen is a treaty between thermodynamics and economics: 450 degrees for speed-with-yield, 20 megapascals for acceptable cost, and a catalyst to make it all brisk.",
+   "keyPoints": [
+    "Haber equilibrium: N2 + 3H2 <=> 2NH3, exothermic in the forward direction.",
+    "Higher temperature raises rate but lowers yield, since the equilibrium shifts left; higher pressure raises yield (4 reactant moles versus 2 product moles).",
+    "About 450 oC and 20 MPa (200 atmospheres) give roughly 35 percent yield in acceptable time; doubling pressure to 40 MPa adds only about 7 percent.",
+    "The compromise weighs financial cost, energy and environmental needs, and worker safety against yield."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Cold gives yield but no speed, hot gives speed but no yield, huge pressure gives yield but costs a fortune - so industry plants the flag at 450 oC and 20 MPa and recycles unreacted gas instead.",
+     "analogy": "Farming a slow crop in a short season: you plant at the date that balances ripeness against the calendar, not the date that maximises either alone.",
+     "examPointer": "Quote both conditions with their numbers (450 oC, 20 MPa, ~35 percent) and name all three compromise considerations for evaluation questions."
+    },
+    "medium": {
+     "restatement": "The 4-to-2 gas mole imbalance makes pressure the thermodynamic ally and the accountant's enemy; temperature is the pure trade - kinetic gains against equilibrium losses - so the chosen 450 oC is a productivity optimum, not a thermodynamic one.",
+     "analogy": "A bicycle gear: neither the hardest nor the easiest gear maximises distance per hour; the middle gear does.",
+     "examPointer": "Connect each condition to its Le Chatelier effect AND its cost effect - one without the other is half an answer."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Increasing the temperature of the Haber process raises rate but lowers yield because",
+     "misconceptionClass": "temperature trade",
+     "options": [
+      {
+       "key": "A",
+       "text": "The forward reaction is exothermic, so heating shifts the equilibrium leftward",
+       "correct": true,
+       "explanation": "Extra heat drives the endothermic backward direction, cutting ammonia while speeding collisions.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The forward reaction is endothermic, so heating favours products",
+       "correct": false,
+       "explanation": "The forward Haber reaction releases heat; it is exothermic.",
+       "misconception": "sign wrong"
+      },
+      {
+       "key": "C",
+       "text": "High temperature destroys the catalyst",
+       "correct": false,
+       "explanation": "The iron catalyst survives at 450 oC.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "D",
+       "text": "Hydrogen decomposes at high temperature",
+       "correct": false,
+       "explanation": "No such decomposition drives the yield loss.",
+       "misconception": "reason wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Increasing pressure raises ammonia yield because",
+     "misconceptionClass": "pressure census",
+     "options": [
+      {
+       "key": "A",
+       "text": "Four gas moles of reactants become only two moles of product, so the position shifts right",
+       "correct": true,
+       "explanation": "The fewer-mole product side relieves the pressure rise.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Two moles become four, so the position shifts right",
+       "correct": false,
+       "explanation": "The mole ratio runs 4 reactants to 2 products.",
+       "misconception": "census wrong"
+      },
+      {
+       "key": "C",
+       "text": "Pressure raises the temperature of the gases",
+       "correct": false,
+       "explanation": "Pressure shifts equilibrium; heating shifts it left.",
+       "misconception": "mechanism wrong"
+      },
+      {
+       "key": "D",
+       "text": "The catalyst works better under pressure",
+       "correct": false,
+       "explanation": "Catalysts change rate, not position.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Industry uses about 450 oC rather than a lower temperature because",
+     "misconceptionClass": "temperature choice",
+     "options": [
+      {
+       "key": "A",
+       "text": "Lower temperatures give too slow a rate despite higher equilibrium yield",
+       "correct": true,
+       "explanation": "Yield without speed is unproductive; 450 oC balances the two.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Lower temperatures cost more energy",
+       "correct": false,
+       "explanation": "Heating less costs less; the reason is rate.",
+       "misconception": "logic reversed"
+      },
+      {
+       "key": "C",
+       "text": "450 oC maximises the equilibrium yield",
+       "correct": false,
+       "explanation": "Lower temperatures would give higher yield.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "D",
+       "text": "The catalyst only functions at 450 oC",
+       "correct": false,
+       "explanation": "Catalysts function across a temperature range.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Doubling the Haber pressure to 40 MPa adds only about 7 percent yield, so industry keeps 20 MPa because",
+     "misconceptionClass": "pressure economics",
+     "options": [
+      {
+       "key": "A",
+       "text": "The extra yield does not repay the financial, energy and safety costs of higher pressure",
+       "correct": true,
+       "explanation": "Diminishing returns versus multiplying costs kills the upgrade.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Higher pressure lowers the yield",
+       "correct": false,
+       "explanation": "Higher pressure raises yield here, just modestly.",
+       "misconception": "fact wrong"
+      },
+      {
+       "key": "C",
+       "text": "40 MPa is below the catalyst's tolerance",
+       "correct": false,
+       "explanation": "The constraint is economic, not catalytic.",
+       "misconception": "reason wrong"
+      },
+      {
+       "key": "D",
+       "text": "Pressure cannot be varied once set",
+       "correct": false,
+       "explanation": "Plants routinely engineer pressure ranges.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which considerations balance the Haber compromise?",
+     "misconceptionClass": "evaluation trio",
+     "options": [
+      {
+       "key": "A",
+       "text": "Financial and profit, energy and environmental, health and safety",
+       "correct": true,
+       "explanation": "All three consideration families shape the final conditions.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Colour of ammonia, smell of hydrogen, taste of nitrogen",
+       "correct": false,
+       "explanation": "None of these is a real consideration.",
+       "misconception": "trio wrong"
+      },
+      {
+       "key": "C",
+       "text": "Only the equilibrium constant",
+       "correct": false,
+       "explanation": "The compromise is economic as much as thermodynamic.",
+       "misconception": "narrow wrong"
+      },
+      {
+       "key": "D",
+       "text": "Only the speed of the catalyst",
+       "correct": false,
+       "explanation": "Rate is one factor among several.",
+       "misconception": "narrow wrong"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the temperature and pressure used in the Haber process.",
+     "misconceptionClass": "condition recall",
+     "modelAnswer": "Around 450 oC and 20 MPa (about 200 atmospheres).",
+     "keywords": [
+      "450",
+      "MPa",
+      "atmospheres"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the approximate ammonia yield at the compromised conditions.",
+     "misconceptionClass": "yield recall",
+     "modelAnswer": "Roughly 35 percent of the reactants convert to ammonia per pass.",
+     "keywords": [
+      "35",
+      "percent",
+      "yield"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the Haber process needs a compromise of conditions at all.",
+     "misconceptionClass": "compromise logic",
+     "modelAnswer": "The conditions that maximise yield (low temperature, high pressure) slow the rate or raise costs intolerably, so temperature and pressure are chosen to balance yield, rate, expense and safety.",
+     "keywords": [
+      "yield",
+      "rate",
+      "balance"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A proposal suggests running Haber at 550 oC to triple the rate. Evaluate with Le Chatelier reasoning.",
+     "misconceptionClass": "application",
+     "modelAnswer": "Rate would rise but yield would fall, since heating shifts the exothermic equilibrium left; combined with higher energy cost, the proposal likely fails the yield-time-economics test that 450 oC currently wins.",
+     "keywords": [
+      "yield",
+      "left",
+      "cost"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "yield",
+    "definition": "The fraction of reactants converted into the desired product per pass through the process.",
+    "firstLesson": 1
+   },
+   {
+    "term": "compromise conditions",
+    "definition": "Reaction conditions chosen to balance yield, rate, cost and safety rather than maximise any one.",
+    "firstLesson": 1
+   },
+   {
+    "term": "percentage conversion",
+    "definition": "The share of reactant stock turned into ammonia per pass, roughly 35 percent at the compromised conditions.",
+    "firstLesson": 1
+   }
+  ],
+  "workedExample": {
+   "prompt": "The exam hint frames the temperature compromise as: is it better to produce 100 g of ammonia per hour or 1000 g per day? Decide with arithmetic.",
+   "steps": [
+    "Convert the hourly option to a daily figure: 100 g per hour times 24 hours.",
+    "100 x 24 = 2400 g per day.",
+    "Compare 2400 g per day against 1000 g per day, noting the hourly plant also delivers product continuously."
+   ],
+   "finalAnswer": "100 g per hour wins: 2400 g per day beats 1000 g per day, so accepting a slower rate but steady production is the better compromise."
+  }
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/f5f82a98ced2-conditions-for-haber-process.png",
+   "alt": "Conditions for Haber process, IGCSE & GCSE Chemistry revision notes",
+   "sourceHeading": "The Yield-Rate Compromise",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "The yield of ammonia with varying conditions for the Haber Process"
+  }
+ ]
+}

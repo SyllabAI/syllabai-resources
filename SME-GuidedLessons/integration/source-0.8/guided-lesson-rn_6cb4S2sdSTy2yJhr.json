@@ -1,0 +1,584 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_6cb4S2sdSTy2yJhr",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "2. Energetics, Group Chemistry, Halogenoalkanes & Alcohols",
+  "subtopicTitle": "Catalysts & Energy",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/2-energetics-group-chemistry-halogenoalkanes-and-alcohols/2-6-introduction-to-kinetics-and-equilibria/2-6-4-catalysts-and-energy"
+ },
+ "specPoints": [
+  {
+   "code": "9.6",
+   "text": "be able to draw the reaction profiles for uncatalysed and catalysed reactions, including the energy level of the intermediate formed with the catalyst"
+  }
+ ],
+ "primer": {
+  "text": "Catalysts cheat by geography, not by magic: they open a second route whose energy hill is lower. This note sorts homogeneous from heterogeneous catalysis, draws both the profile humps and the shaded distribution areas, and totals the industrial prizes of speed, cost and atom economy.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Catalysis: the lower pathway and its three prizes",
+   "sourceHeadings": [
+    "Reaction Profiles & Maxwell-Boltzmann"
+   ],
+   "specRefs": [
+    "9.6"
+   ],
+   "opening": "A catalyst is not a shortcut magic - it is an alternative route with a lower activation hill. Industry prizes it for speed, for cooler cheaper plants, and for atom economy gains like zeolite-catalysed phenol synthesis.",
+   "keyPoints": [
+    "Catalysis increases reaction rate by providing an alternative pathway of lower activation energy.",
+    "Three advantages: more product per unit time, lower energy costs, and potentially better atom economy.",
+    "Zeolites in phenol synthesis show how a catalyst can suppress unwanted side products.",
+    "The catalyst is unchanged at the end, ready to work again."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "The catalysed route crosses a smaller energy hill, so more collisions succeed per second; the same reactants and products emerge, only faster and cheaper.",
+     "analogy": "A mountain pass rerouted through a lower col: the destination is identical, the climb is easier, so more travellers arrive per hour.",
+     "examPointer": "On profiles, draw TWO humps sharing reactant and product levels, the catalysed hump lower, and label both Ea values."
+    },
+    "medium": {
+     "restatement": "Lowering Ea enlarges the fraction of collisions that clear the barrier; nothing about collision frequency changes. Industrial wins follow: lower temperature bills, higher throughput, and fewer side reactions trimming waste.",
+     "analogy": "Lowering a hurdle on a racecourse does not add runners; it just lets more of the same runners clear it.",
+     "examPointer": "Quote all three advantages when a question says 'state the benefits of industrial catalysis' - speed, cost, atom economy."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "A catalyst increases rate by",
+     "misconceptionClass": "mechanism",
+     "options": [
+      {
+       "key": "A",
+       "text": "Providing an alternative reaction pathway with lower activation energy",
+       "correct": true,
+       "explanation": "The lowered barrier lets a greater proportion of collisions succeed.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Raising the collision energy of the reactants",
+       "correct": false,
+       "explanation": "Collision energies depend on temperature; the catalyst does not heat the mixture.",
+       "misconception": "mechanism wrong"
+      },
+      {
+       "key": "C",
+       "text": "Increasing the collision frequency directly",
+       "correct": false,
+       "explanation": "Frequency rises only via temperature, concentration or pressure changes.",
+       "misconception": "mechanism wrong"
+      },
+      {
+       "key": "D",
+       "text": "Shifting the equilibrium position",
+       "correct": false,
+       "explanation": "Catalysts speed both directions equally; position is untouched.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which is NOT one of the three main advantages of industrial catalysts?",
+     "misconceptionClass": "advantage exclusion",
+     "options": [
+      {
+       "key": "A",
+       "text": "They increase the activation energy of side reactions to zero",
+       "correct": true,
+       "explanation": "No advantage involves zero Ea; the trio is rate, cost, atom economy.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "They allow lower temperatures and pressures, cutting energy costs",
+       "correct": false,
+       "explanation": "This is the cost advantage of the trio.",
+       "misconception": "advantage real"
+      },
+      {
+       "key": "C",
+       "text": "They can improve atom economy by suppressing side reactions",
+       "correct": false,
+       "explanation": "Zeolites in phenol synthesis exemplify this.",
+       "misconception": "advantage real"
+      },
+      {
+       "key": "D",
+       "text": "They raise the rate, making more product per unit time",
+       "correct": false,
+       "explanation": "This is the speed advantage of the trio.",
+       "misconception": "advantage real"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Zeolites in phenol synthesis demonstrate that catalysts can",
+     "misconceptionClass": "example logic",
+     "options": [
+      {
+       "key": "A",
+       "text": "Reduce the amount of unwanted side products",
+       "correct": true,
+       "explanation": "The alternative pathway favours the wanted product, trimming waste.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Change the identity of the final product",
+       "correct": false,
+       "explanation": "The same products form; only the route and speed differ.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "C",
+       "text": "Raise the overall activation energy",
+       "correct": false,
+       "explanation": "Catalysts lower, never raise, the barrier.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "D",
+       "text": "Be consumed stoichiometrically",
+       "correct": false,
+       "explanation": "Catalysts are regenerated, not consumed.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "On an energy profile, the catalysed pathway is drawn as",
+     "misconceptionClass": "profile drawing",
+     "options": [
+      {
+       "key": "A",
+       "text": "A second hump from the same reactants to the same products, with a lower maximum",
+       "correct": true,
+       "explanation": "Both routes share endpoints; the catalysed maximum is lower.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "A straight horizontal line",
+       "correct": false,
+       "explanation": "Reactions still need some barrier to cross.",
+       "misconception": "drawing wrong"
+      },
+      {
+       "key": "C",
+       "text": "A deeper hump than the uncatalysed one",
+       "correct": false,
+       "explanation": "Deeper (higher) would mean slower.",
+       "misconception": "drawing wrong"
+      },
+      {
+       "key": "D",
+       "text": "A route to different products entirely",
+       "correct": false,
+       "explanation": "The products are unchanged by catalysis.",
+       "misconception": "drawing wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Lower energy costs follow from catalysis because",
+     "misconceptionClass": "cost logic",
+     "options": [
+      {
+       "key": "A",
+       "text": "The reaction proceeds adequately at lower temperatures and pressures",
+       "correct": true,
+       "explanation": "The lowered barrier compensates for milder conditions.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The catalyst generates free energy",
+       "correct": false,
+       "explanation": "No catalyst creates energy; thermodynamics is untouched.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "C",
+       "text": "Fuels are unnecessary in catalysed plants",
+       "correct": false,
+       "explanation": "Heating still occurs, just less of it.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "D",
+       "text": "The catalyst absorbs the enthalpy change",
+       "correct": false,
+       "explanation": "The enthalpy change of reaction is a property of the reaction itself.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Define catalysis.",
+     "misconceptionClass": "definition",
+     "modelAnswer": "The process of increasing reaction rate by adding a catalyst that provides an alternative pathway of lower activation energy.",
+     "keywords": [
+      "rate",
+      "catalyst",
+      "pathway"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the three main advantages of using catalysts industrially.",
+     "misconceptionClass": "advantages recall",
+     "modelAnswer": "Higher rate and so more product per unit time; lower energy costs from milder conditions; potentially improved atom economy with fewer side products.",
+     "keywords": [
+      "rate",
+      "energy",
+      "atom"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why a catalyst is not consumed overall in a reaction it speeds up.",
+     "misconceptionClass": "regeneration logic",
+     "modelAnswer": "The catalyst participates in the alternative mechanism but is regenerated in a later step, so its amount after the reaction equals its amount before.",
+     "keywords": [
+      "regenerated",
+      "mechanism",
+      "unchanged"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A plant switches to a zeolite catalyst and cuts its reactor temperature by 80 oC with no yield loss. State the two economic gains.",
+     "misconceptionClass": "application",
+     "modelAnswer": "Lower fuel bills from the milder temperature, and maintained (often improved) throughput and atom economy since the catalysed pathway suppresses side products.",
+     "keywords": [
+      "energy",
+      "costs",
+      "atom"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Homogeneous and heterogeneous catalysts on the curve",
+   "sourceHeadings": [
+    "Maxwell-Boltzmann distribution curve"
+   ],
+   "specRefs": [
+    "9.6"
+   ],
+   "opening": "Catalysts come in two phases of life: homogeneous, sharing the reactants' phase, and heterogeneous, standing apart as the industrial standard. On the energy curve, either kind drags the Ea line leftward and the shaded success area balloons.",
+   "keyPoints": [
+    "Homogeneous catalysts share the same physical phase as the reactants, typically all in solution.",
+    "Heterogeneous catalysts sit in a different phase from the reactants, most commonly a solid with gaseous reactants.",
+    "Heterogeneous catalysis is the most common type in industry.",
+    "Lowering Ea means a greater proportion of molecules possess sufficient energy for effective collisions, enlarging the shaded success area."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Same-phase catalysts mingle with reactants molecule by molecule; different-phase catalysts work at their surfaces. Both shrink the energy hurdle, so the beyond-Ea area grows and the rate climbs.",
+     "analogy": "A dance teacher on the floor (homogeneous) versus a climbing wall fixed at the side (heterogeneous) - both help dancers reach the high shelf faster.",
+     "examPointer": "Classify industrial examples correctly: solid iron in ammonia synthesis is heterogeneous; aqueous catalysts with aqueous reactants are homogeneous."
+    },
+    "medium": {
+     "restatement": "Phase matching determines the contact mode - bulk collisions versus surface adsorption - but the kinetic effect is identical: reduced Ea, enlarged tail area, faster rate. Industry favours heterogeneous systems for easy separation and reuse.",
+     "analogy": "A filter that works mid-stream versus one bolted to the pipe wall: different contact, same lowered resistance to flow.",
+     "examPointer": "On the curve, the catalysed Ea line sits left of the uncatalysed line; the combined light-and-dark shaded areas show the new reactive population."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "A homogeneous catalyst is one that is",
+     "misconceptionClass": "classification",
+     "options": [
+      {
+       "key": "A",
+       "text": "In the same physical phase as the reactants",
+       "correct": true,
+       "explanation": "Homogeneous means phase-matched, such as everything in solution.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Always a solid metal surface",
+       "correct": false,
+       "explanation": "That describes heterogeneous catalysis.",
+       "misconception": "class swapped"
+      },
+      {
+       "key": "C",
+       "text": "Chemically identical to the reactants",
+       "correct": false,
+       "explanation": "Phase, not chemical identity, defines the term.",
+       "misconception": "definition wrong"
+      },
+      {
+       "key": "D",
+       "text": "Effective only in the gas phase",
+       "correct": false,
+       "explanation": "Homogeneous catalysis commonly runs in solution.",
+       "misconception": "phase wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The most common industrial catalyst type is",
+     "misconceptionClass": "industrial standard",
+     "options": [
+      {
+       "key": "A",
+       "text": "Heterogeneous, typically a solid with gaseous reactants",
+       "correct": true,
+       "explanation": "Solid beds with gas streams dominate industrial plants.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Homogeneous, all dissolved together",
+       "correct": false,
+       "explanation": "Solution catalysis is common in labs, less in industry.",
+       "misconception": "class wrong"
+      },
+      {
+       "key": "C",
+       "text": "Biological enzymes exclusively",
+       "correct": false,
+       "explanation": "Enzymes are one family, not the industrial standard.",
+       "misconception": "class wrong"
+      },
+      {
+       "key": "D",
+       "text": "Undefined, as catalysts have no phases",
+       "correct": false,
+       "explanation": "Phases are exactly what the classification uses.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "On the Maxwell-Boltzmann curve, adding a catalyst",
+     "misconceptionClass": "curve effect",
+     "options": [
+      {
+       "key": "A",
+       "text": "Moves the Ea line left, enlarging the shaded area of effective molecules",
+       "correct": true,
+       "explanation": "The lowered barrier admits a larger fraction of the same population.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Reshapes the curve into a taller peak",
+       "correct": false,
+       "explanation": "The distribution shape depends on temperature only.",
+       "misconception": "curve wrong"
+      },
+      {
+       "key": "C",
+       "text": "Reduces the total area under the curve",
+       "correct": false,
+       "explanation": "The molecule count is conserved.",
+       "misconception": "curve wrong"
+      },
+      {
+       "key": "D",
+       "text": "Shifts the whole curve to the right",
+       "correct": false,
+       "explanation": "That is heating's signature, not catalysis.",
+       "misconception": "effect confused"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Heterogeneous catalysts suit industry partly because",
+     "misconceptionClass": "industrial logic",
+     "options": [
+      {
+       "key": "A",
+       "text": "A solid catalyst is easily separated from gaseous or liquid product streams",
+       "correct": true,
+       "explanation": "Phase difference makes recovery and reuse straightforward.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "They dissolve completely into the reactants",
+       "correct": false,
+       "explanation": "Dissolving would make separation harder, and that is homogeneous behaviour.",
+       "misconception": "logic reversed"
+      },
+      {
+       "key": "C",
+       "text": "They require no reactor vessel",
+       "correct": false,
+       "explanation": "Solid beds live inside reactors.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "D",
+       "text": "They eliminate all side reactions",
+       "correct": false,
+       "explanation": "They reduce some, not all.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A gas-phase reactant mixture over an iron surface is an example of",
+     "misconceptionClass": "example classification",
+     "options": [
+      {
+       "key": "A",
+       "text": "Heterogeneous catalysis",
+       "correct": true,
+       "explanation": "Gas reactants with a solid catalyst sit in different phases.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Homogeneous catalysis",
+       "correct": false,
+       "explanation": "The phases differ, so the term cannot apply.",
+       "misconception": "class wrong"
+      },
+      {
+       "key": "C",
+       "text": "No catalysis",
+       "correct": false,
+       "explanation": "Iron surfaces catalyse gas reactions industrially.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "D",
+       "text": "Enzyme catalysis",
+       "correct": false,
+       "explanation": "Iron is not an enzyme.",
+       "misconception": "class wrong"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Define a heterogeneous catalyst.",
+     "misconceptionClass": "definition",
+     "modelAnswer": "A catalyst in a different physical phase from the reactants, most often a solid surface with gaseous or dissolved reactants.",
+     "keywords": [
+      "different",
+      "phase",
+      "reactants"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State what the combined light and dark shaded areas represent on the catalysis curve.",
+     "misconceptionClass": "curve recall",
+     "modelAnswer": "The number of molecules with energy greater than the catalysed activation energy, which is far larger than the dark area alone for the uncatalysed barrier.",
+     "keywords": [
+      "shaded",
+      "area",
+      "molecules"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the rate of the catalysed reaction exceeds the uncatalysed rate.",
+     "misconceptionClass": "rate explanation",
+     "modelAnswer": "The alternative pathway's lower Ea admits a greater proportion of the unchanged energy distribution into effective collision, so more successful collisions occur per unit time.",
+     "keywords": [
+      "proportion",
+      "effective",
+      "collision"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A chemist dissolves both reactant and catalyst in water. Classify the system and predict the effect on Ea.",
+     "misconceptionClass": "application",
+     "modelAnswer": "Homogeneous catalysis, since everything shares the aqueous phase; the catalyst lowers the activation energy by providing an alternative pathway, raising the rate.",
+     "keywords": [
+      "homogeneous",
+      "aqueous",
+      "activation"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "catalyst",
+    "definition": "A substance providing an alternative reaction pathway of lower activation energy, unchanged at the reaction's end.",
+    "firstLesson": 1
+   },
+   {
+    "term": "homogeneous catalyst",
+    "definition": "A catalyst in the same physical phase as its reactants, such as an aqueous catalyst with aqueous reactants.",
+    "firstLesson": 2
+   },
+   {
+    "term": "heterogeneous catalyst",
+    "definition": "A catalyst in a different phase from the reactants, typically a solid bed serving a gas stream; the common industrial type.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": null
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/de040cdd8ab8-1-8-reaction-kinetics-catalyst-pathway.png",
+   "alt": "1-8-reaction-kinetics-catalyst-pathway",
+   "sourceHeading": "Reaction Profiles & Maxwell-Boltzmann",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "The diagram shows that the catalyst allows the reaction to take place through a different mechanism, which has a lower activation energy than the original reaction"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/ea62327f5705-1-8-reaction-kinetics-catalyst-boltzmann-distrib.png",
+   "alt": "Reaction Kinetics Catalyst Boltzmann Distribution, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Maxwell-Boltzmann distribution curve",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "The diagram shows that the total shaded area (both dark and light shading) under the curve shows the number of particles with energy greater than the Ea when a catalyst is present. This area is much larger than the dark shaded area which shows the number of particles with energy greater than the Ea without a catalyst"
+  }
+ ]
+}

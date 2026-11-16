@@ -1,0 +1,633 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_MsKptxVFnhZx6MdF",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "2. Energetics, Group Chemistry, Halogenoalkanes & Alcohols",
+  "subtopicTitle": "Dynamic Equilibrium in Reversible Reactions",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/2-energetics-group-chemistry-halogenoalkanes-and-alcohols/2-6-introduction-to-kinetics-and-equilibria/2-6-5-dynamic-equilibrium-in-reversible-reactions"
+ },
+ "specPoints": [
+  {
+   "code": "9.9",
+   "text": "know that many reactions are readily reversible and that they can reach a state of dynamic equilibrium in which: i the rate of the forward reaction is equal to the rate of the backward reaction ii the concentrations of the reactants and the products remain constant"
+  }
+ ],
+ "primer": {
+  "text": "Some reactions run both ways at once, and the two opposing half arrows say so. This note reaches dynamic equilibrium: forward and backward rates tied, concentrations constant yet unequal, and the whole balancing act demanding a closed system whenever gases would otherwise slip away.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Reversible reactions and the two-way arrow",
+   "sourceHeadings": [
+    "Reversible reaction"
+   ],
+   "specRefs": [
+    "9.9"
+   ],
+   "opening": "Some reactions refuse to finish: the products themselves re-form the reactants. The two half-arrows of the reversible equation announce a chemistry that runs in both directions at once, the seedbed of every equilibrium idea.",
+   "keyPoints": [
+    "Reactions going to completion stop when reactants are fully used up.",
+    "Reversible reactions run backward too: their products rebuild the original reactants.",
+    "The reversible arrow (two opposing half arrows) marks a reaction running both ways.",
+    "Both the forward and the backward reaction occur simultaneously once products appear."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Completion reactions empty the reactant jar; reversible reactions keep refilling it from the products, so both directions run in the same vessel.",
+     "analogy": "A leaky bucket that also refills from its own overflow: the water level settles somewhere in between, never empty, never full.",
+     "examPointer": "Always use the equilibrium half-arrows in equations once reversibility is claimed - a single arrow wrongly implies completion."
+    },
+    "medium": {
+     "restatement": "Reversibility means the product molecules retain the ability to regenerate reactants; the forward rate starts high and falls, the backward rate starts at zero and rises, and they converge at equilibrium.",
+     "analogy": "Two escalators running in opposite directions with shifting passenger flows that eventually balance.",
+     "examPointer": "Label forward and backward rates on sketches; equilibrium is where they cross, not where the concentrations are equal."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "In a reversible reaction, the products",
+     "misconceptionClass": "product role",
+     "options": [
+      {
+       "key": "A",
+       "text": "Can react with each other to reform the original reactants",
+       "correct": true,
+       "explanation": "The backward reaction regenerates reactants from products.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Accumulate until the reactants are gone forever",
+       "correct": false,
+       "explanation": "That describes a completion reaction.",
+       "misconception": "process confused"
+      },
+      {
+       "key": "C",
+       "text": "Are always solids",
+       "correct": false,
+       "explanation": "Reversibility is independent of physical state.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "D",
+       "text": "Stop forming once equilibrium is reached",
+       "correct": false,
+       "explanation": "Both directions continue; only the rates equalise.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The symbol marking a reversible reaction is",
+     "misconceptionClass": "notation",
+     "options": [
+      {
+       "key": "A",
+       "text": "Two opposing half arrows",
+       "correct": true,
+       "explanation": "The paired arrows declare simultaneous forward and backward chemistry.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "A single forward arrow",
+       "correct": false,
+       "explanation": "That denotes completion.",
+       "misconception": "notation wrong"
+      },
+      {
+       "key": "C",
+       "text": "A double equals sign",
+       "correct": false,
+       "explanation": "That is not reaction notation.",
+       "misconception": "notation wrong"
+      },
+      {
+       "key": "D",
+       "text": "A curved arrow showing electron movement",
+       "correct": false,
+       "explanation": "Curly arrows belong to mechanisms.",
+       "misconception": "notation wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A reaction that goes to completion stops when",
+     "misconceptionClass": "completion logic",
+     "options": [
+      {
+       "key": "A",
+       "text": "All of the reactants are used up",
+       "correct": true,
+       "explanation": "Depletion of reactants halts a completion reaction.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The products begin to reform reactants",
+       "correct": false,
+       "explanation": "Reforming is the reversible case.",
+       "misconception": "process confused"
+      },
+      {
+       "key": "C",
+       "text": "Half the reactants remain",
+       "correct": false,
+       "explanation": "Nothing in completion chemistry stops the reaction midway.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "D",
+       "text": "The rate becomes constant and non-zero",
+       "correct": false,
+       "explanation": "Completion reactions end at rate zero.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "In a reversible reaction, the backward reaction begins",
+     "misconceptionClass": "timing",
+     "options": [
+      {
+       "key": "A",
+       "text": "As soon as product molecules exist",
+       "correct": true,
+       "explanation": "Any product can immediately react to reform reactants.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Only after all reactants are consumed",
+       "correct": false,
+       "explanation": "Both directions run simultaneously once products appear.",
+       "misconception": "timing wrong"
+      },
+      {
+       "key": "C",
+       "text": "Only when a catalyst is added",
+       "correct": false,
+       "explanation": "Catalysts are irrelevant to reversibility.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "D",
+       "text": "Never in a closed flask",
+       "correct": false,
+       "explanation": "Closed systems are exactly where both directions proceed.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which statement about the forward and backward rates before equilibrium is correct?",
+     "misconceptionClass": "rate evolution",
+     "options": [
+      {
+       "key": "A",
+       "text": "The forward rate starts high and falls; the backward starts at zero and rises",
+       "correct": true,
+       "explanation": "Their convergence defines the equilibrium state.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Both start at zero",
+       "correct": false,
+       "explanation": "The forward reaction begins immediately at full reactant availability.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "C",
+       "text": "Both stay constant until equilibrium",
+       "correct": false,
+       "explanation": "Rates evolve as compositions shift.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "D",
+       "text": "The backward rate always exceeds the forward",
+       "correct": false,
+       "explanation": "At equilibrium they are equal; before it, forward dominates.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State what the two half arrows in a reaction equation represent.",
+     "misconceptionClass": "notation recall",
+     "modelAnswer": "The simultaneous forward reaction (reactants to products) and backward reaction (products to reactants).",
+     "keywords": [
+      "forward",
+      "backward",
+      "simultaneous"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Distinguish a completion reaction from a reversible reaction.",
+     "misconceptionClass": "distinction recall",
+     "modelAnswer": "A completion reaction stops when reactants are exhausted; a reversible reaction has products that reform the reactants, so both directions continue.",
+     "keywords": [
+      "completion",
+      "reversible",
+      "reform"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the forward rate of a reversible reaction falls with time.",
+     "misconceptionClass": "rate explanation",
+     "modelAnswer": "Reactant concentration drops as the forward reaction proceeds, so collisions between reactant particles become less frequent and the forward rate declines.",
+     "keywords": [
+      "reactant",
+      "concentration",
+      "collisions"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Ammonia synthesis N2 + 3H2 <=> 2NH3 runs in a sealed vessel. Explain why some nitrogen remains however long the reaction runs.",
+     "misconceptionClass": "application",
+     "modelAnswer": "The backward reaction converts ammonia back into nitrogen and hydrogen; as ammonia accumulates the backward rate rises until it matches the forward rate, so nitrogen never fully disappears.",
+     "keywords": [
+      "backward",
+      "rate",
+      "nitrogen"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Dynamic equilibrium and the closed system",
+   "sourceHeadings": [
+    "Dynamic equilibrium"
+   ],
+   "specRefs": [
+    "9.9"
+   ],
+   "opening": "Equilibrium is motion in balance: forward and backward rates equal, concentrations constant - but not equal to each other. And the balance needs walls: gases reach equilibrium only in closed systems, though solution reactions manage even in open flasks.",
+   "keyPoints": [
+    "In dynamic equilibrium the forward and backward rates are equal in a closed system, and concentrations stay constant.",
+    "Equilibrium concentrations are constant, not equal - the common misconception the examiners love.",
+    "A closed system loses neither reactants nor products; an open system can lose matter and energy.",
+    "Gas equilibria need closed vessels; solution reactions in open flasks lose negligible material by evaporation."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "At equilibrium both reactions still run at identical rates, freezing the composition in place; the freezing requires a closed vessel when gases would otherwise escape.",
+     "analogy": "A conveyer belt feeding a leak-proof warehouse at exactly the rate stock leaves the shelves: levels steady, movement never ceasing.",
+     "examPointer": "Write 'constant, not equal' when describing equilibrium concentrations - the exact misconception examiners set as distractors."
+    },
+    "medium": {
+     "restatement": "Dynamic equilibrium is a kinetic steady state: two opposing rates cancel in effect. Closure matters because escaping matter cannot be replaced by the backward reaction; open flasks still work for solutions where evaporation is negligible.",
+     "analogy": "Two identical pumps pushing water around a sealed loop keep levels fixed; unplug the loop and the levels drift.",
+     "examPointer": "Quote the hydrogen iodide example (2HI <=> H2 + I2) when asked to illustrate a dynamic equilibrium."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "At dynamic equilibrium, the concentrations of reactants and products are",
+     "misconceptionClass": "misconception check",
+     "options": [
+      {
+       "key": "A",
+       "text": "Constant, but not necessarily equal",
+       "correct": true,
+       "explanation": "Rates equalise; concentrations freeze wherever the balance sits.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Always equal to each other",
+       "correct": false,
+       "explanation": "Equality of concentration is the classic misconception.",
+       "misconception": "misconception taken"
+      },
+      {
+       "key": "C",
+       "text": "Both still changing steadily",
+       "correct": false,
+       "explanation": "Constant composition is the defining feature.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "D",
+       "text": "Both zero",
+       "correct": false,
+       "explanation": "Equilibrium mixtures contain both reactants and products.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The word dynamic in dynamic equilibrium signals that",
+     "misconceptionClass": "word meaning",
+     "options": [
+      {
+       "key": "A",
+       "text": "Both reactions continue at equal rates",
+       "correct": true,
+       "explanation": "Molecules keep reacting both ways; the composition merely stops changing.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The reaction has completely stopped",
+       "correct": false,
+       "explanation": "That is static, the opposite of the intended meaning.",
+       "misconception": "meaning reversed"
+      },
+      {
+       "key": "C",
+       "text": "The mixture is being heated",
+       "correct": false,
+       "explanation": "No temperature claim is packed into the word.",
+       "misconception": "meaning wrong"
+      },
+      {
+       "key": "D",
+       "text": "Products dominate the mixture",
+       "correct": false,
+       "explanation": "Position can favour either side.",
+       "misconception": "meaning wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why must gaseous equilibria be set up in closed systems?",
+     "misconceptionClass": "closure logic",
+     "options": [
+      {
+       "key": "A",
+       "text": "Escaping gas would be unreplaced, driving the composition ever forward to completion",
+       "correct": true,
+       "explanation": "The backward reaction needs the products retained in the vessel.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Gases cannot react in open vessels",
+       "correct": false,
+       "explanation": "They react fine; the issue is loss of matter.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "C",
+       "text": "Closed systems lower the activation energy",
+       "correct": false,
+       "explanation": "Closure has nothing to do with Ea.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "D",
+       "text": "Pressure changes would poison the catalyst",
+       "correct": false,
+       "explanation": "No catalyst is involved in the definition.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A solution reaction can approach equilibrium in an open flask because",
+     "misconceptionClass": "open flask exception",
+     "options": [
+      {
+       "key": "A",
+       "text": "Negligible material is lost by evaporation",
+       "correct": true,
+       "explanation": "What stays in the vessel participates in both directions.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Liquids cannot evaporate at all",
+       "correct": false,
+       "explanation": "They evaporate slowly; negligible is the operative word.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "C",
+       "text": "Open flasks are sealed at the top",
+       "correct": false,
+       "explanation": "By definition they are not.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "D",
+       "text": "Solutions bypass equilibrium entirely",
+       "correct": false,
+       "explanation": "Solution reactions reach equilibrium readily.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "In the hydrogen iodide equilibrium shown in the diagram, at equilibrium",
+     "misconceptionClass": "example application",
+     "options": [
+      {
+       "key": "A",
+       "text": "HI decomposes to H2 and I2 at exactly the rate they recombine to HI",
+       "correct": true,
+       "explanation": "The snapshot shows both directions running in balance.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "HI has entirely decomposed",
+       "correct": false,
+       "explanation": "Equilibrium mixtures retain reactant HI.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "C",
+       "text": "Only H2 and I2 are present",
+       "correct": false,
+       "explanation": "Both sides of the equation persist.",
+       "misconception": "claim wrong"
+      },
+      {
+       "key": "D",
+       "text": "All concentrations are zero",
+       "correct": false,
+       "explanation": "Composition is constant and non-zero.",
+       "misconception": "claim wrong"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Define a closed system.",
+     "misconceptionClass": "definition",
+     "modelAnswer": "A system from which none of the reactants or products can escape the reaction mixture.",
+     "keywords": [
+      "none",
+      "escape",
+      "mixture"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the two defining features of dynamic equilibrium.",
+     "misconceptionClass": "features recall",
+     "modelAnswer": "Equal forward and backward rates in a closed system, and constant concentrations of reactants and products.",
+     "keywords": [
+      "rates",
+      "closed",
+      "constant"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why equilibrium concentrations differ between a mixture approached from reactants and one approached from products.",
+     "misconceptionClass": "approach nuance",
+     "modelAnswer": "Position depends on composition and conditions; approaching from either side converges to the same equilibrium composition only when the overall starting atom counts match, otherwise different constants mixtures result.",
+     "keywords": [
+      "composition",
+      "converge",
+      "conditions"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Calcium carbonate decomposes in a closed crucible and in an open dish. Predict and explain the different outcomes.",
+     "misconceptionClass": "application",
+     "modelAnswer": "Closed: CO2 is retained, so CaCO3 <=> CaO + CO2 establishes equilibrium with all three present. Open: CO2 escapes, the backward reaction cannot run, and decomposition proceeds to completion.",
+     "keywords": [
+      "closed",
+      "escape",
+      "completion"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "reversible reaction",
+    "definition": "A reaction whose products rebuild the original reactants, written with two opposing half arrows.",
+    "firstLesson": 1
+   },
+   {
+    "term": "dynamic equilibrium",
+    "definition": "The state in a closed system where forward and backward rates are equal and concentrations remain constant.",
+    "firstLesson": 2
+   },
+   {
+    "term": "closed system",
+    "definition": "A setup from which no reactant or product can escape the reaction mixture.",
+    "firstLesson": 2
+   },
+   {
+    "term": "open system",
+    "definition": "A setup losing matter or energy to the surroundings, which prevents gas equilibria.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": null
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/5b537932f5df-1-7-equilibria-reversible-reactions.png",
+   "alt": "Equilibria Reversible Reactions, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Reversible reaction",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "The diagram shows an example of a forward and backward reaction that can be written as one equation using two half arrows"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/0bf625bdb926-1-7-equilibria-dynamic-equilibrium.png",
+   "alt": "Equilibria Dynamic Equilibrium, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Dynamic equilibrium",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "The diagram shows a snapshot of a dynamic equilibrium in which molecules of hydrogen iodide are breaking down to hydrogen and iodine at the same rate as hydrogen and iodine molecules are reacting together to form hydrogen iodide"
+  },
+  {
+   "id": "fig-03",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/b07c46027046-1-7-equilibria-dynamic-equilibrium-starting-reac.png",
+   "alt": "Equilibria Dynamic Equilibrium Starting Reactants, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Dynamic equilibrium",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "The diagram shows that the concentration of the reactants and products does not change anymore once equilibrium has been reached (equilibrium was approached using reactants)"
+  },
+  {
+   "id": "fig-04",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/d31646968b2f-1-7-equilibria-dynamic-equilibrium-starting-prod.png",
+   "alt": "Equilibria Dynamic Equilibrium Starting Products, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Dynamic equilibrium",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "The diagram shows that the concentration of the reactants and products does not change anymore once equilibrium has been reached (equilibrium was approached using products)"
+  },
+  {
+   "id": "fig-05",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/5b01c1de3594-1-7-equilibria-closed-system.png",
+   "alt": "Equilibria Closed System, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Dynamic equilibrium",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "The diagram shows a closed system in which no carbon dioxide gas can escape and the calcium carbonate is in equilibrium with the calcium oxide and carbon dioxide"
+  },
+  {
+   "id": "fig-06",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/2d8e22d5b7b4-1-7-equilibria-open-system.png",
+   "alt": "Equilibria Open System, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Dynamic equilibrium",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "The diagram shows an open system in which the calcium carbonate is continually decomposing as the carbon dioxide is lost causing the reaction to eventually go to completion"
+  }
+ ]
+}
