@@ -3,7 +3,7 @@
  "id": "cie-igcse-further-maths-additional-maths-2025-2027",
  "qualification": null,
  "spec_codes": [],
- "issue": "1",
+ "issue": "2",
  "family": "int_statements",
  "source": {
   "pdf": "662470-2025-2027-syllabus.pdf",
@@ -17,7 +17,8 @@
    "id": "CIE_IGCSE_FURTHER_MATHS_ADDITIONAL_MATHS_2025_2027:1.3.1",
    "official_code": "1.3.1",
    "scope": null,
-   "text": "f( x ) = 2e",
+   "text": "f(x) = 2ex",
+   "text_render": "f(x) = 2eˣ",
    "topic": {
     "number": "1",
     "title": "Functions",
@@ -44,7 +45,8 @@
    },
    "flags": [
     "bullet-row",
-    "synthesized-ordinal"
+    "synthesized-ordinal",
+    "reparse-2.0"
    ]
   },
   {
@@ -52,6 +54,7 @@
    "official_code": "1.3.2",
    "scope": null,
    "text": "f : x ↦ lg x , for x > 0",
+   "text_render": "f : x ↦ lg x , for x > 0",
    "topic": {
     "number": "1",
     "title": "Functions",
@@ -86,6 +89,7 @@
    "official_code": "1.3.3",
    "scope": null,
    "text": "f ( x )",
+   "text_render": "f ( x )",
    "topic": {
     "number": "1",
     "title": "Functions",
@@ -119,7 +123,8 @@
    "id": "CIE_IGCSE_FURTHER_MATHS_ADDITIONAL_MATHS_2025_2027:1.3.4",
    "official_code": "1.3.4",
    "scope": null,
-   "text": "fg( x ) [= f(g( x )) ]",
+   "text": "fg(x) [= f(g(x))]",
+   "text_render": "fg(x) [= f(g(x))]",
    "topic": {
     "number": "1",
     "title": "Functions",
@@ -146,14 +151,16 @@
    },
    "flags": [
     "bullet-row",
-    "synthesized-ordinal"
+    "synthesized-ordinal",
+    "reparse-2.0"
    ]
   },
   {
    "id": "CIE_IGCSE_FURTHER_MATHS_ADDITIONAL_MATHS_2025_2027:1.3.5",
    "official_code": "1.3.5",
    "scope": null,
-   "text": "f ( x ) [= f(f( x )) ] The notation f ( x ) will not be used with trigonometric functions.",
+   "text": "f2(x) [= f(f(x))] The notation f2(x) will not be used with trigonometric functions.",
+   "text_render": "f²(x) [= f(f(x))] The notation f²(x) will not be used with trigonometric functions.",
    "topic": {
     "number": "1",
     "title": "Functions",
@@ -180,7 +187,8 @@
    },
    "flags": [
     "bullet-row",
-    "synthesized-ordinal"
+    "synthesized-ordinal",
+    "reparse-2.0"
    ]
   },
   {
@@ -188,6 +196,7 @@
    "official_code": "1.4.1",
    "scope": null,
    "text": "y = a sin bx + c quadratic, cubic or trigonometric.",
+   "text_render": "y = a sin bx + c quadratic, cubic or trigonometric.",
    "topic": {
     "number": "1",
     "title": "Functions",
@@ -222,6 +231,7 @@
    "official_code": "1.4.2",
    "scope": null,
    "text": "y = a cos bx + c",
+   "text_render": "y = a cos bx + c",
    "topic": {
     "number": "1",
     "title": "Functions",
@@ -256,6 +266,7 @@
    "official_code": "1.4.3",
    "scope": null,
    "text": "y = a tan bx + c where a is a positive integer, b is a simple fraction or integer, and c is an integer. Fractions will have a denominator of 2, 3, 4, 6 or 8 only.",
+   "text_render": "y = a tan bx + c where a is a positive integer, b is a simple fraction or integer, and c is an integer. Fractions will have a denominator of 2, 3, 4, 6 or 8 only.",
    "topic": {
     "number": "1",
     "title": "Functions",
@@ -290,6 +301,7 @@
    "official_code": "1.6.2",
    "scope": null,
    "text": "x",
+   "text_render": "x",
    "topic": {
     "number": "1",
     "title": "Functions",
@@ -326,6 +338,7 @@
    "official_code": "2.5.1",
    "scope": null,
    "text": "–3 < x < 4",
+   "text_render": "–3 < x < 4",
    "topic": {
     "number": "2",
     "title": "Quadratic functions",
@@ -360,6 +373,7 @@
    "official_code": "2.5.2",
    "scope": null,
    "text": "x < 1 or x > 6",
+   "text_render": "x < 1 or x > 6",
    "topic": {
     "number": "2",
     "title": "Quadratic functions",
@@ -394,6 +408,7 @@
    "official_code": "4.1.1",
    "scope": null,
    "text": "| ax + b | = c ( c ⩾ 0) expected.",
+   "text_render": "| ax + b | = c ( c ⩾ 0) expected.",
    "topic": {
     "number": "4",
     "title": "Equations, inequalities and graphs",
@@ -428,6 +443,7 @@
    "official_code": "4.1.2",
    "scope": null,
    "text": "| ax + b | = cx + d For algebraic methods, any valid method is acceptable.",
+   "text_render": "| ax + b | = cx + d For algebraic methods, any valid method is acceptable.",
    "topic": {
     "number": "4",
     "title": "Equations, inequalities and graphs",
@@ -462,6 +478,7 @@
    "official_code": "4.1.3",
    "scope": null,
    "text": "| ax + b| = |cx + d |",
+   "text_render": "| ax + b| = |cx + d |",
    "topic": {
     "number": "4",
     "title": "Equations, inequalities and graphs",
@@ -496,6 +513,7 @@
    "official_code": "4.1.4",
    "scope": null,
    "text": "| ax + bx + c | = d using algebraic or graphical methods.",
+   "text_render": "| ax + bx + c | = d using algebraic or graphical methods.",
    "topic": {
     "number": "4",
     "title": "Equations, inequalities and graphs",
@@ -530,6 +548,7 @@
    "official_code": "4.2.1",
    "scope": null,
    "text": "k | ax + b | > c ( c ⩾ 0 ) For algebraic methods, any valid method is",
+   "text_render": "k | ax + b | > c ( c ⩾ 0 ) For algebraic methods, any valid method is",
    "topic": {
     "number": "4",
     "title": "Equations, inequalities and graphs",
@@ -564,6 +583,7 @@
    "official_code": "4.2.2",
    "scope": null,
    "text": "k | ax + b | ⩽ c ( c > 0) acceptable.",
+   "text_render": "k | ax + b | ⩽ c ( c > 0) acceptable.",
    "topic": {
     "number": "4",
     "title": "Equations, inequalities and graphs",
@@ -598,6 +618,7 @@
    "official_code": "4.2.3",
    "scope": null,
    "text": "k | ax + b | ⩽ | cx + d | where k > 0",
+   "text_render": "k | ax + b | ⩽ | cx + d | where k > 0",
    "topic": {
     "number": "4",
     "title": "Equations, inequalities and graphs",
@@ -632,6 +653,7 @@
    "official_code": "4.2.4",
    "scope": null,
    "text": "| ax + b | ⩽ cx + d",
+   "text_render": "| ax + b | ⩽ cx + d",
    "topic": {
     "number": "4",
     "title": "Equations, inequalities and graphs",
@@ -666,6 +688,7 @@
    "official_code": "4.2.5",
    "scope": null,
    "text": "| ax + bx + c | > d",
+   "text_render": "| ax + bx + c | > d",
    "topic": {
     "number": "4",
     "title": "Equations, inequalities and graphs",
@@ -700,6 +723,7 @@
    "official_code": "4.2.6",
    "scope": null,
    "text": "| ax + bx + c | ⩽ d",
+   "text_render": "| ax + bx + c | ⩽ d",
    "topic": {
     "number": "4",
     "title": "Equations, inequalities and graphs",
@@ -734,6 +758,7 @@
    "official_code": "4.3.1",
    "scope": null,
    "text": "x 3 + x 3 - 12 = 0",
+   "text_render": "x 3 + x 3 - 12 = 0",
    "topic": {
     "number": "4",
     "title": "Equations, inequalities and graphs",
@@ -768,6 +793,7 @@
    "official_code": "4.3.2",
    "scope": null,
    "text": "3e = 12 – 5e",
+   "text_render": "3e = 12 – 5e",
    "topic": {
     "number": "4",
     "title": "Equations, inequalities and graphs",
@@ -802,6 +828,7 @@
    "official_code": "4.3.3",
    "scope": null,
    "text": "Candidates are expected to identify the appropriate substitution.",
+   "text_render": "Candidates are expected to identify the appropriate substitution.",
    "topic": {
     "number": "4",
     "title": "Equations, inequalities and graphs",
@@ -834,7 +861,8 @@
    "id": "CIE_IGCSE_FURTHER_MATHS_ADDITIONAL_MATHS_2025_2027:4.5.1",
    "official_code": "4.5.1",
    "scope": null,
-   "text": "f( x ) ⩾ d",
+   "text": "f(x) ⩾ d",
+   "text_render": "f(x) ⩾ d",
    "topic": {
     "number": "4",
     "title": "Equations, inequalities and graphs",
@@ -861,14 +889,16 @@
    },
    "flags": [
     "bullet-row",
-    "synthesized-ordinal"
+    "synthesized-ordinal",
+    "reparse-2.0"
    ]
   },
   {
    "id": "CIE_IGCSE_FURTHER_MATHS_ADDITIONAL_MATHS_2025_2027:4.5.2",
    "official_code": "4.5.2",
    "scope": null,
-   "text": "f( x ) > d",
+   "text": "f(x) > d",
+   "text_render": "f(x) > d",
    "topic": {
     "number": "4",
     "title": "Equations, inequalities and graphs",
@@ -895,14 +925,16 @@
    },
    "flags": [
     "bullet-row",
-    "synthesized-ordinal"
+    "synthesized-ordinal",
+    "reparse-2.0"
    ]
   },
   {
    "id": "CIE_IGCSE_FURTHER_MATHS_ADDITIONAL_MATHS_2025_2027:4.5.3",
    "official_code": "4.5.3",
    "scope": null,
-   "text": "f( x ) ⩽ d",
+   "text": "f(x) ⩽ d",
+   "text_render": "f(x) ⩽ d",
    "topic": {
     "number": "4",
     "title": "Equations, inequalities and graphs",
@@ -929,14 +961,16 @@
    },
    "flags": [
     "bullet-row",
-    "synthesized-ordinal"
+    "synthesized-ordinal",
+    "reparse-2.0"
    ]
   },
   {
    "id": "CIE_IGCSE_FURTHER_MATHS_ADDITIONAL_MATHS_2025_2027:4.5.4",
    "official_code": "4.5.4",
    "scope": null,
-   "text": "f( x ) < d where f( x ) is a product of three linear factors and d is a constant.",
+   "text": "f(x) < d where f(x) is a product of three linear factors and d is a constant.",
+   "text_render": "f(x) < d where f(x) is a product of three linear factors and d is a constant.",
    "topic": {
     "number": "4",
     "title": "Equations, inequalities and graphs",
@@ -963,7 +997,8 @@
    },
    "flags": [
     "bullet-row",
-    "synthesized-ordinal"
+    "synthesized-ordinal",
+    "reparse-2.0"
    ]
   },
   {
@@ -971,6 +1006,7 @@
    "official_code": "5.1.1",
    "scope": null,
    "text": "y – x + 3 = 0 and x – 3 xy + y + 19 = 0",
+   "text_render": "y – x + 3 = 0 and x – 3 xy + y + 19 = 0",
    "topic": {
     "number": "5",
     "title": "Simultaneous equations",
@@ -1005,6 +1041,7 @@
    "official_code": "5.1.2",
    "scope": null,
    "text": "xy = 4 and xy = 3",
+   "text_render": "xy = 4 and xy = 3",
    "topic": {
     "number": "5",
     "title": "Simultaneous equations",
@@ -1039,6 +1076,7 @@
    "official_code": "5.1.3",
    "scope": null,
    "text": "+ = 4 and y = x – 2",
+   "text_render": "+ = 4 and y = x – 2",
    "topic": {
     "number": "5",
     "title": "Simultaneous equations",
@@ -1073,6 +1111,7 @@
    "official_code": "6.2.1",
    "scope": null,
    "text": "Write 3 + 21g p – 1g q as a single base 10 logarithm.",
+   "text_render": "Write 3 + 21g p – 1g q as a single base 10 logarithm.",
    "topic": {
     "number": "6",
     "title": "Logarithmic and exponential functions",
@@ -1107,6 +1146,7 @@
    "official_code": "6.2.2",
    "scope": null,
    "text": "Write as a natural logarithm. log e",
+   "text_render": "Write as a natural logarithm. log e",
    "topic": {
     "number": "6",
     "title": "Logarithmic and exponential functions",
@@ -1141,6 +1181,7 @@
    "official_code": "7.4.1",
    "scope": null,
    "text": "To straight-line form unknown constants by calculating the gradient y = Ax or intercept of the transformed graph. y = Ab",
+   "text_render": "To straight-line form unknown constants by calculating the gradient y = Ax or intercept of the transformed graph. y = Ab",
    "topic": {
     "number": "7",
     "title": "Straight-line graphs",
@@ -1175,6 +1216,7 @@
    "official_code": "7.4.2",
    "scope": null,
    "text": "From straight-line form to an equation of the form . y = Ax + B e = Ax + B y = A 1n x + B",
+   "text_render": "From straight-line form to an equation of the form . y = Ax + B e = Ax + B y = A 1n x + B",
    "topic": {
     "number": "7",
     "title": "Straight-line graphs",
@@ -1209,6 +1251,7 @@
    "official_code": "8.1.2",
    "scope": null,
    "text": "2 2 Formula is given in the List of formulas.",
+   "text_render": "2 2 Formula is given in the List of formulas.",
    "topic": {
     "number": "8",
     "title": "Coordinate geometry of the circle",
@@ -1245,6 +1288,7 @@
    "official_code": "8.2.1",
    "scope": null,
    "text": "is a tangent",
+   "text_render": "is a tangent",
    "topic": {
     "number": "8",
     "title": "Coordinate geometry of the circle",
@@ -1279,6 +1323,7 @@
    "official_code": "8.2.2",
    "scope": null,
    "text": "is a chord",
+   "text_render": "is a chord",
    "topic": {
     "number": "8",
     "title": "Coordinate geometry of the circle",
@@ -1313,6 +1358,7 @@
    "official_code": "8.2.3",
    "scope": null,
    "text": "does not intersect the circle.",
+   "text_render": "does not intersect the circle.",
    "topic": {
     "number": "8",
     "title": "Coordinate geometry of the circle",
@@ -1347,6 +1393,7 @@
    "official_code": "8.4.1",
    "scope": null,
    "text": "intersect",
+   "text_render": "intersect",
    "topic": {
     "number": "8",
     "title": "Coordinate geometry of the circle",
@@ -1381,6 +1428,7 @@
    "official_code": "8.4.2",
    "scope": null,
    "text": "touch",
+   "text_render": "touch",
    "topic": {
     "number": "8",
     "title": "Coordinate geometry of the circle",
@@ -1415,6 +1463,7 @@
    "official_code": "8.4.3",
    "scope": null,
    "text": "do not intersect.",
+   "text_render": "do not intersect.",
    "topic": {
     "number": "8",
     "title": "Coordinate geometry of the circle",
@@ -1449,6 +1498,7 @@
    "official_code": "10.4.2",
    "scope": null,
    "text": "2 formulas.",
+   "text_render": "2 formulas.",
    "topic": {
     "number": "10",
     "title": "Trigonometry",
@@ -1486,6 +1536,7 @@
    "official_code": "10.5.1",
    "scope": null,
    "text": "4 cot θ = tan θ",
+   "text_render": "4 cot θ = tan θ",
    "topic": {
     "number": "10",
     "title": "Trigonometry",
@@ -1520,6 +1571,7 @@
    "official_code": "10.5.2",
    "scope": null,
    "text": "2 sec θ + tan θ – 3 = 0 i + 2 cos 3 i = 0",
+   "text_render": "2 sec θ + tan θ – 3 = 0 i + 2 cos 3 i = 0",
    "topic": {
     "number": "10",
     "title": "Trigonometry",
@@ -1554,6 +1606,7 @@
    "official_code": "10.5.3",
    "scope": null,
    "text": "5 sin 3",
+   "text_render": "5 sin 3",
    "topic": {
     "number": "10",
     "title": "Trigonometry",
@@ -1588,6 +1641,7 @@
    "official_code": "10.5.4",
    "scope": null,
    "text": "3 cosec 2 d i - n = 4",
+   "text_render": "3 cosec 2 d i - n = 4",
    "topic": {
     "number": "10",
     "title": "Trigonometry",
@@ -1622,6 +1676,7 @@
    "official_code": "10.6.1",
    "scope": null,
    "text": "sin x tan x + cos x = sec x sin i 1 + cos i",
+   "text_render": "sin x tan x + cos x = sec x sin i 1 + cos i",
    "topic": {
     "number": "10",
     "title": "Trigonometry",
@@ -1656,6 +1711,7 @@
    "official_code": "10.6.2",
    "scope": null,
    "text": "+ = 2 cosec θ",
+   "text_render": "+ = 2 cosec θ",
    "topic": {
     "number": "10",
     "title": "Trigonometry",
@@ -1690,6 +1746,7 @@
    "official_code": "10.6.1",
    "scope": null,
    "text": "+ cos i sin i",
+   "text_render": "+ cos i sin i",
    "topic": {
     "number": "10",
     "title": "Trigonometry",
@@ -1723,6 +1780,7 @@
    "official_code": "11.3.1",
    "scope": null,
    "text": "repetition of objects",
+   "text_render": "repetition of objects",
    "topic": {
     "number": "11",
     "title": "Permutations and combinations",
@@ -1757,6 +1815,7 @@
    "official_code": "11.3.2",
    "scope": null,
    "text": "objects arranged in a circle",
+   "text_render": "objects arranged in a circle",
    "topic": {
     "number": "11",
     "title": "Permutations and combinations",
@@ -1791,6 +1850,7 @@
    "official_code": "11.3.3",
    "scope": null,
    "text": "both permutations and combinations, are not included.",
+   "text_render": "both permutations and combinations, are not included.",
    "topic": {
     "number": "11",
     "title": "Permutations and combinations",
@@ -1825,6 +1885,7 @@
    "official_code": "13.3.1",
    "scope": null,
    "text": "equating like vectors scalars.",
+   "text_render": "equating like vectors scalars.",
    "topic": {
     "number": "13",
     "title": "Vectors in two dimensions",
@@ -1859,6 +1920,7 @@
    "official_code": "13.3.2",
    "scope": null,
    "text": "solving problems using vector geometry, with a diagram given in more complex cases.",
+   "text_render": "solving problems using vector geometry, with a diagram given in more complex cases.",
    "topic": {
     "number": "13",
     "title": "Vectors in two dimensions",
@@ -1893,6 +1955,7 @@
    "official_code": "14.2.2",
    "scope": null,
    "text": "J N f ′ ( x ), f ″( x ), , = KK OO",
+   "text_render": "J N f ′ ( x ), f ″( x ), , = KK OO",
    "topic": {
     "number": "14",
     "title": "Calculus",
@@ -1926,6 +1989,7 @@
    "official_code": "14.3.2",
    "scope": null,
    "text": "3 For example, differentiate ` 3 x + 4 j .",
+   "text_render": "3 For example, differentiate ` 3 x + 4 j .",
    "topic": {
     "number": "14",
     "title": "Calculus",
@@ -1959,6 +2023,7 @@
    "official_code": "14.3.3",
    "scope": null,
    "text": "For trigonometric functions angles will always be in radians.",
+   "text_render": "For trigonometric functions angles will always be in radians.",
    "topic": {
     "number": "14",
     "title": "Calculus",
@@ -1992,6 +2057,7 @@
    "official_code": "14.11.1",
    "scope": null,
    "text": "and 1 arbitrary constant. including . x ax + b",
+   "text_render": "and 1 arbitrary constant. including . x ax + b",
    "topic": {
     "number": "14",
     "title": "Calculus",
@@ -2025,6 +2091,7 @@
    "official_code": "14.12.1",
    "scope": null,
    "text": "( ax + b ) for any rational n For trigonometric functions angles will always be in",
+   "text_render": "( ax + b ) for any rational n For trigonometric functions angles will always be in",
    "topic": {
     "number": "14",
     "title": "Calculus",
@@ -2059,6 +2126,7 @@
    "official_code": "14.12.2",
    "scope": null,
    "text": "sin ( ax + b ) radians.",
+   "text_render": "sin ( ax + b ) radians.",
    "topic": {
     "number": "14",
     "title": "Calculus",
@@ -2093,6 +2161,7 @@
    "official_code": "14.12.3",
    "scope": null,
    "text": "cos ( ax + b ) Solutions for indefinite integrals should include an 2 arbitrary constant.",
+   "text_render": "cos ( ax + b ) Solutions for indefinite integrals should include an 2 arbitrary constant.",
    "topic": {
     "number": "14",
     "title": "Calculus",
@@ -2127,6 +2196,7 @@
    "official_code": "14.12.4",
    "scope": null,
    "text": "sec ( ax + b ) ax + b",
+   "text_render": "sec ( ax + b ) ax + b",
    "topic": {
     "number": "14",
     "title": "Calculus",
@@ -2161,6 +2231,7 @@
    "official_code": "14.12.5",
    "scope": null,
    "text": "e",
+   "text_render": "e",
    "topic": {
     "number": "14",
     "title": "Calculus",
@@ -2195,6 +2266,7 @@
    "official_code": "14.13.1",
    "scope": null,
    "text": "between a line and a curve",
+   "text_render": "between a line and a curve",
    "topic": {
     "number": "14",
     "title": "Calculus",
@@ -2229,6 +2301,7 @@
    "official_code": "14.13.2",
    "scope": null,
    "text": "between two curves",
+   "text_render": "between two curves",
    "topic": {
     "number": "14",
     "title": "Calculus",
@@ -2263,6 +2336,7 @@
    "official_code": "14.13.3",
    "scope": null,
    "text": "a sum of two areas.",
+   "text_render": "a sum of two areas.",
    "topic": {
     "number": "14",
     "title": "Calculus",
@@ -2297,6 +2371,7 @@
    "official_code": "14.15.3",
    "scope": null,
    "text": "2 graph, its speed–time graph, its acceleration–time graph.",
+   "text_render": "2 graph, its speed–time graph, its acceleration–time graph.",
    "topic": {
     "number": "14",
     "title": "Calculus",
