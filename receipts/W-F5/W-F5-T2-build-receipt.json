@@ -1,0 +1,48 @@
+{
+ "schema": "syllabai.task-receipt/1",
+ "wave": "W-F5",
+ "task": "W-F5-T2",
+ "origin_trace": "1a1e5c7c2499bf51",
+ "executed_utc": "2026-11-16",
+ "what": "Build + local land of the issue-2 presentation layer for the 34 CIE canonical bundles: sha1-verified PDF fetch, geometry-driven R2 re-recovery (42 recovered rows / 7 T6-proven / 29 honest unrecovered), issue-2 emitter (text_render on all 6,920 rows), gate battery G-F5-C1..C6 ALL PASS, census 0.6 rider (additivity CLEAN), swap staged under download/w-f5-swap/ (34 modified spec_points.json + SWAP.md sha256 pins).",
+ "phase_a_fetch": {
+  "manifest": "cache/w-f5/fetch-manifest.json",
+  "quals": 19,
+  "sha1_match": 15,
+  "sha1_mismatch": ["cie-a-level-biology-2025-2027", "cie-a-level-chemistry-2025-2027", "cie-a-level-physics-2025-2027", "cie-as-environmental-management-2025-2027"],
+  "note": "mismatched PDFs are NOT the pinned sources (Cambridge re-issued); their R2 candidate rows fall back honestly to unrecovered"
+ },
+ "phase_b_recovery": {
+  "evidence": "cache/w-f5/recovery-rows.json",
+  "verdicts": {"recovered": 42, "t6_proven": 7, "unrecovered": 29},
+  "unique_rows_recovered": 40,
+  "note": "42 verdicts cover 40 unique (qual,id) rows — 2 rows match multiple detector classes and were recovered twice with byte-identical results (deterministic engine)",
+  "acceptance_law": "STRICT: insertions from verified sub/sup spans only, deletions spaces/control-glyph only; RELAXED: additions from verified evidence, no content lost, reorder receipted; recovery text convention = plain inline digits (corpus-consistent); render re-encodes those positions to unicode sub/sup",
+  "examples": [
+   "cie-igcse-biology 12.2.3: 'C H O + 6O → 6CO + 6H O' -> 'C6H12O6 + 6O2 → 6CO2 + 6H2O' (render C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O)",
+   "cie-igcse-chemistry 3.3.2: '6.02 × 10 particles' -> '6.02 × 1023 particles' (render 6.02 × 10²³)",
+   "cie-igcse-chemistry 7.3.5: 'CuSO •5H O' -> 'CuSO4•5H2O'"
+  ]
+ },
+ "phase_c_emit": {
+  "totals": {"rows": 6920, "r2_rows": 40, "t6_rows": 7, "t1": 6, "t4": 1, "t5": 28, "t3": 0},
+  "row_shape": "13-field contract + text_render (14 fields), text_render inserted after text",
+  "serialization": "indent=1, ensure_ascii=False, no trailing newline (byte-format-identical to issue-1)",
+  "swap": "download/w-f5-swap/ (34 spec_points.json + SWAP.md sha256 pins + swap-manifest.json with per-row position receipts)"
+ },
+ "gates": {
+  "G-F5-C1": "PASS — de-render(text_render) == text on 6920/6920 rows (position receipts invert T-edits; unicode map inverts R2 rows)",
+  "G-F5-C2": "PASS — emitter re-run byte-identical",
+  "G-F5-C3": "PASS — issue-1 flags preserved; reparse-2.0 only on receipted R2 rows",
+  "G-F5-C4": "PASS — issue '2', 14-field order, counts honest, topics.json untouched (byte-identical pinned oids)",
+  "G-F5-C5": "PASS — exactly 34 staged files, SWAP.md pins match",
+  "G-F5-C6": "PASS — every reparse-2.0 row carries page/span/acceptance receipt; 4 sha1-mismatch quals documented"
+ },
+ "phase_e_census": {
+  "rider": "0.5 -> 0.6 (seq 8): 34 CIE rows gain bundle_issue \"2\" + text_render true; deep-compare additivity CLEAN",
+  "before_sha256": "4881c8024070195885443945052a4233649b6ab6774d8023545380e93009217f",
+  "after_sha256": "377a73f37e992eb0478a8f21f4b8248f7786b92ffc25b87e0e113aeeb3772930"
+ },
+ "landing": "LOCAL ONLY — commits built on the remote tip fetched at build time; PUSH PENDING OPERATOR ORDER (no fresh credential delegated this round; the prior PAT is under standing rotation advice)",
+ "next_operator_action": "push the two landing commits (fresh PAT or manual push); rotate the outstanding PAT"
+}

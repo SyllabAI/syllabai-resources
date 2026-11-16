@@ -1,0 +1,46 @@
+{
+ "schema": "syllabai.task-receipt/1",
+ "wave": "W-F5",
+ "task": "W-F5-T1",
+ "origin_trace": "1a1e5bfa1854103d",
+ "executed_utc": "2026-11-15",
+ "what": "Design of record for the presentation-layer wave: notation audit over the 34 landed CIE canonical bundles, damage-class census, three-lane repair architecture (R1 render / R2 geometry re-recovery / R3 polish), transform tables with inverses, gate law, T2 execution plan.",
+ "inputs_of_record": [
+  "commit d926be489c016d55b6d5bd3c9210b4d19b5acaf4 (68 bundle files; blob oids via cache/w-exec/manifest-wf3t2-land.json)",
+  "cache/w-f5/audit-of-record.json (pattern inventory P01..P15 + damage_classes_refined, per-qual counts + examples)",
+  "13-field contract of record (W-F2-T2 staged outputs; W-F3-T1 bundle shape law)",
+  "reparse precedent spec-reparse-1.0 (W-F2)",
+  "per-row provenance pins (pdf + pdf_sha1 + page + oy) in every bundle row"
+ ],
+ "audit_verdict": {
+  "rows_scanned": 6920,
+  "quals_scanned": 34,
+  "corpus_health": "typographically healthy overall; 327 rows already carry correct unicode math",
+  "damage_classes": {
+   "subscript-loss": {"rows": 41, "quals": 12},
+   "hyphen-split": {"rows": 24, "quals": 12},
+   "math-garble": {"rows": 22, "quals": 5},
+   "footer-continued": {"rows": 28, "quals": 7},
+   "exponent-loss": {"rows": 11, "quals": 6},
+   "orphan-digit-prefix": {"rows": 2, "quals": 2}
+  },
+  "key_finding": "flags of record undercount the loss class (5 rows flagged possible-superscript-loss vs 54 rows evidenced by sub/super/orphan detectors); flags stay untouched, repairs derive from evidence and are receipted per-row",
+  "feasibility": "every damaged row is addressable via provenance page/oy at the pinned pdf_sha1; CIE PDFs not in durable cache -> T2 needs a sha1-verified fetch step (fetch-manifest pattern)"
+ },
+ "design": {
+  "lanes": {
+   "R1": "text_render on every row (KaTeX $..$ spans + safe normalizations); text never modified; pure ordered transform table",
+   "R2": "geometry-driven source re-recovery for ~95 candidate rows; recovered text re-issued at issue 2 with reparse-2.0 flag appended + per-row recovery receipt; unrecoverable rows stay verbatim (no domain-knowledge constant restoration)",
+   "R3": "render-side polish (footer strip, degree/prime spacing, geometry-proven hyphen rejoin); reversible, receipted"
+  },
+  "issue_law": "34 spec_points.json re-issued at issue 2 with one added field text_render (14 fields); topics.json byte-identical; flags additive-only; counts recomputed; census 0.6 rider only if census schema describes the bumped fields",
+  "transform_tables": "accepted T1-T6 with recorded guards + inverses; chem-bare/ion-charge/ordinal/whole-text-LaTeX REJECTED (false-positive-prone or garbled-source classes -> R2 evidence only); ambiguity law: unadjudicable instances stay verbatim",
+  "gates_T2": ["G-F5-C1 reversal 100% (allow-listed exceptions receipted)", "G-F5-C2 determinism/zero-LLM", "G-F5-C3 flag preservation (additive only)", "G-F5-C4 issue-2 honesty (topics byte-identical)", "G-F5-C5 swap discipline (34 modified files, one revertible commit, sha256 pins)", "G-F5-C6 per-row R2 recovery receipts"]
+ },
+ "gates_adjudicated": {
+  "G-F5-D1": {"verdict": "PASS", "evidence": "every transform guard cites the audit examples (cache/w-f5/audit-of-record.json) or pinned bundle blobs via manifest-wf3t2-land.json oids; lane rules cite the W-F2 reparse precedent and provenance pins"},
+  "G-F5-D2": {"verdict": "PASS", "evidence": "audit-of-record.json covers 34/34 quals at the pinned oids: P01..P15 inventory + 6 refined damage classes, each with detector regex + examples"},
+  "G-F5-D3": {"verdict": "PASS", "evidence": "writes this round: tasks/W-F5-presentation-layer.md (NEW), receipts/W-F5/ (design + this receipt + worklog block), cache/w-f5/ (audit + damage classes), scripts/wf5t1_*.py; zero repo writes; bundles remain at issue 1; census remains 0.5"}
+ },
+ "next_operator_action": "fire W-F5-T2 (build + land) by separate order; rotate the delegated PAT (outstanding, 4 exposures)"
+}

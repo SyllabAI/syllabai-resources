@@ -1241,3 +1241,14 @@ First `tasks/` + `receipts/` records in the repo: `tasks/W-F3-cie-lane-c-canonic
 ## Wave 40 — W-F3-T2 records land: task status + Lane C build/recovery receipts + LEDGER (committed under operator order trace 1a1dcd599489036d)
 
 `tasks/W-F3-cie-lane-c-canonicalization.md` status records the Wave-39 landing; `receipts/W-F3/` gains the T2 build receipt + T2 worklog entry + recovery worklog entry; `receipts/EXEC-1a1dcc849294ab51-recover-verify.json` records the recovery of the T2 execution workspace (artifacts found orphaned in a volatile area; 216/216 rescued byte-identical; gate battery re-run 755 checks PASS; census additivity re-derived CLEAN; verdict RESCUED_AND_REVERIFIED). Census 0.5 stays agent-side (repo does not track the census file). This commit (the records landing of the same operator order, on top of the Wave-39 commit `d926be489c016d55b6d5bd3c9210b4d19b5acaf4`).
+---
+
+## Wave 41 — W-F5-T2 presentation layer lands: 34 CIE quals issue-2 (trace 1a1e5c7c2499bf51; committed under operator order trace 1a1e5c7c2499bf51)
+
+`W-F5-T2` lands the presentation layer: the 34 `spec_points.json` re-issued at issue 2 — every row gains `text_render` (unicode sub/sup re-encoding on the 40 rows whose lost sub/superscripts were re-recovered from the pinned source PDFs via span geometry — `reparse-2.0` appended, per-row receipts; degree-spacing x6, fraction LaTeX x1, footer-continued strip x28, geometry-proven hyphen rejoin x7); `text` frozen everywhere else; `topics.json` untouched; ids/ordering/provenance untouched; flags additive-only. Reversal gate: de-render(text_render)==text on 6,920/6,920 rows (zero-LLM, position-receipted). Gates G-F5-C1..C6 PASS. 29 candidate rows stay verbatim (multi-column interleaves without clean geometry; 4 quals whose Cambridge PDFs re-issued — sha1 mismatch documented). Census 0.6 rider seq 8 (agent-side, additivity CLEAN). One revertible commit `676306b038031e5f299af75f89e6269577f47e5d`; revert = revert the commit.
+
+---
+
+## Wave 42 — W-F5-T2 records land: task status + W-F5 T1/T2 receipts + W-F3 land-confirm receipts + LEDGER (committed under operator order trace 1a1e5c7c2499bf51)
+
+`tasks/W-F5-presentation-layer.md` (NEW) records the wave: T1 design of record (trace 1a1e5bfa1854103d) + T2 build/local-land (trace 1a1e5c7c2499bf51). `receipts/W-F5/` gains the T1 design doc + JSON receipt + worklog entry and the T2 build receipt + worklog entry; `receipts/W-F3/` gains the T2 land-confirm worklog entry and `receipts/EXEC-1a1df8cbec7f756d-landing-confirm.json` records the independent confirmation that the W-F3-T2 landing commits (d926be48 + 3c8c2515) are on GitHub main (23/23 review PASS; remote ancestry evidence; the guided wave-3 lane opened on 3c8c2515). This commit (the records landing of the same operator order, on top of the Wave-41 commit `676306b038031e5f299af75f89e6269577f47e5d`). Push of both commits PENDING OPERATOR ORDER.

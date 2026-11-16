@@ -1,0 +1,47 @@
+{
+ "schema": "syllabai.exec-receipt/1",
+ "what": "W-F3-T2 landing review + remote re-confirmation (order 'review+commit' trace 1a1dcd599489036d, executed under Proceed trace 1a1df8cbec7f756d)",
+ "executed_utc": "2026-11-15",
+ "order_trace": "1a1dcd599489036d",
+ "proceed_trace": "1a1df8cbec7f756d",
+ "landing_of_record": {
+  "base": "be6c96f5b587c8f17cd7f3362b008dbc8a68f102",
+  "c1_bundles": "d926be489c016d55b6d5bd3c9210b4d19b5acaf4",
+  "c1_content": "68 new files — Official-Specifications/parsed/cie-*/{spec_points,topics}.json for 34 CIE quals (13-field contract, zero-LLM emitter canonical-builder-2.0-cie-1.0); single revertible commit",
+  "c2_records": "3c8c25158748e4831d987c631abaa15a1327399a",
+  "c2_content": "records — tasks/W-F3 status LAND line + 4 receipts (T2 build receipt, T2 worklog, recovery worklog, EXEC-1a1dcc849294ab51) + LEDGER.md Waves 39-40 (append-only, +1991 bytes)",
+  "t2_trace": "1a1db87bf72cb265",
+  "recovery_trace": "1a1dcc849294ab51"
+ },
+ "review": {
+  "verdict": "REVIEW_PASS",
+  "checks": "23/23 PASS (R1 ancestry / R2 C1 diff == exactly 68 create-mode additions / R3 C2 diff == exactly 4A+2M + LEDGER append-only / R4 74/74 blob byte-identity + oid three-way vs manifest / R5 messages / R6 LEDGER+task-file content / R7 gate battery 755/755 PASS / R8 SWAP.md sha256 pins recomputed)",
+  "evidence": "cache/w-f3-t2/landing-review.json",
+  "note": "one reviewer-side expectation fixed (LEDGER.md and the task file pre-exist at C1, so C1->C2 status is M, not A); the commits themselves were never modified"
+ },
+ "remote_confirmation": {
+  "verdict": "LANDING_ON_REMOTE_RECONFIRMED",
+  "remote_tip_at_ls_remote": "57587ea582d9ff843339fac52c2dbf0347bfff81",
+  "evidence_chain": [
+   "ls-remote (authenticated, PAT transient): refs/heads/main = 57587ea5 — remote had ALREADY moved past the landing base",
+   "fetch of origin main succeeded; fetched wave-3 commits parent-chain proves GitHub main contains 3c8c2515 (C2) -> d926be48 (C1) -> be6c96f5 (linear)",
+   "guided wave-3 commit message of record states 'parent = wave-open main 3c8c2515…' — the operator's wave-3 lane (trace 1a1dcc879cad686d, commits c847274a/ba08669f/57587ea5) opened its wave ON the records commit",
+   "range diff 3c8c2515..57587ea5 touches ONLY SME-GuidedLessons/** — the 68 bundles, the 6 record paths and LEDGER.md are untouched"
+  ],
+  "push_decision": "NO PUSH — the landing is already on the remote; pushing refs/heads/main would have been non-fast-forward and force-push is out of bounds. The pre-push race check prevented a destructive redundant push."
+ },
+ "credential_handling": {
+  "pat_exposure": "4th transit through the chat channel (delegated with order 1a1dcd599489036d)",
+  "usage_this_round": "exactly ONE authenticated ls-remote; transient in the command URL only; output redacted; never written to any file, config, receipt or ref",
+  "rotation": "OUTSTANDING — rotate the PAT now; no future round needs this token"
+ },
+ "refs_hygiene": [
+  "origin/main fetched to 57587ea5 (tracking ref now honest)",
+  "local refs/heads/main fast-forwarded C2 -> 57587ea5 via update-ref (ff, no objects created, worktree untouched)"
+ ],
+ "repo_writes_this_round": 0,
+ "operator_actions": [
+  "ride receipts/EXEC-1a1df8cbec7f756d-landing-confirm.json + receipts/W-F3/W-F3-T2-land-confirm-worklog-entry.md on the next landing (established pattern)",
+  "ROTATE the delegated PAT (4 chat-channel exposures)"
+ ]
+}
