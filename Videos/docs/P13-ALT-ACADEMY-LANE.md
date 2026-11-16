@@ -1,7 +1,7 @@
 # P13 — Alt Academy family lane (one brand, nine channels)
 
 **Task:** T-VIDEOMAP-P13 · **Authorized:** owner chat 2026-11-14 "file it as lane P13" (after the
-@altacademyorg recon: a CAIE-native multi-subject hub plus eight subject channels) · **Status:** built + gated locally; ship pending
+@altacademyorg recon: a CAIE-native multi-subject hub plus eight subject channels) · **Status:** SHIPPED 2026-11-16 — resources PR #354 merged (`c77ac02d`) · hub PR #1024 merged (`074f165f`, all 6 checks green)
 
 ## What shipped
 
@@ -81,7 +81,18 @@ rows). Spec-join census **95 courses / 9,566 rows / 13,712 refs / 0 violations**
 
 ## Ship status
 
-Built and gated locally. Resources lane: `videos/p13-alt-academy`; hub lane:
-`t-videomap-p13/run-001` (to be cut at ship time). The push/PR/merge phase runs on the owner's
-token (env-only, never stored) — **the previously flagged token string `ghp_rW7z…71xD` remains
-unrotated; rotation is still outstanding and strongly recommended.**
+**SHIPPED 2026-11-16.** Resources PR **#354** merged to main at `c77ac02d` (API PUT on the owner
+token); hub PR **#1024** merged to main at `074f165f` (owner UI merge 2026-11-15T20:17Z — all 6
+checks green: hub, verify, census, law-readback, coordination, Vercel Preview Comments) after a
+branch pre-ship sync #2 (`100fc36d`) that 3-way-unioned main's concurrent T-REGISTER run-002
+enrichment of the 8 cie maths video-map files: main's enriched pre-existing rows win, P13's +116
+new rows kept verbatim, zero deletions, coverage recomputed. Remote ancestry of both lane heads
+verified (`f9326606` ∈ resources main; `ea300983` + `100fc36d` ∈ hub main at `99e15f65`); hub
+gate re-run on remote main post-merge: **16/16 pass, 4,427 expects**, registry 95 courses, flags
+`live (T-VIDEOMAP-P3+…+P12+P13)`. Lane branches: resources `videos/p13-alt-academy`; hub
+`t-videomap-p13/run-001`.
+
+**Security note of record:** the ship was completed with the token string `ghp_rW7z…71xD` — the
+same string previously flagged for rotation and rejected at every verification point one day
+earlier (it re-authenticated successfully this session). **Rotation is still outstanding and
+remains strongly recommended.**
