@@ -1,5 +1,27 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
+## corpus-F131 — 2026-11-17 · the wave-16 residue extraction (the picture-MCQ keys from #53) — converter & exporter unchanged
+
+- The wave: PR #53 (wave-16 serving experience, converter v0.14.0 F53-F56 + exporter v4 F57/F58 + G-E6) was
+  superseded on main by PR #57 (exporter v5) before its corpus state ever merged; the #53 autopsy (branch tip
+  4b4403d) proved exactly one corpus-side residue still missing: the two picture-MCQ keying units
+  (2021-11 1C 1(a)(i-iii) = A/C/B and 2023-01 2C 2(a)(i-iii) = B/D/C, every key carried by the printed MS's own
+  elimination notes). This run extracts ONLY that adjudication from the branch — the serving rewrites, the 35
+  mode-only diffs, the stricter-floor canary set and the wave-16 picture crops stay out (superseded by main's
+  exporter-v5 lineage and the F94/wave-20 reviewed re-crops of record).
+- The law: MCQ-KEYS.json +6 entries in the wave-22 paper-scoped homes (bare `2021-11` for the 1C trio,
+  `2023-01` + `paper: "2C"` for the 2C trio — the branch's `2023-01:2C` + paper double-scope would resolve to the
+  non-existent `2023-01:2C:2C` under C31); the six parts promoted to `multiple_choice` with
+  `choices[].is_correct`, `answer_key_source: "mcq-keys-ledger"`, `value_trace.keys: "ledger:MCQ-KEYS"` and the
+  `Answer X` mark-point emission of record; `mcq_keys_applied` receipts appended to both validation reports
+  (C31 bidirectional); CANARIES C217-C222 (`part_keyed_to` x6; floor stays 0.15); benchmark v4 cases re-baselined
+  (mcq_parts/mcq_keyed 1->4, mcq_options_total 4->16 for both slugs); ZERO new PNGs and ZERO CROP-REVIEW edits
+  (the printed option figures already serve via the verdict-accepted crops of record).
+- Receipt: disclosure scripts/exporter-disclosures/2026-11-17-wave16-residue-extraction.json (census 6 ==
+  changed pids exactly, new=0/gone=0); provenance #53 @ 4b4403d; canaries 220/220; G-E1..G-E7 green locally at
+  main@72ae924.
+
+
 ## exporter-v6+F127 — 2026-10-31 · the Mode-A notation pass (T-OEQ-NOTATION-1) — converter & exporter unchanged
 
 - The wave: flat print notation (PDF text layer flattened the QP's true sub/superscripts) repaired
