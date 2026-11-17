@@ -473,8 +473,8 @@ for (const id of NOTES_W7) {
 }
 const parent = execSync('git rev-parse HEAD~1', { cwd: REPO }).toString().trim();
 const WAVE_OPEN_BASE_W7 = '72ae924b4c6a67b2b4339c3ed5ab70678515d368';
-const CORRECTIVE_BASE_W7 = '8b841d9be06fcb434d57616bc653c946a76b800f';  // the disclosed first-issue base accepted by the P0 parent check (the wave-2/wave-3 A2 precedent: the re-issued source notes + pipeline follow the first issue)
-check('P0', 'commit A parent == the wave-open resources main of record (72ae924b: the stage-B wave-6 commit C) or the disclosed first-issue base 8b841d9b (the corrective A2 re-issue)', parent === WAVE_OPEN_BASE_W7 || parent === CORRECTIVE_BASE_W7, 'parent=' + parent.slice(0, 12));
+const CORRECTIVE_BASE_W7 = 'ecc5e590f1dcf9a32d2312104b3f7034c2fb9215';  // the disclosed first-issue base accepted by the P0 parent check (the wave-2/wave-3 A2 precedent: the re-issued source notes + pipeline follow the first issue)
+check('P0', 'commit A parent == the wave-open resources main of record (72ae924b: the stage-B wave-6 commit C) or the disclosed corrective base ecc5e590 (the A2 -> A3 corrective chain: the A2 re-issue disclosed 8b841d9b, this A3 re-discloses its own parent)', parent === WAVE_OPEN_BASE_W7 || parent === CORRECTIVE_BASE_W7, 'parent=' + parent.slice(0, 12));
 let mainTipLive = '';
 try { mainTipLive = execSync('git ls-remote ' + (process.env.RESOURCES_REMOTE_URL || 'https://github.com/SyllabAI/syllabai-resources.git') + ' refs/heads/main', { cwd: REPO, shell: '/bin/bash' }).toString().split('\t')[0].trim(); } catch (e) { mainTipLive = 'ERR ' + e.message.slice(0, 60); }
 check('P0', 'resources main tip sits at the commit-A pin (first landing, race-guard)', mainTipLive === PIN, 'tip=' + mainTipLive.slice(0, 12));
@@ -559,7 +559,7 @@ for (const id of NOTES_W7) {
   const bodyMd = row.bodyMd;
   const corpusHeadings = bodyMd.split('\n').filter((l) => l.startsWith('#')).map((l) => l.replace(/^#+\s*/, '').trim());
   // the image-matching grammar of record (one nested bracket level in alt text, e.g. w7_01 'Table to show rates [D]') - the same grammar the fetcher census and the builder use
-  const imgBasenames = [...new Set([...bodyMd.matchAll(/!\[((?:[^\[\]]|\[[^\]\[]*\])*)\]\([^)]*\/([^/)]+)\)/g)].map((m) => m[1]))];
+  const imgBasenames = [...new Set([...bodyMd.matchAll(/!\[((?:[^\[\]]|\[[^\]\[]*\])*)\]\([^)]*\/([^/)]+)\)/g)].map((m) => m[2]))];  // group 2 = the URL basename (group 1 is the alt text)
   const w = grams(bodyMd, 8);
   const learnerTexts = [S.primer.text];
   let noteLessons = 0, noteChecks = 0;
