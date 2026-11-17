@@ -1,0 +1,41 @@
+{
+ "pre": [
+  "cie-a-level-biology-25",
+  "cie-a-level-chemistry-25",
+  "cie-a-level-computer-science-19",
+  "cie-a-level-maths-20-mechanics",
+  "cie-a-level-maths-20-probability-and-statistics-1",
+  "cie-a-level-maths-20-probability-and-statistics-2",
+  "cie-a-level-maths-20-pure-1",
+  "cie-a-level-maths-20-pure-3",
+  "cie-a-level-physics-25",
+  "cie-as-computer-science-19",
+  "cie-as-maths-20-mechanics",
+  "cie-as-maths-20-probability-and-statistics-1",
+  "cie-as-maths-20-pure-1",
+  "cie-as-maths-20-pure-2",
+  "cie-igcse-chemistry-23",
+  "cie-igcse-computer-science-23",
+  "cie-igcse-english-language-20",
+  "cie-igcse-english-language-25",
+  "cie-igcse-further-maths-additional-maths-25",
+  "cie-igcse-maths-25-extended",
+  "cie-igcse-physics-23",
+  "ial-maths-20-pure-1",
+  "ial-maths-20-pure-2",
+  "ial-maths-20-pure-3",
+  "ial-maths-20-pure-4",
+  "igcse-biology-19",
+  "igcse-chemistry-19",
+  "igcse-maths-a-18-higher",
+  "igcse-physics-19"
+ ],
+ "post": [
+  "cie-as-biology-25",
+  "cie-as-chemistry-25",
+  "cie-as-physics-25",
+  "cie-igcse-maths-25-core",
+  "ial-chemistry-17"
+ ],
+ "note": "P14 pre/post-inherit partition of record: 'pre' courses append in the emitter's P14 section BEFORE the P4 inherit loop (their rows cascade to children); 'post' courses are P4 inherit CHILDREN rebuilt fresh by the inherit loop, so their direct rows append in P14B after it (the P11B/P13B shape). Derived from the 34 video-map.draft.external-p14.json drafts x drafts/_p4/inheritance-map.json."
+}

@@ -3,10 +3,13 @@
 **Task:** T-VIDEOMAP-P14 · **Authorized:** owner chat 2026-11-16 (the ~31-channel recon request; report
 delivered same day: 24 new pools adjudicated T1 16,064 / T2 3,323 / NT 6,003 = 25,390 uploads, 0 overlap,
 no new-course exits proposed) · owner chat 2026-11-17 "**Proceed**" (= file it as P14) · owner chat
-2026-11-17 "**run the P14 judgment lane**" · **Status:** FILED + PUSHED + **JUDGMENT RUN 2026-11-17**, **PR
-#357 open** (branch `videos/p14-channel-recon` → main) — 3,138 rows (1,012 Tier B anchors + 2,126 spec rows)
-across 34 courses drafted + the exactly-once skip ledger + the oEmbed identity sweep (2,900/2,900, 0 bad);
-**builder emit, hub gates and merge remain open.**
+2026-11-17 "**run the P14 judgment lane**" · owner chat 2026-11-17 "**run the P14 builder**" · **Status:**
+FILED + PUSHED + **JUDGMENT RUN 2026-11-17** + **BUILDER EMIT + HUB GATES 2026-11-17**, **PR #357 open**
+(branch `videos/p14-channel-recon` → main; carries filing + judgment + builder) and **hub PR
+`t-videomap-p14/run-001` open** (branch → `SyllabAI/syllabai-v2` main) — 3,138 rows (1,012 Tier B anchors +
+2,126 spec rows) across 34 courses drafted, emitted through the P14/P14B sections, hub gates green
+(video-map tests 16/16 at 6,056 expects; spec-join census 95 courses / 14,299 rows / 0 violations);
+**merge of both PRs remains open (owner review).**
 
 ## Judgment run (2026-11-17)
 
@@ -43,12 +46,49 @@ ledger) dispositioned **exactly-once** (0 routed-vs-skip collisions, machine-che
   129 honest no-binding skips — the df<=3 bar does not stretch to skill-formulated specs); 0408 World
   Literature skips (no spine course); **9 titles RESERVED** (0475 series) pending the lit-21 owner decision
   (`work/p14/reserved-lit21.json`) — not silently dropped, NOT skipped.
-- **Identity:** oEmbed **2,900/2,900 author_url == channel-of-record (0 mismatch, 0 dead, 0 thumb fallbacks)**.
+- **Identity:** oEmbed **2,900/2,900 unique videos author_url == channel-of-record (0 mismatch, 0 dead;
+  1 thumbnail-liveness fallback per the P2D law — XrTzkSfaJBI, oEmbed 401 embedding-disabled, thumbnail
+  200 live, identityMethod thumb-fallback, disclosed)**. (Amended at builder emit 2026-11-17: the original
+  "0 thumb fallbacks" parenthetical was wrong by one — re-verified live: oEmbed 401, thumb 200.)
 - **Skips: 21,527** by class: NT pool-level 6,390; GCE/§6 paper evidence ~4,500 (ExamSolutions + Astbury GCE
   register); non-qualifier aggregator/umbrella remainder ~3,900 (Mega/Zainematics); O-Level register; guidance/
   advice/marketing; out-of-spine boards (AQA/OCR/IB/GCSE); no-honest-binding at the df<=3 bar; 0408; misc.
   Every one of the 24,486 disposition accounts (18,046 + 41 Allery + 6,390 NT + 9 reserved) appears exactly
   once in `work/p14/{tier-b,tier-a,skips,reserved-lit21}.json`.
+
+## Builder emit (2026-11-17)
+
+Emitter of record: `Videos/scripts/build-content-map-external.mjs` (usage `node build-content-map-
+external.mjs <hubCloneRoot>`) — **P14 section before the P4 inherit loop** (29 courses, the P13 shape:
+video-keyed idempotency wipe, the dual row law — paper-code anchors {level:course, ref:course, specs:[],
+high, boardMismatch:false, kind past-paper-walkthrough} vs spec rows {specs non-empty, boardMismatch:true,
+medium/low, specs-in-spine} — duplicate-key and video-entry gates, coverage recompute, lane entry,
+source.p14/inputs.p14, registry lane `+ p14-channel-recon`) + **P14B post-inherit** for the five P4
+children (the P11B/P13B shape; `scripts/p14/p14-courses.json` is the committed pre/post partition of
+record). The inherit gate is untouched and safe: it inherits only `llm-draft-external` parent rows (paper-
+code anchors excluded by the method filter) and requires them medium/low — the P14 spec rows are 255
+medium / 1,871 low, 0 high.
+
+- **Emit: exit 0 ×2, full replay a no-op modulo generatedUtc/updatedUtc** (machine-checked: two
+  consecutive full emits diffed clean after timestamp stripping).
+- **Hub gates: video-map tests 16/16 (6,056 expects over the 95-course corpus)** — at-rest pins updated
+  per the receipt-sync law: ial-chemistry-17 99 → 510 rows / 34 → 107 anchors (90 course + 17 topic);
+  igcse-chemistry-19 P2F pin 8 → 47 (8 P2F + 39 Assil Ed-IGCSE course anchors). **Spec-join census
+  95 courses / 14,299 rows / 50,377 refs / 0 violations** (`scripts/p14/p14_specjoin_census.py` →
+  `scripts/p14/specjoin-census.json`, the committed artifact; P13 baseline was 9,566 rows / 13,712 refs).
+- **flags.json receipt-synced** (95 courses; status template now carries the P14 clause).
+- **Coverage deltas of record:** cie-as-physics-25 125/145 → **145/145 COMPLETE** (346 → 1,081 rows);
+  cie-a-level-physics-25 241/303 → 291/303 (294 → 786 rows); **ial-chemistry-17 44/319 → 150/319** (99 →
+  510 rows, 107 anchors — the deficit pool's largest single-lane move); cie-a-level-computer-science-19
+  7/227 → 207/227; cie-as-computer-science-19 4/161 → **161/161 COMPLETE**; cie-igcse-computer-science-23
+  26/104 → 95/104 (73 → 166 rows); cie-igcse-maths-25-extended 73/178 → 142/178 (775 → 917 rows);
+  further-maths-additional-25 3/77 → 24/77; cie-a-level-chemistry-25 267/356 → 327/356 (141 → 678 rows);
+  cie-a-level-biology-25 212/257 → 226/257; igcse-chemistry-19 119/182 → 120/182 (47 anchors);
+  english-language-20/25 6/18 + 5/18; maths p&s-1 pair 17/17, pure-1/pure-3 AL 34/34 + 43/43 COMPLETE;
+  the P14 parent rows cascade to the inherit children at build time (e.g. cie-as-chemistry-25 672 → 735
+  rows post-P14B, cie-igcse-maths-25-core 229 inherited + 5 P9B + 16 direct).
+- **Hub PR:** branch `t-videomap-p14/run-001` → `SyllabAI/syllabai-v2` main, commit c2ddc540 (98 files:
+  the 34 grown course files + the timestamp-churn files + registry.json + flags.json + the test pins).
 
 ## What was filed
 
@@ -175,9 +215,10 @@ Inventories: `inventory/channels/<pool>-uploads.json` ×17.
 2. ~~Judgment lane~~ **DONE 2026-11-17** (3,138 rows ×34 courses; see the Judgment run section).
 3. ~~Enrichment + oEmbed identity sweep + honest-skip ledger~~ **DONE 2026-11-17** (oEmbed 2,900/2,900; the
    exactly-once skip ledger incl. the NT pool-level entries and the 9 reserved lit-21 titles).
-4. **Builder P14 section (before the inherit loop; video-keyed idempotency; the 5 P4-child courses append
-   post-inherit per `p14-courses.json`)**, hub gates (`video-map.test.ts` 16/16 + spec-join census), hub PR —
-   **PR #357 carries the filing + judgment; merge needs owner review.**
+4. ~~Builder P14 section + hub gates~~ **DONE 2026-11-17** (P14 before the inherit loop + P14B for the
+   five P4-children; emit exit 0 ×2 idempotent; video-map tests 16/16 at 6,056 expects; spec-join census
+   14,299 rows / 0 violations; flags receipt-synced) — **hub PR `t-videomap-p14/run-001` open**; PR #357
+   carries the filing + judgment + builder. **Both merges need owner review.**
 
 **Security note of record:** no token was used or available in the filing session itself (amended
 2026-11-17: the push and PR #357 were subsequently opened with the owner-supplied token). The recurring
