@@ -1,0 +1,626 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_KPjcQQr47d65NjCm",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "4: Rates, Equilibria & Further Organic Chemistry",
+  "subtopicTitle": "Continuous Monitoring Method",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/4-rates-equilibria-and-further-organic-chemistry/4-1-kinetics/4-1-6-continuous-monitoring-method"
+ },
+ "specPoints": [
+  {
+   "code": "11.4",
+   "text": "understand experiments that can be used to investigate reaction rates by: i an initial-rate method, carrying out separate experiments where different initial concentrations of one reagent are used A ‘clock reaction’ is an acceptable approximation of this method. ii a continuous monitoring method to generate data to enable concentration-time or volume-time graphs to be plotted"
+  }
+ ],
+ "primer": {
+  "text": "Continuous monitoring collects concentration data throughout a reaction rather than at a single moment. This note walks the iodination of propanone followed by colorimetry: building a calibration curve from standard iodine solutions, mixing measured volumes, logging absorbance against time, and reading the rate at any instant as the gradient of a tangent.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Watching the whole reaction: colorimetric monitoring",
+   "sourceHeadings": [
+    "The iodination of propanone"
+   ],
+   "specRefs": [
+    "11.4"
+   ],
+   "opening": "Continuous monitoring collects data across the entire reaction instead of one moment. The showcase is iodine's decolourisation during propanone iodination in acid: a calibration curve converts colorimeter absorbance into iodine concentration, and the logged readings trace the whole concentration-time curve.",
+   "keyPoints": [
+    "Continuous monitoring collects experimental data throughout the reaction so a full concentration-time graph can be plotted.",
+    "In the iodination of propanone, catalysed by dilute sulfuric acid, brown iodine decolourises as it forms iodopropanone and hydrogen iodide.",
+    "A colorimeter reads absorbance, and absorbance scales with how concentrated the coloured species is.",
+    "Before the run, absorbances of standard iodine solutions are measured to build a calibration curve for converting readings into concentrations.",
+    "Four burettes hold 0.02 mol dm-3 iodine, 1.0 mol dm-3 propanone, 1.0 mol dm-3 sulfuric acid and distilled water, so volumes can be varied while the total stays constant."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Calibrate first with standard iodine solutions, mix measured volumes, start the timer as iodine joins, and log absorbance throughout.",
+     "analogy": "Fitting a backstage translator (the calibration curve) before the show, so every applause meter reading (absorbance) converts into audience numbers (concentration).",
+     "examPointer": "Name the calibration curve's job explicitly: absorbance in, concentration out."
+    },
+    "medium": {
+     "restatement": "Because iodine is the only strongly coloured species, its absorbance is a live read-out of [I2]; the calibration curve anchors the scale so numbers, not just shapes, come out.",
+     "analogy": "A fuel gauge calibrated before the drive: the needle's position only means something once you know what empty and full are.",
+     "examPointer": "The iodine beaker is added last because adding it starts the reaction - mixing order is timing order."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Continuous monitoring differs from the initial-rate method because it",
+     "misconceptionClass": "monitoring contrast",
+     "options": [
+      {
+       "key": "A",
+       "text": "Collects data across the whole course of the reaction",
+       "correct": true,
+       "explanation": "The full curve, not just t = 0, is the output.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Needs only a single measurement",
+       "correct": false,
+       "explanation": "Single measurements belong to clock reactions.",
+       "misconception": "method mix"
+      },
+      {
+       "key": "C",
+       "text": "Never uses graphs",
+       "correct": false,
+       "explanation": "The whole output is a graph.",
+       "misconception": "contradiction"
+      },
+      {
+       "key": "D",
+       "text": "Measures temperature continuously",
+       "correct": false,
+       "explanation": "Concentration, via absorbance, is the measured quantity.",
+       "misconception": "concept slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "In the iodination of propanone, the role of dilute sulfuric acid is",
+     "misconceptionClass": "acid role",
+     "options": [
+      {
+       "key": "A",
+       "text": "Catalyst for the reaction",
+       "correct": true,
+       "explanation": "The acid catalyses while iodine decolourises.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Reactant consumed in large amount",
+       "correct": false,
+       "explanation": "It is catalytic, not stoichiometric, in the monitored run.",
+       "misconception": "role slip"
+      },
+      {
+       "key": "C",
+       "text": "Indicator of the endpoint",
+       "correct": false,
+       "explanation": "The colorimeter provides the signal.",
+       "misconception": "role slip"
+      },
+      {
+       "key": "D",
+       "text": "Solvent replacing water",
+       "correct": false,
+       "explanation": "Water still forms part of the volume makeup.",
+       "misconception": "role slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The calibration curve is needed before the experiment because",
+     "misconceptionClass": "calibration need",
+     "options": [
+      {
+       "key": "A",
+       "text": "Absorbance readings must be convertible into iodine concentrations",
+       "correct": true,
+       "explanation": "The curve maps absorbance to concentration for the species being followed.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The burettes must be cleaned",
+       "correct": false,
+       "explanation": "Cleaning is not the curve's purpose.",
+       "misconception": "false cause"
+      },
+      {
+       "key": "C",
+       "text": "The reaction must be slowed",
+       "correct": false,
+       "explanation": "Calibration does not touch kinetics.",
+       "misconception": "nonsense claim"
+      },
+      {
+       "key": "D",
+       "text": "Iodine is colourless",
+       "correct": false,
+       "explanation": "Iodine's colour is exactly what is measured.",
+       "misconception": "contradiction"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Four burettes are used with distilled water maintaining constant total volume so that",
+     "misconceptionClass": "burette design",
+     "options": [
+      {
+       "key": "A",
+       "text": "Concentrations can be varied between runs while keeping the mixture volume fixed",
+       "correct": true,
+       "explanation": "Volume control isolates concentration as the changed variable.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The colorimeter can hold four samples",
+       "correct": false,
+       "explanation": "One cuvette is read at a time.",
+       "misconception": "false cause"
+      },
+      {
+       "key": "C",
+       "text": "The acid stays colourless",
+       "correct": false,
+       "explanation": "Colour is not the design reason.",
+       "misconception": "false cause"
+      },
+      {
+       "key": "D",
+       "text": "The reaction becomes faster",
+       "correct": false,
+       "explanation": "Speed is not the goal of the volume design.",
+       "misconception": "false cause"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The iodine solution is kept in a separate beaker until timing begins because",
+     "misconceptionClass": "iodine timing",
+     "options": [
+      {
+       "key": "A",
+       "text": "Adding the iodine starts the reaction, so it must join the other liquids as the stopwatch starts",
+       "correct": true,
+       "explanation": "Mixing order and clock order are the same order.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Iodine would evaporate",
+       "correct": false,
+       "explanation": "Evaporation is not the stated reason.",
+       "misconception": "false cause"
+      },
+      {
+       "key": "C",
+       "text": "The colorimeter cannot read iodine",
+       "correct": false,
+       "explanation": "Iodine is precisely what it reads.",
+       "misconception": "contradiction"
+      },
+      {
+       "key": "D",
+       "text": "Iodine reacts with glass",
+       "correct": false,
+       "explanation": "No such incompatibility exists.",
+       "misconception": "nonsense claim"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the equation for the acid-catalysed iodination of propanone.",
+     "misconceptionClass": "equation recall",
+     "modelAnswer": "CH3COCH3 + I2 gives CH3COCH2I and HI, with dilute sulfuric acid as catalyst.",
+     "keywords": [
+      "iodine",
+      "propanone",
+      "sulfuric"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State what is measured before the investigation begins.",
+     "misconceptionClass": "preparation recall",
+     "modelAnswer": "The absorbances of a set of standard iodine solutions, to obtain the calibration curve.",
+     "keywords": [
+      "absorbance",
+      "standard",
+      "calibration"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why absorbance can track iodine concentration during the run.",
+     "misconceptionClass": "absorbance why",
+     "modelAnswer": "Iodine is the coloured species being consumed, and absorbance is proportional to a coloured species' concentration, so each logged reading gives the iodine concentration at that instant once the calibration curve is applied.",
+     "keywords": [
+      "absorbance",
+      "concentration",
+      "iodine"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A student mixes propanone and acid, then adds iodine fifteen seconds before starting the data logger. Comment on the consequence.",
+     "misconceptionClass": "application",
+     "modelAnswer": "The reaction ran unlogged for fifteen seconds, so the earliest data are missing; the curve still exists but its opening section must be extrapolated, and the missing window weakens any early-gradient reading.",
+     "keywords": [
+      "logged",
+      "curve",
+      "seconds"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Volumes, results and rates at any instant",
+   "sourceHeadings": [
+    "Volume Compositions Table",
+    "Specimen Results Table for the Iodination of Propanone"
+   ],
+   "specRefs": [
+    "11.4"
+   ],
+   "opening": "The specimen tables show the run's design and its output: volume recipes for each mixture, then logged iodine concentrations against time. A tangent at any chosen moment converts the curve into an instantaneous rate, demonstrated at 300 seconds.",
+   "keyPoints": [
+    "The volume compositions table lists burette volumes for each run, with distilled water keeping the total constant.",
+    "The specimen results table and its graph record iodine concentration falling through the reaction.",
+    "A practical tip: choose the filter giving the strongest absorbance, the complementary colour to the solution's own.",
+    "The rate at any point comes from drawing a tangent and finding its gradient.",
+    "At 300 seconds the tangent's gradient is 0.0069/590 = 1.17 x 10^-5 mol dm-3 s^-1."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "The results table feeds the concentration-time curve; a tangent at any chosen time gives that instant's rate by gradient.",
+     "analogy": "A marathon split chart: pick any checkpoint, measure the local pace, and that pace is the rate at that moment.",
+     "examPointer": "For tangent marks, quote the rise and the run, then the units mol dm-3 s^-1."
+    },
+    "medium": {
+     "restatement": "Continuous data let you interrogate any instant, which is exactly what order analysis needs: gradients at several times reveal how rate responds to the falling concentration.",
+     "analogy": "A flight recorder: rather than one number for the whole journey, every moment is recoverable.",
+     "examPointer": "The complementary-colour filter rule earns marks in practical-write-up questions."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "The volume compositions table specifies",
+     "misconceptionClass": "volumes table role",
+     "options": [
+      {
+       "key": "A",
+       "text": "The burette volumes of iodine, propanone, acid and water for each run",
+       "correct": true,
+       "explanation": "The recipes let concentration be varied at fixed total volume.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The absorbance of each run",
+       "correct": false,
+       "explanation": "Absorbance lives in the results table.",
+       "misconception": "table mix"
+      },
+      {
+       "key": "C",
+       "text": "The temperature of each run",
+       "correct": false,
+       "explanation": "Temperature is not the table's content.",
+       "misconception": "table mix"
+      },
+      {
+       "key": "D",
+       "text": "The catalyst used",
+       "correct": false,
+       "explanation": "The catalyst is fixed, not tabulated per run.",
+       "misconception": "table mix"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The practical tip for filter choice says to pick the filter that",
+     "misconceptionClass": "filter tip",
+     "options": [
+      {
+       "key": "A",
+       "text": "Gives the strongest absorbance, the complementary colour to the solution",
+       "correct": true,
+       "explanation": "Strong absorbance maximises the signal.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Gives the weakest absorbance",
+       "correct": false,
+       "explanation": "A weak signal drowns in noise.",
+       "misconception": "inversion slip"
+      },
+      {
+       "key": "C",
+       "text": "Matches the solution's own colour",
+       "correct": false,
+       "explanation": "Complementary, not matching, is the rule.",
+       "misconception": "colour slip"
+      },
+      {
+       "key": "D",
+       "text": "Is cheapest",
+       "correct": false,
+       "explanation": "Cost is not the criterion.",
+       "misconception": "irrelevant claim"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The rate at 300 seconds is found by",
+     "misconceptionClass": "instant rate method",
+     "options": [
+      {
+       "key": "A",
+       "text": "Drawing a vertical line to the curve at 300 s, adding a tangent, and taking its gradient",
+       "correct": true,
+       "explanation": "The local gradient is the local rate.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Dividing the final concentration by 300",
+       "correct": false,
+       "explanation": "That is an average, not an instantaneous rate.",
+       "misconception": "concept slip"
+      },
+      {
+       "key": "C",
+       "text": "Reading the concentration at 300 s directly",
+       "correct": false,
+       "explanation": "Concentration is not rate.",
+       "misconception": "concept slip"
+      },
+      {
+       "key": "D",
+       "text": "Subtracting the starting concentration from 300",
+       "correct": false,
+       "explanation": "No such operation exists.",
+       "misconception": "invented method"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The tangent at 300 seconds on the specimen graph gives a rate of",
+     "misconceptionClass": "tangent value",
+     "options": [
+      {
+       "key": "A",
+       "text": "1.17 x 10^-5 mol dm^-3 s^-1, from 0.0069/590",
+       "correct": true,
+       "explanation": "The rise over run computes to about 1.17e-5.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "590/0.0069 mol dm^-3 s^-1",
+       "correct": false,
+       "explanation": "The quotient is inverted.",
+       "misconception": "inversion slip"
+      },
+      {
+       "key": "C",
+       "text": "0.0069 mol dm^-3 s^-1",
+       "correct": false,
+       "explanation": "That is the rise, not the gradient.",
+       "misconception": "partial number"
+      },
+      {
+       "key": "D",
+       "text": "1.17 x 10^5 mol dm^-3 s^-1",
+       "correct": false,
+       "explanation": "The power of ten is wildly off.",
+       "misconception": "magnitude slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Watching iodine concentration continuously earns its keep in order analysis because",
+     "misconceptionClass": "why continuous",
+     "options": [
+      {
+       "key": "A",
+       "text": "Gradients at many times show how rate responds to changing concentration",
+       "correct": true,
+       "explanation": "Multiple tangents expose the rate-concentration relationship.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It needs no apparatus",
+       "correct": false,
+       "explanation": "It needs a colorimeter and data logger.",
+       "misconception": "false claim"
+      },
+      {
+       "key": "C",
+       "text": "Each run gives only one rate",
+       "correct": false,
+       "explanation": "It gives rates at every instant.",
+       "misconception": "contradiction"
+      },
+      {
+       "key": "D",
+       "text": "Concentrations never change",
+       "correct": false,
+       "explanation": "The falling concentration is the whole point.",
+       "misconception": "contradiction"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the gradient calculation demonstrated at 300 seconds.",
+     "misconceptionClass": "gradient recall",
+     "modelAnswer": "0.0069 divided by 590, giving 1.17 x 10^-5 mol dm^-3 s^-1.",
+     "keywords": [
+      "gradient",
+      "tangent",
+      "divided"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State what the specimen results table and its graph record.",
+     "misconceptionClass": "results recall",
+     "modelAnswer": "The iodine concentration falling as the reaction proceeds, against time.",
+     "keywords": [
+      "iodine",
+      "concentration",
+      "proceeds"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why a tangent, rather than a chord, is used to read the rate at 300 seconds.",
+     "misconceptionClass": "tangent why",
+     "modelAnswer": "A chord averages the rate over an interval, while a tangent touches the curve at one instant, so only the tangent's gradient is the instantaneous rate at exactly 300 seconds.",
+     "keywords": [
+      "tangent",
+      "instant",
+      "seconds"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Two tangents on the same results curve give 1.17 x 10^-5 at 300 s and a smaller value at 600 s. What does the shrinkage suggest about the order in iodine?",
+     "misconceptionClass": "application",
+     "modelAnswer": "The rate falls as iodine concentration falls, so the rate depends on iodine concentration - behaviour pointing to a positive order in iodine rather than zero order.",
+     "keywords": [
+      "tangent",
+      "order",
+      "iodine"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "continuous monitoring",
+    "definition": "Collecting concentration data throughout a reaction to plot a full concentration-time graph.",
+    "firstLesson": 1
+   },
+   {
+    "term": "calibration curve",
+    "definition": "A plot of absorbance against concentration for standard solutions, used to convert readings into concentrations.",
+    "firstLesson": 1
+   },
+   {
+    "term": "cuvette",
+    "definition": "The small receptacle holding the sample inside the colorimeter.",
+    "firstLesson": 1
+   }
+  ],
+  "workedExample": {
+   "prompt": "On the specimen results graph, draw a vertical line from the 300 s mark up to the curve and add the tangent there. The tangent falls 0.0069 units over a run of 590 units. Find the rate of reaction at 300 seconds.",
+   "steps": [
+    "Apply the gradient formula to the tangent: rise divided by run.",
+    "Substitute: 0.0069 / 590 = 1.17 x 10^-5.",
+    "Attach the rate units."
+   ],
+   "finalAnswer": "The rate at 300 s is 1.17 x 10^-5 mol dm^-3 s^-1."
+  }
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/5d8dc0be56ea-visible-spectroscopy-calibration-curve.png",
+   "alt": "Visible Spectroscopy Calibration Curve, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "The iodination of propanone",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "A calibration curve showing the relationship between colour absorbance and concentration"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/a151215cc0c0-6-1-3-colorimetry-set-up-1.png",
+   "alt": "Colorimeter and data logger arranged to follow the reaction continuously",
+   "sourceHeading": "The iodination of propanone",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "The set up for using a colorimeter and data logger to continuously measure the rate of reaction"
+  },
+  {
+   "id": "fig-03",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/68250782e8eb-8-1-1-continuous-monitoring-volumes-table.png",
+   "alt": "Continuous Monitoring - Volumes Table, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Volume Compositions Table",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-04",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/d68e8cba7543-8-1-1-continuous-monitoring-results-table.png",
+   "alt": "Continuous Monitoring - Results Table, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Specimen Results Table for the Iodination of Propanone",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-05",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/e6a54ce5f84d-8-1-1-continuous-monitoring-results-graphv.png",
+   "alt": "Continuous Monitoring -Results Graph, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Specimen Results Table for the Iodination of Propanone",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "Graph showing the change in concentration of iodine during the course of the reaction"
+  }
+ ]
+}

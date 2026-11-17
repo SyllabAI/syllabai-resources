@@ -1,0 +1,1173 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_PwFfnZ2xvtffh2RX",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "4: Rates, Equilibria & Further Organic Chemistry",
+  "subtopicTitle": "Obtaining Rate Data",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/4-rates-equilibria-and-further-organic-chemistry/4-1-kinetics/4-1-4-obtaining-rate-data"
+ },
+ "specPoints": [
+  {
+   "code": "11.3",
+   "text": "be able to select and justify a suitable experimental technique to obtain rate data for a given reaction, including: i titration ii colorimetry iii mass change iv volume of gas evolved v other suitable technique(s) for a given reaction"
+  }
+ ],
+ "primer": {
+  "text": "Every rate measurement leans on a property that changes as the reaction proceeds and is proportional to a concentration. This note surveys the laboratory toolkit: colorimetry for colour change, mass loss for dense gases, gas collection for volume change, and titration with quenching for concentration itself, each with its suitability limits and sketch-graph reading.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Following rate by colour: colorimetry",
+   "sourceHeadings": [
+    "Changes in colour"
+   ],
+   "specRefs": [
+    "11.3"
+   ],
+   "opening": "When a reaction changes colour, a colorimeter turns that change into concentration data. Light passes through the mixture, a detector logs the intensity reaching it every few seconds, and the plotted readings trace how reactants and products move with time. Precipitates spoil the method by scattering light.",
+   "keyPoints": [
+    "A colorimeter measures the amount of light passing through a solution, logged every few seconds.",
+    "The light intensity reaching the detector is related to concentration, so the plotted data represent concentration against time.",
+    "For a coloured reactant the colour intensity fades with time; the sketch graph shows intensity falling.",
+    "Colorimetry cannot follow the formation of coloured precipitates, because suspended particles scatter or block the light."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "The colorimeter logs light intensity every few seconds; since intensity tracks concentration, the plot is a concentration-time curve, and precipitates break it.",
+     "analogy": "Watching milk dissolve into tea through a clear mug: the clearer the view, the further the mixing has gone.",
+     "examPointer": "Name the interference problem - scattering by suspended solid - when asked why colorimetry fails for precipitates."
+    },
+    "medium": {
+     "restatement": "Absorbance and concentration walk together, so a detector reading is a concentration proxy; the method's one weakness is optical, not chemical.",
+     "analogy": "Headlights in fog: the denser the fog between you and the lamp, the less light arrives, and any floating debris blurs everything.",
+     "examPointer": "If a question shows a calibration curve, use it to convert absorbance readings into concentrations before quoting rates."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "A colorimeter determines rate by measuring",
+     "misconceptionClass": "colorimeter principle",
+     "options": [
+      {
+       "key": "A",
+       "text": "The amount of light passing through the solution at intervals",
+       "correct": true,
+       "explanation": "Falling or rising light intensity tracks concentration change.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The mass of the reaction vessel",
+       "correct": false,
+       "explanation": "Mass belongs to the mass-loss method.",
+       "misconception": "method mix"
+      },
+      {
+       "key": "C",
+       "text": "The volume of gas collected",
+       "correct": false,
+       "explanation": "Volume belongs to the gas-collection method.",
+       "misconception": "method mix"
+      },
+      {
+       "key": "D",
+       "text": "The temperature of the mixture",
+       "correct": false,
+       "explanation": "Temperature is controlled, not measured as the rate signal.",
+       "misconception": "method mix"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The plotted detector readings represent concentration against time because",
+     "misconceptionClass": "intensity proxy",
+     "options": [
+      {
+       "key": "A",
+       "text": "Light intensity reaching the detector is related to the concentration of the coloured species",
+       "correct": true,
+       "explanation": "Absorbance and concentration move together, making intensity a proxy.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Intensity equals volume of gas",
+       "correct": false,
+       "explanation": "Different quantities entirely.",
+       "misconception": "false equation"
+      },
+      {
+       "key": "C",
+       "text": "The detector heats the solution",
+       "correct": false,
+       "explanation": "No such heating is involved.",
+       "misconception": "nonsense claim"
+      },
+      {
+       "key": "D",
+       "text": "Colour is always independent of concentration",
+       "correct": false,
+       "explanation": "The method relies on the opposite.",
+       "misconception": "contradiction"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Colorimetry is unsuitable for a reaction that forms a coloured precipitate because",
+     "misconceptionClass": "precipitate problem",
+     "options": [
+      {
+       "key": "A",
+       "text": "Suspended particles scatter or block the light, corrupting the intensity reading",
+       "correct": true,
+       "explanation": "The optical path degrades, so intensity no longer tracks concentration cleanly.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Precipitates always react too slowly",
+       "correct": false,
+       "explanation": "Speed is not the problem.",
+       "misconception": "false cause"
+      },
+      {
+       "key": "C",
+       "text": "Precipitates dissolve in the colorimeter",
+       "correct": false,
+       "explanation": "No such dissolving occurs.",
+       "misconception": "nonsense claim"
+      },
+      {
+       "key": "D",
+       "text": "The detector cannot see any colour at all",
+       "correct": false,
+       "explanation": "Colour is visible; the trouble is scattering.",
+       "misconception": "wrong mechanism"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "For a coloured reactant monitored by colorimetry, the sketch graph of colour intensity against time",
+     "misconceptionClass": "intensity graph",
+     "options": [
+      {
+       "key": "A",
+       "text": "Falls as the reactant is used up",
+       "correct": true,
+       "explanation": "The coloured species is consumed, so intensity drops.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Rises steeply forever",
+       "correct": false,
+       "explanation": "A reactant's colour cannot rise while it is consumed.",
+       "misconception": "direction slip"
+      },
+      {
+       "key": "C",
+       "text": "Stays horizontal",
+       "correct": false,
+       "explanation": "A horizontal line would mean no reaction.",
+       "misconception": "shape slip"
+      },
+      {
+       "key": "D",
+       "text": "Shows random spikes",
+       "correct": false,
+       "explanation": "Clean kinetics data smooth such noise.",
+       "misconception": "shape slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Detector readings are taken every few seconds so that",
+     "misconceptionClass": "sampling interval",
+     "options": [
+      {
+       "key": "A",
+       "text": "Enough points exist to draw a smooth concentration-time curve and read gradients",
+       "correct": true,
+       "explanation": "Frequent sampling gives the curve its shape.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The lamp lasts longer",
+       "correct": false,
+       "explanation": "Lamp life is irrelevant to sampling.",
+       "misconception": "false cause"
+      },
+      {
+       "key": "C",
+       "text": "The reaction is slowed down",
+       "correct": false,
+       "explanation": "Sampling does not alter kinetics.",
+       "misconception": "nonsense claim"
+      },
+      {
+       "key": "D",
+       "text": "Only one reading is needed",
+       "correct": false,
+       "explanation": "One reading cannot yield a rate.",
+       "misconception": "contradiction"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State what a colorimeter measures and how often readings are taken.",
+     "misconceptionClass": "colorimeter recall",
+     "modelAnswer": "It measures the light intensity passing through the solution, logged every few seconds.",
+     "keywords": [
+      "intensity",
+      "solution",
+      "measures"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the limitation that stops colorimetry following precipitate formation.",
+     "misconceptionClass": "limitation recall",
+     "modelAnswer": "Coloured precipitates scatter or block the light, so the detector reading no longer represents concentration.",
+     "keywords": [
+      "scatter",
+      "precipitate",
+      "concentration"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why light intensity can stand in for concentration in colorimetry.",
+     "misconceptionClass": "intensity why",
+     "modelAnswer": "The colour of a solution deepens with the concentration of the coloured species, so the light absorbed, and therefore the intensity reaching the detector, changes in step with concentration.",
+     "keywords": [
+      "concentration",
+      "intensity",
+      "light"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A reaction turns a clear solution progressively yellow. Describe how you would obtain a rate graph from this mixture.",
+     "misconceptionClass": "application",
+     "modelAnswer": "Run the mixture in a colorimeter, log the rising absorbance of the yellow species every few seconds, convert absorbance to concentration with a calibration curve, and plot concentration against time.",
+     "keywords": [
+      "colorimeter",
+      "concentration",
+      "mixture"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Following rate by mass loss",
+   "sourceHeadings": [
+    "Changes in mass"
+   ],
+   "specRefs": [
+    "11.3"
+   ],
+   "opening": "When a reaction releases a dense gas, the escaping gas carries mass out of the vessel, and a balance records the loss. Carbon dioxide from marble and acid is the classic case; hydrogen is too light for the method to resolve.",
+   "keyPoints": [
+    "When a gas escapes from a reaction vessel the total mass decreases, and the decrease can be recorded with a balance.",
+    "Calcium carbonate reacting with hydrochloric acid gives off carbon dioxide; the mass is recorded every few seconds and plotted.",
+    "Mass loss measures the amount of reactant-side material lost, so the graph reads as an amount-of-reactant against time curve.",
+    "The gas must be dense enough for a 2 or 3 decimal-place balance: carbon dioxide (Mr = 44) suits the method, hydrogen (Mr = 2) does not."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Gas escaping removes mass; weigh every few seconds and plot the loss - but only dense gases such as CO2 register on a normal balance.",
+     "analogy": "A shopper standing on scales while unloading oranges: each bag carried off shows as a small drop, but unloading rice grains one by one would not register.",
+     "examPointer": "Quote the Mr comparison - CO2 at 44 works, H2 at 2 fails - when justifying the method's limits."
+    },
+    "medium": {
+     "restatement": "The balance is a concentration proxy: every gram lost is gas that has formed and left, so the falling mass curve is the reaction's progress line.",
+     "analogy": "An hourglass read from the empty chamber: the sand that has passed is exactly what the top has lost.",
+     "examPointer": "State the density condition before choosing this method in a plan question."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Mass loss can follow a reaction rate only when",
+     "misconceptionClass": "mass loss condition",
+     "options": [
+      {
+       "key": "A",
+       "text": "A gas is produced that is dense enough to register on the balance",
+       "correct": true,
+       "explanation": "The method's resolution depends on a substantial mass change.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The solution changes colour",
+       "correct": false,
+       "explanation": "Colour is the colorimetry signal.",
+       "misconception": "method mix"
+      },
+      {
+       "key": "C",
+       "text": "A precipitate forms in solution",
+       "correct": false,
+       "explanation": "Precipitates stay in the vessel and do not change the mass.",
+       "misconception": "method mix"
+      },
+      {
+       "key": "D",
+       "text": "The reaction is endothermic",
+       "correct": false,
+       "explanation": "Enthalpy plays no role here.",
+       "misconception": "topic mix"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "In the calcium carbonate and hydrochloric acid experiment, the mass decreases because",
+     "misconceptionClass": "mass decrease cause",
+     "options": [
+      {
+       "key": "A",
+       "text": "Carbon dioxide escapes from the vessel as the reaction proceeds",
+       "correct": true,
+       "explanation": "The gaseous product leaves, taking its mass with it.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The acid evaporates quickly",
+       "correct": false,
+       "explanation": "Evaporation is not the intended cause.",
+       "misconception": "false cause"
+      },
+      {
+       "key": "C",
+       "text": "The solid dissolves into nothing",
+       "correct": false,
+       "explanation": "The solid converts to products, some of which escape as gas.",
+       "misconception": "wrong mechanism"
+      },
+      {
+       "key": "D",
+       "text": "The balance drifts",
+       "correct": false,
+       "explanation": "A calibrated balance does not drift by design.",
+       "misconception": "false cause"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Hydrogen is a poor gas for the mass-loss method because",
+     "misconceptionClass": "hydrogen problem",
+     "options": [
+      {
+       "key": "A",
+       "text": "Its molar mass of 2 makes the mass change too small for a 2 or 3 dp balance",
+       "correct": true,
+       "explanation": "The lost mass per mole is tiny, so readings barely move.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It reacts with the balance",
+       "correct": false,
+       "explanation": "No such reaction occurs.",
+       "misconception": "nonsense claim"
+      },
+      {
+       "key": "C",
+       "text": "It is coloured",
+       "correct": false,
+       "explanation": "Hydrogen is colourless, which is irrelevant here.",
+       "misconception": "irrelevant claim"
+      },
+      {
+       "key": "D",
+       "text": "It dissolves completely in the acid",
+       "correct": false,
+       "explanation": "Dissolution is not the stated limitation.",
+       "misconception": "invented cause"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The graph of mass loss against time is equivalent to a graph of",
+     "misconceptionClass": "mass graph meaning",
+     "options": [
+      {
+       "key": "A",
+       "text": "Amount of reactant against time",
+       "correct": true,
+       "explanation": "Mass lost measures how much material has reacted away.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Amount of product present in the vessel",
+       "correct": false,
+       "explanation": "The gaseous product has left, so it is not present to measure.",
+       "misconception": "concept slip"
+      },
+      {
+       "key": "C",
+       "text": "Temperature against time",
+       "correct": false,
+       "explanation": "Temperature is not plotted here.",
+       "misconception": "concept slip"
+      },
+      {
+       "key": "D",
+       "text": "Concentration of the gas inside the vessel",
+       "correct": false,
+       "explanation": "The gas escapes, so its internal concentration is not what the balance reads.",
+       "misconception": "concept slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Mass readings are taken every few seconds during the experiment in order to",
+     "misconceptionClass": "mass sampling",
+     "options": [
+      {
+       "key": "A",
+       "text": "Give enough points to plot the mass-time curve and read the rate from its gradient",
+       "correct": true,
+       "explanation": "Rate comes from the slope of the plotted curve.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Keep the balance calibrated",
+       "correct": false,
+       "explanation": "Calibration is separate from sampling.",
+       "misconception": "false cause"
+      },
+      {
+       "key": "C",
+       "text": "Warm the mixture gently",
+       "correct": false,
+       "explanation": "Weighing does not warm anything.",
+       "misconception": "nonsense claim"
+      },
+      {
+       "key": "D",
+       "text": "Avoid using a graph entirely",
+       "correct": false,
+       "explanation": "The whole method is graphical.",
+       "misconception": "contradiction"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State which gas is suitable for the mass-loss method and which is not.",
+     "misconceptionClass": "gas suitability recall",
+     "modelAnswer": "Carbon dioxide (Mr = 44) is dense enough for the method; hydrogen (Mr = 2) is not.",
+     "keywords": [
+      "dense",
+      "balance",
+      "method"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State what is plotted in the mass-loss method.",
+     "misconceptionClass": "mass plot recall",
+     "modelAnswer": "The change in mass of the vessel and contents, measured every few seconds, plotted against time.",
+     "keywords": [
+      "mass",
+      "time",
+      "plotted"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the mass-loss graph doubles as a reactant-amount graph.",
+     "misconceptionClass": "mass reactant why",
+     "modelAnswer": "Each gram of mass lost is exactly the gas that has formed from the reactants and left the vessel, so the cumulative loss measures how much reactant material has been consumed by that moment.",
+     "keywords": [
+      "mass",
+      "reactant",
+      "cumulative"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A student proposes the mass-loss method for magnesium reacting with dilute acid to give hydrogen. Evaluate the proposal.",
+     "misconceptionClass": "application",
+     "modelAnswer": "Hydrogen's molar mass of 2 makes the mass change too small for a balance reading to 2 or 3 decimal places, so the proposal is weak; a gas syringe measuring the hydrogen volume is the better choice.",
+     "keywords": [
+      "hydrogen",
+      "balance",
+      "proposal"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Following rate by gas volume",
+   "sourceHeadings": [
+    "Volumes of gases"
+   ],
+   "specRefs": [
+    "11.3"
+   ],
+   "opening": "Trapping a product gas and reading its volume over time is the most standard rate method. A gas syringe collects the gas directly, or an inverted measuring cylinder over water works when the gas is not water soluble. Magnesium in acid giving hydrogen is the canonical example.",
+   "keyPoints": [
+    "Trapping a product gas and tracking its volume over time supplies the rate data.",
+    "Magnesium reacting with hydrochloric acid to release hydrogen is the standard gas-volume example.",
+    "A gas syringe gathers the gas directly; the alternative apparatus bubbles it through water into an inverted measuring cylinder, workable whenever the gas dissolves poorly in water.",
+    "The volume measured every few seconds plots as a graph of volume against time, and the volume represents the amount of product formed."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Collect the gas (syringe, or inverted cylinder over water for non-soluble gases), read volume every few seconds, plot volume against time.",
+     "analogy": "Filling a party balloon from a fizzy drink: the balloon's size tracks how much gas has escaped the bottle.",
+     "examPointer": "The dissolved-in-water caveat is the examiner's favourite caveat - state it when choosing the inverted-cylinder option."
+    },
+    "medium": {
+     "restatement": "Gas volume is the product side's ruler: each cubic centimetre collected corresponds to a fixed number of moles formed, so the volume-time curve is a product-amount curve.",
+     "analogy": "A milometer for gas: every turn of the wheel adds a fixed distance, and the total says how far the reaction has travelled.",
+     "examPointer": "Remember the volume axis reads amount of product, not reactant remaining."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "The gas-volume method measures rate by",
+     "misconceptionClass": "gas volume principle",
+     "options": [
+      {
+       "key": "A",
+       "text": "Trapping the product gas and recording its volume at intervals",
+       "correct": true,
+       "explanation": "Growing volume marks product formation over time.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Weighing the reaction vessel",
+       "correct": false,
+       "explanation": "That is the mass-loss method.",
+       "misconception": "method mix"
+      },
+      {
+       "key": "C",
+       "text": "Watching colour fade",
+       "correct": false,
+       "explanation": "That is the colorimetry method.",
+       "misconception": "method mix"
+      },
+      {
+       "key": "D",
+       "text": "Titrating samples",
+       "correct": false,
+       "explanation": "That is the quenching route of the next lesson.",
+       "misconception": "method mix"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The alternative set-up bubbles gas through water into an inverted measuring cylinder, but only when",
+     "misconceptionClass": "water solubility condition",
+     "options": [
+      {
+       "key": "A",
+       "text": "The gas is not water soluble",
+       "correct": true,
+       "explanation": "Dissolution would steal gas from the measured volume.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The gas is coloured",
+       "correct": false,
+       "explanation": "Colour is irrelevant to collection.",
+       "misconception": "irrelevant claim"
+      },
+      {
+       "key": "C",
+       "text": "The gas is denser than air",
+       "correct": false,
+       "explanation": "Density against air does not govern this set-up.",
+       "misconception": "false condition"
+      },
+      {
+       "key": "D",
+       "text": "The reaction is exothermic",
+       "correct": false,
+       "explanation": "Enthalpy plays no role in the choice.",
+       "misconception": "topic mix"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "In the magnesium and hydrochloric acid example, the gas collected is",
+     "misconceptionClass": "magnesium gas",
+     "options": [
+      {
+       "key": "A",
+       "text": "Hydrogen",
+       "correct": true,
+       "explanation": "Magnesium plus acid liberates hydrogen.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Carbon dioxide",
+       "correct": false,
+       "explanation": "Carbonates give carbon dioxide; magnesium is not a carbonate.",
+       "misconception": "gas slip"
+      },
+      {
+       "key": "C",
+       "text": "Oxygen",
+       "correct": false,
+       "explanation": "No oxygen is produced by this reaction.",
+       "misconception": "gas slip"
+      },
+      {
+       "key": "D",
+       "text": "Chlorine",
+       "correct": false,
+       "explanation": "Chloride stays as chloride ions in solution.",
+       "misconception": "gas slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The graph of gas volume evolved against time represents",
+     "misconceptionClass": "volume graph meaning",
+     "options": [
+      {
+       "key": "A",
+       "text": "Amount of product against time",
+       "correct": true,
+       "explanation": "Volume collected measures product formed.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Amount of reactant remaining",
+       "correct": false,
+       "explanation": "Reactant amount is inferred by subtraction, not read directly.",
+       "misconception": "concept slip"
+      },
+      {
+       "key": "C",
+       "text": "Rate against volume",
+       "correct": false,
+       "explanation": "The axes are volume and time.",
+       "misconception": "axis slip"
+      },
+      {
+       "key": "D",
+       "text": "Temperature against time",
+       "correct": false,
+       "explanation": "Temperature is not the measured variable.",
+       "misconception": "axis slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Readings of gas volume are taken every few seconds so that",
+     "misconceptionClass": "volume sampling",
+     "options": [
+      {
+       "key": "A",
+       "text": "A smooth volume-time curve can be plotted and its gradient read as the rate",
+       "correct": true,
+       "explanation": "Gradients need a well-populated curve.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The gas stays in the syringe",
+       "correct": false,
+       "explanation": "Sampling does not trap the gas.",
+       "misconception": "false cause"
+      },
+      {
+       "key": "C",
+       "text": "The reaction slows down",
+       "correct": false,
+       "explanation": "Reading a volume never changes the chemistry.",
+       "misconception": "nonsense claim"
+      },
+      {
+       "key": "D",
+       "text": "Only the final volume matters",
+       "correct": false,
+       "explanation": "Intermediate points carry the rate information.",
+       "misconception": "contradiction"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the two collection arrangements for measuring gas volume.",
+     "misconceptionClass": "collection recall",
+     "modelAnswer": "A gas syringe collecting the gas directly, or an inverted measuring cylinder over water.",
+     "keywords": [
+      "syringe",
+      "cylinder",
+      "measuring"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the condition for using the inverted measuring cylinder over water.",
+     "misconceptionClass": "water condition recall",
+     "modelAnswer": "The gas must not be water soluble, or it would dissolve instead of being collected.",
+     "keywords": [
+      "soluble",
+      "collect",
+      "dissolve"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why gas volume serves as a stand-in for amount of product.",
+     "misconceptionClass": "volume amount why",
+     "modelAnswer": "At a fixed temperature and pressure the volume of a gas is proportional to the number of moles present, so every increment of collected volume corresponds to a fixed amount of product formed.",
+     "keywords": [
+      "proportional",
+      "moles",
+      "volume"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A reaction gives off ammonia, which dissolves readily in water. Which gas-volume arrangement should be avoided, and why?",
+     "misconceptionClass": "application",
+     "modelAnswer": "The inverted measuring cylinder over water should be avoided, because dissolving ammonia would remove gas from the collected volume and understate the rate; a gas syringe is the appropriate choice.",
+     "keywords": [
+      "dissolve",
+      "syringe",
+      "avoided"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Concentration itself: titration, quenching and clock points",
+   "sourceHeadings": [
+    "Measuring concentration changes"
+   ],
+   "specRefs": [
+    "11.3"
+   ],
+   "opening": "Measuring concentration during a reaction is awkward because sampling and analysing take time. Quenching freezes a sample so titration can read its concentration; otherwise the clock trick stops the timer at a visible endpoint, such as the moment sulfur hides a cross under the flask.",
+   "keyPoints": [
+    "Measuring concentration changes directly is difficult because taking and analysing a sample can disturb the reaction unless it is deliberately stopped, which is called quenching.",
+    "Titration of a quenched sample gives its concentration at the moment of quenching.",
+    "It is often simpler to stop the clock at a visible point in the reaction, such as when a piece of magnesium has just dissolved.",
+    "The sodium thiosulfate and hydrochloric acid reaction slowly forms a yellow sulfur precipitate that obscures a cross seen through the solution, giving a timing point."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Quench a sample, titrate it for concentration; or time a visible endpoint - the disappearing-cross reaction is the standard clock point.",
+     "analogy": "Freezing a film of a race at chosen moments: each frozen frame (quenched sample) can be measured in comfort afterwards.",
+     "examPointer": "Use the word quenching when a question asks how to stop a sample from continuing to react."
+    },
+    "medium": {
+     "restatement": "Concentration is the quantity every rate curve secretly plots, so the most direct methods grab it: freeze the chemistry, then measure at leisure.",
+     "analogy": "Bookmarking pages in a melting ice sculpture: you cannot measure while it melts, so you snap-freeze a copy and read it calmly.",
+     "examPointer": "For the thiosulfate reaction, say what the observer sees - the cross disappearing - and what that moment means: a fixed small amount of sulfur formed."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Quenching a sample means",
+     "misconceptionClass": "quenching meaning",
+     "options": [
+      {
+       "key": "A",
+       "text": "Deliberately stopping the reaction in that sample so analysis does not change the reading",
+       "correct": true,
+       "explanation": "A quenched sample is frozen at its quench-moment composition.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Cooling the sample to room temperature only",
+       "correct": false,
+       "explanation": "Cooling alone does not stop the chemistry.",
+       "misconception": "partial truth"
+      },
+      {
+       "key": "C",
+       "text": "Diluting the sample with water",
+       "correct": false,
+       "explanation": "Dilution is not the definition.",
+       "misconception": "concept slip"
+      },
+      {
+       "key": "D",
+       "text": "Filtering out the products",
+       "correct": false,
+       "explanation": "Filtration is not the definition.",
+       "misconception": "concept slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "After quenching, the sample's concentration is obtained by",
+     "misconceptionClass": "post quench analysis",
+     "options": [
+      {
+       "key": "A",
+       "text": "Titration against a standard solution",
+       "correct": true,
+       "explanation": "Titration reads the quenched concentration.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Colorimetry of the precipitate",
+       "correct": false,
+       "explanation": "Precipitates defeat colorimetry.",
+       "misconception": "method mix"
+      },
+      {
+       "key": "C",
+       "text": "Weighing the sample vessel",
+       "correct": false,
+       "explanation": "Mass is not concentration.",
+       "misconception": "method mix"
+      },
+      {
+       "key": "D",
+       "text": "Reading a gas syringe",
+       "correct": false,
+       "explanation": "Gas volume is a different method.",
+       "misconception": "method mix"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The disappearing-cross experiment works because",
+     "misconceptionClass": "cross experiment",
+     "options": [
+      {
+       "key": "A",
+       "text": "The forming sulfur precipitate gradually obscures a cross viewed through the mixture, giving a repeatable endpoint",
+       "correct": true,
+       "explanation": "The visual endpoint is the timing signal.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The cross is magnetic",
+       "correct": false,
+       "explanation": "No magnetism is involved.",
+       "misconception": "nonsense claim"
+      },
+      {
+       "key": "C",
+       "text": "The solution becomes acidic",
+       "correct": false,
+       "explanation": "Acidity is not the signal.",
+       "misconception": "false cause"
+      },
+      {
+       "key": "D",
+       "text": "The cross dissolves in acid",
+       "correct": false,
+       "explanation": "The cross sits outside the flask; the solution clouds.",
+       "misconception": "wrong mechanism"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Stopping the clock at a visible point such as complete dissolution of magnesium is useful because",
+     "misconceptionClass": "visible point logic",
+     "options": [
+      {
+       "key": "A",
+       "text": "It times a fixed extent of reaction without any sampling or titration",
+       "correct": true,
+       "explanation": "A visible endpoint replaces instrumental monitoring.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It measures concentration directly",
+       "correct": false,
+       "explanation": "The clock measures time, not concentration.",
+       "misconception": "concept slip"
+      },
+      {
+       "key": "C",
+       "text": "It works for reactions with no visible change",
+       "correct": false,
+       "explanation": "Visibility is the whole requirement.",
+       "misconception": "contradiction"
+      },
+      {
+       "key": "D",
+       "text": "It removes the need for a stopwatch",
+       "correct": false,
+       "explanation": "A stopwatch is exactly what is used.",
+       "misconception": "contradiction"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Taking a sample for titration without quenching risks",
+     "misconceptionClass": "unquenched risk",
+     "options": [
+      {
+       "key": "A",
+       "text": "The reaction continuing in the sample after removal, corrupting the concentration reading",
+       "correct": true,
+       "explanation": "Unquenched samples keep reacting during handling.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The sample evaporating instantly",
+       "correct": false,
+       "explanation": "Evaporation is not the stated risk.",
+       "misconception": "false cause"
+      },
+      {
+       "key": "C",
+       "text": "The titrant reacting with the flask",
+       "correct": false,
+       "explanation": "The titrant meets the sample, not the flask.",
+       "misconception": "nonsense claim"
+      },
+      {
+       "key": "D",
+       "text": "Nothing, since samples are stable",
+       "correct": false,
+       "explanation": "Samples of reacting mixtures are not stable.",
+       "misconception": "false statement"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State what quenching does to a removed sample.",
+     "misconceptionClass": "quench recall",
+     "modelAnswer": "Quenching deliberately stops the reaction in the sample so that its composition is frozen for analysis.",
+     "keywords": [
+      "quench",
+      "stop",
+      "sample"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Name the observation that signals the endpoint in the thiosulfate-acid clock experiment.",
+     "misconceptionClass": "thiosulfate recall",
+     "modelAnswer": "The yellow sulfur precipitate formed obscures a cross viewed through the solution.",
+     "keywords": [
+      "sulfur",
+      "cross",
+      "precipitate"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why titration of an unquenched sample gives an unreliable concentration.",
+     "misconceptionClass": "titration why",
+     "modelAnswer": "The sample keeps reacting between removal and analysis, so the concentration measured by titration belongs to the analysis moment rather than the removal moment, corrupting the time-concentration pair.",
+     "keywords": [
+      "sample",
+      "concentration",
+      "titration"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A reaction mixture is colourless throughout and gives off no gas. Outline a workable rate measurement plan.",
+     "misconceptionClass": "application",
+     "modelAnswer": "Remove samples at timed intervals, quench each one, and titrate to read concentration; plotting the quenched concentrations against their removal times builds the concentration-time curve.",
+     "keywords": [
+      "quench",
+      "titrate",
+      "concentrations"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "colorimetry",
+    "definition": "Rate measurement by logging the light intensity passing through a coloured solution.",
+    "firstLesson": 1
+   },
+   {
+    "term": "mass loss",
+    "definition": "Rate measurement by recording the mass escaping as a dense gas leaves the vessel.",
+    "firstLesson": 2
+   },
+   {
+    "term": "quenching",
+    "definition": "Deliberately stopping a removed sample's reaction so its concentration can be titrated honestly.",
+    "firstLesson": 4
+   },
+   {
+    "term": "gas syringe",
+    "definition": "A sealed barrel that traps a product gas so its volume can be read against time.",
+    "firstLesson": 3
+   }
+  ],
+  "workedExample": null
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/89fcf3d2f419-6-1-3-colorimetry-set-up.png",
+   "alt": "Colorimetry Set Up, downloadable IB Chemistry revision notes",
+   "sourceHeading": "Changes in colour",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "Colorimetry Set Up"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/5ab2da3a885e-6-1-3-colour-intensity-sketch-graph.png",
+   "alt": "Colour intensity sketch graph, downloadable IB Chemistry revision notes",
+   "sourceHeading": "Changes in colour",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "Sketch graph of colour intensity against time (the coloured species is a reactant in this case)"
+  },
+  {
+   "id": "fig-03",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/5b2862d9e30a-6-1-3-measuring-mass-changes.png",
+   "alt": "Measuring mass changes, downloadable IB Chemistry revision notes",
+   "sourceHeading": "Changes in mass",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "Measuring changes in mass using a balance"
+  },
+  {
+   "id": "fig-04",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/7121f7c93499-6-1-3-mass-loss-graph.png",
+   "alt": "Mass loss graph, downloadable IB Chemistry revision notes",
+   "sourceHeading": "Changes in mass",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "Mass loss of a product against time"
+  },
+  {
+   "id": "fig-05",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/529015928e70-6-1-3-gas-collection-set-up.png",
+   "alt": "Gas collection Set Up, downloadable IB Chemistry revision notes",
+   "sourceHeading": "Volumes of gases",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique",
+   "caption": "Collecting gases experimental set up"
+  },
+  {
+   "id": "fig-06",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/aa9d739a12f6-6-1-3-gas-collection-alternative-set-up.png",
+   "alt": "Gas collection alternative set up, downloadable IB Chemistry revision notes",
+   "sourceHeading": "Volumes of gases",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique",
+   "caption": "Alternative gas collection set up"
+  },
+  {
+   "id": "fig-07",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/9e0dc94f9ea4-6-1-3-graph-of-gas-evolved-against-time.png",
+   "alt": "Graph of gas evolved against time, downloadable IB Chemistry revision notes",
+   "sourceHeading": "Volumes of gases",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique",
+   "caption": "Graph of gas volume evolved against time"
+  },
+  {
+   "id": "fig-08",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/b21650f0a141-6-1-3-the-disappearing-cross-experiment.png",
+   "alt": "The Disappearing Cross Experiment, downloadable IB Chemistry revision notes",
+   "sourceHeading": "Measuring concentration changes",
+   "moduleIds": [
+    "L4"
+   ],
+   "binding": "heading-unique",
+   "caption": "The Disappearing Cross Experiment"
+  }
+ ]
+}

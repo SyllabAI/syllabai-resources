@@ -1,0 +1,835 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_bG75YQ9QfdNwz588",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "4: Rates, Equilibria & Further Organic Chemistry",
+  "subtopicTitle": "Total Entropy",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/4-rates-equilibria-and-further-organic-chemistry/4-2-entropy/4-2-3-total-entropy"
+ },
+ "specPoints": [
+  {
+   "code": "12.7",
+   "text": "be able to calculate the entropy change of the system for a reaction, ∆ S system , given the entropies of the reactants and products"
+  },
+  {
+   "code": "12.8",
+   "text": "be able to calculate the entropy change in the surroundings, and hence ∆ S total , using the expression ∆ S surroundings = − ∆ H T"
+  }
+ ],
+ "primer": {
+  "text": "A spontaneous change must be judged on the system and the surroundings together. The system contribution comes from standard entropies of products minus reactants; the surroundings contribution equals the enthalpy change transferred divided by temperature, with a minus sign. This note computes both pieces and their sum, in J K-1 mol-1, from data-book values.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "System plus surroundings",
+   "sourceHeadings": [
+    "Total Entropy Calculations"
+   ],
+   "specRefs": [
+    "12.7"
+   ],
+   "opening": "Sodium burns in chlorine despite forming an ordered solid from a solid and a gas - the system's entropy falls. The puzzle resolves by counting the surroundings too: the huge released heat scatters energy through them, and their entropy gain swamps the system's loss.",
+   "keyPoints": [
+    "The reaction 2Na plus Cl2 forming 2NaCl is very exothermic yet decreases the system's entropy, as a solid forms from a solid and a gas.",
+    "The resolution counts the surroundings: released energy creates a large entropy rise there, with more ways of arranging quanta outside the system.",
+    "The total entropy change is delta S total = delta S system + delta S surroundings.",
+    "For sodium and chlorine, the strongly positive delta S surroundings outweighs the negative delta S system, so the change is spontaneous."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Add both books: delta S total = delta S system + delta S surroundings; the surroundings' gain, driven by released heat, can pay for the system's loss.",
+     "analogy": "Tidying one messy drawer by dumping its contents in a big spare cupboard: the drawer (system) looks neat, the cupboard (surroundings) absorbs the chaos and still has room to spare.",
+     "examPointer": "Always compute both terms before judging feasibility - a negative system term is not a verdict."
+    },
+    "medium": {
+     "restatement": "Energy released by the system does not vanish; it lands in the surroundings and spreads there, which is why an exothermic change can buy back any local order it creates.",
+     "analogy": "A radiator warms the whole room while cooling itself relative to the room: heat moves and spreads.",
+     "examPointer": "The spontaneity verdict belongs to delta S total, never to delta S system alone."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "The sodium-chlorine reaction decreases the system's entropy because",
+     "misconceptionClass": "NaCl system entropy",
+     "options": [
+      {
+       "key": "A",
+       "text": "A solid forms from a solid and a gas, ordering the products",
+       "correct": true,
+       "explanation": "Losing a gas descends the state ladder.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The reaction is endothermic",
+       "correct": false,
+       "explanation": "It is strongly exothermic.",
+       "misconception": "fact slip"
+      },
+      {
+       "key": "C",
+       "text": "Sodium melts",
+       "correct": false,
+       "explanation": "No melting occurs in the change.",
+       "misconception": "false claim"
+      },
+      {
+       "key": "D",
+       "text": "Chlorine is a liquid",
+       "correct": false,
+       "explanation": "Chlorine is a gas.",
+       "misconception": "fact slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The surroundings' entropy rises when a reaction releases heat because",
+     "misconceptionClass": "surroundings gain",
+     "options": [
+      {
+       "key": "A",
+       "text": "The released energy spreads among the surroundings' particles, multiplying their energy arrangements",
+       "correct": true,
+       "explanation": "Distributed heat is the surroundings' entropy currency.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The surroundings lose particles",
+       "correct": false,
+       "explanation": "No particles move over.",
+       "misconception": "false claim"
+      },
+      {
+       "key": "C",
+       "text": "The surroundings cool",
+       "correct": false,
+       "explanation": "Receiving heat warms them.",
+       "misconception": "inversion slip"
+      },
+      {
+       "key": "D",
+       "text": "The system gains order",
+       "correct": false,
+       "explanation": "System order is the opposite of surroundings spreading.",
+       "misconception": "confusion"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The total entropy change is defined as",
+     "misconceptionClass": "total definition",
+     "options": [
+      {
+       "key": "A",
+       "text": "Delta S total = delta S system + delta S surroundings",
+       "correct": true,
+       "explanation": "Both books are added.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Delta S total = delta S system - delta S surroundings",
+       "correct": false,
+       "explanation": "The surroundings' term enters positively.",
+       "misconception": "sign slip"
+      },
+      {
+       "key": "C",
+       "text": "Delta S total = delta S system x delta S surroundings",
+       "correct": false,
+       "explanation": "The relation is additive.",
+       "misconception": "operation slip"
+      },
+      {
+       "key": "D",
+       "text": "Delta S total = delta H / T",
+       "correct": false,
+       "explanation": "That is the surroundings' term alone.",
+       "misconception": "partial formula"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "For sodium and chlorine, spontaneity holds because",
+     "misconceptionClass": "NaCl verdict",
+     "options": [
+      {
+       "key": "A",
+       "text": "The strongly positive delta S surroundings outweighs the negative delta S system",
+       "correct": true,
+       "explanation": "The surroundings' gain dominates the ledger.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The system's entropy is positive",
+       "correct": false,
+       "explanation": "It is negative here.",
+       "misconception": "fact slip"
+      },
+      {
+       "key": "C",
+       "text": "The reaction is endothermic",
+       "correct": false,
+       "explanation": "It is exothermic.",
+       "misconception": "fact slip"
+      },
+      {
+       "key": "D",
+       "text": "Entropy never decreases anywhere",
+       "correct": false,
+       "explanation": "The system's entropy clearly decreases.",
+       "misconception": "contradiction"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A flame is needed to start the sodium-chlorine reaction, which shows that",
+     "misconceptionClass": "activation aside",
+     "options": [
+      {
+       "key": "A",
+       "text": "Feasibility and rate are separate questions - the change is feasible but needs activation energy",
+       "correct": true,
+       "explanation": "Thermodynamic permission is not kinetic speed.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The reaction is not feasible",
+       "correct": false,
+       "explanation": "It proceeds vigorously once started.",
+       "misconception": "contradiction"
+      },
+      {
+       "key": "C",
+       "text": "Entropy is negative overall",
+       "correct": false,
+       "explanation": "The total entropy change is positive.",
+       "misconception": "fact slip"
+      },
+      {
+       "key": "D",
+       "text": "Catalysts are required",
+       "correct": false,
+       "explanation": "No catalyst is involved.",
+       "misconception": "false claim"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the equation for the total entropy change of a reaction.",
+     "misconceptionClass": "total recall",
+     "modelAnswer": "Delta S total = delta S system + delta S surroundings.",
+     "keywords": [
+      "system",
+      "surroundings",
+      "total"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the system and surroundings entropy signs for sodium burning in chlorine.",
+     "misconceptionClass": "NaCl signs recall",
+     "modelAnswer": "Delta S system is negative and delta S surroundings is strongly positive.",
+     "keywords": [
+      "negative",
+      "positive",
+      "surroundings"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the surroundings' entropy gain can outweigh the system's loss.",
+     "misconceptionClass": "outweigh why",
+     "modelAnswer": "Released energy is distributed among vastly more particles in the surroundings, so the number of energy arrangements outside rises far more than the ordering inside costs; the sum lands positive.",
+     "keywords": [
+      "surroundings",
+      "energy",
+      "arrangements"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A reaction has delta S system = -50 J K^-1 mol^-1 and is strongly exothermic. Predict the sign of delta S total and the feasibility.",
+     "misconceptionClass": "application",
+     "modelAnswer": "The exothermic change makes delta S surroundings large and positive, so delta S total is positive and the reaction is feasible despite the system's loss.",
+     "keywords": [
+      "surroundings",
+      "feasible",
+      "exothermic"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Entropy change of the system",
+   "sourceHeadings": [
+    "Entropy Change - System",
+    "Entropy Change in the System"
+   ],
+   "specRefs": [
+    "12.8"
+   ],
+   "opening": "The system's contribution comes straight from data books: sum the standard entropies of the products, subtract the reactants', and mind the stoichiometry. Elements are not awarded zero entropy - unlike enthalpies of formation - and the unit is joules, not kilojoules.",
+   "keyPoints": [
+    "Entropy changes run an order of magnitude below enthalpy changes, which is why entropy carries the smaller unit J K^-1 mol^-1.",
+    "The standard entropy change of the system is delta S system = sum of S(products) minus sum of S(reactants).",
+    "For N2 plus 3H2 forming 2NH3, the equation is 2 x S(NH3) minus (S(N2) plus 3 x S(H2)).",
+    "Unlike enthalpy of formation, standard entropy for elements is not zero; data-book values exist for elements and compounds."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Delta S system = S(products) summed with coefficients minus S(reactants) likewise; elements carry nonzero standard entropies.",
+     "analogy": "A stock-take: count everything leaving the store, subtract everything entering, and respect how many of each moved.",
+     "examPointer": "Watch the stoichiometry - forgetting the coefficient 3 on H2 is the classic slip."
+    },
+    "medium": {
+     "restatement": "Standard entropies count what is on the shelf, not what was made there; every species arrives with its own countable disorder, elements included.",
+     "analogy": "A moving-out inventory: even the landlord's original fittings (elements) have a count, unlike 'formation' which resets to zero.",
+     "examPointer": "Quote units J K^-1 mol^-1 - the joule scale surprises students after kilojoule enthalpies."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "The equation below gives the standard entropy change of a system",
+     "misconceptionClass": "system equation",
+     "options": [
+      {
+       "key": "A",
+       "text": "Sum of standard entropies of products minus sum for reactants",
+       "correct": true,
+       "explanation": "Products minus reactants, with coefficients respected.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Reactants minus products",
+       "correct": false,
+       "explanation": "The subtraction runs the wrong way.",
+       "misconception": "inversion slip"
+      },
+      {
+       "key": "C",
+       "text": "Products plus reactants",
+       "correct": false,
+       "explanation": "No addition of the two sides occurs.",
+       "misconception": "operation slip"
+      },
+      {
+       "key": "D",
+       "text": "Delta H divided by T",
+       "correct": false,
+       "explanation": "That is the surroundings' formula.",
+       "misconception": "formula mix"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The standard entropy of an element in its reference state is",
+     "misconceptionClass": "element entropy",
+     "options": [
+      {
+       "key": "A",
+       "text": "Not zero; data books list real values for elements",
+       "correct": true,
+       "explanation": "Entropy differs from enthalpy of formation here.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Zero by definition",
+       "correct": false,
+       "explanation": "That rule belongs to formation enthalpies.",
+       "misconception": "rule mix"
+      },
+      {
+       "key": "C",
+       "text": "Always 100 J K^-1 mol^-1",
+       "correct": false,
+       "explanation": "No such fixed value exists.",
+       "misconception": "invented value"
+      },
+      {
+       "key": "D",
+       "text": "Negative",
+       "correct": false,
+       "explanation": "Standard entropies are positive.",
+       "misconception": "fact slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "For N2 plus 3H2 giving 2NH3, delta S system equals",
+     "misconceptionClass": "ammonia setup",
+     "options": [
+      {
+       "key": "A",
+       "text": "2 x S(NH3) minus (S(N2) plus 3 x S(H2))",
+       "correct": true,
+       "explanation": "Every coefficient multiplies its species.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "S(NH3) minus (S(N2) plus S(H2))",
+       "correct": false,
+       "explanation": "Coefficients 2 and 3 are missing.",
+       "misconception": "coefficient slip"
+      },
+      {
+       "key": "C",
+       "text": "2 x S(NH3) minus S(N2)",
+       "correct": false,
+       "explanation": "The hydrogen term is dropped.",
+       "misconception": "term loss"
+      },
+      {
+       "key": "D",
+       "text": "S(N2) plus 3 x S(H2) minus 2 x S(NH3)",
+       "correct": false,
+       "explanation": "That computes the negative of the answer.",
+       "misconception": "inversion slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Entropy values are quoted in joules rather than kilojoules because",
+     "misconceptionClass": "joule scale",
+     "options": [
+      {
+       "key": "A",
+       "text": "Entropy changes run roughly an order of magnitude below enthalpy changes",
+       "correct": true,
+       "explanation": "The smaller quantity keeps its natural unit.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Entropy cannot exceed one kilojoule",
+       "correct": false,
+       "explanation": "No such ceiling exists.",
+       "misconception": "invented rule"
+      },
+      {
+       "key": "C",
+       "text": "Data books print only joules for all quantities",
+       "correct": false,
+       "explanation": "Enthalpies are printed in kilojoules.",
+       "misconception": "false claim"
+      },
+      {
+       "key": "D",
+       "text": "Kelvin divides the joule",
+       "correct": false,
+       "explanation": "The unit pair is J K^-1 mol^-1 by definition.",
+       "misconception": "half truth"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "For 2Mg plus O2 forming 2MgO with S values 32.60, 205.0 and 38.20 J K^-1 mol^-1, delta S system equals",
+     "misconceptionClass": "MgO arithmetic",
+     "options": [
+      {
+       "key": "A",
+       "text": "-193.8 J K^-1 mol^-1, since 2(38.20) - [2(32.60) + 205.0]",
+       "correct": true,
+       "explanation": "Products minus reactants with coefficients.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "+193.8 J K^-1 mol^-1, subtracting in the wrong order",
+       "correct": false,
+       "explanation": "Reactants exceed products here.",
+       "misconception": "inversion slip"
+      },
+      {
+       "key": "C",
+       "text": "-134.2 J K^-1 mol^-1, dropping one Mg term",
+       "correct": false,
+       "explanation": "Both Mg values enter.",
+       "misconception": "coefficient slip"
+      },
+      {
+       "key": "D",
+       "text": "+270.8 J K^-1 mol^-1",
+       "correct": false,
+       "explanation": "That adds instead of subtracts.",
+       "misconception": "operation slip"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the full unit of entropy change.",
+     "misconceptionClass": "unit recall",
+     "modelAnswer": "J K^-1 mol^-1 - joules per kelvin per mole.",
+     "keywords": [
+      "joules",
+      "kelvin",
+      "entropy"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State delta S system for N2 plus 3H2 forming 2NH3 given S values 191.6, 131 and 192.3 J K^-1 mol^-1.",
+     "misconceptionClass": "NH3 value recall",
+     "modelAnswer": "2(192.3) - [191.6 + 3(131)] = 384.6 - 584.6 = -200 J K^-1 mol^-1.",
+     "keywords": [
+      "products",
+      "reactants",
+      "forming"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why elements have nonzero standard entropies even though their formation enthalpies are zero.",
+     "misconceptionClass": "element why",
+     "modelAnswer": "Formation enthalpy measures making a compound from elements, so the reference sits at zero by definition; entropy counts the disorder already present in every substance, and an element's particles still hold countable arrangements.",
+     "keywords": [
+      "element",
+      "entropy",
+      "formation"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A gaseous reaction gives fewer gas moles than it consumes. Without numbers, predict the sign of delta S system and justify.",
+     "misconceptionClass": "application",
+     "modelAnswer": "Fewer gas moles after the change means fewer positional arrangements, so delta S system is negative; the magnitude depends on the data-book values.",
+     "keywords": [
+      "gas",
+      "negative",
+      "system"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Entropy change of the surroundings",
+   "sourceHeadings": [
+    "Entropy Change - Surroundings",
+    "Entropy Change in the Surroundings"
+   ],
+   "specRefs": [
+    "12.8"
+   ],
+   "opening": "The surroundings' gain or loss depends on one transfer: the enthalpy change landing in them. Divide the transferred energy by the temperature and flip the sign - exothermic reactions heat and disorder the surroundings, endothermic ones borrow order from them. The same heat buys more disorder in cold surroundings than in hot ones.",
+   "keyPoints": [
+    "The surroundings' entropy change needs the energy transferred to them, which is the enthalpy change: delta S surroundings = -delta H / T.",
+    "T is the absolute temperature in kelvin.",
+    "The same quantity of energy produces a greater entropy change in cold surroundings than in hot ones.",
+    "Delta H must be converted from kJ mol^-1 to J mol^-1 before the division, since entropy is quoted in J K^-1 mol^-1.",
+    "For Al2O3 with carbon at 298 K, delta H = +1336 kJ mol^-1 gives delta S surroundings = -1336000/298 = -4483 J K^-1 mol^-1."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Delta S surroundings = -delta H / T with T in kelvin and delta H in joules; exothermic gives positive, endothermic negative.",
+     "analogy": "A donation to a small village (cold surroundings) changes it more than the same donation to a huge city (hot surroundings).",
+     "examPointer": "Convert kilojoules to joules first - the missing x1000 is the classic mark-loser."
+    },
+    "medium": {
+     "restatement": "Temperature is the exchange rate between energy and entropy: heat delivered where quanta are scarce (low T) rearranges more, so the same delta H buys more delta S in colder settings.",
+     "analogy": "Giving ten sweets to a child with none changes their world; giving the same ten to a sweet-shop owner barely registers.",
+     "examPointer": "The minus sign encodes direction: heat out (exothermic) enriches the surroundings."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "The equation for the entropy change of the surroundings is",
+     "misconceptionClass": "surroundings equation",
+     "options": [
+      {
+       "key": "A",
+       "text": "Delta S surroundings = -delta H / T",
+       "correct": true,
+       "explanation": "Transferred enthalpy divided by temperature, with a direction sign.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Delta S surroundings = delta H / T",
+       "correct": false,
+       "explanation": "The minus sign encodes the direction of heat flow.",
+       "misconception": "sign slip"
+      },
+      {
+       "key": "C",
+       "text": "Delta S surroundings = -T / delta H",
+       "correct": false,
+       "explanation": "The quotient is inverted.",
+       "misconception": "inversion slip"
+      },
+      {
+       "key": "D",
+       "text": "Delta S surroundings = delta H x T",
+       "correct": false,
+       "explanation": "No multiplication rule applies.",
+       "misconception": "operation slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "An exothermic reaction's delta S surroundings is",
+     "misconceptionClass": "exothermic surroundings",
+     "options": [
+      {
+       "key": "A",
+       "text": "Positive, because the released heat spreads and disorders the surroundings",
+       "correct": true,
+       "explanation": "Heat in means more arrangements outside.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Negative, because the system lost energy",
+       "correct": false,
+       "explanation": "The system's loss is the surroundings' gain.",
+       "misconception": "inversion slip"
+      },
+      {
+       "key": "C",
+       "text": "Zero",
+       "correct": false,
+       "explanation": "The transfer is substantial.",
+       "misconception": "false claim"
+      },
+      {
+       "key": "D",
+       "text": "Undefined",
+       "correct": false,
+       "explanation": "The equation defines it cleanly.",
+       "misconception": "false claim"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The same enthalpy change produces a larger delta S surroundings at low temperature because",
+     "misconceptionClass": "temperature sensitivity",
+     "options": [
+      {
+       "key": "A",
+       "text": "Cold surroundings have scarcer energy quanta, so delivered heat rearranges them more",
+       "correct": true,
+       "explanation": "Entropy per joule grows as T falls.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Cold surroundings absorb more energy",
+       "correct": false,
+       "explanation": "The energy transferred is the same.",
+       "misconception": "false cause"
+      },
+      {
+       "key": "C",
+       "text": "Cold substances have no entropy",
+       "correct": false,
+       "explanation": "They have lower but real entropy.",
+       "misconception": "false claim"
+      },
+      {
+       "key": "D",
+       "text": "Kelvin scales invert the sign",
+       "correct": false,
+       "explanation": "The sign comes from the minus, not the temperature.",
+       "misconception": "mechanism slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "For delta H = +1336 kJ mol^-1 at 298 K, delta S surroundings equals",
+     "misconceptionClass": "Al2O3 arithmetic",
+     "options": [
+      {
+       "key": "A",
+       "text": "-4483 J K^-1 mol^-1, from -1336000/298",
+       "correct": true,
+       "explanation": "Convert to joules, divide, keep the sign.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "+4483 J K^-1 mol^-1, ignoring the endothermic sign",
+       "correct": false,
+       "explanation": "Endothermic borrows from the surroundings.",
+       "misconception": "sign slip"
+      },
+      {
+       "key": "C",
+       "text": "-4.48 J K^-1 mol^-1, forgetting the x1000",
+       "correct": false,
+       "explanation": "Kilojoules must become joules.",
+       "misconception": "unit slip"
+      },
+      {
+       "key": "D",
+       "text": "-1336/298 = -4.48, kept in kJ",
+       "correct": false,
+       "explanation": "The unit conversion is mandatory.",
+       "misconception": "unit slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Before computing delta S surroundings, delta H quoted in kJ mol^-1 must be",
+     "misconceptionClass": "unit preparation",
+     "options": [
+      {
+       "key": "A",
+       "text": "Multiplied by 1000 to give J mol^-1",
+       "correct": true,
+       "explanation": "The entropy unit is joule-based.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Divided by 1000",
+       "correct": false,
+       "explanation": "That moves the wrong way.",
+       "misconception": "conversion slip"
+      },
+      {
+       "key": "C",
+       "text": "Left as is",
+       "correct": false,
+       "explanation": "Leaving it corrupts the magnitude a thousandfold.",
+       "misconception": "negligence slip"
+      },
+      {
+       "key": "D",
+       "text": "Squared",
+       "correct": false,
+       "explanation": "No such operation exists.",
+       "misconception": "nonsense claim"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the equation and units for delta S surroundings.",
+     "misconceptionClass": "surroundings recall",
+     "modelAnswer": "Delta S surroundings = -delta H / T, with delta H in J mol^-1 and T in kelvin, giving J K^-1 mol^-1.",
+     "keywords": [
+      "enthalpy",
+      "temperature",
+      "surroundings"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the sign of delta S surroundings for endothermic reactions.",
+     "misconceptionClass": "endothermic sign recall",
+     "modelAnswer": "Negative, because the surroundings surrender energy and order to the system.",
+     "keywords": [
+      "negative",
+      "endothermic",
+      "surroundings"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the minus sign appears in delta S surroundings = -delta H / T.",
+     "misconceptionClass": "minus why",
+     "modelAnswer": "The equation must record where the heat went: an exothermic system (negative delta H) gives heat to the surroundings, raising their entropy, so the negative of a negative delta H lands positive; the sign flips the system's perspective to the surroundings'.",
+     "keywords": [
+      "surroundings",
+      "exothermic",
+      "delta"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A reaction releases 96.0 kJ mol^-1 at 300 K. Compute delta S surroundings.",
+     "misconceptionClass": "application",
+     "modelAnswer": "Delta S surroundings = -(-96000)/300 = +320 J K^-1 mol^-1, a substantial rise from the released heat.",
+     "keywords": [
+      "released",
+      "temperature",
+      "surroundings"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "total entropy change",
+    "definition": "The sum of the system's and surroundings' entropy changes, the feasibility test.",
+    "firstLesson": 1
+   },
+   {
+    "term": "standard entropy",
+    "definition": "The data-book entropy S of a substance, nonzero for elements too.",
+    "firstLesson": 2
+   },
+   {
+    "term": "surroundings",
+    "definition": "Everything outside the chemical system, which receives or surrenders the enthalpy change.",
+    "firstLesson": 1
+   }
+  ],
+  "workedExample": {
+   "prompt": "Calculate the total entropy change when 1 mole of sodium chloride forms from its elements in their standard states, given delta S system = -90.1 J K^-1 mol^-1 and delta S surroundings = +1379 J K^-1 mol^-1.",
+   "steps": [
+    "Apply the total entropy equation: delta S total = delta S system + delta S surroundings.",
+    "Substitute: -90.1 + 1379.",
+    "Add the terms: 1379 - 90.1 = 1288.9, rounding to 1289.",
+    "Attach the units."
+   ],
+   "finalAnswer": "Delta S total = +1289 J K^-1 mol^-1, strongly positive, so the formation is feasible."
+  }
+ }
+}

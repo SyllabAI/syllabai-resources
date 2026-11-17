@@ -1,0 +1,584 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_wvmNNH9Xfs5ksZrK",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "4: Rates, Equilibria & Further Organic Chemistry",
+  "subtopicTitle": "Acid-Catalysed Iodination of Propanone",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/4-rates-equilibria-and-further-organic-chemistry/4-1-kinetics/4-1-9-acid-catalysed-iodination-of-propanone"
+ },
+ "specPoints": [
+  {
+   "code": "11.6",
+   "text": "understand how to: i obtain data to calculate the order with respect to the reactants (and the hydrogen ion) in the acid-catalysed iodination of propanone ii use these data to make predictions about species involved in the rate-determining step iii deduce a possible mechanism for the reaction"
+  }
+ ],
+ "primer": {
+  "text": "Iodination of propanone in acid can be followed by quenching samples and titrating the remaining iodine against thiosulfate. Because propanone and acid sit in large excess, only iodine's concentration falls measurably, and the straight-line concentration-time graph proves the reaction is zero order in iodine.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Quench, titrate, repeat",
+   "sourceHeadings": [
+    "Results"
+   ],
+   "specRefs": [
+    "11.6"
+   ],
+   "opening": "The acid-catalysed iodination of propanone can be tracked by removing samples at timed intervals, stopping each with sodium hydrogencarbonate, and titrating the remaining iodine against thiosulfate with starch indicator. The iodine remaining at each quench maps the concentration-time curve by hand.",
+   "keyPoints": [
+    "The reaction uses iodine in acidic solution with propanone, catalysed by dilute sulfuric acid.",
+    "The overall change is CH3COCH3 plus I2 forming CH3COCH2I, H+ and I-.",
+    "Propanone and acid sit in large excess, so their concentrations stay effectively constant and only iodine's fall is measurable.",
+    "Once a portion is removed, sodium hydrogencarbonate stops the reaction in that sample.",
+    "Titration against sodium thiosulfate(VI) with starch indicator measures the remaining iodine through 2S2O3^2- plus I2 forming 2I- and S4O6^2-."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Sample at intervals, quench with hydrogencarbonate, titrate iodine against thiosulfate; the iodine readings build the concentration-time curve.",
+     "analogy": "Photographing a sunset every minute and developing each print later: each sample is one frame of the reaction.",
+     "examPointer": "Name the quenching agent and the titration pair - hydrogencarbonate, thiosulfate, starch - in practical answers."
+    },
+    "medium": {
+     "restatement": "The quench freezes each sample's chemistry at its removal moment, so the titration reads an honest concentration for an honest time.",
+     "analogy": "Freezing berries at picking time preserves them exactly as they were, whenever you finally count them.",
+     "examPointer": "The large excess of propanone and acid is what makes the iodine curve readable on its own."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Sodium hydrogencarbonate is added to each removed portion in order to",
+     "misconceptionClass": "quench agent",
+     "options": [
+      {
+       "key": "A",
+       "text": "Stop the reaction in that sample so its iodine content freezes at the removal moment",
+       "correct": true,
+       "explanation": "Quenching preserves the time-concentration pair.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Neutralise the thiosulfate",
+       "correct": false,
+       "explanation": "Thiosulfate is the titrant, added later.",
+       "misconception": "role slip"
+      },
+      {
+       "key": "C",
+       "text": "Colour the solution for starch",
+       "correct": false,
+       "explanation": "Starch brings the colour.",
+       "misconception": "role slip"
+      },
+      {
+       "key": "D",
+       "text": "Speed up the reaction",
+       "correct": false,
+       "explanation": "Quenching stops chemistry, it never speeds it.",
+       "misconception": "contradiction"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The titration that measures remaining iodine uses",
+     "misconceptionClass": "titration pair",
+     "options": [
+      {
+       "key": "A",
+       "text": "Sodium thiosulfate(VI) solution with starch as indicator",
+       "correct": true,
+       "explanation": "The thiosulfate-iodine pair is the standard iodine read-out.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Hydrochloric acid with methyl orange",
+       "correct": false,
+       "explanation": "That pair does not read iodine.",
+       "misconception": "pair slip"
+      },
+      {
+       "key": "C",
+       "text": "Sodium hydroxide with phenolphthalein",
+       "correct": false,
+       "explanation": "That reads acidity, not iodine.",
+       "misconception": "pair slip"
+      },
+      {
+       "key": "D",
+       "text": "Silver nitrate with chromate indicator",
+       "correct": false,
+       "explanation": "That reads halides, not iodine here.",
+       "misconception": "pair slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Propanone and acid are used in large excess so that",
+     "misconceptionClass": "excess design",
+     "options": [
+      {
+       "key": "A",
+       "text": "Their concentrations barely change, leaving iodine's fall as the only measurable drift",
+       "correct": true,
+       "explanation": "Fixed excesses simplify the curve to one changing species.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The reaction produces more iodine",
+       "correct": false,
+       "explanation": "Iodine is consumed, not produced.",
+       "misconception": "direction slip"
+      },
+      {
+       "key": "C",
+       "text": "The quench becomes unnecessary",
+       "correct": false,
+       "explanation": "Quenching remains essential.",
+       "misconception": "false claim"
+      },
+      {
+       "key": "D",
+       "text": "The starch indicator works faster",
+       "correct": false,
+       "explanation": "Indicator speed is unrelated.",
+       "misconception": "false cause"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "In the thiosulfate titration, the starch indicator is used to",
+     "misconceptionClass": "starch role",
+     "options": [
+      {
+       "key": "A",
+       "text": "Reveal the endpoint where the last traces of iodine disappear",
+       "correct": true,
+       "explanation": "Starch turns the iodine endpoint visible.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Stop the reaction during titration",
+       "correct": false,
+       "explanation": "The quench already stopped it.",
+       "misconception": "role slip"
+      },
+      {
+       "key": "C",
+       "text": "Neutralise the acid catalyst",
+       "correct": false,
+       "explanation": "Neutralisation is hydrogencarbonate's job.",
+       "misconception": "role slip"
+      },
+      {
+       "key": "D",
+       "text": "Dissolve the iodine",
+       "correct": false,
+       "explanation": "Iodine is already in solution.",
+       "misconception": "false claim"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The thiosulfate-iodine titration reaction is",
+     "misconceptionClass": "titration equation",
+     "options": [
+      {
+       "key": "A",
+       "text": "2S2O3^2- plus I2 forming 2I- and S4O6^2-",
+       "correct": true,
+       "explanation": "Two thiosulfate ions reduce one iodine molecule.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "S2O3^2- plus I2 forming I- and SO4^2-",
+       "correct": false,
+       "explanation": "The products are wrong.",
+       "misconception": "equation slip"
+      },
+      {
+       "key": "C",
+       "text": "I2 plus H2O forming IO- and 2H+ plus 2I-",
+       "correct": false,
+       "explanation": "That is iodine disproportionation, not the titration.",
+       "misconception": "equation slip"
+      },
+      {
+       "key": "D",
+       "text": "S4O6^2- plus I- forming I2 and S2O3^2-",
+       "correct": false,
+       "explanation": "That runs the titration backwards.",
+       "misconception": "direction slip"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the reaction studied and its catalyst.",
+     "misconceptionClass": "reaction recall",
+     "modelAnswer": "The iodination of propanone, catalysed by dilute sulfuric acid.",
+     "keywords": [
+      "propanone",
+      "catalyst",
+      "iodination"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the quenching agent and the titration used for the removed samples.",
+     "misconceptionClass": "quench recall",
+     "modelAnswer": "Sodium hydrogencarbonate quenches, and titration against thiosulfate(VI) with starch reads the iodine.",
+     "keywords": [
+      "hydrogencarbonate",
+      "thiosulfate",
+      "titration"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why quenching is essential before titrating a removed sample.",
+     "misconceptionClass": "quench why",
+     "modelAnswer": "An unquenched sample keeps reacting during handling and titration, so the iodine measured would belong to the analysis moment rather than the removal moment, corrupting the time-concentration pair.",
+     "keywords": [
+      "sample",
+      "quench",
+      "concentration"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A student quenches each sample but forgets the starch indicator until near the endpoint. What difficulty follows?",
+     "misconceptionClass": "application",
+     "modelAnswer": "Iodine's own colour is faint at low concentration, so without starch the endpoint creeps up blurred; adding starch late still colours the residual iodine sharply, but the student risks overshooting and should redo the titration for accuracy.",
+     "keywords": [
+      "starch",
+      "endpoint",
+      "student"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The straight line that proves zero order",
+   "sourceHeadings": [
+    "Sample Data from the Reaction"
+   ],
+   "specRefs": [
+    "11.6"
+   ],
+   "opening": "The specimen data plot as a straight line: a constant gradient means a constant rate independent of iodine concentration. That shape is the zero-order signature in iodine, and it hands over the full rate equation as rate = k[propanone][H+].",
+   "keyPoints": [
+    "The sample data from the reaction plot as a straight-line concentration-time graph.",
+    "A constant gradient means a constant rate, so the rate is independent of iodine concentration.",
+    "The reaction is therefore zero order with respect to iodine.",
+    "For this reaction the rate equation reads rate = k[CH3COCH3][H+]."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "A straight concentration-time line has a constant gradient, so the rate ignores [I2]: zero order in iodine, and rate = k[propanone][H+].",
+     "analogy": "A conveyor belt moving at one speed no matter how much is on it: the load (iodine) does not change the belt (rate).",
+     "examPointer": "Connect the zero-order line to the rate equation's missing iodine term - the two statements are the same fact."
+    },
+    "medium": {
+     "restatement": "Zero order shows itself as a straight-line fall: the rate is set by the excess species, propanone and acid, while iodine rides along as the tracked marker.",
+     "analogy": "A runner on a treadmill set at fixed speed: however tired the scenery looks, the pace is the machine's, not the runner's.",
+     "examPointer": "The rate equation names the orders the graph could not show - propanone and acid each first order by separate experiments."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "A straight-line concentration-time graph for iodine indicates",
+     "misconceptionClass": "straight line meaning",
+     "options": [
+      {
+       "key": "A",
+       "text": "Zero order with respect to iodine",
+       "correct": true,
+       "explanation": "Constant gradient means rate ignores concentration.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "First order with respect to iodine",
+       "correct": false,
+       "explanation": "First order gives a curving, flattening line.",
+       "misconception": "shape slip"
+      },
+      {
+       "key": "C",
+       "text": "Second order with respect to iodine",
+       "correct": false,
+       "explanation": "Second order gives a steepening curve.",
+       "misconception": "shape slip"
+      },
+      {
+       "key": "D",
+       "text": "A failed experiment",
+       "correct": false,
+       "explanation": "The line is exactly the expected result.",
+       "misconception": "false claim"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The constant gradient of the iodine line equals",
+     "misconceptionClass": "gradient meaning",
+     "options": [
+      {
+       "key": "A",
+       "text": "The constant rate of reaction",
+       "correct": true,
+       "explanation": "For zero order the rate stays put, and the slope carries it.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The rate constant only",
+       "correct": false,
+       "explanation": "The slope is the rate; k relates rate to the excess concentrations.",
+       "misconception": "concept slip"
+      },
+      {
+       "key": "C",
+       "text": "The iodine concentration",
+       "correct": false,
+       "explanation": "Concentration is the y-axis value, not the slope.",
+       "misconception": "axis slip"
+      },
+      {
+       "key": "D",
+       "text": "The activation energy",
+       "correct": false,
+       "explanation": "Energy belongs to Arrhenius analysis.",
+       "misconception": "topic mix"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The rate equation rate = k[CH3COCH3][H+] shows that the reaction is",
+     "misconceptionClass": "rate equation reading",
+     "options": [
+      {
+       "key": "A",
+       "text": "First order in propanone and first order in acid, zero order in iodine",
+       "correct": true,
+       "explanation": "The named species carry the rate; iodine does not.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Second order in iodine",
+       "correct": false,
+       "explanation": "Iodine is zero order here.",
+       "misconception": "order slip"
+      },
+      {
+       "key": "C",
+       "text": "Zero order in propanone",
+       "correct": false,
+       "explanation": "Propanone appears to the first power.",
+       "misconception": "order slip"
+      },
+      {
+       "key": "D",
+       "text": "Zero order in acid",
+       "correct": false,
+       "explanation": "The acid term is present.",
+       "misconception": "order slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Because the rate is independent of iodine concentration, halving [I2] in a new run",
+     "misconceptionClass": "halving iodine",
+     "options": [
+      {
+       "key": "A",
+       "text": "Leaves the rate unchanged",
+       "correct": true,
+       "explanation": "Zero order means concentration has no say.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Halves the rate",
+       "correct": false,
+       "explanation": "That is first-order behaviour.",
+       "misconception": "order slip"
+      },
+      {
+       "key": "C",
+       "text": "Quarters the rate",
+       "correct": false,
+       "explanation": "That is second-order behaviour.",
+       "misconception": "order slip"
+      },
+      {
+       "key": "D",
+       "text": "Doubles the rate",
+       "correct": false,
+       "explanation": "No order raises rate on dilution.",
+       "misconception": "order slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The zero-order behaviour in iodine makes the reaction convenient to follow because",
+     "misconceptionClass": "convenience logic",
+     "options": [
+      {
+       "key": "A",
+       "text": "The tracked species does not control the rate, so the curve stays simple and linear",
+       "correct": true,
+       "explanation": "The marker's fall writes a clean straight line.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The reaction stops by itself",
+       "correct": false,
+       "explanation": "It continues at a steady rate.",
+       "misconception": "false claim"
+      },
+      {
+       "key": "C",
+       "text": "No quenching is needed",
+       "correct": false,
+       "explanation": "Samples still need quenching.",
+       "misconception": "false claim"
+      },
+      {
+       "key": "D",
+       "text": "The titration becomes unnecessary",
+       "correct": false,
+       "explanation": "The iodine readings come from titration.",
+       "misconception": "contradiction"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the order of the reaction with respect to iodine.",
+     "misconceptionClass": "order recall",
+     "modelAnswer": "Zero order, proved by the straight-line concentration-time graph.",
+     "keywords": [
+      "zero",
+      "order",
+      "concentration"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the full rate equation for the acid-catalysed iodination of propanone.",
+     "misconceptionClass": "equation recall",
+     "modelAnswer": "Rate = k[CH3COCH3][H+].",
+     "keywords": [
+      "rate",
+      "equation",
+      "iodination"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain how a constant gradient on the concentration-time graph proves zero order.",
+     "misconceptionClass": "gradient proof why",
+     "modelAnswer": "The gradient of a concentration-time curve is the instantaneous rate; a constant gradient therefore means a rate that does not change while iodine's concentration falls, which is only possible if the rate does not depend on iodine concentration - the definition of zero order.",
+     "keywords": [
+      "gradient",
+      "concentration",
+      "constant"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Predict what happens to the measured rate if the acid concentration is doubled while propanone and iodine stay fixed.",
+     "misconceptionClass": "application",
+     "modelAnswer": "The rate equation carries [H+] to the first power, so doubling the acid doubles the rate, even though the iodine curve itself stays straight.",
+     "keywords": [
+      "rate",
+      "acid",
+      "iodine"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "quenching",
+    "definition": "Stopping a removed sample's reaction, here with sodium hydrogencarbonate, before analysis.",
+    "firstLesson": 1
+   },
+   {
+    "term": "iodination",
+    "definition": "The substitution reaction in which iodine is introduced, here into propanone.",
+    "firstLesson": 1
+   },
+   {
+    "term": "starch indicator",
+    "definition": "The additive that renders the thiosulfate-iodine titration endpoint visible.",
+    "firstLesson": 1
+   }
+  ],
+  "workedExample": null
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/ec4ce03ecfe3-4-1-9-sample-data-from-the-reaction-table.png",
+   "alt": "4-1-9-sample-data-from-the-reaction-table",
+   "sourceHeading": "Sample Data from the Reaction",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/8076d1b3fdb4-5-6-reaction-kinetics-zero-order-concentration.png",
+   "alt": "Reaction Kinetics - Zero Order Concentration, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Sample Data from the Reaction",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "Concentration-time graphs of a zero-order reaction"
+  }
+ ]
+}

@@ -1,0 +1,629 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_RhRVkc96pGh9XkDb",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "4: Rates, Equilibria & Further Organic Chemistry",
+  "subtopicTitle": "Enthalpy of Solution - Calculations",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/4-rates-equilibria-and-further-organic-chemistry/4-3-energetics/4-3-5-enthalpy-of-solution---calculations"
+ },
+ "specPoints": [
+  {
+   "code": "12.17",
+   "text": "be able to use energy cycles and energy level diagrams to calculate the enthalpy change of solution of an ionic compound, using enthalpy change of hydration and lattice energy"
+  },
+  {
+   "code": "12.19",
+   "text": "be able to use entropy and enthalpy changes of solution values to predict the solubility of ionic compounds and discuss trends in the solubility of ionic compounds covered in Unit 2 Further suggested practical Calculate the enthalpy change when a variety of ionic solids are dissolved in water"
+  }
+ ],
+ "primer": {
+  "text": "One energy cycle links the three quantities every solution calculation turns on: lattice enthalpy, enthalpy of solution and the hydration enthalpies of both ions. This note constructs the cycle for potassium chloride and magnesium chloride, extracts an unknown hydration enthalpy by Hess's law, and explains solubility through total entropy.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "One cycle, three enthalpies",
+   "sourceHeadings": [
+    "Enthalpy of Solution - Calculations"
+   ],
+   "specRefs": [
+    "12.17"
+   ],
+   "opening": "One energy cycle links everything solution calculations ask for. Gaseous ions can reach aqueous solution directly (hydration) or indirectly (lattice first, then dissolution), and Hess's law equates the routes. Add the two ions' hydration terms together, and any missing value falls out - chloride at -363 for KCl, magnesium at -1921 for MgCl2.",
+   "keyPoints": [
+    "Solution calculations supply lattice enthalpy, enthalpy of solution and one ion's hydration enthalpy, asking for the other ion's hydration enthalpy.",
+    "Route 1 runs gaseous ions to ionic solid (reverse lattice) to aqueous ions (solution); Route 2 runs gaseous ions straight to aqueous ions (hydration); Hess's law equates the routes, giving delta hyd H (total) = delta latt H + delta sol H.",
+    "Each ion carries its own hydration enthalpy, and the total is the sum of the anion's and cation's terms.",
+    "For KCl: delta hyd H[Cl-] = (-711) + (+26) - (-322) = -363 kJ mol^-1.",
+    "MgCl2: delta hyd H[Mg2+] = -2592 - 55 + 726 = -1921 kJ mol^-1.",
+    "A Born-Haber style energy level diagram is an equally valid route, as long as labels and arrow directions match the definitions."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Hydration total = lattice + solution; subtract the known ion's term to isolate the unknown; KCl: -711 + 26 + 322 = -363.",
+     "analogy": "Two roads to the same town: the direct motorway (hydration) equals the toll road plus the side street (lattice then solution).",
+     "examPointer": "Watch doubled terms - MgCl2 subtracts two chloride hydration values, not one."
+    },
+    "medium": {
+     "restatement": "The cycle is a two-door room: gaseous ions leave by the direct hydration door or by the lattice-then-dissolution corridor; Hess's law pins both doors' totals equal.",
+     "analogy": "Reaching a rooftop by lift (direct) or stairs and ladder (indirect) - same altitude change.",
+     "examPointer": "Draw the cycle before any arithmetic; mislabelled arrows are the top error source."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "The Hess's law equation linking the three quantities is",
+     "misconceptionClass": "cycle equation",
+     "options": [
+      {
+       "key": "A",
+       "text": "Delta hyd H = delta latt H + delta sol H",
+       "correct": true,
+       "explanation": "Direct hydration equals the lattice-then-solution route.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Delta hyd H = delta latt H - delta sol H",
+       "correct": false,
+       "explanation": "Both terms enter positively along the indirect route.",
+       "misconception": "sign slip"
+      },
+      {
+       "key": "C",
+       "text": "Delta hyd H = delta sol H - delta latt H",
+       "correct": false,
+       "explanation": "The lattice term leads the indirect route.",
+       "misconception": "order slip"
+      },
+      {
+       "key": "D",
+       "text": "Delta sol H = delta latt H x delta hyd H",
+       "correct": false,
+       "explanation": "No product rule applies.",
+       "misconception": "operation slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "In the KCl worked example, the chloride hydration enthalpy is found by",
+     "misconceptionClass": "KCl route",
+     "options": [
+      {
+       "key": "A",
+       "text": "(-711) + (+26) - (-322), subtracting the known potassium term",
+       "correct": true,
+       "explanation": "The total hydration minus the potassium share leaves chloride's.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "(-711) + (+26) + (-322)",
+       "correct": false,
+       "explanation": "The potassium term must be subtracted, not added.",
+       "misconception": "sign slip"
+      },
+      {
+       "key": "C",
+       "text": "(-711) - (+26) + (-322)",
+       "correct": false,
+       "explanation": "The solution term enters positively.",
+       "misconception": "sign slip"
+      },
+      {
+       "key": "D",
+       "text": "(-711) x (+26) / (-322)",
+       "correct": false,
+       "explanation": "No such arithmetic exists.",
+       "misconception": "nonsense claim"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "For MgCl2, the magnesium hydration enthalpy calculation subtracts",
+     "misconceptionClass": "MgCl2 doubling",
+     "options": [
+      {
+       "key": "A",
+       "text": "Two times the chloride hydration enthalpy, one for each chloride ion",
+       "correct": true,
+       "explanation": "The formula unit carries two chlorides.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "One chloride hydration enthalpy only",
+       "correct": false,
+       "explanation": "Two chlorides hydrate per formula unit.",
+       "misconception": "coefficient slip"
+      },
+      {
+       "key": "C",
+       "text": "Half the chloride term",
+       "correct": false,
+       "explanation": "No halving rule applies here.",
+       "misconception": "invented rule"
+      },
+      {
+       "key": "D",
+       "text": "Nothing - chlorides are ignored",
+       "correct": false,
+       "explanation": "Both ions' terms are needed.",
+       "misconception": "false claim"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A Born-Haber style energy level diagram may replace the Hess cycle because",
+     "misconceptionClass": "diagram equivalence",
+     "options": [
+      {
+       "key": "A",
+       "text": "Both encode the same enthalpy relationships with correctly labelled arrows",
+       "correct": true,
+       "explanation": "The drawing style is free; the physics is fixed.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Energy diagrams bypass Hess's law",
+       "correct": false,
+       "explanation": "They embody it.",
+       "misconception": "contradiction"
+      },
+      {
+       "key": "C",
+       "text": "Diagrams avoid arithmetic",
+       "correct": false,
+       "explanation": "Arithmetic is still required.",
+       "misconception": "false claim"
+      },
+      {
+       "key": "D",
+       "text": "The definitions change between the two",
+       "correct": false,
+       "explanation": "Definitions are invariant.",
+       "misconception": "false claim"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The value of delta hyd H[Cl-] obtained for KCl is",
+     "misconceptionClass": "chloride value",
+     "options": [
+      {
+       "key": "A",
+       "text": "-363 kJ mol^-1",
+       "correct": true,
+       "explanation": "-711 + 26 + 322 = -363.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "+363 kJ mol^-1",
+       "correct": false,
+       "explanation": "Hydration is exothermic.",
+       "misconception": "sign slip"
+      },
+      {
+       "key": "C",
+       "text": "-685 kJ mol^-1",
+       "correct": false,
+       "explanation": "That adds the lattice twice.",
+       "misconception": "operation slip"
+      },
+      {
+       "key": "D",
+       "text": "-737 kJ mol^-1",
+       "correct": false,
+       "explanation": "That mis-subtracts the potassium term.",
+       "misconception": "operation slip"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the two routes from gaseous ions to aqueous solution.",
+     "misconceptionClass": "routes recall",
+     "modelAnswer": "Direct hydration, or reverse lattice enthalpy followed by the enthalpy of solution.",
+     "keywords": [
+      "direct",
+      "indirect",
+      "solution"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State delta hyd H[Mg2+] for magnesium chloride from the given data.",
+     "misconceptionClass": "magnesium recall",
+     "modelAnswer": "-1921 kJ mol^-1, from (-2592) + (-55) - (2 x -363).",
+     "keywords": [
+      "magnesium",
+      "value",
+      "chloride"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the two ions' hydration enthalpies must both appear in the cycle.",
+     "misconceptionClass": "both ions why",
+     "modelAnswer": "Dissolving one formula unit hydrates every ion it contains, so the total hydration term is the sum over all ions; an unknown for one ion is isolated only after the partner's term is accounted for.",
+     "keywords": [
+      "ions",
+      "total",
+      "hydration"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A sodium chloride cycle gives delta latt H = -787, delta sol H = +4 and delta hyd H[Cl-] = -384 kJ mol^-1. Find delta hyd H[Na+].",
+     "misconceptionClass": "application",
+     "modelAnswer": "Total hydration = -787 + 4 = -783; sodium's share = -783 - (-384) = -399 kJ mol^-1.",
+     "keywords": [
+      "total",
+      "share",
+      "sodium"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Predicting solubility from entropy",
+   "sourceHeadings": [
+    "Enthalpy of Solution - Predictions"
+   ],
+   "specRefs": [
+    "12.19"
+   ],
+   "opening": "Why do some salts dissolve and others not? The answer rides on total entropy: dissolving raises the system's entropy as the lattice disperses, but the surroundings' term equals minus the solution enthalpy over temperature. Ammonium nitrate at 298 K shows the arithmetic: +108.7 system, -86.6 surroundings, +22.1 total - soluble, with a tiny activation energy clearing the way.",
+   "keyPoints": [
+    "Dissolving breaks the lattice (endothermic, and disorder rises as particles multiply) while hydration orders the surrounding water (exothermic, lowering water's entropy).",
+    "Solubility therefore depends on the entropy of the system, the enthalpy of solution, and the temperature of the water.",
+    "Delta S total = delta S system - delta sol H / T combines the two books.",
+    "Ammonium nitrate at 298 K: delta sol H = +25.8 kJ mol^-1; delta S system works out from 113.4 plus 146.4 minus 151.1 as +108.7 J K^-1 mol^-1.",
+    "Delta S surroundings: -25800 divided by 298 gives -86.6 J K^-1 mol^-1; delta S total: 108.7 minus 86.6, making +22.1 J K^-1 mol^-1, spontaneous, hence soluble.",
+    "The activation energy for the process is very low, so at 298 K ammonium nitrate dissolves readily."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Delta S total = delta S system - delta sol H / T; a positive total means soluble; ammonium nitrate's +108.7 versus -86.6 leaves +22.1.",
+     "analogy": "A crowd dispersing (system up) while the ushers tidy rows (surroundings down): the day succeeds if the dispersal wins.",
+     "examPointer": "Convert the solution enthalpy to joules before dividing by T - the /1000 slip strikes again."
+    },
+    "medium": {
+     "restatement": "Two entropies tug against each other on dissolving: the ions gain freedom while the hydration shell's water loses it, and the enthalpy term prices the surroundings' share.",
+     "analogy": "A park opening its gates (people spread) while gardeners trim hedges (order imposed): success depends on which change is bigger.",
+     "examPointer": "End the answer with the feasibility verdict and the low-Ea remark."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "When an ionic solid dissolves, the entropy change of the system is usually",
+     "misconceptionClass": "system entropy direction",
+     "options": [
+      {
+       "key": "A",
+       "text": "Positive, as the lattice disperses into mobile aqueous ions",
+       "correct": true,
+       "explanation": "More particles in more states mean more arrangements.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Negative, as ions are trapped",
+       "correct": false,
+       "explanation": "Aqueous ions are freer than lattice ions.",
+       "misconception": "inversion slip"
+      },
+      {
+       "key": "C",
+       "text": "Zero",
+       "correct": false,
+       "explanation": "The change is substantial.",
+       "misconception": "false claim"
+      },
+      {
+       "key": "D",
+       "text": "Undefined",
+       "correct": false,
+       "explanation": "It is measurable from data books.",
+       "misconception": "false claim"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The hydration of ions affects the water's entropy by",
+     "misconceptionClass": "water entropy effect",
+     "options": [
+      {
+       "key": "A",
+       "text": "Decreasing it, as water molecules order themselves around the ions",
+       "correct": true,
+       "explanation": "Hydration shells impose arrangement on the water.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Increasing it, as water gains energy",
+       "correct": false,
+       "explanation": "Ordering, not energising, dominates here.",
+       "misconception": "inversion slip"
+      },
+      {
+       "key": "C",
+       "text": "Having no effect",
+       "correct": false,
+       "explanation": "The shells are real structure.",
+       "misconception": "false claim"
+      },
+      {
+       "key": "D",
+       "text": "Doubling it",
+       "correct": false,
+       "explanation": "No fixed factor applies.",
+       "misconception": "invented rule"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The surroundings' entropy term for dissolving equals",
+     "misconceptionClass": "surroundings term",
+     "options": [
+      {
+       "key": "A",
+       "text": "Minus the enthalpy of solution divided by temperature",
+       "correct": true,
+       "explanation": "The standard -delta H / T with delta sol H.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The enthalpy of solution divided by temperature",
+       "correct": false,
+       "explanation": "The minus sign records the direction of heat flow.",
+       "misconception": "sign slip"
+      },
+      {
+       "key": "C",
+       "text": "The system's entropy plus the enthalpy",
+       "correct": false,
+       "explanation": "Different quantities entirely.",
+       "misconception": "formula mix"
+      },
+      {
+       "key": "D",
+       "text": "Zero for endothermic dissolving",
+       "correct": false,
+       "explanation": "Endothermic gives a negative term, not zero.",
+       "misconception": "false claim"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "For ammonium nitrate at 298 K, delta S system minus the surroundings' magnitude leaves",
+     "misconceptionClass": "nitrate verdict",
+     "options": [
+      {
+       "key": "A",
+       "text": "+22.1 J K^-1 mol^-1, so the salt dissolves spontaneously",
+       "correct": true,
+       "explanation": "108.7 - 86.6 = +22.1.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "-22.1 J K^-1 mol^-1, so it is insoluble",
+       "correct": false,
+       "explanation": "The sum is positive.",
+       "misconception": "sign slip"
+      },
+      {
+       "key": "C",
+       "text": "+195.3 J K^-1 mol^-1",
+       "correct": false,
+       "explanation": "That adds the terms instead of netting them.",
+       "misconception": "operation slip"
+      },
+      {
+       "key": "D",
+       "text": "-86.6 J K^-1 mol^-1",
+       "correct": false,
+       "explanation": "That is the surroundings' term alone.",
+       "misconception": "term mix"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Ammonium nitrate's readiness to dissolve at 298 K owes also to its",
+     "misconceptionClass": "kinetic aside",
+     "options": [
+      {
+       "key": "A",
+       "text": "Very low activation energy for the process",
+       "correct": true,
+       "explanation": "Feasibility plus a low barrier give fast dissolving.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "High activation energy",
+       "correct": false,
+       "explanation": "A high barrier would slow it.",
+       "misconception": "contradiction"
+      },
+      {
+       "key": "C",
+       "text": "Large lattice enthalpy",
+       "correct": false,
+       "explanation": "The lattice term is already priced in.",
+       "misconception": "term mix"
+      },
+      {
+       "key": "D",
+       "text": "Radioactivity",
+       "correct": false,
+       "explanation": "None is involved.",
+       "misconception": "nonsense claim"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the three factors on which the solubility of an ionic solid depends.",
+     "misconceptionClass": "factors recall",
+     "modelAnswer": "The entropy of the system, the enthalpy change of solution, and the temperature of the water in kelvin.",
+     "keywords": [
+      "entropy",
+      "enthalpy",
+      "temperature"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the system entropy calculation for ammonium nitrate dissolving.",
+     "misconceptionClass": "nitrate system recall",
+     "modelAnswer": "113.4 plus 146.4 minus 151.1 gives +108.7 J K^-1 mol^-1, from the aqueous ions minus the solid.",
+     "keywords": [
+      "aqueous",
+      "solid",
+      "minus"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why an endothermic dissolving can still be spontaneous.",
+     "misconceptionClass": "endothermic dissolve why",
+     "modelAnswer": "The system's entropy rise from dispersing the lattice can exceed the surroundings' entropy cost of supplying the enthalpy; when the total is positive, the second law permits the change despite the cooling flask.",
+     "keywords": [
+      "entropy",
+      "spontaneous",
+      "surroundings"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A salt has delta sol H = +40 kJ mol^-1 and delta S system = +150 J K^-1 mol^-1. Is it soluble at 298 K?",
+     "misconceptionClass": "application",
+     "modelAnswer": "Delta S surroundings = -40000/298 = -134.2 J K^-1 mol^-1, so delta S total = 150 - 134.2 = +15.8 J K^-1 mol^-1: positive, so the salt dissolves at 298 K.",
+     "keywords": [
+      "total",
+      "soluble",
+      "delta"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "energy cycle",
+    "definition": "The Hess's law diagram linking lattice, solution and hydration enthalpies for an ionic compound.",
+    "firstLesson": 1
+   },
+   {
+    "term": "hydration shell",
+    "definition": "The ordered layer of water molecules surrounding a dissolved ion.",
+    "firstLesson": 2
+   },
+   {
+    "term": "total entropy change",
+    "definition": "The sum of the system's and surroundings' entropy changes, the solubility test.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": {
+   "prompt": "Work out the chloride ion's enthalpy of hydration, given delta latt H [KCl] = -711, delta sol H [KCl] = +26 and delta hyd H [K+] = -322, all in kJ mol^-1.",
+   "steps": [
+    "Draw the energy cycle with delta hyd H[Cl-] as the unknown.",
+    "Write the Hess's law balance: total hydration = lattice + solution, so delta hyd H[K+] + delta hyd H[Cl-] = (-711) + (+26).",
+    "Substitute the potassium term: delta hyd H[Cl-] = (-711) + (+26) - (-322).",
+    "Evaluate: -711 + 26 + 322 = -363 kJ mol^-1."
+   ],
+   "finalAnswer": "Delta hyd H[Cl-] = -363 kJ mol^-1."
+  }
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/5140072925c6-5-1-5-worked-example-energy-cycle-kcl.png",
+   "alt": "Worked Example -Energy Cycle KCl, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Enthalpy of Solution - Calculations",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/033bd90f0498-5-1-chemical-energetics-energy-level-diagram-kcl.png",
+   "alt": "Chemical Energetics - Energy Level Diagram KCl (1), downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Enthalpy of Solution - Calculations",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-03",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/e5bcafe0d3d0-5-1-chemical-energetics-energy-level-diagram-kcl.png",
+   "alt": "Chemical Energetics - Energy Level Diagram KCl (2), downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Enthalpy of Solution - Calculations",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-04",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/e97421fa8f07-5-1-5-worked-example-energy-cycle-mgcl2.png",
+   "alt": "Worked Example - Energy Cycle MgCl2, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Enthalpy of Solution - Calculations",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-05",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/0e09831e6abf-5-1-chemical-energetics-energy-level-diagram-mgc.png",
+   "alt": "Chemical Energetics - Energy Level Diagram MgCl2, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Enthalpy of Solution - Calculations",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique"
+  }
+ ]
+}

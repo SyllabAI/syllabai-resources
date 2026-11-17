@@ -1,0 +1,884 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_6Nx2m7ZPcPjjhW4M",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "4: Rates, Equilibria & Further Organic Chemistry",
+  "subtopicTitle": "Rate Equations & Orders",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/4-rates-equilibria-and-further-organic-chemistry/4-1-kinetics/4-1-2-rate-equations-and-orders"
+ },
+ "specPoints": [
+  {
+   "code": "11.1",
+   "text": "understand the terms: i rate of reaction ii rate equation, rate= k [A] m [B] n where m and n are 0, 1 or 2 iii order with respect to a substance in a rate equation iv overall order of a reaction v rate constant vi half-life vii rate-determining step viii activation energy ix heterogeneous and homogeneous catalyst"
+  },
+  {
+   "code": "11.5",
+   "text": "be able to deduce the order (0, 1 or 2) with respect to a substance in a rate equation, using data from: i a concentration-time graph ii a rate-concentration graph iii an initial-rate method"
+  }
+ ],
+ "primer": {
+  "text": "Orders show how a reactant's concentration shapes the rate: order zero excludes it, order one makes rate proportional, order two makes rate rise with the square. This note reads orders from tabulated experiments, assembles the full rate equation, then calculates the rate constant from an initial rate and deduces its units.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "What an order tells you",
+   "sourceHeadings": [
+    "Rate Equations & Orders"
+   ],
+   "specRefs": [
+    "11.1"
+   ],
+   "opening": "The order of a reactant is the power its concentration carries in the rate equation, and it is the experiment's verdict on how hard that chemical drives the rate. Orders may be zero, positive or even fractional, and the overall order is simply their sum. This lesson converts order numbers into concrete rate consequences.",
+   "keyPoints": [
+    "The order of a reactant is the power to which its concentration is raised in the rate equation.",
+    "Order zero: changing that concentration leaves the rate unchanged, so the species is excluded from the rate equation.",
+    "Order one: rate is proportional to concentration, so doubling concentration doubles rate.",
+    "Order two: rate follows the square of concentration, so doubling concentration quadruples rate.",
+    "Adding together every power that the rate equation assigns to the reactants gives the overall order; fractional values hint at multi-step mechanisms."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Order zero ignores the chemical, order one scales rate with concentration, order two scales with its square; add the powers for the overall order.",
+     "analogy": "Volume knobs on a mixer: a dead channel (zero), a linear fader (one) and a loudness button that doubles effect per press squared (two).",
+     "examPointer": "Convert doubling language into factors fast: double means x2 for first order and x4 for second."
+    },
+    "medium": {
+     "restatement": "Orders encode mechanism participation, not balancing numbers; a fractional order is the fingerprint of a reaction that proceeds through several elementary stages.",
+     "analogy": "A relay race: only the runners in the changing-over leg (the slow steps) set the finishing time, and how many legs they run is the order.",
+     "examPointer": "Overall-order questions are addition tasks - sum the powers, then state the word (first, second, third)."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "The order of a reactant is defined as",
+     "misconceptionClass": "order definition",
+     "options": [
+      {
+       "key": "A",
+       "text": "The power to which its concentration is raised in the rate equation",
+       "correct": true,
+       "explanation": "That power is the order by definition.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Its balancing coefficient in the stoichiometric equation",
+       "correct": false,
+       "explanation": "Coefficients and orders are independent.",
+       "misconception": "stoich trap"
+      },
+      {
+       "key": "C",
+       "text": "The number of moles of it consumed per second",
+       "correct": false,
+       "explanation": "That describes rate itself, not the order.",
+       "misconception": "concept swap"
+      },
+      {
+       "key": "D",
+       "text": "Its concentration at the start of the reaction",
+       "correct": false,
+       "explanation": "Starting concentration is an experimental setting, not an order.",
+       "misconception": "concept swap"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "For a reactant of order zero, changing its concentration",
+     "misconceptionClass": "zero order effect",
+     "options": [
+      {
+       "key": "A",
+       "text": "Leaves the rate unchanged, and the species is left out of the rate equation",
+       "correct": true,
+       "explanation": "Zero order means no rate dependence and no rate-equation slot.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Doubles the rate",
+       "correct": false,
+       "explanation": "Doubling describes order one.",
+       "misconception": "power slip"
+      },
+      {
+       "key": "C",
+       "text": "Quadruples the rate",
+       "correct": false,
+       "explanation": "Quadrupling describes order two.",
+       "misconception": "power slip"
+      },
+      {
+       "key": "D",
+       "text": "Halves the rate",
+       "correct": false,
+       "explanation": "No order makes rate fall by halving.",
+       "misconception": "invented effect"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A reaction is second order with respect to X. Doubling [X] changes the rate by a factor of",
+     "misconceptionClass": "second order factor",
+     "options": [
+      {
+       "key": "A",
+       "text": "Four, because rate follows the square of the concentration",
+       "correct": true,
+       "explanation": "2 squared equals 4.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Two, because rate follows concentration directly",
+       "correct": false,
+       "explanation": "Direct proportionality is order one.",
+       "misconception": "order slip"
+      },
+      {
+       "key": "C",
+       "text": "Eight, because orders compound",
+       "correct": false,
+       "explanation": "No compounding rule exists; the factor is 2^n.",
+       "misconception": "invented rule"
+      },
+      {
+       "key": "D",
+       "text": "Nothing, because orders fix the rate",
+       "correct": false,
+       "explanation": "Only zero order gives no change.",
+       "misconception": "order slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The overall order of the reaction with rate equation rate = k[X][Y]^2 is",
+     "misconceptionClass": "overall order",
+     "options": [
+      {
+       "key": "A",
+       "text": "Three, the sum of the powers 1 + 2",
+       "correct": true,
+       "explanation": "Overall order sums the exponents.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "One, from the first reactant only",
+       "correct": false,
+       "explanation": "Both reactants contribute.",
+       "misconception": "partial sum"
+      },
+      {
+       "key": "C",
+       "text": "Two, from the squared term only",
+       "correct": false,
+       "explanation": "The first-order term counts too.",
+       "misconception": "partial sum"
+      },
+      {
+       "key": "D",
+       "text": "Five, multiplying the powers",
+       "correct": false,
+       "explanation": "Powers add, they do not multiply.",
+       "misconception": "operation slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A fractional order with respect to a reactant suggests that",
+     "misconceptionClass": "fractional order",
+     "options": [
+      {
+       "key": "A",
+       "text": "The reaction proceeds through several steps",
+       "correct": true,
+       "explanation": "Fractional orders indicate multi-step mechanisms.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The reactant is a catalyst",
+       "correct": false,
+       "explanation": "Catalyst participation does not create fractions.",
+       "misconception": "false cause"
+      },
+      {
+       "key": "C",
+       "text": "The data were misread",
+       "correct": false,
+       "explanation": "Genuine fractional orders occur.",
+       "misconception": "dismissal error"
+      },
+      {
+       "key": "D",
+       "text": "The reaction cannot have a rate equation",
+       "correct": false,
+       "explanation": "Every reaction with measurable kinetics has one.",
+       "misconception": "nonsense claim"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the effect on rate of doubling the concentration of a second-order reactant.",
+     "misconceptionClass": "doubling recall",
+     "modelAnswer": "The rate quadruples, rising by a factor of four, because rate follows the square of the concentration.",
+     "keywords": [
+      "square",
+      "concentration",
+      "quadruples"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Define the overall order of reaction.",
+     "misconceptionClass": "overall recall",
+     "modelAnswer": "It is the total of every power the rate equation assigns to the reactants.",
+     "keywords": [
+      "total",
+      "reactants",
+      "overall"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why a zero-order reactant does not appear in the rate equation.",
+     "misconceptionClass": "zero exclusion why",
+     "modelAnswer": "An order of zero means the concentration has no influence on the rate, so including a zero power would add nothing; the rate equation omits species whose concentration the rate ignores.",
+     "keywords": [
+      "zero",
+      "rate",
+      "equation"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A rate equation is rate = k[A]^1.5[B]. State the overall order and what it hints at about the mechanism.",
+     "misconceptionClass": "application",
+     "modelAnswer": "The overall order is 2.5, and the fractional 1.5 hints that the mechanism runs through multiple elementary steps rather than a single collision.",
+     "keywords": [
+      "overall",
+      "fractional",
+      "mechanism"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Deducing orders from a data table",
+   "sourceHeadings": [
+    "Determining Rate Equations",
+    "Experimental Results of Concentrations & Initial Rates Table"
+   ],
+   "specRefs": [
+    "11.5"
+   ],
+   "opening": "Orders come from comparing experiments. Find two runs where only one concentration changes, see what the rate did, and read off the order. The tert-butyl bromide table shows the routine, and the sodium carbonate data show the same method feeding a rate-constant calculation.",
+   "keyPoints": [
+    "Compare two experiments where one concentration changes while all others stay constant, then match the rate change to an order.",
+    "For the tert-butyl bromide reaction, experiments 1 and 2 double [(CH3)3CBr] at fixed [OH-] and the rate doubles, so the order with respect to (CH3)3CBr is 1.",
+    "Experiments 1 and 3 double [OH-] at fixed [(CH3)3CBr] and the rate rises fourfold, so the order with respect to OH- is 2.",
+    "The deduced rate equation is rate = k[(CH3)3CBr][OH-]^2.",
+    "The sodium carbonate table lists initial concentrations and initial rates ready for the same treatment."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Hold every concentration fixed except one; if the rate doubles the order is 1, if it quadruples the order is 2, then assemble rate = k[...][...]^2.",
+     "analogy": "Testing speakers one at a time: mute everything else, adjust one volume control, and hear how much the total sound moves.",
+     "examPointer": "Always quote the experiment pair you used - 'comparing 1 and 2' - before stating an order."
+    },
+    "medium": {
+     "restatement": "The comparison isolates one variable at a time, which is exactly what the rate equation's structure assumes: each factor is a separate lever, and the data reveal each lever's power.",
+     "analogy": "A photo darkroom: change one filter at a time to see which one deepens the print; the degree of change per doubling is the order.",
+     "examPointer": "Standard-form values are easy to misread - check the powers of ten before declaring a factor change."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "To find the order with respect to one reactant from tabulated data, you should",
+     "misconceptionClass": "order method",
+     "options": [
+      {
+       "key": "A",
+       "text": "Compare two experiments where only that concentration changes",
+       "correct": true,
+       "explanation": "Isolating one variable reveals its order.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Read the balancing coefficients of the equation",
+       "correct": false,
+       "explanation": "Stoichiometry never gives orders.",
+       "misconception": "stoich trap"
+      },
+      {
+       "key": "C",
+       "text": "Average all the rates in the table",
+       "correct": false,
+       "explanation": "Averaging mixes variables and hides the order.",
+       "misconception": "wrong method"
+      },
+      {
+       "key": "D",
+       "text": "Take the slowest recorded rate as the order",
+       "correct": false,
+       "explanation": "Slowest rate is not an order.",
+       "misconception": "nonsense claim"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "In the tert-butyl bromide table, experiments 1 and 2 double [(CH3)3CBr] with [OH-] fixed and the rate doubles. The order with respect to (CH3)3CBr is",
+     "misconceptionClass": "tBr order",
+     "options": [
+      {
+       "key": "A",
+       "text": "One, first order",
+       "correct": true,
+       "explanation": "Rate doubling with concentration doubling is direct proportionality.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Two, second order",
+       "correct": false,
+       "explanation": "Second order would quadruple the rate.",
+       "misconception": "power slip"
+      },
+      {
+       "key": "C",
+       "text": "Zero, zero order",
+       "correct": false,
+       "explanation": "Zero order would leave the rate unchanged.",
+       "misconception": "power slip"
+      },
+      {
+       "key": "D",
+       "text": "Half",
+       "correct": false,
+       "explanation": "The clean doubling shows a whole-number order.",
+       "misconception": "fraction error"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "In the same table, experiments 1 and 3 double [OH-] with [(CH3)3CBr] fixed and the rate rises fourfold. The order with respect to OH- is",
+     "misconceptionClass": "OH order",
+     "options": [
+      {
+       "key": "A",
+       "text": "Two, second order",
+       "correct": true,
+       "explanation": "A fourfold rise on doubling is the square signature.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "One, first order",
+       "correct": false,
+       "explanation": "First order would double the rate.",
+       "misconception": "power slip"
+      },
+      {
+       "key": "C",
+       "text": "Zero, zero order",
+       "correct": false,
+       "explanation": "Zero order would show no change.",
+       "misconception": "power slip"
+      },
+      {
+       "key": "D",
+       "text": "Four, fourth order",
+       "correct": false,
+       "explanation": "Fourth order would give a sixteenfold rise.",
+       "misconception": "power slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The rate equation assembled for the tert-butyl bromide reaction is",
+     "misconceptionClass": "assembled equation",
+     "options": [
+      {
+       "key": "A",
+       "text": "rate = k[(CH3)3CBr][OH-]^2",
+       "correct": true,
+       "explanation": "First order in the bromide and second order in hydroxide.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "rate = k[(CH3)3CBr]^2[OH-]",
+       "correct": false,
+       "explanation": "The powers are the wrong way round.",
+       "misconception": "power swap"
+      },
+      {
+       "key": "C",
+       "text": "rate = k[(CH3)3CBr][OH-]",
+       "correct": false,
+       "explanation": "That misses the second order in hydroxide.",
+       "misconception": "power loss"
+      },
+      {
+       "key": "D",
+       "text": "rate = k[(CH3)3CBr]^2[OH-]^2",
+       "correct": false,
+       "explanation": "The bromide is first order, not second.",
+       "misconception": "power slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The sodium carbonate results table is used to",
+     "misconceptionClass": "sodium carbonate role",
+     "options": [
+      {
+       "key": "A",
+       "text": "Provide initial concentrations and initial rates for deducing orders and then k",
+       "correct": true,
+       "explanation": "The table is the data source for the rate-constant calculation.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Display the mechanism of the reaction",
+       "correct": false,
+       "explanation": "Mechanisms are not read off tables.",
+       "misconception": "purpose error"
+      },
+      {
+       "key": "C",
+       "text": "Show the colour change of the indicator",
+       "correct": false,
+       "explanation": "No indicator story is involved here.",
+       "misconception": "invented purpose"
+      },
+      {
+       "key": "D",
+       "text": "Record the temperature of each run",
+       "correct": false,
+       "explanation": "Temperature is fixed across the runs.",
+       "misconception": "invented purpose"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the order with respect to (CH3)3CBr and to OH- in the deduced rate equation.",
+     "misconceptionClass": "orders recall",
+     "modelAnswer": "First order with respect to (CH3)3CBr and second order with respect to OH-.",
+     "keywords": [
+      "order",
+      "second",
+      "respect"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the rate equation deduced for the tert-butyl bromide reaction.",
+     "misconceptionClass": "equation recall",
+     "modelAnswer": "Rate = k[(CH3)3CBr][OH-]^2.",
+     "keywords": [
+      "rate",
+      "equation",
+      "deduced"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why only the concentrations that change between two experiments are used when finding an order.",
+     "misconceptionClass": "isolation why",
+     "modelAnswer": "An order is the rate's sensitivity to one concentration alone; if two concentrations change between runs, the observed rate change mixes two causes and no single order can be read, so one variable must move at a time.",
+     "keywords": [
+      "sensitivity",
+      "concentration",
+      "variable"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A fourth experiment doubles both [(CH3)3CBr] and [OH-] relative to experiment 1. Predict the rate factor.",
+     "misconceptionClass": "application",
+     "modelAnswer": "Doubling (CH3)3CBr contributes a factor of 2 and doubling OH- contributes 2 squared, so the rate rises by 2 x 4 = 8.",
+     "keywords": [
+      "factor",
+      "doubling",
+      "contributes"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Calculating k and its units",
+   "sourceHeadings": [
+    "Calculating the rate constant from the initial rate",
+    "Calculating Units"
+   ],
+   "specRefs": [
+    "11.5"
+   ],
+   "opening": "Once the rate equation stands, any single experimental line yields k: rearrange, substitute one run's rate and concentrations, and compute. Units come free of charge by feeding the units of every quantity into the rearranged equation and cancelling.",
+   "keyPoints": [
+    "The rate constant is calculated by rearranging the rate equation and substituting one experiment's initial rate and concentrations.",
+    "For the sodium carbonate reaction, substitution of measurement 1 gives k = 1.40 x 10^-2, and the other measurements give the same value.",
+    "Units of k are found by replacing each quantity in the rearranged equation with its units and cancelling.",
+    "For rate = k[(CH3)3CBr][OH-]^2 the units work out as mol^-2 dm^6 s^-1."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Rearrange to k = rate / ([concentrations with their powers]), substitute one run, then cancel the units of rate against the concentration powers.",
+     "analogy": "Finding a price per item: divide the bill by the number of items; the units of the answer come from the division automatically.",
+     "examPointer": "Count concentration powers in the denominator to name the units: two powers give mol^-2 dm^6 s^-1."
+    },
+    "medium": {
+     "restatement": "The rate constant carries the units that make the whole equation dimensionally honest; each order shifts the concentration unit into the denominator once.",
+     "analogy": "A gear ratio: the constants of a machine absorb the units of everything around them so the output reads true.",
+     "examPointer": "State units of k in the final answer - omitting them loses the mark even when the number is right."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "To calculate the rate constant from an initial rate, you substitute values into",
+     "misconceptionClass": "k substitution",
+     "options": [
+      {
+       "key": "A",
+       "text": "The rearranged rate equation using one experiment's rate and concentrations",
+       "correct": true,
+       "explanation": "One line of the data table suffices once orders are known.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The stoichiometric equation",
+       "correct": false,
+       "explanation": "Balancing numbers play no role here.",
+       "misconception": "stoich trap"
+      },
+      {
+       "key": "C",
+       "text": "The Arrhenius equation",
+       "correct": false,
+       "explanation": "That equation answers temperature questions.",
+       "misconception": "topic mix"
+      },
+      {
+       "key": "D",
+       "text": "All experiments at once, averaged",
+       "correct": false,
+       "explanation": "Each run gives the same k; averaging is unnecessary.",
+       "misconception": "wrong method"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "For rate = k[X][Y]^2, the units of k are",
+     "misconceptionClass": "k units second order",
+     "options": [
+      {
+       "key": "A",
+       "text": "mol^-2 dm^6 s^-1",
+       "correct": true,
+       "explanation": "Two concentration powers in the denominator leave mol^-2 dm^6 s^-1.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "mol^-1 dm^3 s^-1",
+       "correct": false,
+       "explanation": "That suits a single concentration power.",
+       "misconception": "power slip"
+      },
+      {
+       "key": "C",
+       "text": "s^-1",
+       "correct": false,
+       "explanation": "That suits rate = k[X] alone with zero concentration powers.",
+       "misconception": "power slip"
+      },
+      {
+       "key": "D",
+       "text": "mol dm^-3 s^-1",
+       "correct": false,
+       "explanation": "Those are the units of rate itself.",
+       "misconception": "role swap"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The units of k are deduced by",
+     "misconceptionClass": "units method",
+     "options": [
+      {
+       "key": "A",
+       "text": "Replacing each term in the rearranged equation with its units and cancelling",
+       "correct": true,
+       "explanation": "Dimensional cancellation yields the units of k.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Reading them from the data table",
+       "correct": false,
+       "explanation": "Tables list quantities, not k units.",
+       "misconception": "wrong source"
+      },
+      {
+       "key": "C",
+       "text": "Multiplying the units of rate by the orders",
+       "correct": false,
+       "explanation": "Orders are powers, not unit multipliers.",
+       "misconception": "invented rule"
+      },
+      {
+       "key": "D",
+       "text": "Looking them up in the data book",
+       "correct": false,
+       "explanation": "k is reaction-specific and calculated, not tabulated.",
+       "misconception": "wrong source"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "In the sodium carbonate example, the value of k from measurement 1 agrees with the value from measurements 2 and 3 because",
+     "misconceptionClass": "k consistency",
+     "options": [
+      {
+       "key": "A",
+       "text": "The rate equation with its orders is the same for every run at fixed temperature",
+       "correct": true,
+       "explanation": "Each run is the same chemistry, so each yields the same k.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The experiments were repeated identically",
+       "correct": false,
+       "explanation": "The runs deliberately used different concentrations.",
+       "misconception": "false cause"
+      },
+      {
+       "key": "C",
+       "text": "k adjusts to each concentration",
+       "correct": false,
+       "explanation": "k does not vary with concentration.",
+       "misconception": "false cause"
+      },
+      {
+       "key": "D",
+       "text": "Rounding removed the differences",
+       "correct": false,
+       "explanation": "The agreement is structural, not a rounding artefact.",
+       "misconception": "false cause"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A reaction obeys rate = k[A][B]^2[C], an overall order of four. The units of k are",
+     "misconceptionClass": "k units fourth order",
+     "options": [
+      {
+       "key": "A",
+       "text": "mol^-3 dm^9 s^-1",
+       "correct": true,
+       "explanation": "Three reactant terms carry three mol dm^-3 factors, cancelling three of the rate's units.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "s^-1",
+       "correct": false,
+       "explanation": "That is overall order one.",
+       "misconception": "order slip"
+      },
+      {
+       "key": "C",
+       "text": "mol^-1 dm^3 s^-1",
+       "correct": false,
+       "explanation": "That is overall order two.",
+       "misconception": "order slip"
+      },
+      {
+       "key": "D",
+       "text": "mol^-4 dm^12 s^-1",
+       "correct": false,
+       "explanation": "The powers sit on three species, so three concentration units cancel, not four.",
+       "misconception": "power count"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the value of k obtained for the sodium carbonate reaction.",
+     "misconceptionClass": "k value recall",
+     "modelAnswer": "k = 1.40 x 10^-2, the same from every measurement.",
+     "keywords": [
+      "value",
+      "measurement",
+      "carbonate"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the units of k for rate = k[(CH3)3CBr][OH-]^2.",
+     "misconceptionClass": "units recall",
+     "modelAnswer": "mol^-2 dm^6 s^-1.",
+     "keywords": [
+      "units",
+      "concentrations",
+      "rate"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the units of k depend on the overall order.",
+     "misconceptionClass": "units why",
+     "modelAnswer": "k must convert concentrations raised to their powers into a rate with units mol dm^-3 s^-1, so each unit of concentration power shifts a mol dm^-3 into the denominator; the total number of powers, the overall order, therefore fixes the units.",
+     "keywords": [
+      "overall",
+      "units",
+      "concentrations"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A reaction is found to have rate = k[X]^0[Y]^1. State the units of k.",
+     "misconceptionClass": "application",
+     "modelAnswer": "With a single concentration power the units are mol^-1 dm^3 s^-1, since one mol dm^-3 must cancel against the rate's mol dm^-3 s^-1.",
+     "keywords": [
+      "units",
+      "power",
+      "concentration"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "order",
+    "definition": "The power to which a reactant's concentration is raised in the rate equation.",
+    "firstLesson": 1
+   },
+   {
+    "term": "overall order",
+    "definition": "The total of the powers the rate equation assigns to the reactants.",
+    "firstLesson": 1
+   },
+   {
+    "term": "initial rate",
+    "definition": "The rate at the very start of the reaction, used in rate-constant calculations.",
+    "firstLesson": 2
+   },
+   {
+    "term": "rate constant",
+    "definition": "The factor k that converts concentrations raised to their orders into a rate.",
+    "firstLesson": 3
+   }
+  ],
+  "workedExample": {
+   "prompt": "Use experiment 1 of the tert-butyl bromide data, [(CH3)3CBr] = 1.0 x 10^-3 mol dm^-3, [OH-] = 2.0 x 10^-3 mol dm^-3 and initial rate 3.0 x 10^-3 mol dm^-3 s^-1, to calculate k for rate = k[(CH3)3CBr][OH-]^2, and give the units.",
+   "steps": [
+    "Rearrange: k = rate / ([(CH3)3CBr] x [OH-]^2).",
+    "Square the hydroxide concentration: (2.0 x 10^-3)^2 = 4.0 x 10^-6.",
+    "Multiply the concentrations: 1.0 x 10^-3 x 4.0 x 10^-6 = 4.0 x 10^-9.",
+    "Divide: 3.0 x 10^-3 / 4.0 x 10^-9 = 7.5 x 10^5.",
+    "Attach the units: two concentration powers give mol^-2 dm^6 s^-1."
+   ],
+   "finalAnswer": "k = 7.5 x 10^5 mol^-2 dm^6 s^-1."
+  }
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/59ef00405e65-rates-sodium-carbonate.png",
+   "alt": "Rates sodium carbonate, downloadable AS & A Level Biology revision notes",
+   "sourceHeading": "Experimental Results of Concentrations & Initial Rates Table",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/19028307c277-5-2-3-rate-equation-calculate-k-1.png",
+   "alt": "Substitution of measurement 1 into the rearranged rate equation to find k",
+   "sourceHeading": "Experimental Results of Concentrations & Initial Rates Table",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-03",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/128a99404c13-5-2-3-rate-equation-sodium-carbonate-2-2.png",
+   "alt": "The sodium carbonate reaction and its rate equation",
+   "sourceHeading": "Calculating the rate constant from the initial rate",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique"
+  },
+  {
+   "id": "fig-04",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/46dd4502aa07-5-2-3-units-of-k-1.png",
+   "alt": "Working showing the units of k obtained by cancellation",
+   "sourceHeading": "Calculating Units",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique"
+  }
+ ]
+}

@@ -1,0 +1,836 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_yk3Y4mnTjrQkDgpd",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "4: Rates, Equilibria & Further Organic Chemistry",
+  "subtopicTitle": "Entropy Changes",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/4-rates-equilibria-and-further-organic-chemistry/4-2-entropy/4-2-2-entropy-changes"
+ },
+ "specPoints": [
+  {
+   "code": "12.5",
+   "text": "understand why entropy changes occur during: i changes of state ii dissolving of a solid ionic lattice iii reactions in which there is a change in the number of moles from reactants to products"
+  }
+ ],
+ "primer": {
+  "text": "Entropy rises when matter or energy becomes more dispersed. Melting and boiling increase it sharply, condensing and freezing lower it; forming a gas in a reaction raises it; dissolving a solid trades lattice order for aqueous mobility. This note reads entropy signs from state symbols and works the classic endothermic examples where disorder still increases.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Entropy and changes of state",
+   "sourceHeadings": [
+    "Changes of State"
+   ],
+   "specRefs": [
+    "12.5"
+   ],
+   "opening": "State changes are entropy's clearest signature. Melting unlocks a lattice into mobile liquid, boiling scatters particles into gas, and the reverse changes lock order back in. The entropy sign follows the state ladder: solid below liquid below gas.",
+   "keyPoints": [
+    "Whenever a substance changes state, its entropy shifts too.",
+    "Entropy increases on melting: the regular lattice becomes an irregular, mobile arrangement of particles that rotate and slide.",
+    "Entropy increases significantly on boiling, since gas particles move freely and sit far apart.",
+    "Entropy decreases on condensing and on freezing, as particles are drawn into more regular arrangements.",
+    "Raising a substance's temperature raises its entropy at every stage, as particles become more disordered."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Melting and boiling raise entropy, condensing and freezing lower it; the ladder runs solid, liquid, gas upward.",
+     "analogy": "A library: books shelved (solid), stacked loosely on tables (liquid), and flung across the room (gas).",
+     "examPointer": "Read the state symbols of any equation - the ladder gives the entropy sign instantly."
+    },
+    "medium": {
+     "restatement": "Order costs nothing to lose and much to keep; each step up the state ladder trades positional information for freedom, which is the entropy gain.",
+     "analogy": "A marching band breaking formation: individuals gain freedom with every step from column to crowd.",
+     "examPointer": "Boiling earns the word 'significantly' - the gas step dwarfs the melting step."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "When a substance melts, its entropy",
+     "misconceptionClass": "melting entropy",
+     "options": [
+      {
+       "key": "A",
+       "text": "Increases, as the regular lattice becomes an irregular, mobile arrangement",
+       "correct": true,
+       "explanation": "Freedom of movement raises the arrangement count.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Decreases, as particles slow down",
+       "correct": false,
+       "explanation": "Melting increases particle freedom.",
+       "misconception": "inversion slip"
+      },
+      {
+       "key": "C",
+       "text": "Stays constant",
+       "correct": false,
+       "explanation": "State changes always shift entropy.",
+       "misconception": "false claim"
+      },
+      {
+       "key": "D",
+       "text": "Becomes undefined",
+       "correct": false,
+       "explanation": "Entropy remains well defined.",
+       "misconception": "nonsense claim"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Boiling raises entropy more sharply than melting because",
+     "misconceptionClass": "boiling jump",
+     "options": [
+      {
+       "key": "A",
+       "text": "Gas particles move freely and sit far apart, compared with the modest loosening of a lattice",
+       "correct": true,
+       "explanation": "The liquid-to-gas step is the biggest disorder jump.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Boiling is always exothermic",
+       "correct": false,
+       "explanation": "Boiling is endothermic, and the size argument stands regardless.",
+       "misconception": "fact slip"
+      },
+      {
+       "key": "C",
+       "text": "Liquids have no entropy",
+       "correct": false,
+       "explanation": "Liquids have intermediate entropy.",
+       "misconception": "false claim"
+      },
+      {
+       "key": "D",
+       "text": "Gases cannot be ordered at all",
+       "correct": false,
+       "explanation": "The point is the degree of freedom, not an absolute.",
+       "misconception": "overstatement"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "When a gas condenses, the entropy of the substance",
+     "misconceptionClass": "condensing entropy",
+     "options": [
+      {
+       "key": "A",
+       "text": "Decreases, as particles are drawn into a more regular arrangement",
+       "correct": true,
+       "explanation": "Condensing reverses the boiling gain.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Increases sharply",
+       "correct": false,
+       "explanation": "That describes boiling.",
+       "misconception": "inversion slip"
+      },
+      {
+       "key": "C",
+       "text": "Remains unchanged",
+       "correct": false,
+       "explanation": "State changes move entropy.",
+       "misconception": "false claim"
+      },
+      {
+       "key": "D",
+       "text": "Doubles",
+       "correct": false,
+       "explanation": "No fixed doubling rule exists.",
+       "misconception": "invented rule"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The state ladder used to read entropy signs runs",
+     "misconceptionClass": "state ladder",
+     "options": [
+      {
+       "key": "A",
+       "text": "Solid, liquid, gas in order of increasing entropy",
+       "correct": true,
+       "explanation": "Each step up grants more particle freedom.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Gas, liquid, solid upward",
+       "correct": false,
+       "explanation": "That inverts the ladder.",
+       "misconception": "inversion slip"
+      },
+      {
+       "key": "C",
+       "text": "Solid, gas, liquid",
+       "correct": false,
+       "explanation": "Gas sits above liquid.",
+       "misconception": "ladder slip"
+      },
+      {
+       "key": "D",
+       "text": "Alphabetical by state name",
+       "correct": false,
+       "explanation": "The ladder is physical, not lexical.",
+       "misconception": "nonsense claim"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Raising the temperature of a solid below its melting point",
+     "misconceptionClass": "warming solid",
+     "options": [
+      {
+       "key": "A",
+       "text": "Increases its entropy gradually as particles vibrate more widely",
+       "correct": true,
+       "explanation": "Even before melting, disorder grows with warmth.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Leaves entropy unchanged until melting",
+       "correct": false,
+       "explanation": "Disorder rises continuously with temperature.",
+       "misconception": "false claim"
+      },
+      {
+       "key": "C",
+       "text": "Decreases entropy",
+       "correct": false,
+       "explanation": "Warmth never orders a substance.",
+       "misconception": "inversion slip"
+      },
+      {
+       "key": "D",
+       "text": "Changes its state immediately",
+       "correct": false,
+       "explanation": "Melting waits for the melting point.",
+       "misconception": "false claim"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the entropy direction for melting and for freezing.",
+     "misconceptionClass": "melting recall",
+     "modelAnswer": "Melting increases entropy; freezing decreases it.",
+     "keywords": [
+      "melting",
+      "freezing",
+      "entropy"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State which state change produces the largest entropy increase.",
+     "misconceptionClass": "largest recall",
+     "modelAnswer": "Boiling, the liquid-to-gas change, produces the significant entropy increase.",
+     "keywords": [
+      "boiling",
+      "gas",
+      "produces"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why boiling raises entropy more than melting does.",
+     "misconceptionClass": "boiling why",
+     "modelAnswer": "Melting frees particles to slide within a still-crowded liquid, while boiling removes the crowding entirely: gas particles range freely and far apart, multiplying positional arrangements by far more.",
+     "keywords": [
+      "particles",
+      "gas",
+      "melting"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A reaction turns one mole of solid and one mole of gas into two moles of solid. Predict the entropy sign and justify from the ladder.",
+     "misconceptionClass": "application",
+     "modelAnswer": "The gas is lost and a solid is gained, so the change descends the ladder and the entropy change is negative.",
+     "keywords": [
+      "solid",
+      "gas",
+      "entropy"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Gases made and solids dissolved",
+   "sourceHeadings": [
+    "Production of a gas",
+    "Dissolving a solid"
+   ],
+   "specRefs": [
+    "12.5"
+   ],
+   "opening": "Two everyday changes carry reliable entropy signs. Making a gas from condensed phases raises entropy sharply, as in calcium carbonate's thermal decomposition. Dissolving a solid trades lattice order for aqueous mobility - usually a gain, though the water around each ion loses some freedom, so the balance is not automatic.",
+   "keyPoints": [
+    "Thermal decomposition of calcium carbonate produces carbon dioxide gas, so the system's entropy increases.",
+    "The carbon dioxide molecule is far more disordered than the solid reactant, moving constantly.",
+    "Ethanoic acid with ammonium carbonate also forms a gas while dropping slightly in temperature, an endothermic change whose disorder still rises as solution and gas form.",
+    "Dissolving ammonium nitrate in water is endothermic (delta H = +25.7 kJ mol^-1), with disorder rising as fixed lattice ions become free to move.",
+    "For ionic solids generally, breaking lattice bonds raises disorder while making solvent bonds lowers it, so the sign is not always predictable."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Gas from solid or liquid: entropy up. Dissolving: lattice order lost, some water order gained - usually a net gain, sometimes not.",
+     "analogy": "Letting birds out of a cage fills the room (gas), while making friends with the neighbours (hydration) tidies their corner a little.",
+     "examPointer": "For dissolving, name both effects - lattice breaking and hydration ordering - before predicting."
+    },
+    "medium": {
+     "restatement": "The gas step dominates because a gas multiplies positional options enormously; dissolution mixes a loss of lattice order with a gain in ionic mobility, and the ledger can land either way.",
+     "analogy": "Empting a wardrobe into a wardrobe-sized suitcase: most clothes gain freedom, but some must be folded tight (hydration shells).",
+     "examPointer": "Quote the ammonium nitrate example with its +25.7 kJ mol^-1 when illustrating endothermic dissolution."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "The thermal decomposition of calcium carbonate raises entropy because",
+     "misconceptionClass": "carbonate entropy",
+     "options": [
+      {
+       "key": "A",
+       "text": "A gas, carbon dioxide, is formed from a solid reactant",
+       "correct": true,
+       "explanation": "Gas formation multiplies the arrangements sharply.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The solid melts first",
+       "correct": false,
+       "explanation": "No melting occurs in this decomposition.",
+       "misconception": "false claim"
+      },
+      {
+       "key": "C",
+       "text": "Calcium oxide is a liquid",
+       "correct": false,
+       "explanation": "It is a solid.",
+       "misconception": "fact slip"
+      },
+      {
+       "key": "D",
+       "text": "The reaction is exothermic",
+       "correct": false,
+       "explanation": "The sign of delta H is not the entropy reason.",
+       "misconception": "topic mix"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Dissolving ammonium nitrate in water is endothermic with delta H of",
+     "misconceptionClass": "ammonium nitrate value",
+     "options": [
+      {
+       "key": "A",
+       "text": "+25.7 kJ mol^-1",
+       "correct": true,
+       "explanation": "The dissolution takes in energy.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "-25.7 kJ mol^-1",
+       "correct": false,
+       "explanation": "The minus sign would mean exothermic.",
+       "misconception": "sign slip"
+      },
+      {
+       "key": "C",
+       "text": "+257 kJ mol^-1",
+       "correct": false,
+       "explanation": "A magnitude slip of ten.",
+       "misconception": "magnitude slip"
+      },
+      {
+       "key": "D",
+       "text": "0 kJ mol^-1",
+       "correct": false,
+       "explanation": "The temperature drop proves a nonzero value.",
+       "misconception": "fact slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "When an ionic solid dissolves, the overall entropy change is hard to predict because",
+     "misconceptionClass": "dissolving balance",
+     "options": [
+      {
+       "key": "A",
+       "text": "Lattice bonds breaking raise disorder while solvent bonds forming lower it",
+       "correct": true,
+       "explanation": "Two opposing effects decide the net sign.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Solids have no entropy",
+       "correct": false,
+       "explanation": "Solids have low but real entropy.",
+       "misconception": "false claim"
+      },
+      {
+       "key": "C",
+       "text": "Water is always ordered",
+       "correct": false,
+       "explanation": "Water's order only changes where ions impose it.",
+       "misconception": "overstatement"
+      },
+      {
+       "key": "D",
+       "text": "Ions cannot move in solution",
+       "correct": false,
+       "explanation": "Ions move freely once dissolved.",
+       "misconception": "contradiction"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Ethanoic acid reacting with ammonium carbonate is notable because",
+     "misconceptionClass": "ethanoic case",
+     "options": [
+      {
+       "key": "A",
+       "text": "It is endothermic yet its entropy still rises, since solution and gas form from a solid",
+       "correct": true,
+       "explanation": "Disorder rises even as temperature falls.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It is exothermic and disorder falls",
+       "correct": false,
+       "explanation": "Both claims are inverted.",
+       "misconception": "inversion slip"
+      },
+      {
+       "key": "C",
+       "text": "It produces no gas",
+       "correct": false,
+       "explanation": "Carbon dioxide is produced.",
+       "misconception": "fact slip"
+      },
+      {
+       "key": "D",
+       "text": "It proves entropy never rises endothermically",
+       "correct": false,
+       "explanation": "This case proves the opposite.",
+       "misconception": "contradiction"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A gas molecule carries more disorder than the solid it came from chiefly because",
+     "misconceptionClass": "gas disorder",
+     "options": [
+      {
+       "key": "A",
+       "text": "It moves constantly through space rather than vibrating in a fixed site",
+       "correct": true,
+       "explanation": "Freedom of position is the disorder measure.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It is heavier",
+       "correct": false,
+       "explanation": "Mass is irrelevant to disorder.",
+       "misconception": "irrelevant claim"
+      },
+      {
+       "key": "C",
+       "text": "It is colder",
+       "correct": false,
+       "explanation": "Gases from decomposition are not colder.",
+       "misconception": "fact slip"
+      },
+      {
+       "key": "D",
+       "text": "It is coloured",
+       "correct": false,
+       "explanation": "Colour is irrelevant.",
+       "misconception": "irrelevant claim"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the entropy change when calcium carbonate decomposes thermally.",
+     "misconceptionClass": "carbonate recall",
+     "modelAnswer": "Entropy increases, because gaseous carbon dioxide forms from a solid.",
+     "keywords": [
+      "increases",
+      "gas",
+      "entropy"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the enthalpy change and entropy direction for ammonium nitrate dissolving in water.",
+     "misconceptionClass": "nitrate recall",
+     "modelAnswer": "Delta H = +25.7 kJ mol^-1 (endothermic) and entropy increases as the lattice ions become mobile.",
+     "keywords": [
+      "endothermic",
+      "increases",
+      "entropy"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why gas formation is the strongest entropy signal in an equation.",
+     "misconceptionClass": "gas signal why",
+     "modelAnswer": "Gas particles occupy enormously more positional arrangements than condensed-phase particles, so any change that creates a gas from solids or liquids multiplies the arrangement count by the largest factor ordinary chemistry offers.",
+     "keywords": [
+      "gas",
+      "arrangements",
+      "positional"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "An ionic solid dissolves exothermically. What can be said about the balance of lattice breaking and hydration ordering in this case?",
+     "misconceptionClass": "application",
+     "modelAnswer": "The hydration ordering and energy release outweigh the lattice-breaking term strongly, showing that the solvent-ordering effect can dominate; the entropy change could still be either sign, so both contributions must be weighed.",
+     "keywords": [
+      "hydration",
+      "lattice",
+      "ordering"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Two solids that go cold",
+   "sourceHeadings": [
+    "Endothermic reactions between two solids"
+   ],
+   "specRefs": [
+    "12.5"
+   ],
+   "opening": "Barium hydroxide with ammonium chloride is the lecture-theatre classic: two ordered solids form a paste, the temperature plunges, and ammonia gas escapes. Entropy wins because the products leave the low-entropy solid state for liquid water and gaseous ammonia.",
+   "keyPoints": [
+    "Mixing barium hydroxide with ammonium chloride forms a paste and the temperature drops significantly, marking an endothermic process.",
+    "The reaction forms barium chloride solution, gaseous ammonia and water from two solids.",
+    "The ammonia gas is detected by smell and turns damp red litmus paper blue.",
+    "Two solids alone have very low entropy, so a liquid or gas product raises the entropy strongly.",
+    "The entropy change depends on the physical states of the products, not just on the energy changes."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Two low-entropy solids yield liquid and gas: the temperature drop signals endothermy, while the state jump up the ladder pays for it.",
+     "analogy": "Paying for a house move with the freedom of a bigger city: costly on the day, liberating afterwards.",
+     "examPointer": "The litmus test for ammonia - damp red paper turning blue - is the standard detection line."
+    },
+    "medium": {
+     "restatement": "Solids hoard order; anything that escapes into gas or liquid cashes that order in. The cold paste is enthalpy's bill, and the gas is entropy's receipt.",
+     "analogy": "Breaking a safe open: expensive effort (heat drawn in) rewards you with contents scattered freely (gas).",
+     "examPointer": "Answer template: endothermic yet feasible because delta S is strongly positive."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Mixing barium hydroxide with ammonium chloride, the thermometer shows",
+     "misconceptionClass": "mixture temperature",
+     "options": [
+      {
+       "key": "A",
+       "text": "A significant drop, marking an endothermic process",
+       "correct": true,
+       "explanation": "Heat is taken in from the surroundings.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "A significant rise",
+       "correct": false,
+       "explanation": "That would mark exothermy.",
+       "misconception": "inversion slip"
+      },
+      {
+       "key": "C",
+       "text": "No change",
+       "correct": false,
+       "explanation": "The classic demonstration is dramatic.",
+       "misconception": "false claim"
+      },
+      {
+       "key": "D",
+       "text": "A rise then a fall",
+       "correct": false,
+       "explanation": "No such pattern occurs.",
+       "misconception": "invented pattern"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The gaseous product of the two-solid reaction is detected by",
+     "misconceptionClass": "gas detection",
+     "options": [
+      {
+       "key": "A",
+       "text": "Its smell and by turning damp red litmus paper blue",
+       "correct": true,
+       "explanation": "Both are the standard ammonia tests.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "A glowing splint relighting",
+       "correct": false,
+       "explanation": "That tests oxygen.",
+       "misconception": "test slip"
+      },
+      {
+       "key": "C",
+       "text": "Limewater turning milky",
+       "correct": false,
+       "explanation": "That tests carbon dioxide.",
+       "misconception": "test slip"
+      },
+      {
+       "key": "D",
+       "text": "A popping pop with a lit splint",
+       "correct": false,
+       "explanation": "That tests hydrogen.",
+       "misconception": "test slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The entropy change of the two-solid reaction is positive chiefly because",
+     "misconceptionClass": "solid reaction entropy",
+     "options": [
+      {
+       "key": "A",
+       "text": "Liquid and gas products form from two low-entropy solids",
+       "correct": true,
+       "explanation": "Escaping the solid state multiplies arrangements.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The reaction is exothermic",
+       "correct": false,
+       "explanation": "It is endothermic.",
+       "misconception": "fact slip"
+      },
+      {
+       "key": "C",
+       "text": "Solids have high entropy",
+       "correct": false,
+       "explanation": "Solids have the lowest entropy.",
+       "misconception": "inversion slip"
+      },
+      {
+       "key": "D",
+       "text": "The paste is coloured",
+       "correct": false,
+       "explanation": "Colour is irrelevant.",
+       "misconception": "irrelevant claim"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The lesson of the cold-paste reaction is that feasibility depends on",
+     "misconceptionClass": "feasibility lesson",
+     "options": [
+      {
+       "key": "A",
+       "text": "The physical states of the products as well as the energy change",
+       "correct": true,
+       "explanation": "States set the entropy term.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Enthalpy alone",
+       "correct": false,
+       "explanation": "Enthalpy alone would forbid the reaction.",
+       "misconception": "half truth"
+      },
+      {
+       "key": "C",
+       "text": "Rate alone",
+       "correct": false,
+       "explanation": "Rate is a separate question.",
+       "misconception": "topic mix"
+      },
+      {
+       "key": "D",
+       "text": "The mass of the reactants",
+       "correct": false,
+       "explanation": "Mass does not decide feasibility.",
+       "misconception": "irrelevant claim"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "In the equation for the two-solid reaction, water appears as a product with the state",
+     "misconceptionClass": "water state",
+     "options": [
+      {
+       "key": "A",
+       "text": "Liquid, written H2O (l)",
+       "correct": true,
+       "explanation": "Water forms as liquid in this change.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Gas, written H2O (g)",
+       "correct": false,
+       "explanation": "Steam is not formed here.",
+       "misconception": "state slip"
+      },
+      {
+       "key": "C",
+       "text": "Solid, written H2O (s)",
+       "correct": false,
+       "explanation": "Ice is not formed here.",
+       "misconception": "state slip"
+      },
+      {
+       "key": "D",
+       "text": "Aqueous, written aq",
+       "correct": false,
+       "explanation": "Water is the solvent-forming liquid here.",
+       "misconception": "state slip"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the temperature behaviour when barium hydroxide and ammonium chloride react.",
+     "misconceptionClass": "temperature recall",
+     "modelAnswer": "The temperature drops significantly, so the process is endothermic.",
+     "keywords": [
+      "temperature",
+      "endothermic",
+      "significantly"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "Name the three products of the two-solid reaction.",
+     "misconceptionClass": "products recall",
+     "modelAnswer": "Barium chloride solution, ammonia gas and water.",
+     "keywords": [
+      "ammonia",
+      "water",
+      "solution"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why two reacting solids can produce a large entropy rise.",
+     "misconceptionClass": "solids entropy why",
+     "modelAnswer": "Solids lock particles into fixed, low-arrangement positions; when the products include a gas and a liquid, the particles gain free movement and the arrangement count multiplies enormously, outweighing the solids' lost order.",
+     "keywords": [
+      "solid",
+      "gas",
+      "outweighing"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A student says the cold paste reaction should be impossible because it absorbs energy. Correct the student using entropy.",
+     "misconceptionClass": "application",
+     "modelAnswer": "The reaction is driven by entropy: converting two solids into ammonia gas and liquid multiplies the arrangements so strongly that the total change remains favourable despite the absorbed enthalpy.",
+     "keywords": [
+      "entropy",
+      "favourable",
+      "arrangements"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "state change",
+    "definition": "A melting, boiling, condensing or freezing change, each with a characteristic entropy direction.",
+    "firstLesson": 1
+   },
+   {
+    "term": "lattice",
+    "definition": "The regular arrangement of particles in an ionic or atomic solid, whose order keeps entropy low.",
+    "firstLesson": 1
+   },
+   {
+    "term": "hydration ordering",
+    "definition": "The loss of freedom suffered by water molecules as they arrange around dissolved ions.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": null
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/0795178123c9-5-2-entropy-change-in-entropy-during-a-state-cha.png",
+   "alt": "Diagram showing entropy rising as a substance is warmed and changes state",
+   "sourceHeading": "Changes of State",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "The entropy of a substance increases when the temperature is raised as particles become more disordered"
+  }
+ ]
+}

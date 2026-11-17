@@ -1,0 +1,875 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_N3WJTz2YD2Z3FCVw",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "4: Rates, Equilibria & Further Organic Chemistry",
+  "subtopicTitle": "Entropy - Introduction",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/4-rates-equilibria-and-further-organic-chemistry/4-2-entropy/4-2-1-entropy---introduction"
+ },
+ "specPoints": [
+  {
+   "code": "12.2",
+   "text": "understand entropy as a measure of disorder of a system in terms of the random dispersal of molecules and of energy quanta between molecules"
+  }
+ ],
+ "primer": {
+  "text": "Entropy S counts the number of possible arrangements of particles and energy in a system, so disorder is energetically spread out and favoured. This note counts arrangements for molecules spreading between two gas jars, links the count to entropy through S = k ln W with the Boltzmann constant, and extends the same counting to energy quanta shared among particles.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Why endothermic reactions happen at all",
+   "sourceHeadings": [
+    "Entropy - Introduction"
+   ],
+   "specRefs": [
+    "12.2"
+   ],
+   "opening": "Endothermic reactions push products into a higher-energy state, which enthalpy alone cannot justify. The missing driver is entropy: nature also spreads energy and matter, and a system that spreads them out becomes energetically more stable even while getting hotter on paper.",
+   "keyPoints": [
+    "Enthalpy alone cannot explain why endothermic reactions occur, since their products end in a higher-energy state.",
+    "The answer is entropy, the missing driving force behind chemical reactions.",
+    "Although most everyday reactions are exothermic, the second driver matters wherever disorder spreads."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Enthalpy is only half the story; entropy, the spreading of particles and energy, is the other half, and it alone carries endothermic changes.",
+     "analogy": "A pocket of coins: shaking can cost a little energy but scatter the coins into a tidier-ordered arrangement no one wants to reverse.",
+     "examPointer": "When asked why an endothermic reaction occurs, say 'entropy' before anything else."
+    },
+    "medium": {
+     "restatement": "Two books keep the universe's ledger: energy in and energy spread out; a reaction is driven when either book shows a gain, and endothermic ones live on the spread.",
+     "analogy": "A student who spends pocket money (energy up) but gains freedom (spread out) may still feel better off overall.",
+     "examPointer": "Pair every feasibility answer with both drivers - delta H and delta S."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Enthalpy change alone cannot explain endothermic reactions because",
+     "misconceptionClass": "enthalpy gap",
+     "options": [
+      {
+       "key": "A",
+       "text": "Their products end in a higher-energy, less stable state",
+       "correct": true,
+       "explanation": "A purely enthalpy-driven world would forbid such changes.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Endothermic reactions are always too slow",
+       "correct": false,
+       "explanation": "Speed is a kinetic matter, not the gap here.",
+       "misconception": "topic mix"
+      },
+      {
+       "key": "C",
+       "text": "Enthalpy cannot be measured",
+       "correct": false,
+       "explanation": "Enthalpy is routinely measured.",
+       "misconception": "false claim"
+      },
+      {
+       "key": "D",
+       "text": "Exothermic reactions do not exist",
+       "correct": false,
+       "explanation": "They exist and dominate everyday chemistry.",
+       "misconception": "contradiction"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The driving force that explains endothermic reactions is",
+     "misconceptionClass": "driving force",
+     "options": [
+      {
+       "key": "A",
+       "text": "Entropy",
+       "correct": true,
+       "explanation": "The spread of matter and energy carries these changes.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Activation energy",
+       "correct": false,
+       "explanation": "Activation energy governs rate, not direction.",
+       "misconception": "topic mix"
+      },
+      {
+       "key": "C",
+       "text": "Catalysis",
+       "correct": false,
+       "explanation": "Catalysts change rate, not feasibility.",
+       "misconception": "topic mix"
+      },
+      {
+       "key": "D",
+       "text": "Enthalpy",
+       "correct": false,
+       "explanation": "Enthalpy is precisely what fails here.",
+       "misconception": "contradiction"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A system that becomes more disordered is",
+     "misconceptionClass": "disorder stability",
+     "options": [
+      {
+       "key": "A",
+       "text": "Energetically more stable, because its energy is more spread out",
+       "correct": true,
+       "explanation": "Spreading energy is the favourable move.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Energetically less stable",
+       "correct": false,
+       "explanation": "The opposite is the entropy claim.",
+       "misconception": "inversion slip"
+      },
+      {
+       "key": "C",
+       "text": "Always colder",
+       "correct": false,
+       "explanation": "Disorder is not a temperature statement.",
+       "misconception": "concept slip"
+      },
+      {
+       "key": "D",
+       "text": "Impossible",
+       "correct": false,
+       "explanation": "Disorder increases in ordinary changes like melting.",
+       "misconception": "nonsense claim"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which everyday class of reaction dominates the chemistry we experience?",
+     "misconceptionClass": "reaction census",
+     "options": [
+      {
+       "key": "A",
+       "text": "Exothermic reactions",
+       "correct": true,
+       "explanation": "Most familiar reactions release energy.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Endothermic reactions",
+       "correct": false,
+       "explanation": "They occur but are the minority.",
+       "misconception": "census slip"
+      },
+      {
+       "key": "C",
+       "text": "Reactions with no enthalpy change",
+       "correct": false,
+       "explanation": "No such class exists.",
+       "misconception": "nonsense claim"
+      },
+      {
+       "key": "D",
+       "text": "Only gas-forming reactions",
+       "correct": false,
+       "explanation": "Many reaction classes exist.",
+       "misconception": "false claim"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "A melting ice cube illustrates the entropy driver because",
+     "misconceptionClass": "melting illustration",
+     "options": [
+      {
+       "key": "A",
+       "text": "The ordered lattice becomes mobile liquid, spreading energy and particles more widely",
+       "correct": true,
+       "explanation": "Melting raises disorder without any energy gain to justify it enthalpically.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Water is colder than ice",
+       "correct": false,
+       "explanation": "Melting absorbs energy, going the warmer way.",
+       "misconception": "fact slip"
+      },
+      {
+       "key": "C",
+       "text": "Ice has higher entropy than water",
+       "correct": false,
+       "explanation": "The liquid has the higher entropy.",
+       "misconception": "inversion slip"
+      },
+      {
+       "key": "D",
+       "text": "Melting is exothermic",
+       "correct": false,
+       "explanation": "Melting is endothermic.",
+       "misconception": "fact slip"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the two driving forces that determine whether a reaction occurs.",
+     "misconceptionClass": "drivers recall",
+     "modelAnswer": "Enthalpy change and entropy change.",
+     "keywords": [
+      "enthalpy",
+      "entropy",
+      "determine"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the entropy-related reason a more disordered system is favoured.",
+     "misconceptionClass": "disorder recall",
+     "modelAnswer": "A more disordered system is energetically more stable because its energy is spread out over more arrangements.",
+     "keywords": [
+      "disordered",
+      "stable",
+      "system"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why an endothermic reaction can still occur spontaneously.",
+     "misconceptionClass": "endothermic why",
+     "modelAnswer": "The enthalpy penalty is paid for by a large entropy gain: if the products' matter and energy are spread over far more arrangements, the total change is favourable even though the system climbs the energy ladder.",
+     "keywords": [
+      "entropy",
+      "favourable",
+      "arrangements"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A solid and a liquid react to give a gas, and the flask grows cold. Identify the enthalpy sign and the driving force.",
+     "misconceptionClass": "application",
+     "modelAnswer": "The cooling flask marks an endothermic change, delta H positive; the reaction is driven by the large entropy rise as a gas forms from condensed phases.",
+     "keywords": [
+      "endothermic",
+      "entropy",
+      "flask"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Counting arrangements",
+   "sourceHeadings": [
+    "Chaos in the universe",
+    "Distribution of Molecules"
+   ],
+   "specRefs": [
+    "12.2"
+   ],
+   "opening": "Entropy counts possibilities. Define it as how many arrangements particles and their energy can take, watch five bromine molecules spread between two gas jars, and count the arrangements: 2^5 = 32. More particles, more ways, higher entropy.",
+   "keyPoints": [
+    "The entropy S of a system counts the arrangements possible for its particles and their energy - a measure of disorder.",
+    "Melting a solid illustrates disorder rising: fixed lattice positions give way to mobile, randomly arranged molecules.",
+    "Spread five bromine molecules across two gas jars: every molecule picks between two jars, so W = 2^5 = 32.",
+    "With 100 molecules, W becomes 2^100, so the number of arrangements grows explosively with particle count.",
+    "Entropy links to the count through S = k ln W, with k the Boltzmann constant 1.38 x 10^-23 J K^-1 mol^-1."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Entropy counts arrangements; five molecules across two jars give 2^5 = 32 ways, and S = k ln W converts the count into entropy units.",
+     "analogy": "Ten people each choosing between two doors: the crowd's options multiply person by person, 2 to the power of ten.",
+     "examPointer": "The Boltzmann constant carries the units J K^-1 mol^-1 - quote it with the equation."
+    },
+    "medium": {
+     "restatement": "Each extra particle multiplies the arrangement count again, which is why entropy loves crowded, gaseous, warm systems: more residents, more rooms, more ways to live.",
+     "analogy": "A hotel with two rooms per guest: add guests and the possible guest-books multiply factor by factor.",
+     "examPointer": "Note the direction: spreading out (diffusion, melting) always raises W and S."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Entropy is best described as",
+     "misconceptionClass": "entropy definition",
+     "options": [
+      {
+       "key": "A",
+       "text": "The number of possible arrangements of particles and energy in a system",
+       "correct": true,
+       "explanation": "The definition is a count of ways.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The heat content of a system",
+       "correct": false,
+       "explanation": "Heat content is enthalpy's territory.",
+       "misconception": "concept slip"
+      },
+      {
+       "key": "C",
+       "text": "The speed of a reaction",
+       "correct": false,
+       "explanation": "Speed belongs to kinetics.",
+       "misconception": "topic mix"
+      },
+      {
+       "key": "D",
+       "text": "The energy of activation",
+       "correct": false,
+       "explanation": "Energy terms belong elsewhere.",
+       "misconception": "topic mix"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Five molecules spread between two gas jars can be arranged in",
+     "misconceptionClass": "arrangement count",
+     "options": [
+      {
+       "key": "A",
+       "text": "32 ways, since 2^5 = 32",
+       "correct": true,
+       "explanation": "Each molecule doubles the count.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "10 ways, since 5 x 2",
+       "correct": false,
+       "explanation": "Multiplication of choices compounds exponentially, not linearly.",
+       "misconception": "arithmetic slip"
+      },
+      {
+       "key": "C",
+       "text": "5 ways",
+       "correct": false,
+       "explanation": "Each molecule alone has two options.",
+       "misconception": "arithmetic slip"
+      },
+      {
+       "key": "D",
+       "text": "2 ways",
+       "correct": false,
+       "explanation": "That is one molecule's count.",
+       "misconception": "arithmetic slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Raising the molecule count from 5 to 100 changes W from 32 to 2^100, which shows that",
+     "misconceptionClass": "scaling behaviour",
+     "options": [
+      {
+       "key": "A",
+       "text": "The number of arrangements grows explosively as particles multiply",
+       "correct": true,
+       "explanation": "Exponential growth in particle number is the point.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Arrangements shrink with more particles",
+       "correct": false,
+       "explanation": "More particles mean more choices.",
+       "misconception": "inversion slip"
+      },
+      {
+       "key": "C",
+       "text": "Entropy becomes constant",
+       "correct": false,
+       "explanation": "S grows with W.",
+       "misconception": "contradiction"
+      },
+      {
+       "key": "D",
+       "text": "Only gases have entropy",
+       "correct": false,
+       "explanation": "All systems have entropy.",
+       "misconception": "false claim"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The equation linking entropy to the number of arrangements is",
+     "misconceptionClass": "boltzmann link",
+     "options": [
+      {
+       "key": "A",
+       "text": "S = k ln W, with k the Boltzmann constant",
+       "correct": true,
+       "explanation": "The logarithm tames the explosive count.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "S = k W",
+       "correct": false,
+       "explanation": "A linear form would explode even faster than W.",
+       "misconception": "form slip"
+      },
+      {
+       "key": "C",
+       "text": "S = W/k",
+       "correct": false,
+       "explanation": "The logarithm is essential.",
+       "misconception": "form slip"
+      },
+      {
+       "key": "D",
+       "text": "S = ln W / k",
+       "correct": false,
+       "explanation": "The constant multiplies, not divides.",
+       "misconception": "form slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Once the cover slip separating two gas jars is removed, the molecules spread evenly because",
+     "misconceptionClass": "spreading reason",
+     "options": [
+      {
+       "key": "A",
+       "text": "The evenly spread state corresponds to overwhelmingly more arrangements",
+       "correct": true,
+       "explanation": "Nature samples the many-ways state most often.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The molecules are attracted to glass",
+       "correct": false,
+       "explanation": "Attraction to glass is not the driver.",
+       "misconception": "false cause"
+      },
+      {
+       "key": "C",
+       "text": "The gas becomes lighter",
+       "correct": false,
+       "explanation": "Weight is unchanged.",
+       "misconception": "false cause"
+      },
+      {
+       "key": "D",
+       "text": "Entropy decreases on mixing",
+       "correct": false,
+       "explanation": "Spreading increases entropy.",
+       "misconception": "direction slip"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the value of W for five molecules spread between two gas jars.",
+     "misconceptionClass": "W recall",
+     "modelAnswer": "W = 2^5 = 32 possible arrangements.",
+     "keywords": [
+      "arrangements",
+      "molecules",
+      "possible"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the equation linking entropy to arrangements and the constant's units.",
+     "misconceptionClass": "link recall",
+     "modelAnswer": "S = k ln W, with k = 1.38 x 10^-23 J K^-1 mol^-1.",
+     "keywords": [
+      "equation",
+      "constant",
+      "arrangements"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the number of arrangements grows exponentially with particle count.",
+     "misconceptionClass": "exponential why",
+     "modelAnswer": "Every particle's two choices multiply the whole system's possibilities, so adding a particle doubles the count; N particles therefore give 2^N arrangements, the signature of exponential growth.",
+     "keywords": [
+      "particles",
+      "arrangements",
+      "count"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "Ten molecules can spread between two jars. State W and compare it with the five-molecule case.",
+     "misconceptionClass": "application",
+     "modelAnswer": "W = 2^10 = 1024, thirty-two times the five-molecule count of 32, showing the explosive growth of options with particle number.",
+     "keywords": [
+      "arrangements",
+      "growth",
+      "molecule"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Spreading energy in packets",
+   "sourceHeadings": [
+    "Distribution of energy"
+   ],
+   "specRefs": [
+    "12.2"
+   ],
+   "opening": "Energy spreads like matter does. Heat comes in packets - quanta - and only whole packets can be held, so warming a system hands its particles more quanta to share; the more particles sharing, the more ways to share. Temperature, particle count and entropy rise together.",
+   "keyPoints": [
+    "Spreading heat energy out is itself an increase in entropy.",
+    "Energy exists in packets called quanta, and only whole numbers of quanta are possible.",
+    "More available quanta give more ways to share them out; more particles likewise give more ways of sharing.",
+    "Raising temperature increases the quanta to distribute, so entropy rises with temperature."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Quanta are indivisible energy packets; more quanta and more particles mean more ways to share, so heating raises entropy.",
+     "analogy": "Sharing sweets among children: more sweets or more children multiply the possible hand-outs.",
+     "examPointer": "Tie temperature to quanta supply - hotter means more packets to distribute."
+    },
+    "medium": {
+     "restatement": "Entropy counts arrangements of energy exactly as it counts arrangements of matter; a warmer system simply has more energy coins to arrange.",
+     "analogy": "A bigger pile of coins in more pockets: the number of honest ways to distribute them explodes.",
+     "examPointer": "Expect exam links: heating, more particles and state changes all raise entropy by this route."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "A quantum of energy is",
+     "misconceptionClass": "quantum definition",
+     "options": [
+      {
+       "key": "A",
+       "text": "A packet of energy, with only whole numbers possible",
+       "correct": true,
+       "explanation": "Energy is delivered in indivisible units.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "A particle of matter",
+       "correct": false,
+       "explanation": "Quanta are energy, not matter.",
+       "misconception": "concept slip"
+      },
+      {
+       "key": "C",
+       "text": "Any continuous amount of energy",
+       "correct": false,
+       "explanation": "The whole-number rule forbids continuity.",
+       "misconception": "contradiction"
+      },
+      {
+       "key": "D",
+       "text": "A unit of concentration",
+       "correct": false,
+       "explanation": "Concentration is unrelated.",
+       "misconception": "topic mix"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Raising a system's temperature increases its entropy because",
+     "misconceptionClass": "temperature entropy",
+     "options": [
+      {
+       "key": "A",
+       "text": "More energy quanta become available to distribute among the particles",
+       "correct": true,
+       "explanation": "More packets mean more sharing arrangements.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Particles disappear at high temperature",
+       "correct": false,
+       "explanation": "Particle count does not fall.",
+       "misconception": "false cause"
+      },
+      {
+       "key": "C",
+       "text": "Quanta shrink in size",
+       "correct": false,
+       "explanation": "Quantum size is not the mechanism.",
+       "misconception": "invented cause"
+      },
+      {
+       "key": "D",
+       "text": "The system becomes more ordered",
+       "correct": false,
+       "explanation": "Heating increases disorder.",
+       "misconception": "inversion slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The number of ways of sharing quanta increases when",
+     "misconceptionClass": "sharing ways",
+     "options": [
+      {
+       "key": "A",
+       "text": "Either the number of quanta or the number of particles rises",
+       "correct": true,
+       "explanation": "Both multiplicands enlarge the count of distributions.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Quanta are removed",
+       "correct": false,
+       "explanation": "Removing packets shrinks the options.",
+       "misconception": "inversion slip"
+      },
+      {
+       "key": "C",
+       "text": "Particles freeze in place",
+       "correct": false,
+       "explanation": "Freezing restricts arrangements.",
+       "misconception": "inversion slip"
+      },
+      {
+       "key": "D",
+       "text": "The system loses energy",
+       "correct": false,
+       "explanation": "Losing energy removes quanta.",
+       "misconception": "inversion slip"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Diffusion of bromine vapour and the warming of a solid are alike because both",
+     "misconceptionClass": "analogy logic",
+     "options": [
+      {
+       "key": "A",
+       "text": "Increase entropy by spreading something over more arrangements",
+       "correct": true,
+       "explanation": "Matter spreads in one case, energy in the other.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Decrease entropy",
+       "correct": false,
+       "explanation": "Both spread, so both raise it.",
+       "misconception": "direction slip"
+      },
+      {
+       "key": "C",
+       "text": "Release energy",
+       "correct": false,
+       "explanation": "Warming absorbs energy; diffusion needs no release.",
+       "misconception": "fact slip"
+      },
+      {
+       "key": "D",
+       "text": "Require catalysts",
+       "correct": false,
+       "explanation": "Neither involves catalysis.",
+       "misconception": "irrelevant claim"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The flow chart showing temperature's effect on entropy runs",
+     "misconceptionClass": "flow direction",
+     "options": [
+      {
+       "key": "A",
+       "text": "Higher temperature, more quanta, more arrangements, higher entropy",
+       "correct": true,
+       "explanation": "The chain runs upward through sharing options.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Higher temperature, fewer quanta, lower entropy",
+       "correct": false,
+       "explanation": "Heating supplies more packets.",
+       "misconception": "direction slip"
+      },
+      {
+       "key": "C",
+       "text": "Higher temperature, no change in entropy",
+       "correct": false,
+       "explanation": "Entropy rises with temperature.",
+       "misconception": "contradiction"
+      },
+      {
+       "key": "D",
+       "text": "Higher temperature, more order",
+       "correct": false,
+       "explanation": "Order falls as sharing options grow.",
+       "misconception": "inversion slip"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State what quanta are and the whole-number rule.",
+     "misconceptionClass": "quanta recall",
+     "modelAnswer": "Quanta are packets of energy, and only whole numbers of them can be held or transferred.",
+     "keywords": [
+      "energy",
+      "packets",
+      "quanta"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the effect of raising temperature on the number of energy arrangements.",
+     "misconceptionClass": "temperature recall",
+     "modelAnswer": "It increases the number of quanta to share, raising the number of arrangements and hence the entropy.",
+     "keywords": [
+      "temperature",
+      "arrangements",
+      "raising"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why only whole numbers of quanta make energy distribution countable.",
+     "misconceptionClass": "whole quanta why",
+     "modelAnswer": "If energy came in continuous amounts, infinitely many distributions would exist and counting arrangements would be meaningless; the whole-number rule keeps the count finite, which is what makes entropy a combinatorial quantity.",
+     "keywords": [
+      "quanta",
+      "count",
+      "energy"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A crystal is warmed from 300 K to 600 K. Describe the change in its energy arrangements.",
+     "misconceptionClass": "application",
+     "modelAnswer": "The crystal's particles hold more quanta at 600 K, so the number of ways of distributing that energy among them rises steeply, and the crystal's entropy increases accordingly.",
+     "keywords": [
+      "quanta",
+      "entropy",
+      "crystal"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "entropy",
+    "definition": "The number of possible arrangements of particles and energy in a system, a measure of disorder.",
+    "firstLesson": 1
+   },
+   {
+    "term": "Boltzmann constant",
+    "definition": "The constant k in S = k ln W, equal to 1.38 x 10^-23 J K^-1 mol^-1.",
+    "firstLesson": 2
+   },
+   {
+    "term": "quantum",
+    "definition": "An indivisible packet of energy; only whole numbers of quanta can be held.",
+    "firstLesson": 3
+   }
+  ],
+  "workedExample": {
+   "prompt": "Five molecules of orange bromine gas spread between two joined gas jars. Calculate the number of arrangements W, and the entropy contribution per system using S = k ln W with k = 1.38 x 10^-23 J K^-1 mol^-1.",
+   "steps": [
+    "Every molecule can pick either jar, so W = 2^5, five factors of two, which comes to 32.",
+    "Evaluate the power: 2^5 = 32.",
+    "Take the natural log: ln 32 = 3.466.",
+    "Multiply by the Boltzmann constant: 1.38 x 10^-23 x 3.466 = 4.78 x 10^-23 J K^-1."
+   ],
+   "finalAnswer": "W = 32 arrangements, giving S = 4.78 x 10^-23 J K^-1 for the system."
+  }
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/8935a057c766-cf41b612-4694-4cc7-be38-011079e5139c.webp",
+   "alt": "Endothermic energy profile",
+   "sourceHeading": "Entropy - Introduction",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "The driving force behind chemical reactions cannot be explained by enthalpy changes alone as it makes not sense for chemical to end up in a less stable higher energy state in endothermic reactions"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/363d6ac261cc-5-1-6-entropy-change.png",
+   "alt": "Entropy change, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Chaos in the universe",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "Melting a solid will cause the particles to become more disordered resulting in a higher entropy state"
+  },
+  {
+   "id": "fig-03",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/95bb38969ab2-dc87d202-9a39-4059-8882-9632afbda1e4.jpeg",
+   "alt": "dc87d202-9a39-4059-8882-9632afbda1e4",
+   "sourceHeading": "Distribution of Molecules",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "The first two gas jars are separated by a glass cover slip, the second two gas jars are not separated allowing molecules to spread evenly between the two"
+  },
+  {
+   "id": "fig-04",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/c5808aeec833-0c41d6d7-2b30-4e0f-a5fb-134faf3b1f84.jpeg",
+   "alt": "0c41d6d7-2b30-4e0f-a5fb-134faf3b1f84",
+   "sourceHeading": "Distribution of energy",
+   "moduleIds": [
+    "L3"
+   ],
+   "binding": "heading-unique",
+   "caption": "Flow chart to show the effect of increasing temperature on entropy"
+  }
+ ]
+}
