@@ -1,0 +1,2778 @@
+curriculum_code: CIE_IGCSE_ICT_2023_2025
+qualification: cie-igcse-ict-2023-2025 (Issue 2)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: 595352-2023-2025-syllabus.pdf
+  role: official-pdf-direct-parse
+  sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/wf6_emit_cie_graph.py (from parsed/cie-*/spec_points.json)
+generated: '2026-11-17'
+counts:
+  spec_points: 95
+  topics: 21
+  subsections: 52
+  practicals: 0
+specification_points:
+- code: CIE_IGCSE_ICT_2023_2025:1.1.1
+  official_code: 1.1.1
+  official_wording: Hardware
+  section: CIE_IGCSE_ICT_2023_2025-T1
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB1
+  unit_code: null
+  unit: null
+  ordering: 1
+  global_order: 1
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: hardware
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 11
+    pdf_oy: 349.0
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:1.1.2
+  official_code: 1.1.2
+  official_wording: Software
+  section: CIE_IGCSE_ICT_2023_2025-T1
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB1
+  unit_code: null
+  unit: null
+  ordering: 2
+  global_order: 2
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: software
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 11
+    pdf_oy: 483.6
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:1.1.3
+  official_code: 1.1.3
+  official_wording: Analogue and digital data
+  section: CIE_IGCSE_ICT_2023_2025-T1
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB1
+  unit_code: null
+  unit: null
+  ordering: 3
+  global_order: 3
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: analogue
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 11
+    pdf_oy: 673.1
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:1.2.1
+  official_code: 1.2.1
+  official_wording: Central Processing Unit (CPU)
+  section: CIE_IGCSE_ICT_2023_2025-T1
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB2
+  unit_code: null
+  unit: null
+  ordering: 4
+  global_order: 4
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: central
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 12
+    pdf_oy: 136.7
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:1.2.2
+  official_code: 1.2.2
+  official_wording: Internal memory
+  section: CIE_IGCSE_ICT_2023_2025-T1
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB2
+  unit_code: null
+  unit: null
+  ordering: 5
+  global_order: 5
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: internal
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 12
+    pdf_oy: 184.8
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:1.2.3
+  official_code: 1.2.3
+  official_wording: Input and output devices
+  section: CIE_IGCSE_ICT_2023_2025-T1
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB2
+  unit_code: null
+  unit: null
+  ordering: 6
+  global_order: 6
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: input
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 12
+    pdf_oy: 222.8
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:1.2.4
+  official_code: 1.2.4
+  official_wording: Backing storage
+  section: CIE_IGCSE_ICT_2023_2025-T1
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB2
+  unit_code: null
+  unit: null
+  ordering: 7
+  global_order: 7
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: backing
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 12
+    pdf_oy: 260.8
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:1.3.1
+  official_code: 1.3.1
+  official_wording: Operating systems
+  section: CIE_IGCSE_ICT_2023_2025-T1
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB3
+  unit_code: null
+  unit: null
+  ordering: 8
+  global_order: 8
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: operating
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 12
+    pdf_oy: 372.3
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:1.4.1
+  official_code: 1.4.1
+  official_wording: Desktop computer
+  section: CIE_IGCSE_ICT_2023_2025-T1
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB4
+  unit_code: null
+  unit: null
+  ordering: 9
+  global_order: 9
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: desktop
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 12
+    pdf_oy: 538.7
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:1.4.2
+  official_code: 1.4.2
+  official_wording: Mobile computers
+  section: CIE_IGCSE_ICT_2023_2025-T1
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB4
+  unit_code: null
+  unit: null
+  ordering: 10
+  global_order: 10
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: mobile
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 12
+    pdf_oy: 602.6
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:1.5.1
+  official_code: 1.5.1
+  official_wording: Impact of emerging technologies
+  section: CIE_IGCSE_ICT_2023_2025-T1
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB5
+  unit_code: null
+  unit: null
+  ordering: 11
+  global_order: 11
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: impact
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 13
+    pdf_oy: 136.7
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:2.1.1
+  official_code: 2.1.1
+  official_wording: Input devices
+  section: CIE_IGCSE_ICT_2023_2025-T2
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB6
+  unit_code: null
+  unit: null
+  ordering: 12
+  global_order: 12
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: input
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 13
+    pdf_oy: 268.6
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:2.2.1
+  official_code: 2.2.1
+  official_wording: Direct data entry
+  section: CIE_IGCSE_ICT_2023_2025-T2
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB7
+  unit_code: null
+  unit: null
+  ordering: 13
+  global_order: 13
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: direct
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 13
+    pdf_oy: 403.3
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:2.3.1
+  official_code: 2.3.1
+  official_wording: Output devices
+  section: CIE_IGCSE_ICT_2023_2025-T2
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB8
+  unit_code: null
+  unit: null
+  ordering: 14
+  global_order: 14
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: output
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 13
+    pdf_oy: 564.0
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:4.1.1
+  official_code: 4.1.1
+  official_wording: Router
+  section: CIE_IGCSE_ICT_2023_2025-T4
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB9
+  unit_code: null
+  unit: null
+  ordering: 15
+  global_order: 15
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: router
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 14
+    pdf_oy: 464.9
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:4.1.2
+  official_code: 4.1.2
+  official_wording: Common network devices wi-fi and Bluetooth
+  section: CIE_IGCSE_ICT_2023_2025-T4
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB9
+  unit_code: null
+  unit: null
+  ordering: 16
+  global_order: 16
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: common
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 14
+    pdf_oy: 537.4
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:4.1.3
+  official_code: 4.1.3
+  official_wording: Cloud computing
+  section: CIE_IGCSE_ICT_2023_2025-T4
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB9
+  unit_code: null
+  unit: null
+  ordering: 17
+  global_order: 17
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: cloud
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 14
+    pdf_oy: 686.9
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:4.1.1-dup2
+  official_code: 4.1.1
+  official_wording: Common network environments
+  section: CIE_IGCSE_ICT_2023_2025-T4
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB9
+  unit_code: null
+  unit: null
+  ordering: 18
+  global_order: 18
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: common
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 15
+    pdf_oy: 136.7
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:4.1.2-dup2
+  official_code: 4.1.2
+  official_wording: Network types
+  section: CIE_IGCSE_ICT_2023_2025-T4
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB9
+  unit_code: null
+  unit: null
+  ordering: 19
+  global_order: 19
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: network
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 15
+    pdf_oy: 200.7
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:4.2.1
+  official_code: 4.2.1
+  official_wording: Security issues regarding data transfer
+  section: CIE_IGCSE_ICT_2023_2025-T4
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB10
+  unit_code: null
+  unit: null
+  ordering: 20
+  global_order: 20
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: security
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 15
+    pdf_oy: 309.3
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:4.2.2
+  official_code: 4.2.2
+  official_wording: Passwords
+  section: CIE_IGCSE_ICT_2023_2025-T4
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB10
+  unit_code: null
+  unit: null
+  ordering: 21
+  global_order: 21
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: passwords
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 15
+    pdf_oy: 331.5
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:4.2.3
+  official_code: 4.2.3
+  official_wording: Other authentication methods
+  section: CIE_IGCSE_ICT_2023_2025-T4
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB10
+  unit_code: null
+  unit: null
+  ordering: 22
+  global_order: 22
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: other
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 15
+    pdf_oy: 382.5
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:4.2.4
+  official_code: 4.2.4
+  official_wording: Anti-malware software
+  section: CIE_IGCSE_ICT_2023_2025-T4
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB10
+  unit_code: null
+  unit: null
+  ordering: 23
+  global_order: 23
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: anti-malware
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 15
+    pdf_oy: 430.6
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:4.2.5
+  official_code: 4.2.5
+  official_wording: Electronic conferencing
+  section: CIE_IGCSE_ICT_2023_2025-T4
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB10
+  unit_code: null
+  unit: null
+  ordering: 24
+  global_order: 24
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: electronic
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 15
+    pdf_oy: 526.3
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:5.1.1
+  official_code: 5.1.1
+  official_wording: The effects of using microprocessor-controlled devices
+  section: CIE_IGCSE_ICT_2023_2025-T5
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB11
+  unit_code: null
+  unit: null
+  ordering: 25
+  global_order: 25
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: the
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 16
+    pdf_oy: 160.0
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:5.2.1
+  official_code: 5.2.1
+  official_wording: Health issues
+  section: CIE_IGCSE_ICT_2023_2025-T5
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB12
+  unit_code: null
+  unit: null
+  ordering: 26
+  global_order: 26
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: health
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 16
+    pdf_oy: 349.5
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:6.1.1
+  official_code: 6.1.1
+  official_wording: Communication media
+  section: CIE_IGCSE_ICT_2023_2025-T6
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB13
+  unit_code: null
+  unit: null
+  ordering: 27
+  global_order: 27
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: communication
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 16
+    pdf_oy: 497.3
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:6.1.2
+  official_code: 6.1.2
+  official_wording: Mobile communication
+  section: CIE_IGCSE_ICT_2023_2025-T6
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB13
+  unit_code: null
+  unit: null
+  ordering: 28
+  global_order: 28
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: mobile
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 16
+    pdf_oy: 545.4
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:6.2.1
+  official_code: 6.2.1
+  official_wording: Computer modelling
+  section: CIE_IGCSE_ICT_2023_2025-T6
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB14
+  unit_code: null
+  unit: null
+  ordering: 29
+  global_order: 29
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: computer
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 16
+    pdf_oy: 667.1
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:6.3.1
+  official_code: 6.3.1
+  official_wording: Computer controlled systems
+  section: CIE_IGCSE_ICT_2023_2025-T6
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB15
+  unit_code: null
+  unit: null
+  ordering: 30
+  global_order: 30
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: computer
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 17
+    pdf_oy: 136.7
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:6.4.1
+  official_code: 6.4.1
+  official_wording: School management systems
+  section: CIE_IGCSE_ICT_2023_2025-T6
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB16
+  unit_code: null
+  unit: null
+  ordering: 31
+  global_order: 31
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: school
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 17
+    pdf_oy: 261.2
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:6.5.1
+  official_code: 6.5.1
+  official_wording: Online booking systems
+  section: CIE_IGCSE_ICT_2023_2025-T6
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB17
+  unit_code: null
+  unit: null
+  ordering: 32
+  global_order: 32
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: online
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 17
+    pdf_oy: 385.7
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:6.6.1
+  official_code: 6.6.1
+  official_wording: Banking applications
+  section: CIE_IGCSE_ICT_2023_2025-T6
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB18
+  unit_code: null
+  unit: null
+  ordering: 33
+  global_order: 33
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: banking
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 17
+    pdf_oy: 494.4
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:6.7.1
+  official_code: 6.7.1
+  official_wording: Information systems in medicine 3D printers
+  section: CIE_IGCSE_ICT_2023_2025-T6
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB19
+  unit_code: null
+  unit: null
+  ordering: 34
+  global_order: 34
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: information
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 17
+    pdf_oy: 670.9
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:6.8.1
+  official_code: 6.8.1
+  official_wording: Expert systems
+  section: CIE_IGCSE_ICT_2023_2025-T6
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB20
+  unit_code: null
+  unit: null
+  ordering: 35
+  global_order: 35
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: expert
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 18
+    pdf_oy: 136.7
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:6.9.1
+  official_code: 6.9.1
+  official_wording: Computers in the retail industry
+  section: CIE_IGCSE_ICT_2023_2025-T6
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB21
+  unit_code: null
+  unit: null
+  ordering: 36
+  global_order: 36
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: computers
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 18
+    pdf_oy: 342.0
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:6.9.2
+  official_code: 6.9.2
+  official_wording: Internet shopping
+  section: CIE_IGCSE_ICT_2023_2025-T6
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB21
+  unit_code: null
+  unit: null
+  ordering: 37
+  global_order: 37
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: internet
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 18
+    pdf_oy: 525.8
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:6.10.1
+  official_code: 6.10.1
+  official_wording: Recognition systems
+  section: CIE_IGCSE_ICT_2023_2025-T6
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB22
+  unit_code: null
+  unit: null
+  ordering: 38
+  global_order: 38
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: recognition
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 18
+    pdf_oy: 621.5
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:6.11.1
+  official_code: 6.11.1
+  official_wording: Satellite systems
+  section: CIE_IGCSE_ICT_2023_2025-T6
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB23
+  unit_code: null
+  unit: null
+  ordering: 39
+  global_order: 39
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: satellite
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 19
+    pdf_oy: 136.7
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:7.1.1
+  official_code: 7.1.1
+  official_wording: Analysis of the current system
+  section: CIE_IGCSE_ICT_2023_2025-T7
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB24
+  unit_code: null
+  unit: null
+  ordering: 40
+  global_order: 40
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: analysis
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 19
+    pdf_oy: 294.6
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:7.1.2
+  official_code: 7.1.2
+  official_wording: Record and analyse information about the current system
+  section: CIE_IGCSE_ICT_2023_2025-T7
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB24
+  unit_code: null
+  unit: null
+  ordering: 41
+  global_order: 41
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: record
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 19
+    pdf_oy: 355.8
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:7.1.3
+  official_code: 7.1.3
+  official_wording: System specification
+  section: CIE_IGCSE_ICT_2023_2025-T7
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB24
+  unit_code: null
+  unit: null
+  ordering: 42
+  global_order: 42
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: system
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 19
+    pdf_oy: 416.9
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:7.2.1
+  official_code: 7.2.1
+  official_wording: Design
+  section: CIE_IGCSE_ICT_2023_2025-T7
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB25
+  unit_code: null
+  unit: null
+  ordering: 43
+  global_order: 43
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: design
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 19
+    pdf_oy: 512.6
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:7.3.1
+  official_code: 7.3.1
+  official_wording: Testing
+  section: CIE_IGCSE_ICT_2023_2025-T7
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB26
+  unit_code: null
+  unit: null
+  ordering: 44
+  global_order: 44
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: testing
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 20
+    pdf_oy: 136.7
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:7.4.1
+  official_code: 7.4.1
+  official_wording: System implementation
+  section: CIE_IGCSE_ICT_2023_2025-T7
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB27
+  unit_code: null
+  unit: null
+  ordering: 45
+  global_order: 45
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: system
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 20
+    pdf_oy: 376.5
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:7.5.1
+  official_code: 7.5.1
+  official_wording: Documentation
+  section: CIE_IGCSE_ICT_2023_2025-T7
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB28
+  unit_code: null
+  unit: null
+  ordering: 46
+  global_order: 46
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: documentation
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 20
+    pdf_oy: 498.2
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:7.6.1
+  official_code: 7.6.1
+  official_wording: Evaluate a solution
+  section: CIE_IGCSE_ICT_2023_2025-T7
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB29
+  unit_code: null
+  unit: null
+  ordering: 47
+  global_order: 47
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: evaluate
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 21
+    pdf_oy: 136.7
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:8.1.1
+  official_code: 8.1.1
+  official_wording: Safety issues
+  section: CIE_IGCSE_ICT_2023_2025-T8
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB30
+  unit_code: null
+  unit: null
+  ordering: 48
+  global_order: 48
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: safety
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 21
+    pdf_oy: 323.5
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:8.2.1
+  official_code: 8.2.1
+  official_wording: Data protection
+  section: CIE_IGCSE_ICT_2023_2025-T8
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB31
+  unit_code: null
+  unit: null
+  ordering: 49
+  global_order: 49
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: data
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 21
+    pdf_oy: 487.0
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:8.2.2
+  official_code: 8.2.2
+  official_wording: Personal data eSafety
+  section: CIE_IGCSE_ICT_2023_2025-T8
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB31
+  unit_code: null
+  unit: null
+  ordering: 50
+  global_order: 50
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: personal
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 21
+    pdf_oy: 522.1
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:8.2.1-dup2
+  official_code: 8.2.1
+  official_wording: eSafety continued
+  section: CIE_IGCSE_ICT_2023_2025-T8
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB31
+  unit_code: null
+  unit: null
+  ordering: 51
+  global_order: 51
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: esafety
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 22
+    pdf_oy: 136.7
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:8.3.1
+  official_code: 8.3.1
+  official_wording: Threats to data
+  section: CIE_IGCSE_ICT_2023_2025-T8
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB32
+  unit_code: null
+  unit: null
+  ordering: 52
+  global_order: 52
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: threats
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 22
+    pdf_oy: 326.2
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:8.3.2
+  official_code: 8.3.2
+  official_wording: Protection of data
+  section: CIE_IGCSE_ICT_2023_2025-T8
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB32
+  unit_code: null
+  unit: null
+  ordering: 53
+  global_order: 53
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: protection
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 22
+    pdf_oy: 502.7
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:9.1.1
+  official_code: 9.1.1
+  official_wording: Audience appreciation
+  section: CIE_IGCSE_ICT_2023_2025-T9
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB33
+  unit_code: null
+  unit: null
+  ordering: 54
+  global_order: 54
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: audience
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 23
+    pdf_oy: 160.0
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:9.2.1
+  official_code: 9.2.1
+  official_wording: Copyright
+  section: CIE_IGCSE_ICT_2023_2025-T9
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB34
+  unit_code: null
+  unit: null
+  ordering: 55
+  global_order: 55
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: copyright
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 23
+    pdf_oy: 300.3
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:10.1.1
+  official_code: 10.1.1
+  official_wording: email
+  section: CIE_IGCSE_ICT_2023_2025-T10
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB35
+  unit_code: null
+  unit: null
+  ordering: 56
+  global_order: 56
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: email
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 23
+    pdf_oy: 461.1
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:10.2.1
+  official_code: 10.2.1
+  official_wording: The internet
+  section: CIE_IGCSE_ICT_2023_2025-T10
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB36
+  unit_code: null
+  unit: null
+  ordering: 57
+  global_order: 57
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: the
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 24
+    pdf_oy: 136.7
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:11.1.1
+  official_code: 11.1.1
+  official_wording: Manage files
+  section: CIE_IGCSE_ICT_2023_2025-T11
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB37
+  unit_code: null
+  unit: null
+  ordering: 58
+  global_order: 58
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: manage
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 24
+    pdf_oy: 516.8
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:11.1.2
+  official_code: 11.1.2
+  official_wording: File formats
+  section: CIE_IGCSE_ICT_2023_2025-T11
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB37
+  unit_code: null
+  unit: null
+  ordering: 59
+  global_order: 59
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: file
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 24
+    pdf_oy: 740.8
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:11.2.1
+  official_code: 11.2.1
+  official_wording: Compress files
+  section: CIE_IGCSE_ICT_2023_2025-T11
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB38
+  unit_code: null
+  unit: null
+  ordering: 60
+  global_order: 60
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: compress
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 25
+    pdf_oy: 136.7
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:11.2.2
+  official_code: 11.2.2
+  official_wording: File compression
+  section: CIE_IGCSE_ICT_2023_2025-T11
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB38
+  unit_code: null
+  unit: null
+  ordering: 61
+  global_order: 61
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: file
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 25
+    pdf_oy: 187.7
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:13.1.1
+  official_code: 13.1.1
+  official_wording: Create a new document, or edit an existing document
+  section: CIE_IGCSE_ICT_2023_2025-T13
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB39
+  unit_code: null
+  unit: null
+  ordering: 62
+  global_order: 62
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: create
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 25
+    pdf_oy: 596.9
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:13.2.1
+  official_code: 13.2.1
+  official_wording: Work with tables within documents
+  section: CIE_IGCSE_ICT_2023_2025-T13
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB40
+  unit_code: null
+  unit: null
+  ordering: 63
+  global_order: 63
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: work
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 26
+    pdf_oy: 136.7
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:13.3.1
+  official_code: 13.3.1
+  official_wording: Use headers and footers appropriately within a range of software packages
+  section: CIE_IGCSE_ICT_2023_2025-T13
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB41
+  unit_code: null
+  unit: null
+  ordering: 64
+  global_order: 64
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: use
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 26
+    pdf_oy: 370.8
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:13.3.2
+  official_code: 13.3.2
+  official_wording: The purpose of headers and footers
+  section: CIE_IGCSE_ICT_2023_2025-T13
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB41
+  unit_code: null
+  unit: null
+  ordering: 65
+  global_order: 65
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: the
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 26
+    pdf_oy: 492.5
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:15.1.1
+  official_code: 15.1.1
+  official_wording: Reduce errors
+  section: CIE_IGCSE_ICT_2023_2025-T15
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB42
+  unit_code: null
+  unit: null
+  ordering: 66
+  global_order: 66
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: reduce
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 27
+    pdf_oy: 160.0
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:15.1.2
+  official_code: 15.1.2
+  official_wording: Spell check software
+  section: CIE_IGCSE_ICT_2023_2025-T15
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB42
+  unit_code: null
+  unit: null
+  ordering: 67
+  global_order: 67
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: spell
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 27
+    pdf_oy: 239.8
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:15.1.3
+  official_code: 15.1.3
+  official_wording: Validation checks
+  section: CIE_IGCSE_ICT_2023_2025-T15
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB42
+  unit_code: null
+  unit: null
+  ordering: 68
+  global_order: 68
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: validation
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 27
+    pdf_oy: 274.9
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:15.2.1
+  official_code: 15.2.1
+  official_wording: Perform visual verification
+  section: CIE_IGCSE_ICT_2023_2025-T15
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB43
+  unit_code: null
+  unit: null
+  ordering: 69
+  global_order: 69
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: perform
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 27
+    pdf_oy: 396.6
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:15.2.2
+  official_code: 15.2.2
+  official_wording: Proofread
+  section: CIE_IGCSE_ICT_2023_2025-T15
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB43
+  unit_code: null
+  unit: null
+  ordering: 70
+  global_order: 70
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: proofread
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 27
+    pdf_oy: 444.8
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:15.2.3
+  official_code: 15.2.3
+  official_wording: Verification
+  section: CIE_IGCSE_ICT_2023_2025-T15
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB43
+  unit_code: null
+  unit: null
+  ordering: 71
+  global_order: 71
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: verification
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 27
+    pdf_oy: 534.8
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:18.1.1
+  official_code: 18.1.1
+  official_wording: Create an appropriate database structure
+  section: CIE_IGCSE_ICT_2023_2025-T18
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB44
+  unit_code: null
+  unit: null
+  ordering: 72
+  global_order: 72
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: create
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 29
+    pdf_oy: 160.0
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:18.1.2
+  official_code: 18.1.2
+  official_wording: Create and use a data entry form
+  section: CIE_IGCSE_ICT_2023_2025-T18
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB44
+  unit_code: null
+  unit: null
+  ordering: 73
+  global_order: 73
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: create
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 29
+    pdf_oy: 342.1
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:18.1.3
+  official_code: 18.1.3
+  official_wording: Types of database
+  section: CIE_IGCSE_ICT_2023_2025-T18
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB44
+  unit_code: null
+  unit: null
+  ordering: 74
+  global_order: 74
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: types
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 29
+    pdf_oy: 432.1
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:18.1.4
+  official_code: 18.1.4
+  official_wording: Primary and foreign keys
+  section: CIE_IGCSE_ICT_2023_2025-T18
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB44
+  unit_code: null
+  unit: null
+  ordering: 75
+  global_order: 75
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: primary
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 29
+    pdf_oy: 467.3
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:18.1.5
+  official_code: 18.1.5
+  official_wording: Form design
+  section: CIE_IGCSE_ICT_2023_2025-T18
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB44
+  unit_code: null
+  unit: null
+  ordering: 76
+  global_order: 76
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: form
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 29
+    pdf_oy: 489.8
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:18.2.1
+  official_code: 18.2.1
+  official_wording: Perform calculations
+  section: CIE_IGCSE_ICT_2023_2025-T18
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB45
+  unit_code: null
+  unit: null
+  ordering: 77
+  global_order: 77
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: perform
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 29
+    pdf_oy: 572.9
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:18.2.2
+  official_code: 18.2.2
+  official_wording: Sort data
+  section: CIE_IGCSE_ICT_2023_2025-T18
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB45
+  unit_code: null
+  unit: null
+  ordering: 78
+  global_order: 78
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: sort
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 29
+    pdf_oy: 675.8
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:18.2.3
+  official_code: 18.2.3
+  official_wording: Search and select data
+  section: CIE_IGCSE_ICT_2023_2025-T18
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB45
+  unit_code: null
+  unit: null
+  ordering: 79
+  global_order: 79
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: search
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 29
+    pdf_oy: 711.0
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:18.3.1
+  official_code: 18.3.1
+  official_wording: Display data
+  section: CIE_IGCSE_ICT_2023_2025-T18
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB46
+  unit_code: null
+  unit: null
+  ordering: 80
+  global_order: 80
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: display
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 30
+    pdf_oy: 136.7
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:18.2.1-dup2
+  official_code: 18.2.1
+  official_wording: Output the presentation
+  section: CIE_IGCSE_ICT_2023_2025-T19
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB45
+  unit_code: null
+  unit: null
+  ordering: 81
+  global_order: 81
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: output
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 31
+    pdf_oy: 137.8
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:20.1.1
+  official_code: 20.1.1
+  official_wording: Create and edit a spreadsheet model
+  section: CIE_IGCSE_ICT_2023_2025-T20
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB47
+  unit_code: null
+  unit: null
+  ordering: 82
+  global_order: 82
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: create
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 31
+    pdf_oy: 298.6
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:20.1.2
+  official_code: 20.1.2
+  official_wording: Formulae and functions
+  section: CIE_IGCSE_ICT_2023_2025-T20
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB47
+  unit_code: null
+  unit: null
+  ordering: 83
+  global_order: 83
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: formulae
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 31
+    pdf_oy: 512.4
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:20.1.3
+  official_code: 20.1.3
+  official_wording: Order of operations
+  section: CIE_IGCSE_ICT_2023_2025-T20
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB47
+  unit_code: null
+  unit: null
+  ordering: 84
+  global_order: 84
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: order
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 31
+    pdf_oy: 534.6
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:20.1.4
+  official_code: 20.1.4
+  official_wording: Cell referencing
+  section: CIE_IGCSE_ICT_2023_2025-T20
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB47
+  unit_code: null
+  unit: null
+  ordering: 85
+  global_order: 85
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: cell
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 31
+    pdf_oy: 582.7
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:20.2.1
+  official_code: 20.2.1
+  official_wording: Sort data
+  section: CIE_IGCSE_ICT_2023_2025-T20
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB48
+  unit_code: null
+  unit: null
+  ordering: 86
+  global_order: 86
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: sort
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 32
+    pdf_oy: 136.7
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:20.2.2
+  official_code: 20.2.2
+  official_wording: Search and select data
+  section: CIE_IGCSE_ICT_2023_2025-T20
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB48
+  unit_code: null
+  unit: null
+  ordering: 87
+  global_order: 87
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: search
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 32
+    pdf_oy: 171.8
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:20.3.1
+  official_code: 20.3.1
+  official_wording: Adjust the display features
+  section: CIE_IGCSE_ICT_2023_2025-T20
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB49
+  unit_code: null
+  unit: null
+  ordering: 88
+  global_order: 88
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: adjust
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 32
+    pdf_oy: 312.2
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:20.3.2
+  official_code: 20.3.2
+  official_wording: Format a spreadsheet
+  section: CIE_IGCSE_ICT_2023_2025-T20
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB49
+  unit_code: null
+  unit: null
+  ordering: 89
+  global_order: 89
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: format
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 32
+    pdf_oy: 394.8
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:20.3.3
+  official_code: 20.3.3
+  official_wording: Set page layout
+  section: CIE_IGCSE_ICT_2023_2025-T20
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB49
+  unit_code: null
+  unit: null
+  ordering: 90
+  global_order: 90
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: set
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 32
+    pdf_oy: 500.6
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:21.1.1
+  official_code: 21.1.1
+  official_wording: The three web development layers
+  section: CIE_IGCSE_ICT_2023_2025-T21
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB50
+  unit_code: null
+  unit: null
+  ordering: 91
+  global_order: 91
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: the
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 32
+    pdf_oy: 648.5
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:21.2.1
+  official_code: 21.2.1
+  official_wording: Use HTML in the content layer
+  section: CIE_IGCSE_ICT_2023_2025-T21
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB51
+  unit_code: null
+  unit: null
+  ordering: 92
+  global_order: 92
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: use
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 33
+    pdf_oy: 136.7
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:21.2.1-dup2
+  official_code: 21.2.1
+  official_wording: The use of HTML in the content layer
+  section: CIE_IGCSE_ICT_2023_2025-T21
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB51
+  unit_code: null
+  unit: null
+  ordering: 93
+  global_order: 93
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: the
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 34
+    pdf_oy: 136.7
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:21.3.1
+  official_code: 21.3.1
+  official_wording: Use CSS in the presentation layer
+  section: CIE_IGCSE_ICT_2023_2025-T21
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB52
+  unit_code: null
+  unit: null
+  ordering: 94
+  global_order: 94
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: use
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 34
+    pdf_oy: 405.4
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal
+- code: CIE_IGCSE_ICT_2023_2025:21.3.1-dup2
+  official_code: 21.3.1
+  official_wording: The use of CSS in the presentation layer
+  section: CIE_IGCSE_ICT_2023_2025-T21
+  subsection: CIE_IGCSE_ICT_2023_2025-SUB52
+  unit_code: null
+  unit: null
+  ordering: 95
+  global_order: 95
+  practical: false
+  scope: null
+  applicability:
+    rule: null
+  leading_verb: the
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_file: 595352-2023-2025-syllabus.pdf
+    spec_issue: '2'
+    extraction_method: pdf-span-geometry
+    generated_by: scripts/wf6_emit_cie_graph.py
+    generated_date: '2026-11-17'
+    pdf_page: 35
+    pdf_oy: 136.7
+    pdf_sha1: ef7f8aa18f30a6aeed085c30d971bef1d78fb8f8
+  damage_flags:
+  - synthesized-ordinal

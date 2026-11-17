@@ -1,0 +1,534 @@
+curriculum_code: CIE_IGCSE_PHYSICS_2023_2025
+qualification: cie-igcse-physics-2023-2025 (Issue 2)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: 595430-2023-2025-syllabus.pdf
+  role: official-pdf-direct-parse
+  sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/wf6_emit_cie_graph.py (from parsed/cie-*/spec_points.json)
+generated: '2026-11-17'
+counts:
+  spec_points: 294
+  topics: 6
+  subsections: 42
+  practicals: 0
+topics:
+- code: CIE_IGCSE_PHYSICS_2023_2025-T1
+  title: Motion, forces and energy
+  ordering: 1
+  unit_code: null
+  unit: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_number: '1'
+    pdf_page: 12
+    pdf_oy: 441.5
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+  damage_flags: []
+- code: CIE_IGCSE_PHYSICS_2023_2025-T2
+  title: Thermal physics
+  ordering: 2
+  unit_code: null
+  unit: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_number: '2'
+    pdf_page: 18
+    pdf_oy: 479.4
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+  damage_flags: []
+- code: CIE_IGCSE_PHYSICS_2023_2025-T3
+  title: Waves
+  ordering: 3
+  unit_code: null
+  unit: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_number: '3'
+    pdf_page: 22
+    pdf_oy: 443.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+  damage_flags: []
+- code: CIE_IGCSE_PHYSICS_2023_2025-T4
+  title: Electricity and magnetism
+  ordering: 4
+  unit_code: null
+  unit: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_number: '4'
+    pdf_page: 27
+    pdf_oy: 333.6
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+  damage_flags: []
+- code: CIE_IGCSE_PHYSICS_2023_2025-T5
+  title: Nuclear physics
+  ordering: 5
+  unit_code: null
+  unit: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_number: '5'
+    pdf_page: 34
+    pdf_oy: 99.8
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+  damage_flags: []
+- code: CIE_IGCSE_PHYSICS_2023_2025-T6
+  title: Space physics
+  ordering: 6
+  unit_code: null
+  unit: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_number: '6'
+    pdf_page: 37
+    pdf_oy: 285.1
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+  damage_flags: []
+subsections:
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB1
+  letter: null
+  title: Physical quantities and measurement techniques
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T1
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '1.1'
+    pdf_page: 12
+    pdf_oy: 463.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB2
+  letter: null
+  title: Motion
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T1
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '1.2'
+    pdf_page: 13
+    pdf_oy: 98.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB3
+  letter: null
+  title: Mass and weight
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T1
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '1.3'
+    pdf_page: 13
+    pdf_oy: 572.1
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB4
+  letter: null
+  title: Density
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T1
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '1.4'
+    pdf_page: 14
+    pdf_oy: 98.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB5
+  letter: null
+  title: Forces
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T1
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '1.5'
+    pdf_page: 14
+    pdf_oy: 330.8
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB6
+  letter: null
+  title: Forces continued
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T1
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '1.5'
+    pdf_page: 15
+    pdf_oy: 98.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB7
+  letter: null
+  title: Momentum
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T1
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '1.6'
+    pdf_page: 16
+    pdf_oy: 98.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB8
+  letter: null
+  title: Energy, work and power
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T1
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '1.7'
+    pdf_page: 16
+    pdf_oy: 359.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB9
+  letter: null
+  title: Energy, work and power continued
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T1
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '1.7'
+    pdf_page: 17
+    pdf_oy: 98.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB10
+  letter: null
+  title: Energy, work and power continued
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T1
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '1.7'
+    pdf_page: 18
+    pdf_oy: 98.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB11
+  letter: null
+  title: Pressure
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T1
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '1.8'
+    pdf_page: 18
+    pdf_oy: 282.3
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB12
+  letter: null
+  title: Kinetic particle model of matter
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T2
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '2.1'
+    pdf_page: 18
+    pdf_oy: 501.6
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB13
+  letter: null
+  title: Kinetic particle model of matter continued
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T2
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '2.1'
+    pdf_page: 19
+    pdf_oy: 98.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB14
+  letter: null
+  title: Thermal properties and temperature
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T2
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '2.2'
+    pdf_page: 20
+    pdf_oy: 98.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB15
+  letter: null
+  title: Transfer of thermal energy
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T2
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '2.3'
+    pdf_page: 21
+    pdf_oy: 98.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB16
+  letter: null
+  title: Transfer of thermal energy continued
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T2
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '2.3'
+    pdf_page: 22
+    pdf_oy: 98.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB17
+  letter: null
+  title: General properties of waves
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T3
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '3.1'
+    pdf_page: 22
+    pdf_oy: 465.9
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB18
+  letter: null
+  title: General properties of waves continued
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T3
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '3.1'
+    pdf_page: 23
+    pdf_oy: 98.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB19
+  letter: null
+  title: Light
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T3
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '3.2'
+    pdf_page: 23
+    pdf_oy: 388.5
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB20
+  letter: null
+  title: Light continued
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T3
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '3.2'
+    pdf_page: 24
+    pdf_oy: 98.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB21
+  letter: null
+  title: Electromagnetic spectrum
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T3
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '3.3'
+    pdf_page: 25
+    pdf_oy: 98.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB22
+  letter: null
+  title: Electromagnetic spectrum continued
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T3
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '3.3'
+    pdf_page: 26
+    pdf_oy: 98.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB23
+  letter: null
+  title: Sound
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T3
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '3.4'
+    pdf_page: 26
+    pdf_oy: 499.8
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB24
+  letter: null
+  title: Sound continued
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T3
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '3.4'
+    pdf_page: 27
+    pdf_oy: 98.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB25
+  letter: null
+  title: Simple phenomena of magnetism
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T4
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '4.1'
+    pdf_page: 27
+    pdf_oy: 355.8
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB26
+  letter: null
+  title: Electrical quantities
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T4
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '4.2'
+    pdf_page: 28
+    pdf_oy: 98.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB27
+  letter: null
+  title: Electrical quantities continued
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T4
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '4.2'
+    pdf_page: 29
+    pdf_oy: 98.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB28
+  letter: null
+  title: Electric circuits
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T4
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '4.3'
+    pdf_page: 30
+    pdf_oy: 98.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB29
+  letter: null
+  title: Electric circuits continued
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T4
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '4.3'
+    pdf_page: 31
+    pdf_oy: 98.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB30
+  letter: null
+  title: Electrical safety
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T4
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '4.4'
+    pdf_page: 31
+    pdf_oy: 279.5
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB31
+  letter: null
+  title: Electromagnetic effects
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T4
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '4.5'
+    pdf_page: 32
+    pdf_oy: 98.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB32
+  letter: null
+  title: Electromagnetic effects continued
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T4
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '4.5'
+    pdf_page: 33
+    pdf_oy: 98.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB33
+  letter: null
+  title: The nuclear model of the atom
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T5
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '5.1'
+    pdf_page: 34
+    pdf_oy: 122.0
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB34
+  letter: null
+  title: Radioactivity
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T5
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '5.2'
+    pdf_page: 35
+    pdf_oy: 98.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB35
+  letter: null
+  title: Radioactivity continued
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T5
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '5.2'
+    pdf_page: 36
+    pdf_oy: 98.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB36
+  letter: null
+  title: Radioactivity continued
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T5
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '5.2'
+    pdf_page: 37
+    pdf_oy: 98.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB37
+  letter: null
+  title: Earth and the Solar System
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T6
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '6.1'
+    pdf_page: 37
+    pdf_oy: 307.3
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB38
+  letter: null
+  title: Earth and the Solar System continued
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T6
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '6.1'
+    pdf_page: 38
+    pdf_oy: 98.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB39
+  letter: null
+  title: Earth and the Solar System continued
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T6
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '6.1'
+    pdf_page: 39
+    pdf_oy: 98.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB40
+  letter: null
+  title: Stars and the Universe
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T6
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '6.2'
+    pdf_page: 39
+    pdf_oy: 441.1
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB41
+  letter: null
+  title: Stars and the Universe continued
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T6
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '6.2'
+    pdf_page: 40
+    pdf_oy: 98.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b
+- code: CIE_IGCSE_PHYSICS_2023_2025-SUB42
+  letter: null
+  title: Stars and the Universe continued
+  parent_topic: CIE_IGCSE_PHYSICS_2023_2025-T6
+  provenance:
+    tier: RULE_DERIVED
+    source_code: '6.2'
+    pdf_page: 41
+    pdf_oy: 98.7
+    pdf_sha1: 794defb5a684b969a4e893f0a4054c834cdc0f7b

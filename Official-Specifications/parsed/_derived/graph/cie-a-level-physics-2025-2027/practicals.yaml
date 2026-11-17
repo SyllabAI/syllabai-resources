@@ -1,0 +1,23 @@
+curriculum_code: CIE_A_LEVEL_PHYSICS_2025_2027
+qualification: cie-a-level-physics-2025-2027 (Issue 2)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: 664565-2025-2027-syllabus.pdf
+  role: official-pdf-direct-parse
+  sha1: 5511cb27cf4907f7914ab399ef36859e6384bb08
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/wf6_emit_cie_graph.py (from parsed/cie-*/spec_points.json)
+generated: '2026-11-17'
+counts:
+  spec_points: 303
+  topics: 25
+  subsections: 76
+  practicals: 0
+practicals: []

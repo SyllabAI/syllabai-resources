@@ -1,0 +1,23 @@
+curriculum_code: CIE_A_LEVEL_GEOGRAPHY_2025_2026
+qualification: cie-a-level-geography-2025-2026 (Issue 2)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: 664556-2025-2026-syllabus.pdf
+  role: official-pdf-direct-parse
+  sha1: 73501165d42d87b0c43351351c23a61fea0dac42
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/wf6_emit_cie_graph.py (from parsed/cie-*/spec_points.json)
+generated: '2026-11-17'
+counts:
+  spec_points: 167
+  topics: 14
+  subsections: 56
+  practicals: 0
+practicals: []

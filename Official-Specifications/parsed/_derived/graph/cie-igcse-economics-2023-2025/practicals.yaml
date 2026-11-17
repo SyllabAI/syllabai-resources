@@ -1,0 +1,23 @@
+curriculum_code: CIE_IGCSE_ECONOMICS_2023_2025
+qualification: cie-igcse-economics-2023-2025 (Issue 2)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: 596945-2023-2025-syllabus.pdf
+  role: official-pdf-direct-parse
+  sha1: 71b8f0bdb1ca431e869bc411aaa663fb9a5106a4
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/wf6_emit_cie_graph.py (from parsed/cie-*/spec_points.json)
+generated: '2026-11-17'
+counts:
+  spec_points: 129
+  topics: 6
+  subsections: 40
+  practicals: 0
+practicals: []

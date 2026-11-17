@@ -1,0 +1,23 @@
+curriculum_code: CIE_A_LEVEL_ACCOUNTING_2023_2025
+qualification: cie-a-level-accounting-2023-2025 (Issue 2)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: 595461-2023-2025-syllabus.pdf
+  role: official-pdf-direct-parse
+  sha1: 1e217b24049c5252bb4f79528837a5a1303e7576
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/wf6_emit_cie_graph.py (from parsed/cie-*/spec_points.json)
+generated: '2026-11-17'
+counts:
+  spec_points: 34
+  topics: 4
+  subsections: 23
+  practicals: 0
+practicals: []

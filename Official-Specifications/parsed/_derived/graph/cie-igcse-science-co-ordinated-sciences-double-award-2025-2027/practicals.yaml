@@ -1,0 +1,23 @@
+curriculum_code: CIE_IGCSE_SCIENCE_CO_ORDINATED_SCIENCES_DOUBLE_AWARD_2025_2027
+qualification: cie-igcse-science-co-ordinated-sciences-double-award-2025-2027 (Issue 2)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: 664570-2025-2027-syllabus.pdf
+  role: official-pdf-direct-parse
+  sha1: 0241559fd7feb325f3a6ffc46c6fb12916069419
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/wf6_emit_cie_graph.py (from parsed/cie-*/spec_points.json)
+generated: '2026-11-17'
+counts:
+  spec_points: 632
+  topics: 38
+  subsections: 132
+  practicals: 0
+practicals: []

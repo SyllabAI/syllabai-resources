@@ -1,0 +1,23 @@
+curriculum_code: CIE_IGCSE_ECONOMICS_2027_2029
+qualification: cie-igcse-economics-2027-2029 (Issue 2)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: 718148-2027-2029-syllabus.pdf
+  role: official-pdf-direct-parse
+  sha1: 6410daeb1f567faaeea7b3157620701527a657b2
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/wf6_emit_cie_graph.py (from parsed/cie-*/spec_points.json)
+generated: '2026-11-17'
+counts:
+  spec_points: 113
+  topics: 6
+  subsections: 42
+  practicals: 0
+practicals: []

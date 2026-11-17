@@ -1,0 +1,23 @@
+curriculum_code: CIE_IGCSE_ENGLISH_LANGUAGE_2024_2026
+qualification: cie-igcse-english-language-2024-2026 (Issue 2)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: 635230-2024-2026-syllabus.pdf
+  role: official-pdf-direct-parse
+  sha1: a32be6792f880591cd8a4d888ae5c5244919428d
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/wf6_emit_cie_graph.py (from parsed/cie-*/spec_points.json)
+generated: '2026-11-17'
+counts:
+  spec_points: 163
+  topics: 17
+  subsections: 0
+  practicals: 0
+practicals: []

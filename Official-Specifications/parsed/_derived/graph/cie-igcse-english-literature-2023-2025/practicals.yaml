@@ -1,0 +1,23 @@
+curriculum_code: CIE_IGCSE_ENGLISH_LITERATURE_2023_2025
+qualification: cie-igcse-english-literature-2023-2025 (Issue 2)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: 596436-2023-2025-syllabus.pdf
+  role: official-pdf-direct-parse
+  sha1: 6d68c054d3a6748f44cb9e472a2d611da7f70eda
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/wf6_emit_cie_graph.py (from parsed/cie-*/spec_points.json)
+generated: '2026-11-17'
+counts:
+  spec_points: 203
+  topics: 12
+  subsections: 0
+  practicals: 0
+practicals: []

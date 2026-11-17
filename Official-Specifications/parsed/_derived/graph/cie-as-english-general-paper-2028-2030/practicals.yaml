@@ -1,0 +1,23 @@
+curriculum_code: CIE_AS_ENGLISH_GENERAL_PAPER_2028_2030
+qualification: cie-as-english-general-paper-2028-2030 (Issue 2)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: 743333-2028-2030-syllabus.pdf
+  role: official-pdf-direct-parse
+  sha1: cde601449bcbbec1cbfadadb7c63fe73a51cdf12
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/wf6_emit_cie_graph.py (from parsed/cie-*/spec_points.json)
+generated: '2026-11-17'
+counts:
+  spec_points: 73
+  topics: 2
+  subsections: 0
+  practicals: 0
+practicals: []

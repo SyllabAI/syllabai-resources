@@ -1,0 +1,55 @@
+curriculum_code: CIE_AS_ENGLISH_GENERAL_PAPER_2028_2030
+qualification: cie-as-english-general-paper-2028-2030 (Issue 2)
+phase: 1
+node_families:
+- TOPIC
+- SUBTOPIC
+- SPEC_POINT
+graph_format_version: 1
+source_documents:
+- file: 743333-2028-2030-syllabus.pdf
+  role: official-pdf-direct-parse
+  sha1: cde601449bcbbec1cbfadadb7c63fe73a51cdf12
+edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): PART_OF, REQUIRES_PREREQUISITE,
+  RELATED_TO, MISCONCEPTION_OF, EXPLAINED_BY, REMEDIATED_BY'
+provenance_default: RULE_DERIVED
+generator: scripts/wf6_emit_cie_graph.py (from parsed/cie-*/spec_points.json)
+generated: '2026-11-17'
+counts:
+  spec_points: 73
+  topics: 2
+  subsections: 0
+  practicals: 0
+topics:
+- code: CIE_AS_ENGLISH_GENERAL_PAPER_2028_2030-T1
+  title: Economic, historical, moral, political and social issues
+  ordering: 1
+  unit_code: null
+  unit: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_number: '1'
+    pdf_page: 11
+    pdf_oy: 497.4
+    pdf_sha1: cde601449bcbbec1cbfadadb7c63fe73a51cdf12
+  damage_flags: []
+- code: CIE_AS_ENGLISH_GENERAL_PAPER_2028_2030-SF2
+  title: "3 \aLiterature, language, the arts, crafts, and the media"
+  ordering: 2
+  unit_code: null
+  unit: null
+  validation_status: RULE_DERIVED
+  confidence: 1.0
+  version: 1
+  provenance:
+    tier: RULE_DERIVED
+    source_number: null
+    pdf_page: 12
+    pdf_oy: 562.8
+    pdf_sha1: cde601449bcbbec1cbfadadb7c63fe73a51cdf12
+    source_code: null
+  damage_flags: []
+subsections: []
