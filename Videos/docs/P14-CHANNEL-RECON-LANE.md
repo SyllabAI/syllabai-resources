@@ -2,10 +2,9 @@
 
 **Task:** T-VIDEOMAP-P14 · **Authorized:** owner chat 2026-11-16 (the ~31-channel recon request; report
 delivered same day: 24 new pools adjudicated T1 16,064 / T2 3,323 / NT 6,003 = 25,390 uploads, 0 overlap,
-no new-course exits proposed) · owner chat 2026-11-17 "**Proceed**" (= file it as P14) · **Status:** FILED
-2026-11-17 — this branch carries the inventoried pool set + re-adjudication groups + lane doc; judgment,
-enrichment, identity sweep, builder emit, hub gates and the PR remain open (push blocked: no write token
-in the filing session).
+no new-course exits proposed) · owner chat 2026-11-17 "**Proceed**" (= file it as P14) · **Status:** FILED + PUSHED, **PR #357 opened 2026-11-17** (branch `videos/p14-channel-recon` → main;
+the filing session had no write token — push/PR followed same day with an owner-supplied token) —
+judgment, enrichment, identity sweep, builder emit and hub gates remain open.
 
 ## What was filed
 
@@ -133,9 +132,12 @@ Inventories: `inventory/channels/<pool>-uploads.json` ×17.
    per-row judgment with the degenerate-bind re-adjudication bar.
 3. Enrichment + oEmbed identity sweep + honest-skip ledger (exactly-once disposition of all 24,395).
 4. Builder P14 section (before the inherit loop; video-keyed idempotency), hub gates
-   (`video-map.test.ts` 16/16 + spec-join census), PRs — **push/merge needs an owner-side write token**;
-   this session had none, so the branch is local-only.
+   (`video-map.test.ts` 16/16 + spec-join census), hub PR — **PR #357 carries the filing; merge needs
+   owner review**; the judgment/enrich/builder phases follow on this branch or successors.
 
-**Security note of record:** no token was used or available in this filing session. The recurring reminder
-stands: `ghp_rW7z…71xD` has been exposed in chat repeatedly and **rotation is still outstanding** — replace
-it with a short-lived fine-grained token before the next ship.
+**Security note of record:** no token was used or available in the filing session itself (amended
+2026-11-17: the push and PR #357 were subsequently opened with the owner-supplied token). The recurring
+reminder stands, now **higher** priority: `ghp_rW7z…71xD` is a classic PAT with an extremely broad scope
+set (repo, admin:org, admin:*, delete_repo, workflow, ...) exposed in chat repeatedly — **rotation to a
+short-lived fine-grained token (contents read/write on the two repos only) is still outstanding** —
+replace it before the next ship.
