@@ -1,0 +1,47 @@
+stage: S4
+date: "2026-11-12"
+agent: "CourseLessons lane (zai-web session web-d40d45c9-ca42-4b9a-9427-b2c180cb268b, chat 8f9333f0-e4f6-476c-8e21-2eac0b18ad39, trace 1a1cc29379e81cf5)"
+prompt_version: "lesson-prose@2.0.0 + lesson-plain-words@1.0.0 (registered c01 lane, PR #340)"
+lane: "c05 thin-layer retrofit r0 — replication of the c01 pilot pattern (PR #340, head 9034a8ac) per receipt next_agent: plain-words box x36 + verbatim-true MS vocab x5 (operator order 'start the c02/c05', zai-web; pattern acceptance per c01 structured answers: c01 pilot / PR lane / curated per-chapter MS sets / plain-words box)"
+trace_id: "1a1cc29379e81cf5"
+summary: >-
+  Thin-layer retrofit of c05 (the 36-section calculations chapter), replicating
+  the c01 pilot (f-0040 feature-gap + f-0041 ms-vocab-better, FEATURE-SPEC §2
+  row 16 + row 11 as amended by f-0042): (a) a plain-words box (student register,
+  2-5 sentences, chemistry-true, placed directly under the section prose before
+  the first box) authored into EVERY section s01-s36; (b) five exam-hint boxes
+  (s09/s26/s28/s33/s35) enriched with VERBATIM-TRUE mark-scheme lines + paper/
+  question refs of record, all fetched first-hand this session from the
+  syllabai-pastpapers corpus of record (ms.pdf + qp.pdf -> pdftotext, QP context
+  verified for every ref per f-0042): 4CH1/1C JUN 2022 Q7(a)(ii) (A, of copper
+  from isotope abundances: (63 x 69.5) + (65 x 30.5), divide by 100, 63.6; no-working
+  scoring ladder); 4CH1/1C JUN 2023 Q9(c) (x in Na2SO4.xH2O: M1-M5 chain with
+  ALLOW ECF on the mass steps, x = 0.25 / 0.025 = 10); 4CH1/1C JUN 2023 Q6(c)
+  (mass -> moles -> ratio -> mass for chlorine from 26.7 g AlCl3: 26.7 / 133.5,
+  x 3, x 71 = 21.3 g, ALLOW ECF on both steps); 4CH1/1C JUN 2019 Q14(f)(ii)
+  (percentage yield: (23.92 / 29.9) x 100 = 80%, MS explicitly credits the
+  earlier theoretical-yield answer); 4CH1/1C JUN 2023 Q10(a)(i) (excess by two
+  alternative routes, both ending in a through-the-equation comparison: zinc in
+  excess). Zero prose bytes changed elsewhere; substance-unchanged law held.
+artifact_plane: >-
+  qa/lessonPackV1.json mirrored in lockstep (102625B -> 117926B, +15301B
+  thin layers; 36/36 sections carry plain-words). Status field untouched: pack
+  was PUBLISHED at base main 69154ecb and remains PUBLISHED (no law-7 flip event
+  this lane; the standing merge+flip authorization trace 1a1658a2da08e5bd covers
+  flips of draft packs — none needed here). Gate suite of record
+  (scripts/lane_gates.py): 36/36 boxes 2-5 sentences before first exam-hint; no
+  pipe-form chips (law-6); all 62 chips resolve in glossary; banned phrases/OCR/
+  page-deflection clean; pack JSON valid, status published, 36/36 markdowns
+  mirrored; all verbatim MS fragments present (whitespace-tolerant); all 5 refs
+  of record present.
+kept_disclosed:
+  - 'MS lines are verbatim-true QUOTES with refs; QP context read first-hand for
+    every ref per f-0042 (verification-coverage gap found and closed on PR #340)'
+  - 'plain-words renders on the hub TODAY via the generic box chrome (BOX_STYLES
+    fallback) — styled chrome + allowlist row remain a platform-side lane,
+    proposed not built here'
+  - 'no new findings filed (this lane consumes f-0040/f-0041/f-0042); c02
+    sibling lane (PR #341) runs the same pattern on 10 sections'
+  - 'IM-transport bracket-eating artifact handled by numeric/ordinal probes only
+    (second confirmation recorded in the c02 receipt); authoring scripts compose
+    bracket pairs programmatically and the gate suite verifies chips byte-exactly'

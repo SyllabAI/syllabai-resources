@@ -29,6 +29,13 @@ is write **big numbers in front of the formulae**. The next section
 applies the fix to the methane equation, and Worked example 1 shows the
 systematic method in action.
 
+
+:::plain-words
+Balancing is bookkeeping, not chemistry: atoms in = atoms out, and only the big numbers may
+move. The moment you catch yourself rewriting a formula to make the count work, stop — the
+formula is the one thing that is not negotiable. And “nearly balanced” is a phrase with no
+meaning: a [[balanced-equation]] either conserves every atom type or it is wrong.
+:::
 :::exam-hint
 This is the really-important one, and the emphasis is the point:
 **never change a formula when balancing**. If the equation needs another oxygen, you write

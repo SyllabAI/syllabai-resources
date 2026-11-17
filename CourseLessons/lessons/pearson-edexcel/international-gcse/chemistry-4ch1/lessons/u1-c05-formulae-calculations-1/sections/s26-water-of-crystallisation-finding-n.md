@@ -44,13 +44,21 @@ divide-by-smallest machinery as every other empirical formula in this
 chapter. The only novelty is that one of the "elements" is a whole water
 molecule.
 
+
+:::plain-words
+Finding n is the empirical-formula table with a water molecule sitting in one column: moles of
+BaCl₂ (2.08/208 = 0.0100) against moles of water (0.36/18 = 0.020) give 1 : 2 — BaCl₂·2H₂O.
+Three subtractions build the masses from the [[hydrated-salt]] experiment:
+crystals-minus-crucible, salt-minus-crucible, and their difference. Convert each mass with its
+OWN Mᵣ before dividing anything by anything.
+:::
 :::exam-hint
 Two Mᵣ values must be *assembled* before the table can start: BaCl₂ =
 208 (137 + 2 × 35.5) and H₂O = 18. Show both constructions — the marks
 sit in the assembly, and the table cannot misfire if 208 and 18 are
 written explicitly. Note also which masses produce which subtraction:
 crystals-minus-crucible gives the *hydrate*, anhydrous-minus-crucible
-gives the *salt*, and their difference is the *water*.
+gives the *salt*, and their difference is the *water*. Real mark scheme of record (4CH1/1C JUN 2023 Q9(c), x in Na₂SO₄·xH₂O from an ice-cooled tube: empty 15.83 g, hydrate 23.88 g, anhydrous 19.38 g): M1 “mass of Na₂SO₄ (= 19.38 − 15.83) = 3.55 (g)”; M2 “mass of H₂O (= 23.88 − 19.38) = 4.50 (g)”; M3 “amount of Na₂SO₄ (= 3.55 ÷ 142) = 0.025 (mol)” with “ALLOW ECF from incorrect M1”; M4 “amount of H₂O (= 4.50 ÷ 18) = 0.25 (mol)”; M5 “x (= 0.25 ÷ 0.025) = 10”.
 :::
 
 :::misconception

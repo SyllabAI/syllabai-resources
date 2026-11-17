@@ -32,6 +32,13 @@ reach: in **Ca(OH)₂** the 2 applies to *everything inside the bracket* —
 1 calcium, 2 oxygens, 2 hydrogens. (Chapter 7 (u1:c07) shows how
 formulae like this are worked out.)
 
+
+:::plain-words
+Read every formula with the same two questions: is this number in front (a [[coefficient]] — it
+multiplies everything) or tucked after an atom (a subscript — it multiplies just that one)? In
+2H₂SO₄ that gives 4 hydrogens, 2 sulfurs and 8 oxygens; in Ca(OH)₂ the bracket 2 lifts the
+oxygens and hydrogens together. Ten minutes of counting drills here pays for itself all chapter.
+:::
 :::key-point
 A small subscript number applies only to the atom immediately before it
 in the formula. A subscript after brackets applies to everything inside

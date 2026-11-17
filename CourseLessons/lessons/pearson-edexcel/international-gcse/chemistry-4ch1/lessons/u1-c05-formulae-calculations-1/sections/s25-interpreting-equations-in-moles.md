@@ -29,6 +29,13 @@ us **the number of moles** of each substance that
 react. And although there does not appear to be a big number in front of
 the CH₄ and CO₂, there is — a '1' that we simply do not write.
 
+
+:::plain-words
+A balanced equation is a mole recipe: CH₄ + 2O₂ → CO₂ + 2H₂O reads 1 mol : 2 mol : 1 mol : 2 mol
+— never grams. The invisible “1” counts too (CaCO₃ → CaO + CO₂ is 1 : 1 : 1), because every
+[[coefficient]] — written or implied — announces moles. Writing the mole row under the equation
+is the first move of every mass calculation from here on.
+:::
 :::key-point
 A chemical equation can always be read as a mole recipe: the balancing
 numbers are the moles. An invisible '1' counts as a big number

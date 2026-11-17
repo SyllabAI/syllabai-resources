@@ -38,6 +38,13 @@ obtained: **5.21 g**.
 
 percentage yield = (5.21 / 7.53) × 100 = **69.2%**
 
+
+:::plain-words
+The yield chain keeps 1 : 1 : 1 moles (CuO → CuSO₄ → CuSO₄·5H₂O) — only the masses change as
+each substance's own Mᵣ joins. 2.40 g of CuO is 0.0302 mol, so the [[theoretical-yield]] of
+crystals is 0.0302 × 249.5 = 7.53 g, and 5.21 g collected is 69.2%. Use 249.5, not 159.5 —
+forget the five waters and the final step dies with perfectly correct moles.
+:::
 :::key-point
 A 1 : 1 : 1 mole chain (CuO → CuSO₄ → CuSO₄·5H₂O) means the *moles never
 change* through the two steps — only the mass does, when each substance's

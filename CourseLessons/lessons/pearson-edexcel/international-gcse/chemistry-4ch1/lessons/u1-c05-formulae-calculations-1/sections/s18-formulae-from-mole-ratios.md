@@ -36,6 +36,13 @@ peroxide has empirical formula **HO** but molecular formula **H₂O₂**. To
 get from one to the other you need one extra datum — the Mᵣ of the
 compound — which is exactly the machinery the next four sections build.
 
+
+:::plain-words
+Mole ratios are atom ratios, which is how formulae fall out of data: 0.2 mol Ca with 0.2 mol O
+is CaO; 0.4 mol Mn with 0.8 mol O is MnO₂. The [[empirical-formula]] is that ratio in smallest
+whole numbers; the [[molecular-formula]] is the real atom count. They coincide (CaO) or differ
+by a whole-number multiple (HO versus H₂O₂).
+:::
 :::key-point
 Mole ratios *are* atom ratios. The empirical formula is that ratio in
 simplest whole numbers; the molecular formula is the actual atom count,

@@ -44,6 +44,13 @@ calculation but needs the tonne conversions; the ratio route has fewer
 steps but will not extend to the solution calculations of the next
 chapter.
 
+
+:::plain-words
+Two-equation problems are relay races: follow the substance (PbS → PbO → Pb) through each
+equation's own ratio, in order. Keep the tonne conversions at the edges — once in, once out —
+and never in the middle of the mole arithmetic. Doubling the second equation (2PbO + 2C → 2Pb +
+2CO) makes the handover visible: 2 mol of PbS still yields 2 mol of Pb.
+:::
 :::cross-curricular
 This flow sheet — roast the ore, reduce the oxide, tap the metal from
 the furnace's base — is the extractive-metallurgy pattern that powered

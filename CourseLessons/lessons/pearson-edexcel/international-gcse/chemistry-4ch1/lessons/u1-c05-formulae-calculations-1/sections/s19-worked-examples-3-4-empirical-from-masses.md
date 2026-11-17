@@ -43,6 +43,13 @@ atoms in the compound. One warning that examiners love: we are counting
 | ratio of moles                              | 1       | 1       | 4        |
 | empirical formula                           | **KMnO₄** |         |          |
 
+
+:::plain-words
+The [[empirical-formula]] table never changes: masses → moles (divide by the mass of 1 mole of
+ATOMS) → divide by the smallest → whole-number ratio. Oxygen atoms divide by 16, never by 32 —
+the oxygen in a compound did not arrive as O₂ molecules. Run 1.27 g of copper with 0.16 g of
+oxygen through it and Cu₂O drops out.
+:::
 :::exam-hint
 On this page: the original masses were measured to 2 significant
 figures, so the numbers of moles should also be given to

@@ -27,6 +27,13 @@ The atom-count table for the finished equation:
 |----------------|----|---|----|----|---|----|
 | numbers of atoms | 1 | 2 | 2  | 1 | 2 | 2  |
 
+
+:::plain-words
+The zinc equation needs exactly one move: 2 hydrogens are required on the right, so write 2HCl —
+never H₂Cl, which is not a substance. Everything else then falls into place: 2 chlorines arrive
+with the 2HCl, and the count table confirms 1, 2, 2 on both sides. If a balancing step ever asks
+you to invent a new formula, the step is wrong, not the equation.
+:::
 :::key-point
 Halves *are* acceptable in balanced equations, and you can always remove
 one later by doubling everything — but you will rarely meet them at

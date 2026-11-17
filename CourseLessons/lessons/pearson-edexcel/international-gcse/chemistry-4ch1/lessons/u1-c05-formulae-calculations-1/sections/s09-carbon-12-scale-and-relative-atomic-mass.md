@@ -44,6 +44,13 @@ Aᵣ is 35.45 (quoted 35.5), lithium's is 6.94 (quoted 7), sodium's is
 International GCSE convention: use the Periodic Table values, with
 decimals where given (Cl 35.5, Cu 63.5).
 
+
+:::plain-words
+[[Relative-atomic-mass]] is a weighted average, not a weight: no single chlorine atom weighs
+35.5 — the sample average does. The [[carbon-12-scale]] is the ruler (one-twelfth of a ¹²C
+atom), and the Periodic Table supplies every value you need. When a question hands you isotope
+percentages, it is asking you to rebuild that average yourself.
+:::
 :::key-point
 To work out a weighted average you have to know **how much of each isotope
 is present** in the sample — the weighted-average method from Chapter 3
@@ -56,7 +63,7 @@ One vocabulary line the examiner enforces: avoid
 describe actual molecules (covalent substances). You should not use it
 for magnesium oxide or sodium chloride. **Relative formula mass covers
 everything**, which is why the next section installs it as the default
-term.
+term. Real mark scheme of record (4CH1/1C JUN 2022 Q7(a)(ii), Aᵣ of a copper sample that is 69.5% Cu-63 and 30.5% Cu-65): M1 “(63 × 69.5) + (65 × 30.5) OR 6361”, M2 “their M1 ÷ 100 OR 63.61”, M3 “63.6” — and the notes price the presentation: “correct answer without working scores 3” but “63.61 without working scores 2”, so show the two-step working.
 :::
 
 :::misconception

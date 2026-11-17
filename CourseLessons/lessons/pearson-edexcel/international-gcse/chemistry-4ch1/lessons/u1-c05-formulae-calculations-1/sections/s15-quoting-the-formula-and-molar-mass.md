@@ -34,6 +34,12 @@ This section assembles the vocabulary and the number sense you need:
   with a formula, use it — but never let the formula replace the sanity
   check.
 
+
+:::plain-words
+“1 mole of oxygen” is a half-answer: atoms (O, 16 g) or molecules (O₂, 32 g) differ by a factor
+of two. Quote the formula every time — 1 mol O₂, 1 mol MgO — and the ambiguity dies. The “how
+many times does it go in?” division is also the fastest error-catcher you own.
+:::
 :::exam-hint
 The "how many times does it go in?" instinct is a genuine exam tool: in
 54 g of water, 18 goes in 3 times → 3 mol. Do this mental division

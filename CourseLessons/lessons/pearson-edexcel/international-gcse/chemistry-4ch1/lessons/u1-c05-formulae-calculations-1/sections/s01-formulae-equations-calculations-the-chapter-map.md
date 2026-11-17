@@ -17,6 +17,13 @@ counting particles *by weighing*. That is what this chapter builds: the
 calculations that flow from it — formulae, balanced equations, reacting
 masses and yields.
 
+
+:::plain-words
+The whole chapter is one conversion: grams to particles and back, with the [[mole]] as the
+exchange desk in the middle. Weigh a sample, convert to moles, and the balanced equation tells
+you what it can react with. Every topic ahead — formulae, reacting masses, yields, excess — is
+that single trade wearing different clothes.
+:::
 :::prior-knowledge
 You will use ideas from earlier chapters throughout: **balancing and
 reading formulae** builds on writing word and symbol equations (Chapter 1);

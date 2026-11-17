@@ -27,6 +27,13 @@ to the salt — **water of crystallisation** — and the salt is said to be
 chloride crystals being heated in a crucible: the experiment that
 will hand you the mass data for finding **n** in BaCl₂·nH₂O.
 
+
+:::plain-words
+56 ÷ 14 = 4 exactly, so CH₂ grows into C₄H₈ — n must land whole, never “round and hope”. The
+crucible half of the section adds the vocabulary you need next: [[anhydrous]] means the water
+has been driven off, and constant-mass heating is how you prove it. Barium chloride survives the
+heating; only its water leaves.
+:::
 :::safety
 Barium chloride is toxic, but a Bunsen flame is not hot enough to release
 it into the atmosphere.

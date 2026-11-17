@@ -41,6 +41,14 @@ masses through CaCO₃ and the extraction reactions, and yield problems —
 this lesson's practice is wired to the question bank through the
 quick-checks above.
 
+
+:::plain-words
+One spine runs the whole chapter: the [[mole]] converts between what you can weigh and what
+actually reacts. Copper plus nitric acid makes it concrete — 3.2 g of Cu is 0.050 mol, needs
+0.20 mol of HNO₃, and since 0.40 mol was poured the acid is in excess and the copper sets the
+product: 0.10 mol of NO₂. Whatever coat a question wears, find which link of this chain it is
+testing.
+:::
 :::summary
 - Equations must **balance** — same atoms out as in. Balance with big
   numbers only; **never change a formula**. State symbols: (s), (l),

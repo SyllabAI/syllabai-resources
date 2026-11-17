@@ -33,6 +33,13 @@ The ratio comes out **1 : 2.5** — and here is the exam-thinking: The empirical
 so a fraction is not an error, it is a instruction to scale up: **multiply
 both numbers by 2** to get **C₂H₅**, the empirical formula.
 
+
+:::plain-words
+Percentages become masses the moment you assume 100 g — then it is the ordinary
+[[empirical-formula]] table again. A ratio like 1 : 2.5 is not an error to round away: multiply
+by 2 to reach the whole-number truth, C₂H₅. Halves ×2, thirds ×3, quarters ×4 — recognise the
+fraction and clear it honestly.
+:::
 :::key-point
 Percentages → assume 100 g → the percentages become masses → the
 familiar table runs unchanged. The only new decision is at the ratio:

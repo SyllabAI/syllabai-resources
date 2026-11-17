@@ -35,6 +35,12 @@ obtain **twice as many** moles of Fe:
 Fe₂O₃ produces 112/160 g; therefore 1000 g produces
 1000 × 112/160 = **700 g**.
 
+
+:::plain-words
+The 2 in 2Fe doubles everything downstream: 1000/160 = 6.25 mol of iron oxide yields 12.5 mol of
+iron and 700 g. Ignore the 2 and you hand back 350 g — half the answer, all wrong. The ratio
+route (160 g → 112 g) reaches the same place with fewer lines on the page.
+:::
 :::exam-hint
 Arm yourself for industrial-scale variants: **you should be
 told how many grams there are in a tonne** if the question needs it

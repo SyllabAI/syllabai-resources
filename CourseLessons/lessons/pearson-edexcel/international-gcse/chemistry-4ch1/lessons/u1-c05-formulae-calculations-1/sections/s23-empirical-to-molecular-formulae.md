@@ -28,6 +28,13 @@ Mᵣ, multiply the empirical formula by the answer. The ratio of elements
 is untouched (both C and H scale by the same factor), which is why the
 molecular formula always "cancels down" to the empirical formula.
 
+
+:::plain-words
+One division finishes the job: n = Mᵣ(compound) ÷ Mᵣ(empirical), then multiply the formula by n
+— 58/29 = 2 turns C₂H₅ into the [[molecular-formula]] C₄H₁₀. Show the division as its own line;
+that is where the method mark lives. If n is not a whole number, the error is upstream — not a
+rounding opportunity.
+:::
 :::key-point
 Molecular formula = empirical formula × n, where
 **n = Mᵣ(compound) ÷ Mᵣ(empirical formula)**. If n comes out as a

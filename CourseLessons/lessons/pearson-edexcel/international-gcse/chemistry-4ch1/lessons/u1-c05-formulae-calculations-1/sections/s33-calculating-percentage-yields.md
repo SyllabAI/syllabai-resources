@@ -31,6 +31,13 @@ experimentally. Its own example: if you are making a salt (Chapter 17),
 a percentage yield above 100% can mean the salt **was not completely
 dry** — extra water inflating the "product" mass.
 
+
+:::plain-words
+One division, one discipline: [[percentage-yield]] = actual ÷ theoretical × 100 — 11.2/12.5
+gives 89.6%. The [[actual-yield]] is always the number the question gave you; the
+[[theoretical-yield]] is always the one you calculated. Above 100% means a mistake or wet
+product — never better-than-perfect chemistry.
+:::
 :::key-point
 Percentage yield = actual ÷ theoretical × 100. The actual yield is
 always the given number; the theoretical yield is always the one *you*
@@ -44,7 +51,7 @@ skill in this calculation type. Clues: the theoretical yield's context is
 made/obtained/collected". Worked example 7 (next section) shows the
 theoretical yield being *derived* through a full two-equation mole
 chain before the division — that derivation is where most of the marks
-live.
+live. Real mark scheme of record (4CH1/1C JUN 2019 Q14(f)(ii), actual yield 23.92 g of copper(II) sulfate crystals): M1 “(23.92 ÷ 29.9) × 100” — “OR (23.92 ÷ M3 from (i)) × 100”, the mark scheme explicitly crediting the earlier theoretical-yield answer — M2 “= 80(%)” with “ALLOW any number of sig figs” and “correct answer without working scores 2”.
 :::
 
 :::misconception

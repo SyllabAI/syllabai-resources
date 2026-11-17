@@ -31,6 +31,13 @@ apply it exactly:
 - **Check everything at the end**, to be sure you have not disturbed
   something you already counted.
 
+
+:::plain-words
+The finished methane equation — CH₄ + 2O₂ → CO₂ + 2H₂O — is worth checking by hand once: 1
+carbon, 4 hydrogens and 4 oxygens on each side. The method that built it (left to right, one
+element at a time, full recount at the end) is the same method for every equation you will ever
+balance. The awkward element — usually oxygen — goes last.
+:::
 :::exam-hint
 The three-step method is worth adopting verbatim: left-to-right,
 one element at a time; unchanged atom-groups counted whole; full recount

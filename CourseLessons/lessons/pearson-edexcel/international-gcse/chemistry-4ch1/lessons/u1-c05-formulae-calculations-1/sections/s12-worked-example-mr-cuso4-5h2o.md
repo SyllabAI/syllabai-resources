@@ -34,6 +34,13 @@ the copper percentage is (63.5 / 79.5) × 100 ≈ **79.9%**. "Having found
 the relative formula mass of a compound, we can work out the percentage
 by mass of any part of it" — the bridge to the next section.
 
+
+:::plain-words
+Assemble the [[hydrated-salt]]'s Mᵣ in three visible moves: salt part (159.5) + waters (5 × 18 =
+90) = 249.5. The bare answer earns less than the assembled one, because examiners award method
+marks for the stages. This same 249.5 returns at the end of the chapter wearing a
+percentage-yield question.
+:::
 :::key-point
 For a hydrated salt, compute the water's Mᵣ once (18 for H₂O) and multiply
 by the number of waters of crystallisation. The dot · in the formula
