@@ -6,7 +6,7 @@ no new-course exits proposed) · owner chat 2026-11-17 "**Proceed**" (= file it 
 2026-11-17 "**run the P14 judgment lane**" · owner chat 2026-11-17 "**run the P14 builder**" · **Status:**
 FILED + PUSHED + **JUDGMENT RUN 2026-11-17** + **BUILDER EMIT + HUB GATES 2026-11-17**, **PR #357 open**
 (branch `videos/p14-channel-recon` → main; carries filing + judgment + builder) and **hub PR
-`t-videomap-p14/run-001` open** (branch → `SyllabAI/syllabai-v2` main) — 3,138 rows (1,012 Tier B anchors +
+[`t-videomap-p14/run-001` #1062 open](https://github.com/SyllabAI/syllabai-v2/pull/1062)** (branch → `SyllabAI/syllabai-v2` main) — 3,138 rows (1,012 Tier B anchors +
 2,126 spec rows) across 34 courses drafted, emitted through the P14/P14B sections, hub gates green
 (video-map tests 16/16 at 6,056 expects; spec-join census 95 courses / 14,299 rows / 0 violations);
 **merge of both PRs remains open (owner review).**
@@ -87,7 +87,7 @@ medium / 1,871 low, 0 high.
   english-language-20/25 6/18 + 5/18; maths p&s-1 pair 17/17, pure-1/pure-3 AL 34/34 + 43/43 COMPLETE;
   the P14 parent rows cascade to the inherit children at build time (e.g. cie-as-chemistry-25 672 → 735
   rows post-P14B, cie-igcse-maths-25-core 229 inherited + 5 P9B + 16 direct).
-- **Hub PR:** branch `t-videomap-p14/run-001` → `SyllabAI/syllabai-v2` main, commit c2ddc540 (98 files:
+- **Hub PR #1062:** branch `t-videomap-p14/run-001` → `SyllabAI/syllabai-v2` main, commit c2ddc540 (98 files:
   the 34 grown course files + the timestamp-churn files + registry.json + flags.json + the test pins).
 
 ## What was filed
@@ -217,7 +217,7 @@ Inventories: `inventory/channels/<pool>-uploads.json` ×17.
    exactly-once skip ledger incl. the NT pool-level entries and the 9 reserved lit-21 titles).
 4. ~~Builder P14 section + hub gates~~ **DONE 2026-11-17** (P14 before the inherit loop + P14B for the
    five P4-children; emit exit 0 ×2 idempotent; video-map tests 16/16 at 6,056 expects; spec-join census
-   14,299 rows / 0 violations; flags receipt-synced) — **hub PR `t-videomap-p14/run-001` open**; PR #357
+   14,299 rows / 0 violations; flags receipt-synced) — **hub PR #1062 open**; PR #357
    carries the filing + judgment + builder. **Both merges need owner review.**
 
 **Security note of record:** no token was used or available in the filing session itself (amended
