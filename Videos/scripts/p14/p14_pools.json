@@ -1,0 +1,26 @@
+{
+  "note": "P14 channel pools — the identified set from the owner-supplied recon list (owner chat 2026-11-16, report P14-channel-recon.md; 'Proceed' 2026-11-17 = file it as P14). 17 of the 24 recon pools are identity-recoverable after the 2026-11-17 session recycle; 7 pool names + 3 unresolved names are ledgered in docs/P14-CHANNEL-RECON-LANE.md pending owner re-supply. The 4 already-covered pools (Cognito P1/P5, James Gan P11, EconplusDal P11, Allery Chemistry P2F) are NOT re-inventoried — the latter two get re-adjudication passes over their EXISTING inventories.",
+  "pools": [
+    {"slug": "etphysics", "label": "ETphysics", "handles": ["@ETphysics"], "knownUc": "UCsFE9IEJ3GfAMeDsbJKDxTQ", "note": "recon: 9702 register, session-paper walkthroughs"},
+    {"slug": "prosperity-academy", "label": "Prosperity Academy", "handles": ["@prosperityacademics"], "knownUc": null, "note": "recon: 1,149 uploads, SOLVED session papers"},
+    {"slug": "dr-hanaa-assil", "label": "Dr Hanaa Assil", "handles": ["@DrHanaaAssil", "@drhanaaassil", "@dr-hanaa-assil", "@HanaaAssil", "@DrHanaaAssil1"], "knownUc": null, "note": "recon: 432 uploads, Edexcel IAL chemistry Units 1-6"},
+    {"slug": "zainematics", "label": "Zainematics", "handles": ["@Zainematics"], "knownUc": null, "note": "recon: umbrella 1,449 uploads: 0606 x188, 9618 x112, 0580 x209"},
+    {"slug": "craigndave", "label": "Craig'n'Dave", "handles": ["@craigndave", "@CraigNDave"], "knownUc": null, "note": "recon: 842 uploads, CAMBRIDGE 0478 numbered series x108"},
+    {"slug": "science-with-hazel", "label": "Science with Hazel", "handles": ["@SciencewithHazel", "@sciencewithhazel", "@ScienceWithHazel"], "knownUc": null, "note": "recon: 949 uploads, Edexcel IGCSE + modular"},
+    {"slug": "mega-lecture", "label": "Mega Lecture", "handles": ["@MegaLecture", "@megalec"], "knownUc": null, "note": "recon: 3,859 uploads"},
+    {"slug": "examsolutions", "label": "ExamSolutions", "handles": ["@ExamSolutions", "@examsolutionsmaths", "@ExamSolutionsMaths"], "knownUc": null, "note": "recon: 4,551 uploads, old-register C1-C4/M/S/FP"},
+    {"slug": "tlmaths", "label": "TLMaths", "handles": ["@TLMaths"], "knownUc": null, "note": "recon: 4,558 uploads, OCR/AQA registers — no-target"},
+    {"slug": "physics-by-m-anwar", "label": "PHYSICS BY M ANWAR", "handles": ["@PhysicsWithAnwar", "@PHYSICSBYMANWAR", "@anwarphysics", "@physicsbymanwar"], "knownUc": null, "note": "recon: NCERT (India) register — no-target"},
+    {"slug": "takingthebiz", "label": "TakingTheBiz", "handles": ["@TakingTheBiz", "@takingthebiz"], "knownUc": null, "note": "recon: business register, no spine qualification — no-target"},
+    {"slug": "accounting-lecture", "label": "Accounting Lecture", "handles": ["@AccountingLecture", "@TheAccountingLecture", "@accountinglecture"], "knownUc": null, "note": "recon: no spine qualification — no-target"},
+    {"slug": "the-econ-show", "label": "The Econ Show", "handles": ["@TheEconShow", "@theeconshow", "@EconShow"], "knownUc": null, "note": "recon: documentaries only — no-target"},
+    {"slug": "igcsesuccess", "label": "IGCSESUCCESS", "handles": ["@IGCSESUCCESS", "@igcsesuccess", "@IGCSESuccess"], "knownUc": null, "note": "recon: 0475 literature x14 — CIE lit-21 owner decision point"},
+    {"slug": "sir-faizan-pasha", "label": "Learn With Sir Faizan Pasha", "handles": [], "knownUc": "UC66vaRFHoZyOdpd4Ge9UPyA", "note": "@SirPasha handle is a squat (title 'rusol'); identity via UC id"},
+    {"slug": "ck-a-level-physics", "label": "CK A-level Physics", "handles": [], "knownUc": "UClPiQq7yZ0-XACtbtGNF8Bw", "note": "'Cambridge A-Level Physics' search result was this channel — identity via UC id"},
+    {"slug": "mr-astbury-maths", "label": "MrAstburyMaths", "handles": ["@MrAstburyMaths"], "knownUc": null, "note": "true handle confirmed during recon"}
+  ],
+  "readjudication": [
+    {"slug": "econplusdal-cie", "label": "EconplusDal — CIE re-adjudication", "source": "inventory/channels/econplusdal-uploads.json (P11 §6 no-target pool, 760 uploads)", "note": "recon: 38 CIE/9708 title hits are econ re-adjudication candidates"},
+    {"slug": "allery-chemistry-cie", "label": "Allery Chemistry — CIE re-adjudication", "source": "inventory/channels/p2f-allery-chemistry.tsv (P2F pool)", "note": "recon: 41 CIE Topic titles unrouted are chem increment candidates"}
+  ]
+}
