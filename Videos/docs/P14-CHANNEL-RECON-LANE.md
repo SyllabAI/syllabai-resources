@@ -2,9 +2,53 @@
 
 **Task:** T-VIDEOMAP-P14 · **Authorized:** owner chat 2026-11-16 (the ~31-channel recon request; report
 delivered same day: 24 new pools adjudicated T1 16,064 / T2 3,323 / NT 6,003 = 25,390 uploads, 0 overlap,
-no new-course exits proposed) · owner chat 2026-11-17 "**Proceed**" (= file it as P14) · **Status:** FILED + PUSHED, **PR #357 opened 2026-11-17** (branch `videos/p14-channel-recon` → main;
-the filing session had no write token — push/PR followed same day with an owner-supplied token) —
-judgment, enrichment, identity sweep, builder emit and hub gates remain open.
+no new-course exits proposed) · owner chat 2026-11-17 "**Proceed**" (= file it as P14) · owner chat
+2026-11-17 "**run the P14 judgment lane**" · **Status:** FILED + PUSHED + **JUDGMENT RUN 2026-11-17**, **PR
+#357 open** (branch `videos/p14-channel-recon` → main) — 3,138 rows (1,012 Tier B anchors + 2,126 spec rows)
+across 34 courses drafted + the exactly-once skip ledger + the oEmbed identity sweep (2,900/2,900, 0 bad);
+**builder emit, hub gates and merge remain open.**
+
+## Judgment run (2026-11-17)
+
+Engine: `scripts/p14/p14_judgment.py` (the P13 gate ladder extended) → `p14_oembed.py` (identity sweep) →
+`p14_assemble.py` (drafts ×34 + verdicts ×34, the file law). All 12 judgment pools (T1 ×10 + T2 ×2,
+18,005 uploads) + the Allery-CIE re-adjudication group (41 candidates) + the NT ×5 pools (6,390, pool-level
+ledger) dispositioned **exactly-once** (0 routed-vs-skip collisions, machine-checked in the run output).
+
+- **Rows: 3,138 = 1,012 Tier B anchors (method paper-code, high) + 2,126 spec rows (the P13 ladder: section-
+  marker N.M, verbatim section-name binding over pipe/dash fields, distinctive-token df<=3, four-gate topic
+  lectures; 1,871 low / 255 medium)** across 34 courses; 5 courses are P4 inherit CHILDREN whose direct rows
+  append POST-inherit (cie-as-physics-25 735 rows / 145-145 specs, cie-as-chemistry-25, cie-as-biology-25,
+  cie-igcse-maths-25-core, ial-chemistry-17) — `work/p14/p14-courses.json` carries the pre/post partition.
+- **Tier B laws of record:** CIE paper-number routing (sciences 1-3 AS / 4-5 A2; maths P1..P6 unit courses;
+  9618 1-2 AS / 3-4 A-level) incl. the compact ON/MJ/FM session forms and the `9701_w23_qp_42` paper-store
+  pattern; 0580 papers 2/4 → extended, 1/3 → core (P9); **WMA01 C12 / C34 IAL-legacy composites → two units
+  each (P9)** — 124 ExamSolutions anchors; **IAL chemistry "Unit N <session>" unit-paper anchors (the P11
+  W-code law analog) — 73 Assil anchors onto ial-chemistry-17 (the recon's 44/319 deficit pool).
+- **ExamSolutions resolved honestly:** the recon's routing note ("the P9 law binds old-register titles to
+  the IAL unit courses") resolves to — IAL-legacy C12/C34 composites anchor (124 rows); **bare GCE session
+  walkthroughs SKIP per ANCHOR-GRANULARITY §6** (a GCE paper is evidence about the GCE qualification; no GCE
+  course in the spine — the P9 precedent, ~4,400 skips); OCR/AQA/MEI-board skip; FP2/FP3/S3/S4/M3-5 no-course
+  skips (the P10 FP2 owner-note class); the pool's single cross-register teaching candidate binds at the P10
+  bar. The T1 verdict stands with the yield honestly disclosed.
+- **Zainematics dual-qualification precedence:** 405/411 of the 0580 titles and 188/188 of the 0606 titles
+  carry O-Level branding alongside the spine code — the spine code routes (machine-checkable qualification
+  evidence), the O-Level-only remainder skips (no O-Level course in the spine).
+- **Mega Lecture register fallback:** the no-code "AS/A2 <subject>" class series routes under the P13 register
+  law (subject+level evidence); WhatsApp/live-class promo strings riding along on genuine teaching titles do
+  NOT trigger the guidance gate (the P13 gate keeps its advice/how-to/marketing scope).
+- **CK / Sir Faizan:** the archived/lecture 9702 teaching series routes by pool-level physics register when
+  titles carry no code (recon: CIE 9702 teaching register) — AS/A2 register decides the course.
+- **IGCSESUCCESS:** FLE 0500 register rows bind the english-language-20/25 pair (sparse spines: 1+1 rows,
+  129 honest no-binding skips — the df<=3 bar does not stretch to skill-formulated specs); 0408 World
+  Literature skips (no spine course); **9 titles RESERVED** (0475 series) pending the lit-21 owner decision
+  (`work/p14/reserved-lit21.json`) — not silently dropped, NOT skipped.
+- **Identity:** oEmbed **2,900/2,900 author_url == channel-of-record (0 mismatch, 0 dead, 0 thumb fallbacks)**.
+- **Skips: 21,527** by class: NT pool-level 6,390; GCE/§6 paper evidence ~4,500 (ExamSolutions + Astbury GCE
+  register); non-qualifier aggregator/umbrella remainder ~3,900 (Mega/Zainematics); O-Level register; guidance/
+  advice/marketing; out-of-spine boards (AQA/OCR/IB/GCSE); no-honest-binding at the df<=3 bar; 0408; misc.
+  Every one of the 24,486 disposition accounts (18,046 + 41 Allery + 6,390 NT + 9 reserved) appears exactly
+  once in `work/p14/{tier-b,tier-a,skips,reserved-lit21}.json`.
 
 ## What was filed
 
@@ -126,14 +170,14 @@ Inventories: `inventory/channels/<pool>-uploads.json` ×17.
 ## Open work (in lane order)
 
 1. Owner: re-supply the 7 lost pool names + 3 unresolved URLs (ledger above); decide the CIE lit-21
-   question (open it to IGCSESUCCESS's 0475 series, or keep terminal).
-2. Judgment lane (P11/P12/P13 class tables over the T1 pools first: ETphysics, Prosperity, Assil,
-   Zainematics, Craig'n'Dave, Hazel, Mega Lecture, ExamSolutions, then T2): route → candidates →
-   per-row judgment with the degenerate-bind re-adjudication bar.
-3. Enrichment + oEmbed identity sweep + honest-skip ledger (exactly-once disposition of all 24,395).
-4. Builder P14 section (before the inherit loop; video-keyed idempotency), hub gates
-   (`video-map.test.ts` 16/16 + spec-join census), hub PR — **PR #357 carries the filing; merge needs
-   owner review**; the judgment/enrich/builder phases follow on this branch or successors.
+   question (open it to IGCSESUCCESS's 0475 series — 9 titles RESERVED in `work/p14/reserved-lit21.json` —
+   or keep terminal).
+2. ~~Judgment lane~~ **DONE 2026-11-17** (3,138 rows ×34 courses; see the Judgment run section).
+3. ~~Enrichment + oEmbed identity sweep + honest-skip ledger~~ **DONE 2026-11-17** (oEmbed 2,900/2,900; the
+   exactly-once skip ledger incl. the NT pool-level entries and the 9 reserved lit-21 titles).
+4. **Builder P14 section (before the inherit loop; video-keyed idempotency; the 5 P4-child courses append
+   post-inherit per `p14-courses.json`)**, hub gates (`video-map.test.ts` 16/16 + spec-join census), hub PR —
+   **PR #357 carries the filing + judgment; merge needs owner review.**
 
 **Security note of record:** no token was used or available in the filing session itself (amended
 2026-11-17: the push and PR #357 were subsequently opened with the owner-supplied token). The recurring
