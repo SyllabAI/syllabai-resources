@@ -1,0 +1,229 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_FFNGq2wjnWSnYC7Y",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "2dde2effa4ccc036e70b50e2bfb819fa494d6ddd045eab257c109ffe80ff3dd7",
+    "pinnedRef": "2fc9e39e4cb53c8e29601db0013337d9b2996890"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_FFNGq2wjnWSnYC7Y",
+    "topicTitle": "2. Energetics, Group Chemistry, Halogenoalkanes & Alcohols",
+    "subtopicTitle": "Reactions of Alcohols",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/2-energetics-group-chemistry-halogenoalkanes-and-alcohols/2-9-organic-chemistry-alcohols/2-9-2-reactions-of-alcohols",
+    "specAnchors": [
+      {
+        "code": "10.17",
+        "text": "understand the reactions of alcohols with: i oxygen in air (combustion) ii halogenating agents: • PCl 5 to produce chloroalkanes (including its use as a qualitative test for the presence of the –OH group) • 50% concentrated sulfuric acid and potassium bromide to produce bromoalkanes • red phosphorus and iodine to produce iodoalkanes iii concentrated phosphoric acid to form alkenes by elimination Descriptions of the mechanisms of these reactions are not required."
+      }
+    ],
+    "primer": {
+      "text": "Alcohols burn, swap their hydroxyl for every halogen, and dehydrate to alkenes. This note balances the combustion equation, routes chlorination through PCl5 or acid, bromination through in-situ HBr, iodination through PI3, and shows how concentrated phosphoric acid squeezes out water to close a double bond.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_FFNGq2wjnWSnYC7Y::L1",
+        "title": "Combustion: alcohols as fuels",
+        "sourceHeadings": [
+          "Combustion of alcohols"
+        ],
+        "specRefs": [
+          "10.17"
+        ],
+        "opening": "Ignited in air, alcohols burn just as hydrocarbons do, releasing carbon dioxide and water. This lesson writes the combustion word equation, balances representative cases, and notes why the alcohols' clean, energy-rich burning makes them practical fuels.",
+        "keyPoints": [
+          "Ignited in air, alcohols burn in oxygen and undergo complete combustion.",
+          "The products of complete combustion are carbon dioxide and water, matching the hydrocarbon pattern.",
+          "The word equation is alcohol plus oxygen giving carbon dioxide plus water.",
+          "Longer-chain alcohols carry more carbon per molecule, so their complete combustion equations need proportionally more oxygen.",
+          "The reaction is strongly exothermic, which underlies the use of alcohols such as ethanol as fuels."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Burn the alcohol completely and every carbon becomes carbon dioxide while every hydrogen becomes water; count the atoms on each side to fix the oxygen coefficient.",
+            "analogy": "Burning is an auction where carbon and hydrogen bid for oxygen atoms - balancing pays each atom exactly what it needs and nothing more.",
+            "examPointer": "Balance combustion equations by counting carbons first, then hydrogens, then oxygen last; state the products as carbon dioxide and water for complete burning."
+          },
+          "medium": {
+            "restatement": "Complete combustion means oxygen is plentiful, so no carbon monoxide or soot forms; the atom census on both sides of the equation must close exactly, which is why the oxygen coefficient grows with chain length.",
+            "analogy": "A busy restaurant kitchen: every plate (carbon and hydrogen) must leave with its exact order of oxygen sides; short orders need less oxygen, long orders more.",
+            "examPointer": "Quote the balanced equation for the named alcohol and flag the reaction as exothermic when a question asks why alcohols serve as fuels."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_FFNGq2wjnWSnYC7Y::L1::Q1",
+          "rn_FFNGq2wjnWSnYC7Y::L1::Q2",
+          "rn_FFNGq2wjnWSnYC7Y::L1::Q3",
+          "rn_FFNGq2wjnWSnYC7Y::L1::Q4",
+          "rn_FFNGq2wjnWSnYC7Y::L1::Q5",
+          "rn_FFNGq2wjnWSnYC7Y::L1::Q6",
+          "rn_FFNGq2wjnWSnYC7Y::L1::Q7",
+          "rn_FFNGq2wjnWSnYC7Y::L1::Q8",
+          "rn_FFNGq2wjnWSnYC7Y::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01"
+        ]
+      },
+      {
+        "id": "rn_FFNGq2wjnWSnYC7Y::L2",
+        "title": "Swapping -OH for a halogen: three routes",
+        "sourceHeadings": [
+          "Conversions to halogenoalkanes"
+        ],
+        "specRefs": [
+          "10.17"
+        ],
+        "opening": "Each halogen has its own reagent for replacing the hydroxyl group. Chlorine arrives through phosphorus(V) chloride or, for tertiary alcohols, concentrated hydrochloric acid; bromine rides in via hydrogen bromide made in situ; iodine through phosphorus and iodine under reflux. This lesson maps all three routes and their tell-tale observations.",
+        "keyPoints": [
+          "Conversions to halogenoalkanes replace the hydroxyl group with a halogen atom, a change known as halogenation.",
+          "Phosphorus(V) chloride reacts vigorously with alcohols at room temperature, releasing steamy HCl fumes.",
+          "The PCl5 reaction doubles as a qualitative test for the -OH group via its steaming fumes.",
+          "Tertiary alcohols can also be chlorinated by shaking with concentrated hydrochloric acid alone, a route closed to primary and secondary alcohols.",
+          "Bromination uses potassium bromide with 50 percent sulfuric acid to generate HBr in situ, and iodination uses red phosphorus plus iodine under reflux via PI3."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Pick the reagent by halogen: PCl5 for a fast room-temperature chloride with steamy fumes, KBr plus half-strength sulfuric acid for the bromide, red phosphorus and iodine under reflux for the iodide; each route swaps the hydroxyl for the halogen.",
+            "analogy": "Three courier services deliver one parcel: same replacement job, different vehicles and timetables - PCl5 same-day, HBr warmed, PI3 reflux.",
+            "examPointer": "Match reagent to halogen in answers and quote the steamy-fumes test when asked how to confirm an -OH group."
+          },
+          "medium": {
+            "restatement": "The in-situ routes make the hydrogen halide first - sulfate or phosphorus chemistry manufactures HBr or PI3 - and the hydrogen halide then does the substitution; the tertiary route works by a different, acid-catalysed pathway that primary and secondary carbons cannot support.",
+            "analogy": "Build the delivery van before the parcel can ship: the inorganic pre-reaction manufactures the actual substituting agent for bromine and iodine.",
+            "examPointer": "Write the two-step inorganic-then-substitution equations for bromination and iodination, and restrict the direct HCl route to tertiary alcohols."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_FFNGq2wjnWSnYC7Y::L2::Q1",
+          "rn_FFNGq2wjnWSnYC7Y::L2::Q2",
+          "rn_FFNGq2wjnWSnYC7Y::L2::Q3",
+          "rn_FFNGq2wjnWSnYC7Y::L2::Q4",
+          "rn_FFNGq2wjnWSnYC7Y::L2::Q5",
+          "rn_FFNGq2wjnWSnYC7Y::L2::Q6",
+          "rn_FFNGq2wjnWSnYC7Y::L2::Q7",
+          "rn_FFNGq2wjnWSnYC7Y::L2::Q8",
+          "rn_FFNGq2wjnWSnYC7Y::L2::Q9"
+        ],
+        "figureIds": []
+      },
+      {
+        "id": "rn_FFNGq2wjnWSnYC7Y::L3",
+        "title": "Dehydration: squeezing water out to make alkenes",
+        "sourceHeadings": [
+          "Dehydration to Alkenes"
+        ],
+        "specRefs": [
+          "10.17"
+        ],
+        "opening": "Heated with concentrated phosphoric acid, an alcohol loses water across adjacent carbons and forms an alkene. This lesson shows the elimination pattern, writes the ethanol case, and explains why the acid never appears in the equation.",
+        "keyPoints": [
+          "Dehydration heats the alcohol with concentrated phosphoric acid to remove water and form a C=C bond.",
+          "The reaction mirrors the elimination chemistry of halogenoalkanes, removing OH and an adjacent hydrogen.",
+          "The ethanol case is CH3CH2OH giving CH2=CH2 and water.",
+          "The C=C double bond forms between the carbon that lost the hydroxyl and its hydrogen-bearing neighbour.",
+          "The equation omits the phosphoric acid because the water formed dilutes the concentrated reagent."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Heat the alcohol in concentrated phosphoric acid: the hydroxyl and a neighbouring hydrogen leave together as water, their carbons bond double, and an alkene emerges.",
+            "analogy": "Two seats on a bus vacated together let the remaining passengers link arms across the gap - the departing water frees the carbons to join as C=C.",
+            "examPointer": "Write the alcohol-to-alkene equation with water as the co-product and state the catalyst's dilution when asked why it is absent."
+          },
+          "medium": {
+            "restatement": "Elimination needs a leaving group and a beta hydrogen; the acid protonates the hydroxyl, water departs, and the adjacent hydrogen's electrons swing in to close the double bond. The freshly formed water dilutes the acid, so the catalyst works by contact rather than stoichiometrically.",
+            "analogy": "A talent show where the host (the acid) coaxes one act (water) off stage, letting the two neighbouring acts link their performance into one double act.",
+            "examPointer": "Connect dehydration to halogenoalkane elimination when comparing elimination chemistry, and name concentrated phosphoric acid as the reagent of choice."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_FFNGq2wjnWSnYC7Y::L3::Q1",
+          "rn_FFNGq2wjnWSnYC7Y::L3::Q2",
+          "rn_FFNGq2wjnWSnYC7Y::L3::Q3",
+          "rn_FFNGq2wjnWSnYC7Y::L3::Q4",
+          "rn_FFNGq2wjnWSnYC7Y::L3::Q5",
+          "rn_FFNGq2wjnWSnYC7Y::L3::Q6",
+          "rn_FFNGq2wjnWSnYC7Y::L3::Q7",
+          "rn_FFNGq2wjnWSnYC7Y::L3::Q8",
+          "rn_FFNGq2wjnWSnYC7Y::L3::Q9"
+        ],
+        "figureIds": []
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "complete combustion",
+          "definition": "Burning with ample oxygen so that all carbon becomes carbon dioxide and all hydrogen becomes water.",
+          "firstLesson": 1
+        },
+        {
+          "term": "halogenation",
+          "definition": "Replacement of an alcohol's hydroxyl group by a halogen atom to form a halogenoalkane.",
+          "firstLesson": 2
+        },
+        {
+          "term": "dehydration",
+          "definition": "Elimination of water from an alcohol using concentrated phosphoric acid to form an alkene.",
+          "firstLesson": 3
+        }
+      ],
+      "workedExample": {
+        "prompt": "Verify the two-step bromination chemistry: the inorganic generation step 2KBr + H2SO4 -> K2SO4 + 2HBr, then the substitution CH3CH2CH2CH2OH + HBr -> CH3CH2CH2CH2Br + H2O.",
+        "steps": [
+          "Census the generation step: potassium 2 = 2, bromine 2 = 2, hydrogen 2 = 2, sulfur 1 = 1, oxygen 4 = 4, so the first equation closes.",
+          "Census the substitution step's carbons: 4 = 4, and its bromines: 1 = 1.",
+          "Census the substitution step's hydrogens: 9 + 1 on the left against 9 + 2 on the right, totalling 10 = 10.",
+          "Census oxygen: 1 = 1, so every atom book balances across both steps."
+        ],
+        "finalAnswer": "Both equations balance exactly: the HBr is generated in situ and then substitutes the hydroxyl of butan-1-ol without any atom deficit."
+      }
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/b44045653d49-3-4-hydroxy-compounds-combustion-of-alcohols.png",
+        "alt": "Hydroxy Compounds Combustion of Alcohols, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Combustion of alcohols",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Complete combustion of alcohols to produce carbon dioxide and water"
+      }
+    ]
+  }
+}

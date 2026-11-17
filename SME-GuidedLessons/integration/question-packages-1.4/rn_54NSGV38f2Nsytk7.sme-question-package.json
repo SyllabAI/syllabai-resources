@@ -1,0 +1,723 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_54NSGV38f2Nsytk7",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "acfe7e1733164a186c42799a5d6eb5e06b5a11bdf912c6a31ef7e6e24d271cf1",
+    "pinnedRef": "2fc9e39e4cb53c8e29601db0013337d9b2996890"
+  },
+  "packageId": "ial-chemistry::rn_54NSGV38f2Nsytk7",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_54NSGV38f2Nsytk7::L1::Q1",
+      "moduleId": "rn_54NSGV38f2Nsytk7::L1",
+      "stem": "Which two pieces of equipment can collect the gas produced in this practical?",
+      "misconceptionClass": "collection options",
+      "options": [
+        {
+          "key": "A",
+          "text": "A gas syringe or the downward displacement of water",
+          "correct": true,
+          "explanation": "Both capture the evolved gas for volume measurement, one by piston travel and one by water displacement.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "A burette and a pipette",
+          "correct": false,
+          "explanation": "Those measure liquids in titration, not gas volumes.",
+          "misconception": "apparatus confused"
+        },
+        {
+          "key": "C",
+          "text": "A separating funnel and a beaker",
+          "correct": false,
+          "explanation": "Separating funnels split liquid layers; they do not meter gas.",
+          "misconception": "apparatus confused"
+        },
+        {
+          "key": "D",
+          "text": "A colorimeter and a cuvette",
+          "correct": false,
+          "explanation": "Those measure light absorption, unrelated to gas collection.",
+          "misconception": "apparatus confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_54NSGV38f2Nsytk7::L1::Q2",
+      "moduleId": "rn_54NSGV38f2Nsytk7::L1",
+      "stem": "The model reaction in this core practical is between",
+      "misconceptionClass": "model reaction",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ethanol and ethanoic acid",
+          "correct": false,
+          "explanation": "That esterification makes no gas at all.",
+          "misconception": "wrong reaction"
+        },
+        {
+          "key": "B",
+          "text": "Sodium carbonate and hydrochloric acid",
+          "correct": true,
+          "explanation": "Na2CO3 + 2HCl releases carbon dioxide, the gas whose volume is measured.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Magnesium and steam",
+          "correct": false,
+          "explanation": "That reaction produces hydrogen but is not the practical's model here.",
+          "misconception": "wrong reaction"
+        },
+        {
+          "key": "D",
+          "text": "Copper oxide and carbon monoxide",
+          "correct": false,
+          "explanation": "That is a gas-solid reduction, not the carbonate-acid practical.",
+          "misconception": "wrong reaction"
+        }
+      ]
+    },
+    {
+      "id": "rn_54NSGV38f2Nsytk7::L1::Q3",
+      "moduleId": "rn_54NSGV38f2Nsytk7::L1",
+      "stem": "Why must the delivery tube be connected immediately after adding the sodium carbonate?",
+      "misconceptionClass": "timing reason",
+      "options": [
+        {
+          "key": "A",
+          "text": "The sodium carbonate would dissolve the tube",
+          "correct": false,
+          "explanation": "No such chemical attack occurs.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "B",
+          "text": "The gas syringe needs warming before use",
+          "correct": false,
+          "explanation": "Temperature equilibration is not the issue.",
+          "misconception": "wrong reason"
+        },
+        {
+          "key": "C",
+          "text": "Gas evolved before sealing would escape and understate the measured volume",
+          "correct": true,
+          "explanation": "The connection timing is the main defence against early gas loss.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The reaction would explode if left open",
+          "correct": false,
+          "explanation": "The reaction is a gentle fizzing, not a hazard requiring speed.",
+          "misconception": "wrong reason"
+        }
+      ]
+    },
+    {
+      "id": "rn_54NSGV38f2Nsytk7::L1::Q4",
+      "moduleId": "rn_54NSGV38f2Nsytk7::L1",
+      "stem": "Which of the following is an assumption written into the method's validity?",
+      "misconceptionClass": "assumption list",
+      "options": [
+        {
+          "key": "A",
+          "text": "The gas syringe has no scale markings",
+          "correct": false,
+          "explanation": "The syringe is precisely what carries the scale.",
+          "misconception": "false claim"
+        },
+        {
+          "key": "B",
+          "text": "Carbon dioxide dissolves completely in the water bath",
+          "correct": false,
+          "explanation": "Dissolution would be a loss, not an assumption of the method.",
+          "misconception": "contradiction"
+        },
+        {
+          "key": "C",
+          "text": "The acid is added to the carbonate, never the reverse",
+          "correct": false,
+          "explanation": "The method adds solid to acid; the direction is stated as procedure, not assumption.",
+          "misconception": "confused categories"
+        },
+        {
+          "key": "D",
+          "text": "The reaction goes to completion before the volume is read",
+          "correct": true,
+          "explanation": "The method assumes complete reaction so the gas volume reflects all the carbonate added.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_54NSGV38f2Nsytk7::L1::Q5",
+      "moduleId": "rn_54NSGV38f2Nsytk7::L1",
+      "stem": "In the displacement-of-water arrangement, the gas volume is read from",
+      "misconceptionClass": "displacement reading",
+      "options": [
+        {
+          "key": "A",
+          "text": "The level of water the gas has pushed out of the inverted vessel",
+          "correct": true,
+          "explanation": "The gas displaces water whose volume equals the gas collected.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The mass lost by the reaction flask",
+          "correct": false,
+          "explanation": "Mass loss belongs to a different experimental design.",
+          "misconception": "wrong method"
+        },
+        {
+          "key": "C",
+          "text": "The colour change of an indicator in the water",
+          "correct": false,
+          "explanation": "No indicator is part of the collection.",
+          "misconception": "invented detail"
+        },
+        {
+          "key": "D",
+          "text": "The pressure gauge on the delivery tube",
+          "correct": false,
+          "explanation": "A simple displacement set-up has no pressure gauge.",
+          "misconception": "invented detail"
+        }
+      ]
+    },
+    {
+      "id": "rn_54NSGV38f2Nsytk7::L1::Q6",
+      "moduleId": "rn_54NSGV38f2Nsytk7::L1",
+      "stem": "State the equation for the model reaction of this core practical.",
+      "misconceptionClass": "equation recall",
+      "kind": "recall",
+      "modelAnswer": "Na2CO3 + 2HCl gives 2NaCl + H2O + CO2, releasing one mole of carbon dioxide per mole of carbonate.",
+      "keywords": [
+        "Na2CO3",
+        "HCl",
+        "CO2"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_54NSGV38f2Nsytk7::L1::Q7",
+      "moduleId": "rn_54NSGV38f2Nsytk7::L1",
+      "stem": "Name the two assumptions that protect the gas volume reading.",
+      "misconceptionClass": "assumption recall",
+      "kind": "recall",
+      "modelAnswer": "Negligible gas is lost between adding the solid and connecting the tube, and the whole set-up is airtight so no gas leaks.",
+      "keywords": [
+        "lost",
+        "airtight",
+        "volume"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_54NSGV38f2Nsytk7::L1::Q8",
+      "moduleId": "rn_54NSGV38f2Nsytk7::L1",
+      "stem": "Explain why the reaction is allowed to go to completion before the volume is recorded.",
+      "misconceptionClass": "completion explanation",
+      "kind": "explain-why",
+      "modelAnswer": "Only at completion does the syringe hold all the carbon dioxide the weighed carbonate can release, so a partial-reaction reading would understate the gas volume and corrupt every downstream calculation.",
+      "keywords": [
+        "completion",
+        "volume",
+        "understate"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_54NSGV38f2Nsytk7::L1::Q9",
+      "moduleId": "rn_54NSGV38f2Nsytk7::L1",
+      "stem": "A student's set-up leaks around the bung. State the effect on the measured volume and on any molar volume calculated from it.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Both fall: leaked gas shrinks the recorded volume, and dividing the shrunken volume by the true mole count returns a molar volume smaller than the real one.",
+      "keywords": [
+        "leak",
+        "volume",
+        "smaller"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_54NSGV38f2Nsytk7::L2::Q1",
+      "moduleId": "rn_54NSGV38f2Nsytk7::L2",
+      "stem": "What is plotted on the axes of the mass-volume graph?",
+      "misconceptionClass": "graph axes",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mass on both axes, against itself",
+          "correct": false,
+          "explanation": "Plotting a variable against itself is meaningless.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "B",
+          "text": "Carbonate mass plotted horizontally and gas volume vertically",
+          "correct": true,
+          "explanation": "The manipulated variable goes horizontally and the measured gas volume vertically.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Volume on the x-axis and mass on the y-axis",
+          "correct": false,
+          "explanation": "The axes are reversed from the stated plotting convention.",
+          "misconception": "axes reversed"
+        },
+        {
+          "key": "D",
+          "text": "Time on the x-axis and volume on the y-axis",
+          "correct": false,
+          "explanation": "Time belongs to rate experiments, not this mass-volume study.",
+          "misconception": "wrong variable"
+        }
+      ]
+    },
+    {
+      "id": "rn_54NSGV38f2Nsytk7::L2::Q2",
+      "moduleId": "rn_54NSGV38f2Nsytk7::L2",
+      "stem": "How are anomalous results treated when drawing the best-fit line?",
+      "misconceptionClass": "anomaly handling",
+      "options": [
+        {
+          "key": "A",
+          "text": "They are averaged into the line like any other point",
+          "correct": false,
+          "explanation": "Averaging in a bad point skews the fit.",
+          "misconception": "wrong handling"
+        },
+        {
+          "key": "B",
+          "text": "The whole experiment is abandoned if any point strays",
+          "correct": false,
+          "explanation": "One anomaly does not invalidate the data set.",
+          "misconception": "overreaction"
+        },
+        {
+          "key": "C",
+          "text": "They are ignored so the line fits the reliable points",
+          "correct": true,
+          "explanation": "Discarding outliers prevents one bad reading from tilting the line.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "They are circled and included with double weight",
+          "correct": false,
+          "explanation": "Outliers get no extra influence; they are set aside.",
+          "misconception": "wrong handling"
+        }
+      ]
+    },
+    {
+      "id": "rn_54NSGV38f2Nsytk7::L2::Q3",
+      "moduleId": "rn_54NSGV38f2Nsytk7::L2",
+      "stem": "The molar mass of sodium carbonate used in the analysis is",
+      "misconceptionClass": "molar mass value",
+      "options": [
+        {
+          "key": "A",
+          "text": "60.0 g mol-1, the carbonate ion alone",
+          "correct": false,
+          "explanation": "The carbonate ion mass omits the two sodiums.",
+          "misconception": "incomplete sum"
+        },
+        {
+          "key": "B",
+          "text": "44.0 g mol-1, the carbon dioxide mass",
+          "correct": false,
+          "explanation": "44.0 belongs to CO2, not the carbonate.",
+          "misconception": "compound confused"
+        },
+        {
+          "key": "C",
+          "text": "23.0 g mol-1, one sodium only",
+          "correct": false,
+          "explanation": "Two sodium atoms ride in the formula.",
+          "misconception": "incomplete sum"
+        },
+        {
+          "key": "D",
+          "text": "106.0 g mol-1, from 2 x 23.0 plus 12.0 plus 3 x 16.0",
+          "correct": true,
+          "explanation": "The summed atomic masses give 46.0 + 12.0 + 48.0 = 106.0.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_54NSGV38f2Nsytk7::L2::Q4",
+      "moduleId": "rn_54NSGV38f2Nsytk7::L2",
+      "stem": "The volume of gas must be converted from cm3 to dm3 before the final division because",
+      "misconceptionClass": "unit conversion reason",
+      "options": [
+        {
+          "key": "A",
+          "text": "Molar volume is quoted per mole in dm3, so the units of numerator and denominator must match the convention",
+          "correct": true,
+          "explanation": "Dividing dm3 by mol yields dm3 mol-1 directly, the standard quoting unit.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "cm3 volumes are too small for any calculator",
+          "correct": false,
+          "explanation": "Calculators handle any magnitude; the conversion is about units, not arithmetic.",
+          "misconception": "nonsense reason"
+        },
+        {
+          "key": "C",
+          "text": "The mole only exists for dm3 substances",
+          "correct": false,
+          "explanation": "The mole is unit-free; the conversion serves the quoting convention.",
+          "misconception": "nonsense reason"
+        },
+        {
+          "key": "D",
+          "text": "Syringes only read in dm3",
+          "correct": false,
+          "explanation": "Syringes typically read cm3.",
+          "misconception": "false claim"
+        }
+      ]
+    },
+    {
+      "id": "rn_54NSGV38f2Nsytk7::L2::Q5",
+      "moduleId": "rn_54NSGV38f2Nsytk7::L2",
+      "stem": "Using the worked data, 0.35 g of carbonate gives 79.0 cm3 of gas. The molar volume calculates to approximately",
+      "misconceptionClass": "result value",
+      "options": [
+        {
+          "key": "A",
+          "text": "7.9 dm3 mol-1",
+          "correct": false,
+          "explanation": "That drops a factor of ten in the conversion.",
+          "misconception": "arithmetic slip"
+        },
+        {
+          "key": "B",
+          "text": "23.9 dm3 mol-1",
+          "correct": true,
+          "explanation": "0.35/106.0 = 0.0033 mol and 0.079/0.0033 gives about 23.9.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "44.0 dm3 mol-1",
+          "correct": false,
+          "explanation": "44.0 is carbon dioxide's molar mass, not the volume result.",
+          "misconception": "value confused"
+        },
+        {
+          "key": "D",
+          "text": "106.0 dm3 mol-1",
+          "correct": false,
+          "explanation": "106.0 is the carbonate's molar mass.",
+          "misconception": "value confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_54NSGV38f2Nsytk7::L2::Q6",
+      "moduleId": "rn_54NSGV38f2Nsytk7::L2",
+      "stem": "State the mole arithmetic used on the graph-reading mass.",
+      "misconceptionClass": "mole recall",
+      "kind": "recall",
+      "modelAnswer": "Carbonate moles equal the graph-reading mass divided by 106.0, its molar mass in g mol-1.",
+      "keywords": [
+        "mass",
+        "106.0",
+        "moles"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_54NSGV38f2Nsytk7::L2::Q7",
+      "moduleId": "rn_54NSGV38f2Nsytk7::L2",
+      "stem": "State the final division that produces the molar gas volume.",
+      "misconceptionClass": "final step recall",
+      "kind": "recall",
+      "modelAnswer": "Molar volume equals the gas volume in dm3 divided by the moles of carbonate, since one mole of carbonate releases one mole of gas.",
+      "keywords": [
+        "volume",
+        "moles",
+        "divided"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_54NSGV38f2Nsytk7::L2::Q8",
+      "moduleId": "rn_54NSGV38f2Nsytk7::L2",
+      "stem": "Explain why the carbonate and the gas exchange in a one-to-one mole ratio here.",
+      "misconceptionClass": "stoichiometry explanation",
+      "kind": "explain-why",
+      "modelAnswer": "The balanced equation Na2CO3 + 2HCl gives 2NaCl + H2O + CO2 places a single CO2 against a single Na2CO3, so their mole ratio is one to one and the gas moles equal the carbonate moles.",
+      "keywords": [
+        "balanced",
+        "one",
+        "ratio"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_54NSGV38f2Nsytk7::L2::Q9",
+      "moduleId": "rn_54NSGV38f2Nsytk7::L2",
+      "stem": "A graph reading gives 0.50 g of carbonate releasing 118 cm3 of gas. Compute the molar volume and show the units of every stage.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Moles: 0.50/106.0 = 0.0047 mol; volume: 118/1000 = 0.118 dm3; molar volume: 0.118/0.0047 = about 25 dm3 mol-1, quoted per mole at room conditions.",
+      "keywords": [
+        "0.50",
+        "0.118",
+        "molar"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_54NSGV38f2Nsytk7::L3::Q1",
+      "moduleId": "rn_54NSGV38f2Nsytk7::L3",
+      "stem": "A 0.950 g sample of a Group 2 carbonate releases 226 cm3 of carbon dioxide. What is the first calculation?",
+      "misconceptionClass": "first step",
+      "options": [
+        {
+          "key": "A",
+          "text": "The molar mass of hydrochloric acid",
+          "correct": false,
+          "explanation": "The acid's molar mass plays no role in the deduction.",
+          "misconception": "irrelevant quantity"
+        },
+        {
+          "key": "B",
+          "text": "The mass of water formed",
+          "correct": false,
+          "explanation": "Water is not part of the gas measurement.",
+          "misconception": "irrelevant quantity"
+        },
+        {
+          "key": "C",
+          "text": "Moles of carbon dioxide, dividing 0.226 dm3 by 24 dm3 mol-1",
+          "correct": true,
+          "explanation": "The gas volume converts to moles first, feeding every later step.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The atomic mass of the metal directly",
+          "correct": false,
+          "explanation": "The metal mass emerges only after the mole count and subtraction.",
+          "misconception": "step skipped"
+        }
+      ]
+    },
+    {
+      "id": "rn_54NSGV38f2Nsytk7::L3::Q2",
+      "moduleId": "rn_54NSGV38f2Nsytk7::L3",
+      "stem": "Why must the carbonate ion's mass be subtracted before identifying the metal?",
+      "misconceptionClass": "subtraction reason",
+      "options": [
+        {
+          "key": "A",
+          "text": "The carbonate ion is heavier than any metal",
+          "correct": false,
+          "explanation": "Carbonate at 60.0 is lighter than most metals; the reason is the subtraction logic, not a weight contest.",
+          "misconception": "wrong reason"
+        },
+        {
+          "key": "B",
+          "text": "Carbon dioxide carries the metal's mass away",
+          "correct": false,
+          "explanation": "The gas is pure CO2; the metal stays behind in solution.",
+          "misconception": "wrong chemistry"
+        },
+        {
+          "key": "C",
+          "text": "The metal is volatile and evaporates during the reaction",
+          "correct": false,
+          "explanation": "The metal ion stays in solution throughout.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "D",
+          "text": "The formula mass belongs to the whole MCO3, and the metal is only the part left after removing 60.0 of carbonate",
+          "correct": true,
+          "explanation": "Matching the full formula mass against a metal would mistake the carbonate package for the metal.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_54NSGV38f2Nsytk7::L3::Q3",
+      "moduleId": "rn_54NSGV38f2Nsytk7::L3",
+      "stem": "The worked deduction ends with calcium because the metal's mass calculates to",
+      "misconceptionClass": "deduction result",
+      "options": [
+        {
+          "key": "A",
+          "text": "40.9, closest to calcium's 40.1",
+          "correct": true,
+          "explanation": "100.9 minus 60.0 leaves 40.9, and calcium at 40.1 is the nearest Group 2 match.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "100.9, matching calcium directly",
+          "correct": false,
+          "explanation": "100.9 is the whole carbonate's formula mass, not the metal's.",
+          "misconception": "value confused"
+        },
+        {
+          "key": "C",
+          "text": "60.0, matching calcium",
+          "correct": false,
+          "explanation": "60.0 is the carbonate residue, not the metal.",
+          "misconception": "value confused"
+        },
+        {
+          "key": "D",
+          "text": "24.3, matching magnesium",
+          "correct": false,
+          "explanation": "24.3 is magnesium's mass, but the calculation gives 40.9.",
+          "misconception": "wrong metal"
+        }
+      ]
+    },
+    {
+      "id": "rn_54NSGV38f2Nsytk7::L3::Q4",
+      "moduleId": "rn_54NSGV38f2Nsytk7::L3",
+      "stem": "Which protection is required when handling moderately concentrated acids in this practical?",
+      "misconceptionClass": "protection level",
+      "options": [
+        {
+          "key": "A",
+          "text": "A full hazmat suit for every acid",
+          "correct": false,
+          "explanation": "Protection scales with hazard; a suit is not the standard requirement.",
+          "misconception": "overstatement"
+        },
+        {
+          "key": "B",
+          "text": "Eye protection plus gloves, since such acids are corrosive",
+          "correct": true,
+          "explanation": "Corrosive acids demand both barriers at minimum.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "No protection, since dilute acids are harmless",
+          "correct": false,
+          "explanation": "Even dilute acids can be irritant and need eye protection.",
+          "misconception": "unsafe claim"
+        },
+        {
+          "key": "D",
+          "text": "A fume cupboard only, with bare hands",
+          "correct": false,
+          "explanation": "Fume cupboards address vapours, not skin contact.",
+          "misconception": "incomplete protection"
+        }
+      ]
+    },
+    {
+      "id": "rn_54NSGV38f2Nsytk7::L3::Q5",
+      "moduleId": "rn_54NSGV38f2Nsytk7::L3",
+      "stem": "Concentrated nitric acid carries an oxidising hazard because it",
+      "misconceptionClass": "oxidising hazard",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only reacts with metals, never with organics",
+          "correct": false,
+          "explanation": "The oxidising power targets combustible materials broadly.",
+          "misconception": "wrong scope"
+        },
+        {
+          "key": "B",
+          "text": "Turns into water on contact with air",
+          "correct": false,
+          "explanation": "No such conversion occurs.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "C",
+          "text": "Can cause or intensify fires in contact with combustible materials",
+          "correct": true,
+          "explanation": "Oxidising acids supply oxygen to combustion, escalating fire risk.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Is too weak to damage skin",
+          "correct": false,
+          "explanation": "Oxidising hazard is an additional risk, not a sign of weakness.",
+          "misconception": "contradiction"
+        }
+      ]
+    },
+    {
+      "id": "rn_54NSGV38f2Nsytk7::L3::Q6",
+      "moduleId": "rn_54NSGV38f2Nsytk7::L3",
+      "stem": "State the relationship between moles of metal carbonate and moles of carbon dioxide in the acid reaction.",
+      "misconceptionClass": "stoichiometry recall",
+      "kind": "recall",
+      "modelAnswer": "One mole of MCO3 releases one mole of carbon dioxide, so the gas moles equal the carbonate moles.",
+      "keywords": [
+        "one mole",
+        "carbonate",
+        "dioxide"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_54NSGV38f2Nsytk7::L3::Q7",
+      "moduleId": "rn_54NSGV38f2Nsytk7::L3",
+      "stem": "Name the three hazard classes acids can present in this practical.",
+      "misconceptionClass": "hazard recall",
+      "kind": "recall",
+      "modelAnswer": "Irritant when dilute, corrosive when moderately concentrated, and oxidising for some concentrated acids such as nitric acid.",
+      "keywords": [
+        "irritant",
+        "corrosive",
+        "oxidising"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_54NSGV38f2Nsytk7::L3::Q8",
+      "moduleId": "rn_54NSGV38f2Nsytk7::L3",
+      "stem": "Explain how the molar gas volume enters the metal-identification calculation.",
+      "misconceptionClass": "molar volume role",
+      "kind": "explain-why",
+      "modelAnswer": "The collected carbon dioxide volume in dm3 divided by the molar gas volume converts a measured volume into moles, and that mole count propagates through the carbonate to the metal's atomic mass.",
+      "keywords": [
+        "volume",
+        "moles",
+        "converts"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_54NSGV38f2Nsytk7::L3::Q9",
+      "moduleId": "rn_54NSGV38f2Nsytk7::L3",
+      "stem": "0.950 g of MCO3 releases 0.0094 mol of gas. Deduce the formula mass, the metal's mass and the metal, showing each subtraction.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Formula mass: 0.950/0.0094 = about 100.9; subtracting the 60.0 carbonate residue leaves 40.9 for the metal, matching calcium at 40.1 as the nearest Group 2 metal.",
+      "keywords": [
+        "100.9",
+        "40.9",
+        "calcium"
+      ],
+      "options": []
+    }
+  ]
+}

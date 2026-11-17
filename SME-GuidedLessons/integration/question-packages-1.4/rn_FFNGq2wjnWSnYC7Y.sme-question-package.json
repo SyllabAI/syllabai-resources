@@ -1,0 +1,723 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_FFNGq2wjnWSnYC7Y",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "2dde2effa4ccc036e70b50e2bfb819fa494d6ddd045eab257c109ffe80ff3dd7",
+    "pinnedRef": "2fc9e39e4cb53c8e29601db0013337d9b2996890"
+  },
+  "packageId": "ial-chemistry::rn_FFNGq2wjnWSnYC7Y",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_FFNGq2wjnWSnYC7Y::L1::Q1",
+      "moduleId": "rn_FFNGq2wjnWSnYC7Y::L1",
+      "stem": "Which products form when an alcohol burns completely in air?",
+      "misconceptionClass": "combustion products",
+      "options": [
+        {
+          "key": "A",
+          "text": "Carbon dioxide and water only",
+          "correct": true,
+          "explanation": "Complete combustion converts all carbon to CO2 and all hydrogen to H2O.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Carbon monoxide and water",
+          "correct": false,
+          "explanation": "Carbon monoxide signals incomplete combustion with limited oxygen.",
+          "misconception": "wrong products"
+        },
+        {
+          "key": "C",
+          "text": "Carbon dioxide and hydrogen gas",
+          "correct": false,
+          "explanation": "Hydrogen burns to water; it is not a combustion product of the alcohol.",
+          "misconception": "wrong products"
+        },
+        {
+          "key": "D",
+          "text": "Carbon dioxide, water and soot",
+          "correct": false,
+          "explanation": "Soot indicates incomplete combustion, not the complete case.",
+          "misconception": "wrong products"
+        }
+      ]
+    },
+    {
+      "id": "rn_FFNGq2wjnWSnYC7Y::L1::Q2",
+      "moduleId": "rn_FFNGq2wjnWSnYC7Y::L1",
+      "stem": "Complete combustion of methanol requires how many oxygen molecules per methanol molecule?",
+      "misconceptionClass": "balancing census",
+      "options": [
+        {
+          "key": "A",
+          "text": "Three per methanol molecule",
+          "correct": false,
+          "explanation": "That would give six oxygens per methanol, double the requirement.",
+          "misconception": "census over"
+        },
+        {
+          "key": "B",
+          "text": "One and a half, giving 2CH3OH + 3O2 in whole-number form",
+          "correct": true,
+          "explanation": "CH3OH + 1.5O2 closes the census: one carbon, four hydrogens, four oxygens each side.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "One",
+          "correct": false,
+          "explanation": "One oxygen molecule cannot oxidise all four hydrogens to water and the carbon to carbon dioxide.",
+          "misconception": "census short"
+        },
+        {
+          "key": "D",
+          "text": "Two",
+          "correct": false,
+          "explanation": "Two oxygen molecules over-supplies the census by one oxygen.",
+          "misconception": "census over"
+        }
+      ]
+    },
+    {
+      "id": "rn_FFNGq2wjnWSnYC7Y::L1::Q3",
+      "moduleId": "rn_FFNGq2wjnWSnYC7Y::L1",
+      "stem": "Why are alcohols useful as fuels?",
+      "misconceptionClass": "fuel logic",
+      "options": [
+        {
+          "key": "A",
+          "text": "They are non-flammable liquids",
+          "correct": false,
+          "explanation": "Alcohols are flammable; that is the basis of their fuel role.",
+          "misconception": "false claim"
+        },
+        {
+          "key": "B",
+          "text": "They produce carbon monoxide as their main product",
+          "correct": false,
+          "explanation": "Carbon monoxide is the incomplete-combustion product and a hazard, not the goal.",
+          "misconception": "false claim"
+        },
+        {
+          "key": "C",
+          "text": "Their combustion is strongly exothermic and, when complete, gives clean products",
+          "correct": true,
+          "explanation": "Energy release plus simple products underlie the fuel use of ethanol and methanol.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "They burn without needing any oxygen",
+          "correct": false,
+          "explanation": "Combustion requires oxygen; no fuel burns without it.",
+          "misconception": "nonsense claim"
+        }
+      ]
+    },
+    {
+      "id": "rn_FFNGq2wjnWSnYC7Y::L1::Q4",
+      "moduleId": "rn_FFNGq2wjnWSnYC7Y::L1",
+      "stem": "Compared with methanol, the complete combustion of propan-1-ol needs",
+      "misconceptionClass": "chain comparison",
+      "options": [
+        {
+          "key": "A",
+          "text": "The same oxygen per molecule, since all alcohols burn alike",
+          "correct": false,
+          "explanation": "Atom counts differ, so the oxygen demands differ.",
+          "misconception": "census wrong"
+        },
+        {
+          "key": "B",
+          "text": "Less oxygen, because the alcohol supplies its own oxygen atom",
+          "correct": false,
+          "explanation": "The single hydroxyl oxygen is far short of the demand from three carbons.",
+          "misconception": "wrong reasoning"
+        },
+        {
+          "key": "C",
+          "text": "No oxygen at all, since alcohols self-oxidise",
+          "correct": false,
+          "explanation": "Air supplies the oxidant; the alcohol does not oxidise itself.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "D",
+          "text": "More oxygen per molecule, because three carbons and eight hydrogens demand more oxidation",
+          "correct": true,
+          "explanation": "More atoms per molecule means a larger oxygen coefficient in the balanced equation.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_FFNGq2wjnWSnYC7Y::L1::Q5",
+      "moduleId": "rn_FFNGq2wjnWSnYC7Y::L1",
+      "stem": "A yellow, sooty flame during an alcohol's burning indicates",
+      "misconceptionClass": "incomplete combustion sign",
+      "options": [
+        {
+          "key": "A",
+          "text": "Incomplete combustion, with insufficient oxygen producing soot and possibly carbon monoxide",
+          "correct": true,
+          "explanation": "Soot is unburnt carbon, the classic sign that oxygen supply fell short.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Complete combustion at a higher temperature",
+          "correct": false,
+          "explanation": "Complete burning gives a clean blue flame without soot.",
+          "misconception": "misdiagnosis"
+        },
+        {
+          "key": "C",
+          "text": "That the alcohol has a longer carbon chain than expected",
+          "correct": false,
+          "explanation": "Chain length changes the oxygen demand but not the flame colour when oxygen is ample.",
+          "misconception": "wrong cause"
+        },
+        {
+          "key": "D",
+          "text": "Water condensing on the flame",
+          "correct": false,
+          "explanation": "Condensed water is invisible; soot is the combustion signature.",
+          "misconception": "wrong cause"
+        }
+      ]
+    },
+    {
+      "id": "rn_FFNGq2wjnWSnYC7Y::L1::Q6",
+      "moduleId": "rn_FFNGq2wjnWSnYC7Y::L1",
+      "stem": "State the word equation for the complete combustion of an alcohol.",
+      "misconceptionClass": "word equation recall",
+      "kind": "recall",
+      "modelAnswer": "Alcohol plus oxygen gives carbon dioxide plus water, with the oxygen supplied from the air.",
+      "keywords": [
+        "oxygen",
+        "carbon dioxide",
+        "water"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_FFNGq2wjnWSnYC7Y::L1::Q7",
+      "moduleId": "rn_FFNGq2wjnWSnYC7Y::L1",
+      "stem": "Name the two products of complete combustion and the condition they require.",
+      "misconceptionClass": "products recall",
+      "kind": "recall",
+      "modelAnswer": "Carbon dioxide and water form when oxygen is plentiful enough for complete burning.",
+      "keywords": [
+        "carbon dioxide",
+        "water",
+        "oxygen"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_FFNGq2wjnWSnYC7Y::L1::Q8",
+      "moduleId": "rn_FFNGq2wjnWSnYC7Y::L1",
+      "stem": "Explain why the alcohol's own oxygen atom does not make its combustion oxygen requirement zero.",
+      "misconceptionClass": "oxygen explanation",
+      "kind": "explain-why",
+      "modelAnswer": "One hydroxyl oxygen cannot cover the many oxygen atoms needed to oxidise every carbon to carbon dioxide and every hydrogen to water, so air must still supply the balance of the oxygen demand.",
+      "keywords": [
+        "oxygen",
+        "carbon",
+        "hydrogen"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_FFNGq2wjnWSnYC7Y::L1::Q9",
+      "moduleId": "rn_FFNGq2wjnWSnYC7Y::L1",
+      "stem": "Balance the complete combustion of ethanol in molecular form and verify the atom census.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "C2H5OH + 3O2 gives 2CO2 + 3H2O: carbon census 2 = 2, hydrogen census 6 = 6, oxygen census 1 + 6 = 7 on the left and 4 + 3 = 7 on the right, so the equation closes exactly.",
+      "keywords": [
+        "ethanol",
+        "combustion",
+        "census"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_FFNGq2wjnWSnYC7Y::L2::Q1",
+      "moduleId": "rn_FFNGq2wjnWSnYC7Y::L2",
+      "stem": "What is observed when phosphorus(V) chloride is added to an unknown alcohol?",
+      "misconceptionClass": "PCl5 observation",
+      "options": [
+        {
+          "key": "A",
+          "text": "A blue flame as the alcohol ignites",
+          "correct": false,
+          "explanation": "PCl5 addition does not ignite the mixture.",
+          "misconception": "wrong observation"
+        },
+        {
+          "key": "B",
+          "text": "A vigorous reaction at room temperature releasing steamy fumes of hydrogen chloride",
+          "correct": true,
+          "explanation": "The -OH group is replaced and HCl gas escapes as misty fumes, confirming the hydroxyl group.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "A slow reaction only after prolonged heating",
+          "correct": false,
+          "explanation": "The PCl5 reaction is vigorous at room temperature with no heating needed.",
+          "misconception": "conditions wrong"
+        },
+        {
+          "key": "D",
+          "text": "A red precipitate forming slowly",
+          "correct": false,
+          "explanation": "No precipitate forms; the diagnostic observation is the fumes.",
+          "misconception": "wrong observation"
+        }
+      ]
+    },
+    {
+      "id": "rn_FFNGq2wjnWSnYC7Y::L2::Q2",
+      "moduleId": "rn_FFNGq2wjnWSnYC7Y::L2",
+      "stem": "Why can concentrated hydrochloric acid alone chlorinate a tertiary alcohol but not a primary one?",
+      "misconceptionClass": "tertiary route scope",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hydrochloric acid is too weak for any alcohol",
+          "correct": false,
+          "explanation": "The acid does chlorinate tertiary alcohols, so the acid strength is sufficient there.",
+          "misconception": "contradiction"
+        },
+        {
+          "key": "B",
+          "text": "Primary alcohols lack a hydroxyl group",
+          "correct": false,
+          "explanation": "Primary alcohols carry the same -OH group as tertiary ones.",
+          "misconception": "false claim"
+        },
+        {
+          "key": "C",
+          "text": "The tertiary pathway proceeds by a different mechanism that primary carbons cannot support",
+          "correct": true,
+          "explanation": "Tertiary carbocations are accessible for the acid route, while primary carbons lack that pathway.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Primary alcohols are too volatile for the acid route",
+          "correct": false,
+          "explanation": "Volatility is irrelevant to the mechanistic reach of the acid route.",
+          "misconception": "wrong cause"
+        }
+      ]
+    },
+    {
+      "id": "rn_FFNGq2wjnWSnYC7Y::L2::Q3",
+      "moduleId": "rn_FFNGq2wjnWSnYC7Y::L2",
+      "stem": "In the bromination of an alcohol, the 50 percent sulfuric acid concentration matters because",
+      "misconceptionClass": "acid concentration",
+      "options": [
+        {
+          "key": "A",
+          "text": "Weaker acid would evaporate the potassium bromide",
+          "correct": false,
+          "explanation": "Evaporation is not the concern; bromide oxidation is.",
+          "misconception": "wrong cause"
+        },
+        {
+          "key": "B",
+          "text": "The acid acts as the bromine source itself",
+          "correct": false,
+          "explanation": "The bromine comes from KBr; the acid generates HBr from it.",
+          "misconception": "wrong source"
+        },
+        {
+          "key": "C",
+          "text": "The acid catalyses the alcohol's dehydration instead",
+          "correct": false,
+          "explanation": "Dehydration is the phosphoric acid route, not this one.",
+          "misconception": "route confused"
+        },
+        {
+          "key": "D",
+          "text": "Stronger acid would oxidise bromide ions to bromine, diverting the route into side products",
+          "correct": true,
+          "explanation": "Half-strength acid generates HBr cleanly; full strength sends bromide off to Br2.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_FFNGq2wjnWSnYC7Y::L2::Q4",
+      "moduleId": "rn_FFNGq2wjnWSnYC7Y::L2",
+      "stem": "The iodination of an alcohol requires heating under reflux because",
+      "misconceptionClass": "reflux need",
+      "options": [
+        {
+          "key": "A",
+          "text": "The phosphorus-plus-iodine route is slow, so prolonged heating with everything retained is needed",
+          "correct": true,
+          "explanation": "Reflux keeps the volatile species in the mixture while the substitution crawls to completion.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Iodine gas escapes unless the condenser blocks it permanently",
+          "correct": false,
+          "explanation": "Reflux does retain volatiles, but the reason is the slow reaction needing sustained heating.",
+          "misconception": "partial reason"
+        },
+        {
+          "key": "C",
+          "text": "The alcohol would freeze at room temperature",
+          "correct": false,
+          "explanation": "Alcohols are liquids at room temperature; freezing is not the issue.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "D",
+          "text": "PI3 reacts instantly and no heating is ever used",
+          "correct": false,
+          "explanation": "The route explicitly requires heating under reflux.",
+          "misconception": "contradiction"
+        }
+      ]
+    },
+    {
+      "id": "rn_FFNGq2wjnWSnYC7Y::L2::Q5",
+      "moduleId": "rn_FFNGq2wjnWSnYC7Y::L2",
+      "stem": "Which inorganic compound forms as a co-product when phosphorus(III) iodide reacts with an alcohol?",
+      "misconceptionClass": "iodination co-product",
+      "options": [
+        {
+          "key": "A",
+          "text": "Potassium sulfate",
+          "correct": false,
+          "explanation": "Potassium sulfate is the bromination pre-reaction co-product.",
+          "misconception": "wrong compound"
+        },
+        {
+          "key": "B",
+          "text": "Phosphorous acid, H3PO3",
+          "correct": true,
+          "explanation": "The substitution hands the three iodine atoms to alcohol molecules and the phosphorus emerges as H3PO3.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Phosphoric acid, H3PO4",
+          "correct": false,
+          "explanation": "Phosphoric acid is the dehydration reagent, not this co-product.",
+          "misconception": "wrong compound"
+        },
+        {
+          "key": "D",
+          "text": "Phosphorus(V) chloride",
+          "correct": false,
+          "explanation": "PCl5 belongs to the chlorination route entirely.",
+          "misconception": "wrong compound"
+        }
+      ]
+    },
+    {
+      "id": "rn_FFNGq2wjnWSnYC7Y::L2::Q6",
+      "moduleId": "rn_FFNGq2wjnWSnYC7Y::L2",
+      "stem": "State the observation that identifies the -OH group using phosphorus(V) chloride.",
+      "misconceptionClass": "test recall",
+      "kind": "recall",
+      "modelAnswer": "Steamy fumes of hydrogen chloride are released immediately at room temperature, evidencing the hydroxyl group.",
+      "keywords": [
+        "steamy",
+        "fumes",
+        "hydroxyl"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_FFNGq2wjnWSnYC7Y::L2::Q7",
+      "moduleId": "rn_FFNGq2wjnWSnYC7Y::L2",
+      "stem": "Name the reagents used to supply bromine and iodine in the alcohol conversions.",
+      "misconceptionClass": "reagent recall",
+      "kind": "recall",
+      "modelAnswer": "Bromination uses potassium bromide with 50 percent sulfuric acid, and iodination uses red phosphorus with iodine under reflux.",
+      "keywords": [
+        "potassium bromide",
+        "phosphorus",
+        "iodine"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_FFNGq2wjnWSnYC7Y::L2::Q8",
+      "moduleId": "rn_FFNGq2wjnWSnYC7Y::L2",
+      "stem": "Explain why the bromination reaction is written as two separate equations.",
+      "misconceptionClass": "two-step explanation",
+      "kind": "explain-why",
+      "modelAnswer": "The inorganic reagents react together first to make hydrogen bromide and potassium sulfate, and only then does the hydrogen bromide substitute the alcohol's hydroxyl group, so the chemistry splits into a generation step and a substitution step.",
+      "keywords": [
+        "hydrogen bromide",
+        "first",
+        "substitution"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_FFNGq2wjnWSnYC7Y::L2::Q9",
+      "moduleId": "rn_FFNGq2wjnWSnYC7Y::L2",
+      "stem": "Write the two-step equations for converting butan-1-ol to 1-bromobutane and verify the atom census of the second step.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Step one is 2KBr + H2SO4 giving K2SO4 + 2HBr; step two is CH3CH2CH2CH2OH + HBr giving CH3CH2CH2CH2Br + H2O, whose census closes with four carbons, ten hydrogens and one oxygen on each side.",
+      "keywords": [
+        "potassium bromide",
+        "hydrogen bromide",
+        "butan-1-ol"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_FFNGq2wjnWSnYC7Y::L3::Q1",
+      "moduleId": "rn_FFNGq2wjnWSnYC7Y::L3",
+      "stem": "Which reagent dehydrates an alcohol to an alkene?",
+      "misconceptionClass": "dehydration reagent",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sodium carbonate solution",
+          "correct": false,
+          "explanation": "Carbonate washes products; it does not dehydrate alcohols.",
+          "misconception": "route confused"
+        },
+        {
+          "key": "B",
+          "text": "Dilute sulfuric acid at room temperature",
+          "correct": false,
+          "explanation": "The dehydration reagent is concentrated phosphoric acid with heating.",
+          "misconception": "reagent wrong"
+        },
+        {
+          "key": "C",
+          "text": "Concentrated phosphoric acid",
+          "correct": true,
+          "explanation": "Heating with concentrated H3PO4 removes water and forms the alkene.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Phosphorus(V) chloride",
+          "correct": false,
+          "explanation": "PCl5 substitutes the hydroxyl with chlorine rather than eliminating water.",
+          "misconception": "route confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_FFNGq2wjnWSnYC7Y::L3::Q2",
+      "moduleId": "rn_FFNGq2wjnWSnYC7Y::L3",
+      "stem": "What bonds form during the dehydration of an alcohol?",
+      "misconceptionClass": "bond formation",
+      "options": [
+        {
+          "key": "A",
+          "text": "A carbon-oxygen double bond in place of the hydroxyl",
+          "correct": false,
+          "explanation": "The oxygen leaves with the water; no C=O forms in alkene products.",
+          "misconception": "wrong bond"
+        },
+        {
+          "key": "B",
+          "text": "A carbon-halogen bond",
+          "correct": false,
+          "explanation": "Halogenation forms C-X; dehydration forms C=C.",
+          "misconception": "route confused"
+        },
+        {
+          "key": "C",
+          "text": "An oxygen-oxygen bond",
+          "correct": false,
+          "explanation": "No peroxide chemistry is involved in dehydration.",
+          "misconception": "nonsense bond"
+        },
+        {
+          "key": "D",
+          "text": "A carbon-carbon double bond between the hydroxyl carbon and its neighbour",
+          "correct": true,
+          "explanation": "Eliminating water lets the adjacent carbons close into a C=C bond.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_FFNGq2wjnWSnYC7Y::L3::Q3",
+      "moduleId": "rn_FFNGq2wjnWSnYC7Y::L3",
+      "stem": "Why does concentrated phosphoric acid not appear in the dehydration equation?",
+      "misconceptionClass": "acid absence reason",
+      "options": [
+        {
+          "key": "A",
+          "text": "The water formed in the reaction dilutes the concentrated acid, so the catalyst is not consumed into the stoichiometry",
+          "correct": true,
+          "explanation": "The acid serves as the dehydrating medium while the product water dilutes it.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The acid evaporates before the reaction starts",
+          "correct": false,
+          "explanation": "Phosphoric acid is not the volatile component here.",
+          "misconception": "wrong reason"
+        },
+        {
+          "key": "C",
+          "text": "The acid is insoluble in alcohols",
+          "correct": false,
+          "explanation": "Catalysts need not dissolve; the real reason is dilution by the product water.",
+          "misconception": "wrong reason"
+        },
+        {
+          "key": "D",
+          "text": "The acid is reduced to phosphorus during the reaction",
+          "correct": false,
+          "explanation": "No redox change befalls the acid in dehydration.",
+          "misconception": "wrong reason"
+        }
+      ]
+    },
+    {
+      "id": "rn_FFNGq2wjnWSnYC7Y::L3::Q4",
+      "moduleId": "rn_FFNGq2wjnWSnYC7Y::L3",
+      "stem": "The dehydration of ethanol produces which alkene?",
+      "misconceptionClass": "ethanol product",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ethane, by reduction",
+          "correct": false,
+          "explanation": "Dehydration is elimination, not reduction; no hydrogen is added.",
+          "misconception": "wrong product"
+        },
+        {
+          "key": "B",
+          "text": "Ethene, CH2=CH2",
+          "correct": true,
+          "explanation": "Losing water from ethanol closes a double bond between the two carbons, giving ethene.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Ethenol, with the OH still attached",
+          "correct": false,
+          "explanation": "The hydroxyl group is removed in dehydration; it cannot remain.",
+          "misconception": "wrong product"
+        },
+        {
+          "key": "D",
+          "text": "Ethyne, with a triple bond",
+          "correct": false,
+          "explanation": "One elimination forms a double bond, not a triple bond.",
+          "misconception": "wrong product"
+        }
+      ]
+    },
+    {
+      "id": "rn_FFNGq2wjnWSnYC7Y::L3::Q5",
+      "moduleId": "rn_FFNGq2wjnWSnYC7Y::L3",
+      "stem": "Dehydration of an alcohol is described as similar to the elimination reaction of a halogenoalkanes because both",
+      "misconceptionClass": "elimination parallel",
+      "options": [
+        {
+          "key": "A",
+          "text": "Produce alcohols as their products",
+          "correct": false,
+          "explanation": "Both produce alkenes, not alcohols.",
+          "misconception": "wrong product"
+        },
+        {
+          "key": "B",
+          "text": "Occur only at room temperature",
+          "correct": false,
+          "explanation": "Both eliminations need heating to proceed.",
+          "misconception": "condition wrong"
+        },
+        {
+          "key": "C",
+          "text": "Remove a small molecule across adjacent carbons to leave a C=C double bond",
+          "correct": true,
+          "explanation": "Halogenoalkanes eliminate HX and alcohols eliminate water, both closing the double bond.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Require a halogen atom to depart",
+          "correct": false,
+          "explanation": "Alcohol dehydration departs water, with no halogen involved.",
+          "misconception": "wrong parallel"
+        }
+      ]
+    },
+    {
+      "id": "rn_FFNGq2wjnWSnYC7Y::L3::Q6",
+      "moduleId": "rn_FFNGq2wjnWSnYC7Y::L3",
+      "stem": "State the equation for the dehydration of ethanol.",
+      "misconceptionClass": "equation recall",
+      "kind": "recall",
+      "modelAnswer": "CH3CH2OH gives CH2=CH2 and H2O when heated with concentrated phosphoric acid.",
+      "keywords": [
+        "CH3CH2OH",
+        "CH2=CH2",
+        "H2O"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_FFNGq2wjnWSnYC7Y::L3::Q7",
+      "moduleId": "rn_FFNGq2wjnWSnYC7Y::L3",
+      "stem": "Name the bonds broken and formed when an alcohol dehydrates.",
+      "misconceptionClass": "bonding recall",
+      "kind": "recall",
+      "modelAnswer": "The C-O bond of the hydroxyl and a C-H bond on the adjacent carbon break, while a C=C double bond forms between those carbons.",
+      "keywords": [
+        "C-O",
+        "C-H",
+        "C=C"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_FFNGq2wjnWSnYC7Y::L3::Q8",
+      "moduleId": "rn_FFNGq2wjnWSnYC7Y::L3",
+      "stem": "Explain why the water formed in dehydration is the molecule that dilutes the acid.",
+      "misconceptionClass": "dilution explanation",
+      "kind": "explain-why",
+      "modelAnswer": "The eliminated hydroxyl and adjacent hydrogen combine into exactly the water that appears as the co-product, and that fresh water mixes into and dilutes the concentrated phosphoric acid as the reaction proceeds.",
+      "keywords": [
+        "water",
+        "dilutes",
+        "acid"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_FFNGq2wjnWSnYC7Y::L3::Q9",
+      "moduleId": "rn_FFNGq2wjnWSnYC7Y::L3",
+      "stem": "Predict the alkene products when butan-2-ol dehydrates and justify why more than one alkene can form.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "The hydroxyl carbon can pair its elimination with hydrogens on either neighbouring carbon, so but-1-ene and but-2-ene both form, with the double bond closing on whichever side loses the hydrogen.",
+      "keywords": [
+        "but-1-ene",
+        "but-2-ene",
+        "elimination"
+      ],
+      "options": []
+    }
+  ]
+}

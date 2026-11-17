@@ -1,0 +1,290 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_54NSGV38f2Nsytk7",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "acfe7e1733164a186c42799a5d6eb5e06b5a11bdf912c6a31ef7e6e24d271cf1",
+    "pinnedRef": "2fc9e39e4cb53c8e29601db0013337d9b2996890"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_54NSGV38f2Nsytk7",
+    "topicTitle": "3. Practical Skills in Chemistry I",
+    "subtopicTitle": "Molar Volume of a Gas",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/3-practical-skills-in-chemistry-i/3-1-physical-chemistry-core-practicals/3-1-1-molar-volume-of-a-gas",
+    "specAnchors": [
+      {
+        "code": "1.11",
+        "text": "CORE PRACTICAL 1 Measurement of the molar volume of a gas."
+      }
+    ],
+    "primer": {
+      "text": "How much room does a mole of gas occupy? This core practical collects carbon dioxide from a carbonate-acid reaction in a syringe, plots mass against volume, and divides volume by moles for the molar volume - then reverses the arithmetic to unmask an unknown Group 2 metal.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_54NSGV38f2Nsytk7::L1",
+        "title": "Collecting a gas: syringe and displacement",
+        "sourceHeadings": [
+          "Measuring gas volumes"
+        ],
+        "specRefs": [
+          "1.11"
+        ],
+        "opening": "Core Practical 1 measures how much gas a reaction makes, and two collecting arrangements do the job. This lesson sets up the acid-carbonate reaction, connects the gas syringe or water-displacement kit, and states the assumptions that keep the volume honest.",
+        "keyPoints": [
+          "Gas volume can be measured with a gas syringe or by displacing water from a filled vessel.",
+          "The model reaction is sodium carbonate with hydrochloric acid, releasing carbon dioxide gas.",
+          "A fixed volume of acid is measured out, a known mass of carbonate is added, and the syringe is connected immediately.",
+          "The reaction runs to completion and the final gas volume is recorded.",
+          "Assumptions include negligible gas lost while connecting the tube, an airtight set-up, and complete reaction."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Charge the flask with a measured acid volume, drop in a weighed carbonate portion, seal on the delivery tube at once, and read the gas volume when the fizzing stops; either a syringe or an upside-down water-filled vessel does the collecting.",
+            "analogy": "Inflating a bicycle tyre: the pump (the reaction) pushes air (the gas) into a metered container (the syringe) whose scale tells you exactly how much arrived.",
+            "examPointer": "State the three assumptions when a question asks about validity, especially the gas lost between adding solid and sealing the tube."
+          },
+          "medium": {
+            "restatement": "Each mole of carbonate releases one mole of carbon dioxide, so the recorded volume ties directly to the amount of solid; losses before sealing or leaks afterwards would deflate every reading, which is why the airtight assumption is written down before the experiment.",
+            "analogy": "A milk pipeline: every drop pumped arrives only if the pipe is sealed; a leak anywhere shortchanges the meter at the end.",
+            "examPointer": "Justify immediate connection of the delivery tube as the fix for the biggest systematic loss in the method."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_54NSGV38f2Nsytk7::L1::Q1",
+          "rn_54NSGV38f2Nsytk7::L1::Q2",
+          "rn_54NSGV38f2Nsytk7::L1::Q3",
+          "rn_54NSGV38f2Nsytk7::L1::Q4",
+          "rn_54NSGV38f2Nsytk7::L1::Q5",
+          "rn_54NSGV38f2Nsytk7::L1::Q6",
+          "rn_54NSGV38f2Nsytk7::L1::Q7",
+          "rn_54NSGV38f2Nsytk7::L1::Q8",
+          "rn_54NSGV38f2Nsytk7::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01",
+          "fig-02"
+        ]
+      },
+      {
+        "id": "rn_54NSGV38f2Nsytk7::L2",
+        "title": "From results table to molar volume",
+        "sourceHeadings": [
+          "Sample results",
+          "Analysis"
+        ],
+        "specRefs": [
+          "1.11"
+        ],
+        "opening": "The raw data are a ladder of masses against volumes. Plotted, they form a line whose reading feeds the mole arithmetic: mass over molar mass for the carbonate, volume conversion into decimetres cubed, and the final division that yields the molar gas volume. This lesson walks the whole computation.",
+        "keyPoints": [
+          "Results for successive carbonate masses are plotted as mass on the x-axis against volume on the y-axis.",
+          "Anomalous points are ignored and a single best-fit line or smooth curve is drawn.",
+          "A sensible mass, such as 0.35 g, is read off the line to give its volume, 79.0 cm3 in the worked data.",
+          "Moles of carbonate equal mass over molar mass, with 106.0 g mol-1 for Na2CO3.",
+          "Molar volume equals the converted volume divided by the moles, 0.079 dm3 over 0.0033 mol giving about 23.9 dm3 mol-1."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Plot mass against volume, skip the outliers, draw the best line, read one clean point, convert its volume to dm3, divide mass by 106.0 for moles, then divide volume by moles for the molar volume.",
+            "analogy": "A recipe with six measured steps: each step uses the previous one's output, and skipping an ingredient (the unit conversion) spoils the final dish.",
+            "examPointer": "Show every stage with units in exam answers; the molar volume emerges only when volume is in dm3 and moles are in mol."
+          },
+          "medium": {
+            "restatement": "The one-to-one stoichiometry between carbonate and carbon dioxide lets the gas volume be attributed to a known mole count; any point off the line signals experimental scatter that the best-fit line averages away, and the division of volume by moles is the definition of volume per mole at the conditions used.",
+            "analogy": "Sharing a cake equally among a counted number of guests gives each guest's share; the gas volume shared among the counted moles gives the per-mole share.",
+            "examPointer": "Quote 23.9 dm3 mol-1 style results with their conditions, and flag anomalies before drawing the line rather than after."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_54NSGV38f2Nsytk7::L2::Q1",
+          "rn_54NSGV38f2Nsytk7::L2::Q2",
+          "rn_54NSGV38f2Nsytk7::L2::Q3",
+          "rn_54NSGV38f2Nsytk7::L2::Q4",
+          "rn_54NSGV38f2Nsytk7::L2::Q5",
+          "rn_54NSGV38f2Nsytk7::L2::Q6",
+          "rn_54NSGV38f2Nsytk7::L2::Q7",
+          "rn_54NSGV38f2Nsytk7::L2::Q8",
+          "rn_54NSGV38f2Nsytk7::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-03",
+          "fig-04",
+          "fig-05"
+        ]
+      },
+      {
+        "id": "rn_54NSGV38f2Nsytk7::L3",
+        "title": "Identifying an unknown metal carbonate, and staying safe",
+        "sourceHeadings": [
+          "Application",
+          "Hazards, risks and precautions"
+        ],
+        "specRefs": [
+          "1.11"
+        ],
+        "opening": "The same gas arithmetic turns the practical into an identification tool: react a weighed carbonate MCO3 with acid, convert the collected carbon dioxide to moles, and the mass-to-mole ratio exposes the metal. The lesson closes with the hazard profile of the acids involved.",
+        "keyPoints": [
+          "The experiment identifies an unknown metal M in a carbonate MCO3 from the gas volume it releases.",
+          "The approach works for acid reaction or thermal decomposition of the carbonate.",
+          "Moles of carbon dioxide equal volume over molar gas volume, and the carbonate moles match them one to one.",
+          "Dividing the sample mass by the carbonate moles gives the formula mass, from which the carbonate residue is subtracted to expose M.",
+          "Dilute acids may be irritant, moderately concentrated ones corrosive, and some concentrated acids also oxidising, demanding eye protection, gloves and sometimes a fume cupboard."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Turn the collected volume into moles via the molar gas volume, copy that mole count to the carbonate, divide mass by moles for the formula mass, subtract 60.0 for the carbonate part, and match the remainder to a metal from the periodic table.",
+            "analogy": "Weighing a parcel, subtracting the known box weight, and reading the remaining kilograms as the true contents - the metal's mass falls out the same way.",
+            "examPointer": "Remember the examiner's traps: subtract the carbonate residue before matching a metal, and match only against the metal family the question names."
+          },
+          "medium": {
+            "restatement": "The identity step is stoichiometry in reverse: instead of predicting gas from mass, the measured gas names the mass; hazards follow the acid's concentration ladder - irritant when dilute, corrosive when moderate, oxidising when concentrated like nitric acid - and protection scales with each rung.",
+            "analogy": "Reading a car's fuel use backwards: from kilometres driven (gas collected) to tank size (moles), then to the engine's identity (the metal).",
+            "examPointer": "Pair each acid concentration with its hazard symbol and the matching protective equipment in risk-assessment answers."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_54NSGV38f2Nsytk7::L3::Q1",
+          "rn_54NSGV38f2Nsytk7::L3::Q2",
+          "rn_54NSGV38f2Nsytk7::L3::Q3",
+          "rn_54NSGV38f2Nsytk7::L3::Q4",
+          "rn_54NSGV38f2Nsytk7::L3::Q5",
+          "rn_54NSGV38f2Nsytk7::L3::Q6",
+          "rn_54NSGV38f2Nsytk7::L3::Q7",
+          "rn_54NSGV38f2Nsytk7::L3::Q8",
+          "rn_54NSGV38f2Nsytk7::L3::Q9"
+        ],
+        "figureIds": [
+          "fig-06"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "gas syringe",
+          "definition": "A scaled barrel-and-piston device that captures evolved gas and reports its volume directly.",
+          "firstLesson": 1
+        },
+        {
+          "term": "molar gas volume",
+          "definition": "The volume occupied by one mole of gas at the stated conditions, about 24 dm3 mol-1 at room temperature and pressure.",
+          "firstLesson": 2
+        },
+        {
+          "term": "best-fit line",
+          "definition": "The straight line or smooth curve drawn through the reliable plotted points, ignoring anomalies.",
+          "firstLesson": 2
+        }
+      ],
+      "workedExample": {
+        "prompt": "A Group 2 carbonate MCO3 sample weighing 0.950 g fizzes with acid and releases 226.0 cm3 of carbon dioxide at room conditions. Name the metal M.",
+        "steps": [
+          "Convert the volume: 226.0 cm3 becomes 0.226 dm3, and dividing by the 24 dm3 molar volume gives 0.009417 mol of carbon dioxide.",
+          "The one-to-one ratio means moles of MCO3 also equal 0.009417 mol.",
+          "Formula mass: dividing the 0.950 g sample by 0.009417 mol gives about 100.9 g mol-1 for MCO3.",
+          "Subtract the carbonate residue: 100.9 - 60.0 = 40.9 for the metal M.",
+          "Among Group 2 metals calcium sits nearest at 40.1, naming M as calcium."
+        ],
+        "finalAnswer": "The metal M is calcium (deduced atomic mass about 40.9 against calcium's 40.1)."
+      }
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/c1d6c885a725-gas-syringe.png",
+        "alt": "gas-syringe",
+        "sourceHeading": "Measuring gas volumes",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Gas syringe equipment for collecting the gas produced in a reaction"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/ea9e3ac069ec-downward-displacement-gas-collection-blank.png",
+        "alt": "downward-displacement-gas-collection-blank",
+        "sourceHeading": "Measuring gas volumes",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Displacement of water equipment for collecting the gas produced in a reaction"
+      },
+      {
+        "id": "fig-03",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/40423342a78a-mass-volume-results-table.png",
+        "alt": "mass-volume-results-table",
+        "sourceHeading": "Sample results",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-04",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/87e6fb4bade0-mass-volume-graph.png",
+        "alt": "mass-volume-graph",
+        "sourceHeading": "Sample results",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-05",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/36181fe0d1d0-mass-volume-graph-with-reading.png",
+        "alt": "mass-volume-graph-with-reading",
+        "sourceHeading": "Analysis",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-06",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/a9f4ac0076f3-harm-corrosive-oxidising.png",
+        "alt": "Hazard symbols for harm, corrosive and oxidising acids",
+        "sourceHeading": "Hazards, risks and precautions",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique"
+      }
+    ]
+  }
+}

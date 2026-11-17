@@ -1,0 +1,723 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_Q92JNwd5nVm6HSwH",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "89b7b5e5009b77480a5212bfd5242c87338e5291d6116015853b089ac6ea0274",
+    "pinnedRef": "2fc9e39e4cb53c8e29601db0013337d9b2996890"
+  },
+  "packageId": "ial-chemistry::rn_Q92JNwd5nVm6HSwH",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_Q92JNwd5nVm6HSwH::L1::Q1",
+      "moduleId": "rn_Q92JNwd5nVm6HSwH::L1",
+      "stem": "What colour change shows that acidified dichromate has oxidised an alcohol?",
+      "misconceptionClass": "colour evidence",
+      "options": [
+        {
+          "key": "A",
+          "text": "Orange to green, as Cr2O7 2- is reduced to Cr3+",
+          "correct": true,
+          "explanation": "The oxidising agent turns from orange dichromate to green chromium(III) as it works.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Green to orange, as the chromium gains electrons",
+          "correct": false,
+          "explanation": "The change runs the other way; oxidation of the alcohol reduces the chromium.",
+          "misconception": "direction reversed"
+        },
+        {
+          "key": "C",
+          "text": "Colourless to pink",
+          "correct": false,
+          "explanation": "That describes an indicator, not dichromate.",
+          "misconception": "wrong palette"
+        },
+        {
+          "key": "D",
+          "text": "No colour change ever occurs",
+          "correct": false,
+          "explanation": "The orange-to-green shift is the standard observable.",
+          "misconception": "denial"
+        }
+      ]
+    },
+    {
+      "id": "rn_Q92JNwd5nVm6HSwH::L1::Q2",
+      "moduleId": "rn_Q92JNwd5nVm6HSwH::L1",
+      "stem": "Why must potassium dichromate be acidified to act as an oxidising agent?",
+      "misconceptionClass": "acidification reason",
+      "options": [
+        {
+          "key": "A",
+          "text": "Acid prevents the alcohol from evaporating",
+          "correct": false,
+          "explanation": "Acidification has nothing to do with volatility.",
+          "misconception": "wrong cause"
+        },
+        {
+          "key": "B",
+          "text": "Its reduction requires hydrogen ions, which the dilute acid supplies",
+          "correct": true,
+          "explanation": "The Cr2O7 2- to Cr3+ reduction consumes H+, so the acidic medium is a chemical requirement.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "The acid makes the solution orange so the colour change is visible",
+          "correct": false,
+          "explanation": "Dichromate is orange before acidification plays any role.",
+          "misconception": "wrong cause"
+        },
+        {
+          "key": "D",
+          "text": "The acid catalyses the alcohol's dehydration instead",
+          "correct": false,
+          "explanation": "The acid enables the dichromate's own reduction, not dehydration.",
+          "misconception": "confused roles"
+        }
+      ]
+    },
+    {
+      "id": "rn_Q92JNwd5nVm6HSwH::L1::Q3",
+      "moduleId": "rn_Q92JNwd5nVm6HSwH::L1",
+      "stem": "Oxidising a secondary alcohol with acidified dichromate produces",
+      "misconceptionClass": "secondary product",
+      "options": [
+        {
+          "key": "A",
+          "text": "A carboxylic acid after prolonged reflux",
+          "correct": false,
+          "explanation": "Acids come from oxidising aldehydes of primary alcohols.",
+          "misconception": "class confused"
+        },
+        {
+          "key": "B",
+          "text": "No reaction at all",
+          "correct": false,
+          "explanation": "Only tertiary alcohols fail to oxidise.",
+          "misconception": "class confused"
+        },
+        {
+          "key": "C",
+          "text": "A ketone, which resists further oxidation",
+          "correct": true,
+          "explanation": "Secondary alcohols stop at the ketone stage.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "An aldehyde that must be distilled off quickly",
+          "correct": false,
+          "explanation": "Aldehydes come from primary alcohols.",
+          "misconception": "class confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_Q92JNwd5nVm6HSwH::L1::Q4",
+      "moduleId": "rn_Q92JNwd5nVm6HSwH::L1",
+      "stem": "Why can the aldehyde be separated from the reaction mixture as it forms?",
+      "misconceptionClass": "distillation logic",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is denser than the oxidising agent and sinks",
+          "correct": false,
+          "explanation": "Density is irrelevant; volatility does the separating.",
+          "misconception": "wrong property"
+        },
+        {
+          "key": "B",
+          "text": "It is insoluble in all solvents and precipitates",
+          "correct": false,
+          "explanation": "The aldehyde is a liquid product, not a precipitate.",
+          "misconception": "wrong picture"
+        },
+        {
+          "key": "C",
+          "text": "It reacts with the condenser water irreversibly",
+          "correct": false,
+          "explanation": "The condenser merely condenses vapour back or out.",
+          "misconception": "invented chemistry"
+        },
+        {
+          "key": "D",
+          "text": "Its boiling point is lower than the alcohol's, so it distils out before further oxidation",
+          "correct": true,
+          "explanation": "Removing the aldehyde by its lower boiling point halts the oxidation at the aldehyde stage.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_Q92JNwd5nVm6HSwH::L1::Q5",
+      "moduleId": "rn_Q92JNwd5nVm6HSwH::L1",
+      "stem": "If the aldehyde is not distilled off and refluxing continues with excess oxidising agent, the product becomes",
+      "misconceptionClass": "further oxidation",
+      "options": [
+        {
+          "key": "A",
+          "text": "The carboxylic acid, the fully oxidised product",
+          "correct": true,
+          "explanation": "Extended reflux with excess dichromate drives primary alcohols all the way to the acid.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The ketone, by rearrangement",
+          "correct": false,
+          "explanation": "Ketones come from secondary alcohols; no rearrangement occurs here.",
+          "misconception": "wrong product"
+        },
+        {
+          "key": "C",
+          "text": "Back to the alcohol, by reduction",
+          "correct": false,
+          "explanation": "The oxidising agent cannot reduce anything; the direction is uphill only.",
+          "misconception": "wrong direction"
+        },
+        {
+          "key": "D",
+          "text": "An ester, by condensation",
+          "correct": false,
+          "explanation": "Esterification needs an acid plus alcohol set-up, not this oxidation.",
+          "misconception": "wrong product"
+        }
+      ]
+    },
+    {
+      "id": "rn_Q92JNwd5nVm6HSwH::L1::Q6",
+      "moduleId": "rn_Q92JNwd5nVm6HSwH::L1",
+      "stem": "State the oxidation products for primary, secondary and tertiary alcohols with acidified dichromate.",
+      "misconceptionClass": "class products recall",
+      "kind": "recall",
+      "modelAnswer": "Primary alcohols give aldehydes then carboxylic acids, secondary alcohols give ketones only, and tertiary alcohols do not oxidise.",
+      "keywords": [
+        "aldehydes",
+        "ketones",
+        "tertiary"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Q92JNwd5nVm6HSwH::L1::Q7",
+      "moduleId": "rn_Q92JNwd5nVm6HSwH::L1",
+      "stem": "State what acidified means in the context of potassium dichromate(VI).",
+      "misconceptionClass": "terminology recall",
+      "kind": "recall",
+      "modelAnswer": "The dichromate is dissolved in dilute acid, typically dilute sulfuric acid, which supplies the hydrogen ions its reduction needs.",
+      "keywords": [
+        "dilute",
+        "acid",
+        "hydrogen"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Q92JNwd5nVm6HSwH::L1::Q8",
+      "moduleId": "rn_Q92JNwd5nVm6HSwH::L1",
+      "stem": "Explain why the dichromate ions are reduced while the alcohol is oxidised.",
+      "misconceptionClass": "redox pairing",
+      "kind": "explain-why",
+      "modelAnswer": "Oxidation and reduction happen together: the alcohol loses hydrogen and electrons, and those electrons reduce the orange dichromate to green chromium(III), so the reagent's colour change is the mirror of the alcohol's oxidation.",
+      "keywords": [
+        "electrons",
+        "reduced",
+        "oxidised"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Q92JNwd5nVm6HSwH::L1::Q9",
+      "moduleId": "rn_Q92JNwd5nVm6HSwH::L1",
+      "stem": "A mixture of propan-1-ol and propan-2-ol is oxidised with excess acidified dichromate under reflux. State the organic products and the colour change observed.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Propanoic acid from the primary alcohol and propanone from the secondary alcohol form, and the reagent turns from orange to green as the dichromate is reduced to chromium(III).",
+      "keywords": [
+        "propanoic",
+        "propanone",
+        "green"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Q92JNwd5nVm6HSwH::L2::Q1",
+      "moduleId": "rn_Q92JNwd5nVm6HSwH::L2",
+      "stem": "What is observed when Fehling's solution is warmed with an aldehyde?",
+      "misconceptionClass": "Fehling observation",
+      "options": [
+        {
+          "key": "A",
+          "text": "Effervescence of carbon dioxide",
+          "correct": false,
+          "explanation": "No gas is released in the Fehling's test.",
+          "misconception": "wrong observation"
+        },
+        {
+          "key": "B",
+          "text": "The clear blue solution turns opaque and a red precipitate of copper(I) oxide forms",
+          "correct": true,
+          "explanation": "Reduced Cu+ precipitates as red Cu2O, clouding the blue solution.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "A silver mirror forms on the tube wall",
+          "correct": false,
+          "explanation": "That is Tollens' positive result, not Fehling's.",
+          "misconception": "test confused"
+        },
+        {
+          "key": "D",
+          "text": "The solution turns bright green",
+          "correct": false,
+          "explanation": "Green belongs to dichromate reduction.",
+          "misconception": "palette confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_Q92JNwd5nVm6HSwH::L2::Q2",
+      "moduleId": "rn_Q92JNwd5nVm6HSwH::L2",
+      "stem": "Tollens' reagent is described as ammoniacal silver nitrate because it is",
+      "misconceptionClass": "Tollens composition",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ammonia gas bubbled through a copper salt",
+          "correct": false,
+          "explanation": "Copper belongs to Fehling's solution.",
+          "misconception": "test confused"
+        },
+        {
+          "key": "B",
+          "text": "Silver metal suspended in nitric acid",
+          "correct": false,
+          "explanation": "The reagent carries dissolved Ag+ ions, not metal powder in acid.",
+          "misconception": "composition wrong"
+        },
+        {
+          "key": "C",
+          "text": "Silver nitrate dissolved in water with ammonia in excess, alkaline throughout",
+          "correct": true,
+          "explanation": "The ammonia supplies the alkaline medium that keeps silver ions available.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Solid silver nitrate dissolved in alcohol",
+          "correct": false,
+          "explanation": "Tollens' reagent is aqueous and alkaline, not alcoholic.",
+          "misconception": "composition wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_Q92JNwd5nVm6HSwH::L2::Q3",
+      "moduleId": "rn_Q92JNwd5nVm6HSwH::L2",
+      "stem": "Why do ketones give negative results with both Fehling's and Tollens' reagents?",
+      "misconceptionClass": "ketone negativity",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ketones reduce the reagents too fast to observe",
+          "correct": false,
+          "explanation": "Fast reduction would give a positive test, the opposite of observed.",
+          "misconception": "contradiction"
+        },
+        {
+          "key": "B",
+          "text": "Ketones are insoluble in alkaline solution",
+          "correct": false,
+          "explanation": "Solubility is not the deciding factor; oxidisability is.",
+          "misconception": "wrong cause"
+        },
+        {
+          "key": "C",
+          "text": "The reagents only test for alcohols",
+          "correct": false,
+          "explanation": "The reagents specifically detect the oxidisable aldehyde group.",
+          "misconception": "target wrong"
+        },
+        {
+          "key": "D",
+          "text": "Ketones cannot be oxidised to carboxylic acids by these mild agents, so the metal ions stay unreduced",
+          "correct": true,
+          "explanation": "No oxidation means no reduction of Cu2+ or Ag+, hence no colour change or mirror.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_Q92JNwd5nVm6HSwH::L2::Q4",
+      "moduleId": "rn_Q92JNwd5nVm6HSwH::L2",
+      "stem": "In alkaline conditions the carboxylic acid formed from an aldehyde exists as",
+      "misconceptionClass": "carboxylate fate",
+      "options": [
+        {
+          "key": "A",
+          "text": "A carboxylate ion, often paired as a sodium salt",
+          "correct": true,
+          "explanation": "Alkali removes the acid proton, giving -COO- that pairs with metal ions.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The neutral -COOH acid throughout",
+          "correct": false,
+          "explanation": "Alkaline conditions deprotonate the acid immediately.",
+          "misconception": "state wrong"
+        },
+        {
+          "key": "C",
+          "text": "An aldehyde again by hydrolysis",
+          "correct": false,
+          "explanation": "Nothing hydrolyses back to the aldehyde here.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "D",
+          "text": "An ester with the solvent",
+          "correct": false,
+          "explanation": "No esterification occurs in the alkaline test medium.",
+          "misconception": "invented chemistry"
+        }
+      ]
+    },
+    {
+      "id": "rn_Q92JNwd5nVm6HSwH::L2::Q5",
+      "moduleId": "rn_Q92JNwd5nVm6HSwH::L2",
+      "stem": "Which metal ion is reduced when Tollens' reagent reacts positively?",
+      "misconceptionClass": "Tollens reduction",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nitrate ion, reduced to nitrogen dioxide",
+          "correct": false,
+          "explanation": "The nitrate is a spectator; silver is the working ion.",
+          "misconception": "wrong species"
+        },
+        {
+          "key": "B",
+          "text": "Silver ion, Ag+, reduced to metallic silver atoms",
+          "correct": true,
+          "explanation": "The Ag+ ions gain electrons and plate out as the silver mirror.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Copper(II) ion, reduced to copper(I) oxide",
+          "correct": false,
+          "explanation": "That is Fehling's solution chemistry.",
+          "misconception": "test confused"
+        },
+        {
+          "key": "D",
+          "text": "Ammonium ion, reduced to ammonia",
+          "correct": false,
+          "explanation": "Ammonia is already the medium, not the reduced species.",
+          "misconception": "wrong species"
+        }
+      ]
+    },
+    {
+      "id": "rn_Q92JNwd5nVm6HSwH::L2::Q6",
+      "moduleId": "rn_Q92JNwd5nVm6HSwH::L2",
+      "stem": "State the positive observations for Fehling's and Tollens' tests.",
+      "misconceptionClass": "observations recall",
+      "kind": "recall",
+      "modelAnswer": "Fehling's gives an opaque red precipitate of copper(I) oxide; Tollens' gives a silver mirror on the tube.",
+      "keywords": [
+        "red",
+        "precipitate",
+        "mirror"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Q92JNwd5nVm6HSwH::L2::Q7",
+      "moduleId": "rn_Q92JNwd5nVm6HSwH::L2",
+      "stem": "Name the oxidising species in Fehling's solution.",
+      "misconceptionClass": "species recall",
+      "kind": "recall",
+      "modelAnswer": "Copper(II) ions in alkaline solution are the oxidising agent that reduces to Cu+ in the red oxide precipitate.",
+      "keywords": [
+        "copper",
+        "ions",
+        "oxidising"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Q92JNwd5nVm6HSwH::L2::Q8",
+      "moduleId": "rn_Q92JNwd5nVm6HSwH::L2",
+      "stem": "Explain why the Tollens' test deposits silver on the glass rather than forming a precipitate.",
+      "misconceptionClass": "mirror explanation",
+      "kind": "explain-why",
+      "modelAnswer": "The reduced silver atoms are uncharged metal that adheres to the clean glass surface as a reflective film instead of clustering into an insoluble ionic solid, which is why the tube mirrors rather than clouds.",
+      "keywords": [
+        "atoms",
+        "glass",
+        "mirror"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Q92JNwd5nVm6HSwH::L2::Q9",
+      "moduleId": "rn_Q92JNwd5nVm6HSwH::L2",
+      "stem": "Two unlabelled liquids are propanal and propanone. Describe how one test distinguishes them, stating the reagent and both possible outcomes.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Warm each with Tollens' reagent: propanal gives the silver mirror within minutes while propanone leaves the reagent clear, so the mirror identifies the aldehyde and the unchanged tube the ketone.",
+      "keywords": [
+        "propanal",
+        "propanone",
+        "mirror"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Q92JNwd5nVm6HSwH::L3::Q1",
+      "moduleId": "rn_Q92JNwd5nVm6HSwH::L3",
+      "stem": "Which technique produces a carboxylic acid from a primary alcohol?",
+      "misconceptionClass": "technique for acid",
+      "options": [
+        {
+          "key": "A",
+          "text": "Shaking with sodium carbonate solution",
+          "correct": false,
+          "explanation": "That is a washing step, not an oxidation.",
+          "misconception": "technique wrong"
+        },
+        {
+          "key": "B",
+          "text": "Drying over anhydrous sulfate",
+          "correct": false,
+          "explanation": "Drying removes water; it performs no oxidation.",
+          "misconception": "technique wrong"
+        },
+        {
+          "key": "C",
+          "text": "Heating under reflux with excess oxidising agent",
+          "correct": true,
+          "explanation": "Retention in the flask drives oxidation all the way to the acid.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Distillation with addition of the alcohol",
+          "correct": false,
+          "explanation": "That technique deliberately stops at the aldehyde.",
+          "misconception": "technique wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_Q92JNwd5nVm6HSwH::L3::Q2",
+      "moduleId": "rn_Q92JNwd5nVm6HSwH::L3",
+      "stem": "In distillation with addition, the alcohol is added slowly to the heated oxidising agent because",
+      "misconceptionClass": "slow addition reason",
+      "options": [
+        {
+          "key": "A",
+          "text": "The alcohol must be conserved because it is expensive",
+          "correct": false,
+          "explanation": "Economy is not the chemical reason; the volatile product's escape is.",
+          "misconception": "wrong reason"
+        },
+        {
+          "key": "B",
+          "text": "Adding fast would freeze the oxidising agent",
+          "correct": false,
+          "explanation": "Nothing freezes; the reason is product protection.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "C",
+          "text": "The oxidising agent reacts violently with all alcohols",
+          "correct": false,
+          "explanation": "Controlled addition protects the aldehyde from over-oxidation, not the apparatus from violence.",
+          "misconception": "wrong reason"
+        },
+        {
+          "key": "D",
+          "text": "Each drop oxidises promptly and its aldehyde distils away before further oxidation",
+          "correct": true,
+          "explanation": "Slow feeding keeps the aldehyde's residence time in the oxidant as short as possible.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_Q92JNwd5nVm6HSwH::L3::Q3",
+      "moduleId": "rn_Q92JNwd5nVm6HSwH::L3",
+      "stem": "What keeps the products inside the flask during heating under reflux?",
+      "misconceptionClass": "retention mechanism",
+      "options": [
+        {
+          "key": "A",
+          "text": "The vertical condenser condenses escaping vapour and returns it to the mixture",
+          "correct": true,
+          "explanation": "Vapours hit the cold jacket glass and drip back, so nothing is lost while heating continues.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "A sealed stopper blocks the flask neck",
+          "correct": false,
+          "explanation": "Reflux flasks are open at the top to the condenser, not sealed.",
+          "misconception": "wrong picture"
+        },
+        {
+          "key": "C",
+          "text": "The reaction temperature stays below every boiling point",
+          "correct": false,
+          "explanation": "Reflux involves boiling; retention is mechanical, not thermal.",
+          "misconception": "wrong picture"
+        },
+        {
+          "key": "D",
+          "text": "The products are non-volatile solids",
+          "correct": false,
+          "explanation": "The products are volatile liquids deliberately retained.",
+          "misconception": "wrong picture"
+        }
+      ]
+    },
+    {
+      "id": "rn_Q92JNwd5nVm6HSwH::L3::Q4",
+      "moduleId": "rn_Q92JNwd5nVm6HSwH::L3",
+      "stem": "Why does the aldehyde leave the reaction zone immediately in distillation with addition?",
+      "misconceptionClass": "escape mechanism",
+      "options": [
+        {
+          "key": "A",
+          "text": "The condenser water pushes it out of the flask",
+          "correct": false,
+          "explanation": "The condenser sits outside the flask; pressure of water plays no role.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "B",
+          "text": "Its boiling point is much lower than the alcohol's, so it vapourises as soon as it forms",
+          "correct": true,
+          "explanation": "The boiling-point gap makes the aldehyde the first volatile species to leave the hot mixture.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "It is repelled by the oxidising agent chemically",
+          "correct": false,
+          "explanation": "No repulsion exists; volatility alone drives the escape.",
+          "misconception": "invented chemistry"
+        },
+        {
+          "key": "D",
+          "text": "It is insoluble in the oxidising solution and floats out",
+          "correct": false,
+          "explanation": "Immiscibility is not the escape route; vapourisation is.",
+          "misconception": "wrong cause"
+        }
+      ]
+    },
+    {
+      "id": "rn_Q92JNwd5nVm6HSwH::L3::Q5",
+      "moduleId": "rn_Q92JNwd5nVm6HSwH::L3",
+      "stem": "Oxidising a secondary alcohol under reflux gives which outcome?",
+      "misconceptionClass": "secondary reflux outcome",
+      "options": [
+        {
+          "key": "A",
+          "text": "The carboxylic acid",
+          "correct": false,
+          "explanation": "Acids arise from primary alcohols only.",
+          "misconception": "wrong product"
+        },
+        {
+          "key": "B",
+          "text": "No oxidation, since reflux blocks secondary alcohols",
+          "correct": false,
+          "explanation": "Secondary alcohols oxidise readily under reflux to ketones.",
+          "misconception": "wrong claim"
+        },
+        {
+          "key": "C",
+          "text": "The ketone, the ceiling product for secondary alcohols",
+          "correct": true,
+          "explanation": "Reflux with excess oxidant delivers the ketone, which cannot oxidise further.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "A mixture of aldehyde and ketone",
+          "correct": false,
+          "explanation": "Secondary alcohols never pass through aldehydes.",
+          "misconception": "wrong products"
+        }
+      ]
+    },
+    {
+      "id": "rn_Q92JNwd5nVm6HSwH::L3::Q6",
+      "moduleId": "rn_Q92JNwd5nVm6HSwH::L3",
+      "stem": "State which apparatus choice suits full oxidation and which suits stopping at the aldehyde.",
+      "misconceptionClass": "apparatus recall",
+      "kind": "recall",
+      "modelAnswer": "Reflux suits full oxidation to acids or ketones, and distillation with addition suits collecting the aldehyde before over-oxidation.",
+      "keywords": [
+        "reflux",
+        "distillation",
+        "aldehyde"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Q92JNwd5nVm6HSwH::L3::Q7",
+      "moduleId": "rn_Q92JNwd5nVm6HSwH::L3",
+      "stem": "Describe how the alcohol is introduced in the distillation-with-addition technique.",
+      "misconceptionClass": "procedure recall",
+      "kind": "recall",
+      "modelAnswer": "The oxidant alone sits on the heat while the alcohol drips in slowly, drop by drop, so each portion oxidises and its aldehyde distils away at once.",
+      "keywords": [
+        "heat",
+        "slowly",
+        "drips"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Q92JNwd5nVm6HSwH::L3::Q8",
+      "moduleId": "rn_Q92JNwd5nVm6HSwH::L3",
+      "stem": "Explain why reflux cannot be used when the aldehyde is the target product.",
+      "misconceptionClass": "reflux limitation",
+      "kind": "explain-why",
+      "modelAnswer": "Reflux retains every volatile species in contact with the oxidant, so any aldehyde formed would be re-oxidised to the acid; the target requires its immediate removal, which only distillation provides.",
+      "keywords": [
+        "retains",
+        "oxidised",
+        "removal"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Q92JNwd5nVm6HSwH::L3::Q9",
+      "moduleId": "rn_Q92JNwd5nVm6HSwH::L3",
+      "stem": "A student wants propanal from propan-1-ol but sets up reflux by mistake. State the product obtained after full reflux with excess oxidant and the apparatus that should have been used.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Propanoic acid, since retained aldehyde is oxidised further under reflux; the correct set-up was distillation with addition, dripping the alcohol into heated oxidant and collecting the distilled propanal.",
+      "keywords": [
+        "propanoic",
+        "reflux",
+        "addition"
+      ],
+      "options": []
+    }
+  ]
+}

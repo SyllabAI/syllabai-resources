@@ -1,0 +1,178 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_8WgRjQjgZJ9XHcW9",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "381ce1ffd9414d9064ea0237a6d903b3ce2b0d78e1327ede0796889c902c0419",
+    "pinnedRef": "2fc9e39e4cb53c8e29601db0013337d9b2996890"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_8WgRjQjgZJ9XHcW9",
+    "topicTitle": "2. Energetics, Group Chemistry, Halogenoalkanes & Alcohols",
+    "subtopicTitle": "Using Infrared Spectrometry",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/2-energetics-group-chemistry-halogenoalkanes-and-alcohols/2-10-organic-chemistry-techniques-and-spectra/2-10-3-using-infrared-spectrometry",
+    "specAnchors": [
+      {
+        "code": "10.22",
+        "text": "be able to use infrared spectra, or data from infrared spectra, to deduce functional groups present in organic compounds, and predict infrared absorptions, given wavenumber data, due to familiar functional groups including: i C–H stretching absorptions in alkanes, alkenes and aldehydes ii C=C stretching absorption in alkenes iii O–H stretching absorptions in alcohols and carboxylic acids iv C=O stretching absorptions in aldehydes, ketones and carboxylic acids v C–X stretching absorption in halogenoalkanes vi N-H stretching absorption in amines"
+      }
+    ],
+    "primer": {
+      "text": "Bonds vibrate, and infrared radiation makes them sing at their own frequencies. This note explains how a spectrophotometer converts those vibrations into a spectrum, why hydrogen bonding broadens the O-H band, and how paired spectra separate a ketone from an alcohol when ranges overlap.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_8WgRjQjgZJ9XHcW9::L1",
+        "title": "How bonds absorb infrared radiation",
+        "sourceHeadings": [
+          "Infrared Spectrometry - Interpretation"
+        ],
+        "specRefs": [
+          "10.22"
+        ],
+        "opening": "Every bond in an organic molecule vibrates, and infrared radiation at the right frequency makes that vibration larger. A spectrophotometer sweeps the infrared range, records which frequencies a sample absorbs, and hands the chemist a functional-group fingerprint.",
+        "keyPoints": [
+          "Infrared spectroscopy identifies compounds through the vibrations their bonds undergo when absorbing infrared frequencies.",
+          "A spectrophotometer irradiates the sample with infrared waves and measures the transmitted intensity at each wavelength.",
+          "Absorbed energy makes bonds stretch, bend or twist, and each vibration responds only to its own specific frequency.",
+          "Absorbances are recorded as wavenumbers, the reciprocal of wavelength in centimetres.",
+          "Absorption peaks carry characteristic widths and strengths: hydrogen-bonded O-H absorbs broadly, C=O sharply and strongly."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Shine the whole infrared range through the sample; wherever a bond's resonance frequency matches the radiation, energy vanishes from the transmitted beam and a dip appears on the spectrum at that wavenumber.",
+            "analogy": "Singing to a wine glass: only the note matching the glass's own frequency makes it ring, exactly as only the matching infrared frequency excites a given bond.",
+            "examPointer": "Quote peaks as wavenumbers in cm-1 and describe them by both position and shape - broad versus sharp is examinable language."
+          },
+          "medium": {
+            "restatement": "The resonance frequency depends on the bond's own atoms and its molecular environment: hydrogen bonding spreads the O-H absorption into a wide band, while the polar carbonyl double bond gives one strong, narrow spike near 1710 cm-1. Comparing an unknown spectrum against known compounds turns those shapes into identifications.",
+            "analogy": "Two guitar strings tuned alike hum together, but a damp string muddies into a wider response - hydrogen bonding is the damp string of the infrared world.",
+            "examPointer": "Name the mechanism when asked: absorption enlarges the natural vibration, and the recorded dip's position and width identify the bond behind it."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_8WgRjQjgZJ9XHcW9::L1::Q1",
+          "rn_8WgRjQjgZJ9XHcW9::L1::Q2",
+          "rn_8WgRjQjgZJ9XHcW9::L1::Q3",
+          "rn_8WgRjQjgZJ9XHcW9::L1::Q4",
+          "rn_8WgRjQjgZJ9XHcW9::L1::Q5",
+          "rn_8WgRjQjgZJ9XHcW9::L1::Q6",
+          "rn_8WgRjQjgZJ9XHcW9::L1::Q7",
+          "rn_8WgRjQjgZJ9XHcW9::L1::Q8",
+          "rn_8WgRjQjgZJ9XHcW9::L1::Q9"
+        ],
+        "figureIds": []
+      },
+      {
+        "id": "rn_8WgRjQjgZJ9XHcW9::L2",
+        "title": "Reading absorption ranges and comparing spectra",
+        "sourceHeadings": [
+          "Absorption Range of Bonds Table"
+        ],
+        "specRefs": [
+          "10.22"
+        ],
+        "opening": "Bond absorbances occupy published ranges rather than single values, and those ranges overlap. This lesson uses the absorption-range table to assign peaks, and shows how paired spectra, like propanone against propan-2-ol, settle identifications that a single peak cannot.",
+        "keyPoints": [
+          "The absorption-range table lists the wavenumber band in which each bond type absorbs.",
+          "Absorption bands of different bonds can overlap, so infrared evidence alone may be ambiguous.",
+          "Mass spectroscopy is used alongside infrared spectroscopy when ranges overlap and more certainty is needed.",
+          "A strong, sharp absorption near 1710 identifies the carbonyl group of a ketone such as propanone.",
+          "A strong, broad absorption around 3200-3500 identifies the O-H group of an alcohol such as propan-2-ol."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Find the observed peak's wavenumber in the table, list every bond whose range covers it, then use peak shape and the rest of the spectrum to pick the right bond - and call in the mass spectrum when two candidates still overlap.",
+            "analogy": "Reading a train timetable with overlapping routes: several trains may pass at 1710, so you check the destination board (the peak shape) before boarding.",
+            "examPointer": "Always answer paired-spectrum questions by naming the diagnostic peak in each spectrum first, then assigning the compounds."
+          },
+          "medium": {
+            "restatement": "Ranges overlap because bond environments shift absorption positions slightly; the comparison strategy treats the infrared spectrum as one strand of evidence and weights the strongest, most diagnostic peaks - carbonyl spikes and hydroxyl bands - above ambiguous backbone absorptions.",
+            "analogy": "Identifying a bird by its silhouette plus its song: one clue is ambiguous, two together are decisive.",
+            "examPointer": "Mention the complementary technique explicitly when a question asks how to resolve overlapping absorbances - mass spectroscopy is the expected partner."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_8WgRjQjgZJ9XHcW9::L2::Q1",
+          "rn_8WgRjQjgZJ9XHcW9::L2::Q2",
+          "rn_8WgRjQjgZJ9XHcW9::L2::Q3",
+          "rn_8WgRjQjgZJ9XHcW9::L2::Q4",
+          "rn_8WgRjQjgZJ9XHcW9::L2::Q5",
+          "rn_8WgRjQjgZJ9XHcW9::L2::Q6",
+          "rn_8WgRjQjgZJ9XHcW9::L2::Q7",
+          "rn_8WgRjQjgZJ9XHcW9::L2::Q8",
+          "rn_8WgRjQjgZJ9XHcW9::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-01",
+          "fig-02"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "wavenumber",
+          "definition": "The reciprocal of wavelength expressed per centimetre, the unit in which infrared absorbances are recorded.",
+          "firstLesson": 1
+        },
+        {
+          "term": "resonance frequency",
+          "definition": "The specific frequency at which a bond's vibration responds most strongly to absorbed radiation.",
+          "firstLesson": 1
+        },
+        {
+          "term": "spectrophotometer",
+          "definition": "The instrument that irradiates a sample with infrared waves and measures the transmitted intensity at each wavelength.",
+          "firstLesson": 1
+        }
+      ],
+      "workedExample": null
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/b718f56d4602-11-1-4-absorption-range-table.png",
+        "alt": "Table of characteristic infrared absorption ranges for common bonds",
+        "sourceHeading": "Absorption Range of Bonds Table",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/f9aae8b25d8f-4-1-analytical-techniques-question-worked-exampl.png",
+        "alt": "Analytical Techniques Question Worked Example - Analysing IR Spectra, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Absorption Range of Bonds Table",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      }
+    ]
+  }
+}

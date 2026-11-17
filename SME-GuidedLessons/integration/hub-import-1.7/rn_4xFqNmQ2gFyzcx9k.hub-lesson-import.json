@@ -1,0 +1,200 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_4xFqNmQ2gFyzcx9k",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "0136d218d393b2d9fdb811557d61807cdb1daf54c91651b100786b569f6cbbab",
+    "pinnedRef": "2fc9e39e4cb53c8e29601db0013337d9b2996890"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_4xFqNmQ2gFyzcx9k",
+    "topicTitle": "3. Practical Skills in Chemistry I",
+    "subtopicTitle": "Standard Solutions",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/3-practical-skills-in-chemistry-i/3-1-physical-chemistry-core-practicals/3-1-4-standard-solutions",
+    "specAnchors": [
+      {
+        "code": "8.23",
+        "text": "CORE PRACTICAL 4 Preparation of a standard solution from a solid acid and use it to find the concentration of a solution of sodium hydroxide. Further suggested practicals: i experiments to study the thermal decomposition of Group 1 and 2 nitrates and carbonates ii flame tests on compounds of Group 1 and 2 iii simple acid-base titrations using the indicators methyl orange and phenolphthalein to calculate solution concentrations in g dm -3 and mol dm -3 iv the solubility of calcium hydroxide by titration v determination of moles of water of crystallisation by titration"
+      }
+    ],
+    "primer": {
+      "text": "Every titration stands on a solution whose concentration is a promise. This note prepares that promise - fine balance, volumetric flask, the graduation mark - defines concentration and its units, and computes the exact mass of sodium hydroxide needed for 250 cm3 of 0.200 mol dm-3.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_4xFqNmQ2gFyzcx9k::L1",
+        "title": "Volumetric analysis and its apparatus",
+        "sourceHeadings": [
+          "Volumetric Analysis"
+        ],
+        "specRefs": [
+          "8.23"
+        ],
+        "opening": "Volumetric analysis lets a solution of known concentration reveal the concentration of an unknown partner through a titration. This lesson names the technique, sets out the five apparatus pieces that make the volumes precise, and explains why the standard solution must exist before any titration begins.",
+        "keyPoints": [
+          "Volumetric analysis uses the volume and concentration of a known solution to determine an unknown solution's concentration.",
+          "The standard technique is the titration, run with a pipette and burette for precise volumes.",
+          "The standard solution must be prepared before the titration can be performed.",
+          "The apparatus set comprises beaker, burette, volumetric pipette, conical flask and volumetric flask.",
+          "Specific apparatus is used at both the preparation and titration stages to keep volumes measured precisely."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "One partner's concentration is known exactly; measuring how much of it reacts with a measured volume of the unknown back-calculates the unknown's concentration, all hinging on the pipette and burette's precision.",
+            "analogy": "A shopping comparison: if one basket's price per litre is known, weighing how much of it exchanges for another stall's jug reveals the jug's price per litre.",
+            "examPointer": "Name all five apparatus pieces when a question asks for the kit, and stress that the standard solution is a precondition, not an afterthought."
+          },
+          "medium": {
+            "restatement": "The titration is a mole-counting exchange observed through volumes: the standard's concentration times its delivered volume prices its moles, the equation's ratio converts them to the unknown's moles, and the unknown's measured volume converts those moles into a concentration.",
+            "analogy": "Two currencies exchanged at a known rate, with the burette counting one currency and the pipette counting the other.",
+            "examPointer": "Link each apparatus piece to its precision role - pipette for the aliquot, burette for the variable volume, volumetric flask for making the standard up to the mark."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_4xFqNmQ2gFyzcx9k::L1::Q1",
+          "rn_4xFqNmQ2gFyzcx9k::L1::Q2",
+          "rn_4xFqNmQ2gFyzcx9k::L1::Q3",
+          "rn_4xFqNmQ2gFyzcx9k::L1::Q4",
+          "rn_4xFqNmQ2gFyzcx9k::L1::Q5",
+          "rn_4xFqNmQ2gFyzcx9k::L1::Q6",
+          "rn_4xFqNmQ2gFyzcx9k::L1::Q7",
+          "rn_4xFqNmQ2gFyzcx9k::L1::Q8",
+          "rn_4xFqNmQ2gFyzcx9k::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01"
+        ]
+      },
+      {
+        "id": "rn_4xFqNmQ2gFyzcx9k::L2",
+        "title": "Making the standard solution and computing with it",
+        "sourceHeadings": [
+          "Making a Volumetric Solution",
+          "Volumes & concentrations of solutions"
+        ],
+        "specRefs": [
+          "8.23"
+        ],
+        "opening": "A standard solution is a promise of exact concentration, kept with a three-decimal balance and a volumetric flask. This lesson walks the preparation, defines concentration and its units, and computes the mass of solute needed for a target volume and molarity.",
+        "keyPoints": [
+          "The solutions are prepared on three-decimal balances and in volumetric flasks so the concentration holds to every quoted digit.",
+          "The solute dissolves in the solvent, usually water, to make the solution at the graduated mark.",
+          "Concentration is the amount of solute dissolved to make 1 dm3 of solution, quoted per unit volume.",
+          "Concentrated solutions carry high solute concentrations and dilute ones low concentrations.",
+          "Concentration is expressed as moles per volume, mass per volume or parts per million; the mass for 250 cm3 of 0.200 mol dm-3 NaOH is 2.00 g."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Weigh the solid to three decimals, dissolve it, transfer to the volumetric flask and top up to the mark; the concentration promise is then kept, and multiplying target concentration by volume in dm3 gives the moles to weigh out.",
+            "analogy": "Baking to a recipe: precise scales and a measured tin guarantee the cake comes out at the promised size, no matter who bakes it.",
+            "examPointer": "Quote concentrations in mol dm-3 and convert cm3 to dm3 by dividing by 1000 before any mole arithmetic."
+          },
+          "medium": {
+            "restatement": "The volumetric flask's graduation mark is the contract: everything above the mark is discarded error and everything below it is missing solvent, so the mark is approached dropwise; the three-decimal balance keeps the solute count honest, and together they make the standard's concentration trustworthy to the digits quoted.",
+            "analogy": "Filling a fuel tank to the exact litre line, using a pump that counts every drop so the invoice matches the tank.",
+            "examPointer": "Work mass calculations in the order moles from concentration and volume, then mass from moles and molar mass, keeping units in dm3 throughout."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_4xFqNmQ2gFyzcx9k::L2::Q1",
+          "rn_4xFqNmQ2gFyzcx9k::L2::Q2",
+          "rn_4xFqNmQ2gFyzcx9k::L2::Q3",
+          "rn_4xFqNmQ2gFyzcx9k::L2::Q4",
+          "rn_4xFqNmQ2gFyzcx9k::L2::Q5",
+          "rn_4xFqNmQ2gFyzcx9k::L2::Q6",
+          "rn_4xFqNmQ2gFyzcx9k::L2::Q7",
+          "rn_4xFqNmQ2gFyzcx9k::L2::Q8",
+          "rn_4xFqNmQ2gFyzcx9k::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-02",
+          "fig-03"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "standard solution",
+          "definition": "A solution whose concentration is known precisely, prepared with a fine balance and a volumetric flask.",
+          "firstLesson": 1
+        },
+        {
+          "term": "volumetric analysis",
+          "definition": "Determining an unknown concentration from the volumes and concentrations reacting in a titration.",
+          "firstLesson": 1
+        },
+        {
+          "term": "solute",
+          "definition": "The substance that dissolves in the solvent to form the solution.",
+          "firstLesson": 2
+        }
+      ],
+      "workedExample": {
+        "prompt": "A 250 cm3 volumetric flask is to hold a 0.200 mol dm-3 sodium hydroxide standard. Compute the solute mass to weigh out.",
+        "steps": [
+          "Moles needed: 0.200 mol dm-3 x 0.250 dm3 = 0.0500 mol.",
+          "Molar mass of the solute: 23.0 + 16.0 + 1.0 = 40.0 g mol-1.",
+          "Mass: 0.0500 mol x 40.0 g mol-1 = 2.00 g."
+        ],
+        "finalAnswer": "Weigh out 2.00 g of the hydroxide."
+      }
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/4d7a6216daf6-volumetric-analysis-apparatus.png",
+        "alt": "Volumetric analysis apparatus, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Volumetric Analysis",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Some key pieces of apparatus used to prepare a volumetric solution and perform a simple titration"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/76b8ed8daa3b-1-2-7-preparing-a-standard-solution-1.png",
+        "alt": "Preparing a standard solution (1), downloadable IB Chemistry revision notes",
+        "sourceHeading": "Making a Volumetric Solution",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-03",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/f39cc3516bf2-1-2-7-preparing-a-standard-solution-2-1.png",
+        "alt": "Preparing a standard solution (2), downloadable IB Chemistry revision notes",
+        "sourceHeading": "Making a Volumetric Solution",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      }
+    ]
+  }
+}

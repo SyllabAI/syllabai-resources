@@ -1,0 +1,389 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_rcwvcPhtmYZ8GdV5",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "d7d8992ed279d981583b0a18a90b4d4bf14fe41fef89f39accbf6ba4384d2bca",
+    "pinnedRef": "2fc9e39e4cb53c8e29601db0013337d9b2996890"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_rcwvcPhtmYZ8GdV5",
+    "topicTitle": "2. Energetics, Group Chemistry, Halogenoalkanes & Alcohols",
+    "subtopicTitle": "Interpreting Mass Spectra",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/2-energetics-group-chemistry-halogenoalkanes-and-alcohols/2-10-organic-chemistry-techniques-and-spectra/2-10-2-interpreting-mass-spectra",
+    "specAnchors": [
+      {
+        "code": "10.21",
+        "text": "be able to interpret data from mass spectra to suggest possible structures of simple organic compounds using the m/z of the molecular ion and fragmentation patterns"
+      }
+    ],
+    "primer": {
+      "text": "A mass spectrum is a molecule's confession, read peak by peak. This note decodes bombardment and ionisation, isotope clusters, the molecular ion and its carbon-13 satellite, then the fragment fingerprints of alkanes, halogenoalkanes and alcohols - ending with the iron m/z calculation that decides deflection.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_rcwvcPhtmYZ8GdV5::L1",
+        "title": "Bombardment, molecular ions and the detector",
+        "sourceHeadings": [
+          "Mass Spectroscopy - Interpretation"
+        ],
+        "specRefs": [
+          "10.21"
+        ],
+        "opening": "A mass spectrometer turns an unknown compound into a family of charged fragments and sorts them by mass-to-charge ratio. This lesson follows a molecule through electron bombardment, ionisation and fragmentation, then explains how the detector turns deflection into peaks.",
+        "keyPoints": [
+          "High-energy electrons bombard the sample, knocking one electron out of a molecule to give a molecular ion.",
+          "The molecular ion can fragment into smaller ions, molecules and radicals before detection.",
+          "Fragments are accelerated, then separated by their mass-to-charge ratio as they deflect towards the negative pole.",
+          "Lighter or more highly charged ions deflect most and reach the detector first, each giving a peak at its m/z value.",
+          "The base peak is the tallest peak, belonging to the most abundant ion, and m/z is almost always a 1:1 mass-to-charge situation."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "The beam of electrons chisels one electron off the molecule, leaving a positively charged molecular ion; it may then snap into smaller pieces, and the machine sorts every charged piece by how strongly the magnet bends its path.",
+            "analogy": "Imagine flicking a tower of bricks apart and weighing each flying brick by how far the wind bends its flight - the lighter bricks swerve furthest.",
+            "examPointer": "Define the molecular ion as the whole molecule minus one electron, and pair each peak with an m/z value when describing a spectrum."
+          },
+          "medium": {
+            "restatement": "Ionisation gives M -> M+ plus a free electron; the positive ion accelerates through an electric field and enters a magnetic field where deflection depends on mass and charge. A 2+ ion of the same mass bends twice as hard as a 1+ ion, so charge matters as much as mass at the detector.",
+            "analogy": "Two equally sized boats turn more sharply if one carries twice the sail area - more charge pulls the ion harder towards the negative pole.",
+            "examPointer": "State the m/z arithmetic plainly: mass 12 with 1+ charge reads 12, but mass 16 with 2+ charge reads only 8, and quote the base peak when identifying the dominant ion."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_rcwvcPhtmYZ8GdV5::L1::Q1",
+          "rn_rcwvcPhtmYZ8GdV5::L1::Q2",
+          "rn_rcwvcPhtmYZ8GdV5::L1::Q3",
+          "rn_rcwvcPhtmYZ8GdV5::L1::Q4",
+          "rn_rcwvcPhtmYZ8GdV5::L1::Q5",
+          "rn_rcwvcPhtmYZ8GdV5::L1::Q6",
+          "rn_rcwvcPhtmYZ8GdV5::L1::Q7",
+          "rn_rcwvcPhtmYZ8GdV5::L1::Q8",
+          "rn_rcwvcPhtmYZ8GdV5::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01",
+          "fig-02"
+        ]
+      },
+      {
+        "id": "rn_rcwvcPhtmYZ8GdV5::L2",
+        "title": "Isotopes, abundance and the molecular-ion clue",
+        "sourceHeadings": [
+          "Isotopes",
+          "Deducing molecular formulae"
+        ],
+        "specRefs": [
+          "10.21"
+        ],
+        "opening": "Peak positions carry structural information. Isotopic abundance splits some peaks into telltale clusters, the highest-m/z peak hands you the molecular mass, and a faint M+1 satellite counts the carbon atoms. This lesson reads those signatures.",
+        "keyPoints": [
+          "Isotopes share proton and electron counts but differ in neutrons, so chlorine splits into Cl-35 and Cl-37 at 75 and 25 percent.",
+          "Peak heights in a spectrum measure the relative abundance of each isotope present.",
+          "The highest m/z peak is the molecular ion and reports the molecular mass of the compound.",
+          "The small M+1 peak arises from carbon-13, present at just over one percent of natural carbon.",
+          "More carbon atoms enlarge the M+1 peak, so a hexane ion carries a bigger M+1 than an ethane ion."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Read the biggest m/z peak as the molecular mass, then look one unit up: a small M+1 shoulder grows with the carbon count. Where chlorine or bromine sits in the molecule, isotope clusters bracket the peaks in fixed ratios.",
+            "analogy": "A family photo where one child always wears a taller hat: the M+1 shoulder is the carbon-13 sibling standing a fixed bit taller behind each carbon-containing ion.",
+            "examPointer": "Quote the chlorine 75:25 ratio when a spectrum shows an M and M+2 pair, and use the molecular ion for molecular mass before naming fragments."
+          },
+          "medium": {
+            "restatement": "Each carbon atom carries roughly a one-in-a-hundred chance of being carbon-13, so a six-carbon ion is about six times likelier to pick up one C-13 than a two-carbon ion; that proportionality is what makes the M+1 height a carbon counter.",
+            "analogy": "Buying six raffle tickets instead of two triples your winning odds - more carbon atoms means more tickets in the C-13 draw.",
+            "examPointer": "Deduce formulae by combining the molecular ion mass with fragment evidence, and dismiss an M+1 peak as the molecular ion - it is the isotope satellite one unit higher."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_rcwvcPhtmYZ8GdV5::L2::Q1",
+          "rn_rcwvcPhtmYZ8GdV5::L2::Q2",
+          "rn_rcwvcPhtmYZ8GdV5::L2::Q3",
+          "rn_rcwvcPhtmYZ8GdV5::L2::Q4",
+          "rn_rcwvcPhtmYZ8GdV5::L2::Q5",
+          "rn_rcwvcPhtmYZ8GdV5::L2::Q6",
+          "rn_rcwvcPhtmYZ8GdV5::L2::Q7",
+          "rn_rcwvcPhtmYZ8GdV5::L2::Q8",
+          "rn_rcwvcPhtmYZ8GdV5::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-03",
+          "fig-04",
+          "fig-05"
+        ]
+      },
+      {
+        "id": "rn_rcwvcPhtmYZ8GdV5::L3",
+        "title": "Fragment fingerprints of alkanes",
+        "sourceHeadings": [
+          "Alkanes",
+          "m/e Values of Fragments Table"
+        ],
+        "specRefs": [
+          "10.21"
+        ],
+        "opening": "When two compounds share a molecular mass, fragmentation breaks the tie. Alkane spectra are built from C-C bond breaks producing ethyl, propyl and butyl cations, and a reference table of m/e values turns each peak into a structural clue.",
+        "keyPoints": [
+          "Fragmentation provides structural information that a molecular mass alone cannot supply.",
+          "Characteristic fragments such as C2H5+ at m/z 29 give direct evidence of pieces of the carbon chain.",
+          "Small-molecule losses also create peaks, at 18 for water, 28 for carbon monoxide and 44 for carbon dioxide.",
+          "Alkanes fragment by breaking C-C bonds, producing a ladder of alkyl cation peaks.",
+          "A table of common fragment m/e values lets each peak be assigned to a named fragment."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Snap the carbon chain at its C-C seams: each charged piece lands at its own m/z, and matching those numbers against a fragment table names the pieces - 29 for ethyl, 15 for methyl and so on up the ladder.",
+            "analogy": "Breaking a train into carriages of known lengths, then weighing each carriage to report which carriage sizes the train contained.",
+            "examPointer": "Quote the diagnostic peaks: 29 for the ethyl cation, plus 18, 28 and 44 for lost water, carbon monoxide and carbon dioxide when small molecules depart."
+          },
+          "medium": {
+            "restatement": "The molecular ion is a fragile collection of bonds; the beam or its own excess energy snaps the weakest C-C link, and whichever piece keeps the charge becomes the detected cation. The neutral counterpart vanishes unrecorded, so each peak is one charged survivor of a bond break.",
+            "analogy": "A tug-of-war rope snaps and only the side holding the flag gets counted - the charged fragment keeps the flag and the neutral piece walks away unmeasured.",
+            "examPointer": "When a question offers possible structures, eliminate any whose chain cannot produce the observed fragment ions."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_rcwvcPhtmYZ8GdV5::L3::Q1",
+          "rn_rcwvcPhtmYZ8GdV5::L3::Q2",
+          "rn_rcwvcPhtmYZ8GdV5::L3::Q3",
+          "rn_rcwvcPhtmYZ8GdV5::L3::Q4",
+          "rn_rcwvcPhtmYZ8GdV5::L3::Q5",
+          "rn_rcwvcPhtmYZ8GdV5::L3::Q6",
+          "rn_rcwvcPhtmYZ8GdV5::L3::Q7",
+          "rn_rcwvcPhtmYZ8GdV5::L3::Q8",
+          "rn_rcwvcPhtmYZ8GdV5::L3::Q9"
+        ],
+        "figureIds": [
+          "fig-06",
+          "fig-07"
+        ]
+      },
+      {
+        "id": "rn_rcwvcPhtmYZ8GdV5::L4",
+        "title": "Halogen and alcohol fragmentation signatures",
+        "sourceHeadings": [
+          "Halogenoalkanes",
+          "Alcohols"
+        ],
+        "specRefs": [
+          "10.21"
+        ],
+        "opening": "Two families leave unmistakable marks. Halogenoalkanes grow twin molecular-ion peaks from halogen isotopes, while alcohols shed water and cut off CH2OH+ at 31. This lesson reads both fingerprints, including the propan-1-ol four-way fragmentation.",
+        "keyPoints": [
+          "Halogenoalkanes show clusters of peaks around the molecular ion because halogen isotopes differ in mass.",
+          "Bromine's isotopes split a molecular ion into two peaks of roughly equal height two units apart.",
+          "Alcohols often lose a water molecule, giving a peak 18 units below the molecular ion.",
+          "A common alcohol fragment is CH2OH+ at m/z 31.",
+          "Propan-1-ol fragments four ways, giving peaks at 59, 42, 31 and 29 from losses of H, water, ethyl radical and CH2OH radical."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Where a halogen rides in the ion, the molecular ion appears as a family: bromine gives two near-equal peaks two units apart. Alcohols instead shed water (a peak 18 down) and cut at the C-C bond next to the oxygen, handing you the 31 peak of CH2OH+.",
+            "analogy": "One family photo has twins standing two steps apart; the other family keeps losing a small backpack weighing 18 - each spectrum tells you which family it is.",
+            "examPointer": "Assign halogenoalkane clusters by isotope pairs and alcohol peaks by water loss plus the 31 fragment when reading unknown spectra."
+          },
+          "medium": {
+            "restatement": "Isotopic chlorine and bromine multiply the molecular ion into fixed-ratio clusters because each molecule randomly carries one isotope or the other. Alcohol fragmentation reflects bond energies: the C-O region survives as CH2OH+ at 31, while losing water from the parent drops 18 units in one step.",
+            "analogy": "A coin with two metal alloys produces two slightly different ringing tones; an alcohol molecule is a keyring that lets go of either its water charm or its end segment.",
+            "examPointer": "For propan-1-ol quote the quartet: 59, 42, 31 and 29, each tied to its named loss."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_rcwvcPhtmYZ8GdV5::L4::Q1",
+          "rn_rcwvcPhtmYZ8GdV5::L4::Q2",
+          "rn_rcwvcPhtmYZ8GdV5::L4::Q3",
+          "rn_rcwvcPhtmYZ8GdV5::L4::Q4",
+          "rn_rcwvcPhtmYZ8GdV5::L4::Q5",
+          "rn_rcwvcPhtmYZ8GdV5::L4::Q6",
+          "rn_rcwvcPhtmYZ8GdV5::L4::Q7",
+          "rn_rcwvcPhtmYZ8GdV5::L4::Q8",
+          "rn_rcwvcPhtmYZ8GdV5::L4::Q9"
+        ],
+        "figureIds": [
+          "fig-08",
+          "fig-09"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "molecular ion",
+          "definition": "The intact molecule with one electron removed by the electron beam, giving the peak at the highest m/z value.",
+          "firstLesson": 1
+        },
+        {
+          "term": "m/z value",
+          "definition": "The mass of an ion divided by its charge, the quantity that decides how far the ion deflects before detection.",
+          "firstLesson": 1
+        },
+        {
+          "term": "base peak",
+          "definition": "The tallest peak in a mass spectrum, belonging to the most abundant ion detected.",
+          "firstLesson": 2
+        },
+        {
+          "term": "fragmentation",
+          "definition": "Breaking of the molecular ion into smaller charged and neutral pieces, each charged piece producing its own peak.",
+          "firstLesson": 3
+        },
+        {
+          "term": "[M+1] peak",
+          "definition": "A small satellite peak one unit above the molecular ion, caused by carbon-13 and growing with the carbon count.",
+          "firstLesson": 2
+        }
+      ],
+      "workedExample": {
+        "prompt": "Two iron ions, 54Fe2+ and 56Fe3+, reach the detector. Work out each m/z value and name the ion the magnet bends further.",
+        "steps": [
+          "Divide mass by charge for the first ion: 54 / 2 = 27, so the 54Fe2+ ion sits at m/z 27.",
+          "Divide mass by charge for the second ion: 56 / 3 = 18.7, so the 56Fe3+ ion sits near m/z 18.7.",
+          "Compare the ratios: 18.7 is smaller than 27, and smaller m/z means stronger deflection in the same magnetic field.",
+          "The 56Fe3+ ion also carries the larger positive charge, increasing its attraction towards the negative pole of the magnet."
+        ],
+        "finalAnswer": "The 54Fe2+ ion registers at m/z 27 and the 56Fe3+ ion near 18.7; the 56Fe3+ ion is deflected more."
+      }
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/0138fbe820df-2-interpreting-mass-spectra-equation-1.png",
+        "alt": "Interpreting Mass Spectra equation 1",
+        "sourceHeading": "Mass Spectroscopy - Interpretation",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/337e5750000f-4-1-analytical-techniques-fragmentation.png",
+        "alt": "Analytical Techniques Fragmentation, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Mass Spectroscopy - Interpretation",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Fragmentation of a molecule in mass spectroscopy"
+      },
+      {
+        "id": "fig-03",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/6573fbcb9a22-4-1-analytical-techniques-mass-spectrum-boron.png",
+        "alt": "Analytical Techniques Mass Spectrum Boron, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Isotopes",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "The peak heights show the relative abundance of the boron isotopes: boron-10 has a relative abundance of 19.9% and boron-11 has a relative abundance of 80.1%"
+      },
+      {
+        "id": "fig-04",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/2b8aafcf13b9-2-interpreting-mass-spectra-worked-example-equat.png",
+        "alt": "Iron ion m/z worked-example equations for 54Fe2+ and 56Fe3+",
+        "sourceHeading": "Isotopes",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-05",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/949975808d4e-4-1-analytical-techniques-spec-1-mass-spectromet.png",
+        "alt": "Analytical Techniques Spec 1_Mass Spectrometry, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Deducing molecular formulae",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-06",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/c0506281a1ae-4-1-analytical-techniques-table-1-identifying-mo.png",
+        "alt": "Analytical Techniques Table 1_Identifying Molecules using Fragmentation, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "m/e Values of Fragments Table",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-07",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/e01175554240-4-1-analytical-techniques-alkane-spectrum.png",
+        "alt": "Analytical Techniques Alkane Spectrum, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "m/e Values of Fragments Table",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique",
+        "caption": "Mass spectrum showing the fragmentation of C10H22"
+      },
+      {
+        "id": "fig-08",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/6c88e8d28573-4-1-analytical-techniques-halogenoalkane-spectru.png",
+        "alt": "Analytical Techniques Halogenoalkane Spectrum, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Halogenoalkanes",
+        "moduleIds": [
+          "L4"
+        ],
+        "binding": "heading-unique",
+        "caption": "Mass spectrum showing different isotopes of bromine in the molecular ion"
+      },
+      {
+        "id": "fig-09",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/846f65e0bc24-4-1-analytical-techniques-alcohols-spectrum-2.png",
+        "alt": "Analytical Techniques Alcohols Spectrum_2, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Alcohols",
+        "moduleIds": [
+          "L4"
+        ],
+        "binding": "heading-unique",
+        "caption": "Mass spectrum showing the fragmentation patterns in propan-1-ol (alcohol)"
+      }
+    ]
+  }
+}

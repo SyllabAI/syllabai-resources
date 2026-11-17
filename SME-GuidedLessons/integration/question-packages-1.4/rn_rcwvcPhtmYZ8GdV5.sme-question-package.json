@@ -1,0 +1,959 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_rcwvcPhtmYZ8GdV5",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "d7d8992ed279d981583b0a18a90b4d4bf14fe41fef89f39accbf6ba4384d2bca",
+    "pinnedRef": "2fc9e39e4cb53c8e29601db0013337d9b2996890"
+  },
+  "packageId": "ial-chemistry::rn_rcwvcPhtmYZ8GdV5",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L1::Q1",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L1",
+      "stem": "What creates the molecular ion in a mass spectrometer?",
+      "misconceptionClass": "ionisation event",
+      "options": [
+        {
+          "key": "A",
+          "text": "A high-energy electron beam knocks one electron out of the molecule",
+          "correct": true,
+          "explanation": "Bombardment removes one electron from the pair, leaving a positive ion with an unpaired electron.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The molecule captures an extra electron from the beam",
+          "correct": false,
+          "explanation": "Capturing would make a negative ion; mass spectrometry of organics makes positive ions.",
+          "misconception": "charge wrong"
+        },
+        {
+          "key": "C",
+          "text": "The molecule is heated until it ionises spontaneously",
+          "correct": false,
+          "explanation": "Ionisation comes from electron bombardment, not from heating alone.",
+          "misconception": "wrong mechanism"
+        },
+        {
+          "key": "D",
+          "text": "A magnet strips electrons from the molecule before detection",
+          "correct": false,
+          "explanation": "The magnet deflects existing ions; it does not ionise them.",
+          "misconception": "stage confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L1::Q2",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L1",
+      "stem": "A doubly charged ion of mass 16 arrives at the detector. Its m/z value is",
+      "misconceptionClass": "m/z calculation",
+      "options": [
+        {
+          "key": "A",
+          "text": "4",
+          "correct": false,
+          "explanation": "That divides by 4, a charge the ion does not carry.",
+          "misconception": "arithmetic wrong"
+        },
+        {
+          "key": "B",
+          "text": "8",
+          "correct": true,
+          "explanation": "m/z divides mass by charge: 16 / 2 = 8.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "16",
+          "correct": false,
+          "explanation": "That ignores the 2+ charge, which halves the ratio.",
+          "misconception": "charge ignored"
+        },
+        {
+          "key": "D",
+          "text": "32",
+          "correct": false,
+          "explanation": "That multiplies instead of divides, reversing the ratio's meaning.",
+          "misconception": "arithmetic reversed"
+        }
+      ]
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L1::Q3",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L1",
+      "stem": "Which ions are deflected the most on the way to the detector?",
+      "misconceptionClass": "deflection rule",
+      "options": [
+        {
+          "key": "A",
+          "text": "Neutral fragments formed during fragmentation",
+          "correct": false,
+          "explanation": "Neutral species are not accelerated or deflected; they are not detected at all.",
+          "misconception": "category wrong"
+        },
+        {
+          "key": "B",
+          "text": "Ions attracted to the positive pole of the magnet",
+          "correct": false,
+          "explanation": "Positive ions are pulled towards the negative pole.",
+          "misconception": "pole wrong"
+        },
+        {
+          "key": "C",
+          "text": "The smaller and more positively charged fragments",
+          "correct": true,
+          "explanation": "Deflection grows as mass falls and as charge rises, so light, highly charged ions bend hardest.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The heaviest singly charged ions",
+          "correct": false,
+          "explanation": "Heavy ions resist deflection and bend least.",
+          "misconception": "direction reversed"
+        }
+      ]
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L1::Q4",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L1",
+      "stem": "What does the tallest peak of a mass spectrum represent?",
+      "misconceptionClass": "base peak meaning",
+      "options": [
+        {
+          "key": "A",
+          "text": "The molecular ion, always the last peak",
+          "correct": false,
+          "explanation": "The molecular ion is the highest m/z peak, not necessarily the tallest.",
+          "misconception": "confused with molecular ion"
+        },
+        {
+          "key": "B",
+          "text": "The fragment with the largest m/z value",
+          "correct": false,
+          "explanation": "Largest m/z is the molecular ion region, unrelated to abundance.",
+          "misconception": "confused with molecular ion"
+        },
+        {
+          "key": "C",
+          "text": "An artefact of detector noise",
+          "correct": false,
+          "explanation": "The base peak is a real signal from the dominant ion.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "D",
+          "text": "The most abundant ion, giving the tallest peak",
+          "correct": true,
+          "explanation": "Abundance sets peak height, and the tallest peak is called the base peak.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L1::Q5",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L1",
+      "stem": "After fragmentation, the charged fragments are separated inside the spectrometer by",
+      "misconceptionClass": "separation principle",
+      "options": [
+        {
+          "key": "A",
+          "text": "Their mass-to-charge ratio as they deflect in the magnetic field",
+          "correct": true,
+          "explanation": "The field bends each ion's path by an amount set by mass and charge, so m/z sorts the fragments.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Their colour when excited by the electron beam",
+          "correct": false,
+          "explanation": "No optical sorting happens in a mass spectrometer.",
+          "misconception": "invented method"
+        },
+        {
+          "key": "C",
+          "text": "Their speed through the sample inlet",
+          "correct": false,
+          "explanation": "The inlet does not separate anything; separation happens after acceleration.",
+          "misconception": "stage wrong"
+        },
+        {
+          "key": "D",
+          "text": "Their boiling points under vacuum",
+          "correct": false,
+          "explanation": "Boiling point is irrelevant to ion sorting.",
+          "misconception": "irrelevant property"
+        }
+      ]
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L1::Q6",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L1",
+      "stem": "Define the molecular ion of a compound in mass spectrometry.",
+      "misconceptionClass": "definition recall",
+      "kind": "recall",
+      "modelAnswer": "The molecular ion is the whole molecule with one electron removed by the electron beam, carrying a positive charge and giving the peak at the highest m/z.",
+      "keywords": [
+        "electron",
+        "removed",
+        "positive"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L1::Q7",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L1",
+      "stem": "State what is meant by the m/z value of an ion.",
+      "misconceptionClass": "definition recall",
+      "kind": "recall",
+      "modelAnswer": "The m/z value is the mass of the ion divided by its charge, and for most singly charged ions it simply equals the ion's mass.",
+      "keywords": [
+        "mass",
+        "charge",
+        "divided"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L1::Q8",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L1",
+      "stem": "Explain why a singly charged ion of mass 12 and a doubly charged ion of mass 24 follow the same path in the spectrometer.",
+      "misconceptionClass": "deflection explanation",
+      "kind": "explain-why",
+      "modelAnswer": "Both have identical m/z values of 12, and deflection in the magnetic field depends on that ratio rather than on mass or charge separately, so equal ratios give equal bending and equal detection positions.",
+      "keywords": [
+        "ratio",
+        "identical",
+        "deflection"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L1::Q9",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L1",
+      "stem": "A fragment ion of mass 28 appears twice in a spectrum, once singly charged and once doubly charged. Predict both m/z positions of this pair of peaks.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "The singly charged ion lands at m/z 28 and the doubly charged version at m/z 14, because dividing the same mass by 1 and by 2 halves the ratio for the higher charge.",
+      "keywords": [
+        "28",
+        "14",
+        "charge"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L2::Q1",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L2",
+      "stem": "Chlorine exists as Cl-35 and Cl-37. What does a mass spectrum of a chlorine-containing molecular ion show?",
+      "misconceptionClass": "chlorine pattern",
+      "options": [
+        {
+          "key": "A",
+          "text": "A single peak split evenly at exactly half height each",
+          "correct": false,
+          "explanation": "The 75:25 abundance ratio is not an even split.",
+          "misconception": "ratio wrong"
+        },
+        {
+          "key": "B",
+          "text": "Two molecular-ion peaks two units apart, in a 75 to 25 height ratio",
+          "correct": true,
+          "explanation": "The two isotopes give ions two mass units apart with heights matching their natural abundances.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "One peak, because isotopes have identical mass",
+          "correct": false,
+          "explanation": "Isotopes differ in neutrons and therefore in mass, so two peaks appear.",
+          "misconception": "isotope confusion"
+        },
+        {
+          "key": "D",
+          "text": "Two peaks one unit apart in equal heights",
+          "correct": false,
+          "explanation": "The mass gap is two units and the heights are unequal.",
+          "misconception": "spacing wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L2::Q2",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L2",
+      "stem": "The [M+1] peak in a mass spectrum is caused by",
+      "misconceptionClass": "M+1 origin",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hydrogen atoms adding mass during ionisation",
+          "correct": false,
+          "explanation": "No hydrogen is added during ionisation; the ion loses an electron only.",
+          "misconception": "invented process"
+        },
+        {
+          "key": "B",
+          "text": "Double ionisation of some molecules",
+          "correct": false,
+          "explanation": "Double charging lowers m/z; it does not create an M+1 peak.",
+          "misconception": "wrong mechanism"
+        },
+        {
+          "key": "C",
+          "text": "The natural abundance of carbon-13, about one atom in a hundred",
+          "correct": true,
+          "explanation": "One C-13 in the ion raises its mass by one unit, creating the satellite peak.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Fragment ions one unit lighter than the molecular ion",
+          "correct": false,
+          "explanation": "Fragments are smaller than the molecular ion, not one unit heavier.",
+          "misconception": "direction reversed"
+        }
+      ]
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L2::Q3",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L2",
+      "stem": "Why is the M+1 peak of a hexane ion taller than that of an ethane ion?",
+      "misconceptionClass": "M+1 scaling",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hexane molecules are more abundant in the sample",
+          "correct": false,
+          "explanation": "Abundance of the sample does not set the M+1 ratio within a molecule.",
+          "misconception": "wrong cause"
+        },
+        {
+          "key": "B",
+          "text": "Ethane ions fragment before the M+1 can form",
+          "correct": false,
+          "explanation": "Fragmentation competes but does not suppress the isotope satellite systematically.",
+          "misconception": "invented reason"
+        },
+        {
+          "key": "C",
+          "text": "Hexane contains more hydrogen atoms that absorb charge",
+          "correct": false,
+          "explanation": "Hydrogen count does not drive the M+1 peak.",
+          "misconception": "wrong cause"
+        },
+        {
+          "key": "D",
+          "text": "Hexane has six carbon atoms to ethane's two, so it has more chances to include a C-13",
+          "correct": true,
+          "explanation": "Each carbon contributes roughly a one-percent C-13 chance, so the satellite grows with carbon count.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L2::Q4",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L2",
+      "stem": "Which peak gives the molecular mass of an unknown compound?",
+      "misconceptionClass": "molecular mass source",
+      "options": [
+        {
+          "key": "A",
+          "text": "The top-m/z peak, the molecular ion",
+          "correct": true,
+          "explanation": "The intact ionised molecule carries the full molecular mass at the top of the m/z range.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The base peak, wherever it sits",
+          "correct": false,
+          "explanation": "The base peak is an abundance champion, often a fragment.",
+          "misconception": "confused peaks"
+        },
+        {
+          "key": "C",
+          "text": "The peak at m/z 18 in every spectrum",
+          "correct": false,
+          "explanation": "18 belongs to water-loss fragments in some compounds, not a universal marker.",
+          "misconception": "invented marker"
+        },
+        {
+          "key": "D",
+          "text": "The M+1 satellite peak",
+          "correct": false,
+          "explanation": "The M+1 peak is one unit above the molecular ion and is not the mass itself.",
+          "misconception": "confused peaks"
+        }
+      ]
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L2::Q5",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L2",
+      "stem": "A molecular ion peak sits at m/z 70 and a small peak appears at m/z 71. The best reading is",
+      "misconceptionClass": "peak reading",
+      "options": [
+        {
+          "key": "A",
+          "text": "A doubly charged ion and a singly charged one",
+          "correct": false,
+          "explanation": "Doubling charge halves m/z; it does not create a one-unit-up pair.",
+          "misconception": "wrong mechanism"
+        },
+        {
+          "key": "B",
+          "text": "Molecular mass 70, with the 71 peak a carbon-13 satellite",
+          "correct": true,
+          "explanation": "The highest ordinary peak is the molecular ion; the small M+1 shoulder is the C-13 satellite.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Molecular mass 71, the larger value",
+          "correct": false,
+          "explanation": "The M+1 peak is not the molecular ion; it is the isotope variant.",
+          "misconception": "reading wrong"
+        },
+        {
+          "key": "D",
+          "text": "Two different compounds mixed in the sample",
+          "correct": false,
+          "explanation": "An M and M+1 pair is the normal isotope signature of one compound.",
+          "misconception": "misdiagnosis"
+        }
+      ]
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L2::Q6",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L2",
+      "stem": "State the relative abundances of the two main chlorine isotopes.",
+      "misconceptionClass": "abundance recall",
+      "kind": "recall",
+      "modelAnswer": "Chlorine-35 accounts for about 75 percent of chlorine atoms and chlorine-37 for about 25 percent.",
+      "keywords": [
+        "75",
+        "25",
+        "chlorine"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L2::Q7",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L2",
+      "stem": "Define relative abundance of an isotope.",
+      "misconceptionClass": "definition recall",
+      "kind": "recall",
+      "modelAnswer": "Relative abundance is the proportion of one particular isotope within a natural mixture of the isotopes of that element.",
+      "keywords": [
+        "proportion",
+        "isotope",
+        "mixture"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L2::Q8",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L2",
+      "stem": "Explain how mass spectrometry measures the relative abundances of boron's isotopes.",
+      "misconceptionClass": "abundance explanation",
+      "kind": "explain-why",
+      "modelAnswer": "The spectrometer separates the boron-10 and boron-11 ions by their different masses, and the heights of the two peaks record how many of each ion arrived, which is the experimental relative abundance.",
+      "keywords": [
+        "separates",
+        "heights",
+        "abundance"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L2::Q9",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L2",
+      "stem": "An ion of an element shows peaks at m/z 27 and m/z 18 for masses 54 and 36 at equal abundance. Identify the charge states and which ion deflects more.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "The mass-54 ion is doubly charged (54/2 = 27) and the mass-36 ion is doubly charged (36/2 = 18); the m/z 18 ion deflects more because its smaller ratio bends further in the same magnetic field.",
+      "keywords": [
+        "doubly",
+        "18",
+        "deflects"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L3::Q1",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L3",
+      "stem": "A peak at m/z 29 in an alkane spectrum most likely corresponds to which fragment?",
+      "misconceptionClass": "fragment assignment",
+      "options": [
+        {
+          "key": "A",
+          "text": "A propyl cation C3H7+",
+          "correct": false,
+          "explanation": "Propyl sums to 43 mass units.",
+          "misconception": "wrong fragment"
+        },
+        {
+          "key": "B",
+          "text": "A water-loss peak",
+          "correct": false,
+          "explanation": "Water loss creates a peak 18 below a parent, not a standalone 29.",
+          "misconception": "wrong origin"
+        },
+        {
+          "key": "C",
+          "text": "The ethyl cation C2H5+",
+          "correct": true,
+          "explanation": "Two carbons plus five hydrogens sum to 29 mass units, the classic ethyl cation.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The methyl cation CH3+",
+          "correct": false,
+          "explanation": "The methyl cation lands at 15, not 29.",
+          "misconception": "wrong fragment"
+        }
+      ]
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L3::Q2",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L3",
+      "stem": "Alkanes fragment in the mass spectrometer mainly by",
+      "misconceptionClass": "alkane fragmentation",
+      "options": [
+        {
+          "key": "A",
+          "text": "Losing water molecules one after another",
+          "correct": false,
+          "explanation": "Alkanes carry no hydroxyl groups, so water loss is not their pathway.",
+          "misconception": "wrong pathway"
+        },
+        {
+          "key": "B",
+          "text": "Losing halogen atoms from the chain",
+          "correct": false,
+          "explanation": "Alkanes contain no halogens to lose.",
+          "misconception": "wrong pathway"
+        },
+        {
+          "key": "C",
+          "text": "Absorbing extra electrons until they split",
+          "correct": false,
+          "explanation": "Electron gain does not drive fragmentation; bond breaking after ionisation does.",
+          "misconception": "wrong mechanism"
+        },
+        {
+          "key": "D",
+          "text": "Breaking C-C bonds to give a series of alkyl cations",
+          "correct": true,
+          "explanation": "The carbon backbone snaps at C-C links, producing the alkyl cation ladder.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L3::Q3",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L3",
+      "stem": "A peak at m/z 44 arising from loss of a small molecule indicates departure of",
+      "misconceptionClass": "small molecule loss",
+      "options": [
+        {
+          "key": "A",
+          "text": "Carbon dioxide",
+          "correct": true,
+          "explanation": "CO2 has a molecular mass of 44, one of the classic small-molecule losses.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Water",
+          "correct": false,
+          "explanation": "Water loss registers 18 units below the parent.",
+          "misconception": "wrong molecule"
+        },
+        {
+          "key": "C",
+          "text": "Carbon monoxide",
+          "correct": false,
+          "explanation": "CO registers 28 units below the parent.",
+          "misconception": "wrong molecule"
+        },
+        {
+          "key": "D",
+          "text": "Methane",
+          "correct": false,
+          "explanation": "Methane loss would register 16 units below the parent.",
+          "misconception": "wrong molecule"
+        }
+      ]
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L3::Q4",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L3",
+      "stem": "Two isomers share the same molecular ion at m/z 72. Mass spectrometry distinguishes them by",
+      "misconceptionClass": "isomer distinction",
+      "options": [
+        {
+          "key": "A",
+          "text": "Checking the M+1 peak heights only",
+          "correct": false,
+          "explanation": "Same formula means the same carbon count, so M+1 heights match too.",
+          "misconception": "insufficient evidence"
+        },
+        {
+          "key": "B",
+          "text": "Comparing their different fragment ion patterns",
+          "correct": true,
+          "explanation": "Isomers break at different bonds, so their fragment ladders differ even when the molecular mass matches.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Measuring their different molecular masses",
+          "correct": false,
+          "explanation": "The molecular masses are identical by assumption; fragments do the discriminating.",
+          "misconception": "circular reasoning"
+        },
+        {
+          "key": "D",
+          "text": "Counting their base peaks",
+          "correct": false,
+          "explanation": "Both spectra have one base peak each; the count is uninformative.",
+          "misconception": "useless metric"
+        }
+      ]
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L3::Q5",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L3",
+      "stem": "A fragment table lists C3H7+ at m/z 43. A spectrum showing strong peaks at 29 and 43 but weak 57 suggests the chain",
+      "misconceptionClass": "chain reasoning",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cannot be an alkane",
+          "correct": false,
+          "explanation": "Alkyl cations are exactly what alkanes produce.",
+          "misconception": "wrong conclusion"
+        },
+        {
+          "key": "B",
+          "text": "Has lost all its hydrogen atoms",
+          "correct": false,
+          "explanation": "Hydrogen retention is visible in the alkyl formulas matching the peaks.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "C",
+          "text": "Contains ethyl and propyl segments but little or no butyl-length straight run",
+          "correct": true,
+          "explanation": "The observed cations map to chain pieces of two and three carbons, with little four-carbon character.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Must be a four-carbon straight chain throughout",
+          "correct": false,
+          "explanation": "A butyl cation at 57 would then be strong, contradicting the weak 57 peak.",
+          "misconception": "contradiction"
+        }
+      ]
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L3::Q6",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L3",
+      "stem": "State the m/z values of the peaks formed by loss of water, carbon monoxide and carbon dioxide.",
+      "misconceptionClass": "loss recall",
+      "kind": "recall",
+      "modelAnswer": "Losses of small molecules give peaks at 18 for water, 28 for carbon monoxide and 44 for carbon dioxide.",
+      "keywords": [
+        "18",
+        "28",
+        "44"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L3::Q7",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L3",
+      "stem": "Define fragmentation in mass spectrometry.",
+      "misconceptionClass": "definition recall",
+      "kind": "recall",
+      "modelAnswer": "Fragmentation is the breaking of the molecular ion into smaller ions, molecules and radicals, each charged piece appearing as its own peak.",
+      "keywords": [
+        "molecular",
+        "breaking",
+        "ions"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L3::Q8",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L3",
+      "stem": "Explain why fragmentation patterns add structural information beyond the molecular ion peak.",
+      "misconceptionClass": "structure explanation",
+      "kind": "explain-why",
+      "modelAnswer": "The molecular ion only reports total mass, while fragments reveal which bonded pieces the molecule contains, so two isomers of equal mass produce different fragment sets that pin down the arrangement of atoms.",
+      "keywords": [
+        "mass",
+        "fragments",
+        "isomers"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L3::Q9",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L3",
+      "stem": "A spectrum of a hydrocarbon shows molecular ion 58 and strong peaks at 43 and 29. Suggest which straight-chain alkane fits and justify the fragment assignments.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Butane fits: molecular ion 58 matches C4H10, the 43 peak is the propyl cation C3H7+ from losing a methyl radical, and the 29 peak is the ethyl cation C2H5+ from losing two carbons.",
+      "keywords": [
+        "butane",
+        "propyl",
+        "ethyl"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L4::Q1",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L4",
+      "stem": "Why does a halogenoalkane spectrum show multiple peaks around the molecular ion?",
+      "misconceptionClass": "halogenoalkane pattern",
+      "options": [
+        {
+          "key": "A",
+          "text": "The carbon chain breaks at many positions at once",
+          "correct": false,
+          "explanation": "Chain fragmentation gives fragment peaks, not the molecular-ion cluster.",
+          "misconception": "confused causes"
+        },
+        {
+          "key": "B",
+          "text": "The halogen atom carries variable charge",
+          "correct": false,
+          "explanation": "The halogen is part of a singly charged ion; charge does not vary here.",
+          "misconception": "wrong cause"
+        },
+        {
+          "key": "C",
+          "text": "Water loss creates satellite peaks near the molecular ion",
+          "correct": false,
+          "explanation": "Water loss is the alcohol signature, not the halogenoalkane cause.",
+          "misconception": "family confused"
+        },
+        {
+          "key": "D",
+          "text": "The halogen's isotopes create molecular ions of slightly different masses",
+          "correct": true,
+          "explanation": "Each isotopic version of the molecule ionises, giving a cluster of peaks spanning a few mass units.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L4::Q2",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L4",
+      "stem": "The mass spectrum of CH3Br shows two molecular-ion peaks at m/z 94 and 96 of about equal height. This reveals",
+      "misconceptionClass": "bromine reading",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bromine's two main isotopes occur in nearly equal proportions, 79Br and 81Br",
+          "correct": true,
+          "explanation": "Equal peak heights at two units apart are the 50:50 bromine isotope signature.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The sample contains two different brominated compounds",
+          "correct": false,
+          "explanation": "One compound explains both peaks through its isotope mixture.",
+          "misconception": "misdiagnosis"
+        },
+        {
+          "key": "C",
+          "text": "The molecular ion has lost a hydrogen between the peaks",
+          "correct": false,
+          "explanation": "The two-unit gap is isotope mass, not hydrogen loss.",
+          "misconception": "wrong cause"
+        },
+        {
+          "key": "D",
+          "text": "Chlorine contamination doubles every peak",
+          "correct": false,
+          "explanation": "The two-unit equal pair is bromine's signature; chlorine gives a 75:25 three-unit pair.",
+          "misconception": "wrong isotope"
+        }
+      ]
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L4::Q3",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L4",
+      "stem": "An alcohol spectrum shows a peak 18 units below the molecular ion. Which loss explains it?",
+      "misconceptionClass": "water loss",
+      "options": [
+        {
+          "key": "A",
+          "text": "Loss of ethene",
+          "correct": false,
+          "explanation": "Ethene loss would drop 28 units.",
+          "misconception": "wrong molecule"
+        },
+        {
+          "key": "B",
+          "text": "Loss of a water molecule from the molecular ion",
+          "correct": true,
+          "explanation": "Alcohols readily eliminate water, shifting the fragment 18 units down.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Loss of an oxygen atom only",
+          "correct": false,
+          "explanation": "Losing just O would drop 16 units.",
+          "misconception": "wrong molecule"
+        },
+        {
+          "key": "D",
+          "text": "Loss of a hydroxyl group plus nothing else",
+          "correct": false,
+          "explanation": "Losing OH alone drops 17 units; the 18 gap is the full water molecule.",
+          "misconception": "wrong molecule"
+        }
+      ]
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L4::Q4",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L4",
+      "stem": "Which fragment, characteristic of alcohols, sits at m/z 31?",
+      "misconceptionClass": "alcohol fragment",
+      "options": [
+        {
+          "key": "A",
+          "text": "C3H7+",
+          "correct": false,
+          "explanation": "Propyl sits at 43.",
+          "misconception": "wrong fragment"
+        },
+        {
+          "key": "B",
+          "text": "OH+",
+          "correct": false,
+          "explanation": "The bare hydroxyl cation sums to 17.",
+          "misconception": "wrong fragment"
+        },
+        {
+          "key": "C",
+          "text": "CH2OH+",
+          "correct": true,
+          "explanation": "The hydroxymethyl cation sums to 31 and marks an alcohol's oxygen end.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "C2H5+",
+          "correct": false,
+          "explanation": "The ethyl cation sits at 29 and is not alcohol-specific.",
+          "misconception": "wrong fragment"
+        }
+      ]
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L4::Q5",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L4",
+      "stem": "Propan-1-ol shows a peak at m/z 42. Which fragmentation produces it?",
+      "misconceptionClass": "propanol fragments",
+      "options": [
+        {
+          "key": "A",
+          "text": "Loss of a hydrogen radical",
+          "correct": false,
+          "explanation": "Losing H gives the 59 peak of C3H7O+.",
+          "misconception": "wrong loss"
+        },
+        {
+          "key": "B",
+          "text": "Loss of a CH2OH radical",
+          "correct": false,
+          "explanation": "That loss gives the 29 peak of C2H5+.",
+          "misconception": "wrong loss"
+        },
+        {
+          "key": "C",
+          "text": "Loss of an ethyl radical",
+          "correct": false,
+          "explanation": "That loss gives the 31 peak of CH2OH+.",
+          "misconception": "wrong loss"
+        },
+        {
+          "key": "D",
+          "text": "Loss of a water molecule from the molecular ion",
+          "correct": true,
+          "explanation": "Propan-1-ol minus water is C3H6+, whose mass is 42.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L4::Q6",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L4",
+      "stem": "State the two most useful diagnostic peaks in an alcohol mass spectrum.",
+      "misconceptionClass": "alcohol recall",
+      "kind": "recall",
+      "modelAnswer": "A peak 18 below the molecular ion from water loss, and the CH2OH+ fragment at m/z 31.",
+      "keywords": [
+        "water",
+        "31",
+        "molecular"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L4::Q7",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L4",
+      "stem": "State the three precipitate-colour clues... in fact, state how halogenoalkane spectra reveal their halogen.",
+      "misconceptionClass": "halogen recall",
+      "kind": "recall",
+      "modelAnswer": "The molecular ion appears as a cluster of peaks whose spacing and height ratio match the halogen's isotope pattern, such as the equal pair two units apart for bromine.",
+      "keywords": [
+        "cluster",
+        "isotope",
+        "spacing"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L4::Q8",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L4",
+      "stem": "Explain why the two molecular-ion peaks of bromomethane have equal heights.",
+      "misconceptionClass": "isotope heights",
+      "kind": "explain-why",
+      "modelAnswer": "Bromine-79 and bromine-81 exist in nearly equal natural proportions, so almost exactly half the bromomethane molecules carry each isotope and the two molecular-ion peaks rise to nearly equal heights.",
+      "keywords": [
+        "equal",
+        "isotopes",
+        "proportions"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_rcwvcPhtmYZ8GdV5::L4::Q9",
+      "moduleId": "rn_rcwvcPhtmYZ8GdV5::L4",
+      "stem": "An unknown alcohol shows peaks at 60 (molecular ion), 42, 31 and 29. Identify the compound and assign each fragment.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Propan-1-ol: molecular ion C3H8O+ at 60, water loss gives C3H6+ at 42, loss of an ethyl radical gives CH2OH+ at 31, and loss of the CH2OH radical gives C2H5+ at 29.",
+      "keywords": [
+        "propan-1-ol",
+        "42",
+        "31"
+      ],
+      "options": []
+    }
+  ]
+}

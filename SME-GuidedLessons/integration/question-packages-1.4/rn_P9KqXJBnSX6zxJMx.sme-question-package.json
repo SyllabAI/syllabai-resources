@@ -1,0 +1,251 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_P9KqXJBnSX6zxJMx",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "8e7db8c6276a1d945fb8884fe434f77bc0de5ce7bcc77108f41a27874e20b825",
+    "pinnedRef": "2fc9e39e4cb53c8e29601db0013337d9b2996890"
+  },
+  "packageId": "ial-chemistry::rn_P9KqXJBnSX6zxJMx",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_P9KqXJBnSX6zxJMx::L1::Q1",
+      "moduleId": "rn_P9KqXJBnSX6zxJMx::L1",
+      "stem": "Which reagent hydrolyses halogenoalkanes in this core practical?",
+      "misconceptionClass": "hydrolysis reagent",
+      "options": [
+        {
+          "key": "A",
+          "text": "Aqueous sodium hydroxide or potassium hydroxide",
+          "correct": true,
+          "explanation": "The aqueous alkali supplies hydroxide ions that replace the halogen.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Dry sodium carbonate",
+          "correct": false,
+          "explanation": "Carbonate solution is for washing organic layers, not hydrolysis.",
+          "misconception": "reagent confused"
+        },
+        {
+          "key": "C",
+          "text": "Concentrated phosphoric acid",
+          "correct": false,
+          "explanation": "That dehydrates alcohols, unrelated here.",
+          "misconception": "reagent confused"
+        },
+        {
+          "key": "D",
+          "text": "Molten potassium dichromate",
+          "correct": false,
+          "explanation": "Dichromate oxidises alcohols, not halogenoalkane hydrolysis.",
+          "misconception": "reagent confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_P9KqXJBnSX6zxJMx::L1::Q2",
+      "moduleId": "rn_P9KqXJBnSX6zxJMx::L1",
+      "stem": "The rate of hydrolysis decreases in the order",
+      "misconceptionClass": "rate order",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fluoroalkane fastest of all",
+          "correct": false,
+          "explanation": "Fluoroalkanes carry the strongest bond and barely react at all.",
+          "misconception": "order wrong"
+        },
+        {
+          "key": "B",
+          "text": "Iodoalkane fastest, then bromoalkane, then chloroalkane",
+          "correct": true,
+          "explanation": "Bond enthalpy rises from C-I to C-Cl, so the iodide reaction is quickest.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Chloroalkane fastest, then bromoalkane, then iodoalkane",
+          "correct": false,
+          "explanation": "That reverses the bond enthalpy logic.",
+          "misconception": "order reversed"
+        },
+        {
+          "key": "D",
+          "text": "All three react at identical rates",
+          "correct": false,
+          "explanation": "The practical exists precisely because the rates differ.",
+          "misconception": "denial"
+        }
+      ]
+    },
+    {
+      "id": "rn_P9KqXJBnSX6zxJMx::L1::Q3",
+      "moduleId": "rn_P9KqXJBnSX6zxJMx::L1",
+      "stem": "Acidified silver nitrate is used to time the reactions because",
+      "misconceptionClass": "timing chemistry",
+      "options": [
+        {
+          "key": "A",
+          "text": "Silver ions are the nucleophile replacing the halogen",
+          "correct": false,
+          "explanation": "Hydroxide is the nucleophile in the hydrolysis itself.",
+          "misconception": "role confused"
+        },
+        {
+          "key": "B",
+          "text": "The acid dissolves the halogenoalkane instantly",
+          "correct": false,
+          "explanation": "The ethanol solvent dissolves the substrate; the silver is the detector.",
+          "misconception": "role confused"
+        },
+        {
+          "key": "C",
+          "text": "Halide ions released by hydrolysis form precipitates with silver ions, whose appearance can be timed",
+          "correct": true,
+          "explanation": "The precipitate's arrival is the visible clock for the invisible bond breakage.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Silver nitrate catalyses the hydrolysis directly",
+          "correct": false,
+          "explanation": "The nitrate solution detects halide ions; it does not speed the hydrolysis.",
+          "misconception": "role confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_P9KqXJBnSX6zxJMx::L1::Q4",
+      "moduleId": "rn_P9KqXJBnSX6zxJMx::L1",
+      "stem": "The precipitate colours observed are",
+      "misconceptionClass": "colour pairing",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yellow for chloride, white for iodide",
+          "correct": false,
+          "explanation": "The pairing is reversed for those two.",
+          "misconception": "pairing wrong"
+        },
+        {
+          "key": "B",
+          "text": "All three precipitates are white",
+          "correct": false,
+          "explanation": "Only the chloride precipitate is white.",
+          "misconception": "overgeneralisation"
+        },
+        {
+          "key": "C",
+          "text": "Blue, green and orange",
+          "correct": false,
+          "explanation": "Those colours belong to transition-metal chemistry.",
+          "misconception": "palette wrong"
+        },
+        {
+          "key": "D",
+          "text": "White for chloride, cream for bromide and yellow for iodide",
+          "correct": true,
+          "explanation": "Each silver halide carries its signature colour as it forms.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_P9KqXJBnSX6zxJMx::L1::Q5",
+      "moduleId": "rn_P9KqXJBnSX6zxJMx::L1",
+      "stem": "Why is hydroxide a better nucleophile than water in this reaction?",
+      "misconceptionClass": "nucleophile comparison",
+      "options": [
+        {
+          "key": "A",
+          "text": "The hydroxide ion carries a full negative charge while water's oxygen carries only a partial one",
+          "correct": true,
+          "explanation": "Full charge means stronger attack on the electron-poor carbon, so substitution runs faster.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Hydroxide is lighter than water",
+          "correct": false,
+          "explanation": "Mass is irrelevant to nucleophilicity here.",
+          "misconception": "wrong reason"
+        },
+        {
+          "key": "C",
+          "text": "Water cannot dissolve halogenoalkanes at all",
+          "correct": false,
+          "explanation": "The ethanol cosolvent handles solubility; the charge comparison is the real answer.",
+          "misconception": "wrong reason"
+        },
+        {
+          "key": "D",
+          "text": "Hydroxide is a stronger acid than water",
+          "correct": false,
+          "explanation": "Hydroxide is a base, not an acid.",
+          "misconception": "category error"
+        }
+      ]
+    },
+    {
+      "id": "rn_P9KqXJBnSX6zxJMx::L1::Q6",
+      "moduleId": "rn_P9KqXJBnSX6zxJMx::L1",
+      "stem": "State the bond enthalpy ordering for the carbon-halogen bonds.",
+      "misconceptionClass": "bond recall",
+      "kind": "recall",
+      "modelAnswer": "Bond enthalpy falls in the order C-F, then C-Cl, then C-Br, then C-I, so the C-I bond breaks most easily.",
+      "keywords": [
+        "C-F",
+        "C-Cl",
+        "C-I"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_P9KqXJBnSX6zxJMx::L1::Q7",
+      "moduleId": "rn_P9KqXJBnSX6zxJMx::L1",
+      "stem": "State the conditions used to run the three hydrolysis reactions.",
+      "misconceptionClass": "conditions recall",
+      "kind": "recall",
+      "modelAnswer": "Test tubes in a 50 degree water bath hold ethanol with acidified silver nitrate, and a few drops of each halogenoalkane start the timed reactions.",
+      "keywords": [
+        "water bath",
+        "ethanol",
+        "silver nitrate"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_P9KqXJBnSX6zxJMx::L1::Q8",
+      "moduleId": "rn_P9KqXJBnSX6zxJMx::L1",
+      "stem": "Explain why the yellow precipitate forms fastest in the hydrolysis race.",
+      "misconceptionClass": "rate explanation",
+      "kind": "explain-why",
+      "modelAnswer": "The yellow precipitate signals iodide ions, released by breaking the C-I bond, whose lowest bond enthalpy of the series makes it the easiest to break and therefore the fastest halide to appear.",
+      "keywords": [
+        "yellow",
+        "iodide",
+        "weakest"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_P9KqXJBnSX6zxJMx::L1::Q9",
+      "moduleId": "rn_P9KqXJBnSX6zxJMx::L1",
+      "stem": "A fourth tube contains a fluoroalkane. Predict the observation over the practical's timescale and justify it from bond enthalpy.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "No precipitate forms, because the C-F bond has the highest bond enthalpy of the series and fluoroalkanes do not hydrolyse under these conditions, so no fluoride ions ever reach the silver nitrate.",
+      "keywords": [
+        "fluoroalkane",
+        "no",
+        "bond"
+      ],
+      "options": []
+    }
+  ]
+}

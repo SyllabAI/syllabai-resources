@@ -1,0 +1,487 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_8WgRjQjgZJ9XHcW9",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "381ce1ffd9414d9064ea0237a6d903b3ce2b0d78e1327ede0796889c902c0419",
+    "pinnedRef": "2fc9e39e4cb53c8e29601db0013337d9b2996890"
+  },
+  "packageId": "ial-chemistry::rn_8WgRjQjgZJ9XHcW9",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_8WgRjQjgZJ9XHcW9::L1::Q1",
+      "moduleId": "rn_8WgRjQjgZJ9XHcW9::L1",
+      "stem": "What does an infrared spectrophotometer measure?",
+      "misconceptionClass": "instrument function",
+      "options": [
+        {
+          "key": "A",
+          "text": "The intensity of infrared radiation transmitted through the sample at each wavelength",
+          "correct": true,
+          "explanation": "The instrument sweeps the infrared range and records which frequencies the sample absorbs by their missing intensity.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The mass-to-charge ratio of molecular fragments",
+          "correct": false,
+          "explanation": "That is the mass spectrometer's job, not the infrared one.",
+          "misconception": "technique confused"
+        },
+        {
+          "key": "C",
+          "text": "The boiling point range of the liquid sample",
+          "correct": false,
+          "explanation": "Boiling behaviour belongs to purity testing, not infrared analysis.",
+          "misconception": "technique confused"
+        },
+        {
+          "key": "D",
+          "text": "The colour changes of an indicator during titration",
+          "correct": false,
+          "explanation": "That belongs to acid-base titrations.",
+          "misconception": "technique confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_8WgRjQjgZJ9XHcW9::L1::Q2",
+      "moduleId": "rn_8WgRjQjgZJ9XHcW9::L1",
+      "stem": "Bonds respond to absorbed infrared radiation by",
+      "misconceptionClass": "vibration modes",
+      "options": [
+        {
+          "key": "A",
+          "text": "Combining with neighbouring molecules",
+          "correct": false,
+          "explanation": "Absorption does not create new bonds between molecules.",
+          "misconception": "invented process"
+        },
+        {
+          "key": "B",
+          "text": "Stretching, bending and twisting more vigorously at their own resonance frequency",
+          "correct": true,
+          "explanation": "Each bond has a specific frequency that enlarges its natural vibration when matched.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Breaking permanently into radicals",
+          "correct": false,
+          "explanation": "Absorption excites vibrations; it does not normally snap the bond.",
+          "misconception": "overstatement"
+        },
+        {
+          "key": "D",
+          "text": "Losing their electrons to the detector",
+          "correct": false,
+          "explanation": "Infrared absorption moves vibrational energy, not electron removal.",
+          "misconception": "wrong process"
+        }
+      ]
+    },
+    {
+      "id": "rn_8WgRjQjgZJ9XHcW9::L1::Q3",
+      "moduleId": "rn_8WgRjQjgZJ9XHcW9::L1",
+      "stem": "The wavenumber recorded on an infrared spectrum is",
+      "misconceptionClass": "wavenumber definition",
+      "options": [
+        {
+          "key": "A",
+          "text": "The frequency in hertz divided by the speed of light squared",
+          "correct": false,
+          "explanation": "That expression does not define wavenumber.",
+          "misconception": "wrong formula"
+        },
+        {
+          "key": "B",
+          "text": "The time taken for one vibration cycle",
+          "correct": false,
+          "explanation": "That is a period, the inverse of frequency, not wavenumber.",
+          "misconception": "wrong quantity"
+        },
+        {
+          "key": "C",
+          "text": "The reciprocal of the radiation's wavelength, expressed per centimetre",
+          "correct": true,
+          "explanation": "Wavenumber in cm-1 is 1 divided by the wavelength in centimetres.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The wavelength of radiation in nanometres",
+          "correct": false,
+          "explanation": "Wavenumber is the reciprocal, not the wavelength itself.",
+          "misconception": "inverted meaning"
+        }
+      ]
+    },
+    {
+      "id": "rn_8WgRjQjgZJ9XHcW9::L1::Q4",
+      "moduleId": "rn_8WgRjQjgZJ9XHcW9::L1",
+      "stem": "An O-H absorption in an alcohol spectrum is typically broad because",
+      "misconceptionClass": "broad O-H cause",
+      "options": [
+        {
+          "key": "A",
+          "text": "The O-H bond is the weakest bond in the molecule",
+          "correct": false,
+          "explanation": "Bond strength does not set bandwidth; the hydrogen-bond spread does.",
+          "misconception": "wrong cause"
+        },
+        {
+          "key": "B",
+          "text": "The spectrometer scans that region too quickly",
+          "correct": false,
+          "explanation": "Scan speed does not broaden a real absorption band.",
+          "misconception": "instrument excuse"
+        },
+        {
+          "key": "C",
+          "text": "Alcohol samples are always impure",
+          "correct": false,
+          "explanation": "Purity is irrelevant; pure alcohols still show the broad hydrogen-bonded band.",
+          "misconception": "wrong cause"
+        },
+        {
+          "key": "D",
+          "text": "Hydrogen bonding between molecules spreads the absorption over a range of frequencies",
+          "correct": true,
+          "explanation": "Each hydrogen-bonded environment absorbs slightly differently, smearing the band.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_8WgRjQjgZJ9XHcW9::L1::Q5",
+      "moduleId": "rn_8WgRjQjgZJ9XHcW9::L1",
+      "stem": "A strong, sharp absorption near 1710 wavenumbers most strongly suggests the presence of",
+      "misconceptionClass": "carbonyl identification",
+      "options": [
+        {
+          "key": "A",
+          "text": "A carbonyl C=O group",
+          "correct": true,
+          "explanation": "The polar C=O double bond gives a strong, sharp absorption in that region.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "An alcohol O-H group",
+          "correct": false,
+          "explanation": "The alcohol O-H absorbs broadly around 3200-3500.",
+          "misconception": "wrong group"
+        },
+        {
+          "key": "C",
+          "text": "A C-C single bond in an alkane backbone",
+          "correct": false,
+          "explanation": "Backbone single bonds absorb outside the diagnostic carbonyl region and are weak.",
+          "misconception": "wrong group"
+        },
+        {
+          "key": "D",
+          "text": "A nitrogen-hydrogen stretch of an amine",
+          "correct": false,
+          "explanation": "N-H absorbs in the 3300 region and is not the 1710 marker.",
+          "misconception": "wrong group"
+        }
+      ]
+    },
+    {
+      "id": "rn_8WgRjQjgZJ9XHcW9::L1::Q6",
+      "moduleId": "rn_8WgRjQjgZJ9XHcW9::L1",
+      "stem": "Define the resonance frequency of a bond in infrared spectroscopy.",
+      "misconceptionClass": "definition recall",
+      "kind": "recall",
+      "modelAnswer": "The resonance frequency is the specific radiation frequency at which a bond's vibration responds most strongly, producing a recorded absorption.",
+      "keywords": [
+        "specific",
+        "frequency",
+        "vibration"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_8WgRjQjgZJ9XHcW9::L1::Q7",
+      "moduleId": "rn_8WgRjQjgZJ9XHcW9::L1",
+      "stem": "State the typical shapes of the O-H and C=O absorbances.",
+      "misconceptionClass": "shape recall",
+      "kind": "recall",
+      "modelAnswer": "The hydrogen-bonded O-H absorption is broad, while the carbonyl C=O absorption is strong and sharp.",
+      "keywords": [
+        "broad",
+        "sharp",
+        "carbonyl"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_8WgRjQjgZJ9XHcW9::L1::Q8",
+      "moduleId": "rn_8WgRjQjgZJ9XHcW9::L1",
+      "stem": "Explain why different functional groups absorb different infrared frequencies.",
+      "misconceptionClass": "frequency explanation",
+      "kind": "explain-why",
+      "modelAnswer": "Each bond's vibrating mass and stiffness set its own resonance frequency, so groups built from different atoms and bond orders absorb at characteristic wavenumbers that identify them.",
+      "keywords": [
+        "atoms",
+        "resonance",
+        "characteristic"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_8WgRjQjgZJ9XHcW9::L1::Q9",
+      "moduleId": "rn_8WgRjQjgZJ9XHcW9::L1",
+      "stem": "An unknown liquid shows a broad absorption near 3350 wavenumbers and nothing sharp near 1710. Suggest its functional group and one structure check you would run next.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "The broad 3350 band marks an alcohol O-H with no carbonyl present, so a mass spectrum to confirm the molecular mass would be a sensible next check before naming the compound.",
+      "keywords": [
+        "alcohol",
+        "broad",
+        "carbonyl"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_8WgRjQjgZJ9XHcW9::L2::Q1",
+      "moduleId": "rn_8WgRjQjgZJ9XHcW9::L2",
+      "stem": "Why can an infrared spectrum alone fail to identify an unknown compound?",
+      "misconceptionClass": "IR ambiguity",
+      "options": [
+        {
+          "key": "A",
+          "text": "The table of ranges is only valid for hydrocarbons",
+          "correct": false,
+          "explanation": "The ranges cover all the common organic bonds, not just hydrocarbons.",
+          "misconception": "false claim"
+        },
+        {
+          "key": "B",
+          "text": "Absorption ranges of different bonds overlap, so one peak may belong to several bond types",
+          "correct": true,
+          "explanation": "Overlapping bands make single-peak assignments ambiguous, requiring a second technique.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Infrared spectra only show impurities, never functional groups",
+          "correct": false,
+          "explanation": "Functional-group absorbances are exactly what infrared spectra show.",
+          "misconception": "false claim"
+        },
+        {
+          "key": "D",
+          "text": "Wavenumbers vary with the weather in the laboratory",
+          "correct": false,
+          "explanation": "Absorption positions are molecular properties, not weather-dependent.",
+          "misconception": "nonsense claim"
+        }
+      ]
+    },
+    {
+      "id": "rn_8WgRjQjgZJ9XHcW9::L2::Q2",
+      "moduleId": "rn_8WgRjQjgZJ9XHcW9::L2",
+      "stem": "A spectrum shows a strong, sharp peak at about 1710 wavenumbers. Which compound fits best?",
+      "misconceptionClass": "compound assignment",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hexane, which has no polar bonds at all",
+          "correct": false,
+          "explanation": "Hexane lacks a carbonyl and would not show the 1710 spike.",
+          "misconception": "wrong compound"
+        },
+        {
+          "key": "B",
+          "text": "Water, which absorbs across a wide microwave band",
+          "correct": false,
+          "explanation": "Water's absorptions are broad and outside the carbonyl marker.",
+          "misconception": "wrong compound"
+        },
+        {
+          "key": "C",
+          "text": "Propanone, whose ketone carbonyl absorbs there",
+          "correct": true,
+          "explanation": "The C=O of a ketone gives the strong, sharp 1710 absorption.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Propan-2-ol, whose O-H absorbs broadly at 3200-3500",
+          "correct": false,
+          "explanation": "An alcohol spectrum would show the broad hydroxyl band instead.",
+          "misconception": "wrong compound"
+        }
+      ]
+    },
+    {
+      "id": "rn_8WgRjQjgZJ9XHcW9::L2::Q3",
+      "moduleId": "rn_8WgRjQjgZJ9XHcW9::L2",
+      "stem": "A second spectrum of the same formula shows a strong broad band from 3200 to 3500 wavenumbers. The compound is",
+      "misconceptionClass": "paired assignment",
+      "options": [
+        {
+          "key": "A",
+          "text": "The ketone, since all oxygen compounds share the same spectrum",
+          "correct": false,
+          "explanation": "Ketones and alcohols absorb differently despite both containing oxygen.",
+          "misconception": "wrong claim"
+        },
+        {
+          "key": "B",
+          "text": "An alkane, since the formula is unchanged",
+          "correct": false,
+          "explanation": "Same formula does not mean same functional group or spectrum.",
+          "misconception": "wrong claim"
+        },
+        {
+          "key": "C",
+          "text": "Impossible to decide from the infrared data",
+          "correct": false,
+          "explanation": "The broad O-H band is decisive evidence for the alcohol.",
+          "misconception": "understatement"
+        },
+        {
+          "key": "D",
+          "text": "The alcohol, since a broad 3200-3500 band is the O-H signature",
+          "correct": true,
+          "explanation": "Hydrogen bonding broadens the O-H absorption, and its position marks the alcohol.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_8WgRjQjgZJ9XHcW9::L2::Q4",
+      "moduleId": "rn_8WgRjQjgZJ9XHcW9::L2",
+      "stem": "Which technique is named as the standard partner to infrared spectroscopy when absorption bands overlap?",
+      "misconceptionClass": "partner technique",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mass spectroscopy",
+          "correct": true,
+          "explanation": "Fragment and molecular-ion evidence resolves what overlapping infrared bands cannot.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Flame tests",
+          "correct": false,
+          "explanation": "Flame tests identify metal ions, not organic functional groups.",
+          "misconception": "wrong technique"
+        },
+        {
+          "key": "C",
+          "text": "Thin-layer chromatography",
+          "correct": false,
+          "explanation": "Chromatography separates mixtures but is not the named infrared partner here.",
+          "misconception": "wrong technique"
+        },
+        {
+          "key": "D",
+          "text": "Boiling-point determination",
+          "correct": false,
+          "explanation": "Boiling behaviour checks purity rather than resolving overlapping absorbances.",
+          "misconception": "wrong technique"
+        }
+      ]
+    },
+    {
+      "id": "rn_8WgRjQjgZJ9XHcW9::L2::Q5",
+      "moduleId": "rn_8WgRjQjgZJ9XHcW9::L2",
+      "stem": "The absorption-range table is best used by",
+      "misconceptionClass": "table method",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using the table only for inorganic unknowns",
+          "correct": false,
+          "explanation": "The ranges serve organic functional-group identification.",
+          "misconception": "scope error"
+        },
+        {
+          "key": "B",
+          "text": "Finding the observed peak position and listing every bond whose range covers it, then using peak shape to decide",
+          "correct": true,
+          "explanation": "The table narrows candidates, and width plus intensity discriminate within them.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Reading the first bond listed whose range is nearby",
+          "correct": false,
+          "explanation": "Stopping at the first match ignores overlapping candidates.",
+          "misconception": "method error"
+        },
+        {
+          "key": "D",
+          "text": "Ignoring peak shape, since position alone decides",
+          "correct": false,
+          "explanation": "Shape is precisely what separates broad O-H from sharp C=O at adjacent positions.",
+          "misconception": "method error"
+        }
+      ]
+    },
+    {
+      "id": "rn_8WgRjQjgZJ9XHcW9::L2::Q6",
+      "moduleId": "rn_8WgRjQjgZJ9XHcW9::L2",
+      "stem": "State the wavenumber regions quoted for the carbonyl C=O and the alcohol O-H absorbances.",
+      "misconceptionClass": "region recall",
+      "kind": "recall",
+      "modelAnswer": "The carbonyl group absorbs sharply around 1710 wavenumbers and the alcohol O-H absorbs broadly around 3200 to 3500 wavenumbers.",
+      "keywords": [
+        "1710",
+        "3200",
+        "3500"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_8WgRjQjgZJ9XHcW9::L2::Q7",
+      "moduleId": "rn_8WgRjQjgZJ9XHcW9::L2",
+      "stem": "State what must be done before infrared data are used to assign an unknown compound when ranges overlap.",
+      "misconceptionClass": "method recall",
+      "kind": "recall",
+      "modelAnswer": "A complementary technique, mass spectroscopy, joins the infrared evidence before the structure is assigned.",
+      "keywords": [
+        "mass",
+        "alongside",
+        "assign"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_8WgRjQjgZJ9XHcW9::L2::Q8",
+      "moduleId": "rn_8WgRjQjgZJ9XHcW9::L2",
+      "stem": "Explain why comparing an unknown spectrum with the spectrum of a known compound is a valid identification strategy.",
+      "misconceptionClass": "comparison explanation",
+      "kind": "explain-why",
+      "modelAnswer": "Absorption positions, widths and intensities reproduce for the same structure, so a matching pattern of absorbances between unknown and reference demonstrates the same functional groups and supports the identification.",
+      "keywords": [
+        "matching",
+        "reproduce",
+        "functional"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_8WgRjQjgZJ9XHcW9::L2::Q9",
+      "moduleId": "rn_8WgRjQjgZJ9XHcW9::L2",
+      "stem": "Two colourless liquids, one a ketone and one an alcohol, have lost their labels. Describe the infrared evidence that restores each label and state the diagnostic wavenumber regions you would quote.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "The ketone is the liquid whose spectrum carries a strong, sharp absorption near 1710 for its C=O group; the alcohol is the one showing the strong, broad 3200-3500 band of its hydrogen-bonded O-H group.",
+      "keywords": [
+        "ketone",
+        "alcohol",
+        "broad"
+      ],
+      "options": []
+    }
+  ]
+}

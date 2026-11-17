@@ -1,0 +1,204 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_BWm5SMr5ntNTRCs6",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "a51f75aacc9c7a18ed72ea5b4e65f01669574c2f83f20d6f9d30eacf9c1d4140",
+    "pinnedRef": "2fc9e39e4cb53c8e29601db0013337d9b2996890"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_BWm5SMr5ntNTRCs6",
+    "topicTitle": "3. Practical Skills in Chemistry I",
+    "subtopicTitle": "Determining Enthalpy Change of Reaction",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/3-practical-skills-in-chemistry-i/3-1-physical-chemistry-core-practicals/3-1-2-determining-enthalpy-change-of-reaction",
+    "specAnchors": [
+      {
+        "code": "6.7",
+        "text": "CORE PRACTICAL 2 Determination of the enthalpy change of a reaction using Hess’s Law."
+      }
+    ],
+    "primer": {
+      "text": "A polystyrene cup is a surprisingly honest calorimeter. This note runs the zinc and copper(II) sulfate displacement, states the q = mc delta T machinery with its water assumptions, and reconstructs the true temperature rise by extrapolation before dividing by the limiting reagent's moles.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_BWm5SMr5ntNTRCs6::L1",
+        "title": "Calorimetry in a polystyrene cup",
+        "sourceHeadings": [
+          "Measuring enthalpy changes",
+          "Enthalpy changes for reactions in solution"
+        ],
+        "specRefs": [
+          "6.7"
+        ],
+        "opening": "Core Practical 2 measures an enthalpy change with nothing fancier than a cup. This lesson assembles the calorimeter, states the q = mc delta T equation with the water assumptions, and runs the zinc-plus-copper(II) sulfate displacement as the model method with its timing discipline.",
+        "keyPoints": [
+          "Calorimetry measures enthalpy changes using an insulated vessel such as a polystyrene cup, vacuum flask or metal can.",
+          "Specific heat capacity is the energy that lifts 1 g of material through 1 K; water's value is 4.18 J g-1 K-1.",
+          "Energy transferred is calculated as q = mc delta T using the solution's mass, the water's heat capacity and the measured temperature rise.",
+          "The displacement method adds excess zinc powder to 25 cm3 of 1.0 mol dm-3 copper(II) sulfate and records temperatures every half minute.",
+          "Assumptions treat the solution as water with density 1 g cm-3 and heat capacity 4.18, ignore the container, and presume completion with negligible losses."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Run the reaction inside the insulated cup, log temperatures before and after mixing, take the corrected rise, and multiply mass, heat capacity and rise to get the energy in joules; the assumptions convert the solution into plain water for the arithmetic.",
+            "analogy": "The cup is a thermos flask for a chemistry experiment: keep the heat in, watch the thermometer, and do honest bookkeeping with the energy.",
+            "examPointer": "Quote q = mc delta T with each symbol's value and unit, and state the density assumption that turns 25 cm3 into 25 g."
+          },
+          "medium": {
+            "restatement": "The zinc displacement is chosen because it is fast, excess zinc guarantees the copper sulfate is the limiting reagent, and the pre-mixing temperature readings expose any drift before the reaction starts; recording stops around the three-minute mark only for the addition, then resumes for six more minutes.",
+            "analogy": "A relay race: the thermometer takes clean splits before the baton (the zinc) changes hands, then keeps timing through the final leg.",
+            "examPointer": "Explain why zinc is weighed roughly but the solution volume is measured carefully - excess versus limiting roles decide the precision each deserves."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_BWm5SMr5ntNTRCs6::L1::Q1",
+          "rn_BWm5SMr5ntNTRCs6::L1::Q2",
+          "rn_BWm5SMr5ntNTRCs6::L1::Q3",
+          "rn_BWm5SMr5ntNTRCs6::L1::Q4",
+          "rn_BWm5SMr5ntNTRCs6::L1::Q5",
+          "rn_BWm5SMr5ntNTRCs6::L1::Q6",
+          "rn_BWm5SMr5ntNTRCs6::L1::Q7",
+          "rn_BWm5SMr5ntNTRCs6::L1::Q8",
+          "rn_BWm5SMr5ntNTRCs6::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01",
+          "fig-02"
+        ]
+      },
+      {
+        "id": "rn_BWm5SMr5ntNTRCs6::L2",
+        "title": "Temperature correction graphs and the enthalpy result",
+        "sourceHeadings": [
+          "Temperature correction graphs",
+          "Analysis"
+        ],
+        "specRefs": [
+          "6.7"
+        ],
+        "opening": "Slow reactions let heat leak out before the peak arrives, so the naive maximum understates the true rise. Extrapolating the cooling lines back to the mixing moment recovers the honest delta T, and q over n then delivers the enthalpy change with its negative sign for exothermic reactions.",
+        "keyPoints": [
+          "When the maximum temperature is delayed, heat escapes during the delay and the true peak is never observed directly.",
+          "The correction method extrapolates the cooling portion of the graph back to the addition time to find the true delta T.",
+          "The energy q = mc delta T uses the corrected rise, then converts joules into kilojoules.",
+          "Enthalpy change equals q divided by n, the moles of the limiting reagent, identified by comparing both reagents' mole counts.",
+          "A temperature rise means the reaction is exothermic, so the reported enthalpy change carries a negative sign."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Plot temperature against time through the mixing, rule two straight lines - the pre-mix baseline and the post-reaction cooling - and extend them to intersect at the addition time; the vertical gap there is the corrected delta T that feeds q = mc delta T.",
+            "analogy": "Rewinding a cooling cup of tea to the moment it was poured: the extrapolated lines reconstruct the temperature the mixture really reached.",
+            "examPointer": "Draw both extrapolations with a ruler to the mixing time, and divide by the limiting reagent's moles, not by the excess reagent's."
+          },
+          "medium": {
+            "restatement": "The correction graph defeats the heat-loss clock: what the thermometer misses during the slow climb is reconstructed by geometry, and the sign convention then reports the energy honestly - heat released means the mixture warmed, so delta H is negative for the system.",
+            "analogy": "A security camera reconstructs what happened while it blinked; extrapolation reconstructs the heat that escaped before the peak was seen.",
+            "examPointer": "Finish every calculation with the sign and units: kJ mol-1 with a negative value for exothermic displacement reactions."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_BWm5SMr5ntNTRCs6::L2::Q1",
+          "rn_BWm5SMr5ntNTRCs6::L2::Q2",
+          "rn_BWm5SMr5ntNTRCs6::L2::Q3",
+          "rn_BWm5SMr5ntNTRCs6::L2::Q4",
+          "rn_BWm5SMr5ntNTRCs6::L2::Q5",
+          "rn_BWm5SMr5ntNTRCs6::L2::Q6",
+          "rn_BWm5SMr5ntNTRCs6::L2::Q7",
+          "rn_BWm5SMr5ntNTRCs6::L2::Q8",
+          "rn_BWm5SMr5ntNTRCs6::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-03"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "calorimetry",
+          "definition": "Measuring an enthalpy change by logging the temperature change of an insulated reaction mixture.",
+          "firstLesson": 1
+        },
+        {
+          "term": "specific heat capacity",
+          "definition": "The energy that lifts 1 g of material through 1 K; water's 4.18 J g-1 K-1 is assumed for solutions.",
+          "firstLesson": 1
+        },
+        {
+          "term": "temperature correction graph",
+          "definition": "A temperature-time plot whose extrapolated lines recover the true temperature rise lost to heat leakage.",
+          "firstLesson": 2
+        }
+      ],
+      "workedExample": {
+        "prompt": "For the standard displacement method, identify the limiting reagent between 25 cm3 of 1.0 mol dm-3 copper(II) sulfate and about 6 g of zinc powder.",
+        "steps": [
+          "Moles of copper(II) sulfate: 25/1000 x 1.0 = 0.025 mol.",
+          "Moles of zinc: 6 / 65.4 = 0.0917 mol.",
+          "Compare: 0.0917 exceeds 0.025, so the zinc is in excess and every copper(II) ion can be displaced.",
+          "The smaller mole count caps the reaction, so the copper(II) sulfate is the limiting reagent and its 0.025 mol is the n used in delta H = q/n."
+        ],
+        "finalAnswer": "Copper(II) sulfate is the limiting reagent with 0.025 mol; the roughly 0.09 mol of zinc is excess."
+      }
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/ffba9ab403ac-1-5-chemical-energetics-calorimeter.png",
+        "alt": "Chemical Energetics Calorimeter, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Measuring enthalpy changes",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "A polystyrene cup can act as a calorimeter to find enthalpy changes in a chemical reaction"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/f01b66604027-5-1-3-calorimetry-variables-symbols-1.png",
+        "alt": "Calorimetry variables symbols_1, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Measuring enthalpy changes",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Equation for calculating energy transferred in a calorimeter"
+      },
+      {
+        "id": "fig-03",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/cd119439e2fc-5-1-4-temperature-correction-graphs.png",
+        "alt": "Temperature correction graphs, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Temperature correction graphs",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "A temperature correction graph for a metal displacement reaction between zinc and copper sulfate solution. The zinc is added after 4 minutes"
+      }
+    ]
+  }
+}

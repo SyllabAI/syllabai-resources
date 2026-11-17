@@ -1,0 +1,487 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_q6yGxPcYX3v9sfmZ",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "e17308e35e129311685c11a85164d15dc56835befcae67fce8313e4e235154c0",
+    "pinnedRef": "2fc9e39e4cb53c8e29601db0013337d9b2996890"
+  },
+  "packageId": "ial-chemistry::rn_q6yGxPcYX3v9sfmZ",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_q6yGxPcYX3v9sfmZ::L1::Q1",
+      "moduleId": "rn_q6yGxPcYX3v9sfmZ::L1",
+      "stem": "To what precision should burette readings be recorded?",
+      "misconceptionClass": "reading precision",
+      "options": [
+        {
+          "key": "A",
+          "text": "To plus-or-minus 0.05 cm3, half the smallest 0.10 cm3 marking",
+          "correct": true,
+          "explanation": "Analogue instruments are read to half a division, so each burette reading carries the 0.05 uncertainty.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "To the nearest whole cm3",
+          "correct": false,
+          "explanation": "That discards the instrument's real precision.",
+          "misconception": "understated precision"
+        },
+        {
+          "key": "C",
+          "text": "To plus-or-minus 0.10 cm3 for each reading",
+          "correct": false,
+          "explanation": "0.10 is the division size; the reading uncertainty is half of it.",
+          "misconception": "confused quantities"
+        },
+        {
+          "key": "D",
+          "text": "To four decimal places",
+          "correct": false,
+          "explanation": "No burette supports that claimed precision.",
+          "misconception": "overstated precision"
+        }
+      ]
+    },
+    {
+      "id": "rn_q6yGxPcYX3v9sfmZ::L1::Q2",
+      "moduleId": "rn_q6yGxPcYX3v9sfmZ::L1",
+      "stem": "What marks the end point of the titration?",
+      "misconceptionClass": "end point meaning",
+      "options": [
+        {
+          "key": "A",
+          "text": "The solution beginning to fizz",
+          "correct": false,
+          "explanation": "No gas forms in this acid-base titration.",
+          "misconception": "invented event"
+        },
+        {
+          "key": "B",
+          "text": "The indicator's colour change showing the solutions have just reacted completely",
+          "correct": true,
+          "explanation": "The indicator signals the equivalence of mole counts as a visible flip.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "The burette reaching the zero mark",
+          "correct": false,
+          "explanation": "Zero is the starting fill, not the end point.",
+          "misconception": "confused event"
+        },
+        {
+          "key": "D",
+          "text": "The first drop leaving the burette",
+          "correct": false,
+          "explanation": "The end point comes after many millilitres, not the first drop.",
+          "misconception": "confused event"
+        }
+      ]
+    },
+    {
+      "id": "rn_q6yGxPcYX3v9sfmZ::L1::Q3",
+      "moduleId": "rn_q6yGxPcYX3v9sfmZ::L1",
+      "stem": "Why is the burette flow slowed to dropwise near the end point?",
+      "misconceptionClass": "dropwise reason",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fast flow heats the conical flask",
+          "correct": false,
+          "explanation": "Flow speed has no heating effect.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "B",
+          "text": "The indicator only works in darkness",
+          "correct": false,
+          "explanation": "Lighting is irrelevant; the tile brightens visibility.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "C",
+          "text": "One drop can flip the indicator, so dropwise addition prevents overshooting the end point",
+          "correct": true,
+          "explanation": "Fine control keeps the titre at the true equivalence volume.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The burette tap jams if opened fully",
+          "correct": false,
+          "explanation": "The tap works freely; the reason is chemical control.",
+          "misconception": "wrong reason"
+        }
+      ]
+    },
+    {
+      "id": "rn_q6yGxPcYX3v9sfmZ::L1::Q4",
+      "moduleId": "rn_q6yGxPcYX3v9sfmZ::L1",
+      "stem": "Concordant titres are defined as results within",
+      "misconceptionClass": "concordance band",
+      "options": [
+        {
+          "key": "A",
+          "text": "1.0 cm3 of each other",
+          "correct": false,
+          "explanation": "That band is ten times too loose.",
+          "misconception": "band wrong"
+        },
+        {
+          "key": "B",
+          "text": "0.01 cm3 of each other",
+          "correct": false,
+          "explanation": "That band is tighter than the instrument's precision.",
+          "misconception": "band wrong"
+        },
+        {
+          "key": "C",
+          "text": "Any band the student chooses",
+          "correct": false,
+          "explanation": "The 0.1 cm3 convention is standard.",
+          "misconception": "made-up rule"
+        },
+        {
+          "key": "D",
+          "text": "0.1 cm3 of each other",
+          "correct": true,
+          "explanation": "Runs agreeing within 0.1 cm3 are averaged; others are discarded.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_q6yGxPcYX3v9sfmZ::L1::Q5",
+      "moduleId": "rn_q6yGxPcYX3v9sfmZ::L1",
+      "stem": "The white tile under the conical flask serves to",
+      "misconceptionClass": "tile purpose",
+      "options": [
+        {
+          "key": "A",
+          "text": "Make the indicator's colour change easier to see against a plain background",
+          "correct": true,
+          "explanation": "The tile's white surface sharpens the visual end point.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Keep the flask warm during the titration",
+          "correct": false,
+          "explanation": "The titration runs at room temperature; the tile is not a heater.",
+          "misconception": "wrong purpose"
+        },
+        {
+          "key": "C",
+          "text": "Absorb any spilled acid automatically",
+          "correct": false,
+          "explanation": "Spills are mopped up; the tile's role is optical.",
+          "misconception": "wrong purpose"
+        },
+        {
+          "key": "D",
+          "text": "Ground the burette electrically",
+          "correct": false,
+          "explanation": "No electrical role exists.",
+          "misconception": "nonsense purpose"
+        }
+      ]
+    },
+    {
+      "id": "rn_q6yGxPcYX3v9sfmZ::L1::Q6",
+      "moduleId": "rn_q6yGxPcYX3v9sfmZ::L1",
+      "stem": "State the uncertainty carried by a single burette reading and by the titre.",
+      "misconceptionClass": "uncertainty recall",
+      "kind": "recall",
+      "modelAnswer": "A single reading carries plus-or-minus 0.05 cm3, and the titre, being the difference of two readings, carries plus-or-minus 0.10 cm3.",
+      "keywords": [
+        "0.05",
+        "0.10",
+        "reading"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_q6yGxPcYX3v9sfmZ::L1::Q7",
+      "moduleId": "rn_q6yGxPcYX3v9sfmZ::L1",
+      "stem": "Describe how the aliquot is measured and delivered into the flask.",
+      "misconceptionClass": "aliquot recall",
+      "kind": "recall",
+      "modelAnswer": "A volumetric pipette measures a known volume, usually 20 or 25 cm3, of one solution into the conical flask, with indicator added as drops.",
+      "keywords": [
+        "pipette",
+        "aliquot",
+        "indicator"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_q6yGxPcYX3v9sfmZ::L1::Q8",
+      "moduleId": "rn_q6yGxPcYX3v9sfmZ::L1",
+      "stem": "Explain why the titre's uncertainty is double the single-reading uncertainty.",
+      "misconceptionClass": "propagation explanation",
+      "kind": "explain-why",
+      "modelAnswer": "The titre is the difference of two burette readings, and uncertainties add when quantities are subtracted, so plus-or-minus 0.05 on each reading propagates to plus-or-minus 0.10 on the difference.",
+      "keywords": [
+        "difference",
+        "add",
+        "propagates"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_q6yGxPcYX3v9sfmZ::L1::Q9",
+      "moduleId": "rn_q6yGxPcYX3v9sfmZ::L1",
+      "stem": "A student records final readings of 22.30, 22.40 and 25.80 cm3 against initial 0.00. Identify the concordant titres and the outlier to discard.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "The 22.30 and 22.40 titres agree within 0.1 cm3 and are averaged; the 25.80 titre sits far outside the band and is discarded as the outlier.",
+      "keywords": [
+        "concordant",
+        "average",
+        "outlier"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_q6yGxPcYX3v9sfmZ::L2::Q1",
+      "moduleId": "rn_q6yGxPcYX3v9sfmZ::L2",
+      "stem": "The average titre in the worked data is 22.80 cm3. The moles of sodium hydrogencarbonate delivered equal",
+      "misconceptionClass": "mole computation",
+      "options": [
+        {
+          "key": "A",
+          "text": "22.80/0.200, dividing volume by concentration",
+          "correct": false,
+          "explanation": "That returns a dm3 per mol quantity, not moles.",
+          "misconception": "inverted arithmetic"
+        },
+        {
+          "key": "B",
+          "text": "22.80 / 1000, times 0.200, giving 4.56 x 10-3 mol",
+          "correct": true,
+          "explanation": "Volume in dm3 times concentration yields moles directly.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "22.80 x 0.200, treating the titre as dm3",
+          "correct": false,
+          "explanation": "The volume must be divided by 1000 first.",
+          "misconception": "unit slip"
+        },
+        {
+          "key": "D",
+          "text": "0.200/22.80, inverting the relation",
+          "correct": false,
+          "explanation": "Moles come from volume times concentration, not the inverse.",
+          "misconception": "inverted arithmetic"
+        }
+      ]
+    },
+    {
+      "id": "rn_q6yGxPcYX3v9sfmZ::L2::Q2",
+      "moduleId": "rn_q6yGxPcYX3v9sfmZ::L2",
+      "stem": "The ratio NaHCO3 : HCl in the equation is 1 : 1, so the moles of hydrochloric acid in the aliquot are",
+      "misconceptionClass": "ratio transfer",
+      "options": [
+        {
+          "key": "A",
+          "text": "Half the hydrogencarbonate moles",
+          "correct": false,
+          "explanation": "Halving would need a 2:1 pattern.",
+          "misconception": "ratio wrong"
+        },
+        {
+          "key": "B",
+          "text": "Unknowable without more data",
+          "correct": false,
+          "explanation": "The equation supplies the ratio, so the count transfers fully.",
+          "misconception": "false claim"
+        },
+        {
+          "key": "C",
+          "text": "Exactly the same 4.56 x 10-3 mol",
+          "correct": true,
+          "explanation": "A one-to-one equation passes the mole count across unchanged.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Double the hydrogencarbonate moles",
+          "correct": false,
+          "explanation": "Doubling would need a 1:2 coefficient pattern.",
+          "misconception": "ratio wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_q6yGxPcYX3v9sfmZ::L2::Q3",
+      "moduleId": "rn_q6yGxPcYX3v9sfmZ::L2",
+      "stem": "The hydrochloric acid concentration computes to",
+      "misconceptionClass": "final result",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.200 mol dm-3, the standard's value",
+          "correct": false,
+          "explanation": "That is the hydrogencarbonate's concentration, not the acid's.",
+          "misconception": "value confused"
+        },
+        {
+          "key": "B",
+          "text": "1.82 mol dm-3, ten times too high",
+          "correct": false,
+          "explanation": "A factor-of-ten slip in the volume conversion.",
+          "misconception": "arithmetic slip"
+        },
+        {
+          "key": "C",
+          "text": "0.0182 mol dm-3, ten times too low",
+          "correct": false,
+          "explanation": "Another factor-of-ten slip, in the opposite direction.",
+          "misconception": "arithmetic slip"
+        },
+        {
+          "key": "D",
+          "text": "0.182 mol dm-3, the moles over the 0.0250 dm3 aliquot",
+          "correct": true,
+          "explanation": "Moles divided by the aliquot volume give the concentration to three significant figures.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_q6yGxPcYX3v9sfmZ::L2::Q4",
+      "moduleId": "rn_q6yGxPcYX3v9sfmZ::L2",
+      "stem": "Why are non-concordant titres discarded before averaging?",
+      "misconceptionClass": "discard reason",
+      "options": [
+        {
+          "key": "A",
+          "text": "Runs outside the 0.1 cm3 band carry systematic or technique error that would bias the average",
+          "correct": true,
+          "explanation": "Only mutually agreeing titres indicate reliable technique, so the average uses those.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "To make the arithmetic simpler",
+          "correct": false,
+          "explanation": "Simplicity is incidental; validity drives the discard.",
+          "misconception": "wrong reason"
+        },
+        {
+          "key": "C",
+          "text": "Because the burette changes between runs",
+          "correct": false,
+          "explanation": "The burette is the same instrument throughout.",
+          "misconception": "false claim"
+        },
+        {
+          "key": "D",
+          "text": "Because all titres must be identical by law",
+          "correct": false,
+          "explanation": "Variation is normal; the band defines acceptance.",
+          "misconception": "false claim"
+        }
+      ]
+    },
+    {
+      "id": "rn_q6yGxPcYX3v9sfmZ::L2::Q5",
+      "moduleId": "rn_q6yGxPcYX3v9sfmZ::L2",
+      "stem": "Recording initial and final burette readings to the stated precision means writing values such as",
+      "misconceptionClass": "recording style",
+      "options": [
+        {
+          "key": "A",
+          "text": "22.8 plus-or-minus 5 cm3",
+          "correct": false,
+          "explanation": "That misplaces the decimal in the uncertainty.",
+          "misconception": "uncertainty wrong"
+        },
+        {
+          "key": "B",
+          "text": "0.00 and 22.80 cm3, both to two decimal places",
+          "correct": true,
+          "explanation": "Readings carry the 0.05 cm3 precision, hence two decimals.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "0 and 23 cm3, to whole numbers",
+          "correct": false,
+          "explanation": "Whole numbers discard the required precision.",
+          "misconception": "understated"
+        },
+        {
+          "key": "D",
+          "text": "0.000 and 22.800 cm3, to three decimals",
+          "correct": false,
+          "explanation": "Three decimals overstates the instrument.",
+          "misconception": "overstated"
+        }
+      ]
+    },
+    {
+      "id": "rn_q6yGxPcYX3v9sfmZ::L2::Q6",
+      "moduleId": "rn_q6yGxPcYX3v9sfmZ::L2",
+      "stem": "State the four steps from titres to acid concentration.",
+      "misconceptionClass": "process recall",
+      "kind": "recall",
+      "modelAnswer": "Average the concordant titres, convert the standard's titre to moles, transfer moles through the equation ratio, and divide by the aliquot volume.",
+      "keywords": [
+        "average",
+        "moles",
+        "divide"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_q6yGxPcYX3v9sfmZ::L2::Q7",
+      "moduleId": "rn_q6yGxPcYX3v9sfmZ::L2",
+      "stem": "Write the equation for the reaction used in this core practical.",
+      "misconceptionClass": "equation recall",
+      "kind": "recall",
+      "modelAnswer": "NaHCO3 + HCl gives NaCl + H2O + CO2, a one-to-one reaction between hydrogencarbonate and acid.",
+      "keywords": [
+        "NaHCO3",
+        "HCl",
+        "one"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_q6yGxPcYX3v9sfmZ::L2::Q8",
+      "moduleId": "rn_q6yGxPcYX3v9sfmZ::L2",
+      "stem": "Explain why the standard solution's known concentration is the anchor of the whole calculation.",
+      "misconceptionClass": "anchor explanation",
+      "kind": "explain-why",
+      "modelAnswer": "Every downstream number derives from the one quantity known exactly - the standard's concentration prices its moles, the ratio converts them, and the aliquot division finishes the chain, so an uncertain standard would corrupt everything.",
+      "keywords": [
+        "known",
+        "moles",
+        "derives"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_q6yGxPcYX3v9sfmZ::L2::Q9",
+      "moduleId": "rn_q6yGxPcYX3v9sfmZ::L2",
+      "stem": "A titre of 20.00 cm3 of 0.200 mol dm-3 hydrogencarbonate reacts with a 25.0 cm3 acid aliquot. Compute the acid concentration, showing each step.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Moles of hydrogencarbonate: 0.0200 x 0.200 = 4.00 x 10-3 mol; the 1:1 ratio passes them to the acid; concentration: 4.00 x 10-3 / 0.0250 = 0.160 mol dm-3.",
+      "keywords": [
+        "0.0200",
+        "0.200",
+        "0.160"
+      ],
+      "options": []
+    }
+  ]
+}

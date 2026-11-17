@@ -1,0 +1,487 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_4xFqNmQ2gFyzcx9k",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "0136d218d393b2d9fdb811557d61807cdb1daf54c91651b100786b569f6cbbab",
+    "pinnedRef": "2fc9e39e4cb53c8e29601db0013337d9b2996890"
+  },
+  "packageId": "ial-chemistry::rn_4xFqNmQ2gFyzcx9k",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_4xFqNmQ2gFyzcx9k::L1::Q1",
+      "moduleId": "rn_4xFqNmQ2gFyzcx9k::L1",
+      "stem": "What is the purpose of volumetric analysis?",
+      "misconceptionClass": "technique purpose",
+      "options": [
+        {
+          "key": "A",
+          "text": "To determine the concentration of an unknown solution using a solution of known concentration",
+          "correct": true,
+          "explanation": "The known partner's volume and concentration price the moles that reveal the unknown.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "To measure the melting point of an unknown solid",
+          "correct": false,
+          "explanation": "Melting behaviour belongs to purity analysis.",
+          "misconception": "wrong purpose"
+        },
+        {
+          "key": "C",
+          "text": "To separate a mixture into its components",
+          "correct": false,
+          "explanation": "Separation is chromatography's or distillation's job.",
+          "misconception": "wrong purpose"
+        },
+        {
+          "key": "D",
+          "text": "To measure gas volumes during a reaction",
+          "correct": false,
+          "explanation": "Gas measurement belongs to the syringe practicals.",
+          "misconception": "wrong purpose"
+        }
+      ]
+    },
+    {
+      "id": "rn_4xFqNmQ2gFyzcx9k::L1::Q2",
+      "moduleId": "rn_4xFqNmQ2gFyzcx9k::L1",
+      "stem": "Which two pieces of equipment measure the volumes in a titration?",
+      "misconceptionClass": "volume instruments",
+      "options": [
+        {
+          "key": "A",
+          "text": "A thermometer and a balance",
+          "correct": false,
+          "explanation": "Those measure temperature and mass.",
+          "misconception": "role confused"
+        },
+        {
+          "key": "B",
+          "text": "A volumetric pipette and a burette",
+          "correct": true,
+          "explanation": "The pipette delivers the fixed aliquot and the burette delivers the variable titre.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "A measuring cylinder and a beaker",
+          "correct": false,
+          "explanation": "Those are too imprecise for quantitative titration work.",
+          "misconception": "precision wrong"
+        },
+        {
+          "key": "D",
+          "text": "A conical flask and a beaker",
+          "correct": false,
+          "explanation": "Those hold solutions; they do not measure delivering volumes.",
+          "misconception": "role confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_4xFqNmQ2gFyzcx9k::L1::Q3",
+      "moduleId": "rn_4xFqNmQ2gFyzcx9k::L1",
+      "stem": "Before any titration can begin, the necessary preliminary is",
+      "misconceptionClass": "precondition",
+      "options": [
+        {
+          "key": "A",
+          "text": "Calibrating the conical flask against the burette",
+          "correct": false,
+          "explanation": "Flasks are vessels, not calibrated deliverers.",
+          "misconception": "invented step"
+        },
+        {
+          "key": "B",
+          "text": "Filtering both solutions through paper",
+          "correct": false,
+          "explanation": "Filtration is not part of the titration routine here.",
+          "misconception": "invented step"
+        },
+        {
+          "key": "C",
+          "text": "Preparing the standard solution of known concentration",
+          "correct": true,
+          "explanation": "The known partner must exist before the exchange can be priced.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Boiling the unknown solution to concentrate it",
+          "correct": false,
+          "explanation": "No boiling is part of the procedure.",
+          "misconception": "invented step"
+        }
+      ]
+    },
+    {
+      "id": "rn_4xFqNmQ2gFyzcx9k::L1::Q4",
+      "moduleId": "rn_4xFqNmQ2gFyzcx9k::L1",
+      "stem": "The volumetric flask in the apparatus set is used to",
+      "misconceptionClass": "flask role",
+      "options": [
+        {
+          "key": "A",
+          "text": "Deliver the aliquot into the conical flask",
+          "correct": false,
+          "explanation": "The pipette does the aliquot delivery.",
+          "misconception": "role confused"
+        },
+        {
+          "key": "B",
+          "text": "Add titrant dropwise during the run",
+          "correct": false,
+          "explanation": "The burette handles the dropwise delivery.",
+          "misconception": "role confused"
+        },
+        {
+          "key": "C",
+          "text": "Heat the mixture during the titration",
+          "correct": false,
+          "explanation": "No heating occurs in a titration.",
+          "misconception": "role confused"
+        },
+        {
+          "key": "D",
+          "text": "Make a solution up to an exact volume when preparing the standard",
+          "correct": true,
+          "explanation": "The graduation mark defines the final solution volume precisely.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_4xFqNmQ2gFyzcx9k::L1::Q5",
+      "moduleId": "rn_4xFqNmQ2gFyzcx9k::L1",
+      "stem": "Why must precise apparatus be used at both the preparation and the titration stage?",
+      "misconceptionClass": "precision chain",
+      "options": [
+        {
+          "key": "A",
+          "text": "An error in making the standard or in measuring either volume propagates straight into the calculated concentration",
+          "correct": true,
+          "explanation": "Precision is only as good as the weakest measurement in the chain.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Because the exam board supplies no other equipment",
+          "correct": false,
+          "explanation": "The reason is metrological, not administrative.",
+          "misconception": "wrong reason"
+        },
+        {
+          "key": "C",
+          "text": "Because imprecise glassware changes the indicator colour",
+          "correct": false,
+          "explanation": "Colour change is chemical, not volumetric.",
+          "misconception": "wrong reason"
+        },
+        {
+          "key": "D",
+          "text": "Because volumes cannot be measured twice",
+          "correct": false,
+          "explanation": "Volumes are measured constantly; precision is what matters.",
+          "misconception": "nonsense claim"
+        }
+      ]
+    },
+    {
+      "id": "rn_4xFqNmQ2gFyzcx9k::L1::Q6",
+      "moduleId": "rn_4xFqNmQ2gFyzcx9k::L1",
+      "stem": "Define volumetric analysis.",
+      "misconceptionClass": "definition recall",
+      "kind": "recall",
+      "modelAnswer": "Volumetric analysis uses the volume and concentration of a known volumetric solution to determine the concentration of an unknown solution.",
+      "keywords": [
+        "volume",
+        "concentration",
+        "unknown"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_4xFqNmQ2gFyzcx9k::L1::Q7",
+      "moduleId": "rn_4xFqNmQ2gFyzcx9k::L1",
+      "stem": "List the five pieces of apparatus used in the volumetric analysis set.",
+      "misconceptionClass": "apparatus recall",
+      "kind": "recall",
+      "modelAnswer": "Beaker, burette, volumetric pipette, conical flask and volumetric flask.",
+      "keywords": [
+        "beaker",
+        "burette",
+        "pipette"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_4xFqNmQ2gFyzcx9k::L1::Q8",
+      "moduleId": "rn_4xFqNmQ2gFyzcx9k::L1",
+      "stem": "Explain why the pipette and burette, rather than measuring cylinders, are used for the volumes.",
+      "misconceptionClass": "precision explanation",
+      "kind": "explain-why",
+      "modelAnswer": "Pipettes and burettes deliver volumes with far smaller uncertainties than measuring cylinders, and every uncertainty in the delivered volumes propagates directly into the calculated concentration.",
+      "keywords": [
+        "uncertainty",
+        "delivered",
+        "propagates"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_4xFqNmQ2gFyzcx9k::L1::Q9",
+      "moduleId": "rn_4xFqNmQ2gFyzcx9k::L1",
+      "stem": "A student prepares a standard solution with a measuring cylinder instead of a volumetric flask. State the consequence for the titration result.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "The standard's true concentration carries a larger uncertainty than assumed, so every mole count derived from it inherits the error and the calculated unknown concentration is systematically unreliable.",
+      "keywords": [
+        "cylinder",
+        "uncertainty",
+        "concentration"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_4xFqNmQ2gFyzcx9k::L2::Q1",
+      "moduleId": "rn_4xFqNmQ2gFyzcx9k::L2",
+      "stem": "Why are three-decimal-place balances used to make standard solutions?",
+      "misconceptionClass": "balance precision",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because volumetric flasks only accept heavy samples",
+          "correct": false,
+          "explanation": "Flasks accept any mass; the decimals serve the mole count.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "B",
+          "text": "The solute mass determines the mole count, so extra decimals keep the concentration honest",
+          "correct": true,
+          "explanation": "Mass uncertainty propagates directly into the stated concentration.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Because solids always weigh exactly one gram",
+          "correct": false,
+          "explanation": "Solids are weighed to whatever the recipe demands.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "D",
+          "text": "To make the solid dissolve faster",
+          "correct": false,
+          "explanation": "Balance precision has no effect on dissolution rate.",
+          "misconception": "wrong reason"
+        }
+      ]
+    },
+    {
+      "id": "rn_4xFqNmQ2gFyzcx9k::L2::Q2",
+      "moduleId": "rn_4xFqNmQ2gFyzcx9k::L2",
+      "stem": "The concentration of a solution is defined as",
+      "misconceptionClass": "concentration definition",
+      "options": [
+        {
+          "key": "A",
+          "text": "The mass of the empty flask",
+          "correct": false,
+          "explanation": "Flask mass is irrelevant to concentration.",
+          "misconception": "wrong definition"
+        },
+        {
+          "key": "B",
+          "text": "The colour intensity of the solution",
+          "correct": false,
+          "explanation": "Colour may correlate visually but does not define concentration.",
+          "misconception": "wrong definition"
+        },
+        {
+          "key": "C",
+          "text": "The amount of solute dissolved to make 1 dm3 of solution",
+          "correct": true,
+          "explanation": "Concentration normalises the solute amount per unit volume of solution.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The total volume of solvent added",
+          "correct": false,
+          "explanation": "Volume alone says nothing about how much solute is dissolved.",
+          "misconception": "wrong definition"
+        }
+      ]
+    },
+    {
+      "id": "rn_4xFqNmQ2gFyzcx9k::L2::Q3",
+      "moduleId": "rn_4xFqNmQ2gFyzcx9k::L2",
+      "stem": "A dilute solution is one with",
+      "misconceptionClass": "dilute meaning",
+      "options": [
+        {
+          "key": "A",
+          "text": "A high concentration of solute",
+          "correct": false,
+          "explanation": "That is the concentrated case.",
+          "misconception": "inverted meaning"
+        },
+        {
+          "key": "B",
+          "text": "No solvent at all",
+          "correct": false,
+          "explanation": "Solutions always contain solvent.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "C",
+          "text": "Only solvent and no solute",
+          "correct": false,
+          "explanation": "A pure solvent is not a solution.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "D",
+          "text": "A low concentration of solute per volume of solution",
+          "correct": true,
+          "explanation": "Dilute means little solute in much solvent.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_4xFqNmQ2gFyzcx9k::L2::Q4",
+      "moduleId": "rn_4xFqNmQ2gFyzcx9k::L2",
+      "stem": "The mass of NaOH needed for 250 cm3 of 0.200 mol dm-3 solution is",
+      "misconceptionClass": "mass calculation",
+      "options": [
+        {
+          "key": "A",
+          "text": "2.00 g, from 0.0500 mol times 40.0 g mol-1",
+          "correct": true,
+          "explanation": "Moles come from 0.200 x 0.250 and mass from moles times the molar mass.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "0.200 g, reading the concentration as a mass",
+          "correct": false,
+          "explanation": "Concentration is molar here; the molar mass step is required.",
+          "misconception": "step skipped"
+        },
+        {
+          "key": "C",
+          "text": "20.0 g, ten times too high",
+          "correct": false,
+          "explanation": "A factor-of-ten slip in the volume conversion.",
+          "misconception": "arithmetic slip"
+        },
+        {
+          "key": "D",
+          "text": "5.00 g, using the volume directly",
+          "correct": false,
+          "explanation": "The volume must convert to dm3 and multiply by 0.200 first.",
+          "misconception": "arithmetic slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_4xFqNmQ2gFyzcx9k::L2::Q5",
+      "moduleId": "rn_4xFqNmQ2gFyzcx9k::L2",
+      "stem": "Before making up to the mark in the volumetric flask, the solid must first be",
+      "misconceptionClass": "preparation order",
+      "options": [
+        {
+          "key": "A",
+          "text": "Weighed directly into the volumetric flask and left undissolved",
+          "correct": false,
+          "explanation": "Dissolution precedes the make-up to the mark.",
+          "misconception": "order wrong"
+        },
+        {
+          "key": "B",
+          "text": "Dissolved, typically in a beaker with distilled water",
+          "correct": true,
+          "explanation": "The solid dissolves before transfer and top-up to the mark.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Heated until it melts",
+          "correct": false,
+          "explanation": "Melting is not part of solution preparation.",
+          "misconception": "invented step"
+        },
+        {
+          "key": "D",
+          "text": "Filtered to remove impurities",
+          "correct": false,
+          "explanation": "The reagent grade solid needs no filtration here.",
+          "misconception": "invented step"
+        }
+      ]
+    },
+    {
+      "id": "rn_4xFqNmQ2gFyzcx9k::L2::Q6",
+      "moduleId": "rn_4xFqNmQ2gFyzcx9k::L2",
+      "stem": "State the relationship between moles, concentration and volume used in standard-solution work.",
+      "misconceptionClass": "relation recall",
+      "kind": "recall",
+      "modelAnswer": "Moles equal concentration in mol dm-3 multiplied by volume in dm3.",
+      "keywords": [
+        "moles",
+        "concentration",
+        "volume"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_4xFqNmQ2gFyzcx9k::L2::Q7",
+      "moduleId": "rn_4xFqNmQ2gFyzcx9k::L2",
+      "stem": "State the molar mass of the sodium hydroxide solute used in the mass calculation.",
+      "misconceptionClass": "molar mass recall",
+      "kind": "recall",
+      "modelAnswer": "The hydroxide's molar mass is 40.0 g mol-1, the sum of sodium's 23.0, oxygen's 16.0 and hydrogen's 1.0.",
+      "keywords": [
+        "sodium",
+        "hydroxide",
+        "40.0"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_4xFqNmQ2gFyzcx9k::L2::Q8",
+      "moduleId": "rn_4xFqNmQ2gFyzcx9k::L2",
+      "stem": "Explain why the volumetric flask's graduation mark, rather than the beaker's scale, defines the final volume.",
+      "misconceptionClass": "flask precision",
+      "kind": "explain-why",
+      "modelAnswer": "Volumetric flasks are calibrated for their single marked volume with tiny uncertainty, while beakers carry wide tolerance, so topping up to the flask's mark is the only way to honour the concentration promise.",
+      "keywords": [
+        "calibrated",
+        "mark",
+        "uncertainty"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_4xFqNmQ2gFyzcx9k::L2::Q9",
+      "moduleId": "rn_4xFqNmQ2gFyzcx9k::L2",
+      "stem": "Compute the mass of sodium hydroxide needed to prepare 250 cm3 of 0.200 mol dm-3 solution, showing the mole and mass steps.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Moles: 0.200 x 0.250 = 0.0500 mol; molar mass 40.0 g mol-1; mass: 0.0500 x 40.0 = 2.00 g.",
+      "keywords": [
+        "0.200",
+        "0.250",
+        "2.00"
+      ],
+      "options": []
+    }
+  ]
+}

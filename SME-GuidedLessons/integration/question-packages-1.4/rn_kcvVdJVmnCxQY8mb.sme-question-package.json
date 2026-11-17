@@ -1,0 +1,723 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_kcvVdJVmnCxQY8mb",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "5a5d415644cb2d1114a968cdee08b847a05be250489c6953be5a9962e9b33a19",
+    "pinnedRef": "2fc9e39e4cb53c8e29601db0013337d9b2996890"
+  },
+  "packageId": "ial-chemistry::rn_kcvVdJVmnCxQY8mb",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_kcvVdJVmnCxQY8mb::L1::Q1",
+      "moduleId": "rn_kcvVdJVmnCxQY8mb::L1",
+      "stem": "Why is a reaction mixture heated under reflux rather than simply boiled in an open flask?",
+      "misconceptionClass": "purpose of reflux",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reflux returns escaping vapour to the flask so nothing escapes during prolonged heating",
+          "correct": true,
+          "explanation": "The vertical condenser condenses vapour and returns it, letting the mixture boil for hours without loss.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Reflux raises the boiling point of the solvent above its normal value",
+          "correct": false,
+          "explanation": "The boiling point is a property of the liquid; the condenser changes nothing about it.",
+          "misconception": "misconception about temperature"
+        },
+        {
+          "key": "C",
+          "text": "Reflux removes the volatile product as soon as it forms",
+          "correct": false,
+          "explanation": "That describes distillation; reflux is chosen precisely to keep volatile species in the vessel.",
+          "misconception": "confused with distillation"
+        },
+        {
+          "key": "D",
+          "text": "Reflux stops the mixture from boiling at all",
+          "correct": false,
+          "explanation": "The mixture does boil; the point is that escaping vapour is condensed back in.",
+          "misconception": "misreads the process"
+        }
+      ]
+    },
+    {
+      "id": "rn_kcvVdJVmnCxQY8mb::L1::Q2",
+      "moduleId": "rn_kcvVdJVmnCxQY8mb::L1",
+      "stem": "Which conversion is typically carried out by heating under reflux?",
+      "misconceptionClass": "reflux examples",
+      "options": [
+        {
+          "key": "A",
+          "text": "Drying an organic liquid over anhydrous sulfate",
+          "correct": false,
+          "explanation": "Drying agents work in a stoppered flask, not in reflux apparatus.",
+          "misconception": "wrong technique"
+        },
+        {
+          "key": "B",
+          "text": "Oxidising a primary alcohol fully to a carboxylic acid",
+          "correct": true,
+          "explanation": "Complete oxidation needs prolonged heating with excess oxidising agent, the classic reflux job.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Separating two liquids with different boiling points",
+          "correct": false,
+          "explanation": "Separation by volatility is distillation, not reflux.",
+          "misconception": "confused with distillation"
+        },
+        {
+          "key": "D",
+          "text": "Washing an organic layer with sodium carbonate solution",
+          "correct": false,
+          "explanation": "That purification step happens in a separating funnel at room temperature.",
+          "misconception": "wrong technique"
+        }
+      ]
+    },
+    {
+      "id": "rn_kcvVdJVmnCxQY8mb::L1::Q3",
+      "moduleId": "rn_kcvVdJVmnCxQY8mb::L1",
+      "stem": "In the reflux set-up, cooling water flows through the condenser jacket so that",
+      "misconceptionClass": "water direction",
+      "options": [
+        {
+          "key": "A",
+          "text": "Water circulates only when the mixture is left to cool afterwards",
+          "correct": false,
+          "explanation": "The water runs throughout the heating, not after it.",
+          "misconception": "timing wrong"
+        },
+        {
+          "key": "B",
+          "text": "The water is heated to boiling so no condensation shock occurs",
+          "correct": false,
+          "explanation": "Cold water is what condenses the vapour; warming it would defeat the purpose.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "C",
+          "text": "Water enters at the bottom and exits at the top, keeping the jacket full and the glass cold",
+          "correct": true,
+          "explanation": "Filling against gravity prevents air pockets, so the whole condenser surface stays cold for condensing vapour.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Water enters at the top and trickles down by gravity alone",
+          "correct": false,
+          "explanation": "Top-fed water leaves air gaps in the jacket and poor cooling.",
+          "misconception": "direction reversed"
+        }
+      ]
+    },
+    {
+      "id": "rn_kcvVdJVmnCxQY8mb::L1::Q4",
+      "moduleId": "rn_kcvVdJVmnCxQY8mb::L1",
+      "stem": "Anti-bumping granules are added to the reflux flask because they",
+      "misconceptionClass": "granule purpose",
+      "options": [
+        {
+          "key": "A",
+          "text": "Act as a catalyst for the organic reaction",
+          "correct": false,
+          "explanation": "They are inert glassy material with no catalytic role.",
+          "misconception": "wrong function"
+        },
+        {
+          "key": "B",
+          "text": "Absorb any water produced during the reaction",
+          "correct": false,
+          "explanation": "Drying agents do that job; granules do not absorb anything.",
+          "misconception": "confused with drying agents"
+        },
+        {
+          "key": "C",
+          "text": "Raise the reaction temperature beyond the solvent boiling point",
+          "correct": false,
+          "explanation": "Boiling occurs at the normal boiling point; granules do not change it.",
+          "misconception": "temperature myth"
+        },
+        {
+          "key": "D",
+          "text": "Promote smooth, controlled boiling instead of violent bumping",
+          "correct": true,
+          "explanation": "The granules give nucleation sites so bubbles form steadily rather than explosively.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_kcvVdJVmnCxQY8mb::L1::Q5",
+      "moduleId": "rn_kcvVdJVmnCxQY8mb::L1",
+      "stem": "The ester ethyl ethanoate can be prepared by refluxing an alcohol with an acid. The role of the acid catalyst here is to",
+      "misconceptionClass": "ester context",
+      "options": [
+        {
+          "key": "A",
+          "text": "Speed the ester formation while the mixture boils safely under reflux",
+          "correct": true,
+          "explanation": "Acid catalysis accelerates esterification, and reflux lets the slow reaction run to completion without loss.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Neutralise the alcohol before reaction begins",
+          "correct": false,
+          "explanation": "The acid catalyses the reaction; it does not destroy the alcohol first.",
+          "misconception": "wrong role"
+        },
+        {
+          "key": "C",
+          "text": "Keep the condenser water cold during heating",
+          "correct": false,
+          "explanation": "Cooling water and the acid catalyst are unrelated.",
+          "misconception": "unrelated role"
+        },
+        {
+          "key": "D",
+          "text": "Convert the ester back into the starting alcohol",
+          "correct": false,
+          "explanation": "Catalysts speed both forward and back reactions; the acid is not added to reverse anything.",
+          "misconception": "wrong role"
+        }
+      ]
+    },
+    {
+      "id": "rn_kcvVdJVmnCxQY8mb::L1::Q6",
+      "moduleId": "rn_kcvVdJVmnCxQY8mb::L1",
+      "stem": "State the purpose of heating under reflux.",
+      "misconceptionClass": "purpose recall",
+      "kind": "recall",
+      "modelAnswer": "Reflux heats a reaction for as long as needed while a condenser returns vapour to the flask, so no reactants, products or solvent are lost.",
+      "keywords": [
+        "vapour",
+        "flask",
+        "lost"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_kcvVdJVmnCxQY8mb::L1::Q7",
+      "moduleId": "rn_kcvVdJVmnCxQY8mb::L1",
+      "stem": "Name two pieces of safety or practical equipment used in a reflux set-up besides the condenser.",
+      "misconceptionClass": "apparatus recall",
+      "kind": "recall",
+      "modelAnswer": "Anti-bumping granules to promote smooth boiling, and a heating mantle or water bath in place of a naked flame, plus greased Quickfit joints for a good seal.",
+      "keywords": [
+        "granules",
+        "mantle",
+        "joints"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_kcvVdJVmnCxQY8mb::L1::Q8",
+      "moduleId": "rn_kcvVdJVmnCxQY8mb::L1",
+      "stem": "Explain why the condenser in reflux apparatus is clamped vertically rather than at an angle.",
+      "misconceptionClass": "orientation explanation",
+      "kind": "explain-why",
+      "modelAnswer": "A vertical condenser lets condensed vapour run straight back down into the flask by gravity, so nothing collects in the condenser and every volatile species returns to the reaction mixture.",
+      "keywords": [
+        "vertical",
+        "gravity",
+        "back"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_kcvVdJVmnCxQY8mb::L1::Q9",
+      "moduleId": "rn_kcvVdJVmnCxQY8mb::L1",
+      "stem": "A student refluxes an alcohol with acidified potassium dichromate intending the carboxylic acid, but fits the condenser at a downward angle so distillate escapes. Predict the most likely product collected outside the flask and justify it.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "The aldehyde intermediate, which boils lower than the alcohol, escapes before it can be further oxidised in the flask, so the escaping distillate is enriched in aldehyde while full oxidation to the acid is lost.",
+      "keywords": [
+        "aldehyde",
+        "escapes",
+        "oxidised"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_kcvVdJVmnCxQY8mb::L2::Q1",
+      "moduleId": "rn_kcvVdJVmnCxQY8mb::L2",
+      "stem": "Why is distillation the technique of choice when a primary alcohol is oxidised to an aldehyde?",
+      "misconceptionClass": "distillation purpose",
+      "options": [
+        {
+          "key": "A",
+          "text": "Distillation speeds up the oxidation reaction itself",
+          "correct": false,
+          "explanation": "Distillation does not change the reaction rate; it separates the product.",
+          "misconception": "wrong function"
+        },
+        {
+          "key": "B",
+          "text": "The aldehyde boils lower than the alcohol, so it can be removed as soon as it forms",
+          "correct": true,
+          "explanation": "Distilling off the aldehyde protects it from the further oxidation that reflux would allow.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "The aldehyde is denser than the reaction mixture and drains out",
+          "correct": false,
+          "explanation": "Density plays no role in distillation; volatility does.",
+          "misconception": "wrong property"
+        },
+        {
+          "key": "D",
+          "text": "The aldehyde reacts with the condenser water and must be removed quickly",
+          "correct": false,
+          "explanation": "The aldehyde is inert to the cooling water; it is collected because it is volatile.",
+          "misconception": "invented chemistry"
+        }
+      ]
+    },
+    {
+      "id": "rn_kcvVdJVmnCxQY8mb::L2::Q2",
+      "moduleId": "rn_kcvVdJVmnCxQY8mb::L2",
+      "stem": "Where should the thermometer bulb sit in the distillation apparatus?",
+      "misconceptionClass": "thermometer placement",
+      "options": [
+        {
+          "key": "A",
+          "text": "At the top of the still head, far above the vapour path",
+          "correct": false,
+          "explanation": "Too high a position reads cooler room-affected air, not the vapour.",
+          "misconception": "placement wrong"
+        },
+        {
+          "key": "B",
+          "text": "Inside the receiving vessel with the distillate",
+          "correct": false,
+          "explanation": "The collected liquid has already cooled, so the reading would be meaningless.",
+          "misconception": "placement wrong"
+        },
+        {
+          "key": "C",
+          "text": "Level with the entrance to the condenser, where the vapour flows past it",
+          "correct": true,
+          "explanation": "The bulb must read the temperature of the vapour entering the condenser, which is the distilling component's boiling point.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Immersed deep in the boiling liquid in the flask",
+          "correct": false,
+          "explanation": "That reads the liquid temperature, not the vapour being collected.",
+          "misconception": "placement wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_kcvVdJVmnCxQY8mb::L2::Q3",
+      "moduleId": "rn_kcvVdJVmnCxQY8mb::L2",
+      "stem": "A distillate fraction comes over well below the expected boiling point. What should be done with it?",
+      "misconceptionClass": "fraction handling",
+      "options": [
+        {
+          "key": "A",
+          "text": "Keep it, because all distillate is the desired product",
+          "correct": false,
+          "explanation": "Mixing fractions contaminates the product with lower-boiling impurities.",
+          "misconception": "collection error"
+        },
+        {
+          "key": "B",
+          "text": "Heat the fraction further to raise it to the expected boiling point",
+          "correct": false,
+          "explanation": "A pure liquid boils where it boils; heating collected liquid does not relocate it into the window.",
+          "misconception": "nonsense operation"
+        },
+        {
+          "key": "C",
+          "text": "Redistil it immediately at a higher temperature",
+          "correct": false,
+          "explanation": "The standard practice is to discard the forerun and collect the window fraction cleanly.",
+          "misconception": "overcomplication"
+        },
+        {
+          "key": "D",
+          "text": "Discard it and collect a fresh fraction once the temperature reaches the expected window",
+          "correct": true,
+          "explanation": "Early low-boiling material is contaminant, so the receiver is changed before the wanted fraction arrives.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_kcvVdJVmnCxQY8mb::L2::Q4",
+      "moduleId": "rn_kcvVdJVmnCxQY8mb::L2",
+      "stem": "What does a sample that boils over a range of temperatures indicate?",
+      "misconceptionClass": "purity diagnosis",
+      "options": [
+        {
+          "key": "A",
+          "text": "The liquid is impure, since impurities spread and usually raise the boiling temperature",
+          "correct": true,
+          "explanation": "A pure liquid boils sharply at one temperature; a spread of boiling betrays contamination.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The liquid is pure but its boiling point is unstable",
+          "correct": false,
+          "explanation": "Boiling points are reproducible for pure liquids; instability is not a thing here.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "C",
+          "text": "The thermometer was placed in the boiling liquid",
+          "correct": false,
+          "explanation": "Even a correct placement would still show a sharp value for a pure liquid.",
+          "misconception": "misdiagnosis"
+        },
+        {
+          "key": "D",
+          "text": "The condenser water was flowing too fast",
+          "correct": false,
+          "explanation": "Cooling rate affects condensation, not the boiling range of the sample.",
+          "misconception": "irrelevant cause"
+        }
+      ]
+    },
+    {
+      "id": "rn_kcvVdJVmnCxQY8mb::L2::Q5",
+      "moduleId": "rn_kcvVdJVmnCxQY8mb::L2",
+      "stem": "Electric heating mantles are preferred over Bunsen burners for distilling organic liquids because",
+      "misconceptionClass": "heating choice",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mantles stir the mixture automatically during heating",
+          "correct": false,
+          "explanation": "Heating mantles provide heat only; stirring is separate.",
+          "misconception": "invented function"
+        },
+        {
+          "key": "B",
+          "text": "The temperature is controllable and the flammable vapours meet no naked flame",
+          "correct": true,
+          "explanation": "Organic liquids ignite easily, so a flame-free, adjustable heat source is the safe choice.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Bunsen burners cannot reach the boiling points of organic liquids",
+          "correct": false,
+          "explanation": "A Bunsen flame is hot enough; the problem is ignition risk, not temperature reach.",
+          "misconception": "wrong reason"
+        },
+        {
+          "key": "D",
+          "text": "Mantles condense the vapour more efficiently than burners",
+          "correct": false,
+          "explanation": "Condensation is the condenser's job, not the heater's.",
+          "misconception": "confused roles"
+        }
+      ]
+    },
+    {
+      "id": "rn_kcvVdJVmnCxQY8mb::L2::Q6",
+      "moduleId": "rn_kcvVdJVmnCxQY8mb::L2",
+      "stem": "State how distillation separates the components of a mixture.",
+      "misconceptionClass": "separation recall",
+      "kind": "recall",
+      "modelAnswer": "The mixture is heated and each component distils at its own boiling point, the lowest boiling liquid leaving first and condensing in the condenser.",
+      "keywords": [
+        "boiling",
+        "lowest",
+        "condensing"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_kcvVdJVmnCxQY8mb::L2::Q7",
+      "moduleId": "rn_kcvVdJVmnCxQY8mb::L2",
+      "stem": "Define the collection window used when distilling a desired product.",
+      "misconceptionClass": "window recall",
+      "kind": "recall",
+      "modelAnswer": "Distillate is collected only within about two degrees of the expected boiling point; material arriving below or above that window is discarded.",
+      "keywords": [
+        "collected",
+        "boiling",
+        "discarded"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_kcvVdJVmnCxQY8mb::L2::Q8",
+      "moduleId": "rn_kcvVdJVmnCxQY8mb::L2",
+      "stem": "Explain why boiling point determination can be used as evidence of both identity and purity.",
+      "misconceptionClass": "purity explanation",
+      "kind": "explain-why",
+      "modelAnswer": "Every pure liquid boils at a characteristic temperature that can be matched against literature values for identity, and impurities shift and spread that temperature, so a sharp value at the literature boiling point demonstrates purity too.",
+      "keywords": [
+        "characteristic",
+        "literature",
+        "impurities"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_kcvVdJVmnCxQY8mb::L2::Q9",
+      "moduleId": "rn_kcvVdJVmnCxQY8mb::L2",
+      "stem": "An oxidation of a primary alcohol is left to reflux by mistake instead of being distilled. The flask contents are then distilled and a fraction arrives at the alcohol's boiling point. Identify that fraction and explain its presence.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Unreacted alcohol: the extended reflux drove oxidation past the aldehyde to the carboxylic acid, so when the mixture is finally distilled the first volatile fraction is acid-related and the alcohol comes over near its own boiling point only after the lower-boiling species have left.",
+      "keywords": [
+        "reflux",
+        "carboxylic",
+        "fraction"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_kcvVdJVmnCxQY8mb::L3::Q1",
+      "moduleId": "rn_kcvVdJVmnCxQY8mb::L3",
+      "stem": "After an organic preparation, the separating funnel holds two colourless layers. How do you identify the aqueous layer?",
+      "misconceptionClass": "layer identity",
+      "options": [
+        {
+          "key": "A",
+          "text": "Assume the top layer is always aqueous",
+          "correct": false,
+          "explanation": "Aqueous layers are often but not always lower; density decides, and the test removes the guesswork.",
+          "misconception": "assumption wrong"
+        },
+        {
+          "key": "B",
+          "text": "Taste a drop of each layer",
+          "correct": false,
+          "explanation": "Laboratory chemicals are never tasted; this is both forbidden and unreliable.",
+          "misconception": "forbidden method"
+        },
+        {
+          "key": "C",
+          "text": "Add a little water and see which layer increases in volume",
+          "correct": true,
+          "explanation": "The added water joins the aqueous layer, so the layer that grows is the water-rich one.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Warm the funnel gently and watch which layer evaporates",
+          "correct": false,
+          "explanation": "Heating a stoppered funnel is unsafe and does not identify layers.",
+          "misconception": "unsafe method"
+        }
+      ]
+    },
+    {
+      "id": "rn_kcvVdJVmnCxQY8mb::L3::Q2",
+      "moduleId": "rn_kcvVdJVmnCxQY8mb::L3",
+      "stem": "Sodium carbonate solution is added to a separating funnel containing a crude ester in order to",
+      "misconceptionClass": "carbonate purpose",
+      "options": [
+        {
+          "key": "A",
+          "text": "Act as a drying agent for dissolved water",
+          "correct": false,
+          "explanation": "Anhydrous salts dry the liquid; carbonate solution is itself aqueous and adds water.",
+          "misconception": "confused with drying"
+        },
+        {
+          "key": "B",
+          "text": "Catalyse further ester formation",
+          "correct": false,
+          "explanation": "No esterification is intended during washing; the carbonate cleans the product.",
+          "misconception": "wrong function"
+        },
+        {
+          "key": "C",
+          "text": "Dissolve the organic product for re-extraction",
+          "correct": false,
+          "explanation": "The organic product stays in its own layer; the carbonate washes the impurities away.",
+          "misconception": "wrong function"
+        },
+        {
+          "key": "D",
+          "text": "Neutralise acidic impurities and remove them by washing",
+          "correct": true,
+          "explanation": "The carbonate reacts with acid residues, releasing carbon dioxide, leaving the organic layer cleaner.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_kcvVdJVmnCxQY8mb::L3::Q3",
+      "moduleId": "rn_kcvVdJVmnCxQY8mb::L3",
+      "stem": "Why must the stopcock of a separating funnel be opened periodically during shaking?",
+      "misconceptionClass": "venting reason",
+      "options": [
+        {
+          "key": "A",
+          "text": "To release pressure built up by gases such as carbon dioxide from neutralisation or vaporisation",
+          "correct": true,
+          "explanation": "Trapped pressure would force the stopper out and eject the contents when the funnel is inverted.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "To let air in so the liquids mix better",
+          "correct": false,
+          "explanation": "Mixing is achieved by shaking; venting is about pressure, not aeration.",
+          "misconception": "wrong reason"
+        },
+        {
+          "key": "C",
+          "text": "To allow the layers to separate faster",
+          "correct": false,
+          "explanation": "Separation happens on standing; venting does not accelerate it.",
+          "misconception": "wrong reason"
+        },
+        {
+          "key": "D",
+          "text": "To check the colour of the organic layer",
+          "correct": false,
+          "explanation": "Observation is done through the glass, not by opening the tap.",
+          "misconception": "wrong reason"
+        }
+      ]
+    },
+    {
+      "id": "rn_kcvVdJVmnCxQY8mb::L3::Q4",
+      "moduleId": "rn_kcvVdJVmnCxQY8mb::L3",
+      "stem": "Anhydrous calcium chloride is added to a damp organic liquid. Continued clumping of the solid tells you that",
+      "misconceptionClass": "drying endpoint",
+      "options": [
+        {
+          "key": "A",
+          "text": "The organic liquid has dissolved all of the drying agent",
+          "correct": false,
+          "explanation": "Drying agents are chosen for low solubility; clumping is hydration, not dissolution.",
+          "misconception": "wrong interpretation"
+        },
+        {
+          "key": "B",
+          "text": "Water is still present, so more drying agent is needed until some powder stays dispersed",
+          "correct": true,
+          "explanation": "Clumps form as the salt hydrates; free-flowing leftover powder proves the liquid is dry.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "The drying is complete and the liquid can be decanted at once",
+          "correct": false,
+          "explanation": "Clumping signals the opposite - drying is not finished.",
+          "misconception": "endpoint misread"
+        },
+        {
+          "key": "D",
+          "text": "The calcium chloride has catalysed an unwanted reaction",
+          "correct": false,
+          "explanation": "The salt simply binds water; clumping is a hydration sign, not a reaction.",
+          "misconception": "invented chemistry"
+        }
+      ]
+    },
+    {
+      "id": "rn_kcvVdJVmnCxQY8mb::L3::Q5",
+      "moduleId": "rn_kcvVdJVmnCxQY8mb::L3",
+      "stem": "Which drying agent is the usual choice for drying a hydrocarbon product?",
+      "misconceptionClass": "agent selection",
+      "options": [
+        {
+          "key": "A",
+          "text": "Concentrated sulfuric acid",
+          "correct": false,
+          "explanation": "It would react with or char many organics; it is not a drying agent here.",
+          "misconception": "dangerous choice"
+        },
+        {
+          "key": "B",
+          "text": "Damp silica gel",
+          "correct": false,
+          "explanation": "Damp material adds water; drying agents must be anhydrous.",
+          "misconception": "nonsense choice"
+        },
+        {
+          "key": "C",
+          "text": "Anhydrous calcium chloride",
+          "correct": true,
+          "explanation": "Calcium chloride is the standard hydrocarbon dryer; the sulfates serve as general-purpose agents.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Sodium carbonate solution",
+          "correct": false,
+          "explanation": "That is an aqueous washing reagent, the opposite of a drying agent.",
+          "misconception": "category wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_kcvVdJVmnCxQY8mb::L3::Q6",
+      "moduleId": "rn_kcvVdJVmnCxQY8mb::L3",
+      "stem": "State how a drying agent removes water from an organic liquid.",
+      "misconceptionClass": "drying recall",
+      "kind": "recall",
+      "modelAnswer": "The anhydrous salt hydrates, binding traces of water into its own solid structure, and is then removed by decanting or filtering the dry liquid.",
+      "keywords": [
+        "anhydrous",
+        "hydrates",
+        "filtering"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_kcvVdJVmnCxQY8mb::L3::Q7",
+      "moduleId": "rn_kcvVdJVmnCxQY8mb::L3",
+      "stem": "Outline the separating-funnel procedure used to wash an organic product.",
+      "misconceptionClass": "procedure recall",
+      "kind": "recall",
+      "modelAnswer": "Transfer the mixture to the funnel, stopper, invert and vent via the stopcock repeatedly, let the layers separate, then drain the aqueous layer off so the organic layer can be collected.",
+      "keywords": [
+        "stopper",
+        "vent",
+        "drain"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_kcvVdJVmnCxQY8mb::L3::Q8",
+      "moduleId": "rn_kcvVdJVmnCxQY8mb::L3",
+      "stem": "Explain why an organic layer usually sits above an aqueous layer in a separating funnel.",
+      "misconceptionClass": "layering explanation",
+      "kind": "explain-why",
+      "modelAnswer": "Most organic liquids are less dense than water, so the aqueous layer sinks below the organic layer; the water-addition test confirms which is which whenever the densities are less certain.",
+      "keywords": [
+        "dense",
+        "aqueous",
+        "organic"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_kcvVdJVmnCxQY8mb::L3::Q9",
+      "moduleId": "rn_kcvVdJVmnCxQY8mb::L3",
+      "stem": "A crude ester smells of acid after washing. Suggest the residual impurity, the reagent that removes it, and the observation that confirms the removal is under way.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Residual acid impurity; sodium carbonate solution removes it by neutralisation, confirmed by fizzing carbon dioxide released each time the funnel is vented through the stopcock.",
+      "keywords": [
+        "acid",
+        "carbonate",
+        "dioxide"
+      ],
+      "options": []
+    }
+  ]
+}

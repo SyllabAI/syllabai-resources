@@ -1,0 +1,289 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_Q92JNwd5nVm6HSwH",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "89b7b5e5009b77480a5212bfd5242c87338e5291d6116015853b089ac6ea0274",
+    "pinnedRef": "2fc9e39e4cb53c8e29601db0013337d9b2996890"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_Q92JNwd5nVm6HSwH",
+    "topicTitle": "2. Energetics, Group Chemistry, Halogenoalkanes & Alcohols",
+    "subtopicTitle": "Oxidation of Alcohols",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/2-energetics-group-chemistry-halogenoalkanes-and-alcohols/2-9-organic-chemistry-alcohols/2-9-3-oxidation-of-alcohols",
+    "specAnchors": [
+      {
+        "code": "10.18",
+        "text": "understand that potassium dichromate(VI) in dilute sulfuric acid can oxidise: i primary alcohols to produce aldehydes (which give a positive result with Benedict’s or Fehling’s solution) if the product is distilled as it forms ii primary alcohols to produce carboxylic acids (which give a positive result with sodium carbonate or sodium hydrogencarbonate) if the reagents are heated under reflux iii secondary alcohols to produce ketones In equations, the oxidising agent can be represented by [O]."
+      }
+    ],
+    "primer": {
+      "text": "Acidified dichromate turns an alcohol's class into its oxidation ceiling. This note follows primary alcohols to aldehydes and acids, secondary ones to ketones, and tertiary ones nowhere, reads the orange-to-green shift, then matches Fehling's and Tollens' tests and the two apparatus choices to the target product.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_Q92JNwd5nVm6HSwH::L1",
+        "title": "Dichromate oxidation and the three alcohol classes",
+        "sourceHeadings": [
+          "Oxidation of alcohols"
+        ],
+        "specRefs": [
+          "10.18"
+        ],
+        "opening": "Acidified potassium dichromate(VI) is the workhorse oxidising agent for alcohols, and the alcohol class decides how far oxidation runs. This lesson ties primary to aldehydes and acids, secondary to ketones, tertiary to nothing, and reads the orange-to-green colour change as the reaction's report card.",
+        "keyPoints": [
+          "Primary alcohols oxidise to aldehydes, which oxidise further to carboxylic acids.",
+          "Secondary alcohols oxidise to ketones only, and tertiary alcohols resist oxidation altogether.",
+          "Acidified potassium dichromate(VI) is orange, and it oxidises alcohols while being reduced to green Cr3+ ions.",
+          "Acidified means the dichromate sits in dilute acid, supplying the H+ ions the reduction demands.",
+          "The aldehyde boils lower than its parent alcohol, so it can be distilled off as it forms to stop at that stage."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Warm the alcohol with orange acidified dichromate: primary alcohols climb two rungs to aldehyde then acid unless the aldehyde is distilled away, secondary alcohols stop at the ketone, and tertiary alcohols never leave base camp, while the reagent turns green as it works.",
+            "analogy": "A climbing wall where every route ends at a different height: primary routes reach two platforms, secondary routes one, and tertiary routes are closed at the door.",
+            "examPointer": "Quote the colour change orange to green as evidence of oxidation, and name the product class for each alcohol class."
+          },
+          "medium": {
+            "restatement": "Dichromate reduction consumes hydrogen ions, which the dilute acid supplies; the alcohol hands over hydrogens and electrons, the chromium drops from +6 to +3, and the visible green shift certifies that oxidation truly occurred rather than merely heating.",
+            "analogy": "The orange reagent is a taxi fleet that only moves passengers when it can itself take on fuel in the form of hydrogen ions from the acid.",
+            "examPointer": "Explain why tertiary alcohols fail the test by referencing the missing hydrogen on the carbinol carbon when required."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_Q92JNwd5nVm6HSwH::L1::Q1",
+          "rn_Q92JNwd5nVm6HSwH::L1::Q2",
+          "rn_Q92JNwd5nVm6HSwH::L1::Q3",
+          "rn_Q92JNwd5nVm6HSwH::L1::Q4",
+          "rn_Q92JNwd5nVm6HSwH::L1::Q5",
+          "rn_Q92JNwd5nVm6HSwH::L1::Q6",
+          "rn_Q92JNwd5nVm6HSwH::L1::Q7",
+          "rn_Q92JNwd5nVm6HSwH::L1::Q8",
+          "rn_Q92JNwd5nVm6HSwH::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01",
+          "fig-02"
+        ]
+      },
+      {
+        "id": "rn_Q92JNwd5nVm6HSwH::L2",
+        "title": "Fehling's and Tollens': testing for the aldehyde group",
+        "sourceHeadings": [
+          "Fehling’s solution",
+          "Tollens’ reagent"
+        ],
+        "specRefs": [
+          "10.18"
+        ],
+        "opening": "Once oxidation products exist, the -CHO group can be confirmed with two classical reagents. Fehling's solution ends as a brick-red precipitate of copper(I) oxide, and Tollens' reagent plates a silver mirror; ketones fail both tests. This lesson runs both procedures and their ionic stories.",
+        "keyPoints": [
+          "Fehling's solution is alkaline and contains copper(II) ions as the oxidising agent.",
+          "Warmed with an aldehyde, Fehling's solution is reduced: Cu2+ becomes Cu+, precipitating red copper(I) oxide.",
+          "The clear blue Fehling's solution turns opaque as the red precipitate forms; ketones give a negative test.",
+          "Tollens' reagent is ammoniacal silver nitrate, reducing Ag+ to metallic silver when warmed with an aldehyde.",
+          "The silver atoms coat the tube as a mirror; ketones, being unoxidisable, also fail Tollens' test."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Warm the unknown with either reagent: an aldehyde reduces Cu2+ to brick-red Cu2O or Ag+ to a silver mirror, while a ketone leaves both reagents unchanged, because the ketone carbonyl cannot be pushed uphill to acid under these conditions.",
+            "analogy": "One reagent awards a red badge, the other a silver medal, and only the aldehyde earns either - the ketone walks away empty-handed.",
+            "examPointer": "Name the positive observations precisely: opaque red precipitate for Fehling's, silver mirror for Tollens', and state that both are aldehyde-positive tests."
+          },
+          "medium": {
+            "restatement": "Both reagents are mild, alkaline oxidising agents; the aldehyde climbs to a carboxylate (the acid loses its proton in alkali and pairs with the metal ion), and the metal ions descend - copper(II) to copper(I) oxide, silver ion to silver metal.",
+            "analogy": "A see-saw: the aldehyde rises one notch to carboxylate exactly as the metal ion drops one notch to metal or oxide.",
+            "examPointer": "Explain the carboxylate salt formation when a question probes the alkaline conditions rather than just the colour."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_Q92JNwd5nVm6HSwH::L2::Q1",
+          "rn_Q92JNwd5nVm6HSwH::L2::Q2",
+          "rn_Q92JNwd5nVm6HSwH::L2::Q3",
+          "rn_Q92JNwd5nVm6HSwH::L2::Q4",
+          "rn_Q92JNwd5nVm6HSwH::L2::Q5",
+          "rn_Q92JNwd5nVm6HSwH::L2::Q6",
+          "rn_Q92JNwd5nVm6HSwH::L2::Q7",
+          "rn_Q92JNwd5nVm6HSwH::L2::Q8",
+          "rn_Q92JNwd5nVm6HSwH::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-03",
+          "fig-04"
+        ]
+      },
+      {
+        "id": "rn_Q92JNwd5nVm6HSwH::L3",
+        "title": "Choosing the apparatus: reflux versus distillation with addition",
+        "sourceHeadings": [
+          "Heating under reflux",
+          "Distillation with addition"
+        ],
+        "specRefs": [
+          "10.18"
+        ],
+        "opening": "The target product dictates the glassware. Full oxidation wants everything retained, so reflux holds the vapours in; stopping at the aldehyde wants the volatile product out before it over-oxidises, so distillation with slow addition wins. This lesson matches each technique to its goal.",
+        "keyPoints": [
+          "Heating under reflux is chosen for full oxidation, giving carboxylic acids from primary alcohols and ketones from secondary ones.",
+          "In reflux, products that boil off condense in the vertical condenser and return to the flask.",
+          "Distillation with addition suits partial oxidation, collecting the aldehyde before it can over-oxidise.",
+          "In the addition route the oxidant alone sits on the heat while the alcohol drips in slowly.",
+          "The aldehyde distils off immediately because its boiling point sits well below the alcohol's."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Ask what the target is: acid or ketone means reflux so nothing escapes; aldehyde means distil-with-addition so the product leaves the hot zone the instant it forms.",
+            "analogy": "A ferry keeps everyone aboard (reflux), while an express lift drops passengers at the ground floor the moment they arrive (distillation with addition).",
+            "examPointer": "Match technique to target explicitly in practical-planning answers: reflux for full oxidation, distillation with addition for the aldehyde."
+          },
+          "medium": {
+            "restatement": "Retention time equals oxidation extent: in reflux every volatile molecule stays in contact with the oxidant, so the reaction climbs to its ceiling; with addition, the aldehyde's low boiling point becomes the escape route that outruns the oxidant.",
+            "analogy": "A slow queue keeps everyone in the shop until they buy the top package; a fast exit lets customers leave with the basic model only.",
+            "examPointer": "Justify apparatus choices by oxidation extent, quoting the boiling-point gap between aldehyde and alcohol as the escape mechanism."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_Q92JNwd5nVm6HSwH::L3::Q1",
+          "rn_Q92JNwd5nVm6HSwH::L3::Q2",
+          "rn_Q92JNwd5nVm6HSwH::L3::Q3",
+          "rn_Q92JNwd5nVm6HSwH::L3::Q4",
+          "rn_Q92JNwd5nVm6HSwH::L3::Q5",
+          "rn_Q92JNwd5nVm6HSwH::L3::Q6",
+          "rn_Q92JNwd5nVm6HSwH::L3::Q7",
+          "rn_Q92JNwd5nVm6HSwH::L3::Q8",
+          "rn_Q92JNwd5nVm6HSwH::L3::Q9"
+        ],
+        "figureIds": [
+          "fig-05",
+          "fig-06"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "acidified dichromate",
+          "definition": "Potassium dichromate(VI) dissolved in dilute acid, an orange oxidising agent reduced to green Cr3+ as it oxidises alcohols.",
+          "firstLesson": 1
+        },
+        {
+          "term": "Fehling's solution",
+          "definition": "An alkaline copper(II) reagent that turns from clear blue to opaque red copper(I) oxide when warmed with an aldehyde.",
+          "firstLesson": 2
+        },
+        {
+          "term": "Tollens' reagent",
+          "definition": "Ammoniacal silver nitrate that plates a silver mirror when warmed with an aldehyde.",
+          "firstLesson": 2
+        },
+        {
+          "term": "distillation with addition",
+          "definition": "Technique where only the oxidant is heated and the alcohol drips in slowly, so the aldehyde distils away before over-oxidising.",
+          "firstLesson": 3
+        }
+      ],
+      "workedExample": null
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/bf46a6a62fd5-oxidation.png",
+        "alt": "oxidation",
+        "sourceHeading": "Oxidation of alcohols",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Oxidation Stages of Primary Alcohols"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/47cf0c7bd1b7-3-4-hydroxy-compounds-oxidation-of-secondary-alc.png",
+        "alt": "Hydroxy Compounds Oxidation of Secondary Alcohols, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Oxidation of alcohols",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Oxidation of propan-2-ol by acidified K2Cr2O7 to form a ketone"
+      },
+      {
+        "id": "fig-03",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/a191a76846a0-3-5-carbonyl-compounds-fehlings-solution.png",
+        "alt": "Carbonyl Compounds Fehlings Solution, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Fehling’s solution",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "The copper(II) ions in Fehling’s solution are oxidising agents, oxidising the aldehyde to a carboxylic acid and getting reduced themselves to copper(I) ions in the Cu2O precipitate"
+      },
+      {
+        "id": "fig-04",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/ea747f644987-3-5-carbonyl-compounds-tollens-reagent.png",
+        "alt": "Carbonyl Compounds Tollens Reagent, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Tollens’ reagent",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "The Ag+ ions in Tollens’ reagent are oxidising agents, oxidising the aldehyde to a carboxylic acid and getting reduced themselves to silver atoms"
+      },
+      {
+        "id": "fig-05",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/adff44b26934-10-2-10-heating-under-reflux-1.png",
+        "alt": "Heating under Reflux (1), downloadable IB Chemistry revision notes",
+        "sourceHeading": "Heating under reflux",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique",
+        "caption": "Apparatus set up for heating under reflux"
+      },
+      {
+        "id": "fig-06",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/59447886ce67-distillation-with-addition.png",
+        "alt": "distillation-with-addition",
+        "sourceHeading": "Distillation with addition",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique",
+        "caption": "Apparatus set up for distillation with addition"
+      }
+    ]
+  }
+}

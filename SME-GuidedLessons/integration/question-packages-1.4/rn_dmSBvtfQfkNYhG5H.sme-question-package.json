@@ -1,0 +1,251 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_dmSBvtfQfkNYhG5H",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "f5c3b4516730b37931287efec004a4e32705b77979473f161f7775f46e7fde59",
+    "pinnedRef": "2fc9e39e4cb53c8e29601db0013337d9b2996890"
+  },
+  "packageId": "ial-chemistry::rn_dmSBvtfQfkNYhG5H",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_dmSBvtfQfkNYhG5H::L1::Q1",
+      "moduleId": "rn_dmSBvtfQfkNYhG5H::L1",
+      "stem": "Which functional group defines an alcohol?",
+      "misconceptionClass": "functional group",
+      "options": [
+        {
+          "key": "A",
+          "text": "The hydroxyl group, -OH",
+          "correct": true,
+          "explanation": "The family is defined by the polar hydroxyl group attached to a saturated carbon.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The carbonyl group, C=O",
+          "correct": false,
+          "explanation": "Carbonyls define aldehydes and ketones, not alcohols.",
+          "misconception": "wrong group"
+        },
+        {
+          "key": "C",
+          "text": "The carboxyl group, -COOH",
+          "correct": false,
+          "explanation": "Carboxyl defines carboxylic acids, a different homologous series.",
+          "misconception": "wrong group"
+        },
+        {
+          "key": "D",
+          "text": "The halogen atom, X",
+          "correct": false,
+          "explanation": "Halogen carriers are halogenoalkanes, not alcohols.",
+          "misconception": "wrong group"
+        }
+      ]
+    },
+    {
+      "id": "rn_dmSBvtfQfkNYhG5H::L1::Q2",
+      "moduleId": "rn_dmSBvtfQfkNYhG5H::L1",
+      "stem": "The general formula of the alcohols is",
+      "misconceptionClass": "general formula",
+      "options": [
+        {
+          "key": "A",
+          "text": "CnHnOH",
+          "correct": false,
+          "explanation": "Hydrogen count grows with 2n+1, not with n.",
+          "misconception": "hydrogen count wrong"
+        },
+        {
+          "key": "B",
+          "text": "CnH2n+1OH",
+          "correct": true,
+          "explanation": "Each extra carbon adds two hydrogens, plus the one in the hydroxyl, giving H2n+1.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "CnH2nOH",
+          "correct": false,
+          "explanation": "That formula runs one hydrogen short for saturated alcohols.",
+          "misconception": "hydrogen count wrong"
+        },
+        {
+          "key": "D",
+          "text": "CnH2n+2O",
+          "correct": false,
+          "explanation": "That is the formula of an ether-like composition, not the alcohol series convention.",
+          "misconception": "formula wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_dmSBvtfQfkNYhG5H::L1::Q3",
+      "moduleId": "rn_dmSBvtfQfkNYhG5H::L1",
+      "stem": "An alcohol whose -OH carbon is bonded to two other carbon atoms is classified as",
+      "misconceptionClass": "classification rule",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tertiary",
+          "correct": false,
+          "explanation": "Tertiary alcohols carry three carbon neighbours.",
+          "misconception": "class wrong"
+        },
+        {
+          "key": "B",
+          "text": "A diol, since two groups are involved",
+          "correct": false,
+          "explanation": "Diol counts hydroxyl groups per molecule, not carbon neighbours.",
+          "misconception": "term confused"
+        },
+        {
+          "key": "C",
+          "text": "Secondary",
+          "correct": true,
+          "explanation": "Two carbon neighbours around the hydroxyl carbon define the secondary class.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Primary",
+          "correct": false,
+          "explanation": "Primary alcohols carry only one carbon neighbour.",
+          "misconception": "class wrong"
+        }
+      ]
+    },
+    {
+      "id": "rn_dmSBvtfQfkNYhG5H::L1::Q4",
+      "moduleId": "rn_dmSBvtfQfkNYhG5H::L1",
+      "stem": "Which name follows the alcohol naming convention correctly for a three-carbon chain with the hydroxyl on an end carbon?",
+      "misconceptionClass": "naming rule",
+      "options": [
+        {
+          "key": "A",
+          "text": "Propane-1-ol",
+          "correct": false,
+          "explanation": "The suffix drops the final e of the alkane name, giving propan-1-ol.",
+          "misconception": "naming error"
+        },
+        {
+          "key": "B",
+          "text": "Propan-3-ol",
+          "correct": false,
+          "explanation": "Numbering starts from the end nearer the hydroxyl, so locant 3 is wrong for an end carbon.",
+          "misconception": "locant wrong"
+        },
+        {
+          "key": "C",
+          "text": "Propyl alcohol-1",
+          "correct": false,
+          "explanation": "The systematic convention is the -ol suffix with a locant, not this form.",
+          "misconception": "naming error"
+        },
+        {
+          "key": "D",
+          "text": "Propan-1-ol",
+          "correct": true,
+          "explanation": "The alkan-ol pattern with locant 1 places the hydroxyl on the first carbon of the propane chain.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_dmSBvtfQfkNYhG5H::L1::Q5",
+      "moduleId": "rn_dmSBvtfQfkNYhG5H::L1",
+      "stem": "A molecule containing two -OH groups on different carbons is called",
+      "misconceptionClass": "diol definition",
+      "options": [
+        {
+          "key": "A",
+          "text": "A diol",
+          "correct": true,
+          "explanation": "Two hydroxyl groups on one molecule make a diol by definition.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "A secondary alcohol",
+          "correct": false,
+          "explanation": "Classification by carbon neighbours is separate from counting hydroxyl groups.",
+          "misconception": "term confused"
+        },
+        {
+          "key": "C",
+          "text": "A hydrate",
+          "correct": false,
+          "explanation": "Hydrates are water-containing solids, not covalent molecules with two -OH groups.",
+          "misconception": "term confused"
+        },
+        {
+          "key": "D",
+          "text": "A peroxide",
+          "correct": false,
+          "explanation": "Peroxides contain an O-O bond, which a diol need not have.",
+          "misconception": "term confused"
+        }
+      ]
+    },
+    {
+      "id": "rn_dmSBvtfQfkNYhG5H::L1::Q6",
+      "moduleId": "rn_dmSBvtfQfkNYhG5H::L1",
+      "stem": "State the general formula of the alcohols.",
+      "misconceptionClass": "formula recall",
+      "kind": "recall",
+      "modelAnswer": "The alcohols have the general formula CnH2n+1OH, one hydroxyl group per formula unit.",
+      "keywords": [
+        "CnH2n+1OH",
+        "hydroxyl",
+        "formula"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_dmSBvtfQfkNYhG5H::L1::Q7",
+      "moduleId": "rn_dmSBvtfQfkNYhG5H::L1",
+      "stem": "Name the first four members of the alcohol series.",
+      "misconceptionClass": "series recall",
+      "kind": "recall",
+      "modelAnswer": "Methanol, ethanol, propan-1-ol and butan-1-ol, with one, two, three and four carbons respectively.",
+      "keywords": [
+        "methanol",
+        "ethanol",
+        "butan-1-ol"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_dmSBvtfQfkNYhG5H::L1::Q8",
+      "moduleId": "rn_dmSBvtfQfkNYhG5H::L1",
+      "stem": "Explain why ethanol is classified as a primary alcohol.",
+      "misconceptionClass": "classification explanation",
+      "kind": "explain-why",
+      "modelAnswer": "In ethanol the carbon carrying the hydroxyl group is bonded to only one other carbon atom, the methyl carbon, and one carbon neighbour is precisely the definition of a primary alcohol.",
+      "keywords": [
+        "hydroxyl",
+        "carbon",
+        "primary"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_dmSBvtfQfkNYhG5H::L1::Q9",
+      "moduleId": "rn_dmSBvtfQfkNYhG5H::L1",
+      "stem": "Classify butan-2-ol and justify the class from its carbon framework.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Butan-2-ol is secondary: the hydroxyl sits on carbon 2 of the butane chain, and that carbon is bonded to two other carbon atoms, carbons 1 and 3 of the chain.",
+      "keywords": [
+        "butan-2-ol",
+        "secondary",
+        "carbon"
+      ],
+      "options": []
+    }
+  ]
+}

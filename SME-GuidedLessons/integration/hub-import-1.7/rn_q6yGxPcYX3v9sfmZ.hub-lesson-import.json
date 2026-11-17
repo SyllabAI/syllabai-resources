@@ -1,0 +1,213 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_q6yGxPcYX3v9sfmZ",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "e17308e35e129311685c11a85164d15dc56835befcae67fce8313e4e235154c0",
+    "pinnedRef": "2fc9e39e4cb53c8e29601db0013337d9b2996890"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_q6yGxPcYX3v9sfmZ",
+    "topicTitle": "3. Practical Skills in Chemistry I",
+    "subtopicTitle": "Determining Concentrations",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/3-practical-skills-in-chemistry-i/3-1-physical-chemistry-core-practicals/3-1-3-determining-concentrations",
+    "specAnchors": [
+      {
+        "code": "8.21",
+        "text": "CORE PRACTICAL 3 Finding the concentration of a solution of hydrochloric acid."
+      }
+    ],
+    "primer": {
+      "text": "A burette plus a standard solution can price an unknown acid. This note runs the titration routine - dropwise discipline, half-division readings, concordant titres - then converts the averaged titre through the one-to-one equation into the hydrochloric acid concentration, worked end to end.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_q6yGxPcYX3v9sfmZ::L1",
+        "title": "Running the titration with precision",
+        "sourceHeadings": [
+          "Performing the Titration"
+        ],
+        "specRefs": [
+          "8.21"
+        ],
+        "opening": "Core Practical 3 finds the concentration of hydrochloric acid by titrating it against a standard sodium hydrogencarbonate solution. This lesson assembles the burette, pipette and indicator routine, and states the reading precision and the dropwise discipline that make the end point trustworthy.",
+        "keyPoints": [
+          "The burette is the key instrument, marked to 0.10 cm3 and read to a half-division uncertainty of plus-or-minus 0.05 cm3.",
+          "The end point, when the two solutions have reacted completely, is shown by an indicator's colour change.",
+          "A measured aliquot of one solution goes into the conical flask with indicator, and the other solution runs in from the burette.",
+          "Near the end point the flow slows to dropwise addition, closing the tap after one drop flips the colour.",
+          "A white tile under the flask makes the colour change easy to see, and repeated runs are taken until concordant results within 0.1 cm3 emerge."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Pipette the aliquot, fill the burette, add indicator, and run the titrant in fast at first then dropwise as the colour starts to turn; stop on the single drop that completes the change and read the burette to the half division.",
+            "analogy": "Parking a car: fast in the open road, then inch-by-inch into the tight space - the last drop is the handbrake moment.",
+            "examPointer": "Quote the 0.05 cm3 reading uncertainty and the 0.1 cm3 concordance band whenever precision is examined."
+          },
+          "medium": {
+            "restatement": "The end point is a stoichiometric event dressed as a colour event: the indicator signals that the mole counts have just balanced, so overshooting by two drops corrupts the titre; dropwise control plus the white tile keeps the signal sharp and readable.",
+            "analogy": "A balanced see-saw tips visibly with one extra coin; the indicator is the fulcrum that announces the balance point.",
+            "examPointer": "Explain the white tile and dropwise stages together as the machinery of a sharp, reproducible end point."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_q6yGxPcYX3v9sfmZ::L1::Q1",
+          "rn_q6yGxPcYX3v9sfmZ::L1::Q2",
+          "rn_q6yGxPcYX3v9sfmZ::L1::Q3",
+          "rn_q6yGxPcYX3v9sfmZ::L1::Q4",
+          "rn_q6yGxPcYX3v9sfmZ::L1::Q5",
+          "rn_q6yGxPcYX3v9sfmZ::L1::Q6",
+          "rn_q6yGxPcYX3v9sfmZ::L1::Q7",
+          "rn_q6yGxPcYX3v9sfmZ::L1::Q8",
+          "rn_q6yGxPcYX3v9sfmZ::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01",
+          "fig-02"
+        ]
+      },
+      {
+        "id": "rn_q6yGxPcYX3v9sfmZ::L2",
+        "title": "Recording titres and computing the acid concentration",
+        "sourceHeadings": [
+          "Recording and processing titration results"
+        ],
+        "specRefs": [
+          "8.21"
+        ],
+        "opening": "The numbers turn into the answer through a four-step calculation: average the concordant titres, convert the standard solution's titre to moles, transfer the moles through the one-to-one equation, and divide by the aliquot volume. This lesson works the full pipeline on the hydrogencarbonate data.",
+        "keyPoints": [
+          "Both initial and final burette readings are recorded to the plus-or-minus 0.05 cm3 precision.",
+          "The titre is calculated to an uncertainty of plus-or-minus 0.10 cm3 because two readings combine.",
+          "Concordant results are averaged and non-concordant ones discarded before calculation.",
+          "Moles of the standard solution equal titre volume in dm3 multiplied by its concentration.",
+          "The 1:1 stoichiometry of NaHCO3 with HCl transfers the mole count, and dividing by the aliquot volume gives the acid concentration, 0.182 mol dm-3 in the worked data."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Average the agreeing titres, multiply that volume in dm3 by the standard's concentration for moles, carry the moles across the 1:1 equation to the acid, and divide by the aliquot in dm3; round only at the end, to three significant figures.",
+            "analogy": "A four-leg relay where each runner (average, moles, ratio, division) passes exactly one baton; dropping the unit conversion on leg one spoils the finish.",
+            "examPointer": "Show the working with units at every stage and quote the final concentration in mol dm-3 to three significant figures."
+          },
+          "medium": {
+            "restatement": "The processing law is stoichiometric bookkeeping: the standard solution's known concentration prices its moles, the equation's ratio converts currency between the two reagents, and the aliquot volume converts moles back into the unknown concentration - precision flows through the chain only as well as the titre that starts it.",
+            "analogy": "Converting money abroad: a known exchange rate (the equation ratio) turns one currency's amount (the standard's moles) into the other's (the acid's moles).",
+            "examPointer": "Identify the 1:1 ratio explicitly from the equation before transferring moles, since any other ratio would need scaling first."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_q6yGxPcYX3v9sfmZ::L2::Q1",
+          "rn_q6yGxPcYX3v9sfmZ::L2::Q2",
+          "rn_q6yGxPcYX3v9sfmZ::L2::Q3",
+          "rn_q6yGxPcYX3v9sfmZ::L2::Q4",
+          "rn_q6yGxPcYX3v9sfmZ::L2::Q5",
+          "rn_q6yGxPcYX3v9sfmZ::L2::Q6",
+          "rn_q6yGxPcYX3v9sfmZ::L2::Q7",
+          "rn_q6yGxPcYX3v9sfmZ::L2::Q8",
+          "rn_q6yGxPcYX3v9sfmZ::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-03",
+          "fig-04"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "titre",
+          "definition": "The volume delivered by the burette, calculated as the difference of the initial and final readings.",
+          "firstLesson": 1
+        },
+        {
+          "term": "concordant results",
+          "definition": "Titration runs that agree within 0.1 cm3 of each other and may be averaged.",
+          "firstLesson": 1
+        },
+        {
+          "term": "end point",
+          "definition": "The moment the indicator's colour change shows the two solutions have reacted completely.",
+          "firstLesson": 1
+        }
+      ],
+      "workedExample": {
+        "prompt": "A 25.0 cm3 aliquot of the unknown acid meets a 0.200 mol dm-3 sodium hydrogencarbonate titrant, and the concordant titres average 22.80 cm3. Compute the acid concentration to three significant figures.",
+        "steps": [
+          "Average titre: (22.80 + 22.80) / 2 = 22.80 cm3.",
+          "Moles delivered: 22.80 / 1000, times 0.200, gives 4.56 x 10-3 mol.",
+          "The equation NaHCO3 + HCl -> NaCl + H2O + CO2 is one-to-one, so moles of HCl also equal 4.56 x 10-3 mol.",
+          "Concentration: the 4.56 x 10-3 mol sit in the 0.0250 dm3 aliquot, giving 0.182 mol dm-3."
+        ],
+        "finalAnswer": "The hydrochloric acid concentration is 0.182 mol dm-3."
+      }
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/d0642f371e4c-1-2-9-titration.png",
+        "alt": "Titration, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Performing the Titration",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "The steps in a titration"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/513bd971eddc-titration-apparatus.png",
+        "alt": "Titration apparatus, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Performing the Titration",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Titrating"
+      },
+      {
+        "id": "fig-03",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/647be27db378-1-2-9-titration-results.png",
+        "alt": "Titration results, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Recording and processing titration results",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "A typical layout and set of titration results"
+      },
+      {
+        "id": "fig-04",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/c74be71d2671-nrhogeq-example-titration-data-for-calculation.png",
+        "alt": "nrhOgeQ__example-titration-data-for-calculation",
+        "sourceHeading": "Recording and processing titration results",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      }
+    ]
+  }
+}
