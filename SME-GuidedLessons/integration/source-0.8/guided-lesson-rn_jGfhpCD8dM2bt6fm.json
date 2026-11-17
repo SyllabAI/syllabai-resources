@@ -23,20 +23,22 @@
  },
  "lessons": [
   {
-   "title": "When the total entropy says yes",
+   "title": "Feasibility, total entropy and the Gibbs test",
    "sourceHeadings": [
     "Summary",
-    "Feasibility"
+    "Gibbs free energy"
    ],
    "specRefs": [
     "12.9"
    ],
-   "opening": "A reaction is feasible when system and surroundings entropy changes add to a positive total. Three sign patterns pass the test: both positive; surroundings positive and bigger than a negative system; system positive and bigger than a negative surroundings term. The state ladder - solid below liquid below gas - predicts the system's sign at a glance.",
+   "opening": "A reaction is feasible when system and surroundings entropy changes add to a positive total, and Gibbs free energy packs that sum into one line: delta G = delta H - T delta S, feasible at or below zero, with delta S divided by 1000 to match delta H's kilojoules. The state ladder - solid below liquid below gas - predicts the system's sign at a glance.",
    "keyPoints": [
     "For delta S total to be positive and the reaction feasible, three sign patterns work: both terms positive; surroundings positive outweighing a negative system; system positive outweighing a negative surroundings.",
     "Entropy generally increases along solid, liquid, gas, so state changes in the equation hint at the system's sign.",
-    "Magnesium burning to MgO turns a solid and a gas into a solid, so the system's entropy falls, but the strongly exothermic surroundings term wins and the reaction is spontaneous.",
-    "Ethanoic acid with ammonium carbonate is endothermic, yet a gas produced from a solid and a liquid makes the system term win, so the reaction runs."
+    "Ethanoic acid with ammonium carbonate is endothermic, yet a gas produced from a solid and a liquid makes the system term win, so the reaction runs.",
+    "The Gibbs equation is delta G = delta H reaction - T delta S system.",
+    "Delta G is quoted in kJ mol^-1, with T in kelvin and delta S system converted from J K^-1 mol^-1 by dividing by 1000.",
+    "A reaction is feasible when delta G is equal to or less than zero."
    ],
    "confidenceGate": {
     "ratings": [
@@ -50,14 +52,14 @@
    },
    "depthLayers": {
     "low": {
-     "restatement": "Add the two entropy books: any sum above zero is feasible; the state ladder predicts the system's sign and the enthalpy sign predicts the surroundings'.",
-     "analogy": "Two bank accounts deciding a purchase: either balance can carry the day if the other is not too far in debt.",
-     "examPointer": "Read the state symbols first - losing a gas usually means the system term is negative, so the surroundings must pay."
+     "restatement": "Add the two entropy books, or read the one Gibbs line: feasible means a positive total, equivalently delta G at or below zero, with delta S converted before substituting.",
+     "analogy": "Two bank accounts deciding a purchase, or a till receipt where the enthalpy price minus a temperature-scaled refund leaves the final bill.",
+     "examPointer": "The /1000 conversion is the most common lost mark - write it explicitly."
     },
     "medium": {
-     "restatement": "Feasibility is a sum, not a veto: each term can be negative provided its partner is positive enough; the state ladder and the enthalpy sign set the two terms' directions.",
-     "analogy": "A seesaw with two riders: whichever side carries more weight tips the verdict.",
-     "examPointer": "Quote a sign pattern ('surroundings positive and larger') rather than just 'spontaneous'."
+     "restatement": "Feasibility is a sum, not a veto: each term can be negative provided its partner is positive enough, and temperature sits multiplying the entropy term, which is exactly how heating can flip a verdict.",
+     "analogy": "A seesaw with two riders; a deposit refunded more generously every year you wait until the refund covers the price.",
+     "examPointer": "Quote a sign pattern rather than just 'spontaneous', and treat delta G = 0 as the turning point."
     }
    },
    "check": [
@@ -133,41 +135,6 @@
     },
     {
      "kind": "mcq",
-     "stem": "Magnesium reacting with oxygen at 293 K is feasible because",
-     "misconceptionClass": "MgO feasibility",
-     "options": [
-      {
-       "key": "A",
-       "text": "The very exothermic change makes delta S surroundings large enough to outweigh the negative system term",
-       "correct": true,
-       "explanation": "The surroundings' entropy gain carries the verdict.",
-       "misconception": null
-      },
-      {
-       "key": "B",
-       "text": "The system's entropy is positive",
-       "correct": false,
-       "explanation": "Turning a solid and a gas into one solid loses entropy.",
-       "misconception": "fact slip"
-      },
-      {
-       "key": "C",
-       "text": "The reaction is endothermic",
-       "correct": false,
-       "explanation": "It is strongly exothermic.",
-       "misconception": "fact slip"
-      },
-      {
-       "key": "D",
-       "text": "Gases always make reactions feasible",
-       "correct": false,
-       "explanation": "Here the gas is lost.",
-       "misconception": "false rule"
-      }
-     ]
-    },
-    {
-     "kind": "mcq",
      "stem": "Ethanoic acid with ammonium carbonate runs spontaneously although endothermic because",
      "misconceptionClass": "ethanoic feasibility",
      "options": [
@@ -203,125 +170,6 @@
     },
     {
      "kind": "mcq",
-     "stem": "Delta S surroundings is negative with delta S system positive. Feasibility requires",
-     "misconceptionClass": "endothermic pattern",
-     "options": [
-      {
-       "key": "A",
-       "text": "The system term to be larger than the surroundings' loss",
-       "correct": true,
-       "explanation": "The positive system term must dominate the sum.",
-       "misconception": null
-      },
-      {
-       "key": "B",
-       "text": "The surroundings term to be larger",
-       "correct": false,
-       "explanation": "That would drive the sum negative.",
-       "misconception": "inversion slip"
-      },
-      {
-       "key": "C",
-       "text": "Both terms to be positive",
-       "correct": false,
-       "explanation": "The surroundings term is negative here.",
-       "misconception": "contradiction"
-      },
-      {
-       "key": "D",
-       "text": "Impossible - never feasible",
-       "correct": false,
-       "explanation": "The system term can carry it.",
-       "misconception": "overstatement"
-      }
-     ]
-    },
-    {
-     "kind": "recall",
-     "stem": "State the three sign patterns that make delta S total positive.",
-     "misconceptionClass": "patterns recall",
-     "modelAnswer": "Both positive; surroundings positive and greater than a negative system term; system positive and greater than a negative surroundings term.",
-     "keywords": [
-      "positive",
-      "greater",
-      "surroundings"
-     ]
-    },
-    {
-     "kind": "recall",
-     "stem": "State the ladder of entropy by state.",
-     "misconceptionClass": "ladder recall",
-     "modelAnswer": "Entropy increases from solid to liquid to gas.",
-     "keywords": [
-      "solid",
-      "liquid",
-      "gas"
-     ]
-    },
-    {
-     "kind": "explain-why",
-     "stem": "Explain why an exothermic reaction with a negative system entropy can still be feasible.",
-     "misconceptionClass": "exo negative why",
-     "modelAnswer": "The heat released spreads through the surroundings and multiplies their arrangements strongly; if that gain exceeds the system's loss, the total is positive and the change proceeds.",
-     "keywords": [
-      "surroundings",
-      "total",
-      "system"
-     ]
-    },
-    {
-     "kind": "application",
-     "stem": "A change condenses a gas into a solid and absorbs heat. Predict feasibility.",
-     "misconceptionClass": "application",
-     "modelAnswer": "Both terms work against it: the system's entropy falls as the state descends the ladder, and endothermy drags the surroundings term negative, so the total is negative and the change is not feasible.",
-     "keywords": [
-      "negative",
-      "feasible",
-      "surroundings"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Gibbs free energy: the one-line test",
-   "sourceHeadings": [
-    "Gibbs free energy"
-   ],
-   "specRefs": [
-    "12.9"
-   ],
-   "opening": "Gibbs free energy packs the entropy sum into one expression: delta G = delta H - T delta S. Feasibility demands delta G at or below zero. Mind the units - delta S must be divided by 1000 to match delta H's kilojoules.",
-   "keyPoints": [
-    "The Gibbs equation is delta G = delta H reaction - T delta S system.",
-    "Delta G is quoted in kJ mol^-1, with T in kelvin and delta S system converted from J K^-1 mol^-1 by dividing by 1000.",
-    "A reaction is feasible when delta G is equal to or less than zero.",
-    "The Gibbs route is equivalent to the total-entropy route, gathering both drivers into one number."
-   ],
-   "confidenceGate": {
-    "ratings": [
-     "low",
-     "medium",
-     "high"
-    ],
-    "continueDisabledUntilChoice": true,
-    "resumeWithoutReRate": true,
-    "postCheckRecalibration": true
-   },
-   "depthLayers": {
-    "low": {
-     "restatement": "Delta G = delta H - T delta S; feasible means zero or negative; convert delta S to kJ K^-1 mol^-1 before substituting.",
-     "analogy": "A till receipt: the enthalpy price minus a temperature-scaled refund (the entropy term) leaves the final bill.",
-     "examPointer": "The /1000 conversion is the most common lost mark - write it explicitly."
-    },
-    "medium": {
-     "restatement": "Temperature sits multiplying the entropy term, which is exactly how heating can flip a verdict: the refund grows with T until the bill turns negative.",
-     "analogy": "A deposit refunded more generously every year you wait: eventually the refund covers the price.",
-     "examPointer": "Delta G = 0 is the turning point - quote it when asked for the flip temperature."
-    }
-   },
-   "check": [
-    {
-     "kind": "mcq",
      "stem": "The Gibbs equation is",
      "misconceptionClass": "gibbs equation",
      "options": [
@@ -352,41 +200,6 @@
        "correct": false,
        "explanation": "No product rule exists.",
        "misconception": "operation slip"
-      }
-     ]
-    },
-    {
-     "kind": "mcq",
-     "stem": "A reaction is feasible when delta G is",
-     "misconceptionClass": "feasibility rule",
-     "options": [
-      {
-       "key": "A",
-       "text": "Equal to or less than zero",
-       "correct": true,
-       "explanation": "Zero is the turning point; negative is clearly feasible.",
-       "misconception": null
-      },
-      {
-       "key": "B",
-       "text": "Positive",
-       "correct": false,
-       "explanation": "Positive delta G means not feasible.",
-       "misconception": "inversion slip"
-      },
-      {
-       "key": "C",
-       "text": "Exactly zero only",
-       "correct": false,
-       "explanation": "Zero or negative both qualify.",
-       "misconception": "restriction slip"
-      },
-      {
-       "key": "D",
-       "text": "Below -273",
-       "correct": false,
-       "explanation": "No such threshold exists.",
-       "misconception": "nonsense claim"
       }
      ]
     },
@@ -426,73 +239,14 @@
      ]
     },
     {
-     "kind": "mcq",
-     "stem": "The units of delta G are",
-     "misconceptionClass": "gibbs units",
-     "options": [
-      {
-       "key": "A",
-       "text": "kJ mol^-1",
-       "correct": true,
-       "explanation": "Gibbs energy shares enthalpy's unit scale.",
-       "misconception": null
-      },
-      {
-       "key": "B",
-       "text": "J K^-1 mol^-1",
-       "correct": false,
-       "explanation": "That is entropy's unit.",
-       "misconception": "unit slip"
-      },
-      {
-       "key": "C",
-       "text": "K",
-       "correct": false,
-       "explanation": "Kelvin measures temperature.",
-       "misconception": "unit slip"
-      },
-      {
-       "key": "D",
-       "text": "mol dm^-3",
-       "correct": false,
-       "explanation": "That is concentration.",
-       "misconception": "unit slip"
-      }
-     ]
-    },
-    {
-     "kind": "mcq",
-     "stem": "Delta G = 0 means the reaction is",
-     "misconceptionClass": "zero point",
-     "options": [
-      {
-       "key": "A",
-       "text": "At the turning point between feasible and infeasible",
-       "correct": true,
-       "explanation": "Zero marks the exact balance.",
-       "misconception": null
-      },
-      {
-       "key": "B",
-       "text": "Always fast",
-       "correct": false,
-       "explanation": "Kinetics is separate.",
-       "misconception": "topic mix"
-      },
-      {
-       "key": "C",
-       "text": "Impossible",
-       "correct": false,
-       "explanation": "Zero sits on the feasible boundary.",
-       "misconception": "boundary slip"
-      },
-      {
-       "key": "D",
-       "text": "Exothermic",
-       "correct": false,
-       "explanation": "The enthalpy sign is independent.",
-       "misconception": "concept slip"
-      }
+     "kind": "recall",
+     "stem": "State the three sign patterns that make delta S total positive.",
+     "misconceptionClass": "patterns recall",
+     "modelAnswer": "Both positive; surroundings positive and greater than a negative system term; system positive and greater than a negative surroundings term.",
+     "keywords": [
+      "positive",
+      "greater",
+      "surroundings"
      ]
     },
     {
@@ -504,17 +258,6 @@
       "equation",
       "units",
       "converted"
-     ]
-    },
-    {
-     "kind": "recall",
-     "stem": "State the feasibility condition on delta G.",
-     "misconceptionClass": "condition recall",
-     "modelAnswer": "Delta G must be equal to or less than zero.",
-     "keywords": [
-      "zero",
-      "feasible",
-      "delta"
      ]
     },
     {
@@ -542,19 +285,22 @@
    ]
   },
   {
-   "title": "Exothermic reactions and temperature",
+   "title": "Exothermic and endothermic reactions against temperature",
    "sourceHeadings": [
-    "Exothermic reactions"
+    "Exothermic reactions",
+    "Endothermic reactions"
    ],
    "specRefs": [
     "12.9"
    ],
-   "opening": "For exothermic reactions delta H is negative, so the verdict hinges on the entropy sign. A positive system entropy makes both terms negative: feasible at every temperature. A negative system entropy fights back as T rises, and above a flip temperature the change stops being feasible - though the small size of entropy changes makes that rare in practice.",
+   "opening": "For exothermic reactions delta H is negative: a positive system entropy makes every temperature feasible, while a negative one only flips infeasible at extreme heat. Endothermic reactions start positive on enthalpy, so a negative system entropy dooms them everywhere, and a positive one needs furnace heat - the blast furnace works hot and fails cold.",
    "keyPoints": [
     "In exothermic reactions delta H is negative.",
     "If delta S system is positive, both terms are negative and delta G is negative at any temperature, so the reaction is always feasible.",
     "If delta S system is negative, the T delta S term is positive and grows with T, so at very high temperatures delta G turns positive and the reaction is not feasible.",
-    "Because entropy changes are much smaller than enthalpy changes, exothermic reactions are usually spontaneous at normal conditions."
+    "In endothermic reactions delta H is positive.",
+    "If delta S system is negative, both terms are positive, delta G is positive, and the reaction is never feasible.",
+    "If delta S system is positive, the term -T delta S is negative and grows with temperature, so the reaction becomes feasible at high temperatures."
    ],
    "confidenceGate": {
     "ratings": [
@@ -568,13 +314,13 @@
    },
    "depthLayers": {
     "low": {
-     "restatement": "Exothermic plus positive delta S: always feasible. Exothermic plus negative delta S: feasible until high T flips it.",
-     "analogy": "A shop discount always applied (negative delta H): a further bonus (positive delta S) keeps it attractive, while a hidden fee that grows with time (negative delta S) eventually kills the deal.",
-     "examPointer": "The 'always feasible' case is the exam's favourite single-line answer."
+     "restatement": "Exothermic plus positive delta S: always feasible. Exothermic plus negative delta S: feasible until high T flips it. Endothermic plus negative delta S: never feasible. Endothermic plus positive delta S: feasible only above the flip temperature.",
+     "analogy": "A shop discount always applied (negative delta H) against a hidden fee that grows with time (negative delta S); a gym membership that always costs (positive delta H) plus a reward that scales with attendance (positive delta S) eventually pays.",
+     "examPointer": "The 'always feasible' and 'never feasible' cases are the exam's fastest single-line answers."
     },
     "medium": {
-     "restatement": "Temperature scales only the entropy term, so exothermic changes resist flipping: the enthalpy anchor is large, and T must be extreme for the entropy term to overpower it.",
-     "analogy": "A heavy boat with a small sail: normal winds cannot turn it, but a hurricane might.",
+     "restatement": "Temperature scales only the entropy term, so sign combinations decide everything: like-signed terms never flip, oppositely-signed terms flip when T grows large enough for the entropy side to win.",
+     "analogy": "A heavy boat with a small sail: normal winds cannot turn it, but a hurricane might; a dinghy flips in a breeze.",
      "examPointer": "Expect feasibility-at-temperature questions: compute delta G at the given T and compare with zero."
     }
    },
@@ -651,195 +397,6 @@
     },
     {
      "kind": "mcq",
-     "stem": "Exothermic reactions are usually spontaneous at normal conditions because",
-     "misconceptionClass": "usual spontaneity",
-     "options": [
-      {
-       "key": "A",
-       "text": "Entropy changes are much smaller than enthalpy changes, so the T delta S term rarely overcomes delta H",
-       "correct": true,
-       "explanation": "The enthalpy anchor dominates everyday temperatures.",
-       "misconception": null
-      },
-      {
-       "key": "B",
-       "text": "All have positive entropy changes",
-       "correct": false,
-       "explanation": "Many have negative ones.",
-       "misconception": "false claim"
-      },
-      {
-       "key": "C",
-       "text": "Temperature is always low",
-       "correct": false,
-       "explanation": "Normal temperatures are moderate, not the mechanism.",
-       "misconception": "false cause"
-      },
-      {
-       "key": "D",
-       "text": "Catalysts are present",
-       "correct": false,
-       "explanation": "Catalysts do not affect feasibility.",
-       "misconception": "topic mix"
-      }
-     ]
-    },
-    {
-     "kind": "mcq",
-     "stem": "In delta G = delta H - T delta S with negative delta H and negative delta S, raising T makes delta G",
-     "misconceptionClass": "T behaviour exo",
-     "options": [
-      {
-       "key": "A",
-       "text": "Larger, since the term -T delta S grows positive",
-       "correct": true,
-       "explanation": "A negative delta S multiplied by growing T and negated grows positive.",
-       "misconception": null
-      },
-      {
-       "key": "B",
-       "text": "Smaller, more negative",
-       "correct": false,
-       "explanation": "That happens when delta S is positive.",
-       "misconception": "case mix"
-      },
-      {
-       "key": "C",
-       "text": "Unchanged",
-       "correct": false,
-       "explanation": "T scales the second term.",
-       "misconception": "false claim"
-      },
-      {
-       "key": "D",
-       "text": "Zero immediately",
-       "correct": false,
-       "explanation": "The flip needs a specific T.",
-       "misconception": "false claim"
-      }
-     ]
-    },
-    {
-     "kind": "mcq",
-     "stem": "The two-term picture shows that for exothermic changes the decisive factor at high temperature is",
-     "misconceptionClass": "decisive factor",
-     "options": [
-      {
-       "key": "A",
-       "text": "The entropy term's sign and magnitude, scaled by T",
-       "correct": true,
-       "explanation": "Only the T-scaled term responds to heating.",
-       "misconception": null
-      },
-      {
-       "key": "B",
-       "text": "The activation energy",
-       "correct": false,
-       "explanation": "Ea governs rate, not feasibility.",
-       "misconception": "topic mix"
-      },
-      {
-       "key": "C",
-       "text": "The catalyst",
-       "correct": false,
-       "explanation": "Catalysis is kinetic.",
-       "misconception": "topic mix"
-      },
-      {
-       "key": "D",
-       "text": "The pressure",
-       "correct": false,
-       "explanation": "Pressure is not in this equation.",
-       "misconception": "irrelevant claim"
-      }
-     ]
-    },
-    {
-     "kind": "recall",
-     "stem": "State the feasibility of exothermic reactions with positive delta S system.",
-     "misconceptionClass": "always recall",
-     "modelAnswer": "Always feasible, at any temperature, since both terms are negative.",
-     "keywords": [
-      "always",
-      "temperature",
-      "negative"
-     ]
-    },
-    {
-     "kind": "recall",
-     "stem": "State what happens to delta G for an exothermic, negative-entropy reaction as T rises.",
-     "misconceptionClass": "flip recall",
-     "modelAnswer": "Delta G rises, eventually turning positive above the flip temperature.",
-     "keywords": [
-      "rises",
-      "temperature",
-      "delta"
-     ]
-    },
-    {
-     "kind": "explain-why",
-     "stem": "Explain why exothermic reactions with negative delta S system still run at normal temperatures.",
-     "misconceptionClass": "still run why",
-     "modelAnswer": "The T delta S term is modest at everyday temperatures because entropy changes are small in magnitude, so the large negative delta H keeps delta G negative despite the entropy penalty.",
-     "keywords": [
-      "enthalpy",
-      "temperature",
-      "negative"
-     ]
-    },
-    {
-     "kind": "application",
-     "stem": "An exothermic change with negative delta S system has delta G = -20 kJ mol^-1 at 300 K. Sketch its fate at 2000 K.",
-     "misconceptionClass": "application",
-     "modelAnswer": "The term -T delta S grows with T; by 2000 K it may outweigh delta H, pushing delta G positive, so feasibility is lost at the higher temperature.",
-     "keywords": [
-      "temperature",
-      "feasible",
-      "delta"
-     ]
-    }
-   ]
-  },
-  {
-   "title": "Endothermic reactions and temperature",
-   "sourceHeadings": [
-    "Endothermic reactions"
-   ],
-   "specRefs": [
-    "12.9"
-   ],
-   "opening": "Endothermic reactions start with a positive delta H, so their fate depends entirely on the entropy sign. A negative system entropy dooms them at every temperature; a positive one needs heat, becoming feasible only once T delta S outweighs delta H - the story of blast-furnace extraction working hot but failing cold.",
-   "keyPoints": [
-    "In endothermic reactions delta H is positive.",
-    "If delta S system is negative, both terms are positive, delta G is positive, and the reaction is never feasible.",
-    "If delta S system is positive, the term -T delta S is negative and grows with temperature, so the reaction becomes feasible at high temperatures.",
-    "Metal extraction in the blast furnace illustrates the pattern: unsuccessful at low temperatures, working at around 1500 degrees C for iron."
-   ],
-   "confidenceGate": {
-    "ratings": [
-     "low",
-     "medium",
-     "high"
-    ],
-    "continueDisabledUntilChoice": true,
-    "resumeWithoutReRate": true,
-    "postCheckRecalibration": true
-   },
-   "depthLayers": {
-    "low": {
-     "restatement": "Endothermic plus negative delta S: never feasible. Endothermic plus positive delta S: feasible only above the flip temperature.",
-     "analogy": "A gym membership that always costs money (positive delta H) plus a reward (positive delta S) that scales with attendance: keep attending and it eventually pays.",
-     "examPointer": "The blast furnace is the stock example - quote roughly 1500 degrees C for iron."
-    },
-    "medium": {
-     "restatement": "Heat is the lever for endothermic changes: heating boosts the T delta S term until it covers the enthalpy price, which is why many extractions wait for furnace conditions.",
-     "analogy": "Sweating an asset: hold it long enough at the right temperature and the returns finally cover the cost.",
-     "examPointer": "The 'never feasible' case pairs two unfavourable signs - the fastest exam verdict."
-    }
-   },
-   "check": [
-    {
-     "kind": "mcq",
      "stem": "An endothermic reaction with negative delta S system is feasible",
      "misconceptionClass": "never case",
      "options": [
@@ -870,41 +427,6 @@
        "correct": false,
        "explanation": "Catalysis is not feasibility.",
        "misconception": "topic mix"
-      }
-     ]
-    },
-    {
-     "kind": "mcq",
-     "stem": "An endothermic reaction with positive delta S system becomes feasible when",
-     "misconceptionClass": "endo flip case",
-     "options": [
-      {
-       "key": "A",
-       "text": "The temperature is high enough that T delta S outweighs delta H",
-       "correct": true,
-       "explanation": "The growing negative term eventually dominates.",
-       "misconception": null
-      },
-      {
-       "key": "B",
-       "text": "The temperature is low",
-       "correct": false,
-       "explanation": "Low T keeps the term small.",
-       "misconception": "inversion slip"
-      },
-      {
-       "key": "C",
-       "text": "Never",
-       "correct": false,
-       "explanation": "The positive-entropy case does flip.",
-       "misconception": "overstatement"
-      },
-      {
-       "key": "D",
-       "text": "The entropy turns negative",
-       "correct": false,
-       "explanation": "The sign is given as positive.",
-       "misconception": "contradiction"
       }
      ]
     },
@@ -945,72 +467,48 @@
     },
     {
      "kind": "mcq",
-     "stem": "As temperature rises for an endothermic, positive-entropy reaction, delta G",
-     "misconceptionClass": "endo delta G trend",
+     "stem": "In delta G = delta H - T delta S with negative delta H and negative delta S, raising T makes delta G",
+     "misconceptionClass": "T behaviour exo",
      "options": [
       {
        "key": "A",
-       "text": "Falls, becoming negative above the flip temperature",
+       "text": "Larger, since the term -T delta S grows positive",
        "correct": true,
-       "explanation": "The -T delta S term grows more negative with T.",
+       "explanation": "A negative delta S multiplied by growing T and negated grows positive.",
        "misconception": null
       },
       {
        "key": "B",
-       "text": "Rises",
+       "text": "Smaller, more negative",
        "correct": false,
-       "explanation": "That describes the negative-entropy case.",
+       "explanation": "That happens when delta S is positive.",
        "misconception": "case mix"
       },
       {
        "key": "C",
-       "text": "Stays constant",
+       "text": "Unchanged",
        "correct": false,
-       "explanation": "T scales the entropy term.",
+       "explanation": "T scales the second term.",
        "misconception": "false claim"
       },
       {
        "key": "D",
-       "text": "Oscillates",
+       "text": "Zero immediately",
        "correct": false,
-       "explanation": "No oscillation exists.",
-       "misconception": "nonsense claim"
+       "explanation": "The flip needs a specific T.",
+       "misconception": "false claim"
       }
      ]
     },
     {
-     "kind": "mcq",
-     "stem": "For endothermic changes, increasing temperature is favourable only when",
-     "misconceptionClass": "heating condition",
-     "options": [
-      {
-       "key": "A",
-       "text": "Delta S system is positive",
-       "correct": true,
-       "explanation": "Only a positive entropy term converts heat into feasibility.",
-       "misconception": null
-      },
-      {
-       "key": "B",
-       "text": "Delta S system is negative",
-       "correct": false,
-       "explanation": "A negative term turns heating against the reaction.",
-       "misconception": "case mix"
-      },
-      {
-       "key": "C",
-       "text": "Delta H is negative",
-       "correct": false,
-       "explanation": "That is the exothermic class.",
-       "misconception": "class slip"
-      },
-      {
-       "key": "D",
-       "text": "The reaction is fast",
-       "correct": false,
-       "explanation": "Rate is irrelevant.",
-       "misconception": "topic mix"
-      }
+     "kind": "recall",
+     "stem": "State the feasibility of exothermic reactions with positive delta S system.",
+     "misconceptionClass": "always recall",
+     "modelAnswer": "Always feasible, at any temperature, since both terms are negative.",
+     "keywords": [
+      "always",
+      "temperature",
+      "negative"
      ]
     },
     {
@@ -1022,17 +520,6 @@
       "never",
       "temperature",
       "whatever"
-     ]
-    },
-    {
-     "kind": "recall",
-     "stem": "State the temperature behaviour of an endothermic, positive-entropy reaction.",
-     "misconceptionClass": "endo recall",
-     "modelAnswer": "It becomes feasible above the temperature where T delta S outweighs delta H.",
-     "keywords": [
-      "feasible",
-      "temperature",
-      "outweighs"
      ]
     },
     {
@@ -1589,17 +1076,17 @@
    {
     "term": "Gibbs free energy",
     "definition": "The quantity delta G = delta H - T delta S whose sign is the feasibility verdict.",
-    "firstLesson": 2
+    "firstLesson": 1
    },
    {
     "term": "kinetic stability",
     "definition": "Reluctance to react caused by a high activation energy, regardless of feasibility.",
-    "firstLesson": 6
+    "firstLesson": 4
    },
    {
     "term": "flip temperature",
     "definition": "The temperature at which delta G crosses zero, equal to delta H divided by delta S.",
-    "firstLesson": 5
+    "firstLesson": 3
    }
   ],
   "workedExample": {
@@ -1620,7 +1107,7 @@
    "alt": "The Gibbs equation written out with its terms labelled",
    "sourceHeading": "Exothermic reactions",
    "moduleIds": [
-    "L3"
+    "L2"
    ],
    "binding": "heading-unique"
   },
@@ -1630,7 +1117,7 @@
    "alt": "Diagram of when exothermic reactions are feasible",
    "sourceHeading": "Exothermic reactions",
    "moduleIds": [
-    "L3"
+    "L2"
    ],
    "binding": "heading-unique",
    "caption": "The diagram shows under which conditions exothermic reactions are feasible"
@@ -1641,7 +1128,7 @@
    "alt": "Diagram of when endothermic reactions are feasible",
    "sourceHeading": "Endothermic reactions",
    "moduleIds": [
-    "L4"
+    "L2"
    ],
    "binding": "heading-unique",
    "caption": "The diagram shows under which conditions endothermic reactions are feasible"
@@ -1652,7 +1139,7 @@
    "alt": "Summary table of the factors affecting Gibbs free energy",
    "sourceHeading": "Summary of factors affecting Gibbs free energy",
    "moduleIds": [
-    "L5"
+    "L3"
    ],
    "binding": "heading-unique"
   }

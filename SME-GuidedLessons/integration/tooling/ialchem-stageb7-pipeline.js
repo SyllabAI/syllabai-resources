@@ -15,8 +15,8 @@
  * Gates of record (the physics-wave battery, re-run over the full corpus): P0 / A0 / AN / JC / SG / KW /
  * 2.1B / NUM / C-6 / written / C-5 / B2 / G-E. Fail-closed: any failure exits 1 before emit.
  *
- * Stage-B wave-7 authoring of record (census 2026-11-17): 20 notes / 52 lessons / 468 checks =
- * 260 MCQ + 104 recall + 52 explain-why + 52 application (the B2 law 5+2+1+1 per lesson); 76 corpus
+ * Stage-B wave-7 authoring of record (census 2026-11-17): 20 notes / 50 lessons / 450 checks =
+ * 250 MCQ + 100 recall + 50 explain-why + 50 application (the B2 law 5+2+1+1 per lesson); 76 corpus
  * figures bound heading-unique and module-mapped (captions carried where the corpus prints them);
  * glossary 66 terms (each note in the 3..5 band); 9 worked-example ports + 11 designed nulls
  * (designed-or-none posture); learner-surface authored fresh per the 2.1B 8-gram law; no corpus-limited
@@ -473,8 +473,8 @@ for (const id of NOTES_W7) {
 }
 const parent = execSync('git rev-parse HEAD~1', { cwd: REPO }).toString().trim();
 const WAVE_OPEN_BASE_W7 = '72ae924b4c6a67b2b4339c3ed5ab70678515d368';
-const CORRECTIVE_BASE_W7 = parent;  // the wave-7 first issue lands straight on the wave-open main; any corrective A2 would re-disclose its base here
-check('P0', 'commit A parent == the wave-open resources main of record (72ae924b: the stage-B wave-6 commit C, no intervening commits)', parent === WAVE_OPEN_BASE_W7, 'parent=' + parent.slice(0, 12));
+const CORRECTIVE_BASE_W7 = '8b841d9be06fcb434d57616bc653c946a76b800f';  // the disclosed first-issue base accepted by the P0 parent check (the wave-2/wave-3 A2 precedent: the re-issued source notes + pipeline follow the first issue)
+check('P0', 'commit A parent == the wave-open resources main of record (72ae924b: the stage-B wave-6 commit C) or the disclosed first-issue base 8b841d9b (the corrective A2 re-issue)', parent === WAVE_OPEN_BASE_W7 || parent === CORRECTIVE_BASE_W7, 'parent=' + parent.slice(0, 12));
 let mainTipLive = '';
 try { mainTipLive = execSync('git ls-remote ' + (process.env.RESOURCES_REMOTE_URL || 'https://github.com/SyllabAI/syllabai-resources.git') + ' refs/heads/main', { cwd: REPO, shell: '/bin/bash' }).toString().split('\t')[0].trim(); } catch (e) { mainTipLive = 'ERR ' + e.message.slice(0, 60); }
 check('P0', 'resources main tip sits at the commit-A pin (first landing, race-guard)', mainTipLive === PIN, 'tip=' + mainTipLive.slice(0, 12));
@@ -527,8 +527,8 @@ const NUM_LEDGER = {
   ],
   rn_jGfhpCD8dM2bt6fm: [
     ['n14 WE port: 1336 / 0.581 = 2299 K', () => Math.abs(1336 / 0.581 - 2299.5) < 1],
-    ['n14 L2 app census: -100 - 500x(-0.100) = -50', () => Math.abs(-100 - 500 * (-0.100) - (-50)) < 1e-9],
-    ['n14 L5 app census: 80 / 0.200 = 400', () => Math.abs(80 / 0.200 - 400) < 1e-9],
+    ['n14 L1 app census: -100 - 500x(-0.100) = -50', () => Math.abs(-100 - 500 * (-0.100) - (-50)) < 1e-9],
+    ['n14 L3 app census: 80 / 0.200 = 400', () => Math.abs(80 / 0.200 - 400) < 1e-9],
   ],
   rn_7YhZCjCH46GzvXjM: [
     ['n16 WE port: 90 + 122 + 418 - 349 = 281', () => Math.abs(90 + 122 + 418 - 349 - 281) < 1e-9],
@@ -558,7 +558,8 @@ for (const id of NOTES_W7) {
   const row = notesBy.get(id);
   const bodyMd = row.bodyMd;
   const corpusHeadings = bodyMd.split('\n').filter((l) => l.startsWith('#')).map((l) => l.replace(/^#+\s*/, '').trim());
-  const imgBasenames = [...new Set([...bodyMd.matchAll(/!\[[^\]]*\]\([^)]*\/([^/)]+)\)/g)].map((m) => m[1]))];
+  // the image-matching grammar of record (one nested bracket level in alt text, e.g. w7_01 'Table to show rates [D]') - the same grammar the fetcher census and the builder use
+  const imgBasenames = [...new Set([...bodyMd.matchAll(/!\[((?:[^\[\]]|\[[^\]\[]*\])*)\]\([^)]*\/([^/)]+)\)/g)].map((m) => m[1]))];
   const w = grams(bodyMd, 8);
   const learnerTexts = [S.primer.text];
   let noteLessons = 0, noteChecks = 0;
@@ -1080,7 +1081,7 @@ const int3 = {
   supersedes_int3: 'records/INT-3-transform-record-ialchem-stageb6.json (the 97-row stage-B wave-6 cumulative anchor table; its rows carried byte-equivalent here plus the 20 wave-7 rows)',
   b6_manifest_continuity: { decision: 'continue-global', selected: 'manifest v52 supersedes v51 (cumulative)' },
   ialchem_stageb7_of_record: {
-    basis: 'the seventh register bucket per runbook B4: 20 notes (4-1-kinetics x10, 4-2-entropy x4, 4-3-energetics x6) authored end-to-end through the full chain, 52 lessons x 9 checks, riding the 0.8/1.7/1.4 generation',
+    basis: 'the seventh register bucket per runbook B4: 20 notes (4-1-kinetics x10, 4-2-entropy x4, 4-3-energetics x6) authored end-to-end through the full chain, 50 lessons x 9 checks, riding the 0.8/1.7/1.4 generation',
     bootstrap: 'the stage-A spec_point_resolution.json bootstrap (262 ids / 254 resolved / 8 unresolved-surplus / 234 codes / 196 notes) carries over unchanged; wave-7 spec codes all resolve in the curriculum graph (25 spec points verbatim)',
     figure_law: '76 corpus figures bound heading-unique and module-mapped to their host lessons by verbatim corpus headings; captions carried verbatim where the corpus prints an explanatory line after the figure block, declared absent otherwise (' + figCaptionCount + ' captions carried, ' + (totFig - figCaptionCount) + ' declared absent)',
     heading_law: 'heading-unique across lessons within each note; zero corpus-limited exceptions for wave 7 - every lesson binds a distinct verbatim corpus heading (the A0 scope gate proves 0 duplicate claims)',
@@ -1099,16 +1100,16 @@ const int3 = {
   wave_stream_sha256: waveOut,
   battery: {
     names: ['P0', 'A0', 'AN', 'JC', 'SG', 'KW', '2.1B', 'NUM', 'C-6', 'written', 'C-5', 'B2', 'G-E'],
-    a0: 'ajv 0.8 source x20 + kind order x52 lessons + B2 sizing + spec text provenance (curriculum graph verbatim x25 spec points) + figure closure both ways x76 + corpus image coverage + glossary band + primer band + noteRef identity + section-title map + the heading-unique scope gate (zero exceptions)',
-    an: 'exactly-one-correct x260; correct-key census >=3 distinct per note (post-rotation); distinct option texts; four options',
+    a0: 'ajv 0.8 source x20 + kind order x50 lessons + B2 sizing + spec text provenance (curriculum graph verbatim x25 spec points) + figure closure both ways x76 + corpus image coverage + glossary band + primer band + noteRef identity + section-title map + the heading-unique scope gate (zero exceptions)',
+    an: 'exactly-one-correct x250; correct-key census >=3 distinct per note (post-rotation); distinct option texts; four options',
     sg: 'lesson specRefs subset of file specPoints; every check KP-anchored (content-token overlap)',
-    kw: '>=3 grounded keywords per written item x208',
+    kw: '>=3 grounded keywords per written item x200',
     jc: 'every option explained; distractors name misconceptions; correct-option misconception null',
     '2.1b': 'zero 8-gram overlaps of learner-surface text vs the corpus note body x20',
     num: 'spot ledgers on the authored arithmetic (37 ledger entries across 9 notes: the WE ports + the MCQ/application answers)',
     c6: 'physics+chemistry+bio prior union ajv x762 + chemistry prior-generation union ajv x336 + IAL chemistry prior-generation union ajv x291 + wave-7 outputs ajv x40',
     c5: 'checkRefs <-> questions bidirectional 1:1 in order x20',
-    b2: '9 checkRefs per module x52; identity arithmetic 9 = 5+2+1+1 x52',
+    b2: '9 checkRefs per module x50; identity arithmetic 9 = 5+2+1+1 x50',
     ge: 'IAL chemistry stream anchors x117 (the emitted cumulative INT-3 of record) + the 97 prior anchors re-proven on this tree (byte-identical prior pack rows) + IAL chemistry pack byte conservation vs v51 x194 + biology v44 pack byte conservation x284 + chemistry v32 pack byte conservation x224 + physics v31 pack byte conservation x254 + IAL chemistry grand stream single-finalization',
   },
   ialchem_census: {
