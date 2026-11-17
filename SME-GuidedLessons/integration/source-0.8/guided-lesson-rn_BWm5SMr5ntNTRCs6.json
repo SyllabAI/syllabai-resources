@@ -1,0 +1,608 @@
+{
+ "format": "guided-lesson/0.8",
+ "noteRef": {
+  "noteId": "rn_BWm5SMr5ntNTRCs6",
+  "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+  "topicTitle": "3. Practical Skills in Chemistry I",
+  "subtopicTitle": "Determining Enthalpy Change of Reaction",
+  "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/3-practical-skills-in-chemistry-i/3-1-physical-chemistry-core-practicals/3-1-2-determining-enthalpy-change-of-reaction"
+ },
+ "specPoints": [
+  {
+   "code": "6.7",
+   "text": "CORE PRACTICAL 2 Determination of the enthalpy change of a reaction using Hess’s Law."
+  }
+ ],
+ "primer": {
+  "text": "A polystyrene cup is a surprisingly honest calorimeter. This note runs the zinc and copper(II) sulfate displacement, states the q = mc delta T machinery with its water assumptions, and reconstructs the true temperature rise by extrapolation before dividing by the limiting reagent's moles.",
+  "prerequisiteSubtopic": null
+ },
+ "lessons": [
+  {
+   "title": "Calorimetry in a polystyrene cup",
+   "sourceHeadings": [
+    "Measuring enthalpy changes",
+    "Enthalpy changes for reactions in solution"
+   ],
+   "specRefs": [
+    "6.7"
+   ],
+   "opening": "Core Practical 2 measures an enthalpy change with nothing fancier than a cup. This lesson assembles the calorimeter, states the q = mc delta T equation with the water assumptions, and runs the zinc-plus-copper(II) sulfate displacement as the model method with its timing discipline.",
+   "keyPoints": [
+    "Calorimetry measures enthalpy changes using an insulated vessel such as a polystyrene cup, vacuum flask or metal can.",
+    "Specific heat capacity is the energy that lifts 1 g of material through 1 K; water's value is 4.18 J g-1 K-1.",
+    "Energy transferred is calculated as q = mc delta T using the solution's mass, the water's heat capacity and the measured temperature rise.",
+    "The displacement method adds excess zinc powder to 25 cm3 of 1.0 mol dm-3 copper(II) sulfate and records temperatures every half minute.",
+    "Assumptions treat the solution as water with density 1 g cm-3 and heat capacity 4.18, ignore the container, and presume completion with negligible losses."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Run the reaction inside the insulated cup, log temperatures before and after mixing, take the corrected rise, and multiply mass, heat capacity and rise to get the energy in joules; the assumptions convert the solution into plain water for the arithmetic.",
+     "analogy": "The cup is a thermos flask for a chemistry experiment: keep the heat in, watch the thermometer, and do honest bookkeeping with the energy.",
+     "examPointer": "Quote q = mc delta T with each symbol's value and unit, and state the density assumption that turns 25 cm3 into 25 g."
+    },
+    "medium": {
+     "restatement": "The zinc displacement is chosen because it is fast, excess zinc guarantees the copper sulfate is the limiting reagent, and the pre-mixing temperature readings expose any drift before the reaction starts; recording stops around the three-minute mark only for the addition, then resumes for six more minutes.",
+     "analogy": "A relay race: the thermometer takes clean splits before the baton (the zinc) changes hands, then keeps timing through the final leg.",
+     "examPointer": "Explain why zinc is weighed roughly but the solution volume is measured carefully - excess versus limiting roles decide the precision each deserves."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Why is a polystyrene cup a suitable calorimeter for reactions in solution?",
+     "misconceptionClass": "calorimeter choice",
+     "options": [
+      {
+       "key": "A",
+       "text": "It insulates the mixture, keeping heat losses small while the temperature is logged",
+       "correct": true,
+       "explanation": "Minimal heat leakage makes the measured rise a fair proxy for the reaction energy.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It heats the solution to a chosen temperature",
+       "correct": false,
+       "explanation": "The cup insulates; it does not actively heat anything.",
+       "misconception": "role reversed"
+      },
+      {
+       "key": "C",
+       "text": "It catalyses the displacement reaction",
+       "correct": false,
+       "explanation": "Polystyrene is chemically inert here.",
+       "misconception": "wrong role"
+      },
+      {
+       "key": "D",
+       "text": "It dissolves slowly to release energy",
+       "correct": false,
+       "explanation": "The cup must stay intact; dissolution would contaminate the results.",
+       "misconception": "nonsense claim"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The specific heat capacity of water is",
+     "misconceptionClass": "shc value",
+     "options": [
+      {
+       "key": "A",
+       "text": "4.18 J g-1 K-1",
+       "correct": true,
+       "explanation": "One gram of water needs 4.18 joules per kelvin rise, the standard assumed value.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "4.18 J mol-1 K-1",
+       "correct": false,
+       "explanation": "The unit is per gram, not per mole.",
+       "misconception": "unit wrong"
+      },
+      {
+       "key": "C",
+       "text": "1.00 J g-1 K-1",
+       "correct": false,
+       "explanation": "1.00 is the density assumption, confused with heat capacity.",
+       "misconception": "value confused"
+      },
+      {
+       "key": "D",
+       "text": "100 J g-1 K-1",
+       "correct": false,
+       "explanation": "That overstates water's heat capacity twentyfold.",
+       "misconception": "value wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "In the model method, the zinc powder is weighed only roughly because",
+     "misconceptionClass": "rough zinc reason",
+     "options": [
+      {
+       "key": "A",
+       "text": "It is deliberately in excess, so its exact mass does not enter the calculation",
+       "correct": true,
+       "explanation": "The limiting reagent sets the mole arithmetic, and excess zinc's precision is wasted effort.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Zinc's mass cannot be measured on a balance",
+       "correct": false,
+       "explanation": "Balances weigh zinc perfectly well.",
+       "misconception": "false claim"
+      },
+      {
+       "key": "C",
+       "text": "Zinc evaporates during the reaction",
+       "correct": false,
+       "explanation": "Zinc metal does not evaporate in solution.",
+       "misconception": "nonsense claim"
+      },
+      {
+       "key": "D",
+       "text": "The balance only reads to whole grams",
+       "correct": false,
+       "explanation": "Three-decimal balances are standard.",
+       "misconception": "false claim"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which assumption converts 25 cm3 of solution into 25 g for the calculation?",
+     "misconceptionClass": "density assumption",
+     "options": [
+      {
+       "key": "A",
+       "text": "The solution's density equals water's, 1 g cm-3",
+       "correct": true,
+       "explanation": "The density assumption turns the measured volume directly into mass.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The cup has negligible heat capacity",
+       "correct": false,
+       "explanation": "That assumption concerns the container, not the mass conversion.",
+       "misconception": "assumption confused"
+      },
+      {
+       "key": "C",
+       "text": "The reaction goes to completion",
+       "correct": false,
+       "explanation": "Completion concerns extent, not mass conversion.",
+       "misconception": "assumption confused"
+      },
+      {
+       "key": "D",
+       "text": "There are negligible heat losses",
+       "correct": false,
+       "explanation": "Losses concern the temperature rise, not the mass.",
+       "misconception": "assumption confused"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Why does the method record temperatures every half minute before adding the zinc?",
+     "misconceptionClass": "pre-mixing readings",
+     "options": [
+      {
+       "key": "A",
+       "text": "To establish a steady baseline temperature and expose any drift before the reaction begins",
+       "correct": true,
+       "explanation": "Baseline readings anchor the temperature-correction graph's starting line.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "To warm the zinc powder gradually",
+       "correct": false,
+       "explanation": "The zinc is added at three minutes, not warmed by readings.",
+       "misconception": "wrong purpose"
+      },
+      {
+       "key": "C",
+       "text": "To let the copper sulfate evaporate",
+       "correct": false,
+       "explanation": "Evaporation would corrupt the experiment.",
+       "misconception": "nonsense purpose"
+      },
+      {
+       "key": "D",
+       "text": "Because the reaction happens before any mixing",
+       "correct": false,
+       "explanation": "The reaction starts only when the zinc enters.",
+       "misconception": "wrong picture"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the equation used to calculate energy transferred in the calorimeter.",
+     "misconceptionClass": "equation recall",
+     "modelAnswer": "q = mc delta T, with m the solution mass in grams, c the 4.18 J g-1 K-1 heat capacity and delta T the corrected temperature rise.",
+     "keywords": [
+      "q",
+      "mc",
+      "delta"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "List the assumptions that treat the solution as water.",
+     "misconceptionClass": "assumption recall",
+     "modelAnswer": "The solution has water's density of 1 g cm-3 and heat capacity of 4.18 J g-1 K-1, the container is ignored, and losses are negligible.",
+     "keywords": [
+      "density",
+      "4.18",
+      "container"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why an excess of zinc powder guarantees a complete displacement of copper.",
+     "misconceptionClass": "excess reason",
+     "modelAnswer": "With more zinc than the copper sulfate can consume, every copper(II) ion finds zinc to displace it, so the limiting reagent is the copper sulfate and the reaction runs to its full extent.",
+     "keywords": [
+      "excess",
+      "limiting",
+      "copper"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "25 cm3 of 1.0 mol dm-3 copper(II) sulfate reacts with excess zinc and the corrected rise is read from the graph. State the limiting reagent and the mass assumed for the solution.",
+     "misconceptionClass": "application",
+     "modelAnswer": "Copper(II) sulfate is limiting (0.025 mol against about 0.09 mol of zinc), and the solution mass is taken as 25 g via the 1 g cm-3 density assumption.",
+     "keywords": [
+      "limiting",
+      "25 g",
+      "density"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Temperature correction graphs and the enthalpy result",
+   "sourceHeadings": [
+    "Temperature correction graphs",
+    "Analysis"
+   ],
+   "specRefs": [
+    "6.7"
+   ],
+   "opening": "Slow reactions let heat leak out before the peak arrives, so the naive maximum understates the true rise. Extrapolating the cooling lines back to the mixing moment recovers the honest delta T, and q over n then delivers the enthalpy change with its negative sign for exothermic reactions.",
+   "keyPoints": [
+    "When the maximum temperature is delayed, heat escapes during the delay and the true peak is never observed directly.",
+    "The correction method extrapolates the cooling portion of the graph back to the addition time to find the true delta T.",
+    "The energy q = mc delta T uses the corrected rise, then converts joules into kilojoules.",
+    "Enthalpy change equals q divided by n, the moles of the limiting reagent, identified by comparing both reagents' mole counts.",
+    "A temperature rise means the reaction is exothermic, so the reported enthalpy change carries a negative sign."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Plot temperature against time through the mixing, rule two straight lines - the pre-mix baseline and the post-reaction cooling - and extend them to intersect at the addition time; the vertical gap there is the corrected delta T that feeds q = mc delta T.",
+     "analogy": "Rewinding a cooling cup of tea to the moment it was poured: the extrapolated lines reconstruct the temperature the mixture really reached.",
+     "examPointer": "Draw both extrapolations with a ruler to the mixing time, and divide by the limiting reagent's moles, not by the excess reagent's."
+    },
+    "medium": {
+     "restatement": "The correction graph defeats the heat-loss clock: what the thermometer misses during the slow climb is reconstructed by geometry, and the sign convention then reports the energy honestly - heat released means the mixture warmed, so delta H is negative for the system.",
+     "analogy": "A security camera reconstructs what happened while it blinked; extrapolation reconstructs the heat that escaped before the peak was seen.",
+     "examPointer": "Finish every calculation with the sign and units: kJ mol-1 with a negative value for exothermic displacement reactions."
+    }
+   },
+   "check": [
+    {
+     "kind": "mcq",
+     "stem": "Why does a slow reaction need a temperature correction graph?",
+     "misconceptionClass": "correction need",
+     "options": [
+      {
+       "key": "A",
+       "text": "Heat is lost to the surroundings during the delay before the peak, so the observed maximum understates the true rise",
+       "correct": true,
+       "explanation": "Extrapolation reconstructs the peak the thermometer never quite saw.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The thermometer cannot read fast reactions",
+       "correct": false,
+       "explanation": "Fast reactions are the easy case; slowness creates the leak window.",
+       "misconception": "direction reversed"
+      },
+      {
+       "key": "C",
+       "text": "The cup absorbs all the heat permanently",
+       "correct": false,
+       "explanation": "Losses are partial, and the graph estimates them.",
+       "misconception": "overstatement"
+      },
+      {
+       "key": "D",
+       "text": "Correction graphs are required by law for all calorimetry",
+       "correct": false,
+       "explanation": "Instantaneous reactions need no correction at all.",
+       "misconception": "overgeneralisation"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The corrected delta T is found by",
+     "misconceptionClass": "correction method",
+     "options": [
+      {
+       "key": "A",
+       "text": "Extrapolating the cooling line back until it meets the time the second reactant was added",
+       "correct": true,
+       "explanation": "The two straight lines intersect at the mixing time, and their vertical gap gives the true rise.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Taking the highest temperature the thermometer ever recorded",
+       "correct": false,
+       "explanation": "The observed maximum is the depressed value being corrected.",
+       "misconception": "method wrong"
+      },
+      {
+       "key": "C",
+       "text": "Averaging all recorded temperatures",
+       "correct": false,
+       "explanation": "Averaging destroys the rise information entirely.",
+       "misconception": "method wrong"
+      },
+      {
+       "key": "D",
+       "text": "Reading the room temperature instead",
+       "correct": false,
+       "explanation": "Room temperature is the baseline, not the rise.",
+       "misconception": "method wrong"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "After computing q in joules, the enthalpy change divides it by",
+     "misconceptionClass": "division target",
+     "options": [
+      {
+       "key": "A",
+       "text": "The moles of the limiting reagent",
+       "correct": true,
+       "explanation": "q over the limiting moles gives kJ mol-1 for the reaction as written.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The moles of the excess reagent",
+       "correct": false,
+       "explanation": "Dividing by the excess under-reports the per-mole enthalpy.",
+       "misconception": "wrong reagent"
+      },
+      {
+       "key": "C",
+       "text": "The solution's volume in cm3",
+       "correct": false,
+       "explanation": "Volume is not the mole count.",
+       "misconception": "wrong quantity"
+      },
+      {
+       "key": "D",
+       "text": "The temperature rise again",
+       "correct": false,
+       "explanation": "The rise already sits inside q; dividing twice is meaningless.",
+       "misconception": "double counting"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "Which reagent is limiting when 25 cm3 of 1.0 mol dm-3 copper(II) sulfate meets about 6 g of zinc?",
+     "misconceptionClass": "limiting identification",
+     "options": [
+      {
+       "key": "A",
+       "text": "The copper(II) sulfate, at 0.025 mol against roughly 0.09 mol of zinc",
+       "correct": true,
+       "explanation": "The smaller mole count caps the reaction, making the sulfate limiting.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The zinc, because its mass is smaller in grams",
+       "correct": false,
+       "explanation": "Grams do not decide; mole counts against the equation do.",
+       "misconception": "unit confusion"
+      },
+      {
+       "key": "C",
+       "text": "Neither, since both are in excess",
+       "correct": false,
+       "explanation": "An excess of one means the other is limiting.",
+       "misconception": "logic error"
+      },
+      {
+       "key": "D",
+       "text": "The water of the solution",
+       "correct": false,
+       "explanation": "Water is the medium, not a reactant here.",
+       "misconception": "wrong species"
+      }
+     ]
+    },
+    {
+     "kind": "mcq",
+     "stem": "The final enthalpy change for the zinc displacement carries a negative sign because",
+     "misconceptionClass": "sign reason",
+     "options": [
+      {
+       "key": "A",
+       "text": "The temperature rose, proving the reaction released energy to the mixture",
+       "correct": true,
+       "explanation": "Exothermic reactions warm their surroundings and report negative delta H.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Zinc is above copper in the reactivity series",
+       "correct": false,
+       "explanation": "The series predicts feasibility, not the sign convention.",
+       "misconception": "confused concepts"
+      },
+      {
+       "key": "C",
+       "text": "The solution lost mass during stirring",
+       "correct": false,
+       "explanation": "Mass loss is irrelevant to the sign.",
+       "misconception": "irrelevant cause"
+      },
+      {
+       "key": "D",
+       "text": "The correction graph always subtracts",
+       "correct": false,
+       "explanation": "The graph corrects the rise; the sign reflects the energy direction.",
+       "misconception": "confused concepts"
+      }
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the two lines that are extrapolated on a temperature correction graph.",
+     "misconceptionClass": "graph recall",
+     "modelAnswer": "The pre-mixing baseline line and the post-reaction cooling line, both extended to the addition time.",
+     "keywords": [
+      "baseline",
+      "cooling",
+      "extrapolated"
+     ]
+    },
+    {
+     "kind": "recall",
+     "stem": "State the equation that converts energy transferred into enthalpy change.",
+     "misconceptionClass": "enthalpy recall",
+     "modelAnswer": "Delta H equals q divided by n, with q in kilojoules and n the limiting reagent's moles.",
+     "keywords": [
+      "q",
+      "n",
+      "limiting"
+     ]
+    },
+    {
+     "kind": "explain-why",
+     "stem": "Explain why the observed maximum temperature understates the true reaction temperature for slow reactions.",
+     "misconceptionClass": "understatement explanation",
+     "modelAnswer": "While the mixture climbs slowly towards its peak, energy leaks to the surroundings continuously, so the thermometer registers a maximum already discounted by those losses and the true peak must be reconstructed by extrapolation.",
+     "keywords": [
+      "leaks",
+      "maximum",
+      "extrapolation"
+     ]
+    },
+    {
+     "kind": "application",
+     "stem": "A corrected rise of 18.0 K is obtained for the standard method. Compute q for the 25 g solution and state its sign as an energy transfer to the mixture.",
+     "misconceptionClass": "application",
+     "modelAnswer": "q = 25 x 4.18 x 18.0 = 1881 J released to the mixture, about 1.88 kJ, positive as energy gained by the solution and reported as a negative enthalpy change for the reaction.",
+     "keywords": [
+      "4.18",
+      "18.0",
+      "1881"
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "calorimetry",
+    "definition": "Measuring an enthalpy change by logging the temperature change of an insulated reaction mixture.",
+    "firstLesson": 1
+   },
+   {
+    "term": "specific heat capacity",
+    "definition": "The energy that lifts 1 g of material through 1 K; water's 4.18 J g-1 K-1 is assumed for solutions.",
+    "firstLesson": 1
+   },
+   {
+    "term": "temperature correction graph",
+    "definition": "A temperature-time plot whose extrapolated lines recover the true temperature rise lost to heat leakage.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": {
+   "prompt": "For the standard displacement method, identify the limiting reagent between 25 cm3 of 1.0 mol dm-3 copper(II) sulfate and about 6 g of zinc powder.",
+   "steps": [
+    "Moles of copper(II) sulfate: 25/1000 x 1.0 = 0.025 mol.",
+    "Moles of zinc: 6 / 65.4 = 0.0917 mol.",
+    "Compare: 0.0917 exceeds 0.025, so the zinc is in excess and every copper(II) ion can be displaced.",
+    "The smaller mole count caps the reaction, so the copper(II) sulfate is the limiting reagent and its 0.025 mol is the n used in delta H = q/n."
+   ],
+   "finalAnswer": "Copper(II) sulfate is the limiting reagent with 0.025 mol; the roughly 0.09 mol of zinc is excess."
+  }
+ },
+ "figures": [
+  {
+   "id": "fig-01",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/ffba9ab403ac-1-5-chemical-energetics-calorimeter.png",
+   "alt": "Chemical Energetics Calorimeter, downloadable AS & A Level Chemistry revision notes",
+   "sourceHeading": "Measuring enthalpy changes",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "A polystyrene cup can act as a calorimeter to find enthalpy changes in a chemical reaction"
+  },
+  {
+   "id": "fig-02",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/f01b66604027-5-1-3-calorimetry-variables-symbols-1.png",
+   "alt": "Calorimetry variables symbols_1, downloadable IB Chemistry revision notes",
+   "sourceHeading": "Measuring enthalpy changes",
+   "moduleIds": [
+    "L1"
+   ],
+   "binding": "heading-unique",
+   "caption": "Equation for calculating energy transferred in a calorimeter"
+  },
+  {
+   "id": "fig-03",
+   "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/cd119439e2fc-5-1-4-temperature-correction-graphs.png",
+   "alt": "Temperature correction graphs, downloadable IB Chemistry revision notes",
+   "sourceHeading": "Temperature correction graphs",
+   "moduleIds": [
+    "L2"
+   ],
+   "binding": "heading-unique",
+   "caption": "A temperature correction graph for a metal displacement reaction between zinc and copper sulfate solution. The zinc is added after 4 minutes"
+  }
+ ]
+}
