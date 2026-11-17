@@ -1,5 +1,29 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
+## exporter-v6+F131 — 2026-11-17 · the wave-16 picture-MCQ extraction (T-WAVE16-EXTRACT-1) — converter & exporter unchanged
+
+- The wave: the six wave-16 picture-MCQ adjudications (PR #53 head 4b4403d, frozen
+  2026-10-21/22, never consumed of record) land corpus-side — 2021-11 1C 1(a)(i)-(iii)
+  keys A/C/B + 2023-01 2C 2(a)(i)-(iii) keys B/D/C append to MCQ-KEYS.json verbatim; the
+  six parts re-key structured -> multiple_choice per the 2020-01 7(a) keyed template
+  (choices[] with empty text_md — the options are the printed A-D boxes; answer_key_source
+  mcq-keys-ledger; value_trace.keys ledger:MCQ-KEYS). The rich MS mark_points, solution_md
+  (unicode subscripts of record) and main's own accepted figure crops stay untouched — the
+  wave-16 parallel crops (asset_1_a_i_picture / asset_2_a_i_picture) and their CROP-REVIEW
+  rows are NOT landed (redundant vs asset_1_a_i_particles / asset_2_stem_properties-table).
+- The gates: questionType joins DISCLOSED_DELTA_CLASSES per the F119 same-wave law
+  (scripts/official_examq_verify_export.py); disclosure
+  scripts/exporter-disclosures/2026-11-17-wave16-picture-mcq-extract.json (6 pids:
+  choices+questionType, new=0/gone=0); exporter G-E1 6 == census exactly, G-E1b/E2/E3/E4/
+  E6/E7 green, counts unchanged (54/477/2607/4860/4161/491/7); verify harness
+  census==disclosure 6/6. questions.md + validation-report.json NOT regenerated (F114/C57
+  lesson — disclosed; the regen rides the next hub-sync wave).
+- The canary family: C68/C68b/C68c/C68d/C68e/C68f land verbatim (part_keyed_to on the six
+  parts). C66/C67/C67b stay wave-16-only (they pin the wave-16 corpus-serving model that
+  main superseded exporter-side via the v5 doctrine).
+- Receipt: this PR; disclosure scripts/exporter-disclosures/2026-11-17-wave16-picture-mcq-extract.json;
+  ledger entry F131. Supersedes the corpus leg of PR #53 (to be closed as superseded by
+  PR #57 + the F119/F121/F122 line).
 ## exporter-v6+F127 — 2026-10-31 · the Mode-A notation pass (T-OEQ-NOTATION-1) — converter & exporter unchanged
 
 - The wave: flat print notation (PDF text layer flattened the QP's true sub/superscripts) repaired

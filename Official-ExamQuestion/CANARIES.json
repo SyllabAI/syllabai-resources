@@ -2262,6 +2262,57 @@
    "sha256": "0b89e3d5708a4c15e5a637f85a14687dec6996325ad495c5bc4406cbc553a910",
    "check": "part_field_sha",
    "assertion": "F116 F111 class-2 exponent-restore guard: 2026-06 1CR 11(d) solution_md of record (Finding-8b superscript restoration state) — regeneration or re-extraction regression trips fail-closed"
+  },
+  {
+   "id": "C68-picture-mcq-keyed",
+   "series": "2021-11",
+   "assertion": "F56 picture MCQs: 1(a)(i) promotes to multiple_choice keyed A (ii C, iii B) with the ledger crop on (i)",
+   "check": "part_keyed_to",
+   "part": "1(a)(i)",
+   "label": "A"
+  },
+  {
+   "id": "C68b-picture-mcq-keyed-ii",
+   "series": "2021-11",
+   "assertion": "F56: 1(a)(ii) keyed C",
+   "check": "part_keyed_to",
+   "part": "1(a)(ii)",
+   "label": "C"
+  },
+  {
+   "id": "C68c-picture-mcq-keyed-iii",
+   "series": "2021-11",
+   "assertion": "F56: 1(a)(iii) keyed B",
+   "check": "part_keyed_to",
+   "part": "1(a)(iii)",
+   "label": "B"
+  },
+  {
+   "id": "C68d-picture-mcq-2c",
+   "series": "2023-01",
+   "paper": "2C",
+   "assertion": "F56: 2C picture MCQs keyed B/D/C with the properties-table crop on 2(a)(i)",
+   "check": "part_keyed_to",
+   "part": "2(a)(i)",
+   "label": "B"
+  },
+  {
+   "id": "C68e-picture-mcq-2c-ii",
+   "series": "2023-01",
+   "paper": "2C",
+   "assertion": "F56: 2(a)(ii) keyed D",
+   "check": "part_keyed_to",
+   "part": "2(a)(ii)",
+   "label": "D"
+  },
+  {
+   "id": "C68f-picture-mcq-2c-iii",
+   "series": "2023-01",
+   "paper": "2C",
+   "assertion": "F56: 2(a)(iii) keyed C",
+   "check": "part_keyed_to",
+   "part": "2(a)(iii)",
+   "label": "C"
   }
  ]
 }

@@ -30,9 +30,30 @@
     {
      "part_number": "1(a)(i)",
      "marks": 1,
-     "question_type": "structured",
+     "question_type": "multiple_choice",
      "problem_md": "Which substance contains single atoms of one element? A B C D",
-     "choices": [],
+     "choices": [
+      {
+       "label": "A",
+       "text_md": "",
+       "is_correct": true
+      },
+      {
+       "label": "B",
+       "text_md": "",
+       "is_correct": false
+      },
+      {
+       "label": "C",
+       "text_md": "",
+       "is_correct": false
+      },
+      {
+       "label": "D",
+       "text_md": "",
+       "is_correct": false
+      }
+     ],
      "answer_status": "linked",
      "solution_md": "A\nA is the correct answer because A contains one\nelement and the atoms are not joined to other\natoms.\nB is incorrect because B contains molecules of an\nelement.\nC is incorrect because C contains molecules of a\ncompound\nD is incorrect. D contains an element but the\natoms are joined together to form a giant covalent\nstructure.",
      "mark_points": [
@@ -65,17 +86,39 @@
      "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "n/a",
+      "keys": "ledger:MCQ-KEYS",
       "marks": "ms-printed",
       "numbers": "source-printed"
-     }
+     },
+     "answer_key_source": "mcq-keys-ledger"
     },
     {
      "part_number": "1(a)(ii)",
      "marks": 1,
-     "question_type": "structured",
+     "question_type": "multiple_choice",
      "problem_md": "Which substance is a compound? A B C D",
-     "choices": [],
+     "choices": [
+      {
+       "label": "A",
+       "text_md": "",
+       "is_correct": false
+      },
+      {
+       "label": "B",
+       "text_md": "",
+       "is_correct": false
+      },
+      {
+       "label": "C",
+       "text_md": "",
+       "is_correct": true
+      },
+      {
+       "label": "D",
+       "text_md": "",
+       "is_correct": false
+      }
+     ],
      "answer_status": "linked",
      "solution_md": "C\nC is the correct answer because C contains atoms of\ntwo different elements chemically bonded\ntogether.\nA is incorrect because A is an element.\nB is incorrect because B is an element.\nD is incorrect because D is an element.",
      "mark_points": [
@@ -106,17 +149,39 @@
      "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "n/a",
+      "keys": "ledger:MCQ-KEYS",
       "marks": "ms-printed",
       "numbers": "source-printed"
-     }
+     },
+     "answer_key_source": "mcq-keys-ledger"
     },
     {
      "part_number": "1(a)(iii)",
      "marks": 1,
-     "question_type": "structured",
+     "question_type": "multiple_choice",
      "problem_md": "Which substance could have the formula H₂? A B C D",
-     "choices": [],
+     "choices": [
+      {
+       "label": "A",
+       "text_md": "",
+       "is_correct": false
+      },
+      {
+       "label": "B",
+       "text_md": "",
+       "is_correct": true
+      },
+      {
+       "label": "C",
+       "text_md": "",
+       "is_correct": false
+      },
+      {
+       "label": "D",
+       "text_md": "",
+       "is_correct": false
+      }
+     ],
      "answer_status": "linked",
      "solution_md": "B\nB is correct because B shows two atoms of the same\nelement chemically bonded together e.g. H₂\nA is incorrect because A contains atoms of an\nelement\nC in incorrect because C contains molecules of a\ncompound with the formula e.g. H₂O\nD is incorrect because C contains a giant covalent\nstructure that could have the formula C",
      "mark_points": [
@@ -149,10 +214,11 @@
      "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "n/a",
+      "keys": "ledger:MCQ-KEYS",
       "marks": "ms-printed",
       "numbers": "source-printed"
-     }
+     },
+     "answer_key_source": "mcq-keys-ledger"
     },
     {
      "part_number": "1(b)",
