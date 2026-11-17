@@ -1,0 +1,40 @@
+{
+ "schema": "syllabai.wf6-t1-design-receipt/1",
+ "trace": "1a1e9d9c217c8e75",
+ "task": "W-F6-T1 — design of record: CIE graph YAMLs lane",
+ "executed_utc": "2026-11-17",
+ "design_of_record": "download/receipts/W-F6/W-F6-T1-design-of-record.md",
+ "inputs_census": {
+  "path": "cache/w-f6/census-inputs.json",
+  "script": "scripts/wf6_census_inputs.py",
+  "head": "062a4c3463af9a45a9f086dd42d7637ed24b35bc",
+  "quals": 34,
+  "totals": {"spec_points": 6920, "topics": 467, "subsections": 1646},
+  "matches_wave39_of_record": true,
+  "notable": [
+   "topic codes: 408 -T{n} canonical (325 index-contiguous / 83 with gaps), 59 null, duplicated codes in 6 quals",
+   "sub code collisions in 17 quals (tier_columns AS/A2 lists)",
+   "topic-ref null on exactly 5 rows (cie-a-level-maths-2023-2025 :1.1.1..:1.1.5)",
+   "subsection-ref failures 0; practical=true rows 0; scope non-null 2,255",
+   "rows with sub_items 997 / 3,748 items (do not enter the graph)",
+   "text_render != text on 73 rows (W-F5 presentation delta, bundle-layer only)",
+   "flags vocab 9 classes incl. reparse-2.0 x40"
+  ]
+ },
+ "schema_precedents_read": [
+  "landed _derived/graph/{ial-chemistry,ial-biology,igcse-biology,igcse-ict} byte shapes at HEAD",
+  "cache/w-f2/scripts__emit_graph.py (Edexcel emitter law)",
+  "W-F3-T1 design of record (canonical 14-field contract of record)"
+ ],
+ "decisions_of_record": [
+  "official_wording = canonical frozen text; text_render does NOT enter the graph",
+  "topic codes verbatim; null -> SF fallback; duplicated canonical codes -> first verbatim + #k (all markered via provenance.source_code)",
+  "SUBTOPIC codes {ns}-SUB{n} by array index (igcse-biology precedent); printed source_code preserved",
+  "PART_OF only (2 landed classes); sub_items stay bundle-layer; no new edge types",
+  "parent law: dotted-prefix -> page/oy fallback (multi-span anchored at first span) -> first topic",
+  "practicals.yaml honest-empty x34",
+  "gates G-F6-C1..C8 fixed (shape/nodes/edges/fidelity/counts/parents/determinism/pins)"
+ ],
+ "gates_fixed": "G-F6-C1..C8",
+ "next": "W-F6-T2 build + gates + local land under the same order"
+}

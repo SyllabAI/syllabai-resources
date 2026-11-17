@@ -1,0 +1,50 @@
+{
+ "schema": "syllabai.exec-receipt/1",
+ "trace": "1a1e9cc2677bbfd1",
+ "order": "operator message 'push Wave 43' + fresh PAT — the push named as pending by EXEC-1a1e9830c256fdd9-records-ride.json (next_operator_actions: 'push Wave 43 with the next PAT (fast-forward 0111c9c1 -> ee524911)'); continues the W-F5 order chain (1a1e5bfa1854103d -> 1a1e5c7c2499bf51 -> 1a1e7800e982afe5 -> 1a1e9830c256fdd9)",
+ "executed_utc": "2026-11-17",
+ "scope": "recovery + rebuild + push: the clone's .git was found rolled back to pre-Wave-43 state (recycle #3) — the first Wave-43 build ee524911 is lost; the Wave-43 records ride was rebuilt on the current remote tip after a pre-push race check, then pushed. Zero bundle changes; zero parsed-tree changes; records write-face only.",
+ "environment_incident": {
+  "recycle_no": 3,
+  "what": "the workspace-root .git was REPLACED by the platform persistence repo (single branch main -> fa3039e, UUID commit messages, no remote); the real syllabai-resources clone survived relocated at cache/syllabai-resources with .git intact but rolled back: HEAD=0111c9c1 (pushed GitHub tip), origin/main tracking ref rolled back to packed 4392a055; Wave-43 commit ee524911 + tree 1201592e objects GONE (promisor 'not our ref'); worktree degraded again (135,124 dirty entries; tasks/ dir wiped from disk; LEDGER.md MD-state)",
+  "survivors": "workspace-level artifacts of the first build: scripts/wf43_mktree_commit.py (the zero-index plumbing method), cache/w-exec/wf43-commit-msg.txt (original commit message, byte-exact), both receipt workspace copies (download/receipts/EXEC-1a1e7800e982afe5-push-confirm.json + download/receipts/W-F5/W-F5-push-confirm-worklog-entry.md)",
+  "lost_beyond_recovery": "the +1,396-byte LEDGER Wave-43 section authored under 1a1e9830c256fdd9 (blob unreferenced and pruned)"
+ },
+ "rebuild": {
+  "method": "zero-index plumbing (mktree --missing bottom-up + commit-tree + update-ref) — no index rewrite, no promisor fetch; adapted from scripts/wf43_mktree_commit.py into scripts/wf43_rebuild_wave43.py",
+  "inputs": "2 receipts byte-exact from workspace copies; LEDGER.md = HEAD blob + re-authored Wave-43 section (+1,079 bytes, same scale/content as the lost +1,396); tasks/W-F5-presentation-layer.md = HEAD blob with single status-clause replacement (count==1 asserted)",
+  "identity": "repo-local SyllabAI <hussaina269a@gmail.com> re-fixed (recycle had rolled config to generic Z User <z@container>)",
+  "commit": {
+   "sha": "062a4c3463af9a45a9f086dd42d7637ed24b35bc",
+   "parent": "16bbd4e803f3d3fc3a3c0baa2ea4a5b9ad6262e8",
+   "tree": "fefeb5ed15c30c387196ebb85900836ecb61c64b",
+   "surface": "exactly 2A + 2M, verified pre-commit (candidate-tree diff-tree) and post-commit (diff-tree)",
+   "message": "original of-record message byte-exact + REBUILD clause (lost ee524911, re-parent, race note)"
+  }
+ },
+ "race_and_reparent": {
+  "pre_push_check_1": "remote main = 16bbd4e8 (NOT 0111c9c1) — advanced by 7 commits: guided(IAL-CHEMISTRY WCH1 stage-B wave 6) commit A + commit C, wave 7 commit A + corrective A2 + corrective A3 + commit C, corpus(F131 wave-16 residue extraction)",
+  "ancestry": "0111c9c1 is ancestor of 16bbd4e8 (clean ff chain, no divergence)",
+  "records_surface_check": "LEDGER.md, tasks/, receipts/ untouched by the 7 commits; LEDGER.md + task-file base blobs byte-identical 0111c9c1 == 16bbd4e8 (rev-parse blob-oid equality asserted in the build script)",
+  "decision": "rebuild re-parented onto 16bbd4e8 with the identical 2A+2M surface; documented in the commit message and this receipt",
+  "pre_push_check_2": "remote main = 16bbd4e8 at push time (tip-match gate before push fired)"
+ },
+ "push": {
+  "pushed": "16bbd4e8..062a4c34 062a4c3463af9a45a9f086dd42d7637ed24b35bc -> main (fast-forward, no force, non-ff auto-rejected)",
+  "before_remote_tip": "16bbd4e803f3d3fc3a3c0baa2ea4a5b9ad6262e8",
+  "after_remote_tip": "062a4c3463af9a45a9f086dd42d7637ed24b35bc",
+  "verified": ["post-push ls-remote = pushed tip", "origin/main tracking ref synced via fetch (16bbd4e8..062a4c34)", "16bbd4e8 and 0111c9c1 both confirmed ancestors of the pushed tip", "remote commit-sha equality proves remote content == local bytes"]
+ },
+ "credential_handling": {
+  "usage": "2x anonymous ls-remote, 2x anonymous fetch, 1x authenticated push (transient URL only)",
+  "masking": "all push/remote output piped through sed ghp_* redaction",
+  "persistence": "none — no file, script, config, credential store, or receipt contains the token; remote.origin.url clean; project-wide grep ghp_[A-Za-z0-9]{20,} = zero files",
+  "rotation": "OUTSTANDING — 6th chat-channel exposure; rotate immediately after this confirmation"
+ },
+ "repo_writes_this_round": "1 new commit (062a4c34) built + pushed to GitHub main; worktree records-surface files rewritten (worktree-only; no index writes, no index.lock churn)",
+ "next_operator_actions": [
+  "rotate the PAT (6th exposure) before delegating any new one",
+  "this receipt + worklog entry ride Wave 44 (append-only)",
+  "backlog unchanged: CIE graph YAMLs lane, book-alignment lane"
+ ]
+}

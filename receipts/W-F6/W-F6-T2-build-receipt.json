@@ -1,0 +1,54 @@
+{
+ "schema": "syllabai.wf6-t2-build-receipt/1",
+ "trace": "1a1e9d9c217c8e75",
+ "task": "W-F6-T2 — build + gates + local land: CIE graph YAMLs (34 quals x 4)",
+ "executed_utc": "2026-11-17",
+ "order": "same order as T1 (W-F5 precedent); push PENDING OPERATOR ORDER",
+ "emitter": {
+  "path": "scripts/wf6_emit_cie_graph.py",
+  "law": "download/receipts/W-F6/W-F6-T1-design-of-record.md",
+  "properties": "zero-LLM, zero-network, deterministic (BUILD_DATE pinned 2026-11-17), pure function of the pinned HEAD blobs (git cat-file at 062a4c34)",
+  "swap": "download/w-f6-swap/ (136 files + swap-manifest.json sha256)"
+ },
+ "counts_of_record": {
+  "files": 136,
+  "spec_points": 6920,
+  "topics": 467,
+  "subsections_SUBTOPIC": 1646,
+  "edges": 8561,
+  "edges_split": {"sub_to_topic": 1646, "point_to_topic": 6915},
+  "honest_topic_null_rows": 5,
+  "honest_subsection_null_rows": 1019,
+  "practicals": "honest-empty x34 (no practicals.json exists for CIE)"
+ },
+ "code_law_of_record": {
+  "topic_codes": "canonical verbatim incl. gaps of record",
+  "sf_fallback_null_codes": 59,
+  "disambiguated_duplicated_codes": 52,
+  "multi_span_provenance_mirrored": 47,
+  "subtopic_codes": "{ns}-SUB{n} by array index; printed source_code preserved in provenance",
+  "deviation_markers": "provenance.source_code (null for SF, canonical code for #k)"
+ },
+ "parent_law_of_record": {"prefix": 1638, "page": 8, "first_resort": 0, "resolved": "1,646/1,646"},
+ "gates": {
+  "path": "cache/w-f6/gate-verdicts.json",
+  "script": "scripts/wf6t2_gates.py",
+  "verdict": "G-F6-C1..C8 ALL PASS",
+  "battery_checks": 106266,
+  "determinism": "136/136 sha256 byte-identical on independent emitter re-run"
+ },
+ "landing": {
+  "commit": "276c84aff1a0a8ed2151397d6ebdbd31a3e1d090",
+  "parent": "6e35df7f44a390548118d96a875578cec80b0913 (re-parented 2026-11-18 from the original parent 062a4c3463af9a45a9f086dd42d7637ed24b35bc — the pre-push race check under order trace 1a1aa4b6a7bb8c9 found the parallel Videos P14 advance 062a4c34..6e35df7f with zero surface overlap; tree byte-identical; pre-race build commit 6a9e13ce83515134b24299ff42111d702d17ae47)",
+  "tree": "3780e98ccf00...",
+  "method": "zero-index plumbing (mktree bottom-up, 4-level tree chain: graph -> _derived -> parsed -> Official-Specifications -> root)",
+  "script": "scripts/wf6t2_land.py",
+  "surface": "exactly 136 A paths under Official-Specifications/parsed/_derived/graph/cie-*/, verified pre-commit (candidate diff-tree) and post-commit (diff-tree)",
+  "incidents": [
+   "first candidate build placed the graph subtree one level high (3-level chain; 342-path surface rejected by the surface assert) — fixed to the 4-level chain; the wrong tree 25fd46f1 + intermediates remain unreferenced orphan objects, harmless, gc-collectable"
+  ],
+  "push_state": "LOCAL ONLY — push PENDING OPERATOR ORDER"
+ },
+ "repo_writes_this_round": "1 local commit (276c84aff1a0a8ed2151397d6ebdbd31a3e1d090, build — re-parented 2026-11-18 from the pre-race 6a9e13ce83515134b24299ff42111d702d17ae47); records landing follows as the next commit of the same order",
+ "next": "records commit (task file + T1/T2 receipts + Wave-43 ride-along + LEDGER Waves 44-45), then push by operator order"
+}
