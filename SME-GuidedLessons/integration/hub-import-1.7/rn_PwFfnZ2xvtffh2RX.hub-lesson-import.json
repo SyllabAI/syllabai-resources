@@ -1,0 +1,360 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_PwFfnZ2xvtffh2RX",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "38be115ec9ae1596405c5b7c8c66d3cfb581c6c6beb77629a439665f06590483",
+    "pinnedRef": "18586815e7ef4eb9730b8141ba42d5723eaafe5c"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_PwFfnZ2xvtffh2RX",
+    "topicTitle": "4: Rates, Equilibria & Further Organic Chemistry",
+    "subtopicTitle": "Obtaining Rate Data",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/4-rates-equilibria-and-further-organic-chemistry/4-1-kinetics/4-1-4-obtaining-rate-data",
+    "specAnchors": [
+      {
+        "code": "11.3",
+        "text": "be able to select and justify a suitable experimental technique to obtain rate data for a given reaction, including: i titration ii colorimetry iii mass change iv volume of gas evolved v other suitable technique(s) for a given reaction"
+      }
+    ],
+    "primer": {
+      "text": "Every rate measurement leans on a property that changes as the reaction proceeds and is proportional to a concentration. This note surveys the laboratory toolkit: colorimetry for colour change, mass loss for dense gases, gas collection for volume change, and titration with quenching for concentration itself, each with its suitability limits and sketch-graph reading.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_PwFfnZ2xvtffh2RX::L1",
+        "title": "Following rate by colour: colorimetry",
+        "sourceHeadings": [
+          "Changes in colour"
+        ],
+        "specRefs": [
+          "11.3"
+        ],
+        "opening": "When a reaction changes colour, a colorimeter turns that change into concentration data. Light passes through the mixture, a detector logs the intensity reaching it every few seconds, and the plotted readings trace how reactants and products move with time. Precipitates spoil the method by scattering light.",
+        "keyPoints": [
+          "A colorimeter measures the amount of light passing through a solution, logged every few seconds.",
+          "The light intensity reaching the detector is related to concentration, so the plotted data represent concentration against time.",
+          "For a coloured reactant the colour intensity fades with time; the sketch graph shows intensity falling.",
+          "Colorimetry cannot follow the formation of coloured precipitates, because suspended particles scatter or block the light."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "The colorimeter logs light intensity every few seconds; since intensity tracks concentration, the plot is a concentration-time curve, and precipitates break it.",
+            "analogy": "Watching milk dissolve into tea through a clear mug: the clearer the view, the further the mixing has gone.",
+            "examPointer": "Name the interference problem - scattering by suspended solid - when asked why colorimetry fails for precipitates."
+          },
+          "medium": {
+            "restatement": "Absorbance and concentration walk together, so a detector reading is a concentration proxy; the method's one weakness is optical, not chemical.",
+            "analogy": "Headlights in fog: the denser the fog between you and the lamp, the less light arrives, and any floating debris blurs everything.",
+            "examPointer": "If a question shows a calibration curve, use it to convert absorbance readings into concentrations before quoting rates."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_PwFfnZ2xvtffh2RX::L1::Q1",
+          "rn_PwFfnZ2xvtffh2RX::L1::Q2",
+          "rn_PwFfnZ2xvtffh2RX::L1::Q3",
+          "rn_PwFfnZ2xvtffh2RX::L1::Q4",
+          "rn_PwFfnZ2xvtffh2RX::L1::Q5",
+          "rn_PwFfnZ2xvtffh2RX::L1::Q6",
+          "rn_PwFfnZ2xvtffh2RX::L1::Q7",
+          "rn_PwFfnZ2xvtffh2RX::L1::Q8",
+          "rn_PwFfnZ2xvtffh2RX::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01",
+          "fig-02"
+        ]
+      },
+      {
+        "id": "rn_PwFfnZ2xvtffh2RX::L2",
+        "title": "Following rate by mass loss",
+        "sourceHeadings": [
+          "Changes in mass"
+        ],
+        "specRefs": [
+          "11.3"
+        ],
+        "opening": "When a reaction releases a dense gas, the escaping gas carries mass out of the vessel, and a balance records the loss. Carbon dioxide from marble and acid is the classic case; hydrogen is too light for the method to resolve.",
+        "keyPoints": [
+          "When a gas escapes from a reaction vessel the total mass decreases, and the decrease can be recorded with a balance.",
+          "Calcium carbonate reacting with hydrochloric acid gives off carbon dioxide; the mass is recorded every few seconds and plotted.",
+          "Mass loss measures the amount of reactant-side material lost, so the graph reads as an amount-of-reactant against time curve.",
+          "The gas must be dense enough for a 2 or 3 decimal-place balance: carbon dioxide (Mr = 44) suits the method, hydrogen (Mr = 2) does not."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Gas escaping removes mass; weigh every few seconds and plot the loss - but only dense gases such as CO2 register on a normal balance.",
+            "analogy": "A shopper standing on scales while unloading oranges: each bag carried off shows as a small drop, but unloading rice grains one by one would not register.",
+            "examPointer": "Quote the Mr comparison - CO2 at 44 works, H2 at 2 fails - when justifying the method's limits."
+          },
+          "medium": {
+            "restatement": "The balance is a concentration proxy: every gram lost is gas that has formed and left, so the falling mass curve is the reaction's progress line.",
+            "analogy": "An hourglass read from the empty chamber: the sand that has passed is exactly what the top has lost.",
+            "examPointer": "State the density condition before choosing this method in a plan question."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_PwFfnZ2xvtffh2RX::L2::Q1",
+          "rn_PwFfnZ2xvtffh2RX::L2::Q2",
+          "rn_PwFfnZ2xvtffh2RX::L2::Q3",
+          "rn_PwFfnZ2xvtffh2RX::L2::Q4",
+          "rn_PwFfnZ2xvtffh2RX::L2::Q5",
+          "rn_PwFfnZ2xvtffh2RX::L2::Q6",
+          "rn_PwFfnZ2xvtffh2RX::L2::Q7",
+          "rn_PwFfnZ2xvtffh2RX::L2::Q8",
+          "rn_PwFfnZ2xvtffh2RX::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-03",
+          "fig-04"
+        ]
+      },
+      {
+        "id": "rn_PwFfnZ2xvtffh2RX::L3",
+        "title": "Following rate by gas volume",
+        "sourceHeadings": [
+          "Volumes of gases"
+        ],
+        "specRefs": [
+          "11.3"
+        ],
+        "opening": "Trapping a product gas and reading its volume over time is the most standard rate method. A gas syringe collects the gas directly, or an inverted measuring cylinder over water works when the gas is not water soluble. Magnesium in acid giving hydrogen is the canonical example.",
+        "keyPoints": [
+          "Trapping a product gas and tracking its volume over time supplies the rate data.",
+          "Magnesium reacting with hydrochloric acid to release hydrogen is the standard gas-volume example.",
+          "A gas syringe gathers the gas directly; the alternative apparatus bubbles it through water into an inverted measuring cylinder, workable whenever the gas dissolves poorly in water.",
+          "The volume measured every few seconds plots as a graph of volume against time, and the volume represents the amount of product formed."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Collect the gas (syringe, or inverted cylinder over water for non-soluble gases), read volume every few seconds, plot volume against time.",
+            "analogy": "Filling a party balloon from a fizzy drink: the balloon's size tracks how much gas has escaped the bottle.",
+            "examPointer": "The dissolved-in-water caveat is the examiner's favourite caveat - state it when choosing the inverted-cylinder option."
+          },
+          "medium": {
+            "restatement": "Gas volume is the product side's ruler: each cubic centimetre collected corresponds to a fixed number of moles formed, so the volume-time curve is a product-amount curve.",
+            "analogy": "A milometer for gas: every turn of the wheel adds a fixed distance, and the total says how far the reaction has travelled.",
+            "examPointer": "Remember the volume axis reads amount of product, not reactant remaining."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_PwFfnZ2xvtffh2RX::L3::Q1",
+          "rn_PwFfnZ2xvtffh2RX::L3::Q2",
+          "rn_PwFfnZ2xvtffh2RX::L3::Q3",
+          "rn_PwFfnZ2xvtffh2RX::L3::Q4",
+          "rn_PwFfnZ2xvtffh2RX::L3::Q5",
+          "rn_PwFfnZ2xvtffh2RX::L3::Q6",
+          "rn_PwFfnZ2xvtffh2RX::L3::Q7",
+          "rn_PwFfnZ2xvtffh2RX::L3::Q8",
+          "rn_PwFfnZ2xvtffh2RX::L3::Q9"
+        ],
+        "figureIds": [
+          "fig-05",
+          "fig-06",
+          "fig-07"
+        ]
+      },
+      {
+        "id": "rn_PwFfnZ2xvtffh2RX::L4",
+        "title": "Concentration itself: titration, quenching and clock points",
+        "sourceHeadings": [
+          "Measuring concentration changes"
+        ],
+        "specRefs": [
+          "11.3"
+        ],
+        "opening": "Measuring concentration during a reaction is awkward because sampling and analysing take time. Quenching freezes a sample so titration can read its concentration; otherwise the clock trick stops the timer at a visible endpoint, such as the moment sulfur hides a cross under the flask.",
+        "keyPoints": [
+          "Measuring concentration changes directly is difficult because taking and analysing a sample can disturb the reaction unless it is deliberately stopped, which is called quenching.",
+          "Titration of a quenched sample gives its concentration at the moment of quenching.",
+          "It is often simpler to stop the clock at a visible point in the reaction, such as when a piece of magnesium has just dissolved.",
+          "The sodium thiosulfate and hydrochloric acid reaction slowly forms a yellow sulfur precipitate that obscures a cross seen through the solution, giving a timing point."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Quench a sample, titrate it for concentration; or time a visible endpoint - the disappearing-cross reaction is the standard clock point.",
+            "analogy": "Freezing a film of a race at chosen moments: each frozen frame (quenched sample) can be measured in comfort afterwards.",
+            "examPointer": "Use the word quenching when a question asks how to stop a sample from continuing to react."
+          },
+          "medium": {
+            "restatement": "Concentration is the quantity every rate curve secretly plots, so the most direct methods grab it: freeze the chemistry, then measure at leisure.",
+            "analogy": "Bookmarking pages in a melting ice sculpture: you cannot measure while it melts, so you snap-freeze a copy and read it calmly.",
+            "examPointer": "For the thiosulfate reaction, say what the observer sees - the cross disappearing - and what that moment means: a fixed small amount of sulfur formed."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_PwFfnZ2xvtffh2RX::L4::Q1",
+          "rn_PwFfnZ2xvtffh2RX::L4::Q2",
+          "rn_PwFfnZ2xvtffh2RX::L4::Q3",
+          "rn_PwFfnZ2xvtffh2RX::L4::Q4",
+          "rn_PwFfnZ2xvtffh2RX::L4::Q5",
+          "rn_PwFfnZ2xvtffh2RX::L4::Q6",
+          "rn_PwFfnZ2xvtffh2RX::L4::Q7",
+          "rn_PwFfnZ2xvtffh2RX::L4::Q8",
+          "rn_PwFfnZ2xvtffh2RX::L4::Q9"
+        ],
+        "figureIds": [
+          "fig-08"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "colorimetry",
+          "definition": "Rate measurement by logging the light intensity passing through a coloured solution.",
+          "firstLesson": 1
+        },
+        {
+          "term": "mass loss",
+          "definition": "Rate measurement by recording the mass escaping as a dense gas leaves the vessel.",
+          "firstLesson": 2
+        },
+        {
+          "term": "quenching",
+          "definition": "Deliberately stopping a removed sample's reaction so its concentration can be titrated honestly.",
+          "firstLesson": 4
+        },
+        {
+          "term": "gas syringe",
+          "definition": "A sealed barrel that traps a product gas so its volume can be read against time.",
+          "firstLesson": 3
+        }
+      ],
+      "workedExample": null
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/89fcf3d2f419-6-1-3-colorimetry-set-up.png",
+        "alt": "Colorimetry Set Up, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Changes in colour",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Colorimetry Set Up"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/5ab2da3a885e-6-1-3-colour-intensity-sketch-graph.png",
+        "alt": "Colour intensity sketch graph, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Changes in colour",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Sketch graph of colour intensity against time (the coloured species is a reactant in this case)"
+      },
+      {
+        "id": "fig-03",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/5b2862d9e30a-6-1-3-measuring-mass-changes.png",
+        "alt": "Measuring mass changes, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Changes in mass",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "Measuring changes in mass using a balance"
+      },
+      {
+        "id": "fig-04",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/7121f7c93499-6-1-3-mass-loss-graph.png",
+        "alt": "Mass loss graph, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Changes in mass",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "Mass loss of a product against time"
+      },
+      {
+        "id": "fig-05",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/529015928e70-6-1-3-gas-collection-set-up.png",
+        "alt": "Gas collection Set Up, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Volumes of gases",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique",
+        "caption": "Collecting gases experimental set up"
+      },
+      {
+        "id": "fig-06",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/aa9d739a12f6-6-1-3-gas-collection-alternative-set-up.png",
+        "alt": "Gas collection alternative set up, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Volumes of gases",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique",
+        "caption": "Alternative gas collection set up"
+      },
+      {
+        "id": "fig-07",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/9e0dc94f9ea4-6-1-3-graph-of-gas-evolved-against-time.png",
+        "alt": "Graph of gas evolved against time, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Volumes of gases",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique",
+        "caption": "Graph of gas volume evolved against time"
+      },
+      {
+        "id": "fig-08",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/b21650f0a141-6-1-3-the-disappearing-cross-experiment.png",
+        "alt": "The Disappearing Cross Experiment, downloadable IB Chemistry revision notes",
+        "sourceHeading": "Measuring concentration changes",
+        "moduleIds": [
+          "L4"
+        ],
+        "binding": "heading-unique",
+        "caption": "The Disappearing Cross Experiment"
+      }
+    ]
+  }
+}

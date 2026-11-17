@@ -1,0 +1,487 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_KPjcQQr47d65NjCm",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "fb051d6ac850d673ad0d31a4c2bdb801c2989a5afb95bb96a72513f1dd851c44",
+    "pinnedRef": "18586815e7ef4eb9730b8141ba42d5723eaafe5c"
+  },
+  "packageId": "ial-chemistry::rn_KPjcQQr47d65NjCm",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_KPjcQQr47d65NjCm::L1::Q1",
+      "moduleId": "rn_KPjcQQr47d65NjCm::L1",
+      "stem": "Continuous monitoring differs from the initial-rate method because it",
+      "misconceptionClass": "monitoring contrast",
+      "options": [
+        {
+          "key": "A",
+          "text": "Collects data across the whole course of the reaction",
+          "correct": true,
+          "explanation": "The full curve, not just t = 0, is the output.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Needs only a single measurement",
+          "correct": false,
+          "explanation": "Single measurements belong to clock reactions.",
+          "misconception": "method mix"
+        },
+        {
+          "key": "C",
+          "text": "Never uses graphs",
+          "correct": false,
+          "explanation": "The whole output is a graph.",
+          "misconception": "contradiction"
+        },
+        {
+          "key": "D",
+          "text": "Measures temperature continuously",
+          "correct": false,
+          "explanation": "Concentration, via absorbance, is the measured quantity.",
+          "misconception": "concept slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_KPjcQQr47d65NjCm::L1::Q2",
+      "moduleId": "rn_KPjcQQr47d65NjCm::L1",
+      "stem": "In the iodination of propanone, the role of dilute sulfuric acid is",
+      "misconceptionClass": "acid role",
+      "options": [
+        {
+          "key": "A",
+          "text": "Solvent replacing water",
+          "correct": false,
+          "explanation": "Water still forms part of the volume makeup.",
+          "misconception": "role slip"
+        },
+        {
+          "key": "B",
+          "text": "Catalyst for the reaction",
+          "correct": true,
+          "explanation": "The acid catalyses while iodine decolourises.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Reactant consumed in large amount",
+          "correct": false,
+          "explanation": "It is catalytic, not stoichiometric, in the monitored run.",
+          "misconception": "role slip"
+        },
+        {
+          "key": "D",
+          "text": "Indicator of the endpoint",
+          "correct": false,
+          "explanation": "The colorimeter provides the signal.",
+          "misconception": "role slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_KPjcQQr47d65NjCm::L1::Q3",
+      "moduleId": "rn_KPjcQQr47d65NjCm::L1",
+      "stem": "The calibration curve is needed before the experiment because",
+      "misconceptionClass": "calibration need",
+      "options": [
+        {
+          "key": "A",
+          "text": "The reaction must be slowed",
+          "correct": false,
+          "explanation": "Calibration does not touch kinetics.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "B",
+          "text": "Iodine is colourless",
+          "correct": false,
+          "explanation": "Iodine's colour is exactly what is measured.",
+          "misconception": "contradiction"
+        },
+        {
+          "key": "C",
+          "text": "Absorbance readings must be convertible into iodine concentrations",
+          "correct": true,
+          "explanation": "The curve maps absorbance to concentration for the species being followed.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The burettes must be cleaned",
+          "correct": false,
+          "explanation": "Cleaning is not the curve's purpose.",
+          "misconception": "false cause"
+        }
+      ]
+    },
+    {
+      "id": "rn_KPjcQQr47d65NjCm::L1::Q4",
+      "moduleId": "rn_KPjcQQr47d65NjCm::L1",
+      "stem": "Four burettes are used with distilled water maintaining constant total volume so that",
+      "misconceptionClass": "burette design",
+      "options": [
+        {
+          "key": "A",
+          "text": "The colorimeter can hold four samples",
+          "correct": false,
+          "explanation": "One cuvette is read at a time.",
+          "misconception": "false cause"
+        },
+        {
+          "key": "B",
+          "text": "The acid stays colourless",
+          "correct": false,
+          "explanation": "Colour is not the design reason.",
+          "misconception": "false cause"
+        },
+        {
+          "key": "C",
+          "text": "The reaction becomes faster",
+          "correct": false,
+          "explanation": "Speed is not the goal of the volume design.",
+          "misconception": "false cause"
+        },
+        {
+          "key": "D",
+          "text": "Concentrations can be varied between runs while keeping the mixture volume fixed",
+          "correct": true,
+          "explanation": "Volume control isolates concentration as the changed variable.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_KPjcQQr47d65NjCm::L1::Q5",
+      "moduleId": "rn_KPjcQQr47d65NjCm::L1",
+      "stem": "The iodine solution is kept in a separate beaker until timing begins because",
+      "misconceptionClass": "iodine timing",
+      "options": [
+        {
+          "key": "A",
+          "text": "Adding the iodine starts the reaction, so it must join the other liquids as the stopwatch starts",
+          "correct": true,
+          "explanation": "Mixing order and clock order are the same order.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Iodine would evaporate",
+          "correct": false,
+          "explanation": "Evaporation is not the stated reason.",
+          "misconception": "false cause"
+        },
+        {
+          "key": "C",
+          "text": "The colorimeter cannot read iodine",
+          "correct": false,
+          "explanation": "Iodine is precisely what it reads.",
+          "misconception": "contradiction"
+        },
+        {
+          "key": "D",
+          "text": "Iodine reacts with glass",
+          "correct": false,
+          "explanation": "No such incompatibility exists.",
+          "misconception": "nonsense claim"
+        }
+      ]
+    },
+    {
+      "id": "rn_KPjcQQr47d65NjCm::L1::Q6",
+      "moduleId": "rn_KPjcQQr47d65NjCm::L1",
+      "stem": "State the equation for the acid-catalysed iodination of propanone.",
+      "misconceptionClass": "equation recall",
+      "kind": "recall",
+      "modelAnswer": "CH3COCH3 + I2 gives CH3COCH2I and HI, with dilute sulfuric acid as catalyst.",
+      "keywords": [
+        "iodine",
+        "propanone",
+        "sulfuric"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_KPjcQQr47d65NjCm::L1::Q7",
+      "moduleId": "rn_KPjcQQr47d65NjCm::L1",
+      "stem": "State what is measured before the investigation begins.",
+      "misconceptionClass": "preparation recall",
+      "kind": "recall",
+      "modelAnswer": "The absorbances of a set of standard iodine solutions, to obtain the calibration curve.",
+      "keywords": [
+        "absorbance",
+        "standard",
+        "calibration"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_KPjcQQr47d65NjCm::L1::Q8",
+      "moduleId": "rn_KPjcQQr47d65NjCm::L1",
+      "stem": "Explain why absorbance can track iodine concentration during the run.",
+      "misconceptionClass": "absorbance why",
+      "kind": "explain-why",
+      "modelAnswer": "Iodine is the coloured species being consumed, and absorbance is proportional to a coloured species' concentration, so each logged reading gives the iodine concentration at that instant once the calibration curve is applied.",
+      "keywords": [
+        "absorbance",
+        "concentration",
+        "iodine"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_KPjcQQr47d65NjCm::L1::Q9",
+      "moduleId": "rn_KPjcQQr47d65NjCm::L1",
+      "stem": "A student mixes propanone and acid, then adds iodine fifteen seconds before starting the data logger. Comment on the consequence.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "The reaction ran unlogged for fifteen seconds, so the earliest data are missing; the curve still exists but its opening section must be extrapolated, and the missing window weakens any early-gradient reading.",
+      "keywords": [
+        "logged",
+        "curve",
+        "seconds"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_KPjcQQr47d65NjCm::L2::Q1",
+      "moduleId": "rn_KPjcQQr47d65NjCm::L2",
+      "stem": "The volume compositions table specifies",
+      "misconceptionClass": "volumes table role",
+      "options": [
+        {
+          "key": "A",
+          "text": "The catalyst used",
+          "correct": false,
+          "explanation": "The catalyst is fixed, not tabulated per run.",
+          "misconception": "table mix"
+        },
+        {
+          "key": "B",
+          "text": "The burette volumes of iodine, propanone, acid and water for each run",
+          "correct": true,
+          "explanation": "The recipes let concentration be varied at fixed total volume.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "The absorbance of each run",
+          "correct": false,
+          "explanation": "Absorbance lives in the results table.",
+          "misconception": "table mix"
+        },
+        {
+          "key": "D",
+          "text": "The temperature of each run",
+          "correct": false,
+          "explanation": "Temperature is not the table's content.",
+          "misconception": "table mix"
+        }
+      ]
+    },
+    {
+      "id": "rn_KPjcQQr47d65NjCm::L2::Q2",
+      "moduleId": "rn_KPjcQQr47d65NjCm::L2",
+      "stem": "The practical tip for filter choice says to pick the filter that",
+      "misconceptionClass": "filter tip",
+      "options": [
+        {
+          "key": "A",
+          "text": "Matches the solution's own colour",
+          "correct": false,
+          "explanation": "Complementary, not matching, is the rule.",
+          "misconception": "colour slip"
+        },
+        {
+          "key": "B",
+          "text": "Is cheapest",
+          "correct": false,
+          "explanation": "Cost is not the criterion.",
+          "misconception": "irrelevant claim"
+        },
+        {
+          "key": "C",
+          "text": "Gives the strongest absorbance, the complementary colour to the solution",
+          "correct": true,
+          "explanation": "Strong absorbance maximises the signal.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Gives the weakest absorbance",
+          "correct": false,
+          "explanation": "A weak signal drowns in noise.",
+          "misconception": "inversion slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_KPjcQQr47d65NjCm::L2::Q3",
+      "moduleId": "rn_KPjcQQr47d65NjCm::L2",
+      "stem": "The rate at 300 seconds is found by",
+      "misconceptionClass": "instant rate method",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dividing the final concentration by 300",
+          "correct": false,
+          "explanation": "That is an average, not an instantaneous rate.",
+          "misconception": "concept slip"
+        },
+        {
+          "key": "B",
+          "text": "Reading the concentration at 300 s directly",
+          "correct": false,
+          "explanation": "Concentration is not rate.",
+          "misconception": "concept slip"
+        },
+        {
+          "key": "C",
+          "text": "Subtracting the starting concentration from 300",
+          "correct": false,
+          "explanation": "No such operation exists.",
+          "misconception": "invented method"
+        },
+        {
+          "key": "D",
+          "text": "Drawing a vertical line to the curve at 300 s, adding a tangent, and taking its gradient",
+          "correct": true,
+          "explanation": "The local gradient is the local rate.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_KPjcQQr47d65NjCm::L2::Q4",
+      "moduleId": "rn_KPjcQQr47d65NjCm::L2",
+      "stem": "The tangent at 300 seconds on the specimen graph gives a rate of",
+      "misconceptionClass": "tangent value",
+      "options": [
+        {
+          "key": "A",
+          "text": "1.17 x 10^-5 mol dm^-3 s^-1, from 0.0069/590",
+          "correct": true,
+          "explanation": "The rise over run computes to about 1.17e-5.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "590/0.0069 mol dm^-3 s^-1",
+          "correct": false,
+          "explanation": "The quotient is inverted.",
+          "misconception": "inversion slip"
+        },
+        {
+          "key": "C",
+          "text": "0.0069 mol dm^-3 s^-1",
+          "correct": false,
+          "explanation": "That is the rise, not the gradient.",
+          "misconception": "partial number"
+        },
+        {
+          "key": "D",
+          "text": "1.17 x 10^5 mol dm^-3 s^-1",
+          "correct": false,
+          "explanation": "The power of ten is wildly off.",
+          "misconception": "magnitude slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_KPjcQQr47d65NjCm::L2::Q5",
+      "moduleId": "rn_KPjcQQr47d65NjCm::L2",
+      "stem": "Watching iodine concentration continuously earns its keep in order analysis because",
+      "misconceptionClass": "why continuous",
+      "options": [
+        {
+          "key": "A",
+          "text": "Concentrations never change",
+          "correct": false,
+          "explanation": "The falling concentration is the whole point.",
+          "misconception": "contradiction"
+        },
+        {
+          "key": "B",
+          "text": "Gradients at many times show how rate responds to changing concentration",
+          "correct": true,
+          "explanation": "Multiple tangents expose the rate-concentration relationship.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "It needs no apparatus",
+          "correct": false,
+          "explanation": "It needs a colorimeter and data logger.",
+          "misconception": "false claim"
+        },
+        {
+          "key": "D",
+          "text": "Each run gives only one rate",
+          "correct": false,
+          "explanation": "It gives rates at every instant.",
+          "misconception": "contradiction"
+        }
+      ]
+    },
+    {
+      "id": "rn_KPjcQQr47d65NjCm::L2::Q6",
+      "moduleId": "rn_KPjcQQr47d65NjCm::L2",
+      "stem": "State the gradient calculation demonstrated at 300 seconds.",
+      "misconceptionClass": "gradient recall",
+      "kind": "recall",
+      "modelAnswer": "0.0069 divided by 590, giving 1.17 x 10^-5 mol dm^-3 s^-1.",
+      "keywords": [
+        "gradient",
+        "tangent",
+        "divided"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_KPjcQQr47d65NjCm::L2::Q7",
+      "moduleId": "rn_KPjcQQr47d65NjCm::L2",
+      "stem": "State what the specimen results table and its graph record.",
+      "misconceptionClass": "results recall",
+      "kind": "recall",
+      "modelAnswer": "The iodine concentration falling as the reaction proceeds, against time.",
+      "keywords": [
+        "iodine",
+        "concentration",
+        "proceeds"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_KPjcQQr47d65NjCm::L2::Q8",
+      "moduleId": "rn_KPjcQQr47d65NjCm::L2",
+      "stem": "Explain why a tangent, rather than a chord, is used to read the rate at 300 seconds.",
+      "misconceptionClass": "tangent why",
+      "kind": "explain-why",
+      "modelAnswer": "A chord averages the rate over an interval, while a tangent touches the curve at one instant, so only the tangent's gradient is the instantaneous rate at exactly 300 seconds.",
+      "keywords": [
+        "tangent",
+        "instant",
+        "seconds"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_KPjcQQr47d65NjCm::L2::Q9",
+      "moduleId": "rn_KPjcQQr47d65NjCm::L2",
+      "stem": "Two tangents on the same results curve give 1.17 x 10^-5 at 300 s and a smaller value at 600 s. What does the shrinkage suggest about the order in iodine?",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "The rate falls as iodine concentration falls, so the rate depends on iodine concentration - behaviour pointing to a positive order in iodine rather than zero order.",
+      "keywords": [
+        "tangent",
+        "order",
+        "iodine"
+      ],
+      "options": []
+    }
+  ]
+}

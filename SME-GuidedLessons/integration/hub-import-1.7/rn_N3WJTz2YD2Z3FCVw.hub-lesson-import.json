@@ -1,0 +1,265 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_N3WJTz2YD2Z3FCVw",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "46e1db76cd67edd353d190f189060d3da97bc105fa16e035ad2c6d3607d14a3b",
+    "pinnedRef": "18586815e7ef4eb9730b8141ba42d5723eaafe5c"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_N3WJTz2YD2Z3FCVw",
+    "topicTitle": "4: Rates, Equilibria & Further Organic Chemistry",
+    "subtopicTitle": "Entropy - Introduction",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/4-rates-equilibria-and-further-organic-chemistry/4-2-entropy/4-2-1-entropy---introduction",
+    "specAnchors": [
+      {
+        "code": "12.2",
+        "text": "understand entropy as a measure of disorder of a system in terms of the random dispersal of molecules and of energy quanta between molecules"
+      }
+    ],
+    "primer": {
+      "text": "Entropy S counts the number of possible arrangements of particles and energy in a system, so disorder is energetically spread out and favoured. This note counts arrangements for molecules spreading between two gas jars, links the count to entropy through S = k ln W with the Boltzmann constant, and extends the same counting to energy quanta shared among particles.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_N3WJTz2YD2Z3FCVw::L1",
+        "title": "Why endothermic reactions happen at all",
+        "sourceHeadings": [
+          "Entropy - Introduction"
+        ],
+        "specRefs": [
+          "12.2"
+        ],
+        "opening": "Endothermic reactions push products into a higher-energy state, which enthalpy alone cannot justify. The missing driver is entropy: nature also spreads energy and matter, and a system that spreads them out becomes energetically more stable even while getting hotter on paper.",
+        "keyPoints": [
+          "Enthalpy alone cannot explain why endothermic reactions occur, since their products end in a higher-energy state.",
+          "The answer is entropy, the missing driving force behind chemical reactions.",
+          "Although most everyday reactions are exothermic, the second driver matters wherever disorder spreads."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Enthalpy is only half the story; entropy, the spreading of particles and energy, is the other half, and it alone carries endothermic changes.",
+            "analogy": "A pocket of coins: shaking can cost a little energy but scatter the coins into a tidier-ordered arrangement no one wants to reverse.",
+            "examPointer": "When asked why an endothermic reaction occurs, say 'entropy' before anything else."
+          },
+          "medium": {
+            "restatement": "Two books keep the universe's ledger: energy in and energy spread out; a reaction is driven when either book shows a gain, and endothermic ones live on the spread.",
+            "analogy": "A student who spends pocket money (energy up) but gains freedom (spread out) may still feel better off overall.",
+            "examPointer": "Pair every feasibility answer with both drivers - delta H and delta S."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_N3WJTz2YD2Z3FCVw::L1::Q1",
+          "rn_N3WJTz2YD2Z3FCVw::L1::Q2",
+          "rn_N3WJTz2YD2Z3FCVw::L1::Q3",
+          "rn_N3WJTz2YD2Z3FCVw::L1::Q4",
+          "rn_N3WJTz2YD2Z3FCVw::L1::Q5",
+          "rn_N3WJTz2YD2Z3FCVw::L1::Q6",
+          "rn_N3WJTz2YD2Z3FCVw::L1::Q7",
+          "rn_N3WJTz2YD2Z3FCVw::L1::Q8",
+          "rn_N3WJTz2YD2Z3FCVw::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01"
+        ]
+      },
+      {
+        "id": "rn_N3WJTz2YD2Z3FCVw::L2",
+        "title": "Counting arrangements",
+        "sourceHeadings": [
+          "Chaos in the universe",
+          "Distribution of Molecules"
+        ],
+        "specRefs": [
+          "12.2"
+        ],
+        "opening": "Entropy counts possibilities. Define it as how many arrangements particles and their energy can take, watch five bromine molecules spread between two gas jars, and count the arrangements: 2^5 = 32. More particles, more ways, higher entropy.",
+        "keyPoints": [
+          "The entropy S of a system counts the arrangements possible for its particles and their energy - a measure of disorder.",
+          "Melting a solid illustrates disorder rising: fixed lattice positions give way to mobile, randomly arranged molecules.",
+          "Spread five bromine molecules across two gas jars: every molecule picks between two jars, so W = 2^5 = 32.",
+          "With 100 molecules, W becomes 2^100, so the number of arrangements grows explosively with particle count.",
+          "Entropy links to the count through S = k ln W, with k the Boltzmann constant 1.38 x 10^-23 J K^-1 mol^-1."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Entropy counts arrangements; five molecules across two jars give 2^5 = 32 ways, and S = k ln W converts the count into entropy units.",
+            "analogy": "Ten people each choosing between two doors: the crowd's options multiply person by person, 2 to the power of ten.",
+            "examPointer": "The Boltzmann constant carries the units J K^-1 mol^-1 - quote it with the equation."
+          },
+          "medium": {
+            "restatement": "Each extra particle multiplies the arrangement count again, which is why entropy loves crowded, gaseous, warm systems: more residents, more rooms, more ways to live.",
+            "analogy": "A hotel with two rooms per guest: add guests and the possible guest-books multiply factor by factor.",
+            "examPointer": "Note the direction: spreading out (diffusion, melting) always raises W and S."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_N3WJTz2YD2Z3FCVw::L2::Q1",
+          "rn_N3WJTz2YD2Z3FCVw::L2::Q2",
+          "rn_N3WJTz2YD2Z3FCVw::L2::Q3",
+          "rn_N3WJTz2YD2Z3FCVw::L2::Q4",
+          "rn_N3WJTz2YD2Z3FCVw::L2::Q5",
+          "rn_N3WJTz2YD2Z3FCVw::L2::Q6",
+          "rn_N3WJTz2YD2Z3FCVw::L2::Q7",
+          "rn_N3WJTz2YD2Z3FCVw::L2::Q8",
+          "rn_N3WJTz2YD2Z3FCVw::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-02",
+          "fig-03"
+        ]
+      },
+      {
+        "id": "rn_N3WJTz2YD2Z3FCVw::L3",
+        "title": "Spreading energy in packets",
+        "sourceHeadings": [
+          "Distribution of energy"
+        ],
+        "specRefs": [
+          "12.2"
+        ],
+        "opening": "Energy spreads like matter does. Heat comes in packets - quanta - and only whole packets can be held, so warming a system hands its particles more quanta to share; the more particles sharing, the more ways to share. Temperature, particle count and entropy rise together.",
+        "keyPoints": [
+          "Spreading heat energy out is itself an increase in entropy.",
+          "Energy exists in packets called quanta, and only whole numbers of quanta are possible.",
+          "More available quanta give more ways to share them out; more particles likewise give more ways of sharing.",
+          "Raising temperature increases the quanta to distribute, so entropy rises with temperature."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Quanta are indivisible energy packets; more quanta and more particles mean more ways to share, so heating raises entropy.",
+            "analogy": "Sharing sweets among children: more sweets or more children multiply the possible hand-outs.",
+            "examPointer": "Tie temperature to quanta supply - hotter means more packets to distribute."
+          },
+          "medium": {
+            "restatement": "Entropy counts arrangements of energy exactly as it counts arrangements of matter; a warmer system simply has more energy coins to arrange.",
+            "analogy": "A bigger pile of coins in more pockets: the number of honest ways to distribute them explodes.",
+            "examPointer": "Expect exam links: heating, more particles and state changes all raise entropy by this route."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_N3WJTz2YD2Z3FCVw::L3::Q1",
+          "rn_N3WJTz2YD2Z3FCVw::L3::Q2",
+          "rn_N3WJTz2YD2Z3FCVw::L3::Q3",
+          "rn_N3WJTz2YD2Z3FCVw::L3::Q4",
+          "rn_N3WJTz2YD2Z3FCVw::L3::Q5",
+          "rn_N3WJTz2YD2Z3FCVw::L3::Q6",
+          "rn_N3WJTz2YD2Z3FCVw::L3::Q7",
+          "rn_N3WJTz2YD2Z3FCVw::L3::Q8",
+          "rn_N3WJTz2YD2Z3FCVw::L3::Q9"
+        ],
+        "figureIds": [
+          "fig-04"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "entropy",
+          "definition": "The number of possible arrangements of particles and energy in a system, a measure of disorder.",
+          "firstLesson": 1
+        },
+        {
+          "term": "Boltzmann constant",
+          "definition": "The constant k in S = k ln W, equal to 1.38 x 10^-23 J K^-1 mol^-1.",
+          "firstLesson": 2
+        },
+        {
+          "term": "quantum",
+          "definition": "An indivisible packet of energy; only whole numbers of quanta can be held.",
+          "firstLesson": 3
+        }
+      ],
+      "workedExample": {
+        "prompt": "Five molecules of orange bromine gas spread between two joined gas jars. Calculate the number of arrangements W, and the entropy contribution per system using S = k ln W with k = 1.38 x 10^-23 J K^-1 mol^-1.",
+        "steps": [
+          "Every molecule can pick either jar, so W = 2^5, five factors of two, which comes to 32.",
+          "Evaluate the power: 2^5 = 32.",
+          "Take the natural log: ln 32 = 3.466.",
+          "Multiply by the Boltzmann constant: 1.38 x 10^-23 x 3.466 = 4.78 x 10^-23 J K^-1."
+        ],
+        "finalAnswer": "W = 32 arrangements, giving S = 4.78 x 10^-23 J K^-1 for the system."
+      }
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/8935a057c766-cf41b612-4694-4cc7-be38-011079e5139c.webp",
+        "alt": "Endothermic energy profile",
+        "sourceHeading": "Entropy - Introduction",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "The driving force behind chemical reactions cannot be explained by enthalpy changes alone as it makes not sense for chemical to end up in a less stable higher energy state in endothermic reactions"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/363d6ac261cc-5-1-6-entropy-change.png",
+        "alt": "Entropy change, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Chaos in the universe",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "Melting a solid will cause the particles to become more disordered resulting in a higher entropy state"
+      },
+      {
+        "id": "fig-03",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/95bb38969ab2-dc87d202-9a39-4059-8882-9632afbda1e4.jpeg",
+        "alt": "dc87d202-9a39-4059-8882-9632afbda1e4",
+        "sourceHeading": "Distribution of Molecules",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "The first two gas jars are separated by a glass cover slip, the second two gas jars are not separated allowing molecules to spread evenly between the two"
+      },
+      {
+        "id": "fig-04",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/c5808aeec833-0c41d6d7-2b30-4e0f-a5fb-134faf3b1f84.jpeg",
+        "alt": "0c41d6d7-2b30-4e0f-a5fb-134faf3b1f84",
+        "sourceHeading": "Distribution of energy",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique",
+        "caption": "Flow chart to show the effect of increasing temperature on entropy"
+      }
+    ]
+  }
+}

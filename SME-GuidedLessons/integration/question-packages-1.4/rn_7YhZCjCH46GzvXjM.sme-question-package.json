@@ -1,0 +1,487 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_7YhZCjCH46GzvXjM",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "d722033d39bd5b4dea6b9432b2c6ee28cf453400db1c3f8e199bfaeb23ded6b4",
+    "pinnedRef": "18586815e7ef4eb9730b8141ba42d5723eaafe5c"
+  },
+  "packageId": "ial-chemistry::rn_7YhZCjCH46GzvXjM",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_7YhZCjCH46GzvXjM::L1::Q1",
+      "moduleId": "rn_7YhZCjCH46GzvXjM::L1",
+      "stem": "A Born-Haber cycle is best described as",
+      "misconceptionClass": "cycle definition",
+      "options": [
+        {
+          "key": "A",
+          "text": "An application of Hess's law to ionic compounds for calculating lattice enthalpy",
+          "correct": true,
+          "explanation": "The cycle enforces enthalpy conservation around a closed loop.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "A new law of thermodynamics",
+          "correct": false,
+          "explanation": "It reuses Hess's law, adding nothing new.",
+          "misconception": "concept slip"
+        },
+        {
+          "key": "C",
+          "text": "A direct measurement of lattice energy",
+          "correct": false,
+          "explanation": "No direct measurement exists.",
+          "misconception": "contradiction"
+        },
+        {
+          "key": "D",
+          "text": "A diagram of reaction rates",
+          "correct": false,
+          "explanation": "Kinetics is unrelated.",
+          "misconception": "topic mix"
+        }
+      ]
+    },
+    {
+      "id": "rn_7YhZCjCH46GzvXjM::L1::Q2",
+      "moduleId": "rn_7YhZCjCH46GzvXjM::L1",
+      "stem": "In the drawn cycle, the elements in their standard states are placed",
+      "misconceptionClass": "element placement",
+      "options": [
+        {
+          "key": "A",
+          "text": "Outside the diagram",
+          "correct": false,
+          "explanation": "The elements are the pivot of the cycle.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "B",
+          "text": "About a third of the way up, on a marked horizontal starting level",
+          "correct": true,
+          "explanation": "The convention anchors the diagram.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "At the very bottom",
+          "correct": false,
+          "explanation": "Formation occupies the bottom.",
+          "misconception": "placement slip"
+        },
+        {
+          "key": "D",
+          "text": "At the very top",
+          "correct": false,
+          "explanation": "Gaseous ions sit high.",
+          "misconception": "placement slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_7YhZCjCH46GzvXjM::L1::Q3",
+      "moduleId": "rn_7YhZCjCH46GzvXjM::L1",
+      "stem": "The arrows for creating gaseous atoms point upward because",
+      "misconceptionClass": "upward arrows",
+      "options": [
+        {
+          "key": "A",
+          "text": "The convention demands it regardless of sign",
+          "correct": false,
+          "explanation": "Arrow direction follows the enthalpy sign.",
+          "misconception": "overstatement"
+        },
+        {
+          "key": "B",
+          "text": "Ions form at the same time",
+          "correct": false,
+          "explanation": "Ionisation is a separate later step.",
+          "misconception": "step mix"
+        },
+        {
+          "key": "C",
+          "text": "Breaking bonds to make gaseous atoms requires energy",
+          "correct": true,
+          "explanation": "Atomisation is endothermic.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Gases are lighter",
+          "correct": false,
+          "explanation": "Mass is irrelevant to the drawing.",
+          "misconception": "nonsense claim"
+        }
+      ]
+    },
+    {
+      "id": "rn_7YhZCjCH46GzvXjM::L1::Q4",
+      "moduleId": "rn_7YhZCjCH46GzvXjM::L1",
+      "stem": "In the sodium chloride cycle, the electron affinity arrow for chlorine points downward because",
+      "misconceptionClass": "downward affinity",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chlorine is a gas",
+          "correct": false,
+          "explanation": "Gas handling was already drawn.",
+          "misconception": "false cause"
+        },
+        {
+          "key": "B",
+          "text": "The chloride ion is heavy",
+          "correct": false,
+          "explanation": "Mass is irrelevant.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "C",
+          "text": "Diagrams require variety",
+          "correct": false,
+          "explanation": "Physics, not aesthetics, sets the direction.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "D",
+          "text": "Gaining the electron releases energy, an exothermic change",
+          "correct": true,
+          "explanation": "The -364 value drives the descent.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_7YhZCjCH46GzvXjM::L1::Q5",
+      "moduleId": "rn_7YhZCjCH46GzvXjM::L1",
+      "stem": "The step that closes the sodium chloride cycle is",
+      "misconceptionClass": "closing step",
+      "options": [
+        {
+          "key": "A",
+          "text": "The lattice enthalpy, from gaseous ions down to solid NaCl",
+          "correct": true,
+          "explanation": "The loop closes at the ionic solid.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The atomisation of sodium",
+          "correct": false,
+          "explanation": "That opens the climb.",
+          "misconception": "step slip"
+        },
+        {
+          "key": "C",
+          "text": "The ionisation of sodium",
+          "correct": false,
+          "explanation": "That is a mid-climb step.",
+          "misconception": "step slip"
+        },
+        {
+          "key": "D",
+          "text": "The enthalpy of formation of chlorine gas",
+          "correct": false,
+          "explanation": "Chlorine's element level is already drawn.",
+          "misconception": "step slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_7YhZCjCH46GzvXjM::L1::Q6",
+      "moduleId": "rn_7YhZCjCH46GzvXjM::L1",
+      "stem": "State the enthalpy values shown in the sodium chloride construction for atomisation, ionisation, electron affinity and formation.",
+      "misconceptionClass": "values recall",
+      "kind": "recall",
+      "modelAnswer": "Atomisation of Na +108, of half Cl2 +121, first ionisation of Na +500, electron affinity of Cl -364, and formation of NaCl -411 kJ mol^-1.",
+      "keywords": [
+        "atomisation",
+        "ionisation",
+        "formation"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_7YhZCjCH46GzvXjM::L1::Q7",
+      "moduleId": "rn_7YhZCjCH46GzvXjM::L1",
+      "stem": "State where the elements sit on a Born-Haber diagram.",
+      "misconceptionClass": "placement recall",
+      "kind": "recall",
+      "modelAnswer": "About a third of the way up, marked by a horizontal starting level.",
+      "keywords": [
+        "elements",
+        "level",
+        "horizontal"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_7YhZCjCH46GzvXjM::L1::Q8",
+      "moduleId": "rn_7YhZCjCH46GzvXjM::L1",
+      "stem": "Explain why the Born-Haber cycle can deliver a lattice enthalpy that no experiment measures directly.",
+      "misconceptionClass": "cycle power why",
+      "kind": "explain-why",
+      "modelAnswer": "Hess's law makes the enthalpy change route-independent: the direct gaseous-ion route equals the sum of the measurable atomisation, ionisation, electron-affinity and formation steps, so the closed loop solves for the one unmeasurable term.",
+      "keywords": [
+        "route",
+        "lattice",
+        "enthalpy"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_7YhZCjCH46GzvXjM::L1::Q9",
+      "moduleId": "rn_7YhZCjCH46GzvXjM::L1",
+      "stem": "Sketch the level order for the potassium chloride cycle: which steps climb and which descend?",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Atomisation of K (+90) and of half Cl2 (+122) and ionisation of K (+418) climb; electron affinity of Cl (-349), formation (-437) and lattice formation descend, closing the loop.",
+      "keywords": [
+        "climb",
+        "descend",
+        "atomisation"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_7YhZCjCH46GzvXjM::L2::Q1",
+      "moduleId": "rn_7YhZCjCH46GzvXjM::L2",
+      "stem": "The rearranged equation for lattice energy is",
+      "misconceptionClass": "lattice rearrangement",
+      "options": [
+        {
+          "key": "A",
+          "text": "Delta latt H = delta f H x delta 1 H",
+          "correct": false,
+          "explanation": "No product rule applies.",
+          "misconception": "operation slip"
+        },
+        {
+          "key": "B",
+          "text": "Delta latt H = delta f H - delta 1 H",
+          "correct": true,
+          "explanation": "Formation minus the element-to-ion sum.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Delta latt H = delta 1 H - delta f H",
+          "correct": false,
+          "explanation": "The subtraction runs the wrong way.",
+          "misconception": "inversion slip"
+        },
+        {
+          "key": "D",
+          "text": "Delta latt H = delta f H + delta 1 H",
+          "correct": false,
+          "explanation": "The long route subtracts from the shortcut.",
+          "misconception": "sign slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_7YhZCjCH46GzvXjM::L2::Q2",
+      "moduleId": "rn_7YhZCjCH46GzvXjM::L2",
+      "stem": "For MgCl2, the chlorine electron affinity is counted twice because",
+      "misconceptionClass": "doubling reason",
+      "options": [
+        {
+          "key": "A",
+          "text": "Magnesium ionises twice",
+          "correct": false,
+          "explanation": "Magnesium's two ionisations are separate terms.",
+          "misconception": "term mix"
+        },
+        {
+          "key": "B",
+          "text": "The lattice holds two magnesiums",
+          "correct": false,
+          "explanation": "It holds one magnesium per formula unit.",
+          "misconception": "fact slip"
+        },
+        {
+          "key": "C",
+          "text": "Two moles of chlorine atoms each gain one mole of electrons per mole of compound",
+          "correct": true,
+          "explanation": "The formula unit carries two chlorides.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Chlorine's affinity is especially large",
+          "correct": false,
+          "explanation": "Stoichiometry, not magnitude, drives the doubling.",
+          "misconception": "wrong reason"
+        }
+      ]
+    },
+    {
+      "id": "rn_7YhZCjCH46GzvXjM::L2::Q3",
+      "moduleId": "rn_7YhZCjCH46GzvXjM::L2",
+      "stem": "The lattice energy of KCl from delta f H = -437, atomisation 90 and 122, ionisation +418 and electron affinity -349 is",
+      "misconceptionClass": "KCl value",
+      "options": [
+        {
+          "key": "A",
+          "text": "+718 kJ mol^-1",
+          "correct": false,
+          "explanation": "Lattice formation is exothermic.",
+          "misconception": "sign slip"
+        },
+        {
+          "key": "B",
+          "text": "-155 kJ mol^-1",
+          "correct": false,
+          "explanation": "That adds instead of subtracting the ion steps.",
+          "misconception": "operation slip"
+        },
+        {
+          "key": "C",
+          "text": "-1259 kJ mol^-1",
+          "correct": false,
+          "explanation": "That adds every magnitude regardless of sign.",
+          "misconception": "operation slip"
+        },
+        {
+          "key": "D",
+          "text": "-718 kJ mol^-1",
+          "correct": true,
+          "explanation": "-437 - (90 + 122 + 418 - 349) = -437 - 281.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_7YhZCjCH46GzvXjM::L2::Q4",
+      "moduleId": "rn_7YhZCjCH46GzvXjM::L2",
+      "stem": "The lattice energy of MgO is much more exothermic than KCl's chiefly because",
+      "misconceptionClass": "MgO comparison",
+      "options": [
+        {
+          "key": "A",
+          "text": "Doubly charged, smaller ions and two electron affinities (one strongly endothermic) enter the ledger",
+          "correct": true,
+          "explanation": "Charge, size and stoichiometry all deepen the value.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Oxygen is heavier than chlorine",
+          "correct": false,
+          "explanation": "Mass is not the driver.",
+          "misconception": "irrelevant claim"
+        },
+        {
+          "key": "C",
+          "text": "Magnesium is a gas",
+          "correct": false,
+          "explanation": "It atomises from a solid.",
+          "misconception": "fact slip"
+        },
+        {
+          "key": "D",
+          "text": "KCl has no electron affinity",
+          "correct": false,
+          "explanation": "Its single affinity is included.",
+          "misconception": "false claim"
+        }
+      ]
+    },
+    {
+      "id": "rn_7YhZCjCH46GzvXjM::L2::Q5",
+      "moduleId": "rn_7YhZCjCH46GzvXjM::L2",
+      "stem": "If a Born-Haber question supplies the lattice energy and asks for the formation enthalpy, you should",
+      "misconceptionClass": "reverse ask",
+      "options": [
+        {
+          "key": "A",
+          "text": "Average the given values",
+          "correct": false,
+          "explanation": "No averaging law applies.",
+          "misconception": "invented method"
+        },
+        {
+          "key": "B",
+          "text": "Identify the direct and indirect routes, then rearrange the same equation for the unknown",
+          "correct": true,
+          "explanation": "The logic is symmetric whichever stage is hidden.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Redraw the cycle from scratch with new rules",
+          "correct": false,
+          "explanation": "The same cycle serves.",
+          "misconception": "overcomplication"
+        },
+        {
+          "key": "D",
+          "text": "Divide the lattice energy by T",
+          "correct": false,
+          "explanation": "Temperature has no role here.",
+          "misconception": "topic mix"
+        }
+      ]
+    },
+    {
+      "id": "rn_7YhZCjCH46GzvXjM::L2::Q6",
+      "moduleId": "rn_7YhZCjCH46GzvXjM::L2",
+      "stem": "State delta 1 H for the KCl calculation.",
+      "misconceptionClass": "delta 1 recall",
+      "kind": "recall",
+      "modelAnswer": "(+90) + (+122) + (+418) + (-349) = +281 kJ mol^-1.",
+      "keywords": [
+        "sum",
+        "gaseous",
+        "calculation"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_7YhZCjCH46GzvXjM::L2::Q7",
+      "moduleId": "rn_7YhZCjCH46GzvXjM::L2",
+      "stem": "State the lattice energy of MgO from the given data.",
+      "misconceptionClass": "MgO recall",
+      "kind": "recall",
+      "modelAnswer": "-3812 kJ mol^-1, from (-602) minus the six-term sum (+148 + 248 + 736 + 1450 - 142 + 770).",
+      "keywords": [
+        "lattice",
+        "energy",
+        "minus"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_7YhZCjCH46GzvXjM::L2::Q8",
+      "moduleId": "rn_7YhZCjCH46GzvXjM::L2",
+      "stem": "Explain why the asked-for stage is always the direct route in these calculations.",
+      "misconceptionClass": "direct route why",
+      "kind": "explain-why",
+      "modelAnswer": "Hess's law equates the direct one-step change with the sum of the multi-step route; the question's unknown sits on the direct side, so subtracting the known long-route terms isolates it.",
+      "keywords": [
+        "direct",
+        "sum",
+        "route"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_7YhZCjCH46GzvXjM::L2::Q9",
+      "moduleId": "rn_7YhZCjCH46GzvXjM::L2",
+      "stem": "A cycle for calcium chloride uses delta f H = -796 kJ mol^-1, atomisation of Ca +178, of half Cl2 +121, first two ionisations +590 and +1146, and first electron affinity of Cl -349 (twice). Compute the lattice energy.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Delta 1 H = 178 + 121 + 590 + 1146 + 2(-349) = 1337; delta latt H = -796 - 1337 = -2133 kJ mol^-1.",
+      "keywords": [
+        "sum",
+        "lattice",
+        "delta"
+      ],
+      "options": []
+    }
+  ]
+}

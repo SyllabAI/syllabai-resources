@@ -1,0 +1,723 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_RbNB742mkWxTjz9b",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "68487dca36cbee3de14682ab461b86cddca6d678c954d344d853acc2c1e617b6",
+    "pinnedRef": "18586815e7ef4eb9730b8141ba42d5723eaafe5c"
+  },
+  "packageId": "ial-chemistry::rn_RbNB742mkWxTjz9b",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_RbNB742mkWxTjz9b::L1::Q1",
+      "moduleId": "rn_RbNB742mkWxTjz9b::L1",
+      "stem": "The gradient of a zero-order concentration-time line gives",
+      "misconceptionClass": "zero gradient",
+      "options": [
+        {
+          "key": "A",
+          "text": "The rate of reaction, which is also the rate constant k",
+          "correct": true,
+          "explanation": "For zero order rate = k, so the constant slope carries both meanings.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The order of the reaction",
+          "correct": false,
+          "explanation": "The shape, not the gradient, announces the order.",
+          "misconception": "concept swap"
+        },
+        {
+          "key": "C",
+          "text": "The half-life of the reaction",
+          "correct": false,
+          "explanation": "Half-life is read from the axes, not this gradient.",
+          "misconception": "concept swap"
+        },
+        {
+          "key": "D",
+          "text": "The activation energy",
+          "correct": false,
+          "explanation": "Energy terms belong to Arrhenius work.",
+          "misconception": "topic mix"
+        }
+      ]
+    },
+    {
+      "id": "rn_RbNB742mkWxTjz9b::L1::Q2",
+      "moduleId": "rn_RbNB742mkWxTjz9b::L1",
+      "stem": "A concentration-time graph that is a straight downward line indicates",
+      "misconceptionClass": "straight downhill",
+      "options": [
+        {
+          "key": "A",
+          "text": "A catalysed reaction",
+          "correct": false,
+          "explanation": "Catalysis is not diagnosed by a straight line.",
+          "misconception": "false cause"
+        },
+        {
+          "key": "B",
+          "text": "Zero order in that reactant",
+          "correct": true,
+          "explanation": "The unchanging slope shows rate independent of concentration.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "First order in that reactant",
+          "correct": false,
+          "explanation": "First order curves rather than running straight.",
+          "misconception": "shape slip"
+        },
+        {
+          "key": "D",
+          "text": "Second order in that reactant",
+          "correct": false,
+          "explanation": "Second order is the steepest curve of the three.",
+          "misconception": "shape slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_RbNB742mkWxTjz9b::L1::Q3",
+      "moduleId": "rn_RbNB742mkWxTjz9b::L1",
+      "stem": "The first-order concentration-time curve flattens at long times because",
+      "misconceptionClass": "first order shape",
+      "options": [
+        {
+          "key": "A",
+          "text": "The products block the reaction completely",
+          "correct": false,
+          "explanation": "Blocking is not the mechanism here.",
+          "misconception": "invented cause"
+        },
+        {
+          "key": "B",
+          "text": "The temperature fell during the run",
+          "correct": false,
+          "explanation": "Temperature is held constant in these experiments.",
+          "misconception": "false cause"
+        },
+        {
+          "key": "C",
+          "text": "The reactant is being used up, so the rate falls with its concentration",
+          "correct": true,
+          "explanation": "Declining concentration slows the reaction, easing the slope.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The reaction has become zero order permanently",
+          "correct": false,
+          "explanation": "The order does not change during the run.",
+          "misconception": "false cause"
+        }
+      ]
+    },
+    {
+      "id": "rn_RbNB742mkWxTjz9b::L1::Q4",
+      "moduleId": "rn_RbNB742mkWxTjz9b::L1",
+      "stem": "Compared with a first-order concentration-time curve, a second-order curve",
+      "misconceptionClass": "second order shape",
+      "options": [
+        {
+          "key": "A",
+          "text": "Is a straight horizontal line",
+          "correct": false,
+          "explanation": "A horizontal line belongs to a zero-order rate-concentration graph.",
+          "misconception": "shape slip"
+        },
+        {
+          "key": "B",
+          "text": "Plateaus immediately",
+          "correct": false,
+          "explanation": "Plateau behaviour is the first-order signature at long times.",
+          "misconception": "shape slip"
+        },
+        {
+          "key": "C",
+          "text": "Rises upward",
+          "correct": false,
+          "explanation": "Reactant concentration only falls.",
+          "misconception": "direction slip"
+        },
+        {
+          "key": "D",
+          "text": "Drops more steeply as time passes",
+          "correct": true,
+          "explanation": "Rate depends on the square of concentration, which falls faster.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_RbNB742mkWxTjz9b::L1::Q5",
+      "moduleId": "rn_RbNB742mkWxTjz9b::L1",
+      "stem": "For a zero-order reaction the rate equation is",
+      "misconceptionClass": "zero order equation",
+      "options": [
+        {
+          "key": "A",
+          "text": "rate = k, with no concentration term",
+          "correct": true,
+          "explanation": "Zero order removes the reactant from the expression entirely.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "rate = k[A]",
+          "correct": false,
+          "explanation": "That is the first-order rate equation.",
+          "misconception": "order slip"
+        },
+        {
+          "key": "C",
+          "text": "rate = k[A]^2",
+          "correct": false,
+          "explanation": "That is the second-order rate equation.",
+          "misconception": "order slip"
+        },
+        {
+          "key": "D",
+          "text": "rate = k/[A]",
+          "correct": false,
+          "explanation": "No inverse law appears in this treatment.",
+          "misconception": "invented form"
+        }
+      ]
+    },
+    {
+      "id": "rn_RbNB742mkWxTjz9b::L1::Q6",
+      "moduleId": "rn_RbNB742mkWxTjz9b::L1",
+      "stem": "State the shape of a zero-order concentration-time graph and what its gradient represents.",
+      "misconceptionClass": "zero shape recall",
+      "kind": "recall",
+      "modelAnswer": "A straight line sloping downwards whose gradient represents the constant rate, equal to k.",
+      "keywords": [
+        "gradient",
+        "constant",
+        "represents"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_RbNB742mkWxTjz9b::L1::Q7",
+      "moduleId": "rn_RbNB742mkWxTjz9b::L1",
+      "stem": "State the shapes for first and second order on a concentration-time graph.",
+      "misconceptionClass": "shapes recall",
+      "kind": "recall",
+      "modelAnswer": "First order: a downward curve that plateaus; second order: a steeper downward curve.",
+      "keywords": [
+        "curve",
+        "steeper",
+        "plateaus"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_RbNB742mkWxTjz9b::L1::Q8",
+      "moduleId": "rn_RbNB742mkWxTjz9b::L1",
+      "stem": "Explain why the zero-order concentration-time graph has a constant gradient.",
+      "misconceptionClass": "zero gradient why",
+      "kind": "explain-why",
+      "modelAnswer": "The rate of a zero-order reaction does not depend on concentration, so as the reactant is consumed the rate refuses to change; an unchanging rate on a concentration-time plot is exactly an unchanging gradient, a straight line.",
+      "keywords": [
+        "gradient",
+        "constant",
+        "concentration"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_RbNB742mkWxTjz9b::L1::Q9",
+      "moduleId": "rn_RbNB742mkWxTjz9b::L1",
+      "stem": "A concentration-time graph starts steep and becomes steadily steeper. Which order does this suggest, and which rate equation accompanies it?",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "The deepening steepness marks second order, and the accompanying rate equation is rate = k[A]^2.",
+      "keywords": [
+        "second",
+        "equation",
+        "accompanying"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_RbNB742mkWxTjz9b::L2::Q1",
+      "moduleId": "rn_RbNB742mkWxTjz9b::L2",
+      "stem": "A reaction shows successive half-lives of 100 s, 50 s and 25 s. The order is",
+      "misconceptionClass": "shrinking half lives",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fractional order",
+          "correct": false,
+          "explanation": "No fractional evidence appears here.",
+          "misconception": "invented cause"
+        },
+        {
+          "key": "B",
+          "text": "Zero order, whose half-lives decrease with time",
+          "correct": true,
+          "explanation": "Halving takes less and less time as the reaction progresses.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "First order, whose half-lives are constant",
+          "correct": false,
+          "explanation": "First-order half-lives would all read 100 s.",
+          "misconception": "order slip"
+        },
+        {
+          "key": "D",
+          "text": "Second order, whose half-lives increase",
+          "correct": false,
+          "explanation": "Second-order half-lives grow, not shrink.",
+          "misconception": "order slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_RbNB742mkWxTjz9b::L2::Q2",
+      "moduleId": "rn_RbNB742mkWxTjz9b::L2",
+      "stem": "The trademark of a first-order reaction is",
+      "misconceptionClass": "first order trademark",
+      "options": [
+        {
+          "key": "A",
+          "text": "A half-life that shortens as the reaction runs",
+          "correct": false,
+          "explanation": "That is the zero-order signature.",
+          "misconception": "order slip"
+        },
+        {
+          "key": "B",
+          "text": "A half-life that changes with volume",
+          "correct": false,
+          "explanation": "Half-life is a time, unaffected by vessel size.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "C",
+          "text": "A half-life that remains constant throughout the reaction",
+          "correct": true,
+          "explanation": "Each successive halving takes the same time.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "A half-life that lengthens as the reaction runs",
+          "correct": false,
+          "explanation": "That is the second-order signature.",
+          "misconception": "order slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_RbNB742mkWxTjz9b::L2::Q3",
+      "moduleId": "rn_RbNB742mkWxTjz9b::L2",
+      "stem": "For a second-order reaction, as the reaction progresses the half-life",
+      "misconceptionClass": "second order half life",
+      "options": [
+        {
+          "key": "A",
+          "text": "Decreases steadily",
+          "correct": false,
+          "explanation": "Decreasing half-lives mark zero order.",
+          "misconception": "order slip"
+        },
+        {
+          "key": "B",
+          "text": "Stays the same",
+          "correct": false,
+          "explanation": "Constant half-lives mark first order.",
+          "misconception": "order slip"
+        },
+        {
+          "key": "C",
+          "text": "Alternates up and down",
+          "correct": false,
+          "explanation": "No alternating pattern exists.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "D",
+          "text": "Increases, because the falling concentration slows the rate ever more",
+          "correct": true,
+          "explanation": "Rate tied to the square of a shrinking concentration makes halvings slower.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_RbNB742mkWxTjz9b::L2::Q4",
+      "moduleId": "rn_RbNB742mkWxTjz9b::L2",
+      "stem": "The half-life method identifies order because",
+      "misconceptionClass": "half life logic",
+      "options": [
+        {
+          "key": "A",
+          "text": "Each order couples rate to concentration differently, giving a characteristic pattern of successive halvings",
+          "correct": true,
+          "explanation": "The halving pattern is the order's fingerprint.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Half-life equals the rate constant for every order",
+          "correct": false,
+          "explanation": "Only under special relations is that true.",
+          "misconception": "false equation"
+        },
+        {
+          "key": "C",
+          "text": "Half-life is independent of order",
+          "correct": false,
+          "explanation": "The whole method rests on order dependence.",
+          "misconception": "contradiction"
+        },
+        {
+          "key": "D",
+          "text": "Half-life measures activation energy",
+          "correct": false,
+          "explanation": "Energy has no role here.",
+          "misconception": "topic mix"
+        }
+      ]
+    },
+    {
+      "id": "rn_RbNB742mkWxTjz9b::L2::Q5",
+      "moduleId": "rn_RbNB742mkWxTjz9b::L2",
+      "stem": "A concentration-time curve shows the concentration halving every 40 seconds without exception. The rate equation is",
+      "misconceptionClass": "constant half life equation",
+      "options": [
+        {
+          "key": "A",
+          "text": "Unknowable without a rate-concentration graph",
+          "correct": false,
+          "explanation": "The half-life table already decides the order.",
+          "misconception": "underconfidence"
+        },
+        {
+          "key": "B",
+          "text": "rate = k[A], first order",
+          "correct": true,
+          "explanation": "A constant half-life is the first-order signature.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "rate = k, zero order",
+          "correct": false,
+          "explanation": "Zero order would show shrinking half-lives.",
+          "misconception": "order slip"
+        },
+        {
+          "key": "D",
+          "text": "rate = k[A]^2, second order",
+          "correct": false,
+          "explanation": "Second order would show stretching half-lives.",
+          "misconception": "order slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_RbNB742mkWxTjz9b::L2::Q6",
+      "moduleId": "rn_RbNB742mkWxTjz9b::L2",
+      "stem": "State what happens to successive half-lives in a zero-order reaction.",
+      "misconceptionClass": "zero half recall",
+      "kind": "recall",
+      "modelAnswer": "The successive half-lives decrease, taking less time for each halving as the reaction progresses.",
+      "keywords": [
+        "decrease",
+        "successive",
+        "lives"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_RbNB742mkWxTjz9b::L2::Q7",
+      "moduleId": "rn_RbNB742mkWxTjz9b::L2",
+      "stem": "State the half-life pattern of a first-order reaction.",
+      "misconceptionClass": "first half recall",
+      "kind": "recall",
+      "modelAnswer": "The half-life remains constant throughout the reaction, each halving taking the same time.",
+      "keywords": [
+        "constant",
+        "throughout",
+        "remains"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_RbNB742mkWxTjz9b::L2::Q8",
+      "moduleId": "rn_RbNB742mkWxTjz9b::L2",
+      "stem": "Explain why a constant half-life indicates first order.",
+      "misconceptionClass": "constant half why",
+      "kind": "explain-why",
+      "modelAnswer": "First-order rate tracks concentration, so each halving of the concentration halves the rate as well, and the time the next halving needs repeats identically - a signature unique to proportionality.",
+      "keywords": [
+        "proportional",
+        "concentration",
+        "proportionality"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_RbNB742mkWxTjz9b::L2::Q9",
+      "moduleId": "rn_RbNB742mkWxTjz9b::L2",
+      "stem": "A reactant's concentration falls from 2.0 to 1.0 mol dm^-3 in 30 s, then from 1.0 to 0.5 mol dm^-3 in 60 s. Deduce the order.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "The halving time stretched from 30 s to 60 s, so successive half-lives increase and the reaction is second order.",
+      "keywords": [
+        "half",
+        "second",
+        "successive"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_RbNB742mkWxTjz9b::L3::Q1",
+      "moduleId": "rn_RbNB742mkWxTjz9b::L3",
+      "stem": "A rate-concentration graph that is a horizontal line shows the reaction is",
+      "misconceptionClass": "horizontal rate graph",
+      "options": [
+        {
+          "key": "A",
+          "text": "Second order",
+          "correct": false,
+          "explanation": "Second order is a rising curve.",
+          "misconception": "shape slip"
+        },
+        {
+          "key": "B",
+          "text": "Catalysed",
+          "correct": false,
+          "explanation": "Catalysis is not read from this shape.",
+          "misconception": "false cause"
+        },
+        {
+          "key": "C",
+          "text": "Zero order in that reactant",
+          "correct": true,
+          "explanation": "Rate stays flat as concentration changes.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "First order",
+          "correct": false,
+          "explanation": "First order is a straight rising line.",
+          "misconception": "shape slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_RbNB742mkWxTjz9b::L3::Q2",
+      "moduleId": "rn_RbNB742mkWxTjz9b::L3",
+      "stem": "A straight line through the origin on a rate-concentration graph corresponds to the rate equation",
+      "misconceptionClass": "straight rate graph",
+      "options": [
+        {
+          "key": "A",
+          "text": "rate = k",
+          "correct": false,
+          "explanation": "That plots as a horizontal line.",
+          "misconception": "shape slip"
+        },
+        {
+          "key": "B",
+          "text": "rate = k[A]^2",
+          "correct": false,
+          "explanation": "That plots as an upward curve.",
+          "misconception": "shape slip"
+        },
+        {
+          "key": "C",
+          "text": "rate = k/[A]",
+          "correct": false,
+          "explanation": "No inverse form appears here.",
+          "misconception": "invented form"
+        },
+        {
+          "key": "D",
+          "text": "rate = k[A]",
+          "correct": true,
+          "explanation": "Direct proportionality plots as a line through the origin.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_RbNB742mkWxTjz9b::L3::Q3",
+      "moduleId": "rn_RbNB742mkWxTjz9b::L3",
+      "stem": "The rate equation rate = k[A]^2 plots on rate-concentration axes as",
+      "misconceptionClass": "square rate graph",
+      "options": [
+        {
+          "key": "A",
+          "text": "An upward-sweeping curve",
+          "correct": true,
+          "explanation": "The square relation bends the line upward.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "A straight line through the origin",
+          "correct": false,
+          "explanation": "That is the first-order plot.",
+          "misconception": "shape slip"
+        },
+        {
+          "key": "C",
+          "text": "A horizontal line",
+          "correct": false,
+          "explanation": "That is the zero-order plot.",
+          "misconception": "shape slip"
+        },
+        {
+          "key": "D",
+          "text": "A downward curve",
+          "correct": false,
+          "explanation": "Rate rises with concentration for positive orders.",
+          "misconception": "direction slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_RbNB742mkWxTjz9b::L3::Q4",
+      "moduleId": "rn_RbNB742mkWxTjz9b::L3",
+      "stem": "The classic exam confusion to avoid is mixing",
+      "misconceptionClass": "exam confusion",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reactants with products",
+          "correct": false,
+          "explanation": "Product concentrations rarely headline these graphs.",
+          "misconception": "concept slip"
+        },
+        {
+          "key": "B",
+          "text": "Concentration-time shapes with rate-concentration shapes",
+          "correct": true,
+          "explanation": "A straight line means zero order on one graph and first order on the other.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Rate equations with half-life equations",
+          "correct": false,
+          "explanation": "Half-life is a separate test.",
+          "misconception": "topic mix"
+        },
+        {
+          "key": "D",
+          "text": "Orders with activation energies",
+          "correct": false,
+          "explanation": "Orders never involve Ea.",
+          "misconception": "topic mix"
+        }
+      ]
+    },
+    {
+      "id": "rn_RbNB742mkWxTjz9b::L3::Q5",
+      "moduleId": "rn_RbNB742mkWxTjz9b::L3",
+      "stem": "On a rate-concentration graph, increasing [A] for a zero-order reaction leaves the plotted point",
+      "misconceptionClass": "zero point motion",
+      "options": [
+        {
+          "key": "A",
+          "text": "Four times as high",
+          "correct": false,
+          "explanation": "That is second-order behaviour.",
+          "misconception": "order slip"
+        },
+        {
+          "key": "B",
+          "text": "Lower than before",
+          "correct": false,
+          "explanation": "Rate never falls when a reactant is added here.",
+          "misconception": "direction slip"
+        },
+        {
+          "key": "C",
+          "text": "At the same height, because rate is unchanged",
+          "correct": true,
+          "explanation": "The horizontal line says rate ignores [A].",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Twice as high",
+          "correct": false,
+          "explanation": "That is first-order behaviour.",
+          "misconception": "order slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_RbNB742mkWxTjz9b::L3::Q6",
+      "moduleId": "rn_RbNB742mkWxTjz9b::L3",
+      "stem": "State the rate-concentration shape for a first-order reaction.",
+      "misconceptionClass": "first rate shape recall",
+      "kind": "recall",
+      "modelAnswer": "A straight line through the origin, reflecting rate = k[A].",
+      "keywords": [
+        "straight",
+        "origin",
+        "reflecting"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_RbNB742mkWxTjz9b::L3::Q7",
+      "moduleId": "rn_RbNB742mkWxTjz9b::L3",
+      "stem": "State the three rate-concentration shapes in order words.",
+      "misconceptionClass": "shapes rate recall",
+      "kind": "recall",
+      "modelAnswer": "Zero order: horizontal line; first order: straight line through the origin; second order: upward curve.",
+      "keywords": [
+        "horizontal",
+        "curve",
+        "straight"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_RbNB742mkWxTjz9b::L3::Q8",
+      "moduleId": "rn_RbNB742mkWxTjz9b::L3",
+      "stem": "Explain why the first-order rate-concentration graph passes through the origin.",
+      "misconceptionClass": "origin why",
+      "kind": "explain-why",
+      "modelAnswer": "With rate = k[A], setting the concentration to zero leaves a rate of zero, so the line must start at the origin and rise proportionally.",
+      "keywords": [
+        "proportional",
+        "origin",
+        "concentration"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_RbNB742mkWxTjz9b::L3::Q9",
+      "moduleId": "rn_RbNB742mkWxTjz9b::L3",
+      "stem": "A rate-concentration graph is a curve through the origin and the matching concentration-time graph shows increasing half-lives. Deduce the order and the rate equation.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "The curved rate plot and the stretching half-lives both point to second order, so the rate equation is rate = k[A]^2.",
+      "keywords": [
+        "curve",
+        "second",
+        "equation"
+      ],
+      "options": []
+    }
+  ]
+}

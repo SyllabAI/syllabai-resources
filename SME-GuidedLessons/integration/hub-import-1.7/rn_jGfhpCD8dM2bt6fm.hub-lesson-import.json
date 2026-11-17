@@ -1,0 +1,328 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_jGfhpCD8dM2bt6fm",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "11f2cfb40ff29654beeb1b3a345053d2a7afa85e87a4f3a58a8c341b4e6f1346",
+    "pinnedRef": "18586815e7ef4eb9730b8141ba42d5723eaafe5c"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_jGfhpCD8dM2bt6fm",
+    "topicTitle": "4: Rates, Equilibria & Further Organic Chemistry",
+    "subtopicTitle": "Reaction Feasibility",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/4-rates-equilibria-and-further-organic-chemistry/4-2-entropy/4-2-4-reaction-feasibility",
+    "specAnchors": [
+      {
+        "code": "12.9",
+        "text": "understand that the feasibility of a reaction depends on: i the balance between ∆ S system and ∆ S surroundings , so that even endothermic reactions can occur spontaneously at room temperature ii temperature, as higher temperatures decrease the magnitude of ∆ S surroundings so its contribution to ∆ S total is less Students should be able to calculate the temperature at which a reaction is feasible . Students may also use ∆ G = ∆ H - T∆ S system in answers, although this approach is not a requirement of the specification."
+      },
+      {
+        "code": "12.11",
+        "text": "understand and distinguish between the concepts of thermodynamic stability and kinetic stability"
+      }
+    ],
+    "primer": {
+      "text": "A reaction is feasible when the system and surroundings entropy changes combine to a positive total. Gibbs free energy packs the same test into one expression, delta G = delta H - T delta S. This note sorts feasible and infeasible sign combinations, finds the temperature where feasibility flips, and separates thermodynamic permission from kinetic reluctance.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_jGfhpCD8dM2bt6fm::L1",
+        "title": "Feasibility, total entropy and the Gibbs test",
+        "sourceHeadings": [
+          "Summary",
+          "Gibbs free energy"
+        ],
+        "specRefs": [
+          "12.9"
+        ],
+        "opening": "A reaction is feasible when system and surroundings entropy changes add to a positive total, and Gibbs free energy packs that sum into one line: delta G = delta H - T delta S, feasible at or below zero, with delta S divided by 1000 to match delta H's kilojoules. The state ladder - solid below liquid below gas - predicts the system's sign at a glance.",
+        "keyPoints": [
+          "For delta S total to be positive and the reaction feasible, three sign patterns work: both terms positive; surroundings positive outweighing a negative system; system positive outweighing a negative surroundings.",
+          "Entropy generally increases along solid, liquid, gas, so state changes in the equation hint at the system's sign.",
+          "Ethanoic acid with ammonium carbonate is endothermic, yet a gas produced from a solid and a liquid makes the system term win, so the reaction runs.",
+          "The Gibbs equation is delta G = delta H reaction - T delta S system.",
+          "Delta G is quoted in kJ mol^-1, with T in kelvin and delta S system converted from J K^-1 mol^-1 by dividing by 1000.",
+          "A reaction is feasible when delta G is equal to or less than zero."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Add the two entropy books, or read the one Gibbs line: feasible means a positive total, equivalently delta G at or below zero, with delta S converted before substituting.",
+            "analogy": "Two bank accounts deciding a purchase, or a till receipt where the enthalpy price minus a temperature-scaled refund leaves the final bill.",
+            "examPointer": "The /1000 conversion is the most common lost mark - write it explicitly."
+          },
+          "medium": {
+            "restatement": "Feasibility is a sum, not a veto: each term can be negative provided its partner is positive enough, and temperature sits multiplying the entropy term, which is exactly how heating can flip a verdict.",
+            "analogy": "A seesaw with two riders; a deposit refunded more generously every year you wait until the refund covers the price.",
+            "examPointer": "Quote a sign pattern rather than just 'spontaneous', and treat delta G = 0 as the turning point."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_jGfhpCD8dM2bt6fm::L1::Q1",
+          "rn_jGfhpCD8dM2bt6fm::L1::Q2",
+          "rn_jGfhpCD8dM2bt6fm::L1::Q3",
+          "rn_jGfhpCD8dM2bt6fm::L1::Q4",
+          "rn_jGfhpCD8dM2bt6fm::L1::Q5",
+          "rn_jGfhpCD8dM2bt6fm::L1::Q6",
+          "rn_jGfhpCD8dM2bt6fm::L1::Q7",
+          "rn_jGfhpCD8dM2bt6fm::L1::Q8",
+          "rn_jGfhpCD8dM2bt6fm::L1::Q9"
+        ],
+        "figureIds": []
+      },
+      {
+        "id": "rn_jGfhpCD8dM2bt6fm::L2",
+        "title": "Exothermic and endothermic reactions against temperature",
+        "sourceHeadings": [
+          "Exothermic reactions",
+          "Endothermic reactions"
+        ],
+        "specRefs": [
+          "12.9"
+        ],
+        "opening": "For exothermic reactions delta H is negative: a positive system entropy makes every temperature feasible, while a negative one only flips infeasible at extreme heat. Endothermic reactions start positive on enthalpy, so a negative system entropy dooms them everywhere, and a positive one needs furnace heat - the blast furnace works hot and fails cold.",
+        "keyPoints": [
+          "In exothermic reactions delta H is negative.",
+          "If delta S system is positive, both terms are negative and delta G is negative at any temperature, so the reaction is always feasible.",
+          "If delta S system is negative, the T delta S term is positive and grows with T, so at very high temperatures delta G turns positive and the reaction is not feasible.",
+          "In endothermic reactions delta H is positive.",
+          "If delta S system is negative, both terms are positive, delta G is positive, and the reaction is never feasible.",
+          "If delta S system is positive, the term -T delta S is negative and grows with temperature, so the reaction becomes feasible at high temperatures."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Exothermic plus positive delta S: always feasible. Exothermic plus negative delta S: feasible until high T flips it. Endothermic plus negative delta S: never feasible. Endothermic plus positive delta S: feasible only above the flip temperature.",
+            "analogy": "A shop discount always applied (negative delta H) against a hidden fee that grows with time (negative delta S); a gym membership that always costs (positive delta H) plus a reward that scales with attendance (positive delta S) eventually pays.",
+            "examPointer": "The 'always feasible' and 'never feasible' cases are the exam's fastest single-line answers."
+          },
+          "medium": {
+            "restatement": "Temperature scales only the entropy term, so sign combinations decide everything: like-signed terms never flip, oppositely-signed terms flip when T grows large enough for the entropy side to win.",
+            "analogy": "A heavy boat with a small sail: normal winds cannot turn it, but a hurricane might; a dinghy flips in a breeze.",
+            "examPointer": "Expect feasibility-at-temperature questions: compute delta G at the given T and compare with zero."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_jGfhpCD8dM2bt6fm::L2::Q1",
+          "rn_jGfhpCD8dM2bt6fm::L2::Q2",
+          "rn_jGfhpCD8dM2bt6fm::L2::Q3",
+          "rn_jGfhpCD8dM2bt6fm::L2::Q4",
+          "rn_jGfhpCD8dM2bt6fm::L2::Q5",
+          "rn_jGfhpCD8dM2bt6fm::L2::Q6",
+          "rn_jGfhpCD8dM2bt6fm::L2::Q7",
+          "rn_jGfhpCD8dM2bt6fm::L2::Q8",
+          "rn_jGfhpCD8dM2bt6fm::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-01",
+          "fig-02",
+          "fig-03"
+        ]
+      },
+      {
+        "id": "rn_jGfhpCD8dM2bt6fm::L3",
+        "title": "The temperature of the flip",
+        "sourceHeadings": [
+          "Summary of factors affecting Gibbs free energy"
+        ],
+        "specRefs": [
+          "12.9"
+        ],
+        "opening": "The flip temperature is where delta G crosses zero, so T = delta H / delta S once both are on the same scale. The aluminium oxide plus carbon example converts a positive enthalpy and positive entropy into one threshold: 1336 kJ mol^-1 over 0.581 kJ K^-1 mol^-1 gives about 2299 K.",
+        "keyPoints": [
+          "The summary diagram gathers the four delta H and delta S sign cases and their temperature verdicts.",
+          "Delta G becomes negative when T delta S exceeds delta H, so the flip temperature solves T = delta H / delta S.",
+          "For aluminium oxide with carbon, delta H = +1336 kJ mol^-1 and delta S = +581 J K^-1 mol^-1, so T = 1336/0.581 = 2299 K.",
+          "The conversion of delta S from J to kJ is the essential step before dividing."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Flip temperature: T = delta H / delta S with matching units; positive-positive changes flip from infeasible to feasible above it.",
+            "analogy": "A thermostat point: below it the room stays cold (infeasible), above it the heating wins (feasible).",
+            "examPointer": "Convert delta S by /1000 before dividing - then quote T in kelvin."
+          },
+          "medium": {
+            "restatement": "Setting delta G to zero freezes the battle at parity, so the threshold temperature is just the price (delta H) divided by the daily refund rate (delta S).",
+            "analogy": "Break-even attendance: ticket price divided by profit per head tells you the crowd you need.",
+            "examPointer": "Round sensibly - 2299 K is 'about 2300 K' in narrative answers."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_jGfhpCD8dM2bt6fm::L3::Q1",
+          "rn_jGfhpCD8dM2bt6fm::L3::Q2",
+          "rn_jGfhpCD8dM2bt6fm::L3::Q3",
+          "rn_jGfhpCD8dM2bt6fm::L3::Q4",
+          "rn_jGfhpCD8dM2bt6fm::L3::Q5",
+          "rn_jGfhpCD8dM2bt6fm::L3::Q6",
+          "rn_jGfhpCD8dM2bt6fm::L3::Q7",
+          "rn_jGfhpCD8dM2bt6fm::L3::Q8",
+          "rn_jGfhpCD8dM2bt6fm::L3::Q9"
+        ],
+        "figureIds": [
+          "fig-04"
+        ]
+      },
+      {
+        "id": "rn_jGfhpCD8dM2bt6fm::L4",
+        "title": "Thermodynamic versus kinetic stability",
+        "sourceHeadings": [
+          "Thermodynamic & Kinetic Stability"
+        ],
+        "specRefs": [
+          "12.11"
+        ],
+        "opening": "Permission is not speed. Thermodynamic stability asks whether delta G is negative; kinetic stability asks how high the activation energy sits. Methane sits quietly in oxygen for thermodynamic reasons yet never burns unlit; hydrogen peroxide decomposes spontaneously on paper but waits for a catalyst such as manganese dioxide.",
+        "keyPoints": [
+          "Thermodynamic stability asks whether a reaction is feasible under the stated conditions, with delta G negative.",
+          "Reactions are more likely to be feasible when delta H is negative or delta S is positive.",
+          "Kinetic stability refers to speed: a high activation energy makes a reaction kinetically stable even when feasible.",
+          "Methane is thermodynamically primed to burn but kinetically stable until ignited; hydrogen peroxide decomposes feasibly at 298 K yet needs an MnO2 catalyst in practice.",
+          "A catalyst offers an alternative route with a lower activation energy without touching the thermodynamics."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Feasible (delta G negative) is permission; a high Ea is reluctance. Catalysts lower Ea, never delta G.",
+            "analogy": "A door left unlocked (feasible) at the top of a cliff (high Ea): reaching it is another matter; a lift (catalyst) changes the climb, not the lock.",
+            "examPointer": "Pair the words: thermodynamic = whether, kinetic = how fast."
+          },
+          "medium": {
+            "restatement": "The Gibbs verdict and the activation barrier are independent ledgers; a reaction may pass one and fail the other, which is why fuels wait for sparks and peroxides wait for catalysts.",
+            "analogy": "A raffle you have already won (thermodynamics) whose prize sits behind a maze (kinetics): winning and collecting are different tasks.",
+            "examPointer": "Answer 'why doesn't it react?' questions with Ea, never with delta G."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_jGfhpCD8dM2bt6fm::L4::Q1",
+          "rn_jGfhpCD8dM2bt6fm::L4::Q2",
+          "rn_jGfhpCD8dM2bt6fm::L4::Q3",
+          "rn_jGfhpCD8dM2bt6fm::L4::Q4",
+          "rn_jGfhpCD8dM2bt6fm::L4::Q5",
+          "rn_jGfhpCD8dM2bt6fm::L4::Q6",
+          "rn_jGfhpCD8dM2bt6fm::L4::Q7",
+          "rn_jGfhpCD8dM2bt6fm::L4::Q8",
+          "rn_jGfhpCD8dM2bt6fm::L4::Q9"
+        ],
+        "figureIds": []
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "feasibility",
+          "definition": "Whether a reaction is thermodynamically allowed, tested by delta S total or delta G.",
+          "firstLesson": 1
+        },
+        {
+          "term": "Gibbs free energy",
+          "definition": "The quantity delta G = delta H - T delta S whose sign is the feasibility verdict.",
+          "firstLesson": 1
+        },
+        {
+          "term": "kinetic stability",
+          "definition": "Reluctance to react caused by a high activation energy, regardless of feasibility.",
+          "firstLesson": 4
+        },
+        {
+          "term": "flip temperature",
+          "definition": "The temperature at which delta G crosses zero, equal to delta H divided by delta S.",
+          "firstLesson": 3
+        }
+      ],
+      "workedExample": {
+        "prompt": "Aluminium oxide reacting with carbon will not proceed at room temperature. Given delta H = +1336 kJ mol^-1 and delta S = +581 J K^-1 mol^-1, calculate the temperature at which the reaction first becomes feasible.",
+        "steps": [
+          "Both delta H and delta S are positive, so delta G turns negative once T delta S exceeds delta H.",
+          "Set delta G = 0, which gives T = delta H / delta S.",
+          "Convert delta S to kJ K^-1 mol^-1: 581 J K^-1 mol^-1 = 0.581 kJ K^-1 mol^-1.",
+          "Divide: T = 1336 / 0.581 = 2299 K."
+        ],
+        "finalAnswer": "The reaction becomes feasible at about 2299 K."
+      }
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/79edb59f3b46-5-2-entropy-gibbs-equation.png",
+        "alt": "The Gibbs equation written out with its terms labelled",
+        "sourceHeading": "Exothermic reactions",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/b0b51c2cf202-5-2-entropy-feasibility-of-exothermic-reactions.png",
+        "alt": "Diagram of when exothermic reactions are feasible",
+        "sourceHeading": "Exothermic reactions",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "The diagram shows under which conditions exothermic reactions are feasible"
+      },
+      {
+        "id": "fig-03",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/0441a932a6dc-5-2-entropy-feasibility-of-endothermic-reactions.png",
+        "alt": "Diagram of when endothermic reactions are feasible",
+        "sourceHeading": "Endothermic reactions",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "The diagram shows under which conditions endothermic reactions are feasible"
+      },
+      {
+        "id": "fig-04",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/fe5c97cfd8a3-factors-affecting-gibbs-free-energy-1.png",
+        "alt": "Summary table of the factors affecting Gibbs free energy",
+        "sourceHeading": "Summary of factors affecting Gibbs free energy",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique"
+      }
+    ]
+  }
+}

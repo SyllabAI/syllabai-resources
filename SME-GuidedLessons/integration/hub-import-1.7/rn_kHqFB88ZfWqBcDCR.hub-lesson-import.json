@@ -1,0 +1,185 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_kHqFB88ZfWqBcDCR",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "0ce1542deadeae3286e8a93b68981c067d37ee7056c05393774782b7e6bf7f96",
+    "pinnedRef": "18586815e7ef4eb9730b8141ba42d5723eaafe5c"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_kHqFB88ZfWqBcDCR",
+    "topicTitle": "4: Rates, Equilibria & Further Organic Chemistry",
+    "subtopicTitle": "Kinetic Rates",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/4-rates-equilibria-and-further-organic-chemistry/4-1-kinetics/4-1-1-kinetic-rates",
+    "specAnchors": [
+      {
+        "code": "11.1",
+        "text": "understand the terms: i rate of reaction ii rate equation, rate= k [A] m [B] n where m and n are 0, 1 or 2 iii order with respect to a substance in a rate equation iv overall order of a reaction v rate constant vi half-life vii rate-determining step viii activation energy ix heterogeneous and homogeneous catalyst"
+      }
+    ],
+    "primer": {
+      "text": "Rate of reaction measures how quickly reactants are consumed or products formed, in mol dm-3 s-1. This note defines rate, shows how concentration data reveal a proportional relationship between rate and concentration, and introduces the rate equation, where experimentally determined orders and a rate constant tie reactant concentrations to rate. Products and catalysts may appear; intermediates never do.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_kHqFB88ZfWqBcDCR::L1",
+        "title": "Defining the rate of reaction",
+        "sourceHeadings": [
+          "Kinetic Rates - Introduction",
+          "Rate of Reaction"
+        ],
+        "specRefs": [
+          "11.1"
+        ],
+        "opening": "Kinetics begins with a definition: the rate of reaction is how quickly a reactant is consumed or a product appears, per unit time. This lesson fixes the units, lists the physical changes a chemist can watch to follow a reaction, and sets up the model reaction used throughout the topic.",
+        "keyPoints": [
+          "Rate of reaction tracks how fast a reactant is used up or a product forms, expressed as a concentration change per unit time with units mol dm-3 s-1.",
+          "Rate can be followed by measuring mass lost, gas volume produced, colour or pH change, or electrical conductivity as time passes.",
+          "Rate is calculated as concentration change divided by the time interval over which that change happens.",
+          "The model reaction D (aq) to E (aq) plus F (g) lets rates be tabulated at several concentrations of D."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Rate is a concentration change divided by time, tracked through any property that moves with concentration such as mass, volume, colour, pH or conductivity.",
+            "analogy": "A bathroom scale tells you how fast a bathtub drains only if you weigh it every few seconds; each weighing is one rate data point.",
+            "examPointer": "Quote the units mol dm-3 s-1 whenever you state a rate - examiners check them."
+          },
+          "medium": {
+            "restatement": "Because rate compares two quantities, concentration and time, any measurable stand-in for concentration works; the property only needs to change smoothly as the reaction proceeds.",
+            "analogy": "Watching a kettle cool: you cannot read temperature directly, but the steam thins, the glass mist fades and the sound softens - each is a proxy for the falling temperature.",
+            "examPointer": "If asked how to follow a given reaction, pick the property that changes and justify the choice from the state symbols."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_kHqFB88ZfWqBcDCR::L1::Q1",
+          "rn_kHqFB88ZfWqBcDCR::L1::Q2",
+          "rn_kHqFB88ZfWqBcDCR::L1::Q3",
+          "rn_kHqFB88ZfWqBcDCR::L1::Q4",
+          "rn_kHqFB88ZfWqBcDCR::L1::Q5",
+          "rn_kHqFB88ZfWqBcDCR::L1::Q6",
+          "rn_kHqFB88ZfWqBcDCR::L1::Q7",
+          "rn_kHqFB88ZfWqBcDCR::L1::Q8",
+          "rn_kHqFB88ZfWqBcDCR::L1::Q9"
+        ],
+        "figureIds": []
+      },
+      {
+        "id": "rn_kHqFB88ZfWqBcDCR::L2",
+        "title": "From concentration data to the rate equation",
+        "sourceHeadings": [
+          "Rate of Reactions Table",
+          "Rate Equations"
+        ],
+        "specRefs": [
+          "11.1"
+        ],
+        "opening": "Tabulated rates for the model reaction show rate rising in step with the concentration of D. That proportionality condenses into the rate expression rate = k[D], and the general rate equation rate = k[A]^m[B]^n follows. This lesson separates what rate equations may contain from what they may not.",
+        "keyPoints": [
+          "The tabulated data for D show rate and concentration rising together, a directly proportional relationship.",
+          "Proportionality is written as the rate expression rate proportional to [D], or rate = k[D], where k is the rate constant.",
+          "For A plus B giving C plus D the general rate equation is rate = k[A]^m[B]^n with orders m and n.",
+          "Orders must be found by experiment; stoichiometric coefficients never fix them.",
+          "Products and catalysts may appear in a rate equation, but intermediates do not."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Doubling [D] doubles the rate, so rate = k[D]; in general rate = k[A]^m[B]^n, with the powers found only from experiments.",
+            "analogy": "A volume dial on a hose: turn it twice as far and twice as much water flows - the dial setting and flow are proportional, like [D] and rate here.",
+            "examPointer": "State plainly that rate equations come from experiment, never from the balancing numbers."
+          },
+          "medium": {
+            "restatement": "The rate constant k is the proportionality glue between concentration and rate; the powers m and n are the orders that experiments reveal, not the balancing numbers that the equation happens to carry.",
+            "analogy": "A recipe that scales: the serving count scales with ingredients (the proportional part), but only tasting the dish tells you which ingredient dominates the flavour (the experimental orders).",
+            "examPointer": "If an option claims orders can be read from the stoichiometric equation, reject it outright - that is the classic trap."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_kHqFB88ZfWqBcDCR::L2::Q1",
+          "rn_kHqFB88ZfWqBcDCR::L2::Q2",
+          "rn_kHqFB88ZfWqBcDCR::L2::Q3",
+          "rn_kHqFB88ZfWqBcDCR::L2::Q4",
+          "rn_kHqFB88ZfWqBcDCR::L2::Q5",
+          "rn_kHqFB88ZfWqBcDCR::L2::Q6",
+          "rn_kHqFB88ZfWqBcDCR::L2::Q7",
+          "rn_kHqFB88ZfWqBcDCR::L2::Q8",
+          "rn_kHqFB88ZfWqBcDCR::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-01",
+          "fig-02"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "rate of reaction",
+          "definition": "How quickly a reactant is used up or a product forms, expressed as a concentration change per unit time, in mol dm-3 s-1.",
+          "firstLesson": 1
+        },
+        {
+          "term": "rate equation",
+          "definition": "The expression rate = k[A]^m[B]^n linking rate to reactant concentrations raised to experimentally determined powers.",
+          "firstLesson": 2
+        },
+        {
+          "term": "rate constant",
+          "definition": "The proportionality factor k in a rate equation, fixed for a given reaction at a given temperature.",
+          "firstLesson": 2
+        },
+        {
+          "term": "intermediate",
+          "definition": "A species made and consumed within a mechanism that never appears in the rate equation.",
+          "firstLesson": 2
+        }
+      ],
+      "workedExample": null
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/b96d7a5cda20-5-2-1-table-to-show-rates-d.png",
+        "alt": "Table to show rates [D], downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Rate of Reactions Table",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/b038cd007ddf-5-2-1-rates-d-graph.png",
+        "alt": "Rates [D] graph, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Rate of Reactions Table",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "Rate of reaction over various concentrations of D"
+      }
+    ]
+  }
+}

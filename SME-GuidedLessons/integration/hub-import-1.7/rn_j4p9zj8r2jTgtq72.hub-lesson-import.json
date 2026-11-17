@@ -1,0 +1,187 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_j4p9zj8r2jTgtq72",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "7995bae708da822f33e2d005e6f2c67f80fca53056577fc8e67adc45cd6c220f",
+    "pinnedRef": "18586815e7ef4eb9730b8141ba42d5723eaafe5c"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_j4p9zj8r2jTgtq72",
+    "topicTitle": "4: Rates, Equilibria & Further Organic Chemistry",
+    "subtopicTitle": "Initial-Rate Method",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/4-rates-equilibria-and-further-organic-chemistry/4-1-kinetics/4-1-5-initial-rate-method",
+    "specAnchors": [
+      {
+        "code": "11.5",
+        "text": "be able to deduce the order (0, 1 or 2) with respect to a substance in a rate equation, using data from: i a concentration-time graph ii a rate-concentration graph iii an initial-rate method"
+      }
+    ],
+    "primer": {
+      "text": "The initial-rate method finds the rate at the very start by drawing a tangent at t = 0, or more conveniently by timing a single visual change in a clock reaction. This note calculates an initial rate from a tangent, converts measured times into proportional rates through 1/t, and states the constant-rate assumption the clock method depends on.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_j4p9zj8r2jTgtq72::L1",
+        "title": "Tangents at the start",
+        "sourceHeadings": [
+          "Initial-Rate Method",
+          "Clock reactions"
+        ],
+        "specRefs": [
+          "11.5"
+        ],
+        "opening": "The initial-rate method reads the rate at the very start, when concentrations are known and side effects have not yet accumulated. Draw the concentration-time curve, lay a tangent at t = 0, and its gradient is the initial rate. Clock reactions shortcut the whole curve with one timed visual change.",
+        "keyPoints": [
+          "The initial rate is determined at the very start of the reaction, at t = 0.",
+          "The tangent method draws a concentration-time graph, adds a tangent at t = 0, and calculates the gradient of that tangent.",
+          "For calcium carbonate with hydrochloric acid, gas volumes are measured for several acid concentrations and each curve gains a starting tangent.",
+          "Clock reactions time a single visual change - a colour change or precipitate - and take the initial rate as proportional to 1/t.",
+          "Clock reactions assume no significant rate change between mixing and the measured moment."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Initial rate = gradient of the tangent at t = 0; the clock shortcut times one visual change and uses 1/t.",
+            "analogy": "Sprinting out of the blocks: the opening stride speed is the initial rate, measured before fatigue (falling concentrations) sets in.",
+            "examPointer": "Always state the tangent's rise and run before quoting the gradient - examiners want the working."
+          },
+          "medium": {
+            "restatement": "Early data are the cleanest: concentrations are at their starting values, so the tangent at zero time reflects the rate equation in its purest form; clock reactions trade the whole curve for one honest stopwatch reading.",
+            "analogy": "Judging a car's acceleration from the first second off the line, before traffic and hills interfere.",
+            "examPointer": "The 1/t rule is a proportionality, not an equality - say 'proportional to' when you use it."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_j4p9zj8r2jTgtq72::L1::Q1",
+          "rn_j4p9zj8r2jTgtq72::L1::Q2",
+          "rn_j4p9zj8r2jTgtq72::L1::Q3",
+          "rn_j4p9zj8r2jTgtq72::L1::Q4",
+          "rn_j4p9zj8r2jTgtq72::L1::Q5",
+          "rn_j4p9zj8r2jTgtq72::L1::Q6",
+          "rn_j4p9zj8r2jTgtq72::L1::Q7",
+          "rn_j4p9zj8r2jTgtq72::L1::Q8",
+          "rn_j4p9zj8r2jTgtq72::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01"
+        ]
+      },
+      {
+        "id": "rn_j4p9zj8r2jTgtq72::L2",
+        "title": "Clock data in practice",
+        "sourceHeadings": [
+          "Specimen Results for the Iodine Clock Reaction Table"
+        ],
+        "specRefs": [
+          "11.5"
+        ],
+        "opening": "A specimen iodine-clock table lists concentrations and the times at which the colour appeared. Converting each time to 1/t gives proportional rates, and the pattern across the table - doubling concentration doubling the rate - hands over the order directly.",
+        "keyPoints": [
+          "The specimen iodine clock table pairs concentrations with the measured times for the visual change.",
+          "Each initial rate scales with 1/t; at 0.01515 mol dm-3 the rate works out as 1/40 = 0.025 s^-1.",
+          "As concentration doubles the rate doubles, which links the clock data to a first-order reaction.",
+          "Short measured times give more accurate initial rates; long times drift from the true starting rate."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Convert each time to 1/t, compare across the table, and read the order from how rate tracks concentration.",
+            "analogy": "A queue where service speed is judged by waiting time: half the waiting means double the throughput.",
+            "examPointer": "Show one worked conversion (1/40 = 0.025) and one doubling comparison - that is the full method."
+          },
+          "medium": {
+            "restatement": "Because clock timing measures the same visual milestone every run, 1/t is a rate ruler; ratios of 1/t values are ratios of initial rates.",
+            "analogy": "Timing identical races over the same distance: finishing times compare speeds directly.",
+            "examPointer": "Note the accuracy caveat: short times are honest, long times understate the true initial rate."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_j4p9zj8r2jTgtq72::L2::Q1",
+          "rn_j4p9zj8r2jTgtq72::L2::Q2",
+          "rn_j4p9zj8r2jTgtq72::L2::Q3",
+          "rn_j4p9zj8r2jTgtq72::L2::Q4",
+          "rn_j4p9zj8r2jTgtq72::L2::Q5",
+          "rn_j4p9zj8r2jTgtq72::L2::Q6",
+          "rn_j4p9zj8r2jTgtq72::L2::Q7",
+          "rn_j4p9zj8r2jTgtq72::L2::Q8",
+          "rn_j4p9zj8r2jTgtq72::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-02"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "initial rate",
+          "definition": "The rate right at the reaction's start, read off the tangent drawn at t = 0.",
+          "firstLesson": 1
+        },
+        {
+          "term": "clock reaction",
+          "definition": "A method timing one visual change, with initial rate proportional to 1/t.",
+          "firstLesson": 1
+        },
+        {
+          "term": "tangent",
+          "definition": "A straight line touching a curve at one point whose gradient gives the instantaneous rate.",
+          "firstLesson": 1
+        }
+      ],
+      "workedExample": {
+        "prompt": "From the concentration-time graph for calcium carbonate with 2.0 mol dm^-3 hydrochloric acid, the tangent drawn at t = 0 rises 42 units while running 38 units along the time axis. Calculate the initial rate.",
+        "steps": [
+          "Apply the gradient formula: rise divided by run.",
+          "Substitute: 42 / 38 = 1.105.",
+          "Round to three figures and attach the axis units."
+        ],
+        "finalAnswer": "The initial rate is 1.10 mol dm^-3 s^-1."
+      }
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/f5ff62514d84-8-1-1-initial-rates-method-results-graph.png",
+        "alt": "Initial Rates Method - Results Graph, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Initial-Rate Method",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/254b46f5f8f1-8-1-5-iodine-clock-reaction-results-table.png",
+        "alt": "Specimen table of iodine clock concentrations and measured times",
+        "sourceHeading": "Specimen Results for the Iodine Clock Reaction Table",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      }
+    ]
+  }
+}

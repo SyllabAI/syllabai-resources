@@ -1,0 +1,723 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_tQ9Hgv2h6vphQyjh",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "31e1035e2134f7152c2a6f7e5b443cb48c7c5f466bc87cabb89b2d875391c0ac",
+    "pinnedRef": "18586815e7ef4eb9730b8141ba42d5723eaafe5c"
+  },
+  "packageId": "ial-chemistry::rn_tQ9Hgv2h6vphQyjh",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_tQ9Hgv2h6vphQyjh::L1::Q1",
+      "moduleId": "rn_tQ9Hgv2h6vphQyjh::L1",
+      "stem": "Changing only the temperature of a reaction affects",
+      "misconceptionClass": "what k depends on",
+      "options": [
+        {
+          "key": "A",
+          "text": "The rate constant k, which then changes value",
+          "correct": true,
+          "explanation": "k is fixed only at constant temperature, so heating re-values it.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Neither k nor the rate",
+          "correct": false,
+          "explanation": "Both respond to temperature in Arrhenius terms.",
+          "misconception": "contradiction"
+        },
+        {
+          "key": "C",
+          "text": "The orders m and n in the rate equation",
+          "correct": false,
+          "explanation": "Orders are temperature-independent kinetic facts.",
+          "misconception": "order confusion"
+        },
+        {
+          "key": "D",
+          "text": "Only the rate, leaving k untouched",
+          "correct": false,
+          "explanation": "Rate and k move together through the energetic fraction.",
+          "misconception": "half truth"
+        }
+      ]
+    },
+    {
+      "id": "rn_tQ9Hgv2h6vphQyjh::L1::Q2",
+      "moduleId": "rn_tQ9Hgv2h6vphQyjh::L1",
+      "stem": "Raising the temperature increases the rate because",
+      "misconceptionClass": "temperature mechanism",
+      "options": [
+        {
+          "key": "A",
+          "text": "The concentration of reactants increases on heating",
+          "correct": false,
+          "explanation": "Heating does not create extra reactant.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "B",
+          "text": "A greater proportion of molecules then carry energy at or above the activation energy",
+          "correct": true,
+          "explanation": "The energetic fraction grows exponentially with T.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "The activation energy itself falls when mixtures are heated",
+          "correct": false,
+          "explanation": "Ea is a reaction constant; heating does not move the barrier.",
+          "misconception": "barrier confusion"
+        },
+        {
+          "key": "D",
+          "text": "Molecules collide less often but hit harder",
+          "correct": false,
+          "explanation": "Collision frequency rises too, but the decisive factor is the energetic fraction.",
+          "misconception": "partial reason"
+        }
+      ]
+    },
+    {
+      "id": "rn_tQ9Hgv2h6vphQyjh::L1::Q3",
+      "moduleId": "rn_tQ9Hgv2h6vphQyjh::L1",
+      "stem": "In the Arrhenius equation k = A e^(-Ea/RT), the term A represents",
+      "misconceptionClass": "arrhenius A",
+      "options": [
+        {
+          "key": "A",
+          "text": "The gas constant shared by every reaction",
+          "correct": false,
+          "explanation": "That is R.",
+          "misconception": "symbol swap"
+        },
+        {
+          "key": "B",
+          "text": "The concentration of the reactants",
+          "correct": false,
+          "explanation": "Concentrations belong to the rate equation, not here.",
+          "misconception": "mixing levels"
+        },
+        {
+          "key": "C",
+          "text": "The Arrhenius constant, characteristic of the particular reaction",
+          "correct": true,
+          "explanation": "A is the reaction's own pre-exponential constant.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The activation energy of the reaction",
+          "correct": false,
+          "explanation": "That is Ea.",
+          "misconception": "symbol swap"
+        }
+      ]
+    },
+    {
+      "id": "rn_tQ9Hgv2h6vphQyjh::L1::Q4",
+      "moduleId": "rn_tQ9Hgv2h6vphQyjh::L1",
+      "stem": "Which quantities act as the only variables in the Arrhenius equation?",
+      "misconceptionClass": "arrhenius variables",
+      "options": [
+        {
+          "key": "A",
+          "text": "A and Ea",
+          "correct": false,
+          "explanation": "Both are characteristic constants of the reaction.",
+          "misconception": "constant mix"
+        },
+        {
+          "key": "B",
+          "text": "R and Ea",
+          "correct": false,
+          "explanation": "R is universal and Ea is fixed per reaction.",
+          "misconception": "constant mix"
+        },
+        {
+          "key": "C",
+          "text": "k and Ea",
+          "correct": false,
+          "explanation": "Ea does not vary with conditions in this treatment.",
+          "misconception": "constant mix"
+        },
+        {
+          "key": "D",
+          "text": "k and T",
+          "correct": true,
+          "explanation": "Ea, A and R are constants; only k and T change.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_tQ9Hgv2h6vphQyjh::L1::Q5",
+      "moduleId": "rn_tQ9Hgv2h6vphQyjh::L1",
+      "stem": "A catalyst is swapped for a different one in a running reaction. The value of k",
+      "misconceptionClass": "catalyst effect on k",
+      "options": [
+        {
+          "key": "A",
+          "text": "Changes, because altering the catalyst is a condition change that k responds to",
+          "correct": true,
+          "explanation": "The Arrhenius picture treats catalyst identity as a condition that re-values k.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Stays the same, because k only cares about temperature",
+          "correct": false,
+          "explanation": "Concentration is not the only variable that matters; catalyst changes count too.",
+          "misconception": "half truth"
+        },
+        {
+          "key": "C",
+          "text": "Becomes zero",
+          "correct": false,
+          "explanation": "Catalysis never drives k to zero.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "D",
+          "text": "Becomes negative",
+          "correct": false,
+          "explanation": "Rate constants are positive quantities.",
+          "misconception": "nonsense claim"
+        }
+      ]
+    },
+    {
+      "id": "rn_tQ9Hgv2h6vphQyjh::L1::Q6",
+      "moduleId": "rn_tQ9Hgv2h6vphQyjh::L1",
+      "stem": "State the Arrhenius equation and identify the constants in it.",
+      "misconceptionClass": "arrhenius recall",
+      "kind": "recall",
+      "modelAnswer": "k = A e^(-Ea/RT), where Ea and A are constants characteristic of the reaction, R is the universal gas constant, and k and T are the variables.",
+      "keywords": [
+        "constant",
+        "equation",
+        "characteristic"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_tQ9Hgv2h6vphQyjh::L1::Q7",
+      "moduleId": "rn_tQ9Hgv2h6vphQyjh::L1",
+      "stem": "State what happens to the rate constant when temperature is raised, and why.",
+      "misconceptionClass": "k temperature recall",
+      "kind": "recall",
+      "modelAnswer": "The rate constant increases, because a greater proportion of molecules then hold energy at least equal to the activation energy, and k is proportional to that energetic fraction.",
+      "keywords": [
+        "proportion",
+        "activation",
+        "constant"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_tQ9Hgv2h6vphQyjh::L1::Q8",
+      "moduleId": "rn_tQ9Hgv2h6vphQyjh::L1",
+      "stem": "Explain why raising the temperature raises the rate constant k.",
+      "misconceptionClass": "k temperature why",
+      "kind": "explain-why",
+      "modelAnswer": "The rate constant is proportional to the fraction of molecules holding at least the activation energy; distributing molecular energies more widely at higher temperature enlarges that fraction, so k must rise with T.",
+      "keywords": [
+        "fraction",
+        "activation",
+        "temperature"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_tQ9Hgv2h6vphQyjh::L1::Q9",
+      "moduleId": "rn_tQ9Hgv2h6vphQyjh::L1",
+      "stem": "Two identical reactions run at 300 K and 320 K with the same Ea and A. Which run shows the larger k, and what does that predict for the observed rate?",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "The 320 K run has the larger k because the exponential energetic fraction grows with T; since rate is proportional to k at fixed concentrations, the warmer mixture reacts measurably faster.",
+      "keywords": [
+        "proportional",
+        "temperature",
+        "larger"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_tQ9Hgv2h6vphQyjh::L2::Q1",
+      "moduleId": "rn_tQ9Hgv2h6vphQyjh::L2",
+      "stem": "Taking natural logarithms of the Arrhenius equation gives",
+      "misconceptionClass": "log form",
+      "options": [
+        {
+          "key": "A",
+          "text": "ln k = -ln A - Ea/(RT)",
+          "correct": false,
+          "explanation": "ln A keeps its positive sign.",
+          "misconception": "sign slip"
+        },
+        {
+          "key": "B",
+          "text": "ln k = ln A - Ea/(RT)",
+          "correct": true,
+          "explanation": "The exponential rearranges into a straight-line log form.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "ln k = ln A + Ea/(RT)",
+          "correct": false,
+          "explanation": "The minus sign survives: the Ea term enters negatively.",
+          "misconception": "sign slip"
+        },
+        {
+          "key": "D",
+          "text": "k = ln A - Ea/(RT)",
+          "correct": false,
+          "explanation": "Only the logarithm of k appears on the left.",
+          "misconception": "form slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_tQ9Hgv2h6vphQyjh::L2::Q2",
+      "moduleId": "rn_tQ9Hgv2h6vphQyjh::L2",
+      "stem": "Increasing the activation energy Ea, at fixed temperature, makes k",
+      "misconceptionClass": "Ea effect on k",
+      "options": [
+        {
+          "key": "A",
+          "text": "Unchanged, since Ea only affects the rate",
+          "correct": false,
+          "explanation": "k and the rate move together; both fall.",
+          "misconception": "contradiction"
+        },
+        {
+          "key": "B",
+          "text": "Negative",
+          "correct": false,
+          "explanation": "k stays positive regardless.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "C",
+          "text": "Smaller, because fewer molecules then reach the energetic bar",
+          "correct": true,
+          "explanation": "The exponential term shrinks as Ea grows.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Larger, because more collisions occur",
+          "correct": false,
+          "explanation": "Collision count is not the Ea effect here.",
+          "misconception": "wrong mechanism"
+        }
+      ]
+    },
+    {
+      "id": "rn_tQ9Hgv2h6vphQyjh::L2::Q3",
+      "moduleId": "rn_tQ9Hgv2h6vphQyjh::L2",
+      "stem": "The most common calculation asked with the Arrhenius equation is",
+      "misconceptionClass": "calculation type",
+      "options": [
+        {
+          "key": "A",
+          "text": "Measuring the orders m and n",
+          "correct": false,
+          "explanation": "Orders come from rate experiments, not the Arrhenius line.",
+          "misconception": "topic mix"
+        },
+        {
+          "key": "B",
+          "text": "Balancing the equation of the reaction",
+          "correct": false,
+          "explanation": "Nothing here involves balancing.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "C",
+          "text": "Calculating the concentration at half-life",
+          "correct": false,
+          "explanation": "Half-life belongs to order analysis.",
+          "misconception": "topic mix"
+        },
+        {
+          "key": "D",
+          "text": "Finding the activation energy from measured k and T values",
+          "correct": true,
+          "explanation": "That is the standard exam task of this topic.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_tQ9Hgv2h6vphQyjh::L2::Q4",
+      "moduleId": "rn_tQ9Hgv2h6vphQyjh::L2",
+      "stem": "In ln k = ln A - Ea/(RT), the constant ln A acts as",
+      "misconceptionClass": "intercept role",
+      "options": [
+        {
+          "key": "A",
+          "text": "The intercept of the straight-line plot of ln k against 1/T",
+          "correct": true,
+          "explanation": "Setting 1/T to zero leaves ln k = ln A.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The gradient of the plot",
+          "correct": false,
+          "explanation": "The gradient is -Ea/R.",
+          "misconception": "role swap"
+        },
+        {
+          "key": "C",
+          "text": "The activation energy",
+          "correct": false,
+          "explanation": "That is Ea in the slope.",
+          "misconception": "role swap"
+        },
+        {
+          "key": "D",
+          "text": "The temperature in kelvin",
+          "correct": false,
+          "explanation": "T sits in the x-variable 1/T.",
+          "misconception": "role swap"
+        }
+      ]
+    },
+    {
+      "id": "rn_tQ9Hgv2h6vphQyjh::L2::Q5",
+      "moduleId": "rn_tQ9Hgv2h6vphQyjh::L2",
+      "stem": "A reaction's k is measured at two temperatures. To extract Ea, you should",
+      "misconceptionClass": "Ea extraction plan",
+      "options": [
+        {
+          "key": "A",
+          "text": "Substitute the temperatures into the rate equation",
+          "correct": false,
+          "explanation": "The rate equation carries orders, not Ea.",
+          "misconception": "wrong equation"
+        },
+        {
+          "key": "B",
+          "text": "Apply Ea = RT(ln A - ln k) using the known A, or plot ln k against 1/T and use the gradient",
+          "correct": true,
+          "explanation": "Both routes come straight from the log form.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Average the two k values and multiply by R",
+          "correct": false,
+          "explanation": "No averaging law exists here.",
+          "misconception": "invented method"
+        },
+        {
+          "key": "D",
+          "text": "Square each k value first",
+          "correct": false,
+          "explanation": "Squaring k has no basis in the equation.",
+          "misconception": "invented method"
+        }
+      ]
+    },
+    {
+      "id": "rn_tQ9Hgv2h6vphQyjh::L2::Q6",
+      "moduleId": "rn_tQ9Hgv2h6vphQyjh::L2",
+      "stem": "Write the logarithmic form of the Arrhenius equation.",
+      "misconceptionClass": "log form recall",
+      "kind": "recall",
+      "modelAnswer": "ln k = ln A - Ea/(RT), where each symbol keeps its Arrhenius meaning.",
+      "keywords": [
+        "logarithm",
+        "equation",
+        "arrhenius"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_tQ9Hgv2h6vphQyjh::L2::Q7",
+      "moduleId": "rn_tQ9Hgv2h6vphQyjh::L2",
+      "stem": "State the effect on k of raising temperature and of raising activation energy.",
+      "misconceptionClass": "two effects recall",
+      "kind": "recall",
+      "modelAnswer": "Raising temperature increases k; raising activation energy decreases k.",
+      "keywords": [
+        "temperature",
+        "activation",
+        "raising"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_tQ9Hgv2h6vphQyjh::L2::Q8",
+      "moduleId": "rn_tQ9Hgv2h6vphQyjh::L2",
+      "stem": "Explain why the logarithmic form is easier to use for calculations than the original exponential equation.",
+      "misconceptionClass": "log form why",
+      "kind": "explain-why",
+      "modelAnswer": "The log form is linear in the variables: ln k depends on 1/T through the single constant combination Ea/R, so an unknown such as Ea can be isolated and solved algebraically instead of un-doing an exponential.",
+      "keywords": [
+        "linear",
+        "solve",
+        "exponential"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_tQ9Hgv2h6vphQyjh::L2::Q9",
+      "moduleId": "rn_tQ9Hgv2h6vphQyjh::L2",
+      "stem": "A student computes Ea from two k-T pairs but reports it in J mol-1 while the mark scheme expects kJ mol-1. What went wrong and what is the fix?",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Nothing is wrong except the unit presentation: with R = 8.31 J mol-1 K-1 the arithmetic returns joules, so the student should divide by 1000 to express the answer in kJ mol-1.",
+      "keywords": [
+        "joules",
+        "activation",
+        "student"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_tQ9Hgv2h6vphQyjh::L3::Q1",
+      "moduleId": "rn_tQ9Hgv2h6vphQyjh::L3",
+      "stem": "The gradient of a plot of ln k against 1/T equals",
+      "misconceptionClass": "plot gradient",
+      "options": [
+        {
+          "key": "A",
+          "text": "ln A",
+          "correct": false,
+          "explanation": "ln A is the intercept, not the gradient.",
+          "misconception": "role swap"
+        },
+        {
+          "key": "B",
+          "text": "-RT",
+          "correct": false,
+          "explanation": "No such slope exists in the equation.",
+          "misconception": "invented term"
+        },
+        {
+          "key": "C",
+          "text": "-Ea/R",
+          "correct": true,
+          "explanation": "The slope of the Arrhenius straight line is the negative ratio of activation energy to gas constant.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Ea/R",
+          "correct": false,
+          "explanation": "The minus sign from the log form must not be dropped.",
+          "misconception": "sign slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_tQ9Hgv2h6vphQyjh::L3::Q2",
+      "moduleId": "rn_tQ9Hgv2h6vphQyjh::L3",
+      "stem": "The intercept of the ln k versus 1/T line gives",
+      "misconceptionClass": "plot intercept",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ea directly in J mol-1",
+          "correct": false,
+          "explanation": "Ea lives in the gradient.",
+          "misconception": "role swap"
+        },
+        {
+          "key": "B",
+          "text": "The temperature of the experiment",
+          "correct": false,
+          "explanation": "Temperature is folded into 1/T.",
+          "misconception": "role swap"
+        },
+        {
+          "key": "C",
+          "text": "The gas constant R",
+          "correct": false,
+          "explanation": "R is a fixed universal value, not a graph feature.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "D",
+          "text": "ln A, from which A = e^(intercept)",
+          "correct": true,
+          "explanation": "Setting 1/T = 0 in the log form leaves ln k = ln A.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_tQ9Hgv2h6vphQyjh::L3::Q3",
+      "moduleId": "rn_tQ9Hgv2h6vphQyjh::L3",
+      "stem": "Before plotting, the experimental data must be transformed by",
+      "misconceptionClass": "plot preparation",
+      "options": [
+        {
+          "key": "A",
+          "text": "Taking ln of each k value and computing 1/T for each temperature",
+          "correct": true,
+          "explanation": "Those are exactly the plotted quantities.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Squaring each rate constant",
+          "correct": false,
+          "explanation": "No squaring rule exists in this method.",
+          "misconception": "invented step"
+        },
+        {
+          "key": "C",
+          "text": "Dividing each k by R",
+          "correct": false,
+          "explanation": "R belongs to the gradient, not the raw data.",
+          "misconception": "invented step"
+        },
+        {
+          "key": "D",
+          "text": "Converting temperatures to degrees Celsius",
+          "correct": false,
+          "explanation": "Kelvin is required throughout.",
+          "misconception": "unit slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_tQ9Hgv2h6vphQyjh::L3::Q4",
+      "moduleId": "rn_tQ9Hgv2h6vphQyjh::L3",
+      "stem": "A plotted Arrhenius line has gradient -1.0 x 10^4 K. With R = 8.31 J mol-1 K-1, Ea is about",
+      "misconceptionClass": "gradient arithmetic",
+      "options": [
+        {
+          "key": "A",
+          "text": "Negative, because the gradient is negative",
+          "correct": false,
+          "explanation": "The minus sign is consumed by the definition; Ea is positive.",
+          "misconception": "sign slip"
+        },
+        {
+          "key": "B",
+          "text": "8.3 x 10^4 J mol-1, since Ea = gradient magnitude x R",
+          "correct": true,
+          "explanation": "Multiplying 1.0e4 K by 8.31 J mol-1 K-1 gives about 8.3e4 J mol-1.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "1.2 x 10^-4 J mol-1, dividing R by the gradient",
+          "correct": false,
+          "explanation": "The operation is multiplication, not division.",
+          "misconception": "operation slip"
+        },
+        {
+          "key": "D",
+          "text": "8.3 J mol-1, forgetting the 10^4 factor",
+          "correct": false,
+          "explanation": "The gradient magnitude carries the 10^4.",
+          "misconception": "magnitude slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_tQ9Hgv2h6vphQyjh::L3::Q5",
+      "moduleId": "rn_tQ9Hgv2h6vphQyjh::L3",
+      "stem": "On an Arrhenius plot, points that curve away from a straight line indicate",
+      "misconceptionClass": "plot shape",
+      "options": [
+        {
+          "key": "A",
+          "text": "That A varies enormously with temperature",
+          "correct": false,
+          "explanation": "A is treated as effectively constant.",
+          "misconception": "false cause"
+        },
+        {
+          "key": "B",
+          "text": "That Ea must be zero",
+          "correct": false,
+          "explanation": "Zero Ea would give a horizontal line, not curvature.",
+          "misconception": "wrong inference"
+        },
+        {
+          "key": "C",
+          "text": "Data or handling errors, because the true relation is linear in these variables",
+          "correct": true,
+          "explanation": "The Arrhenius treatment predicts a line, so curvature signals a mistake.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "A change in the reaction's orders",
+          "correct": false,
+          "explanation": "Orders never appear in the Arrhenius variables.",
+          "misconception": "topic mix"
+        }
+      ]
+    },
+    {
+      "id": "rn_tQ9Hgv2h6vphQyjh::L3::Q6",
+      "moduleId": "rn_tQ9Hgv2h6vphQyjh::L3",
+      "stem": "State the gradient and the intercept of the ln k against 1/T plot.",
+      "misconceptionClass": "plot recall",
+      "kind": "recall",
+      "modelAnswer": "The gradient is -Ea/R and the intercept is ln A.",
+      "keywords": [
+        "gradient",
+        "intercept",
+        "against"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_tQ9Hgv2h6vphQyjh::L3::Q7",
+      "moduleId": "rn_tQ9Hgv2h6vphQyjh::L3",
+      "stem": "State the two conversions applied to raw k and T data before plotting.",
+      "misconceptionClass": "conversion recall",
+      "kind": "recall",
+      "modelAnswer": "Each rate constant is converted to ln k, and each temperature to the reciprocal 1/T.",
+      "keywords": [
+        "reciprocal",
+        "temperature",
+        "converted"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_tQ9Hgv2h6vphQyjh::L3::Q8",
+      "moduleId": "rn_tQ9Hgv2h6vphQyjh::L3",
+      "stem": "Explain why the Arrhenius plot gives a straight line.",
+      "misconceptionClass": "linearity why",
+      "kind": "explain-why",
+      "modelAnswer": "Taking logarithms removes the exponential, leaving ln k as a linear function of 1/T with fixed coefficients ln A and -Ea/R, so plotting one against the other must produce a straight line.",
+      "keywords": [
+        "linear",
+        "logarithm",
+        "straight"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_tQ9Hgv2h6vphQyjh::L3::Q9",
+      "moduleId": "rn_tQ9Hgv2h6vphQyjh::L3",
+      "stem": "A student's plotted line has intercept 30.2. Report A and comment on its size.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "A = e^(30.2), roughly 1.3 x 10^13, an enormous pre-exponential factor typical of gas-phase reactions where the steric factor multiplies collision frequency into a very large constant.",
+      "keywords": [
+        "intercept",
+        "constant",
+        "exponential"
+      ],
+      "options": []
+    }
+  ]
+}

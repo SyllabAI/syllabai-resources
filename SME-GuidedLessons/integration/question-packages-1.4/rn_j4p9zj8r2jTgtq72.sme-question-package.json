@@ -1,0 +1,487 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_j4p9zj8r2jTgtq72",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "7995bae708da822f33e2d005e6f2c67f80fca53056577fc8e67adc45cd6c220f",
+    "pinnedRef": "18586815e7ef4eb9730b8141ba42d5723eaafe5c"
+  },
+  "packageId": "ial-chemistry::rn_j4p9zj8r2jTgtq72",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_j4p9zj8r2jTgtq72::L1::Q1",
+      "moduleId": "rn_j4p9zj8r2jTgtq72::L1",
+      "stem": "The initial rate of a reaction is measured",
+      "misconceptionClass": "initial rate timing",
+      "options": [
+        {
+          "key": "A",
+          "text": "At the very start of the reaction, at t = 0",
+          "correct": true,
+          "explanation": "Initial means before any significant concentration change.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Halfway through the reaction",
+          "correct": false,
+          "explanation": "Midpoint times give average, not initial, rates.",
+          "misconception": "concept slip"
+        },
+        {
+          "key": "C",
+          "text": "After the reaction finishes",
+          "correct": false,
+          "explanation": "No rate information survives completion.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "D",
+          "text": "At the steepest point of the curve only",
+          "correct": false,
+          "explanation": "The steepest point may occur later; initial means t = 0.",
+          "misconception": "concept slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_j4p9zj8r2jTgtq72::L1::Q2",
+      "moduleId": "rn_j4p9zj8r2jTgtq72::L1",
+      "stem": "The tangent method for finding an initial rate involves",
+      "misconceptionClass": "tangent method",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dividing concentration by temperature",
+          "correct": false,
+          "explanation": "No such quotient exists.",
+          "misconception": "invented method"
+        },
+        {
+          "key": "B",
+          "text": "Drawing a tangent to the concentration-time curve at t = 0 and computing its gradient",
+          "correct": true,
+          "explanation": "The starting gradient is the initial rate.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Reading the final concentration directly",
+          "correct": false,
+          "explanation": "Endpoints carry no rate information.",
+          "misconception": "concept slip"
+        },
+        {
+          "key": "D",
+          "text": "Timing a colour change only",
+          "correct": false,
+          "explanation": "That describes the clock method.",
+          "misconception": "method mix"
+        }
+      ]
+    },
+    {
+      "id": "rn_j4p9zj8r2jTgtq72::L1::Q3",
+      "moduleId": "rn_j4p9zj8r2jTgtq72::L1",
+      "stem": "In the calcium carbonate and hydrochloric acid demonstration, tangents are added because",
+      "misconceptionClass": "carbonate tangents",
+      "options": [
+        {
+          "key": "A",
+          "text": "The gas volume is too small to read",
+          "correct": false,
+          "explanation": "Volume readability is not the reason.",
+          "misconception": "false cause"
+        },
+        {
+          "key": "B",
+          "text": "Tangents cool the mixture",
+          "correct": false,
+          "explanation": "Drawing tangents changes nothing physically.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "C",
+          "text": "Each acid concentration gives its own curve, and each starting gradient is that run's initial rate",
+          "correct": true,
+          "explanation": "One tangent per curve reads one initial rate.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The curves are all straight lines",
+          "correct": false,
+          "explanation": "Curved or straight, tangents give the starting rate.",
+          "misconception": "false premise"
+        }
+      ]
+    },
+    {
+      "id": "rn_j4p9zj8r2jTgtq72::L1::Q4",
+      "moduleId": "rn_j4p9zj8r2jTgtq72::L1",
+      "stem": "A clock reaction measures the time t for a visual change, and the initial rate is taken as",
+      "misconceptionClass": "clock proportionality",
+      "options": [
+        {
+          "key": "A",
+          "text": "Equal to t",
+          "correct": false,
+          "explanation": "That would make slower reactions have larger rates.",
+          "misconception": "inversion slip"
+        },
+        {
+          "key": "B",
+          "text": "Proportional to t squared",
+          "correct": false,
+          "explanation": "No square relationship applies.",
+          "misconception": "invented rule"
+        },
+        {
+          "key": "C",
+          "text": "Independent of t",
+          "correct": false,
+          "explanation": "The timing is the whole measurement.",
+          "misconception": "contradiction"
+        },
+        {
+          "key": "D",
+          "text": "Proportional to 1/t",
+          "correct": true,
+          "explanation": "Faster changes mean shorter times, so inverse proportionality.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_j4p9zj8r2jTgtq72::L1::Q5",
+      "moduleId": "rn_j4p9zj8r2jTgtq72::L1",
+      "stem": "The key assumption behind clock reactions is that",
+      "misconceptionClass": "clock assumption",
+      "options": [
+        {
+          "key": "A",
+          "text": "The rate stays roughly constant between mixing and the moment the clock change is seen",
+          "correct": true,
+          "explanation": "The 1/t conversion presumes a steady early rate.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The rate rises steeply throughout the run",
+          "correct": false,
+          "explanation": "That would break the method.",
+          "misconception": "contradiction"
+        },
+        {
+          "key": "C",
+          "text": "The visual change happens by itself",
+          "correct": false,
+          "explanation": "The change marks a fixed extent of reaction.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "D",
+          "text": "Temperature falls during the measurement",
+          "correct": false,
+          "explanation": "Temperature is held constant.",
+          "misconception": "false cause"
+        }
+      ]
+    },
+    {
+      "id": "rn_j4p9zj8r2jTgtq72::L1::Q6",
+      "moduleId": "rn_j4p9zj8r2jTgtq72::L1",
+      "stem": "State how a tangent yields an initial rate.",
+      "misconceptionClass": "tangent recall",
+      "kind": "recall",
+      "modelAnswer": "Draw the tangent at t = 0 on the concentration-time graph and calculate its gradient; that gradient is the initial rate.",
+      "keywords": [
+        "tangent",
+        "gradient",
+        "initial"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_j4p9zj8r2jTgtq72::L1::Q7",
+      "moduleId": "rn_j4p9zj8r2jTgtq72::L1",
+      "stem": "State what a clock reaction times and how the initial rate is taken from it.",
+      "misconceptionClass": "clock recall",
+      "kind": "recall",
+      "modelAnswer": "It times the moment of a single visual change, and the initial rate is taken as proportional to 1/t.",
+      "keywords": [
+        "visual",
+        "proportional",
+        "initial"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_j4p9zj8r2jTgtq72::L1::Q8",
+      "moduleId": "rn_j4p9zj8r2jTgtq72::L1",
+      "stem": "Explain why the tangent at t = 0 gives the cleanest reading of the rate equation.",
+      "misconceptionClass": "tangent why",
+      "kind": "explain-why",
+      "modelAnswer": "At the start, concentrations equal the values the experimenter chose, so the measured gradient corresponds to known concentrations without any drift; later points mix changing concentrations into the reading.",
+      "keywords": [
+        "concentration",
+        "gradient",
+        "reading"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_j4p9zj8r2jTgtq72::L1::Q9",
+      "moduleId": "rn_j4p9zj8r2jTgtq72::L1",
+      "stem": "A clock reaction records 25 s for the colour change at one concentration and 50 s at half that concentration. What does the comparison suggest about the order?",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Halving the concentration doubles the time, so 1/t halves, meaning the rate halved with the concentration - behaviour consistent with first order.",
+      "keywords": [
+        "concentration",
+        "order",
+        "consistent"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_j4p9zj8r2jTgtq72::L2::Q1",
+      "moduleId": "rn_j4p9zj8r2jTgtq72::L2",
+      "stem": "The initial rate proportional to 1/t for a measured time of 40 s is",
+      "misconceptionClass": "1 over t",
+      "options": [
+        {
+          "key": "A",
+          "text": "25 s^-1",
+          "correct": false,
+          "explanation": "That is 1/0.04, mixing units.",
+          "misconception": "arithmetic slip"
+        },
+        {
+          "key": "B",
+          "text": "0.025 s^-1",
+          "correct": true,
+          "explanation": "1/40 = 0.025.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "40 s^-1",
+          "correct": false,
+          "explanation": "That is t, not 1/t.",
+          "misconception": "inversion slip"
+        },
+        {
+          "key": "D",
+          "text": "0.040 s^-1",
+          "correct": false,
+          "explanation": "A decimal slip of the true quotient.",
+          "misconception": "arithmetic slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_j4p9zj8r2jTgtq72::L2::Q2",
+      "moduleId": "rn_j4p9zj8r2jTgtq72::L2",
+      "stem": "The specimen clock table shows the rate doubling when concentration doubles, which identifies the reaction as",
+      "misconceptionClass": "table order",
+      "options": [
+        {
+          "key": "A",
+          "text": "Second order",
+          "correct": false,
+          "explanation": "Second order would quadruple the rate.",
+          "misconception": "order slip"
+        },
+        {
+          "key": "B",
+          "text": "Third order",
+          "correct": false,
+          "explanation": "Third order would give an eightfold rise.",
+          "misconception": "order slip"
+        },
+        {
+          "key": "C",
+          "text": "First order with respect to that reactant",
+          "correct": true,
+          "explanation": "Doubling on doubling is the proportionality signature.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Zero order",
+          "correct": false,
+          "explanation": "Zero order would show no rate change.",
+          "misconception": "order slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_j4p9zj8r2jTgtq72::L2::Q3",
+      "moduleId": "rn_j4p9zj8r2jTgtq72::L2",
+      "stem": "Clock-reaction initial rates become less accurate when the measured time is long because",
+      "misconceptionClass": "accuracy drift",
+      "options": [
+        {
+          "key": "A",
+          "text": "The stopwatch drifts",
+          "correct": false,
+          "explanation": "Timing devices are not the issue.",
+          "misconception": "false cause"
+        },
+        {
+          "key": "B",
+          "text": "The colour gets stronger",
+          "correct": false,
+          "explanation": "The endpoint is fixed, not strengthened.",
+          "misconception": "false cause"
+        },
+        {
+          "key": "C",
+          "text": "1/t becomes undefined",
+          "correct": false,
+          "explanation": "The quotient is always defined for positive t.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "D",
+          "text": "The constant-rate assumption weakens as reactants deplete during the long wait",
+          "correct": true,
+          "explanation": "Drifting concentrations break the 1/t shortcut.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_j4p9zj8r2jTgtq72::L2::Q4",
+      "moduleId": "rn_j4p9zj8r2jTgtq72::L2",
+      "stem": "In the clock table, 1/t values across different concentrations can be compared directly because",
+      "misconceptionClass": "comparability",
+      "options": [
+        {
+          "key": "A",
+          "text": "Each 1/t carries the same proportionality to its run's initial rate",
+          "correct": true,
+          "explanation": "The same milestone and assumption apply to every run.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The units of 1/t change with concentration",
+          "correct": false,
+          "explanation": "Units stay s^-1 throughout.",
+          "misconception": "false claim"
+        },
+        {
+          "key": "C",
+          "text": "Each run used a different indicator",
+          "correct": false,
+          "explanation": "One indicator system is used throughout.",
+          "misconception": "false claim"
+        },
+        {
+          "key": "D",
+          "text": "Temperature changed between runs",
+          "correct": false,
+          "explanation": "Runs are held at fixed temperature.",
+          "misconception": "false claim"
+        }
+      ]
+    },
+    {
+      "id": "rn_j4p9zj8r2jTgtq72::L2::Q5",
+      "moduleId": "rn_j4p9zj8r2jTgtq72::L2",
+      "stem": "A clock run records a much longer time than the others in its set. The best inference is",
+      "misconceptionClass": "long time inference",
+      "options": [
+        {
+          "key": "A",
+          "text": "The concentration was highest",
+          "correct": false,
+          "explanation": "Higher concentration shortens the time.",
+          "misconception": "contradiction"
+        },
+        {
+          "key": "B",
+          "text": "Its initial rate is the smallest and the least accurate of the set",
+          "correct": true,
+          "explanation": "Long times mean slow early rates and weakening assumptions.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Its initial rate is the largest",
+          "correct": false,
+          "explanation": "Large rates give short times.",
+          "misconception": "inversion slip"
+        },
+        {
+          "key": "D",
+          "text": "The reaction stopped",
+          "correct": false,
+          "explanation": "The endpoint was still reached.",
+          "misconception": "false cause"
+        }
+      ]
+    },
+    {
+      "id": "rn_j4p9zj8r2jTgtq72::L2::Q6",
+      "moduleId": "rn_j4p9zj8r2jTgtq72::L2",
+      "stem": "State the 1/t conversion for a measured time of 40 s.",
+      "misconceptionClass": "conversion recall",
+      "kind": "recall",
+      "modelAnswer": "1/40 = 0.025 s^-1, the quantity proportional to the initial rate.",
+      "keywords": [
+        "proportional",
+        "initial",
+        "quantity"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_j4p9zj8r2jTgtq72::L2::Q7",
+      "moduleId": "rn_j4p9zj8r2jTgtq72::L2",
+      "stem": "State the accuracy trend of clock-reaction rates as measured times lengthen.",
+      "misconceptionClass": "accuracy recall",
+      "kind": "recall",
+      "modelAnswer": "Accuracy falls: short times give initial rates close to the true value, long times drift from it.",
+      "keywords": [
+        "accuracy",
+        "times",
+        "rates"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_j4p9zj8r2jTgtq72::L2::Q8",
+      "moduleId": "rn_j4p9zj8r2jTgtq72::L2",
+      "stem": "Explain why 1/t can serve as a stand-in for the initial rate in clock experiments.",
+      "misconceptionClass": "1 over t why",
+      "kind": "explain-why",
+      "modelAnswer": "Every run triggers the same small extent of reaction before the clock change appears, so the distance travelled is fixed and speed equals that fixed extent divided by time, making rate proportional to 1/t.",
+      "keywords": [
+        "extent",
+        "proportional",
+        "clock"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_j4p9zj8r2jTgtq72::L2::Q9",
+      "moduleId": "rn_j4p9zj8r2jTgtq72::L2",
+      "stem": "Two clock runs give times of 20 s and 40 s. State the ratio of their initial rates.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "The rates are proportional to 1/20 and 1/40, so the faster run's initial rate is twice the slower run's.",
+      "keywords": [
+        "proportional",
+        "rate",
+        "initial"
+      ],
+      "options": []
+    }
+  ]
+}

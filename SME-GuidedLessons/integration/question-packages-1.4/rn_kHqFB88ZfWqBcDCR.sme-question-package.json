@@ -1,0 +1,487 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_kHqFB88ZfWqBcDCR",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "0ce1542deadeae3286e8a93b68981c067d37ee7056c05393774782b7e6bf7f96",
+    "pinnedRef": "18586815e7ef4eb9730b8141ba42d5723eaafe5c"
+  },
+  "packageId": "ial-chemistry::rn_kHqFB88ZfWqBcDCR",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_kHqFB88ZfWqBcDCR::L1::Q1",
+      "moduleId": "rn_kHqFB88ZfWqBcDCR::L1",
+      "stem": "What are the units of rate of reaction when concentration is tracked?",
+      "misconceptionClass": "rate units",
+      "options": [
+        {
+          "key": "A",
+          "text": "mol dm-3 s-1",
+          "correct": true,
+          "explanation": "Rate is a concentration change per time, so concentration units divide by seconds.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "mol dm-3",
+          "correct": false,
+          "explanation": "That is a concentration, not a change in concentration over time.",
+          "misconception": "missing time"
+        },
+        {
+          "key": "C",
+          "text": "s-1",
+          "correct": false,
+          "explanation": "That would suit a first-order rate constant, not a rate measured in concentration terms.",
+          "misconception": "k confusion"
+        },
+        {
+          "key": "D",
+          "text": "g s-1",
+          "correct": false,
+          "explanation": "Mass-based rates are possible experimentally, but the defined rate unit here is concentration per time.",
+          "misconception": "unit slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_kHqFB88ZfWqBcDCR::L1::Q2",
+      "moduleId": "rn_kHqFB88ZfWqBcDCR::L1",
+      "stem": "Which property change could NOT follow the course of the reaction D (aq) to E (aq) plus F (g)?",
+      "misconceptionClass": "tracking property",
+      "options": [
+        {
+          "key": "A",
+          "text": "A colour change as E accumulates",
+          "correct": false,
+          "explanation": "Colour tracks concentration whenever the mixture changes appearance.",
+          "misconception": "wrong exclusion"
+        },
+        {
+          "key": "B",
+          "text": "A constant electrical conductivity reading",
+          "correct": true,
+          "explanation": "Conductivity only carries rate information when ion concentrations change; here it stays constant, so it cannot follow the course.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "A fall in the volume of D present in the mixture",
+          "correct": false,
+          "explanation": "D is aqueous and its concentration changes as it reacts, so tracking it is sensible.",
+          "misconception": "wrong exclusion"
+        },
+        {
+          "key": "D",
+          "text": "The mass of the reaction vessel and contents",
+          "correct": false,
+          "explanation": "Mass follows the escape of gaseous F, so it changes measurably.",
+          "misconception": "wrong exclusion"
+        }
+      ]
+    },
+    {
+      "id": "rn_kHqFB88ZfWqBcDCR::L1::Q3",
+      "moduleId": "rn_kHqFB88ZfWqBcDCR::L1",
+      "stem": "Rate of reaction is calculated by dividing",
+      "misconceptionClass": "rate formula",
+      "options": [
+        {
+          "key": "A",
+          "text": "The time taken by the temperature rise",
+          "correct": false,
+          "explanation": "Temperature is not the defined quantity here and the ratio is inverted.",
+          "misconception": "inverted"
+        },
+        {
+          "key": "B",
+          "text": "The concentration of product by the concentration of reactant",
+          "correct": false,
+          "explanation": "That compares two concentrations at one instant, not a change over time.",
+          "misconception": "ratio error"
+        },
+        {
+          "key": "C",
+          "text": "The change in concentration of a reactant or product by the time taken for that change",
+          "correct": true,
+          "explanation": "The definition is concentration change per unit time.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The total volume of product by the total mass of reactant",
+          "correct": false,
+          "explanation": "Neither ratio carries time, so neither is a rate.",
+          "misconception": "no time"
+        }
+      ]
+    },
+    {
+      "id": "rn_kHqFB88ZfWqBcDCR::L1::Q4",
+      "moduleId": "rn_kHqFB88ZfWqBcDCR::L1",
+      "stem": "Gas volume collected over time is a valid rate measurement because",
+      "misconceptionClass": "gas volume tracking",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gas volume always equals the volume of solution used",
+          "correct": false,
+          "explanation": "There is no such equality in rate work.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "B",
+          "text": "Gases dissolve completely in the solution",
+          "correct": false,
+          "explanation": "Collected gases are assumed not to dissolve significantly.",
+          "misconception": "wrong picture"
+        },
+        {
+          "key": "C",
+          "text": "Volume is independent of the reaction",
+          "correct": false,
+          "explanation": "The whole point is that gas volume grows as reaction proceeds.",
+          "misconception": "contradiction"
+        },
+        {
+          "key": "D",
+          "text": "The volume of gas produced is proportional to the amount of product formed",
+          "correct": true,
+          "explanation": "Gas moles map directly onto product amount through the equation.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_kHqFB88ZfWqBcDCR::L1::Q5",
+      "moduleId": "rn_kHqFB88ZfWqBcDCR::L1",
+      "stem": "A student measures the mass of a flask at 10-second intervals as carbon dioxide escapes. The mass readings give rate information because",
+      "misconceptionClass": "mass loss tracking",
+      "options": [
+        {
+          "key": "A",
+          "text": "The falling mass measures reactant or mixture amount at each instant, so differences between readings measure change over time",
+          "correct": true,
+          "explanation": "Successive mass readings give concentration-equivalent changes over measured intervals.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Mass and volume are identical quantities",
+          "correct": false,
+          "explanation": "They are distinct physical quantities.",
+          "misconception": "category error"
+        },
+        {
+          "key": "C",
+          "text": "The balance itself changes the rate",
+          "correct": false,
+          "explanation": "Weighing does not alter the reaction.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "D",
+          "text": "Mass loss equals rate directly without any calculation",
+          "correct": false,
+          "explanation": "A mass reading is an amount, not a rate; rate needs the change divided by time.",
+          "misconception": "missing step"
+        }
+      ]
+    },
+    {
+      "id": "rn_kHqFB88ZfWqBcDCR::L1::Q6",
+      "moduleId": "rn_kHqFB88ZfWqBcDCR::L1",
+      "stem": "State the definition of rate of reaction and its units.",
+      "misconceptionClass": "definition recall",
+      "kind": "recall",
+      "modelAnswer": "Rate of reaction is the concentration change of a chosen reactant or product divided by the time interval, recorded in mol dm-3 s-1.",
+      "keywords": [
+        "concentration",
+        "reactant",
+        "product"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_kHqFB88ZfWqBcDCR::L1::Q7",
+      "moduleId": "rn_kHqFB88ZfWqBcDCR::L1",
+      "stem": "List three measurable changes that can be used to follow the rate of a reaction.",
+      "misconceptionClass": "methods recall",
+      "kind": "recall",
+      "modelAnswer": "Any three of: mass lost over time, volume of gas produced, colour change or colorimetry, pH change, or electrical conductivity change.",
+      "keywords": [
+        "mass",
+        "volume",
+        "colour"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_kHqFB88ZfWqBcDCR::L1::Q8",
+      "moduleId": "rn_kHqFB88ZfWqBcDCR::L1",
+      "stem": "Explain why the model reaction D (aq) to E (aq) plus F (g) is convenient for studying rate at different concentrations of D.",
+      "misconceptionClass": "model reaction",
+      "kind": "explain-why",
+      "modelAnswer": "The gaseous product F can be collected so its volume tracks progress directly, while D stays in solution where samples of known concentration can be prepared, so rates at several starting concentrations of D can be measured and tabulated side by side.",
+      "keywords": [
+        "concentration",
+        "product",
+        "tabulated"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_kHqFB88ZfWqBcDCR::L1::Q9",
+      "moduleId": "rn_kHqFB88ZfWqBcDCR::L1",
+      "stem": "A reaction liberates hydrogen gas, but a student proposes monitoring it by colour change. Comment on the suitability and suggest a better measurement.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Hydrogen and its solutions are colourless, so no colour signal develops and colorimetry would read a flat line; collecting the hydrogen volume in a gas syringe instead gives a directly proportional measure of product formed against time.",
+      "keywords": [
+        "colour",
+        "hydrogen",
+        "volume"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_kHqFB88ZfWqBcDCR::L2::Q1",
+      "moduleId": "rn_kHqFB88ZfWqBcDCR::L2",
+      "stem": "The data for D show that doubling [D] doubles the rate. The rate expression is therefore",
+      "misconceptionClass": "proportionality",
+      "options": [
+        {
+          "key": "A",
+          "text": "rate = k[D] raised to a fractional power",
+          "correct": false,
+          "explanation": "Fractional orders exist but this clean doubling shows power one.",
+          "misconception": "overcomplication"
+        },
+        {
+          "key": "B",
+          "text": "rate = k[D], first order in D",
+          "correct": true,
+          "explanation": "Direct proportionality means a power of one on [D].",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "rate = k[D]2, second order in D",
+          "correct": false,
+          "explanation": "Squaring would make doubling concentration quadruple the rate.",
+          "misconception": "wrong power"
+        },
+        {
+          "key": "D",
+          "text": "rate = k, zero order in D",
+          "correct": false,
+          "explanation": "Zero order would leave rate unchanged as [D] moves.",
+          "misconception": "wrong power"
+        }
+      ]
+    },
+    {
+      "id": "rn_kHqFB88ZfWqBcDCR::L2::Q2",
+      "moduleId": "rn_kHqFB88ZfWqBcDCR::L2",
+      "stem": "In the rate equation rate = k[A]^m[B]^n, the values of m and n",
+      "misconceptionClass": "orders source",
+      "options": [
+        {
+          "key": "A",
+          "text": "Are always 1 and 1",
+          "correct": false,
+          "explanation": "Orders take zero, positive and sometimes fractional values.",
+          "misconception": "oversimplification"
+        },
+        {
+          "key": "B",
+          "text": "Are fixed by the temperature",
+          "correct": false,
+          "explanation": "Temperature changes k, not the orders.",
+          "misconception": "variable confusion"
+        },
+        {
+          "key": "C",
+          "text": "Must be determined experimentally",
+          "correct": true,
+          "explanation": "Orders are kinetic facts that only measurement reveals.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Equal the balancing coefficients of A and B",
+          "correct": false,
+          "explanation": "Stoichiometry does not fix orders.",
+          "misconception": "stoich trap"
+        }
+      ]
+    },
+    {
+      "id": "rn_kHqFB88ZfWqBcDCR::L2::Q3",
+      "moduleId": "rn_kHqFB88ZfWqBcDCR::L2",
+      "stem": "Which species may legitimately appear in a rate equation?",
+      "misconceptionClass": "rate equation members",
+      "options": [
+        {
+          "key": "A",
+          "text": "Any intermediate formed and consumed en route",
+          "correct": false,
+          "explanation": "Intermediates are excluded from rate equations.",
+          "misconception": "intermediate trap"
+        },
+        {
+          "key": "B",
+          "text": "Only gaseous reactants",
+          "correct": false,
+          "explanation": "Rate equations include whatever the mechanism involves, whatever its state.",
+          "misconception": "state limit"
+        },
+        {
+          "key": "C",
+          "text": "Every species in the stoichiometric equation",
+          "correct": false,
+          "explanation": "Being in the overall equation does not guarantee a rate role.",
+          "misconception": "overinclusion"
+        },
+        {
+          "key": "D",
+          "text": "A catalyst used in the reaction",
+          "correct": true,
+          "explanation": "Catalysts can feature because they affect the rate-determining chemistry.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_kHqFB88ZfWqBcDCR::L2::Q4",
+      "moduleId": "rn_kHqFB88ZfWqBcDCR::L2",
+      "stem": "The rate constant k in rate = k[D] is best described as",
+      "misconceptionClass": "rate constant role",
+      "options": [
+        {
+          "key": "A",
+          "text": "The proportionality constant connecting rate to the concentrations raised to their powers",
+          "correct": true,
+          "explanation": "k glues the concentration terms to the rate.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "A second rate measured in different units",
+          "correct": false,
+          "explanation": "k is not itself a rate.",
+          "misconception": "category error"
+        },
+        {
+          "key": "C",
+          "text": "A quantity that rises when more D is added",
+          "correct": false,
+          "explanation": "Changing concentration moves along the expression; k is unchanged.",
+          "misconception": "concentration confusion"
+        },
+        {
+          "key": "D",
+          "text": "A fixed universal constant for all reactions",
+          "correct": false,
+          "explanation": "k is characteristic of each reaction and changes with temperature.",
+          "misconception": "universal error"
+        }
+      ]
+    },
+    {
+      "id": "rn_kHqFB88ZfWqBcDCR::L2::Q5",
+      "moduleId": "rn_kHqFB88ZfWqBcDCR::L2",
+      "stem": "Rate equations can only be determined experimentally because",
+      "misconceptionClass": "experimental origin",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rate equations change during a run",
+          "correct": false,
+          "explanation": "The rate equation is fixed for a given reaction and temperature.",
+          "misconception": "false premise"
+        },
+        {
+          "key": "B",
+          "text": "The orders describe mechanism behaviour that the stoichiometric equation does not encode",
+          "correct": true,
+          "explanation": "Balancing numbers say nothing about the slow-step chemistry that sets orders.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Concentrations cannot be measured",
+          "correct": false,
+          "explanation": "Concentrations are routinely measured in kinetics work.",
+          "misconception": "false premise"
+        },
+        {
+          "key": "D",
+          "text": "k changes during every experiment",
+          "correct": false,
+          "explanation": "k stays constant at fixed temperature.",
+          "misconception": "false premise"
+        }
+      ]
+    },
+    {
+      "id": "rn_kHqFB88ZfWqBcDCR::L2::Q6",
+      "moduleId": "rn_kHqFB88ZfWqBcDCR::L2",
+      "stem": "State the rate expression for the reaction where rate is proportional to [D].",
+      "misconceptionClass": "expression recall",
+      "kind": "recall",
+      "modelAnswer": "Rate = k[D], with k the rate constant and the reaction first order with respect to D.",
+      "keywords": [
+        "rate",
+        "constant",
+        "first order"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_kHqFB88ZfWqBcDCR::L2::Q7",
+      "moduleId": "rn_kHqFB88ZfWqBcDCR::L2",
+      "stem": "Write the general rate equation for A plus B giving C plus D, naming each symbol.",
+      "misconceptionClass": "general recall",
+      "kind": "recall",
+      "modelAnswer": "Rate = k[A]^m[B]^n, where k is the rate constant, [A] and [B] are reactant concentrations, and m and n are the orders with respect to A and B.",
+      "keywords": [
+        "concentration",
+        "orders",
+        "rate constant"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_kHqFB88ZfWqBcDCR::L2::Q8",
+      "moduleId": "rn_kHqFB88ZfWqBcDCR::L2",
+      "stem": "Explain why an intermediate does not feature in a rate equation even though it takes part in the chemistry.",
+      "misconceptionClass": "intermediate exclusion",
+      "kind": "explain-why",
+      "modelAnswer": "An intermediate is made and consumed inside the mechanism rather than supplied by the chemist, so its concentration is not an independent variable; the rate equation is expressed in terms of what is actually added and controlled, which is why intermediates are absent.",
+      "keywords": [
+        "intermediate",
+        "concentration",
+        "equation"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_kHqFB88ZfWqBcDCR::L2::Q9",
+      "moduleId": "rn_kHqFB88ZfWqBcDCR::L2",
+      "stem": "A reaction's stoichiometric equation shows 2A plus B forming products, yet experiment gives rate = k[A]. Reconcile the two statements.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "The balancing numbers and the kinetic orders are independent: the experiment shows the rate depends only on one power of A, so the slow chemistry involves A but not free B; the coefficient 2 in the overall equation is bookkeeping, not an order, and the rate equation from experiment stands.",
+      "keywords": [
+        "experiment",
+        "order",
+        "equation"
+      ],
+      "options": []
+    }
+  ]
+}

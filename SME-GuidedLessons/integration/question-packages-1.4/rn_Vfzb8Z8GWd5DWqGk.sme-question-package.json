@@ -1,0 +1,723 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_Vfzb8Z8GWd5DWqGk",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "6c5c18122128c058c668745edcfde7413379e58049723e2e5d2b6ef5597e4599",
+    "pinnedRef": "18586815e7ef4eb9730b8141ba42d5723eaafe5c"
+  },
+  "packageId": "ial-chemistry::rn_Vfzb8Z8GWd5DWqGk",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_Vfzb8Z8GWd5DWqGk::L1::Q1",
+      "moduleId": "rn_Vfzb8Z8GWd5DWqGk::L1",
+      "stem": "Kinetic evidence relates to a proposed mechanism by",
+      "misconceptionClass": "kinetics proof status",
+      "options": [
+        {
+          "key": "A",
+          "text": "Suggesting it at best, and disproving it if the orders conflict",
+          "correct": true,
+          "explanation": "Suggestion is the ceiling; disproof is decisive.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Proving it conclusively",
+          "correct": false,
+          "explanation": "Proof is beyond kinetics.",
+          "misconception": "overstatement"
+        },
+        {
+          "key": "C",
+          "text": "Being irrelevant to mechanisms",
+          "correct": false,
+          "explanation": "Orders are central mechanism evidence.",
+          "misconception": "contradiction"
+        },
+        {
+          "key": "D",
+          "text": "Fixing the mechanism uniquely",
+          "correct": false,
+          "explanation": "Several mechanisms can share one rate equation.",
+          "misconception": "overstatement"
+        }
+      ]
+    },
+    {
+      "id": "rn_Vfzb8Z8GWd5DWqGk::L1::Q2",
+      "moduleId": "rn_Vfzb8Z8GWd5DWqGk::L1",
+      "stem": "Elementary steps of a valid mechanism must",
+      "misconceptionClass": "elementary requirement",
+      "options": [
+        {
+          "key": "A",
+          "text": "Avoid catalysts entirely",
+          "correct": false,
+          "explanation": "Catalysts may appear in steps.",
+          "misconception": "false rule"
+        },
+        {
+          "key": "B",
+          "text": "Add up to the overall stoichiometric equation",
+          "correct": true,
+          "explanation": "The steps together reproduce the overall change.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Each be exothermic",
+          "correct": false,
+          "explanation": "No such energy rule applies.",
+          "misconception": "invented rule"
+        },
+        {
+          "key": "D",
+          "text": "All be slow",
+          "correct": false,
+          "explanation": "Only one step is the slow one.",
+          "misconception": "contradiction"
+        }
+      ]
+    },
+    {
+      "id": "rn_Vfzb8Z8GWd5DWqGk::L1::Q3",
+      "moduleId": "rn_Vfzb8Z8GWd5DWqGk::L1",
+      "stem": "In the NO-plus-hydrogen mechanism, the rate-determining step contains",
+      "misconceptionClass": "NO rds contents",
+      "options": [
+        {
+          "key": "A",
+          "text": "One N2O and one H2",
+          "correct": false,
+          "explanation": "N2O appears in the third, fast step.",
+          "misconception": "step slip"
+        },
+        {
+          "key": "B",
+          "text": "Only N2O2",
+          "correct": false,
+          "explanation": "Hydrogen's first order puts H2 in the slow step.",
+          "misconception": "partial count"
+        },
+        {
+          "key": "C",
+          "text": "One N2O2 and one H2",
+          "correct": true,
+          "explanation": "The slow second step pairs the dimer with hydrogen.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Two NO and two H2 directly",
+          "correct": false,
+          "explanation": "That is the overall equation, not the slow step.",
+          "misconception": "overall mix"
+        }
+      ]
+    },
+    {
+      "id": "rn_Vfzb8Z8GWd5DWqGk::L1::Q4",
+      "moduleId": "rn_Vfzb8Z8GWd5DWqGk::L1",
+      "stem": "The rate equation deduced for 2NO plus 2H2 is rate = k[NO]^2[H2] rather than naming N2O2 because",
+      "misconceptionClass": "intermediate substitution",
+      "options": [
+        {
+          "key": "A",
+          "text": "N2O2 is unstable so it cannot be measured",
+          "correct": false,
+          "explanation": "Stability is not the rule; membership is.",
+          "misconception": "wrong rule"
+        },
+        {
+          "key": "B",
+          "text": "NO is a product",
+          "correct": false,
+          "explanation": "NO is a reactant here.",
+          "misconception": "role slip"
+        },
+        {
+          "key": "C",
+          "text": "H2 is an intermediate",
+          "correct": false,
+          "explanation": "H2 is an added reactant.",
+          "misconception": "role slip"
+        },
+        {
+          "key": "D",
+          "text": "N2O2 is an intermediate, and intermediates are barred from rate equations",
+          "correct": true,
+          "explanation": "The intermediate is replaced by the two NO that form it.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_Vfzb8Z8GWd5DWqGk::L1::Q5",
+      "moduleId": "rn_Vfzb8Z8GWd5DWqGk::L1",
+      "stem": "The overall order of 2NO plus 2H2 under rate = k[NO]^2[H2] is",
+      "misconceptionClass": "overall order NO",
+      "options": [
+        {
+          "key": "A",
+          "text": "Three",
+          "correct": true,
+          "explanation": "2 + 1 = 3.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Two",
+          "correct": false,
+          "explanation": "Hydrogen's first order counts.",
+          "misconception": "partial sum"
+        },
+        {
+          "key": "C",
+          "text": "One",
+          "correct": false,
+          "explanation": "Neither power is zero.",
+          "misconception": "wrong sum"
+        },
+        {
+          "key": "D",
+          "text": "Four",
+          "correct": false,
+          "explanation": "No fourth power exists in the equation.",
+          "misconception": "wrong sum"
+        }
+      ]
+    },
+    {
+      "id": "rn_Vfzb8Z8GWd5DWqGk::L1::Q6",
+      "moduleId": "rn_Vfzb8Z8GWd5DWqGk::L1",
+      "stem": "State the rate equation deduced from the NO-plus-hydrogen mechanism.",
+      "misconceptionClass": "NO rate recall",
+      "kind": "recall",
+      "modelAnswer": "Rate = k[NO]^2[H2], second order in NO, first order in H2, third order overall.",
+      "keywords": [
+        "order",
+        "equation",
+        "overall"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Vfzb8Z8GWd5DWqGk::L1::Q7",
+      "moduleId": "rn_Vfzb8Z8GWd5DWqGk::L1",
+      "stem": "State what kinetics can and cannot do for a proposed mechanism.",
+      "misconceptionClass": "kinetics status recall",
+      "kind": "recall",
+      "modelAnswer": "It can suggest the mechanism but not prove it; it can disprove a proposal whose orders conflict with experiment.",
+      "keywords": [
+        "suggest",
+        "disprove",
+        "mechanism"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Vfzb8Z8GWd5DWqGk::L1::Q8",
+      "moduleId": "rn_Vfzb8Z8GWd5DWqGk::L1",
+      "stem": "Explain why elementary steps must add to the overall equation.",
+      "misconceptionClass": "elementary sum why",
+      "kind": "explain-why",
+      "modelAnswer": "The mechanism is the reaction told stage by stage, so cancelling everything made and remade must leave exactly the overall change; steps that sum elsewhere describe a different reaction.",
+      "keywords": [
+        "steps",
+        "overall",
+        "everything"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Vfzb8Z8GWd5DWqGk::L1::Q9",
+      "moduleId": "rn_Vfzb8Z8GWd5DWqGk::L1",
+      "stem": "A proposed mechanism's slow step contains intermediate R and added species A only. Write the form of the rate equation.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Rate = k[A] with R substituted away: if R forms from two A molecules, the rate equation becomes rate = k[A]^2.",
+      "keywords": [
+        "intermediate",
+        "rate",
+        "equation"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Vfzb8Z8GWd5DWqGk::L2::Q1",
+      "moduleId": "rn_Vfzb8Z8GWd5DWqGk::L2",
+      "stem": "In SN1 nomenclature - 'unimolecular' - the '1' indicates that the slow step involves",
+      "misconceptionClass": "SN1 label",
+      "options": [
+        {
+          "key": "A",
+          "text": "One reaction overall",
+          "correct": false,
+          "explanation": "The mechanism has two steps.",
+          "misconception": "contradiction"
+        },
+        {
+          "key": "B",
+          "text": "One reagent, the halogenoalkane alone",
+          "correct": true,
+          "explanation": "Unimolecular ionisation sets the pace.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "One product",
+          "correct": false,
+          "explanation": "Products do not count in the label.",
+          "misconception": "concept slip"
+        },
+        {
+          "key": "D",
+          "text": "One transition state",
+          "correct": false,
+          "explanation": "The label counts reactants in the slow step.",
+          "misconception": "concept slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_Vfzb8Z8GWd5DWqGk::L2::Q2",
+      "moduleId": "rn_Vfzb8Z8GWd5DWqGk::L2",
+      "stem": "The first step of an SN1 mechanism is",
+      "misconceptionClass": "SN1 first step",
+      "options": [
+        {
+          "key": "A",
+          "text": "Loss of an alkyl group",
+          "correct": false,
+          "explanation": "Alkyl groups stay put.",
+          "misconception": "invented step"
+        },
+        {
+          "key": "B",
+          "text": "Proton transfer",
+          "correct": false,
+          "explanation": "No proton moves in this mechanism.",
+          "misconception": "invented step"
+        },
+        {
+          "key": "C",
+          "text": "Heterolytic breaking of the C-X bond to give X- and a carbocation",
+          "correct": true,
+          "explanation": "Ionisation is the slow, rate-determining stage.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Nucleophilic attack on carbon",
+          "correct": false,
+          "explanation": "Attack comes second, after the cation exists.",
+          "misconception": "step swap"
+        }
+      ]
+    },
+    {
+      "id": "rn_Vfzb8Z8GWd5DWqGk::L2::Q3",
+      "moduleId": "rn_Vfzb8Z8GWd5DWqGk::L2",
+      "stem": "SN1 reactions are favoured by tertiary substrates because",
+      "misconceptionClass": "tertiary favour",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tertiary carbons are least hindered",
+          "correct": false,
+          "explanation": "They are more hindered; stability, not access, decides.",
+          "misconception": "wrong cause"
+        },
+        {
+          "key": "B",
+          "text": "The halogen bonds more weakly to carbon in tertiary compounds alone",
+          "correct": false,
+          "explanation": "Bond strength is not the stated reason.",
+          "misconception": "invented cause"
+        },
+        {
+          "key": "C",
+          "text": "The nucleophile is tertiary",
+          "correct": false,
+          "explanation": "The nucleophile is separate from the substrate.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "D",
+          "text": "Three alkyl groups stabilise the carbocation formed in the slow step",
+          "correct": true,
+          "explanation": "Carbocation stability lowers the barrier of the ionisation step.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_Vfzb8Z8GWd5DWqGk::L2::Q4",
+      "moduleId": "rn_Vfzb8Z8GWd5DWqGk::L2",
+      "stem": "The rate equation for an SN1 reaction is",
+      "misconceptionClass": "SN1 rate equation",
+      "options": [
+        {
+          "key": "A",
+          "text": "rate = k[halogenoalkane]",
+          "correct": true,
+          "explanation": "Only the substrate appears, matching its solo slow step.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "rate = k[halogenoalkane][nucleophile]",
+          "correct": false,
+          "explanation": "That is the SN2 rate equation.",
+          "misconception": "mechanism mix"
+        },
+        {
+          "key": "C",
+          "text": "rate = k[nucleophile]^2",
+          "correct": false,
+          "explanation": "The nucleophile is not in the slow step.",
+          "misconception": "mechanism mix"
+        },
+        {
+          "key": "D",
+          "text": "rate = k[X-]",
+          "correct": false,
+          "explanation": "The released halide is a product.",
+          "misconception": "role slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_Vfzb8Z8GWd5DWqGk::L2::Q5",
+      "moduleId": "rn_Vfzb8Z8GWd5DWqGk::L2",
+      "stem": "The nucleophile's attack in an SN1 mechanism happens",
+      "misconceptionClass": "SN1 attack timing",
+      "options": [
+        {
+          "key": "A",
+          "text": "Never",
+          "correct": false,
+          "explanation": "The product must form somehow.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "B",
+          "text": "After the carbocation forms, in a fast second step",
+          "correct": true,
+          "explanation": "Attack waits for the cation's existence.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Simultaneously with bond breaking",
+          "correct": false,
+          "explanation": "Simultaneity is the SN2 picture.",
+          "misconception": "mechanism mix"
+        },
+        {
+          "key": "D",
+          "text": "Before ionisation",
+          "correct": false,
+          "explanation": "Nothing attacks an intact molecule here.",
+          "misconception": "step swap"
+        }
+      ]
+    },
+    {
+      "id": "rn_Vfzb8Z8GWd5DWqGk::L2::Q6",
+      "moduleId": "rn_Vfzb8Z8GWd5DWqGk::L2",
+      "stem": "State the two steps of an SN1 mechanism in order.",
+      "misconceptionClass": "SN1 steps recall",
+      "kind": "recall",
+      "modelAnswer": "First, heterolytic C-X bond breaking gives X- and a carbocation (slow); second, the nucleophile attacks the carbocation (fast).",
+      "keywords": [
+        "bond",
+        "nucleophile",
+        "heterolytic"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Vfzb8Z8GWd5DWqGk::L2::Q7",
+      "moduleId": "rn_Vfzb8Z8GWd5DWqGk::L2",
+      "stem": "State the meaning of the letters in SN1.",
+      "misconceptionClass": "SN1 letters recall",
+      "kind": "recall",
+      "modelAnswer": "S for substitution, N for nucleophilic, 1 for one species in the rate-determining step.",
+      "keywords": [
+        "substitution",
+        "nucleophilic",
+        "determining"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Vfzb8Z8GWd5DWqGk::L2::Q8",
+      "moduleId": "rn_Vfzb8Z8GWd5DWqGk::L2",
+      "stem": "Explain why the SN1 rate equation contains no nucleophile term.",
+      "misconceptionClass": "SN1 rate why",
+      "kind": "explain-why",
+      "modelAnswer": "The rate is set by the ionisation step, which involves only the halogenoalkane; the nucleophile joins after the slow stage, so its concentration cannot affect how fast that stage runs.",
+      "keywords": [
+        "slow",
+        "nucleophile",
+        "halogenoalkane"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Vfzb8Z8GWd5DWqGk::L2::Q9",
+      "moduleId": "rn_Vfzb8Z8GWd5DWqGk::L2",
+      "stem": "A reaction mixture is diluted so the nucleophile concentration halves while the substrate concentration stays fixed. Predict the effect on an SN1 rate.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "No effect: the nucleophile is absent from the SN1 rate equation, so its halved concentration leaves the rate unchanged.",
+      "keywords": [
+        "nucleophile",
+        "rate",
+        "concentration"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Vfzb8Z8GWd5DWqGk::L3::Q1",
+      "moduleId": "rn_Vfzb8Z8GWd5DWqGk::L3",
+      "stem": "In SN2 nomenclature - 'bimolecular' - the '2' indicates that",
+      "misconceptionClass": "SN2 label",
+      "options": [
+        {
+          "key": "A",
+          "text": "Two products form",
+          "correct": false,
+          "explanation": "Product count is not the label's meaning.",
+          "misconception": "concept slip"
+        },
+        {
+          "key": "B",
+          "text": "The halogen leaves twice",
+          "correct": false,
+          "explanation": "One halogen leaves once.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "C",
+          "text": "Two species, the halogenoalkane and the nucleophile, take part in the rate-determining step",
+          "correct": true,
+          "explanation": "Bimolecular means two participants in the slow step.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Two steps occur",
+          "correct": false,
+          "explanation": "SN2 is a one-step mechanism.",
+          "misconception": "contradiction"
+        }
+      ]
+    },
+    {
+      "id": "rn_Vfzb8Z8GWd5DWqGk::L3::Q2",
+      "moduleId": "rn_Vfzb8Z8GWd5DWqGk::L3",
+      "stem": "The rate equation for an SN2 reaction is",
+      "misconceptionClass": "SN2 rate equation",
+      "options": [
+        {
+          "key": "A",
+          "text": "rate = k[halogenoalkane]",
+          "correct": false,
+          "explanation": "That is the SN1 form.",
+          "misconception": "mechanism mix"
+        },
+        {
+          "key": "B",
+          "text": "rate = k[nucleophile]",
+          "correct": false,
+          "explanation": "That would miss the substrate's role.",
+          "misconception": "partial equation"
+        },
+        {
+          "key": "C",
+          "text": "rate = k[X-]^2",
+          "correct": false,
+          "explanation": "The halide is a product, not a rate species.",
+          "misconception": "role slip"
+        },
+        {
+          "key": "D",
+          "text": "rate = k[halogenoalkane][nucleophile]",
+          "correct": true,
+          "explanation": "Both participants of the concerted step appear.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_Vfzb8Z8GWd5DWqGk::L3::Q3",
+      "moduleId": "rn_Vfzb8Z8GWd5DWqGk::L3",
+      "stem": "During the SN2 step, the nucleophile donates a lone pair to",
+      "misconceptionClass": "SN2 attack site",
+      "options": [
+        {
+          "key": "A",
+          "text": "The delta-positive carbon bearing the halogen",
+          "correct": true,
+          "explanation": "The electron-poor carbon is the target.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The halogen atom itself",
+          "correct": false,
+          "explanation": "The nucleophile approaches the carbon, not the halogen.",
+          "misconception": "target slip"
+        },
+        {
+          "key": "C",
+          "text": "An alkyl group",
+          "correct": false,
+          "explanation": "Alkyl groups are not electrophilic centres here.",
+          "misconception": "target slip"
+        },
+        {
+          "key": "D",
+          "text": "The solvent",
+          "correct": false,
+          "explanation": "The solvent is not attacked.",
+          "misconception": "nonsense claim"
+        }
+      ]
+    },
+    {
+      "id": "rn_Vfzb8Z8GWd5DWqGk::L3::Q4",
+      "moduleId": "rn_Vfzb8Z8GWd5DWqGk::L3",
+      "stem": "The bromoethane and hydroxide example demonstrates that SN2 attack causes",
+      "misconceptionClass": "SN2 geometry",
+      "options": [
+        {
+          "key": "A",
+          "text": "No geometric change",
+          "correct": false,
+          "explanation": "The geometry demonstrably flips.",
+          "misconception": "contradiction"
+        },
+        {
+          "key": "B",
+          "text": "Inversion of configuration at the attacked carbon",
+          "correct": true,
+          "explanation": "Backside attack flips the arrangement, like an umbrella in wind.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Retention of configuration",
+          "correct": false,
+          "explanation": "Retention belongs to a different pathway.",
+          "misconception": "geometry slip"
+        },
+        {
+          "key": "D",
+          "text": "Racemisation",
+          "correct": false,
+          "explanation": "That mixture-of-outcomes belongs to the SN1 cation route.",
+          "misconception": "mechanism mix"
+        }
+      ]
+    },
+    {
+      "id": "rn_Vfzb8Z8GWd5DWqGk::L3::Q5",
+      "moduleId": "rn_Vfzb8Z8GWd5DWqGk::L3",
+      "stem": "Primary halogenoalkanes follow SN2 rather than SN1 because",
+      "misconceptionClass": "primary choice",
+      "options": [
+        {
+          "key": "A",
+          "text": "The nucleophile is too weak for two steps",
+          "correct": false,
+          "explanation": "Nucleophile strength is not the stated reason.",
+          "misconception": "invented cause"
+        },
+        {
+          "key": "B",
+          "text": "Primary halogens cannot leave",
+          "correct": false,
+          "explanation": "Halides leave readily once attacked.",
+          "misconception": "false claim"
+        },
+        {
+          "key": "C",
+          "text": "A primary carbocation would be too unstable to wait for, so attack and leaving fuse into one step",
+          "correct": true,
+          "explanation": "Instability of the would-be cation forces the concerted route.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Primary carbons carry three alkyl groups",
+          "correct": false,
+          "explanation": "That describes tertiary substrates.",
+          "misconception": "role swap"
+        }
+      ]
+    },
+    {
+      "id": "rn_Vfzb8Z8GWd5DWqGk::L3::Q6",
+      "moduleId": "rn_Vfzb8Z8GWd5DWqGk::L3",
+      "stem": "State the SN2 mechanism's step count and its rate equation.",
+      "misconceptionClass": "SN2 recall",
+      "kind": "recall",
+      "modelAnswer": "One concerted step; rate = k[halogenoalkane][nucleophile].",
+      "keywords": [
+        "step",
+        "rate",
+        "halogenoalkane"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Vfzb8Z8GWd5DWqGk::L3::Q7",
+      "moduleId": "rn_Vfzb8Z8GWd5DWqGk::L3",
+      "stem": "State what happens to the C-X bond during the SN2 step.",
+      "misconceptionClass": "bond recall",
+      "kind": "recall",
+      "modelAnswer": "It breaks heterolytically as the nucleophile attacks, with the halogen leaving as the X- ion carrying both bond electrons.",
+      "keywords": [
+        "breaks",
+        "halogen",
+        "heterolytically"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Vfzb8Z8GWd5DWqGk::L3::Q8",
+      "moduleId": "rn_Vfzb8Z8GWd5DWqGk::L3",
+      "stem": "Explain why the SN2 rate equation must contain the nucleophile concentration.",
+      "misconceptionClass": "SN2 rate why",
+      "kind": "explain-why",
+      "modelAnswer": "The single step involves both the substrate and the nucleophile simultaneously, so slowing either slows the reaction; both concentrations therefore carry positive powers in the rate equation.",
+      "keywords": [
+        "nucleophile",
+        "concentration",
+        "equation"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_Vfzb8Z8GWd5DWqGk::L3::Q9",
+      "moduleId": "rn_Vfzb8Z8GWd5DWqGk::L3",
+      "stem": "A secondary halogenoalkane can react by both SN1 and SN2 routes. State what mixture of rate behaviour an experiment might reveal.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "The observed rate equation may blend both terms, rate = k[substrate] + k'[substrate][nucleophile], showing first-order character from the SN1 route plus a nucleophile-dependent term from the SN2 route.",
+      "keywords": [
+        "routes",
+        "rate",
+        "nucleophile"
+      ],
+      "options": []
+    }
+  ]
+}

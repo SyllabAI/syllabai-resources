@@ -1,0 +1,959 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_jGfhpCD8dM2bt6fm",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "11f2cfb40ff29654beeb1b3a345053d2a7afa85e87a4f3a58a8c341b4e6f1346",
+    "pinnedRef": "18586815e7ef4eb9730b8141ba42d5723eaafe5c"
+  },
+  "packageId": "ial-chemistry::rn_jGfhpCD8dM2bt6fm",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L1::Q1",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L1",
+      "stem": "A reaction is feasible when",
+      "misconceptionClass": "feasibility criterion",
+      "options": [
+        {
+          "key": "A",
+          "text": "Delta S total is positive",
+          "correct": true,
+          "explanation": "The sum of system and surroundings entropy changes must be positive.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Delta S system is positive",
+          "correct": false,
+          "explanation": "A negative system term can be outweighed.",
+          "misconception": "partial truth"
+        },
+        {
+          "key": "C",
+          "text": "Delta S surroundings is negative",
+          "correct": false,
+          "explanation": "A negative surroundings term can also be outweighed.",
+          "misconception": "partial truth"
+        },
+        {
+          "key": "D",
+          "text": "Delta H is negative",
+          "correct": false,
+          "explanation": "Feasibility is an entropy sum, not an enthalpy test.",
+          "misconception": "topic mix"
+        }
+      ]
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L1::Q2",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L1",
+      "stem": "The general entropy order used to predict system entropy signs is",
+      "misconceptionClass": "entropy ladder",
+      "options": [
+        {
+          "key": "A",
+          "text": "No order exists",
+          "correct": false,
+          "explanation": "The ladder is a standard predictor.",
+          "misconception": "false claim"
+        },
+        {
+          "key": "B",
+          "text": "Solid below liquid below gas",
+          "correct": true,
+          "explanation": "Each step up grants more particle freedom.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Gas below liquid below solid",
+          "correct": false,
+          "explanation": "That inverts the ladder.",
+          "misconception": "inversion slip"
+        },
+        {
+          "key": "D",
+          "text": "Liquid below solid below gas",
+          "correct": false,
+          "explanation": "Gas is the top rung.",
+          "misconception": "ladder slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L1::Q3",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L1",
+      "stem": "Ethanoic acid with ammonium carbonate runs spontaneously although endothermic because",
+      "misconceptionClass": "ethanoic feasibility",
+      "options": [
+        {
+          "key": "A",
+          "text": "The reaction is exothermic",
+          "correct": false,
+          "explanation": "It is endothermic.",
+          "misconception": "contradiction"
+        },
+        {
+          "key": "B",
+          "text": "Entropy never decides feasibility",
+          "correct": false,
+          "explanation": "It decides exactly this case.",
+          "misconception": "contradiction"
+        },
+        {
+          "key": "C",
+          "text": "The gas produced from a solid and liquid makes delta S system positive and dominant",
+          "correct": true,
+          "explanation": "The system's entropy gain beats the surroundings' loss.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The surroundings' entropy is positive",
+          "correct": false,
+          "explanation": "Endothermy makes it negative.",
+          "misconception": "fact slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L1::Q4",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L1",
+      "stem": "The Gibbs equation is",
+      "misconceptionClass": "gibbs equation",
+      "options": [
+        {
+          "key": "A",
+          "text": "Delta G = delta H + T delta S",
+          "correct": false,
+          "explanation": "The entropy term is subtracted.",
+          "misconception": "sign slip"
+        },
+        {
+          "key": "B",
+          "text": "Delta G = T delta H - delta S",
+          "correct": false,
+          "explanation": "The scaling sits on the entropy term.",
+          "misconception": "form slip"
+        },
+        {
+          "key": "C",
+          "text": "Delta G = delta H x delta S",
+          "correct": false,
+          "explanation": "No product rule exists.",
+          "misconception": "operation slip"
+        },
+        {
+          "key": "D",
+          "text": "Delta G = delta H - T delta S",
+          "correct": true,
+          "explanation": "Enthalpy minus the temperature-scaled entropy term.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L1::Q5",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L1",
+      "stem": "Before substituting delta S into the Gibbs equation, its units must be",
+      "misconceptionClass": "unit conversion",
+      "options": [
+        {
+          "key": "A",
+          "text": "Divided by 1000 to convert J K^-1 mol^-1 into kJ K^-1 mol^-1",
+          "correct": true,
+          "explanation": "Delta H is in kJ, so the terms must match.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Multiplied by 1000",
+          "correct": false,
+          "explanation": "That moves the wrong way.",
+          "misconception": "conversion slip"
+        },
+        {
+          "key": "C",
+          "text": "Left unchanged",
+          "correct": false,
+          "explanation": "Mismatched units corrupt the answer a thousandfold.",
+          "misconception": "negligence slip"
+        },
+        {
+          "key": "D",
+          "text": "Converted to joules with delta H",
+          "correct": false,
+          "explanation": "The standard form keeps delta H in kJ.",
+          "misconception": "form slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L1::Q6",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L1",
+      "stem": "State the three sign patterns that make delta S total positive.",
+      "misconceptionClass": "patterns recall",
+      "kind": "recall",
+      "modelAnswer": "Both positive; surroundings positive and greater than a negative system term; system positive and greater than a negative surroundings term.",
+      "keywords": [
+        "positive",
+        "greater",
+        "surroundings"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L1::Q7",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L1",
+      "stem": "State the Gibbs equation with units for each term.",
+      "misconceptionClass": "equation recall",
+      "kind": "recall",
+      "modelAnswer": "Delta G = delta H - T delta S, in kJ mol^-1, with T in K and delta S converted to kJ K^-1 mol^-1.",
+      "keywords": [
+        "equation",
+        "units",
+        "converted"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L1::Q8",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L1",
+      "stem": "Explain how the Gibbs equation combines the two driving forces.",
+      "misconceptionClass": "combination why",
+      "kind": "explain-why",
+      "modelAnswer": "Delta H measures the enthalpy driving force and T delta S measures the entropy driving force on the same energy scale; subtracting them leaves the net driver, and its sign is the feasibility verdict.",
+      "keywords": [
+        "enthalpy",
+        "entropy",
+        "driving"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L1::Q9",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L1",
+      "stem": "A reaction has delta H = -100 kJ mol^-1 and delta S system = -100 J K^-1 mol^-1 at 500 K. Compute delta G.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Delta S becomes -0.100 kJ K^-1 mol^-1, so delta G = -100 - 500 x (-0.100) = -100 + 50 = -50 kJ mol^-1, still feasible at 500 K.",
+      "keywords": [
+        "becomes",
+        "feasible",
+        "delta"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L2::Q1",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L2",
+      "stem": "An exothermic reaction with positive delta S system is feasible",
+      "misconceptionClass": "always feasible case",
+      "options": [
+        {
+          "key": "A",
+          "text": "Never",
+          "correct": false,
+          "explanation": "The reaction is the most favourable kind.",
+          "misconception": "contradiction"
+        },
+        {
+          "key": "B",
+          "text": "At every temperature, since both terms are negative",
+          "correct": true,
+          "explanation": "Negative minus a positive-times-positive stays negative.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Only below a flip temperature",
+          "correct": false,
+          "explanation": "No flip exists when both terms agree.",
+          "misconception": "false rule"
+        },
+        {
+          "key": "D",
+          "text": "Only above a flip temperature",
+          "correct": false,
+          "explanation": "That describes the negative-delta-S case.",
+          "misconception": "case mix"
+        }
+      ]
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L2::Q2",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L2",
+      "stem": "An exothermic reaction with negative delta S system becomes infeasible when",
+      "misconceptionClass": "exo flip case",
+      "options": [
+        {
+          "key": "A",
+          "text": "Never - exothermic reactions are always feasible",
+          "correct": false,
+          "explanation": "The negative-delta-S case does flip.",
+          "misconception": "overstatement"
+        },
+        {
+          "key": "B",
+          "text": "The entropy turns positive",
+          "correct": false,
+          "explanation": "The sign is given as negative.",
+          "misconception": "contradiction"
+        },
+        {
+          "key": "C",
+          "text": "The temperature is high enough that T delta S outweighs delta H",
+          "correct": true,
+          "explanation": "The growing positive term eventually dominates.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The temperature is low enough",
+          "correct": false,
+          "explanation": "Low T shrinks the opposing term.",
+          "misconception": "inversion slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L2::Q3",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L2",
+      "stem": "An endothermic reaction with negative delta S system is feasible",
+      "misconceptionClass": "never case",
+      "options": [
+        {
+          "key": "A",
+          "text": "At high temperature",
+          "correct": false,
+          "explanation": "Heating cannot fix two agreeing positive terms.",
+          "misconception": "case mix"
+        },
+        {
+          "key": "B",
+          "text": "At low temperature",
+          "correct": false,
+          "explanation": "Low T shrinks the only helpful term here - none exists.",
+          "misconception": "case mix"
+        },
+        {
+          "key": "C",
+          "text": "Only with a catalyst",
+          "correct": false,
+          "explanation": "Catalysis is not feasibility.",
+          "misconception": "topic mix"
+        },
+        {
+          "key": "D",
+          "text": "Never, at any temperature, since both terms are positive",
+          "correct": true,
+          "explanation": "Positive minus a positive-times-positive stays positive.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L2::Q4",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L2",
+      "stem": "The blast furnace extraction of iron works only at high temperature because",
+      "misconceptionClass": "blast furnace case",
+      "options": [
+        {
+          "key": "A",
+          "text": "The change is endothermic with positive entropy, needing large T for the entropy term to win",
+          "correct": true,
+          "explanation": "Furnace heat drives the T delta S term up.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The change is exothermic with negative entropy",
+          "correct": false,
+          "explanation": "Wrong signs for this example.",
+          "misconception": "case mix"
+        },
+        {
+          "key": "C",
+          "text": "Catalysts work only when hot",
+          "correct": false,
+          "explanation": "No catalyst argument applies.",
+          "misconception": "invented cause"
+        },
+        {
+          "key": "D",
+          "text": "Iron melts at low temperatures",
+          "correct": false,
+          "explanation": "Melting is not the reason.",
+          "misconception": "false cause"
+        }
+      ]
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L2::Q5",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L2",
+      "stem": "In delta G = delta H - T delta S with negative delta H and negative delta S, raising T makes delta G",
+      "misconceptionClass": "T behaviour exo",
+      "options": [
+        {
+          "key": "A",
+          "text": "Zero immediately",
+          "correct": false,
+          "explanation": "The flip needs a specific T.",
+          "misconception": "false claim"
+        },
+        {
+          "key": "B",
+          "text": "Larger, since the term -T delta S grows positive",
+          "correct": true,
+          "explanation": "A negative delta S multiplied by growing T and negated grows positive.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Smaller, more negative",
+          "correct": false,
+          "explanation": "That happens when delta S is positive.",
+          "misconception": "case mix"
+        },
+        {
+          "key": "D",
+          "text": "Unchanged",
+          "correct": false,
+          "explanation": "T scales the second term.",
+          "misconception": "false claim"
+        }
+      ]
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L2::Q6",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L2",
+      "stem": "State the feasibility of exothermic reactions with positive delta S system.",
+      "misconceptionClass": "always recall",
+      "kind": "recall",
+      "modelAnswer": "Always feasible, at any temperature, since both terms are negative.",
+      "keywords": [
+        "always",
+        "temperature",
+        "negative"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L2::Q7",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L2",
+      "stem": "State the feasibility of endothermic reactions with negative delta S system.",
+      "misconceptionClass": "never recall",
+      "kind": "recall",
+      "modelAnswer": "Never feasible, whatever the temperature.",
+      "keywords": [
+        "never",
+        "temperature",
+        "whatever"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L2::Q8",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L2",
+      "stem": "Explain why heating enables endothermic, positive-entropy reactions.",
+      "misconceptionClass": "heating why",
+      "kind": "explain-why",
+      "modelAnswer": "The Gibbs term subtracts T delta S, so a positive entropy change converts rising temperature into an ever larger subtraction; past the flip point the subtraction covers the positive delta H and delta G turns negative.",
+      "keywords": [
+        "temperature",
+        "feasible",
+        "positive"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L2::Q9",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L2",
+      "stem": "An extraction is endothermic with positive delta S and fails at 298 K. Name the practical remedy.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Run it hot: furnace temperatures raise T delta S until delta G turns negative, which is exactly the blast-furnace remedy.",
+      "keywords": [
+        "temperature",
+        "feasible",
+        "remedy"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L3::Q1",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L3",
+      "stem": "The flip temperature is found by solving",
+      "misconceptionClass": "flip formula",
+      "options": [
+        {
+          "key": "A",
+          "text": "T = delta H x delta S",
+          "correct": false,
+          "explanation": "No product rule applies.",
+          "misconception": "operation slip"
+        },
+        {
+          "key": "B",
+          "text": "T = delta G / delta S",
+          "correct": false,
+          "explanation": "Delta G is zero at the flip.",
+          "misconception": "formula mix"
+        },
+        {
+          "key": "C",
+          "text": "T = delta H / delta S",
+          "correct": true,
+          "explanation": "Setting delta G = 0 isolates the threshold.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "T = delta S / delta H",
+          "correct": false,
+          "explanation": "The quotient is inverted.",
+          "misconception": "inversion slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L3::Q2",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L3",
+      "stem": "For delta H = +1336 kJ mol^-1 and delta S = +581 J K^-1 mol^-1, the flip temperature is",
+      "misconceptionClass": "flip arithmetic",
+      "options": [
+        {
+          "key": "A",
+          "text": "2.299 K, a unit slip of a thousand",
+          "correct": false,
+          "explanation": "The conversion goes the other way.",
+          "misconception": "unit slip"
+        },
+        {
+          "key": "B",
+          "text": "1336 x 0.581 = 776 K",
+          "correct": false,
+          "explanation": "Division, not multiplication.",
+          "misconception": "operation slip"
+        },
+        {
+          "key": "C",
+          "text": "581/1336 = 0.43 K",
+          "correct": false,
+          "explanation": "Both the quotient and the magnitude are wrong.",
+          "misconception": "inversion slip"
+        },
+        {
+          "key": "D",
+          "text": "2299 K, since 1336/0.581",
+          "correct": true,
+          "explanation": "Converting 581 J to 0.581 kJ then dividing.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L3::Q3",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L3",
+      "stem": "Before dividing delta H by delta S for the flip temperature, delta S quoted in J K^-1 mol^-1 must be",
+      "misconceptionClass": "flip preparation",
+      "options": [
+        {
+          "key": "A",
+          "text": "Divided by 1000 to reach kJ K^-1 mol^-1",
+          "correct": true,
+          "explanation": "The units of delta H and delta S must match.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Multiplied by 1000",
+          "correct": false,
+          "explanation": "That mismatch grows the error.",
+          "misconception": "conversion slip"
+        },
+        {
+          "key": "C",
+          "text": "Ignored",
+          "correct": false,
+          "explanation": "Unit mismatch corrupts the threshold.",
+          "misconception": "negligence slip"
+        },
+        {
+          "key": "D",
+          "text": "Converted to kelvin",
+          "correct": false,
+          "explanation": "Kelvin is already the temperature unit.",
+          "misconception": "unit mix"
+        }
+      ]
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L3::Q4",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L3",
+      "stem": "A positive-positive reaction at temperatures below the flip is",
+      "misconceptionClass": "below flip status",
+      "options": [
+        {
+          "key": "A",
+          "text": "Undefined",
+          "correct": false,
+          "explanation": "The threshold defines the boundary cleanly.",
+          "misconception": "false claim"
+        },
+        {
+          "key": "B",
+          "text": "Not feasible, since T delta S has not yet covered delta H",
+          "correct": true,
+          "explanation": "The refund has not caught the price.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Feasible",
+          "correct": false,
+          "explanation": "Feasibility starts above the flip for this class.",
+          "misconception": "inversion slip"
+        },
+        {
+          "key": "D",
+          "text": "Always feasible",
+          "correct": false,
+          "explanation": "That is the exothermic-positive case.",
+          "misconception": "case mix"
+        }
+      ]
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L3::Q5",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L3",
+      "stem": "The summary of Gibbs factors shows that feasibility ultimately rests on",
+      "misconceptionClass": "summary verdict",
+      "options": [
+        {
+          "key": "A",
+          "text": "Delta S alone",
+          "correct": false,
+          "explanation": "Enthalpy anchors most verdicts.",
+          "misconception": "partial truth"
+        },
+        {
+          "key": "B",
+          "text": "Rate alone",
+          "correct": false,
+          "explanation": "Rate is a separate question.",
+          "misconception": "topic mix"
+        },
+        {
+          "key": "C",
+          "text": "The sign and size of delta H and delta S together with the temperature",
+          "correct": true,
+          "explanation": "All three enter delta G = delta H - T delta S.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Delta H alone",
+          "correct": false,
+          "explanation": "Temperature can overturn enthalpy.",
+          "misconception": "partial truth"
+        }
+      ]
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L3::Q6",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L3",
+      "stem": "State the flip temperature formula.",
+      "misconceptionClass": "formula recall",
+      "kind": "recall",
+      "modelAnswer": "T = delta H / delta S, with delta S converted to the same unit scale as delta H.",
+      "keywords": [
+        "temperature",
+        "formula",
+        "converted"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L3::Q7",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L3",
+      "stem": "State the flip temperature for the aluminium oxide with carbon case.",
+      "misconceptionClass": "flip value recall",
+      "kind": "recall",
+      "modelAnswer": "About 2299 K, from 1336 divided by 0.581.",
+      "keywords": [
+        "aluminium",
+        "temperature",
+        "divided"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L3::Q8",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L3",
+      "stem": "Explain why the flip temperature marks feasibility's turning point.",
+      "misconceptionClass": "flip why",
+      "kind": "explain-why",
+      "modelAnswer": "At delta G = 0 the enthalpy price exactly equals the temperature-scaled entropy refund; below it delta G is positive for this class, above it negative, so the crossing temperature is the verdict boundary.",
+      "keywords": [
+        "temperature",
+        "boundary",
+        "positive"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L3::Q9",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L3",
+      "stem": "A change has delta H = +80 kJ mol^-1 and delta S = +200 J K^-1 mol^-1. Compute its flip temperature.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Delta S is 0.200 kJ K^-1 mol^-1, so T = 80/0.200 = 400 K; the change is feasible above 400 K.",
+      "keywords": [
+        "conversion",
+        "temperature",
+        "delta"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L4::Q1",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L4",
+      "stem": "Thermodynamic stability is judged by",
+      "misconceptionClass": "thermodynamic test",
+      "options": [
+        {
+          "key": "A",
+          "text": "The size of the activation energy",
+          "correct": false,
+          "explanation": "That is the kinetic test.",
+          "misconception": "test swap"
+        },
+        {
+          "key": "B",
+          "text": "The rate constant",
+          "correct": false,
+          "explanation": "Rate is kinetic.",
+          "misconception": "test swap"
+        },
+        {
+          "key": "C",
+          "text": "The reaction's colour",
+          "correct": false,
+          "explanation": "Colour is irrelevant.",
+          "misconception": "irrelevant claim"
+        },
+        {
+          "key": "D",
+          "text": "The sign of delta G under the given conditions",
+          "correct": true,
+          "explanation": "Negative delta G marks thermodynamic feasibility.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L4::Q2",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L4",
+      "stem": "A reaction with high activation energy and negative delta G is",
+      "misconceptionClass": "combined verdict",
+      "options": [
+        {
+          "key": "A",
+          "text": "Thermodynamically feasible but kinetically stable, so it waits for ignition or catalysis",
+          "correct": true,
+          "explanation": "Permission granted, journey hard.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Infeasible",
+          "correct": false,
+          "explanation": "Negative delta G grants feasibility.",
+          "misconception": "contradiction"
+        },
+        {
+          "key": "C",
+          "text": "Always explosive",
+          "correct": false,
+          "explanation": "Kinetic stability can hold it back indefinitely.",
+          "misconception": "overstatement"
+        },
+        {
+          "key": "D",
+          "text": "Impossible to classify",
+          "correct": false,
+          "explanation": "The two tests classify it exactly.",
+          "misconception": "false claim"
+        }
+      ]
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L4::Q3",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L4",
+      "stem": "Methane does not spontaneously combust in air because",
+      "misconceptionClass": "methane case",
+      "options": [
+        {
+          "key": "A",
+          "text": "Oxygen is inert",
+          "correct": false,
+          "explanation": "Oxygen reacts readily once ignited.",
+          "misconception": "false claim"
+        },
+        {
+          "key": "B",
+          "text": "The activation energy is high, making it kinetically stable despite feasible thermodynamics",
+          "correct": true,
+          "explanation": "A spark supplies the climb over the barrier.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "The reaction is thermodynamically infeasible",
+          "correct": false,
+          "explanation": "Combustion is strongly feasible.",
+          "misconception": "contradiction"
+        },
+        {
+          "key": "D",
+          "text": "Methane lacks energy",
+          "correct": false,
+          "explanation": "It is a fuel.",
+          "misconception": "contradiction"
+        }
+      ]
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L4::Q4",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L4",
+      "stem": "Hydrogen peroxide stored at 298 K decomposes only slowly because",
+      "misconceptionClass": "peroxide case",
+      "options": [
+        {
+          "key": "A",
+          "text": "It lacks oxygen",
+          "correct": false,
+          "explanation": "It is rich in oxygen.",
+          "misconception": "false claim"
+        },
+        {
+          "key": "B",
+          "text": "Catalysts are forbidden",
+          "correct": false,
+          "explanation": "MnO2 catalysis is the standard remedy.",
+          "misconception": "false claim"
+        },
+        {
+          "key": "C",
+          "text": "Its activation energy is high, though the decomposition is thermodynamically feasible",
+          "correct": true,
+          "explanation": "MnO2 offers a lower-energy route.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The decomposition is infeasible",
+          "correct": false,
+          "explanation": "It is feasible at 298 K.",
+          "misconception": "contradiction"
+        }
+      ]
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L4::Q5",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L4",
+      "stem": "Adding MnO2 to hydrogen peroxide changes",
+      "misconceptionClass": "catalyst effect",
+      "options": [
+        {
+          "key": "A",
+          "text": "Delta G, making the reaction feasible",
+          "correct": false,
+          "explanation": "Feasibility was already granted.",
+          "misconception": "false change"
+        },
+        {
+          "key": "B",
+          "text": "Delta H of the reaction",
+          "correct": false,
+          "explanation": "Enthalpy is route-independent.",
+          "misconception": "false change"
+        },
+        {
+          "key": "C",
+          "text": "The final equilibrium position",
+          "correct": false,
+          "explanation": "Catalysts do not shift equilibria's thermodynamics.",
+          "misconception": "false change"
+        },
+        {
+          "key": "D",
+          "text": "Only the activation energy, via an alternative route - the thermodynamics stay untouched",
+          "correct": true,
+          "explanation": "Catalysts lower Ea, never delta G.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L4::Q6",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L4",
+      "stem": "State the two independent questions about any reaction.",
+      "misconceptionClass": "two questions recall",
+      "kind": "recall",
+      "modelAnswer": "Whether it is feasible (thermodynamic, delta G) and how fast it is (kinetic, Ea).",
+      "keywords": [
+        "feasible",
+        "whether",
+        "thermodynamic"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L4::Q7",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L4",
+      "stem": "State the kinetic status of methane at room temperature in oxygen.",
+      "misconceptionClass": "methane recall",
+      "kind": "recall",
+      "modelAnswer": "Kinetically stable - a high activation energy keeps it from reacting until ignited.",
+      "keywords": [
+        "activation",
+        "stable",
+        "kinetically"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L4::Q8",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L4",
+      "stem": "Explain why thermodynamic feasibility does not guarantee a visible reaction.",
+      "misconceptionClass": "permission why",
+      "kind": "explain-why",
+      "modelAnswer": "Delta G judges only the start and end states; a high activation barrier stands between them, so without ignition or a catalyst the mixture persists unchanged despite negative delta G.",
+      "keywords": [
+        "activation",
+        "feasible",
+        "unchanged"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_jGfhpCD8dM2bt6fm::L4::Q9",
+      "moduleId": "rn_jGfhpCD8dM2bt6fm::L4",
+      "stem": "A food company wants a feasible decomposition slowed at room temperature. Which lever do they pull, and why?",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "They pull the kinetic lever - lowering temperature or removing catalysts raises the effective barrier - because the thermodynamic feasibility cannot be changed without changing the chemistry.",
+      "keywords": [
+        "kinetic",
+        "feasible",
+        "temperature"
+      ],
+      "options": []
+    }
+  ]
+}

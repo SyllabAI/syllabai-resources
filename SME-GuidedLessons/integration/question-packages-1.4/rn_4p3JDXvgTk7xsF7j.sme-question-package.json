@@ -1,0 +1,487 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_4p3JDXvgTk7xsF7j",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "67c0f3a5774e405d3d45b6fad28a79d45486f157ba51cbd272c98f00f6e8e6fd",
+    "pinnedRef": "18586815e7ef4eb9730b8141ba42d5723eaafe5c"
+  },
+  "packageId": "ial-chemistry::rn_4p3JDXvgTk7xsF7j",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_4p3JDXvgTk7xsF7j::L1::Q1",
+      "moduleId": "rn_4p3JDXvgTk7xsF7j::L1",
+      "stem": "The rate-determining step is",
+      "misconceptionClass": "rds definition",
+      "options": [
+        {
+          "key": "A",
+          "text": "The slowest step of the reaction mechanism",
+          "correct": true,
+          "explanation": "Speed of the whole process equals the speed of its slowest stage.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "The first step written on paper",
+          "correct": false,
+          "explanation": "Order of writing does not decide speed.",
+          "misconception": "concept slip"
+        },
+        {
+          "key": "C",
+          "text": "The step releasing the most energy",
+          "correct": false,
+          "explanation": "Energy release is not the criterion here.",
+          "misconception": "concept slip"
+        },
+        {
+          "key": "D",
+          "text": "Any step involving a catalyst",
+          "correct": false,
+          "explanation": "Catalyst involvement does not define the step.",
+          "misconception": "concept slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_4p3JDXvgTk7xsF7j::L1::Q2",
+      "moduleId": "rn_4p3JDXvgTk7xsF7j::L1",
+      "stem": "A species appears in the rate equation when it",
+      "misconceptionClass": "rate equation membership",
+      "options": [
+        {
+          "key": "A",
+          "text": "Is a product",
+          "correct": false,
+          "explanation": "Products generally appear only if they catalyse or inhibit.",
+          "misconception": "overinclusion"
+        },
+        {
+          "key": "B",
+          "text": "Takes part in the rate-determining step",
+          "correct": true,
+          "explanation": "Slow-step participants earn their place in the rate equation.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Appears anywhere in the mechanism",
+          "correct": false,
+          "explanation": "Fast-step-only species stay out.",
+          "misconception": "overinclusion"
+        },
+        {
+          "key": "D",
+          "text": "Appears in the overall equation",
+          "correct": false,
+          "explanation": "Overall-equation presence is not the criterion.",
+          "misconception": "overinclusion"
+        }
+      ]
+    },
+    {
+      "id": "rn_4p3JDXvgTk7xsF7j::L1::Q3",
+      "moduleId": "rn_4p3JDXvgTk7xsF7j::L1",
+      "stem": "The rate equation rate = k[CH3Br][OH-] implies that the slow step involves",
+      "misconceptionClass": "CH3Br slow step",
+      "options": [
+        {
+          "key": "A",
+          "text": "One CH3Br only",
+          "correct": false,
+          "explanation": "The OH- factor names it in the slow step too.",
+          "misconception": "partial count"
+        },
+        {
+          "key": "B",
+          "text": "Neither species, since orders are unknown",
+          "correct": false,
+          "explanation": "The equation states both orders plainly.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "C",
+          "text": "One CH3Br and one OH-",
+          "correct": true,
+          "explanation": "First order in each means one of each in the slow step.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Two CH3Br and one OH-",
+          "correct": false,
+          "explanation": "The power counts molecules; CH3Br is first order.",
+          "misconception": "count slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_4p3JDXvgTk7xsF7j::L1::Q4",
+      "moduleId": "rn_4p3JDXvgTk7xsF7j::L1",
+      "stem": "For NO2 with CO, rate = k[NO2]^2 tells us the rate-determining step uses",
+      "misconceptionClass": "NO2 slow step",
+      "options": [
+        {
+          "key": "A",
+          "text": "One NO2 and one CO",
+          "correct": false,
+          "explanation": "CO is zero order, so it is absent from the slow step.",
+          "misconception": "count slip"
+        },
+        {
+          "key": "B",
+          "text": "Two NO2 and two CO",
+          "correct": false,
+          "explanation": "CO's zero order forbids CO in the slow step.",
+          "misconception": "count slip"
+        },
+        {
+          "key": "C",
+          "text": "One NO2 only",
+          "correct": false,
+          "explanation": "The squared power means two.",
+          "misconception": "count slip"
+        },
+        {
+          "key": "D",
+          "text": "Two NO2 molecules and no CO molecules",
+          "correct": true,
+          "explanation": "The square means two; the absence of CO means zero.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_4p3JDXvgTk7xsF7j::L1::Q5",
+      "moduleId": "rn_4p3JDXvgTk7xsF7j::L1",
+      "stem": "The compatible two-step mechanism for NO2 with CO has as its slow step",
+      "misconceptionClass": "mechanism slow step",
+      "options": [
+        {
+          "key": "A",
+          "text": "2NO2 giving NO and NO3",
+          "correct": true,
+          "explanation": "Two NO2 in the slow step matches rate = k[NO2]^2.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "NO3 plus CO giving NO2 and CO2",
+          "correct": false,
+          "explanation": "That is the fast second step.",
+          "misconception": "step swap"
+        },
+        {
+          "key": "C",
+          "text": "CO decomposing to C and O2",
+          "correct": false,
+          "explanation": "No such step appears in the mechanism.",
+          "misconception": "invented step"
+        },
+        {
+          "key": "D",
+          "text": "NO reacting with CO2",
+          "correct": false,
+          "explanation": "Products do not feed the slow step here.",
+          "misconception": "invented step"
+        }
+      ]
+    },
+    {
+      "id": "rn_4p3JDXvgTk7xsF7j::L1::Q6",
+      "moduleId": "rn_4p3JDXvgTk7xsF7j::L1",
+      "stem": "Define the rate-determining step.",
+      "misconceptionClass": "rds recall",
+      "kind": "recall",
+      "modelAnswer": "The slowest step in the reaction mechanism, which sets the overall pace.",
+      "keywords": [
+        "slowest",
+        "step",
+        "mechanism"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_4p3JDXvgTk7xsF7j::L1::Q7",
+      "moduleId": "rn_4p3JDXvgTk7xsF7j::L1",
+      "stem": "State what the rate equation rate = k[NO2]^2 implies about CO in the slow step.",
+      "misconceptionClass": "CO implication recall",
+      "kind": "recall",
+      "modelAnswer": "CO is zero order, so no CO molecules take part in the rate-determining step.",
+      "keywords": [
+        "zero",
+        "molecules",
+        "determining"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_4p3JDXvgTk7xsF7j::L1::Q8",
+      "moduleId": "rn_4p3JDXvgTk7xsF7j::L1",
+      "stem": "Explain why both CH3Br and OH- in rate = k[CH3Br][OH-] points to their joint presence in the slow step.",
+      "misconceptionClass": "joint presence why",
+      "kind": "explain-why",
+      "modelAnswer": "Only species engaged in the slow step influence the pace of the whole process, so a species appearing with a positive power in the rate equation must be present in that bottleneck; both names in the equation means both molecules in the slow step.",
+      "keywords": [
+        "species",
+        "slow",
+        "bottleneck"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_4p3JDXvgTk7xsF7j::L1::Q9",
+      "moduleId": "rn_4p3JDXvgTk7xsF7j::L1",
+      "stem": "A reaction's rate equation is rate = k[X]^2[Y]^0. Sketch the molecule content of its rate-determining step.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Two molecules of X and none of Y collide in the slow step; Y may participate in fast steps only, which its zero order records.",
+      "keywords": [
+        "molecules",
+        "slow",
+        "participate"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_4p3JDXvgTk7xsF7j::L2::Q1",
+      "moduleId": "rn_4p3JDXvgTk7xsF7j::L2",
+      "stem": "In the alkaline bromination of propane, bromine's absence from the rate equation shows that",
+      "misconceptionClass": "Br2 absence",
+      "options": [
+        {
+          "key": "A",
+          "text": "The rate equation is incomplete",
+          "correct": false,
+          "explanation": "The equation is exactly informative enough.",
+          "misconception": "false claim"
+        },
+        {
+          "key": "B",
+          "text": "Br2 is not involved in the rate-determining step",
+          "correct": true,
+          "explanation": "Absent species stay out of the slow step.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Br2 is not involved in the reaction at all",
+          "correct": false,
+          "explanation": "Bromine appears in the overall equation, so it reacts in fast steps.",
+          "misconception": "overstatement"
+        },
+        {
+          "key": "D",
+          "text": "Bromine is a catalyst",
+          "correct": false,
+          "explanation": "No catalytic role is implied.",
+          "misconception": "false role"
+        }
+      ]
+    },
+    {
+      "id": "rn_4p3JDXvgTk7xsF7j::L2::Q2",
+      "moduleId": "rn_4p3JDXvgTk7xsF7j::L2",
+      "stem": "The rate-determining step of the propane bromination mechanism is",
+      "misconceptionClass": "propane rds",
+      "options": [
+        {
+          "key": "A",
+          "text": "The step forming the final product",
+          "correct": false,
+          "explanation": "Product formation can be fast.",
+          "misconception": "step slip"
+        },
+        {
+          "key": "B",
+          "text": "Impossible to identify",
+          "correct": false,
+          "explanation": "The rate equation identifies it.",
+          "misconception": "false claim"
+        },
+        {
+          "key": "C",
+          "text": "CH3CH2CH3 plus OH- giving CH3CH2CH2^- plus H2O",
+          "correct": true,
+          "explanation": "Exactly the species the rate equation names.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "The step consuming Br2",
+          "correct": false,
+          "explanation": "Bromine's zero order excludes it from the slow step.",
+          "misconception": "step slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_4p3JDXvgTk7xsF7j::L2::Q3",
+      "moduleId": "rn_4p3JDXvgTk7xsF7j::L2",
+      "stem": "Identifying a rate-determining step from a mechanism requires",
+      "misconceptionClass": "identification inputs",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only the overall equation",
+          "correct": false,
+          "explanation": "The overall equation hides the steps.",
+          "misconception": "insufficient input"
+        },
+        {
+          "key": "B",
+          "text": "The enthalpy change of the reaction",
+          "correct": false,
+          "explanation": "Enthalpy is not the criterion.",
+          "misconception": "topic mix"
+        },
+        {
+          "key": "C",
+          "text": "The colour of the mixture",
+          "correct": false,
+          "explanation": "Colour is irrelevant here.",
+          "misconception": "irrelevant claim"
+        },
+        {
+          "key": "D",
+          "text": "The mechanism's steps and the rate equation",
+          "correct": true,
+          "explanation": "Matching species across the two locates the slow step.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_4p3JDXvgTk7xsF7j::L2::Q4",
+      "moduleId": "rn_4p3JDXvgTk7xsF7j::L2",
+      "stem": "A proposed mechanism has three steps, and the rate equation names species found only in step two. The rate-determining step is",
+      "misconceptionClass": "three step case",
+      "options": [
+        {
+          "key": "A",
+          "text": "Step two",
+          "correct": true,
+          "explanation": "Species membership in the slow step decides it.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Step one, because it comes first",
+          "correct": false,
+          "explanation": "Sequence position does not decide speed.",
+          "misconception": "position slip"
+        },
+        {
+          "key": "C",
+          "text": "Step three, because it finishes the reaction",
+          "correct": false,
+          "explanation": "Completion does not decide speed.",
+          "misconception": "position slip"
+        },
+        {
+          "key": "D",
+          "text": "Undecidable from the information",
+          "correct": false,
+          "explanation": "The information is exactly sufficient.",
+          "misconception": "false claim"
+        }
+      ]
+    },
+    {
+      "id": "rn_4p3JDXvgTk7xsF7j::L2::Q5",
+      "moduleId": "rn_4p3JDXvgTk7xsF7j::L2",
+      "stem": "In the propane bromination mechanism, the intermediate formed in the slow step is",
+      "misconceptionClass": "propane intermediate",
+      "options": [
+        {
+          "key": "A",
+          "text": "Br2",
+          "correct": false,
+          "explanation": "Bromine is a reactant of a later fast step.",
+          "misconception": "species slip"
+        },
+        {
+          "key": "B",
+          "text": "CH3CH2CH2^-, the carbanion formed when propane loses a proton to hydroxide",
+          "correct": true,
+          "explanation": "The slow step produces the carbanion intermediate.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Br-, the bromide ion",
+          "correct": false,
+          "explanation": "Bromide is a product of the fast bromination stage.",
+          "misconception": "species slip"
+        },
+        {
+          "key": "D",
+          "text": "H2O",
+          "correct": false,
+          "explanation": "Water forms in the slow step but is a product there, not an intermediate carried forward.",
+          "misconception": "species slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_4p3JDXvgTk7xsF7j::L2::Q6",
+      "moduleId": "rn_4p3JDXvgTk7xsF7j::L2",
+      "stem": "State the rate equation for the alkaline bromination of propane.",
+      "misconceptionClass": "propane rate recall",
+      "kind": "recall",
+      "modelAnswer": "Rate = k[CH3CH2CH3][OH-], first order in propane and first order in hydroxide.",
+      "keywords": [
+        "rate",
+        "propane",
+        "hydroxide"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_4p3JDXvgTk7xsF7j::L2::Q7",
+      "moduleId": "rn_4p3JDXvgTk7xsF7j::L2",
+      "stem": "State which species is absent from the slow step of the propane bromination.",
+      "misconceptionClass": "absent recall",
+      "kind": "recall",
+      "modelAnswer": "Bromine (Br2) is absent from the rate-determining step.",
+      "keywords": [
+        "absent",
+        "slow",
+        "determining"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_4p3JDXvgTk7xsF7j::L2::Q8",
+      "moduleId": "rn_4p3JDXvgTk7xsF7j::L2",
+      "stem": "Explain how the rate equation locates the rate-determining step in a known mechanism.",
+      "misconceptionClass": "locate why",
+      "kind": "explain-why",
+      "modelAnswer": "The rate equation lists the species whose concentrations govern the pace, and only the slow step involves exactly those species; scanning the mechanism for the step containing all of them, and none of the absent ones, locates the bottleneck.",
+      "keywords": [
+        "species",
+        "slow",
+        "mechanism"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_4p3JDXvgTk7xsF7j::L2::Q9",
+      "moduleId": "rn_4p3JDXvgTk7xsF7j::L2",
+      "stem": "A mechanism has steps: (1) A plus B giving R, slow; (2) R plus C giving product, fast. Write the rate equation.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "Rate = k[A][B], because only A and B are present in the rate-determining first step and R is an intermediate.",
+      "keywords": [
+        "rate",
+        "slow",
+        "intermediate"
+      ],
+      "options": []
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_4p3JDXvgTk7xsF7j",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "67c0f3a5774e405d3d45b6fad28a79d45486f157ba51cbd272c98f00f6e8e6fd",
+    "pinnedRef": "18586815e7ef4eb9730b8141ba42d5723eaafe5c"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_4p3JDXvgTk7xsF7j",
+    "topicTitle": "4: Rates, Equilibria & Further Organic Chemistry",
+    "subtopicTitle": "Rate-Determining Steps from Equations",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/4-rates-equilibria-and-further-organic-chemistry/4-1-kinetics/4-1-7-rate-determining-steps-from-equations",
+    "specAnchors": [
+      {
+        "code": "11.7",
+        "text": "be able to deduce the rate-determining step from a rate equation and vice versa"
+      }
+    ],
+    "primer": {
+      "text": "A reaction can only go as fast as its slowest step. The rate-determining step is the slowest stage of a mechanism, and any species taking part in it appears in the rate equation. This note uses that link in both directions: predicting a plausible mechanism from orders, and locating the slow step once the mechanism is known.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_4p3JDXvgTk7xsF7j::L1",
+        "title": "The slowest step rules the rate",
+        "sourceHeadings": [
+          "Rate-determining step & intermediates",
+          "Predicting the reaction mechanism"
+        ],
+        "specRefs": [
+          "11.7"
+        ],
+        "opening": "A multi-step reaction moves at the pace of its slowest stage. That stage is the rate-determining step, and any species taking part in it earns a place in the rate equation. Reading the rate equation backwards therefore predicts which molecules must collide in the slow step, sketching the mechanism's shape.",
+        "keyPoints": [
+          "In any multi-step reaction the rate-determining step is its slowest stage, and it sets the pace for everything else.",
+          "A reactant that appears in the rate-determining step also appears in the rate equation.",
+          "The rate equation rate = k[CH3Br][OH-] shows that both CH3Br and OH- take part in the slow step.",
+          "For NO2 with CO forming NO and CO2, the rate equation rate = k[NO2]^2 implies two NO2 molecules and zero CO molecules in the rate-determining step.",
+          "A compatible mechanism follows: two NO2 react slowly, and the NO3 formed reacts fast with CO."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Species in the slow step appear in the rate equation; powers tell you how many of each are in that step, so the equation sketches the mechanism.",
+            "analogy": "A production line runs at its slowest station's speed; whoever stands at that station is the bottleneck that the output number names.",
+            "examPointer": "State the molecule count in the slow step ('two NO2, zero CO') before writing the mechanism."
+          },
+          "medium": {
+            "restatement": "The rate equation is the slow step's attendance register: each power counts the molecules of that species engaged in the bottleneck.",
+            "analogy": "A bouncer counts heads per group entering; the door log (rate equation) tells you the group sizes at the slow gate.",
+            "examPointer": "Remember an order can be zero: an absent species may still react, just only in fast later steps."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_4p3JDXvgTk7xsF7j::L1::Q1",
+          "rn_4p3JDXvgTk7xsF7j::L1::Q2",
+          "rn_4p3JDXvgTk7xsF7j::L1::Q3",
+          "rn_4p3JDXvgTk7xsF7j::L1::Q4",
+          "rn_4p3JDXvgTk7xsF7j::L1::Q5",
+          "rn_4p3JDXvgTk7xsF7j::L1::Q6",
+          "rn_4p3JDXvgTk7xsF7j::L1::Q7",
+          "rn_4p3JDXvgTk7xsF7j::L1::Q8",
+          "rn_4p3JDXvgTk7xsF7j::L1::Q9"
+        ],
+        "figureIds": []
+      },
+      {
+        "id": "rn_4p3JDXvgTk7xsF7j::L2",
+        "title": "Locating the slow step in a known mechanism",
+        "sourceHeadings": [
+          "Identifying the rate-determining step"
+        ],
+        "specRefs": [
+          "11.7"
+        ],
+        "opening": "Run the logic the other way and the mechanism hands you the slow step. The alkaline bromination of propane carries rate = k[propane][OH-]; since bromine is absent from that equation, the slow step must be the one where propane meets hydroxide, not the later bromine stage.",
+        "keyPoints": [
+          "When the mechanism is known, the rate equation identifies the rate-determining step among the stages.",
+          "The alkaline bromination of propane has overall equation CH3CH2CH3 plus Br2 plus OH- forming CH3CH2CH2Br, water and Br-.",
+          "Its rate equation is rate = k[CH3CH2CH3][OH-], naming propane and hydroxide as slow-step participants.",
+          "Since bromine is absent from the rate equation, Br2 cannot be in the slow step.",
+          "The first stage, propane plus OH- giving the carbanion and water, is therefore the rate-determining step."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Match the rate equation's species to the mechanism's steps: the step holding exactly those species is the slow one; missing species (Br2 here) mark fast steps.",
+            "analogy": "Suspects in a line-up: the rate equation's names are the culprits; whichever step's description includes them all is the scene of the crime.",
+            "examPointer": "Use elimination: a species absent from the rate equation cannot be in the slow step."
+          },
+          "medium": {
+            "restatement": "The rate equation is a search warrant listing who may be present; each mechanism step is a room, and the slow room is the one whose contents match the warrant exactly.",
+            "analogy": "Matching a boarding list to airplane seats: the row holding all listed passengers is the one that matters.",
+            "examPointer": "Quote the absent species explicitly - it is the clue that eliminates the fast step."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_4p3JDXvgTk7xsF7j::L2::Q1",
+          "rn_4p3JDXvgTk7xsF7j::L2::Q2",
+          "rn_4p3JDXvgTk7xsF7j::L2::Q3",
+          "rn_4p3JDXvgTk7xsF7j::L2::Q4",
+          "rn_4p3JDXvgTk7xsF7j::L2::Q5",
+          "rn_4p3JDXvgTk7xsF7j::L2::Q6",
+          "rn_4p3JDXvgTk7xsF7j::L2::Q7",
+          "rn_4p3JDXvgTk7xsF7j::L2::Q8",
+          "rn_4p3JDXvgTk7xsF7j::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-01"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "rate-determining step",
+          "definition": "The slowest step of a mechanism, whose participants appear in the rate equation.",
+          "firstLesson": 1
+        },
+        {
+          "term": "intermediate",
+          "definition": "A species formed in one step and consumed in a later step, never appearing in the rate equation.",
+          "firstLesson": 1
+        },
+        {
+          "term": "mechanism",
+          "definition": "The sequence of elementary steps a reaction follows from reactants to products.",
+          "firstLesson": 2
+        }
+      ],
+      "workedExample": null
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/e8465adb12db-5-6-reaction-kinetics-reaction-mechanism-bromina.png",
+        "alt": "Reaction Kinetics - Reaction Mechanism Bromination Propane, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Identifying the rate-determining step",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique",
+        "caption": "Reaction mechanism for the bromination of propane under alkaline conditions"
+      }
+    ]
+  }
+}

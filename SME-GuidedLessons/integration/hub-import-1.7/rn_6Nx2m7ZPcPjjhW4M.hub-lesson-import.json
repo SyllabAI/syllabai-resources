@@ -1,0 +1,273 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_6Nx2m7ZPcPjjhW4M",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "f635bd9bcc2927c111bd96f9cdafd188e6aac7d0000dff607a25de139a2f7404",
+    "pinnedRef": "18586815e7ef4eb9730b8141ba42d5723eaafe5c"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_6Nx2m7ZPcPjjhW4M",
+    "topicTitle": "4: Rates, Equilibria & Further Organic Chemistry",
+    "subtopicTitle": "Rate Equations & Orders",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/4-rates-equilibria-and-further-organic-chemistry/4-1-kinetics/4-1-2-rate-equations-and-orders",
+    "specAnchors": [
+      {
+        "code": "11.1",
+        "text": "understand the terms: i rate of reaction ii rate equation, rate= k [A] m [B] n where m and n are 0, 1 or 2 iii order with respect to a substance in a rate equation iv overall order of a reaction v rate constant vi half-life vii rate-determining step viii activation energy ix heterogeneous and homogeneous catalyst"
+      },
+      {
+        "code": "11.5",
+        "text": "be able to deduce the order (0, 1 or 2) with respect to a substance in a rate equation, using data from: i a concentration-time graph ii a rate-concentration graph iii an initial-rate method"
+      }
+    ],
+    "primer": {
+      "text": "Orders show how a reactant's concentration shapes the rate: order zero excludes it, order one makes rate proportional, order two makes rate rise with the square. This note reads orders from tabulated experiments, assembles the full rate equation, then calculates the rate constant from an initial rate and deduces its units.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_6Nx2m7ZPcPjjhW4M::L1",
+        "title": "What an order tells you",
+        "sourceHeadings": [
+          "Rate Equations & Orders"
+        ],
+        "specRefs": [
+          "11.1"
+        ],
+        "opening": "The order of a reactant is the power its concentration carries in the rate equation, and it is the experiment's verdict on how hard that chemical drives the rate. Orders may be zero, positive or even fractional, and the overall order is simply their sum. This lesson converts order numbers into concrete rate consequences.",
+        "keyPoints": [
+          "The order of a reactant is the power to which its concentration is raised in the rate equation.",
+          "Order zero: changing that concentration leaves the rate unchanged, so the species is excluded from the rate equation.",
+          "Order one: rate is proportional to concentration, so doubling concentration doubles rate.",
+          "Order two: rate follows the square of concentration, so doubling concentration quadruples rate.",
+          "Adding together every power that the rate equation assigns to the reactants gives the overall order; fractional values hint at multi-step mechanisms."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Order zero ignores the chemical, order one scales rate with concentration, order two scales with its square; add the powers for the overall order.",
+            "analogy": "Volume knobs on a mixer: a dead channel (zero), a linear fader (one) and a loudness button that doubles effect per press squared (two).",
+            "examPointer": "Convert doubling language into factors fast: double means x2 for first order and x4 for second."
+          },
+          "medium": {
+            "restatement": "Orders encode mechanism participation, not balancing numbers; a fractional order is the fingerprint of a reaction that proceeds through several elementary stages.",
+            "analogy": "A relay race: only the runners in the changing-over leg (the slow steps) set the finishing time, and how many legs they run is the order.",
+            "examPointer": "Overall-order questions are addition tasks - sum the powers, then state the word (first, second, third)."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_6Nx2m7ZPcPjjhW4M::L1::Q1",
+          "rn_6Nx2m7ZPcPjjhW4M::L1::Q2",
+          "rn_6Nx2m7ZPcPjjhW4M::L1::Q3",
+          "rn_6Nx2m7ZPcPjjhW4M::L1::Q4",
+          "rn_6Nx2m7ZPcPjjhW4M::L1::Q5",
+          "rn_6Nx2m7ZPcPjjhW4M::L1::Q6",
+          "rn_6Nx2m7ZPcPjjhW4M::L1::Q7",
+          "rn_6Nx2m7ZPcPjjhW4M::L1::Q8",
+          "rn_6Nx2m7ZPcPjjhW4M::L1::Q9"
+        ],
+        "figureIds": []
+      },
+      {
+        "id": "rn_6Nx2m7ZPcPjjhW4M::L2",
+        "title": "Deducing orders from a data table",
+        "sourceHeadings": [
+          "Determining Rate Equations",
+          "Experimental Results of Concentrations & Initial Rates Table"
+        ],
+        "specRefs": [
+          "11.5"
+        ],
+        "opening": "Orders come from comparing experiments. Find two runs where only one concentration changes, see what the rate did, and read off the order. The tert-butyl bromide table shows the routine, and the sodium carbonate data show the same method feeding a rate-constant calculation.",
+        "keyPoints": [
+          "Compare two experiments where one concentration changes while all others stay constant, then match the rate change to an order.",
+          "For the tert-butyl bromide reaction, experiments 1 and 2 double [(CH3)3CBr] at fixed [OH-] and the rate doubles, so the order with respect to (CH3)3CBr is 1.",
+          "Experiments 1 and 3 double [OH-] at fixed [(CH3)3CBr] and the rate rises fourfold, so the order with respect to OH- is 2.",
+          "The deduced rate equation is rate = k[(CH3)3CBr][OH-]^2.",
+          "The sodium carbonate table lists initial concentrations and initial rates ready for the same treatment."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Hold every concentration fixed except one; if the rate doubles the order is 1, if it quadruples the order is 2, then assemble rate = k[...][...]^2.",
+            "analogy": "Testing speakers one at a time: mute everything else, adjust one volume control, and hear how much the total sound moves.",
+            "examPointer": "Always quote the experiment pair you used - 'comparing 1 and 2' - before stating an order."
+          },
+          "medium": {
+            "restatement": "The comparison isolates one variable at a time, which is exactly what the rate equation's structure assumes: each factor is a separate lever, and the data reveal each lever's power.",
+            "analogy": "A photo darkroom: change one filter at a time to see which one deepens the print; the degree of change per doubling is the order.",
+            "examPointer": "Standard-form values are easy to misread - check the powers of ten before declaring a factor change."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_6Nx2m7ZPcPjjhW4M::L2::Q1",
+          "rn_6Nx2m7ZPcPjjhW4M::L2::Q2",
+          "rn_6Nx2m7ZPcPjjhW4M::L2::Q3",
+          "rn_6Nx2m7ZPcPjjhW4M::L2::Q4",
+          "rn_6Nx2m7ZPcPjjhW4M::L2::Q5",
+          "rn_6Nx2m7ZPcPjjhW4M::L2::Q6",
+          "rn_6Nx2m7ZPcPjjhW4M::L2::Q7",
+          "rn_6Nx2m7ZPcPjjhW4M::L2::Q8",
+          "rn_6Nx2m7ZPcPjjhW4M::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-01",
+          "fig-02"
+        ]
+      },
+      {
+        "id": "rn_6Nx2m7ZPcPjjhW4M::L3",
+        "title": "Calculating k and its units",
+        "sourceHeadings": [
+          "Calculating the rate constant from the initial rate",
+          "Calculating Units"
+        ],
+        "specRefs": [
+          "11.5"
+        ],
+        "opening": "Once the rate equation stands, any single experimental line yields k: rearrange, substitute one run's rate and concentrations, and compute. Units come free of charge by feeding the units of every quantity into the rearranged equation and cancelling.",
+        "keyPoints": [
+          "The rate constant is calculated by rearranging the rate equation and substituting one experiment's initial rate and concentrations.",
+          "For the sodium carbonate reaction, substitution of measurement 1 gives k = 1.40 x 10^-2, and the other measurements give the same value.",
+          "Units of k are found by replacing each quantity in the rearranged equation with its units and cancelling.",
+          "For rate = k[(CH3)3CBr][OH-]^2 the units work out as mol^-2 dm^6 s^-1."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Rearrange to k = rate / ([concentrations with their powers]), substitute one run, then cancel the units of rate against the concentration powers.",
+            "analogy": "Finding a price per item: divide the bill by the number of items; the units of the answer come from the division automatically.",
+            "examPointer": "Count concentration powers in the denominator to name the units: two powers give mol^-2 dm^6 s^-1."
+          },
+          "medium": {
+            "restatement": "The rate constant carries the units that make the whole equation dimensionally honest; each order shifts the concentration unit into the denominator once.",
+            "analogy": "A gear ratio: the constants of a machine absorb the units of everything around them so the output reads true.",
+            "examPointer": "State units of k in the final answer - omitting them loses the mark even when the number is right."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_6Nx2m7ZPcPjjhW4M::L3::Q1",
+          "rn_6Nx2m7ZPcPjjhW4M::L3::Q2",
+          "rn_6Nx2m7ZPcPjjhW4M::L3::Q3",
+          "rn_6Nx2m7ZPcPjjhW4M::L3::Q4",
+          "rn_6Nx2m7ZPcPjjhW4M::L3::Q5",
+          "rn_6Nx2m7ZPcPjjhW4M::L3::Q6",
+          "rn_6Nx2m7ZPcPjjhW4M::L3::Q7",
+          "rn_6Nx2m7ZPcPjjhW4M::L3::Q8",
+          "rn_6Nx2m7ZPcPjjhW4M::L3::Q9"
+        ],
+        "figureIds": [
+          "fig-03",
+          "fig-04"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "order",
+          "definition": "The power to which a reactant's concentration is raised in the rate equation.",
+          "firstLesson": 1
+        },
+        {
+          "term": "overall order",
+          "definition": "The total of the powers the rate equation assigns to the reactants.",
+          "firstLesson": 1
+        },
+        {
+          "term": "initial rate",
+          "definition": "The rate at the very start of the reaction, used in rate-constant calculations.",
+          "firstLesson": 2
+        },
+        {
+          "term": "rate constant",
+          "definition": "The factor k that converts concentrations raised to their orders into a rate.",
+          "firstLesson": 3
+        }
+      ],
+      "workedExample": {
+        "prompt": "Use experiment 1 of the tert-butyl bromide data, [(CH3)3CBr] = 1.0 x 10^-3 mol dm^-3, [OH-] = 2.0 x 10^-3 mol dm^-3 and initial rate 3.0 x 10^-3 mol dm^-3 s^-1, to calculate k for rate = k[(CH3)3CBr][OH-]^2, and give the units.",
+        "steps": [
+          "Rearrange: k = rate / ([(CH3)3CBr] x [OH-]^2).",
+          "Square the hydroxide concentration: (2.0 x 10^-3)^2 = 4.0 x 10^-6.",
+          "Multiply the concentrations: 1.0 x 10^-3 x 4.0 x 10^-6 = 4.0 x 10^-9.",
+          "Divide: 3.0 x 10^-3 / 4.0 x 10^-9 = 7.5 x 10^5.",
+          "Attach the units: two concentration powers give mol^-2 dm^6 s^-1."
+        ],
+        "finalAnswer": "k = 7.5 x 10^5 mol^-2 dm^6 s^-1."
+      }
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/59ef00405e65-rates-sodium-carbonate.png",
+        "alt": "Rates sodium carbonate, downloadable AS & A Level Biology revision notes",
+        "sourceHeading": "Experimental Results of Concentrations & Initial Rates Table",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/19028307c277-5-2-3-rate-equation-calculate-k-1.png",
+        "alt": "Substitution of measurement 1 into the rearranged rate equation to find k",
+        "sourceHeading": "Experimental Results of Concentrations & Initial Rates Table",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-03",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/128a99404c13-5-2-3-rate-equation-sodium-carbonate-2-2.png",
+        "alt": "The sodium carbonate reaction and its rate equation",
+        "sourceHeading": "Calculating the rate constant from the initial rate",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-04",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/46dd4502aa07-5-2-3-units-of-k-1.png",
+        "alt": "Working showing the units of k obtained by cancellation",
+        "sourceHeading": "Calculating Units",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique"
+      }
+    ]
+  }
+}

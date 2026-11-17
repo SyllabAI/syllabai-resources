@@ -1,0 +1,251 @@
+{
+  "format": "sme-question-package/1.2",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_xzxqHQZtJF3qBqmS",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "f64781ef49ddf4b096a939eeb1bb4f2d5ebb6b310460ca4130c1f2a05c08c619",
+    "pinnedRef": "18586815e7ef4eb9730b8141ba42d5723eaafe5c"
+  },
+  "packageId": "ial-chemistry::rn_xzxqHQZtJF3qBqmS",
+  "subject": "ial-chemistry",
+  "questions": [
+    {
+      "id": "rn_xzxqHQZtJF3qBqmS::L1::Q1",
+      "moduleId": "rn_xzxqHQZtJF3qBqmS::L1",
+      "stem": "The standard enthalpy change of solution is defined per",
+      "misconceptionClass": "solution definition",
+      "options": [
+        {
+          "key": "A",
+          "text": "1 mole of ionic substance dissolving in enough water to make an infinitely dilute solution",
+          "correct": true,
+          "explanation": "One mole, sufficient water, infinite dilution.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "1 mole of gaseous ions entering water",
+          "correct": false,
+          "explanation": "That is the hydration definition.",
+          "misconception": "definition swap"
+        },
+        {
+          "key": "C",
+          "text": "1 mole of lattice breaking into gaseous ions",
+          "correct": false,
+          "explanation": "That is reverse lattice enthalpy.",
+          "misconception": "definition swap"
+        },
+        {
+          "key": "D",
+          "text": "Any amount dissolving in a fixed beaker",
+          "correct": false,
+          "explanation": "The definition fixes one mole and infinite dilution.",
+          "misconception": "quantity slip"
+        }
+      ]
+    },
+    {
+      "id": "rn_xzxqHQZtJF3qBqmS::L1::Q2",
+      "moduleId": "rn_xzxqHQZtJF3qBqmS::L1",
+      "stem": "The enthalpy of solution for a compound can be",
+      "misconceptionClass": "solution sign range",
+      "options": [
+        {
+          "key": "A",
+          "text": "Always zero",
+          "correct": false,
+          "explanation": "Real compounds show real values.",
+          "misconception": "nonsense claim"
+        },
+        {
+          "key": "B",
+          "text": "Either exothermic or endothermic, depending on the compound",
+          "correct": true,
+          "explanation": "The balance of lattice and hydration terms decides.",
+          "misconception": null
+        },
+        {
+          "key": "C",
+          "text": "Always exothermic",
+          "correct": false,
+          "explanation": "Ammonium nitrate dissolves endothermically.",
+          "misconception": "overstatement"
+        },
+        {
+          "key": "D",
+          "text": "Always endothermic",
+          "correct": false,
+          "explanation": "Many compounds dissolve exothermically.",
+          "misconception": "overstatement"
+        }
+      ]
+    },
+    {
+      "id": "rn_xzxqHQZtJF3qBqmS::L1::Q3",
+      "moduleId": "rn_xzxqHQZtJF3qBqmS::L1",
+      "stem": "The enthalpy of hydration is always exothermic because",
+      "misconceptionClass": "hydration sign",
+      "options": [
+        {
+          "key": "A",
+          "text": "The ion loses its charge",
+          "correct": false,
+          "explanation": "The ion keeps its charge in solution.",
+          "misconception": "false claim"
+        },
+        {
+          "key": "B",
+          "text": "The lattice is breaking",
+          "correct": false,
+          "explanation": "Lattice breaking belongs to the solution side.",
+          "misconception": "step mix"
+        },
+        {
+          "key": "C",
+          "text": "Attractions form between the gaseous ion and the polar water molecules",
+          "correct": true,
+          "explanation": "New bonds mean released energy.",
+          "misconception": null
+        },
+        {
+          "key": "D",
+          "text": "Water must be heated first",
+          "correct": false,
+          "explanation": "No heating is involved.",
+          "misconception": "nonsense claim"
+        }
+      ]
+    },
+    {
+      "id": "rn_xzxqHQZtJF3qBqmS::L1::Q4",
+      "moduleId": "rn_xzxqHQZtJF3qBqmS::L1",
+      "stem": "In the ion-dipole picture, the oxygen atom of water faces",
+      "misconceptionClass": "oxygen orientation",
+      "options": [
+        {
+          "key": "A",
+          "text": "Negative ions",
+          "correct": false,
+          "explanation": "The hydrogens face those.",
+          "misconception": "orientation slip"
+        },
+        {
+          "key": "B",
+          "text": "Neither, water points randomly",
+          "correct": false,
+          "explanation": "The attractions orient the molecules.",
+          "misconception": "contradiction"
+        },
+        {
+          "key": "C",
+          "text": "Only other water molecules",
+          "correct": false,
+          "explanation": "Ion-dipole attractions are the point.",
+          "misconception": "contradiction"
+        },
+        {
+          "key": "D",
+          "text": "Positive ions, since the oxygen carries the delta-negative charge",
+          "correct": true,
+          "explanation": "Opposite charges attract.",
+          "misconception": null
+        }
+      ]
+    },
+    {
+      "id": "rn_xzxqHQZtJF3qBqmS::L1::Q5",
+      "moduleId": "rn_xzxqHQZtJF3qBqmS::L1",
+      "stem": "The hydration equation for magnesium ions is",
+      "misconceptionClass": "magnesium hydration",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mg2+ (g) plus aq forming Mg2+ (aq), exothermic",
+          "correct": true,
+          "explanation": "Gaseous ion in, aqueous ion out, energy out.",
+          "misconception": null
+        },
+        {
+          "key": "B",
+          "text": "Mg (s) plus aq forming Mg2+ (aq)",
+          "correct": false,
+          "explanation": "The definition starts from the gaseous ion.",
+          "misconception": "phase slip"
+        },
+        {
+          "key": "C",
+          "text": "Mg2+ (aq) forming Mg2+ (g)",
+          "correct": false,
+          "explanation": "That runs backwards.",
+          "misconception": "direction slip"
+        },
+        {
+          "key": "D",
+          "text": "MgCl2 (s) plus aq forming Mg2+ (aq) plus 2Cl- (aq)",
+          "correct": false,
+          "explanation": "That is a solution enthalpy, not hydration.",
+          "misconception": "definition swap"
+        }
+      ]
+    },
+    {
+      "id": "rn_xzxqHQZtJF3qBqmS::L1::Q6",
+      "moduleId": "rn_xzxqHQZtJF3qBqmS::L1",
+      "stem": "State the enthalpy of solution equation for potassium chloride.",
+      "misconceptionClass": "KCl solution recall",
+      "kind": "recall",
+      "modelAnswer": "KCl (s) plus aq forming KCl (aq), or K+ (aq) plus Cl- (aq) after separation.",
+      "keywords": [
+        "forming",
+        "solid",
+        "separation"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_xzxqHQZtJF3qBqmS::L1::Q7",
+      "moduleId": "rn_xzxqHQZtJF3qBqmS::L1",
+      "stem": "State the sign and cause of hydration enthalpies.",
+      "misconceptionClass": "hydration recall",
+      "kind": "recall",
+      "modelAnswer": "Always exothermic, caused by attractions forming between the gaseous ion and polar water molecules.",
+      "keywords": [
+        "exothermic",
+        "attraction",
+        "molecules"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_xzxqHQZtJF3qBqmS::L1::Q8",
+      "moduleId": "rn_xzxqHQZtJF3qBqmS::L1",
+      "stem": "Explain why the gaseous ion is the starting point of the hydration definition.",
+      "misconceptionClass": "gaseous start why",
+      "kind": "explain-why",
+      "modelAnswer": "Defining from the gaseous ion isolates the ion-water interaction alone; starting from a solid would bundle lattice breaking into the measurement, mixing two separate energetic events.",
+      "keywords": [
+        "gaseous",
+        "definition",
+        "starting"
+      ],
+      "options": []
+    },
+    {
+      "id": "rn_xzxqHQZtJF3qBqmS::L1::Q9",
+      "moduleId": "rn_xzxqHQZtJF3qBqmS::L1",
+      "stem": "A compound's dissolving feels cold to the touch. State its solution enthalpy sign and identify the exothermic partner process that partly offsets the lattice cost.",
+      "misconceptionClass": "application",
+      "kind": "application",
+      "modelAnswer": "The solution enthalpy is positive (endothermic), and the hydration of its ions is the exothermic partner that repays part of the lattice-breaking cost.",
+      "keywords": [
+        "endothermic",
+        "hydration",
+        "exothermic"
+      ],
+      "options": []
+    }
+  ]
+}

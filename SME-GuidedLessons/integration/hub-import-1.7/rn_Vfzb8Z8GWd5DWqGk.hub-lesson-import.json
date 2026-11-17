@@ -1,0 +1,263 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_Vfzb8Z8GWd5DWqGk",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "6c5c18122128c058c668745edcfde7413379e58049723e2e5d2b6ef5597e4599",
+    "pinnedRef": "18586815e7ef4eb9730b8141ba42d5723eaafe5c"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_Vfzb8Z8GWd5DWqGk",
+    "topicTitle": "4: Rates, Equilibria & Further Organic Chemistry",
+    "subtopicTitle": "Reaction Mechanisms",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/4-rates-equilibria-and-further-organic-chemistry/4-1-kinetics/4-1-8-reaction-mechanisms",
+    "specAnchors": [
+      {
+        "code": "10.9",
+        "text": "understand the mechanisms of the nucleophilic substitution reactions between primary halogenoalkanes and: i aqueous potassium hydroxide ii ammonia S N 1 and S N 2 substitution mechanisms will be tested in Unit 4."
+      },
+      {
+        "code": "11.8",
+        "text": "be able to deduce a reaction mechanism, using knowledge of the rate equation and the stoichiometric equation for a reaction"
+      }
+    ],
+    "primer": {
+      "text": "Kinetic evidence can only suggest a mechanism, never prove one, though it can disprove a wrong one. This note checks elementary steps against the overall equation, deduces orders from a known rate-determining step, and contrasts the SN1 route of tertiary halogenoalkanes with the SN2 route of primary ones, whose one-step rate law names both reactants.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_Vfzb8Z8GWd5DWqGk::L1",
+        "title": "What kinetics can and cannot prove",
+        "sourceHeadings": [
+          "Reaction Mechanisms - Deduction",
+          "Predicting the reaction order & deducing the rate equation"
+        ],
+        "specRefs": [
+          "11.8"
+        ],
+        "opening": "Kinetic evidence can only suggest a mechanism, never prove it, though one wrong order can kill a proposal outright. Elementary steps must add back to the overall equation, and when the slow step is known, orders fall out of it directly: the NO-plus-hydrogen mechanism shows a slow step built from one N2O2 and one H2, giving rate = k[NO]^2[H2].",
+        "keyPoints": [
+          "Kinetics can only suggest a mechanism, but it can disprove a proposed one.",
+          "Elementary steps are the individual stages of a mechanism, and they must combine to the overall stoichiometric equation.",
+          "For 2NO plus 2H2 forming N2 and 2H2O, the slow second step uses one N2O2 and one H2.",
+          "Because N2O2 forms from two NO molecules, the reaction is second order in NO and first order in H2, giving rate = k[NO]^2[H2] and third order overall.",
+          "Intermediates such as N2O2 cannot appear in the rate equation, which is why the substitution through two NO molecules is needed."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Match the slow step's contents to orders: N2O2 (from 2 NO) plus H2 gives rate = k[NO]^2[H2]; intermediates never appear in rate equations.",
+            "analogy": "A receipt lists finished goods, not the factory's half-made parts: the rate equation names added species, never intermediates.",
+            "examPointer": "Check any proposed mechanism by adding its steps - if the sum misses the overall equation, the proposal is dead."
+          },
+          "medium": {
+            "restatement": "The slow step is where the rate lives, so its ingredient list is the rate equation's draft; an intermediate on that list must be replaced by the species that make it.",
+            "analogy": "A recipe that calls for a sauce already in the fridge: to shop, you list the sauce's own ingredients instead of the sauce.",
+            "examPointer": "The substitution step (intermediate replaced by its precursors) is the mark-scoring move in these questions."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_Vfzb8Z8GWd5DWqGk::L1::Q1",
+          "rn_Vfzb8Z8GWd5DWqGk::L1::Q2",
+          "rn_Vfzb8Z8GWd5DWqGk::L1::Q3",
+          "rn_Vfzb8Z8GWd5DWqGk::L1::Q4",
+          "rn_Vfzb8Z8GWd5DWqGk::L1::Q5",
+          "rn_Vfzb8Z8GWd5DWqGk::L1::Q6",
+          "rn_Vfzb8Z8GWd5DWqGk::L1::Q7",
+          "rn_Vfzb8Z8GWd5DWqGk::L1::Q8",
+          "rn_Vfzb8Z8GWd5DWqGk::L1::Q9"
+        ],
+        "figureIds": []
+      },
+      {
+        "id": "rn_Vfzb8Z8GWd5DWqGk::L2",
+        "title": "The SN1 route of tertiary halogenoalkanes",
+        "sourceHeadings": [
+          "S<sub>N</sub>1 reactions"
+        ],
+        "specRefs": [
+          "10.9"
+        ],
+        "opening": "Tertiary halogenoalkanes substitute by an SN1 path: the carbon-halogen bond breaks first and alone, making a carbocation, and the nucleophile attacks afterwards. One species in the slow step means one term in the rate equation, hence the name's '1'.",
+        "keyPoints": [
+          "In tertiary halogenoalkanes the halogen-bearing carbon is bonded to three alkyl groups.",
+          "SN1 stands for substitution, nucleophilic, unimolecular: the slow step depends on one reagent only, the halogenoalkane.",
+          "The SN1 mechanism is two-step: the C-X bond breaks heterolytically first (slow, rate-determining), releasing X- and a carbocation.",
+          "The nucleophile then attacks the carbocation in a fast second step."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "SN1: bond breaks first (slow) making a carbocation, nucleophile attacks second (fast); rate = k[halogenoalkane].",
+            "analogy": "A lock that springs open on its own before anyone inserts a key: the springing (ionisation) is the slow act, and the key (nucleophile) enters afterwards.",
+            "examPointer": "The '1' counts species in the slow step - quote that when explaining the label."
+          },
+          "medium": {
+            "restatement": "Carbocation stability is what makes the wait worthwhile: three alkyl groups steady the positive centre, so tertiary substrates can afford a two-step route.",
+            "analogy": "A celebrity leaving a venue: the hard part is stepping out alone into the crowd (ionisation); the escort (nucleophile) arrives once the exit exists.",
+            "examPointer": "Tertiary-only behaviour is the SN1 exam signature."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_Vfzb8Z8GWd5DWqGk::L2::Q1",
+          "rn_Vfzb8Z8GWd5DWqGk::L2::Q2",
+          "rn_Vfzb8Z8GWd5DWqGk::L2::Q3",
+          "rn_Vfzb8Z8GWd5DWqGk::L2::Q4",
+          "rn_Vfzb8Z8GWd5DWqGk::L2::Q5",
+          "rn_Vfzb8Z8GWd5DWqGk::L2::Q6",
+          "rn_Vfzb8Z8GWd5DWqGk::L2::Q7",
+          "rn_Vfzb8Z8GWd5DWqGk::L2::Q8",
+          "rn_Vfzb8Z8GWd5DWqGk::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-01",
+          "fig-02"
+        ]
+      },
+      {
+        "id": "rn_Vfzb8Z8GWd5DWqGk::L3",
+        "title": "The SN2 route of primary halogenoalkanes",
+        "sourceHeadings": [
+          "S<sub>N</sub>2 reactions"
+        ],
+        "specRefs": [
+          "10.9"
+        ],
+        "opening": "Primary halogenoalkanes cannot wait for a cation, so the nucleophile attacks as the halide leaves - one concerted step. Two species share the slow step, the rate equation names both, and bromoethane with hydroxide shows the backside attack that inverts the carbon's geometry.",
+        "keyPoints": [
+          "In primary halogenoalkanes the halogen-bearing carbon is bonded to one alkyl group.",
+          "SN2 means substitution, nucleophilic, bimolecular: the rate depends on both the halogenoalkane and the nucleophile.",
+          "The SN2 mechanism is one step: the nucleophile donates a lone pair to the delta-positive carbon while the C-X bond breaks, the halogen leaving as X-.",
+          "The rate equation for SN2 is rate = k[halogenoalkane][nucleophile], and the step is bimolecular.",
+          "Bromoethane with hydroxide giving ethanol shows the mechanism, with attack from the far side causing inversion of configuration."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "SN2: one concerted step, nucleophile attacking while X- leaves; rate = k[halogenoalkane][nucleophile]; backside attack inverts the centre.",
+            "analogy": "A revolving door pushed from behind as the passenger steps out: entry and exit are one motion, and both pusher and passenger count.",
+            "examPointer": "The '2' counts two species in the slow step; the inversion detail is the diagram mark."
+          },
+          "medium": {
+            "restatement": "With no alkyl shielding, the primary carbon is approachable, so bond-making and bond-breaking fuse into a single event whose rate needs both partners.",
+            "analogy": "Two people passing a sofa through a doorway: both must act together, and neither alone moves the sofa.",
+            "examPointer": "Primary-only behaviour is the SN2 exam signature; secondary can go either way."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_Vfzb8Z8GWd5DWqGk::L3::Q1",
+          "rn_Vfzb8Z8GWd5DWqGk::L3::Q2",
+          "rn_Vfzb8Z8GWd5DWqGk::L3::Q3",
+          "rn_Vfzb8Z8GWd5DWqGk::L3::Q4",
+          "rn_Vfzb8Z8GWd5DWqGk::L3::Q5",
+          "rn_Vfzb8Z8GWd5DWqGk::L3::Q6",
+          "rn_Vfzb8Z8GWd5DWqGk::L3::Q7",
+          "rn_Vfzb8Z8GWd5DWqGk::L3::Q8",
+          "rn_Vfzb8Z8GWd5DWqGk::L3::Q9"
+        ],
+        "figureIds": [
+          "fig-03",
+          "fig-04"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "elementary step",
+          "definition": "One stage of a proposed mechanism; the steps must sum to the overall equation.",
+          "firstLesson": 1
+        },
+        {
+          "term": "SN1 mechanism",
+          "definition": "Two-step substitution through a carbocation, with rate = k[halogenoalkane].",
+          "firstLesson": 2
+        },
+        {
+          "term": "SN2 mechanism",
+          "definition": "One-step concerted substitution, with rate = k[halogenoalkane][nucleophile].",
+          "firstLesson": 3
+        },
+        {
+          "term": "carbocation",
+          "definition": "The positive carbon centre formed when the C-X bond breaks in an SN1 route.",
+          "firstLesson": 2
+        }
+      ],
+      "workedExample": null
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/03b92040ea6d-3-3-halogen-compounds-sn1.png",
+        "alt": "Halogen Compounds SN1, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "S<sub>N</sub>1 reactions",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/5be8f2661eef-3-3-halogen-compounds-sn1-of-2-bromo-2-methylpro.png",
+        "alt": "Halogen Compounds SN1 of 2-bromo-2-Methylpropane, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "S<sub>N</sub>1 reactions",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-03",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/d96605265621-3-3-halogen-compounds-sn2.png",
+        "alt": "Halogen Compounds SN2, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "S<sub>N</sub>2 reactions",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-04",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/43868c85eb61-20-1-the-sn2-mechanism-of-bromoethane-with-hydro.png",
+        "alt": "The SN2 mechanism of bromoethane with hydroxide causing an inversion of configuration, downloadable IB Chemistry revision notes",
+        "sourceHeading": "S<sub>N</sub>2 reactions",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique",
+        "caption": "The SN2 mechanism of bromoethane with hydroxide causing an inversion of configuration"
+      }
+    ]
+  }
+}

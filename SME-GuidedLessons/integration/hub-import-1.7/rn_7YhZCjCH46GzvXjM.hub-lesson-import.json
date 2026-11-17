@@ -1,0 +1,295 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_7YhZCjCH46GzvXjM",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "d722033d39bd5b4dea6b9432b2c6ee28cf453400db1c3f8e199bfaeb23ded6b4",
+    "pinnedRef": "18586815e7ef4eb9730b8141ba42d5723eaafe5c"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_7YhZCjCH46GzvXjM",
+    "topicTitle": "4: Rates, Equilibria & Further Organic Chemistry",
+    "subtopicTitle": "Born-Haber Cycles",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/4-rates-equilibria-and-further-organic-chemistry/4-3-energetics/4-3-2-born-haber-cycles",
+    "specAnchors": [
+      {
+        "code": "12.13",
+        "text": "be able to construct Born-Haber cycles and carry out related calculations"
+      }
+    ],
+    "primer": {
+      "text": "Lattice energy cannot be measured in a single experiment, so a Born-Haber cycle assembles it from steps that can. This note draws the cycle for sodium chloride level by level, applies Hess's law in the form delta-latt = delta-f minus the sum of the element-to-gaseous-ion steps, and calculates lattice energies for potassium chloride and magnesium oxide from given data.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_7YhZCjCH46GzvXjM::L1",
+        "title": "Building the cycle level by level",
+        "sourceHeadings": [
+          "Born-Haber Cycles - Construction",
+          "Drawing the cycle for sodium chloride"
+        ],
+        "specRefs": [
+          "12.13"
+        ],
+        "opening": "A Born-Haber cycle is Hess's law dressed for ionic compounds: energy climbs the diagram, elements sit a third of the way up, and each enthalpy step carries the chemistry to gaseous ions and back down to the lattice. Sodium chloride walks every level: atomise both elements, ionise one, feed electrons to the other, then close with formation and lattice energy.",
+        "keyPoints": [
+          "A Born-Haber cycle applies Hess's law to ionic compounds and enables lattice enthalpy to be calculated where no direct experiment exists.",
+          "Energy increases going up the diagram; the elements in their standard states sit about a third of the way up on a marked starting level.",
+          "Creating gaseous atoms is bond breaking, so those arrows point up: sodium +108 kJ mol^-1, half Cl2 +121 kJ mol^-1.",
+          "Ionisation continues upward: Na losing an electron costs +500 kJ mol^-1; electron affinity descends: Cl gaining an electron releases -364 kJ mol^-1.",
+          "The enthalpy of formation, -411 kJ mol^-1 for NaCl, sits at the bottom with its arrow pointing down for an exothermic change.",
+          "Lattice enthalpy, usually shown as formation, closes the cycle from gaseous ions down to the solid."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Draw up for bond breaking (atomisation, ionisation), down for electron gain, formation and lattice closure; the cycle must balance by Hess's law.",
+            "analogy": "A climbing wall: every upward hold costs energy, every descent gives some back, and the route must return to the start.",
+            "examPointer": "Draw arrows in the direction of the stated enthalpy sign - upward arrows for positives, downward for negatives."
+          },
+          "medium": {
+            "restatement": "The cycle's geometry is its logic: each vertical step is one defined enthalpy change, so the closed loop enforces Hess's law without any new physics.",
+            "analogy": "A flight of stairs with landings labelled by species: any two landings connect by any route, and the total climb is the same.",
+            "examPointer": "Displace the electron-affinity step sideways on paper purely for readability - the energy bookkeeping is unchanged."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_7YhZCjCH46GzvXjM::L1::Q1",
+          "rn_7YhZCjCH46GzvXjM::L1::Q2",
+          "rn_7YhZCjCH46GzvXjM::L1::Q3",
+          "rn_7YhZCjCH46GzvXjM::L1::Q4",
+          "rn_7YhZCjCH46GzvXjM::L1::Q5",
+          "rn_7YhZCjCH46GzvXjM::L1::Q6",
+          "rn_7YhZCjCH46GzvXjM::L1::Q7",
+          "rn_7YhZCjCH46GzvXjM::L1::Q8",
+          "rn_7YhZCjCH46GzvXjM::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01",
+          "fig-02",
+          "fig-03",
+          "fig-04",
+          "fig-05",
+          "fig-06",
+          "fig-07",
+          "fig-08",
+          "fig-09"
+        ]
+      },
+      {
+        "id": "rn_7YhZCjCH46GzvXjM::L2",
+        "title": "Hess's law arithmetic on the cycle",
+        "sourceHeadings": [
+          "Born-Haber Cycles - Calculations"
+        ],
+        "specRefs": [
+          "12.13"
+        ],
+        "opening": "Once drawn, the cycle reduces to one subtraction: lattice enthalpy equals formation enthalpy minus the sum of every step that turned elements into gaseous ions. Mind the stoichiometry - magnesium chloride doubles the chlorine-side terms - and the numbers drop out: KCl at -718, MgO at -3812 kJ mol^-1.",
+        "keyPoints": [
+          "Applying Hess's law: delta f H = delta 1 H + delta latt H, where delta 1 H is the sum of all steps converting elements to gaseous ions.",
+          "Rearranged for lattice energy: delta latt H = delta f H - delta 1 H.",
+          "The stage asked for is always the direct route; write the enthalpy equation and rearrange for the unknown.",
+          "Stoichiometry can double or halve terms: for MgCl2 the first electron affinity of chlorine is counted twice, adding electrons to two moles of chlorine atoms.",
+          "KCl: delta latt H = -437 - 90 - 122 - 418 + 349, which comes to -718 kJ mol^-1.",
+          "MgO: delta latt H = -602 - 148 - 248 - 736 - 1450 + 142 - 770, which comes to -3812 kJ mol^-1."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Lattice energy = formation minus the element-to-gaseous-ion sum; double terms for formula units with two of an ion; KCl: -437 - 281 = -718.",
+            "analogy": "A taxi fare split: the total journey price minus the leg everyone shares leaves the private leg.",
+            "examPointer": "Bracket every sum before subtracting - sign slips are the top mark-loser here."
+          },
+          "medium": {
+            "restatement": "The cycle's arithmetic is a directed ledger: formation is the shortcut; the long route's steps must be listed with their signs and multiplicities, then subtracted.",
+            "analogy": "Reconciling a bank statement: the closing balance minus every listed transaction reveals the one unlisted fee.",
+            "examPointer": "Any stage can be the unknown - lattice, formation, or an ionisation - the rearrangement logic is identical."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_7YhZCjCH46GzvXjM::L2::Q1",
+          "rn_7YhZCjCH46GzvXjM::L2::Q2",
+          "rn_7YhZCjCH46GzvXjM::L2::Q3",
+          "rn_7YhZCjCH46GzvXjM::L2::Q4",
+          "rn_7YhZCjCH46GzvXjM::L2::Q5",
+          "rn_7YhZCjCH46GzvXjM::L2::Q6",
+          "rn_7YhZCjCH46GzvXjM::L2::Q7",
+          "rn_7YhZCjCH46GzvXjM::L2::Q8",
+          "rn_7YhZCjCH46GzvXjM::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-10",
+          "fig-11"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "Born-Haber cycle",
+          "definition": "A Hess's law energy cycle for ionic compounds, built from atomisation, ionisation, electron affinity, formation and lattice steps.",
+          "firstLesson": 1
+        },
+        {
+          "term": "formation enthalpy",
+          "definition": "The enthalpy change forming 1 mole of a compound from its elements in standard states.",
+          "firstLesson": 1
+        },
+        {
+          "term": "lattice enthalpy",
+          "definition": "The enthalpy change forming the ionic solid from its gaseous ions, calculable from the cycle.",
+          "firstLesson": 1
+        }
+      ],
+      "workedExample": {
+        "prompt": "Given the Born-Haber data for potassium chloride - delta f H = -437 kJ mol^-1, atomisation of K +90, atomisation of half Cl2 +122, first ionisation of K +418, first electron affinity of Cl -349 - calculate the lattice energy.",
+        "steps": [
+          "Write the long route: formation equals the atomisation, ionisation and electron-affinity terms plus the lattice step.",
+          "Sum the element-to-gaseous-ion terms: 90 + 122 + 418 - 349 = 281 kJ mol^-1.",
+          "Apply delta latt H = delta f H - delta 1 H: (-437) - (+281).",
+          "Evaluate: -437 - 281 = -718 kJ mol^-1."
+        ],
+        "finalAnswer": "The lattice energy of KCl is -718 kJ mol^-1."
+      }
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/37966ddae21b-5-1-2-basic-principle-of-a-bh-cycle.png",
+        "alt": "Basic principle of a BH cycle, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Born-Haber Cycles - Construction",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "The basic principle of a Born-Haber cycle"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/e465fa94dba1-5-1-2-bh-step-1.png",
+        "alt": "BH Step 1, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Drawing the cycle for sodium chloride",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Drawing a Born-Haber cycle step 1"
+      },
+      {
+        "id": "fig-03",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/40a246533a44-5-1-2-bh-step-2.png",
+        "alt": "BH Step 2, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Drawing the cycle for sodium chloride",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Drawing a Born-Haber cycle step 2 - creating the gaseous atoms"
+      },
+      {
+        "id": "fig-04",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/aecf0822e4f4-5-1-2-bh-step-3.png",
+        "alt": "BH Step 3, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Drawing the cycle for sodium chloride",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Drawing a Born-Haber cycle step 3 - creating the gaseous ions"
+      },
+      {
+        "id": "fig-05",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/91f3cd4ee31b-5-1-2-bh-step-4.png",
+        "alt": "BH Step 4, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Drawing the cycle for sodium chloride",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique",
+        "caption": "Drawing a Born-Haber cycle step 4 - completing the cycle"
+      },
+      {
+        "id": "fig-06",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/49130c6788d9-5-1-2-worked-example-constructing-a-born-haber-c.png",
+        "alt": "Worked example_Constructing a Born-Haber cycle for KCl, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Drawing the cycle for sodium chloride",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-07",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/e8cf4f9f6dd1-5-1-chemical-energetics-constructing-a-born-habe.png",
+        "alt": "Chemical Energetics - Constructing a Born-Haber cycle for KCl Cycle 1, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Drawing the cycle for sodium chloride",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-08",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/cbec3377e035-5-1-2-worked-example-constructing-a-born-haber-c.png",
+        "alt": "Worked example_Constructing a Born-Haber cycle for MgO, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Drawing the cycle for sodium chloride",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-09",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/ba282f91d77c-5-1-chemical-energetics-constructing-a-born-habe.png",
+        "alt": "Chemical Energetics - Constructing a Born-Haber cycle for MgO Cycle 2, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Drawing the cycle for sodium chloride",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-10",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/2408bcac9e34-5-1-3-worked-example-calculating-the-lattice-ene.png",
+        "alt": "Worked example_Calculating the lattice energy of KCl, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Born-Haber Cycles - Calculations",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-11",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/2f288fc30244-5-1-3-worked-example-calculating-the-lattice-ene.png",
+        "alt": "Worked example_Calculating the lattice energy of MgO, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Born-Haber Cycles - Calculations",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      }
+    ]
+  }
+}

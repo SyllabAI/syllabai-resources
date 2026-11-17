@@ -1,0 +1,359 @@
+{
+  "format": "hub/lesson-import/1.5",
+  "adapter": "guided-lesson-0.6--hub-lesson-import-1.5",
+  "source": {
+    "sourceFormat": "guided-lesson/0.6",
+    "noteId": "rn_tQ9Hgv2h6vphQyjh",
+    "corpusVersion": "sme-revision-notes-ial-chemistry-17-2026-08-05",
+    "sourceLayerSha256": "31e1035e2134f7152c2a6f7e5b443cb48c7c5f466bc87cabb89b2d875391c0ac",
+    "pinnedRef": "18586815e7ef4eb9730b8141ba42d5723eaafe5c"
+  },
+  "lesson": {
+    "id": "ial-chemistry::rn_tQ9Hgv2h6vphQyjh",
+    "topicTitle": "4: Rates, Equilibria & Further Organic Chemistry",
+    "subtopicTitle": "Activation Energy & Arrhenius",
+    "sourceUrl": "https://www.savemyexams.com/international-a-level/chemistry/edexcel/17/revision-notes/4-rates-equilibria-and-further-organic-chemistry/4-1-kinetics/4-1-10-activation-energy-and-arrhenius",
+    "specAnchors": [
+      {
+        "code": "11.10",
+        "text": "be able to use calculations and graphical methods to find the activation energy for a reaction from experimental data The Arrhenius equation will be given if needed."
+      }
+    ],
+    "primer": {
+      "text": "The rate constant k only stays constant while temperature is fixed. The Arrhenius equation links k to temperature, activation energy and the Arrhenius constant A. This note rearranges the relationship using natural logarithms, explains how a plot of ln k against 1/T gives a straight line whose gradient is -Ea/R, and works the standard activation-energy calculation from plotted data.",
+      "prerequisiteSubtopic": null
+    },
+    "modules": [
+      {
+        "id": "rn_tQ9Hgv2h6vphQyjh::L1",
+        "title": "Temperature, the rate constant and the Arrhenius equation",
+        "sourceHeadings": [
+          "Activation Energy & Arrhenius"
+        ],
+        "specRefs": [
+          "11.10"
+        ],
+        "opening": "A rate equation keeps its k only while temperature holds still. Warm the mixture and a bigger fraction of collisions carries at least the activation energy, so both rate and k climb. The Arrhenius equation gathers the constants of a reaction into one expression that predicts exactly how strongly temperature moves k.",
+        "keyPoints": [
+          "The rate constant k stays fixed only when concentration is the sole variable; changing temperature or the catalyst changes k.",
+          "At higher temperature a greater proportion of molecules possess energy at or above the activation energy.",
+          "Because rate and k are proportional to that energetic fraction, raising temperature raises both the rate and the rate constant.",
+          "The Arrhenius equation k = A e^(-Ea/RT) links k with temperature, with Ea and A characteristic of the reaction and R the universal gas constant.",
+          "In the Arrhenius equation only k and T vary; A varies negligibly with temperature and is treated as constant."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Heating shifts more molecules over the activation-energy bar, so k grows; the Arrhenius equation k = A e^(-Ea/RT) puts that behaviour in one line.",
+            "analogy": "A higher hurdle in a steeplechase lets fewer runners finish per minute; lower the hurdle or make the runners faster and more clear it.",
+            "examPointer": "Quote k = A e^(-Ea/RT) and name every symbol - Ea, A, R and T - when you first use it."
+          },
+          "medium": {
+            "restatement": "The exponential term e^(-Ea/RT) is the fraction of successful collisions; since it sits in both the rate expression and the definition of k, temperature moves the whole kinetic picture through one factor.",
+            "analogy": "A crowded club with a strict doorman: the fraction of hopefuls dressed for the theme (the energetic fraction) decides how fast the queue moves; relax the dress code (lower Ea) or excite the crowd (raise T) and entry speeds up.",
+            "examPointer": "Questions love the trap that k never changes: pin it down - k is temperature's prisoner."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_tQ9Hgv2h6vphQyjh::L1::Q1",
+          "rn_tQ9Hgv2h6vphQyjh::L1::Q2",
+          "rn_tQ9Hgv2h6vphQyjh::L1::Q3",
+          "rn_tQ9Hgv2h6vphQyjh::L1::Q4",
+          "rn_tQ9Hgv2h6vphQyjh::L1::Q5",
+          "rn_tQ9Hgv2h6vphQyjh::L1::Q6",
+          "rn_tQ9Hgv2h6vphQyjh::L1::Q7",
+          "rn_tQ9Hgv2h6vphQyjh::L1::Q8",
+          "rn_tQ9Hgv2h6vphQyjh::L1::Q9"
+        ],
+        "figureIds": [
+          "fig-01"
+        ]
+      },
+      {
+        "id": "rn_tQ9Hgv2h6vphQyjh::L2",
+        "title": "The logarithmic form and finding activation energy",
+        "sourceHeadings": [
+          "Using the Arrhenius Equation",
+          "Finding the Activation Energy"
+        ],
+        "specRefs": [
+          "11.10"
+        ],
+        "opening": "Taking natural logarithms turns the Arrhenius equation into a form built for calculation: ln k = ln A - Ea/RT. This lesson uses that line to reason about temperature changes, and then extracts an activation energy from measured k and T values in the standard exam calculation.",
+        "keyPoints": [
+          "Natural logarithms convert the Arrhenius equation to ln k = ln A - Ea/(RT).",
+          "A temperature rise gives a greater ln k and therefore a greater k, so the reaction runs faster.",
+          "Raising the activation energy lowers the proportion of sufficiently energetic molecules, so k falls.",
+          "Measured pairs of k and T values let the activation energy be calculated, the most common exam task on this topic.",
+          "On a plot of ln k against 1/T the constant ln A becomes the intercept and -Ea/R the gradient."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "The log form ln k = ln A - Ea/RT lets you solve straight for Ea from one k-T pair, and predicts that hotter means larger k.",
+            "analogy": "A pay slip: gross pay (ln A) minus a deduction scaled by effort (Ea over RT) leaves the take-home figure (ln k); raise the effort charge and take-home shrinks.",
+            "examPointer": "Rearrange as Ea = RT(ln A - ln k) before substituting, and keep R in J mol-1 K-1 with T in kelvin."
+          },
+          "medium": {
+            "restatement": "Because ln k depends linearly on 1/T, every question about temperature effects reduces to reading one line: its slope is -Ea/R and its intercept is ln A.",
+            "analogy": "A ladder leaning against a wall: the lean of the ladder (the gradient) tells you the distance to the wall (Ea) without measuring it directly.",
+            "examPointer": "Check units at the end: Ea emerges in J mol-1, so convert to kJ mol-1 if the question expects it."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_tQ9Hgv2h6vphQyjh::L2::Q1",
+          "rn_tQ9Hgv2h6vphQyjh::L2::Q2",
+          "rn_tQ9Hgv2h6vphQyjh::L2::Q3",
+          "rn_tQ9Hgv2h6vphQyjh::L2::Q4",
+          "rn_tQ9Hgv2h6vphQyjh::L2::Q5",
+          "rn_tQ9Hgv2h6vphQyjh::L2::Q6",
+          "rn_tQ9Hgv2h6vphQyjh::L2::Q7",
+          "rn_tQ9Hgv2h6vphQyjh::L2::Q8",
+          "rn_tQ9Hgv2h6vphQyjh::L2::Q9"
+        ],
+        "figureIds": [
+          "fig-02",
+          "fig-03"
+        ]
+      },
+      {
+        "id": "rn_tQ9Hgv2h6vphQyjh::L3",
+        "title": "Reading Ea and A from an Arrhenius plot",
+        "sourceHeadings": [
+          "Using an Arrhenius plot:"
+        ],
+        "specRefs": [
+          "11.10"
+        ],
+        "opening": "Plotted as ln k against 1/T, the Arrhenius equation becomes the straight line y = mx + c with gradient -Ea/R and intercept ln A. This lesson walks the full plotting routine: convert each k to ln k and each T to 1/T, plot, read the gradient, then lift Ea and A from the line.",
+        "keyPoints": [
+          "When ln k is plotted against 1/T, the Arrhenius relation appears as a straight line; its slope carries -Ea/R.",
+          "The plotted line takes the y = mx + c form, with intercept equal to ln A.",
+          "The activation energy follows from the gradient: Ea = -gradient x R.",
+          "The Arrhenius constant follows from the intercept: A = e^(intercept).",
+          "Table completion, plotting and gradient reading are the practical steps of the method."
+        ],
+        "depthLayers": {
+          "low": {
+            "restatement": "Plot ln k against 1/T: the straight line's gradient is -Ea/R and its intercept is ln A, so both Ea and A come off the graph.",
+            "analogy": "A taxi fare chart: the flat starting fee is the intercept and the per-kilometre charge is the gradient; read both off the printed line.",
+            "examPointer": "Watch the sign: a negative gradient means Ea comes out positive once you multiply by -R."
+          },
+          "medium": {
+            "restatement": "Every point on the plot is one experiment; the collective slope averages the whole data set, which is why graphical Ea values are preferred over single-pair arithmetic.",
+            "analogy": "Judging a team from its season-long trend rather than one match: the line through all the points is fairer than any single result.",
+            "examPointer": "If asked for A, do not stop at Ea - the intercept still needs converting with e^(intercept)."
+          }
+        },
+        "gatePolicy": {
+          "ratingsScale": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "continueDisabledUntilChoice": true,
+          "resumeWithoutReRate": true,
+          "postCheckRecalibration": true
+        },
+        "checkRefs": [
+          "rn_tQ9Hgv2h6vphQyjh::L3::Q1",
+          "rn_tQ9Hgv2h6vphQyjh::L3::Q2",
+          "rn_tQ9Hgv2h6vphQyjh::L3::Q3",
+          "rn_tQ9Hgv2h6vphQyjh::L3::Q4",
+          "rn_tQ9Hgv2h6vphQyjh::L3::Q5",
+          "rn_tQ9Hgv2h6vphQyjh::L3::Q6",
+          "rn_tQ9Hgv2h6vphQyjh::L3::Q7",
+          "rn_tQ9Hgv2h6vphQyjh::L3::Q8",
+          "rn_tQ9Hgv2h6vphQyjh::L3::Q9"
+        ],
+        "figureIds": [
+          "fig-04",
+          "fig-05",
+          "fig-06",
+          "fig-07",
+          "fig-08",
+          "fig-09",
+          "fig-10",
+          "fig-11",
+          "fig-12"
+        ]
+      }
+    ],
+    "assets": {
+      "glossary": [
+        {
+          "term": "rate constant",
+          "definition": "The factor k in a rate equation, re-valued whenever temperature or catalyst changes.",
+          "firstLesson": 1
+        },
+        {
+          "term": "activation energy",
+          "definition": "The minimum energy Ea that colliding molecules must carry for reaction to occur.",
+          "firstLesson": 1
+        },
+        {
+          "term": "Arrhenius constant",
+          "definition": "The pre-exponential factor A, characteristic of a reaction and effectively temperature-independent.",
+          "firstLesson": 1
+        },
+        {
+          "term": "Arrhenius plot",
+          "definition": "A plot of ln k versus 1/T: its slope, -Ea/R, and its intercept, ln A, give Ea and A.",
+          "firstLesson": 3
+        }
+      ],
+      "workedExample": {
+        "prompt": "Calculate the activation energy of a reaction taking place at 400 K whose rate constant is 6.25 x 10^-4 s^-1, given A = 4.6 x 10^13 and R = 8.31 J mol^-1 K^-1.",
+        "steps": [
+          "Rearrange the log form ln k = ln A - Ea/(RT) to make Ea the subject: Ea = RT(ln A - ln k).",
+          "Evaluate the logarithms: ln(6.25 x 10^-4) = -7.378 and ln(4.6 x 10^13) = 31.460.",
+          "Take the difference: 31.460 - (-7.378) = 38.837.",
+          "Multiply through: 8.31 x 400 = 3324, and 3324 x 38.837 = 129,080 J mol^-1.",
+          "Round and convert: about 129 kJ mol^-1."
+        ],
+        "finalAnswer": "Ea is approximately 129 kJ mol^-1."
+      }
+    },
+    "figures": [
+      {
+        "id": "fig-01",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/e8b8d0d54526-5-2-4-arrhenius-equation-2.png",
+        "alt": "Arrhenius Equation, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Activation Energy & Arrhenius",
+        "moduleIds": [
+          "L1"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-02",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/e47108749fb1-5-2-4-ln-of-arrhenius-equation-2.png",
+        "alt": "ln of Arrhenius Equation, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Using the Arrhenius Equation",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-03",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/b384457b4b91-5-2-5-we-calculate-ea-answer.png",
+        "alt": "WE calculate Ea answer, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Using the Arrhenius Equation",
+        "moduleIds": [
+          "L2"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-04",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/493ba6c31e6d-5-2-5-arrhenius-sketch-of-ln-k-against-1-t-2.png",
+        "alt": "Sketch of ln k plotted against 1/T as a straight line of gradient -Ea/R",
+        "sourceHeading": "Using an Arrhenius plot:",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique",
+        "caption": "The graph of ln k against 1/T is a straight line with gradient -Ea/R"
+      },
+      {
+        "id": "fig-05",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/7b158900d6ec-5-2-5-y-mx-c-from-arrhenius-graph-2.png",
+        "alt": "5.2.5 Y = mx + c from Arrhenius graph_2, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Using an Arrhenius plot:",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-06",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/f1948b907939-5-2-5-calculate-the-activation-energy-from-the-a.png",
+        "alt": "Calculate the activation energy from the Arrhenius plot - WE, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Using an Arrhenius plot:",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-07",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/d7fc968ae14f-5-2-5-using-arrhenius-plot-to-calculate-ea-calcu.png",
+        "alt": "5.2.5 Using Arrhenius plot to calculate Ea - calculation answer complete table (WE)_1, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Using an Arrhenius plot:",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-08",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/3b4c7a7c28e7-5-2-5-using-arrhenius-plot-to-calculate-ea-plott.png",
+        "alt": "5.2.5 using Arrhenius plot to calculate Ea - plotted graph (WE)_2, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Using an Arrhenius plot:",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-09",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/d77ca57bc7b9-5-2-5-we-arrhenius-plot-calculate-ea-1-1.png",
+        "alt": "5.2.5 WE Arrhenius plot calculate Ea 1_1, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Using an Arrhenius plot:",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-10",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/17784b8c846e-5-2-5-we-arrhenius-plot-calculate-ea-2-2.png",
+        "alt": "5.2.5 WE Arrhenius plot calculate Ea 2_2, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Using an Arrhenius plot:",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-11",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/89975a1861e8-5-2-5-we-arrhenius-plot-calculate-a-part-1-1.png",
+        "alt": "5.2.5 WE Arrhenius plot - calculate A (part 1)_1, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Using an Arrhenius plot:",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique"
+      },
+      {
+        "id": "fig-12",
+        "url": "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/SME-RevisionNotes/ial-chemistry-17/assets/802d70a90949-5-2-5-we-arrhenius-plot-calculate-a-part-2-2.png",
+        "alt": "5.2.5 WE Arrhenius plot - calculate A (part 2)_2, downloadable AS & A Level Chemistry revision notes",
+        "sourceHeading": "Using an Arrhenius plot:",
+        "moduleIds": [
+          "L3"
+        ],
+        "binding": "heading-unique"
+      }
+    ]
+  }
+}
