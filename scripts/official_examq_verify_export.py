@@ -587,14 +587,20 @@ def self_test(stage_path, stage_official_path, current_path, current_official_pa
     # frozen census (G-E3) can catch; seed 4 touches the staged SME file.
     seeds = []
 
-    # Seed 1 / G-E1: an UNDISCLOSED field (questionType) drifts in one official part
+    # Seed 1 / G-E1: an UNDISCLOSED field drifts in one official part.
+    # questionType joined the disclosed classes in F131 (the picture-MCQ keying
+    # wave — the six re-keyed parts convert structured -> multiple_choice under
+    # the same reviewed disclosure), so the undisclosed-field seed moved to the
+    # marks closure: a served part's marks value drifting outside the ledger is
+    # exactly the threat the class law exists for. G-E1's per-part class check
+    # runs before the G-E2 sum law, so the refusal attribution stays G-E1.
     s1 = json.loads(json.dumps(stage_official_sets))
     for s in s1:
         for q in s["questions"]:
             for p in q["parts"]:
                 if p["id"] == type_part["id"]:
-                    p["questionType"] = "seed_fault_undefined_type"
-    seeds.append(("G-E1", "undisclosed class: questionType mutated on " + type_part["id"],
+                    p["marks"] = p["marks"] + 1
+    seeds.append(("G-E1", "undisclosed class: marks mutated on " + type_part["id"],
                   stage_sets, s1, current_sets, current_official_sets))
 
     # Seed 2 / G-E2: a markPoint award exceeds the part's marks (closure broken)
