@@ -32,6 +32,10 @@ By the end of this lesson you should be able to:
 - explain how experiments on the **dilution** of coloured solutions and the
   **diffusion** of gases are evidence for the [[particle-model]].
 
+:::plain-words
+Here is the whole chapter in one sentence: **everything is particles, and how those particles sit and move decides whether something is a solid, a liquid or a gas.** You will never see an individual particle — they are far too small — but you can explain almost everything in this topic by imagining them. Think of the same set of bricks: built tightly in a grid you have a wall (solid), loosely tipped into a tub you have something that pours (liquid), and scattered across the room you have something that fills every corner (gas).
+:::
+
 :::key-point
 The three states of matter are solid, liquid and gas. The [[particle-model]]
 explains their properties in terms of the arrangement, separation and motion
