@@ -1,0 +1,48 @@
+{
+ "schema": "syllabai.exec-receipt/1",
+ "trace": "1a1e7800e982afe5",
+ "order": "bare PAT message (no text) — interpreted as the push order for the two W-F5 commits whose landing record states 'PUSH PENDING OPERATOR ORDER' (receipts/W-F5/W-F5-T2-build-receipt.json landing field; commit 0111c9c1 message); consistent with the standing W-F5 order chain (1a1e5bfa1854103d -> 1a1e5c7c2499bf51)",
+ "executed_utc": "2026-11-17",
+ "scope": "push preflight -> race-checked push -> remote verification -> local ref sync -> worktree hygiene. No new commits created; no repo file edited this round.",
+ "push": {
+  "before_remote_tip": "4392a055025cd1cee777fd83678fe679615b9d9b",
+  "pushed": "4392a055..0111c9c1 HEAD -> main (fast-forward, no force, non-ff would be auto-rejected)",
+  "commits": [
+   {"sha": "676306b038031e5f299af75f89e6269577f47e5d", "what": "W-F5-T2 presentation layer: 34 CIE spec_points.json re-issued at issue 2 (text_render on all 6,920 rows; 40 R2 geometry-recovered rows with reparse-2.0; T1 x6 / T4 x1 / T5 x28 / T6 x7); built under order trace 1a1e5c7c2499bf51"},
+   {"sha": "0111c9c14cf470f94719559ea376f7b06dcae963", "what": "records of record: W-F5 task file + T1/T2 receipts + W-F3 land-confirm receipts + LEDGER Waves 41-42"}
+  ],
+  "after_remote_tip": "0111c9c14cf470f94719559ea376f7b06dcae963",
+  "verified": ["post-push ls-remote twice (before/after)", "origin/main ref synced to pushed tip", "4392a055 confirmed ancestor of pushed tip"]
+ },
+ "preflight_of_record": {
+  "path": "cache/w-f5/push-preflight.json",
+  "script": "scripts/wf5_push_preflight.py",
+  "verdict": "ALL PASS 10/10",
+  "checks": {
+   "V1": "committed HEAD bytes == gated swap bytes (34/34 sha256 equal) — gates proven against the pushed bytes",
+   "V2": "reversal gate re-run on HEAD blobs: de-render(text_render)==text on 6,920/6,920 rows",
+   "V3": "issue \"2\" + 14-field order + schema string unchanged on all 34 bundles",
+   "V4": "text frozen vs issue-1 pinned oids except exactly 40 rows, all with R2 receipts + reparse-2.0; flags additive only; id/ordering/provenance/topic/subsection/sub_items/practical/applicability/leading_verb/official_code/scope byte-identical",
+   "V5": "topics.json byte-identical to base for all 34 quals",
+   "V6": "counts honest (counts.spec_points==len(rows), counts.flagged==flagged rows)",
+   "V7": "topology HEAD^=676306b0, 676306b0^=4392a055; build commit surface exactly 34 spec_points paths; records commit surface exactly 9 records paths"
+  }
+ },
+ "environment_incident": {
+  "what": "sandbox recycle had degraded the local clone worktree: 134,967 tracked files deleted from disk + 157 mode-only flips + stale index (276 entries holding pre-landing blobs, all superseded by the landed commits)",
+  "impact": "zero object loss (.git store intact); HEAD/index coherence restored via reset --mixed + scoped checkout",
+  "resolution": "records surface restored byte-exact from HEAD (LEDGER.md, receipts/, tasks/, Official-Specifications/parsed/, student-book-pilot); bulk CourseLessons worktree restore skipped (fs too slow, not needed for this round) — restorable any time via 'git checkout HEAD -- CourseLessons'",
+  "no_commit_needed": true
+ },
+ "credential_handling": {
+  "usage": "transient URL only: 3x ls-remote, 1x failed push attempt (invalid --ff-only option, rejected before auth), 1x successful push, 1x fetch",
+  "masking": "all output piped through sed ghp_* redaction",
+  "persistence": "none — no file, config, credential store, or receipt contains the token",
+  "rotation": "OUTSTANDING — 5th chat-channel exposure; rotate immediately after this confirmation"
+ },
+ "repo_writes_this_round": "push of 2 pre-existing commits only; 0 new commits; 0 repo file edits",
+ "next_operator_actions": [
+  "rotate the PAT (5th exposure)",
+  "this receipt + worklog ride the next landing (append-only)"
+ ]
+}
