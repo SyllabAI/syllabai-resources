@@ -21,6 +21,13 @@ periodic table is the *complete catalogue* of elements. Every substance
 that is not on it is either a compound built from two or more of its
 entries (§s04) or a mixture of such substances (§s05).
 
+
+:::plain-words
+Nobody expects you to memorise all 118 names. What earns marks is the map idea: the
+[[periodic-table]] is the complete catalogue of elements, so any pure substance that is not on
+it must be built from entries that are. Hydrogen, oxygen and carbon will cover almost every
+example this course throws at you.
+:::
 :::key-point
 There are 118 elements, all displayed in the periodic table. Most occur
 naturally (hydrogen, helium, sulfur); a handful are made artificially

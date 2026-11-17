@@ -42,6 +42,13 @@ Finally, the vocabulary of purity: a mixture is not a pure substance. If a
 sample contains only a small amount of an unwanted substance, that
 unwanted substance is called an **[[impurity]]**.
 
+
+:::plain-words
+Iron and sulfur are the exam's favourite contrast pair. As a mixture, a magnet still grabs the
+iron, dilute acid still fizzes on it, and the sulfur stays stubbornly yellow — every ingredient
+keeps its own personality. As the compound iron sulfide those personalities vanish: one new
+substance with its own properties, and only a chemical reaction can undo it.
+:::
 :::key-point
 Mixture: components in **any proportion**, each **keeping its own
 properties**, separable by **physical means**. Compound: **fixed

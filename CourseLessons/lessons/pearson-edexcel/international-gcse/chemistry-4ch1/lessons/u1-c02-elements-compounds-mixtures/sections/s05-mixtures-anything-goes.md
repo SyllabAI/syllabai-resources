@@ -27,6 +27,14 @@ as a classification toolkit:
 Because no reaction happens, the components keep their own properties and
 can be got back apart by physical means — the theme of §s06 and §s09.
 
+
+:::plain-words
+Air is the [[mixture]] to keep in your head: nitrogen and oxygen (two elements) plus carbon
+dioxide and water vapour (two compounds), all thrown together with no reaction anywhere. Because
+nothing bonded, the recipe is flexible — today's air and tomorrow's air differ only in how much
+of each. That same flexibility is the clue that everything can be separated back out by physical
+means.
+:::
 :::key-point
 In a mixture no chemical reaction occurs; the components (elements
 and/or compounds) can be present in **any proportion**. Mixtures of

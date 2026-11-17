@@ -29,6 +29,14 @@ chromatography**. Spec point 1.10 asks you to *describe* each of the first
 four techniques; §s09 builds every one of them, and chromatography follows
 in §s10.
 
+
+:::plain-words
+Choosing a separation method is matching, not magic: ask what is actually mixed with what. Sand
+in water filters; salt in water needs crystallisation or [[simple-distillation]]; two liquids
+that mix need [[fractional-distillation]]; dyes climb a chromatography paper. And name the
+method in full — plain "distillation" loses the mark when the examiner wanted simple or
+fractional.
+:::
 :::key-point
 Mixtures are separated by **physical means** because no chemical reaction
 holds them together. The method is chosen by *what is mixed with what*:

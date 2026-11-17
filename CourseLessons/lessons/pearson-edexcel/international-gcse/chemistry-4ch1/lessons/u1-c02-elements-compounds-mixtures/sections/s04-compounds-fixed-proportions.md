@@ -24,6 +24,14 @@ together**. That picture is worth pausing on: the atoms are
 not just mixed side by side as in a mixture — they are *bonded*, which is
 precisely why undoing a compound needs a chemical reaction (§s06).
 
+
+:::plain-words
+A [[compound]] is a recipe with locked quantities: HF is always one hydrogen to one fluorine and
+CO₂ always one carbon to two oxygens, wherever and however it was made. The ratio cannot be
+tuned up or down like squash in water — push in extra of one element and the extra simply sits
+there unreacted. In diagrams, spot a compound by looking for different atoms joined by bonds,
+not just sitting side by side.
+:::
 :::key-point
 Compounds = two or more elements chemically combined in **fixed
 proportions**. Hydrogen fluoride is always HF; magnesium fluoride is always

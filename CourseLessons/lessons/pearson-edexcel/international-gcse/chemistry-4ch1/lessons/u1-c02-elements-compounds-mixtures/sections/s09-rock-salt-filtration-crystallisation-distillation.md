@@ -67,6 +67,15 @@ make the spots visible. The method (spec 1.13):
 
 The pattern left on the paper is the **chromatogram**; reading it is §s10.
 
+
+:::plain-words
+Rock salt is muscle memory: crush, dissolve in hot water, filter (rock stays on the paper as
+[[residue]], salt rides through as [[filtrate]]), then crystallise. Reverse the goal and simple
+distillation hands you the water instead — and the condenser's cooling water enters at the
+bottom, low to high. For chromatography the two commandments are pencil, never pen, and solvent
+sitting below the [[baseline]]. Each step you name is a mark; each step you skip is a mark
+someone else banks.
+:::
 :::safety
 Avoid skin contact with the solvents and the dyes, especially if you have
 sensitive skin. (Book safety note for the chromatography work.)
@@ -105,7 +114,7 @@ the solid) or **simple distillation** (want the solvent); two miscible
 liquids → **fractional distillation**; two solids, one soluble → **dissolve
 and filter**. Describing the rock-salt method earns marks in order —
 crush/dissolve, filter, crystallise — so narrate it stepwise, naming
-residue and filtrate.
+residue and filtrate. Real mark scheme of record (4CH1/1C JUN 2021 Q5(b), pure water from a sugar solution): the 1-mark method answer was "(simple) distillation" with "REJECT fractional distillation", and the condenser earned its 2 marks as a linked pair, M1 "(water/ vapour/ steam / gas) is cooled" and M2 "and condenses OR in the condenser". For the solid, crystallisation is a five-step chain (4CH1/1C JUN 2019 Q14(e), copper(II) sulfate): M1 "heat/boil the filtrate", M2 "until crystals form in a cooled sample/ on a glass rod" (ACCEPT "to form a saturated solution"), M3 "leave the solution to cool/crystallise", M4 "filter (to remove the crystals)", M5 "dry the crystals on filter paper/on paper towel/in a warm oven /in a desiccator /leave to dry" — where REJECT "hot oven" guards against direct heating.
 :::
 
 :::quick-check
