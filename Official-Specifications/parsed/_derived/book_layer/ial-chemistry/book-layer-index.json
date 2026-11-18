@@ -39,22 +39,28 @@
    ]
   }
  ],
- "no_book_units": [
-  {
-   "unit": 3,
-   "kind": "practical",
-   "book_state": "NO_BOOK_PRACTICAL_UNIT",
-   "evidence": "CATALOG §4.2 'Units 3/6 are practicals, no SB' @ blob 725e21e4"
-  },
-  {
-   "unit": 6,
-   "kind": "practical",
-   "book_state": "NO_BOOK_PRACTICAL_UNIT",
-   "evidence": "CATALOG §4.2 'Units 3/6 are practicals, no SB' @ blob 725e21e4"
-  }
+ "no_book_units": [],
+ "join_status": "JOINED — book-join.json landed by W-F7-T2 (order trace 1a1ef43dcfda2a59): 54/54 manifest chapters accounted, 20/20 topics via J5 prefix equality, point-level corroboration keyed 48/319 codes (J1 anchored 1 + J2 6 + J3 48; honest no_printed_key for the rest), CP chips routed practicals_lane; the Wave-37 deferral conditions (mid-swap spec side + unprobed route) both resolved",
+ "generated_utc": "2026-11-18T00:00:00Z",
+ "generator": "agent:scripts/wf7_emit_join.py (W-F7-T2 build per the W-F7-T1 design of record; repo-side scripts/book_layer/ generator proposed, not installed)",
+ "inputs": [
+  "Official-Specifications/parsed/ial-chemistry/spec_points.json @ 5608e2e1ccb34945036b26c23275488e3a0e43ff (blob 7454867cbf02a175c43c4a3c078af6e3114a7e8c)",
+  "Official-Specifications/parsed/ial-chemistry/topics.json @ 5608e2e1ccb34945036b26c23275488e3a0e43ff (blob 58b818fe9d966db450f9084c673cd4fcf5df89d8)",
+  "book-structure--ych11-sb1.json @ 5608e2e1ccb34945036b26c23275488e3a0e43ff",
+  "book-structure--ych12-sb2.json @ 5608e2e1ccb34945036b26c23275488e3a0e43ff",
+  "ych11 corpus blob 5924f3d9dfa857bb9def2da2f7ad56ee0f847583",
+  "ych12 corpus blob 7a22b6b94444e9e37f9656c33f9f030a870262f5",
+  "books/CATALOG.md §3.5/§3.6/§4.2 (staged copy of record)",
+  "cache/w-f7/probe.json + probe2.json (W-F7-T1 probes of record)"
  ],
- "join_status": "BUILT_NOT_JOINED — book-join.json deferred: spec side mid-swap (W-F2-T2 staged swap pending operator commit) + J2 probe ≈ empty (IAL books print no spec-code chips)",
- "generated_utc": "2026-11-13T14:54:01Z",
- "generator": "agent:scripts/wf4t2_build.py (W-F4-T2 staged build; repo-side scripts/book_layer/ generator proposed, not installed)",
- "inputs": []
+ "exam_unit_note": {
+  "statement": "the exam practical units WCH13/WCH16 (IAS/IAL Unit 3/6) have no student book and carry no content topics in the 20-topic content namespace; they are NOT book-layer units",
+  "supersedes": "the Wave-37 no_book_units rows [unit 3, unit 6] — a namespace conflation copied from the ial-physics builder (content topics 3 'Bonding and Structure' and 6 'Energetics' ARE covered by SB1: 12 manifest chapters, 254 chunks, LO chunks present; CATALOG §4.2 scopes 'Units 3/6 are practicals' to the PHYSICS row)",
+  "evidence": [
+   "CATALOG §3.5/§3.6 (chemistry SB1/SB2 rows) + CATALOG §4.2 (the 'Units 3/6' clause sits in the Physics row)",
+   "chunk census at the pinned corpus blobs (W-F7-T1 probe.json unit36_* blocks)",
+   "spec topics.json @ 5608e2e1: topics 1-20 are content topics"
+  ]
+ },
+ "book_join_file": "book-join.json"
 }

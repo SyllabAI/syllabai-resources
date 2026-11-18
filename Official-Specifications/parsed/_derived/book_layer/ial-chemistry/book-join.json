@@ -1,0 +1,2567 @@
+{
+ "schema": "syllabai.book-spec-join/1.0",
+ "qual": "ial-chemistry",
+ "lane": "W-F7 book-alignment (the Wave-37 BUILT_NOT_JOINED deferral resolved: spec side landed as Waves 35-36; probes of record pinned by W-F7-T1)",
+ "spec_side": {
+  "topics_ref": "Official-Specifications/parsed/ial-chemistry/topics.json (blob 58b818fe9d966db450f9084c673cd4fcf5df89d8 @ 5608e2e1ccb3)",
+  "points_ref": "Official-Specifications/parsed/ial-chemistry/spec_points.json (blob 7454867cbf02a175c43c4a3c078af6e3114a7e8c @ 5608e2e1ccb3)",
+  "point_count": 319,
+  "topic_count": 20,
+  "subsection_count": 0,
+  "id_scheme": "IAL chemistry official codes N.N / NN.N (no route suffixes); Stage-R sub_items on 71 rows carry roman ordinals"
+ },
+ "join_keys": {
+  "J1_PRINTED_CODE_LIST": "ANCHORED-ONLY, TOPIC-LEVEL per M-5 — one anchored course-structure entry of record (chunk ych1_v1_u0_c0_pdf009_0039: printed heading '1 COMPARING MASSES OF SUBSTANCES' + 'SPECIFICATION REFERENCE' + printed list '1.1 1.2 1.4', all 3 resolve); the heading is a SECTION title, not the manifest chapter title, so the list is recorded verbatim below and NOT attributed to a chapter row (L-2); its codes ride rows only where margin chips print them too; scattered front-matter tokens are OCR noise/numeric constants/cross-refs — findings, not rows",
+  "J2_LO_CODE_CHIPS": "ACTIVE — 7 printed chips / 6 codes in LO boxes, 100% unit-consistent (10.8, 10.9, 17.26, 17.27, 17.28, 17.29(i), 17.29(ii)); the W-F4-T2 probe said '≈ empty' with a looser regex (errata candidate of record; sparse-chip conclusion unchanged)",
+  "J3_BODY_CODE_CHIPS": "ACTIVE, CONSERVATIVE per M-1 — the IAL books print margin spec-reference chips that OCR interleaves into chunk text; RUN/SUFFIXED/TAIL admission with ratio/letter-glue exclusions; raw unit-consistent resolved tokens 265 -> 69 admitted / 48 distinct codes / 18 of 54 chapters",
+  "J4_LO_TEXT_EQUALITY": "probed: 0/714 LO bullet lines exact-match spec text (incl. sub_items) under the normalisation map; 0 even space-free (diagnostic) — honest zero, the book paraphrases",
+  "J5_TITLE_ADJUDICATED": "ACTIVE, three-tier per M-6 — EQUAL-after-prefix-strip / CONTAINS (the W-F4-T1 law verbatim) / printed NUMBER_IDENTITY with the variant pair as-printed (T18 'Organic Chemistry: Arenes' vs spec 'Organic Chemistry – Arenes'); all 54 rows topic-mapped, variants recorded never normalised",
+  "J6_PAGE_SPAN_ADJACENCY": "NOT_APPLICABLE — chapter page frames and spec provenance pages live in different PDFs (the ial-physics refinement, adopted)"
+ },
+ "rows": [
+  {
+   "chapter_key": "u1:c1",
+   "book_key": "ych11-sb1",
+   "chapter_title": "1A Atoms, elements and molecules",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T1",
+     "number": "1",
+     "title": "Formulae, Equations and Amount of Substance",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 1: Formulae, Equations and Amount of Substance"
+    },
+    "subsections": [],
+    "points": [
+     {
+      "printed": "1.1",
+      "code": "1.1",
+      "point_id": "IAL_CHEMISTRY:Chemistry-1.1",
+      "resolution": "exact",
+      "admission": "TAIL",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych1_v1_u1_c1_pdf017_0109"
+      ]
+     }
+    ]
+   },
+   "join_key": "J3_BODY_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u1_c1_pdf017_0109"
+    ],
+    "n_chunks": 13,
+    "printed_codes": [
+     "1.1"
+    ],
+    "pages": [
+     17,
+     18
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u1:c2",
+   "book_key": "ych11-sb1",
+   "chapter_title": "1B Equations and reaction types",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T1",
+     "number": "1",
+     "title": "Formulae, Equations and Amount of Substance",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 1: Formulae, Equations and Amount of Substance"
+    },
+    "subsections": [],
+    "points": [
+     {
+      "printed": "1.12(i)",
+      "code": "1.12",
+      "point_id": "IAL_CHEMISTRY:Chemistry-1.12",
+      "resolution": "exact",
+      "admission": "SUFFIXED",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych1_v1_u1_c2_pdf022_0136"
+      ],
+      "sub_item": 1
+     }
+    ]
+   },
+   "join_key": "J3_BODY_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u1_c2_pdf022_0136"
+    ],
+    "n_chunks": 44,
+    "printed_codes": [
+     "1.12(i)"
+    ],
+    "pages": [
+     19,
+     28
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u1:c3",
+   "book_key": "ych11-sb1",
+   "chapter_title": "1C Energy",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T1",
+     "number": "1",
+     "title": "Formulae, Equations and Amount of Substance",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 1: Formulae, Equations and Amount of Substance"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 62,
+    "printed_codes": [],
+    "pages": [
+     29,
+     38
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u1:c4",
+   "book_key": "ych11-sb1",
+   "chapter_title": "1D Empirical and molecular formulae",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T1",
+     "number": "1",
+     "title": "Formulae, Equations and Amount of Substance",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 1: Formulae, Equations and Amount of Substance"
+    },
+    "subsections": [],
+    "points": [
+     {
+      "printed": "1.1",
+      "code": "1.1",
+      "point_id": "IAL_CHEMISTRY:Chemistry-1.1",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych1_v1_u1_c4_pdf041_0259"
+      ]
+     },
+     {
+      "printed": "1.6",
+      "code": "1.6",
+      "point_id": "IAL_CHEMISTRY:Chemistry-1.6",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych1_v1_u1_c4_pdf041_0259"
+      ]
+     },
+     {
+      "printed": "1.8(ii)",
+      "code": "1.8",
+      "point_id": "IAL_CHEMISTRY:Chemistry-1.8",
+      "resolution": "exact",
+      "admission": "SUFFIXED",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych1_v1_u1_c4_pdf041_0259"
+      ],
+      "sub_item": 2
+     }
+    ]
+   },
+   "join_key": "J3_BODY_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u1_c4_pdf041_0259"
+    ],
+    "n_chunks": 34,
+    "printed_codes": [
+     "1.1",
+     "1.6",
+     "1.8(ii)"
+    ],
+    "pages": [
+     39,
+     42
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u1:c5",
+   "book_key": "ych11-sb1",
+   "chapter_title": "1E Calculations with solutions and gases",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T1",
+     "number": "1",
+     "title": "Formulae, Equations and Amount of Substance",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 1: Formulae, Equations and Amount of Substance"
+    },
+    "subsections": [],
+    "points": [
+     {
+      "printed": "1.8(i)",
+      "code": "1.8",
+      "point_id": "IAL_CHEMISTRY:Chemistry-1.8",
+      "resolution": "exact",
+      "admission": "SUFFIXED",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych1_v1_u1_c5_pdf043_0276"
+      ],
+      "sub_item": 1
+     }
+    ]
+   },
+   "join_key": "J3_BODY_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u1_c5_pdf043_0276"
+    ],
+    "n_chunks": 38,
+    "printed_codes": [
+     "1.8(i)"
+    ],
+    "pages": [
+     43,
+     48
+    ]
+   },
+   "flags": [
+    {
+     "kind": "practicals_lane",
+     "printed_cp_markers": [
+      "CP1"
+     ],
+     "note": "CP chips route to the practicals lane (W-F4-T1 §8.2; Lab Book owns Core Practicals — CATALOG §3.5/§3.6)"
+    }
+   ]
+  },
+  {
+   "chapter_key": "u2:c6",
+   "book_key": "ych11-sb1",
+   "chapter_title": "2A Atomic structure",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T2",
+     "number": "2",
+     "title": "Atomic Structure and the Periodic Table",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 2: Atomic Structure and the Periodic Table"
+    },
+    "subsections": [],
+    "points": [
+     {
+      "printed": "2.1",
+      "code": "2.1",
+      "point_id": "IAL_CHEMISTRY:Chemistry-2.1",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych1_v1_u2_c6_pdf055_0342"
+      ]
+     },
+     {
+      "printed": "2.2",
+      "code": "2.2",
+      "point_id": "IAL_CHEMISTRY:Chemistry-2.2",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych1_v1_u2_c6_pdf055_0342"
+      ]
+     },
+     {
+      "printed": "2.3",
+      "code": "2.3",
+      "point_id": "IAL_CHEMISTRY:Chemistry-2.3",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych1_v1_u2_c6_pdf055_0342"
+      ]
+     },
+     {
+      "printed": "2.4",
+      "code": "2.4",
+      "point_id": "IAL_CHEMISTRY:Chemistry-2.4",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych1_v1_u2_c6_pdf055_0342"
+      ]
+     },
+     {
+      "printed": "2.5",
+      "code": "2.5",
+      "point_id": "IAL_CHEMISTRY:Chemistry-2.5",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych1_v1_u2_c6_pdf055_0342"
+      ]
+     },
+     {
+      "printed": "2.6",
+      "code": "2.6",
+      "point_id": "IAL_CHEMISTRY:Chemistry-2.6",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych1_v1_u2_c6_pdf057_0360"
+      ]
+     },
+     {
+      "printed": "2.7",
+      "code": "2.7",
+      "point_id": "IAL_CHEMISTRY:Chemistry-2.7",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych1_v1_u2_c6_pdf057_0360"
+      ]
+     }
+    ]
+   },
+   "join_key": "J3_BODY_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u2_c6_pdf055_0342",
+     "ych1_v1_u2_c6_pdf057_0360"
+    ],
+    "n_chunks": 76,
+    "printed_codes": [
+     "2.1",
+     "2.2",
+     "2.3",
+     "2.4",
+     "2.5",
+     "2.6",
+     "2.7"
+    ],
+    "pages": [
+     55,
+     68
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u2:c7",
+   "book_key": "ych11-sb1",
+   "chapter_title": "2B The periodic table",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T2",
+     "number": "2",
+     "title": "Atomic Structure and the Periodic Table",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 2: Atomic Structure and the Periodic Table"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 26,
+    "printed_codes": [],
+    "pages": [
+     69,
+     72
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u3:c8",
+   "book_key": "ych11-sb1",
+   "chapter_title": "3A Ionic bonding",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T3",
+     "number": "3",
+     "title": "Bonding and Structure",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 3: Bonding and Structure"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 38,
+    "printed_codes": [],
+    "pages": [
+     79,
+     84
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u3:c9",
+   "book_key": "ych11-sb1",
+   "chapter_title": "3B Covalent bonding",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T3",
+     "number": "3",
+     "title": "Bonding and Structure",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 3: Bonding and Structure"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 43,
+    "printed_codes": [],
+    "pages": [
+     85,
+     94
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u3:c10",
+   "book_key": "ych11-sb1",
+   "chapter_title": "3C Shapes of molecules",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T3",
+     "number": "3",
+     "title": "Bonding and Structure",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 3: Bonding and Structure"
+    },
+    "subsections": [],
+    "points": [
+     {
+      "printed": "3.18",
+      "code": "3.18",
+      "point_id": "IAL_CHEMISTRY:Chemistry-3.18",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych1_v1_u3_c10_pdf095_0559"
+      ]
+     },
+     {
+      "printed": "3.19",
+      "code": "3.19",
+      "point_id": "IAL_CHEMISTRY:Chemistry-3.19",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych1_v1_u3_c10_pdf095_0559"
+      ]
+     }
+    ]
+   },
+   "join_key": "J3_BODY_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u3_c10_pdf095_0559"
+    ],
+    "n_chunks": 17,
+    "printed_codes": [
+     "3.18",
+     "3.19"
+    ],
+    "pages": [
+     95,
+     98
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u3:c11",
+   "book_key": "ych11-sb1",
+   "chapter_title": "3D Metallic bonding",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T3",
+     "number": "3",
+     "title": "Bonding and Structure",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 3: Bonding and Structure"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 9,
+    "printed_codes": [],
+    "pages": [
+     99,
+     100
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u3:c12",
+   "book_key": "ych11-sb1",
+   "chapter_title": "3E Solid lattices",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T3",
+     "number": "3",
+     "title": "Bonding and Structure",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 3: Bonding and Structure"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 24,
+    "printed_codes": [],
+    "pages": [
+     101,
+     106
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u4:c13",
+   "book_key": "ych11-sb1",
+   "chapter_title": "4A Introduction to organic chemistry",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T4",
+     "number": "4",
+     "title": "Introductory Organic Chemistry and Alkanes",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 4: Introductory Organic Chemistry and Alkanes"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 89,
+    "printed_codes": [],
+    "pages": [
+     113,
+     128
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u4:c14",
+   "book_key": "ych11-sb1",
+   "chapter_title": "4B Alkanes",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T4",
+     "number": "4",
+     "title": "Introductory Organic Chemistry and Alkanes",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 4: Introductory Organic Chemistry and Alkanes"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 49,
+    "printed_codes": [],
+    "pages": [
+     129,
+     136
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u5:c15",
+   "book_key": "ych11-sb1",
+   "chapter_title": "5A Alkenes",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T5",
+     "number": "5",
+     "title": "Alkenes",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 5: Alkenes"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 47,
+    "printed_codes": [],
+    "pages": [
+     143,
+     152
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u5:c16",
+   "book_key": "ych11-sb1",
+   "chapter_title": "5B Addition polymers",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T5",
+     "number": "5",
+     "title": "Alkenes",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 5: Alkenes"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 19,
+    "printed_codes": [],
+    "pages": [
+     153,
+     156
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u6:c17",
+   "book_key": "ych11-sb1",
+   "chapter_title": "6A Introducing enthalpy and enthalpy change",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T6",
+     "number": "6",
+     "title": "Energetics",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 6: Energetics"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 18,
+    "printed_codes": [],
+    "pages": [
+     163,
+     164
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u6:c18",
+   "book_key": "ych11-sb1",
+   "chapter_title": "6B Enthalpy level diagrams",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T6",
+     "number": "6",
+     "title": "Energetics",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 6: Energetics"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 6,
+    "printed_codes": [],
+    "pages": [
+     165,
+     166
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u6:c19",
+   "book_key": "ych11-sb1",
+   "chapter_title": "6C Standard enthalpy change of combustion",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T6",
+     "number": "6",
+     "title": "Energetics",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 6: Energetics"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 10,
+    "printed_codes": [],
+    "pages": [
+     167,
+     168
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u6:c20",
+   "book_key": "ych11-sb1",
+   "chapter_title": "6D Standard enthalpy change of neutralisation",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T6",
+     "number": "6",
+     "title": "Energetics",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 6: Energetics"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 12,
+    "printed_codes": [],
+    "pages": [
+     169,
+     170
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u6:c21",
+   "book_key": "ych11-sb1",
+   "chapter_title": "6E Standard enthalpy change of formation and Hess's law",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T6",
+     "number": "6",
+     "title": "Energetics",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 6: Energetics"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 14,
+    "printed_codes": [],
+    "pages": [
+     171,
+     172
+    ]
+   },
+   "flags": [
+    {
+     "kind": "practicals_lane",
+     "printed_cp_markers": [
+      "CP2"
+     ],
+     "note": "CP chips route to the practicals lane (W-F4-T1 §8.2; Lab Book owns Core Practicals — CATALOG §3.5/§3.6)"
+    }
+   ]
+  },
+  {
+   "chapter_key": "u6:c22",
+   "book_key": "ych11-sb1",
+   "chapter_title": "6F Bond enthalpy and mean bond enthalpy",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T6",
+     "number": "6",
+     "title": "Energetics",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 6: Energetics"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 7,
+    "printed_codes": [],
+    "pages": [
+     173,
+     173
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u6:c23",
+   "book_key": "ych11-sb1",
+   "chapter_title": "6G Using mean bond enthalpies",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T6",
+     "number": "6",
+     "title": "Energetics",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 6: Energetics"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 21,
+    "printed_codes": [],
+    "pages": [
+     174,
+     176
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u7:c24",
+   "book_key": "ych11-sb1",
+   "chapter_title": "7A Intermolecular interactions",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T7",
+     "number": "7",
+     "title": "Intermolecular Forces",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 7: Intermolecular Forces"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 25,
+    "printed_codes": [],
+    "pages": [
+     183,
+     186
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u7:c25",
+   "book_key": "ych11-sb1",
+   "chapter_title": "7B Intermolecular interactions and physical properties",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T7",
+     "number": "7",
+     "title": "Intermolecular Forces",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 7: Intermolecular Forces"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 30,
+    "printed_codes": [],
+    "pages": [
+     187,
+     192
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u8:c26",
+   "book_key": "ych11-sb1",
+   "chapter_title": "8A Redox chemistry",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T8",
+     "number": "8",
+     "title": "Redox Chemistry and Groups 1, 2 and 7",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 8: Redox Chemistry and Groups 1, 2 and 7"
+    },
+    "subsections": [],
+    "points": [
+     {
+      "printed": "8.1",
+      "code": "8.1",
+      "point_id": "IAL_CHEMISTRY:Chemistry-8.1",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych1_v1_u8_c26_pdf201_1108"
+      ]
+     },
+     {
+      "printed": "8.2",
+      "code": "8.2",
+      "point_id": "IAL_CHEMISTRY:Chemistry-8.2",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych1_v1_u8_c26_pdf201_1108"
+      ]
+     },
+     {
+      "printed": "8.9",
+      "code": "8.9",
+      "point_id": "IAL_CHEMISTRY:Chemistry-8.9",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych1_v1_u8_c26_pdf201_1108"
+      ]
+     },
+     {
+      "printed": "8.8",
+      "code": "8.8",
+      "point_id": "IAL_CHEMISTRY:Chemistry-8.8",
+      "resolution": "exact",
+      "admission": "TAIL",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych1_v1_u8_c26_pdf203_1118"
+      ]
+     },
+     {
+      "printed": "8.4",
+      "code": "8.4",
+      "point_id": "IAL_CHEMISTRY:Chemistry-8.4",
+      "resolution": "exact",
+      "admission": "TAIL",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych1_v1_u8_c26_pdf205_1132"
+      ]
+     }
+    ]
+   },
+   "join_key": "J3_BODY_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u8_c26_pdf201_1108",
+     "ych1_v1_u8_c26_pdf203_1118",
+     "ych1_v1_u8_c26_pdf205_1132"
+    ],
+    "n_chunks": 46,
+    "printed_codes": [
+     "8.1",
+     "8.2",
+     "8.9",
+     "8.8",
+     "8.4"
+    ],
+    "pages": [
+     199,
+     208
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u8:c27",
+   "book_key": "ych11-sb1",
+   "chapter_title": "8B The elements of Groups 1 and 2",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T8",
+     "number": "8",
+     "title": "Redox Chemistry and Groups 1, 2 and 7",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 8: Redox Chemistry and Groups 1, 2 and 7"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 72,
+    "printed_codes": [],
+    "pages": [
+     209,
+     220
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u8:c28",
+   "book_key": "ych11-sb1",
+   "chapter_title": "8C Inorganic chemistry of Group 7",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T8",
+     "number": "8",
+     "title": "Redox Chemistry and Groups 1, 2 and 7",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 8: Redox Chemistry and Groups 1, 2 and 7"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 47,
+    "printed_codes": [],
+    "pages": [
+     221,
+     230
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u8:c29",
+   "book_key": "ych11-sb1",
+   "chapter_title": "8D Quantitative chemistry",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T8",
+     "number": "8",
+     "title": "Redox Chemistry and Groups 1, 2 and 7",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 8: Redox Chemistry and Groups 1, 2 and 7"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 73,
+    "printed_codes": [],
+    "pages": [
+     231,
+     242
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u9:c30",
+   "book_key": "ych11-sb1",
+   "chapter_title": "9A Kinetics",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T9",
+     "number": "9",
+     "title": "Introduction to Kinetics and Equilibria",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 9: Introduction to Kinetics and Equilibria"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 41,
+    "printed_codes": [],
+    "pages": [
+     249,
+     258
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u9:c31",
+   "book_key": "ych11-sb1",
+   "chapter_title": "9B Equilibria",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T9",
+     "number": "9",
+     "title": "Introduction to Kinetics and Equilibria",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 9: Introduction to Kinetics and Equilibria"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 33,
+    "printed_codes": [],
+    "pages": [
+     259,
+     266
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u10:c32",
+   "book_key": "ych11-sb1",
+   "chapter_title": "10A General principles in organic chemistry",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T10",
+     "number": "10",
+     "title": "Organic Chemistry: Halogenoalkanes, Alcohols",
+     "basis": "J5_CONTAINS_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 10: Organic Chemistry: Halogenoalkanes, Alcohols and Spectra"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 17,
+    "printed_codes": [],
+    "pages": [
+     275,
+     276
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u10:c33",
+   "book_key": "ych11-sb1",
+   "chapter_title": "10B Halogenoalkanes",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T10",
+     "number": "10",
+     "title": "Organic Chemistry: Halogenoalkanes, Alcohols",
+     "basis": "J5_CONTAINS_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 10: Organic Chemistry: Halogenoalkanes, Alcohols and Spectra"
+    },
+    "subsections": [],
+    "points": [
+     {
+      "printed": "10.8",
+      "code": "10.8",
+      "point_id": "IAL_CHEMISTRY:Chemistry-10.8",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "LO",
+      "chunk_ids": [
+       "ych1_v1_u10_c33_pdf281_1520"
+      ]
+     },
+     {
+      "printed": "10.9",
+      "code": "10.9",
+      "point_id": "IAL_CHEMISTRY:Chemistry-10.9",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "LO",
+      "chunk_ids": [
+       "ych1_v1_u10_c33_pdf281_1520"
+      ]
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u10_c33_pdf281_1520"
+    ],
+    "n_chunks": 38,
+    "printed_codes": [
+     "10.8",
+     "10.9"
+    ],
+    "pages": [
+     277,
+     282
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u10:c34",
+   "book_key": "ych11-sb1",
+   "chapter_title": "10C Alcohols",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T10",
+     "number": "10",
+     "title": "Organic Chemistry: Halogenoalkanes, Alcohols",
+     "basis": "J5_CONTAINS_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 10: Organic Chemistry: Halogenoalkanes, Alcohols and Spectra"
+    },
+    "subsections": [],
+    "points": [
+     {
+      "printed": "10.15",
+      "code": "10.15",
+      "point_id": "IAL_CHEMISTRY:Chemistry-10.15",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych1_v1_u10_c34_pdf283_1543"
+      ]
+     },
+     {
+      "printed": "10.16",
+      "code": "10.16",
+      "point_id": "IAL_CHEMISTRY:Chemistry-10.16",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych1_v1_u10_c34_pdf283_1543"
+      ]
+     },
+     {
+      "printed": "10.17",
+      "code": "10.17",
+      "point_id": "IAL_CHEMISTRY:Chemistry-10.17",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych1_v1_u10_c34_pdf283_1543"
+      ]
+     }
+    ]
+   },
+   "join_key": "J3_BODY_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "chunk_ids": [
+     "ych1_v1_u10_c34_pdf283_1543"
+    ],
+    "n_chunks": 35,
+    "printed_codes": [
+     "10.15",
+     "10.16",
+     "10.17"
+    ],
+    "pages": [
+     283,
+     290
+    ]
+   },
+   "flags": [
+    {
+     "kind": "practicals_lane",
+     "printed_cp_markers": [
+      "CP6"
+     ],
+     "note": "CP chips route to the practicals lane (W-F4-T1 §8.2; Lab Book owns Core Practicals — CATALOG §3.5/§3.6)"
+    }
+   ]
+  },
+  {
+   "chapter_key": "u10:c35",
+   "book_key": "ych11-sb1",
+   "chapter_title": "10D Mass spectra and IR",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T10",
+     "number": "10",
+     "title": "Organic Chemistry: Halogenoalkanes, Alcohols",
+     "basis": "J5_CONTAINS_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 10: Organic Chemistry: Halogenoalkanes, Alcohols and Spectra"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 49,
+    "printed_codes": [],
+    "pages": [
+     291,
+     298
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u11:c1",
+   "book_key": "ych12-sb2",
+   "chapter_title": "11A Further Kinetics",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T11",
+     "number": "11",
+     "title": "Kinetics",
+     "basis": "J5_CONTAINS_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 11: Kinetics II"
+    },
+    "subsections": [],
+    "points": [
+     {
+      "printed": "11.1(i)",
+      "code": "11.1",
+      "point_id": "IAL_CHEMISTRY:Chemistry-11.1",
+      "resolution": "exact",
+      "admission": "SUFFIXED",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u11_c1_pdf019_0096"
+      ],
+      "sub_item": 1
+     },
+     {
+      "printed": "11.1(ii)",
+      "code": "11.1",
+      "point_id": "IAL_CHEMISTRY:Chemistry-11.1",
+      "resolution": "exact",
+      "admission": "SUFFIXED",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u11_c1_pdf019_0096"
+      ],
+      "sub_item": 2
+     },
+     {
+      "printed": "11.1(v)",
+      "code": "11.1",
+      "point_id": "IAL_CHEMISTRY:Chemistry-11.1",
+      "resolution": "exact",
+      "admission": "SUFFIXED",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u11_c1_pdf019_0096"
+      ],
+      "sub_item": 5
+     },
+     {
+      "printed": "11.1(vii)",
+      "code": "11.1",
+      "point_id": "IAL_CHEMISTRY:Chemistry-11.1",
+      "resolution": "exact",
+      "admission": "SUFFIXED",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u11_c1_pdf019_0096"
+      ],
+      "sub_item": 7
+     },
+     {
+      "printed": "11.6",
+      "code": "11.6",
+      "point_id": "IAL_CHEMISTRY:Chemistry-11.6",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u11_c1_pdf027_0121"
+      ]
+     },
+     {
+      "printed": "11.7",
+      "code": "11.7",
+      "point_id": "IAL_CHEMISTRY:Chemistry-11.7",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u11_c1_pdf027_0121"
+      ]
+     },
+     {
+      "printed": "11.8",
+      "code": "11.8",
+      "point_id": "IAL_CHEMISTRY:Chemistry-11.8",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u11_c1_pdf027_0121"
+      ]
+     },
+     {
+      "printed": "11.9",
+      "code": "11.9",
+      "point_id": "IAL_CHEMISTRY:Chemistry-11.9",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u11_c1_pdf027_0121"
+      ]
+     }
+    ]
+   },
+   "join_key": "J3_BODY_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "chunk_ids": [
+     "ych2_v2_u11_c1_pdf019_0096",
+     "ych2_v2_u11_c1_pdf027_0121"
+    ],
+    "n_chunks": 82,
+    "printed_codes": [
+     "11.1(i)",
+     "11.1(ii)",
+     "11.1(v)",
+     "11.1(vii)",
+     "11.6",
+     "11.7",
+     "11.8",
+     "11.9"
+    ],
+    "pages": [
+     16,
+     37
+    ]
+   },
+   "flags": [
+    {
+     "kind": "practicals_lane",
+     "printed_cp_markers": [
+      "CP"
+     ],
+     "note": "CP chips route to the practicals lane (W-F4-T1 §8.2; Lab Book owns Core Practicals — CATALOG §3.5/§3.6)"
+    }
+   ]
+  },
+  {
+   "chapter_key": "u12:c2",
+   "book_key": "ych12-sb2",
+   "chapter_title": "12A Entropy",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T12",
+     "number": "12",
+     "title": "Entropy and Energetics",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 12: Entropy and Energetics"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 56,
+    "printed_codes": [],
+    "pages": [
+     44,
+     55
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u12:c3",
+   "book_key": "ych12-sb2",
+   "chapter_title": "12B Lattice Energy",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T12",
+     "number": "12",
+     "title": "Entropy and Energetics",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 12: Entropy and Energetics"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 52,
+    "printed_codes": [],
+    "pages": [
+     56,
+     65
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u13:c4",
+   "book_key": "ych12-sb2",
+   "chapter_title": "13A Chemical Equilibria",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T13",
+     "number": "13",
+     "title": "Chemical Equilibria",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 13: Chemical Equilibria"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 53,
+    "printed_codes": [],
+    "pages": [
+     72,
+     85
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u14:c5",
+   "book_key": "ych12-sb2",
+   "chapter_title": "14A Strong and Weak Acids",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T14",
+     "number": "14",
+     "title": "Acid-base Equilibria",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 14: Acid-Base Equilibria"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 64,
+    "printed_codes": [],
+    "pages": [
+     92,
+     102
+    ]
+   },
+   "flags": [
+    {
+     "kind": "practicals_lane",
+     "printed_cp_markers": [
+      "CP1"
+     ],
+     "note": "CP chips route to the practicals lane (W-F4-T1 §8.2; Lab Book owns Core Practicals — CATALOG §3.5/§3.6)"
+    }
+   ]
+  },
+  {
+   "chapter_key": "u14:c6",
+   "book_key": "ych12-sb2",
+   "chapter_title": "14B Acid-Base Titrations",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T14",
+     "number": "14",
+     "title": "Acid-base Equilibria",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 14: Acid-Base Equilibria"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 49,
+    "printed_codes": [],
+    "pages": [
+     103,
+     113
+    ]
+   },
+   "flags": [
+    {
+     "kind": "practicals_lane",
+     "printed_cp_markers": [
+      "CP1"
+     ],
+     "note": "CP chips route to the practicals lane (W-F4-T1 §8.2; Lab Book owns Core Practicals — CATALOG §3.5/§3.6)"
+    }
+   ]
+  },
+  {
+   "chapter_key": "u15:c7",
+   "book_key": "ych12-sb2",
+   "chapter_title": "15A Chirality",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T15",
+     "number": "15",
+     "title": "Organic Chemistry: Carbonyls, Carboxylic Acids",
+     "basis": "J5_CONTAINS_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 15: Organic Chemistry: Carbonyls, Carboxylic Acids and Chirality"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 29,
+    "printed_codes": [],
+    "pages": [
+     120,
+     125
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u15:c8",
+   "book_key": "ych12-sb2",
+   "chapter_title": "15B Carbonyl Compounds",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T15",
+     "number": "15",
+     "title": "Organic Chemistry: Carbonyls, Carboxylic Acids",
+     "basis": "J5_CONTAINS_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 15: Organic Chemistry: Carbonyls, Carboxylic Acids and Chirality"
+    },
+    "subsections": [],
+    "points": [
+     {
+      "printed": "15.6",
+      "code": "15.6",
+      "point_id": "IAL_CHEMISTRY:Chemistry-15.6",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u15_c8_pdf126_0617"
+      ]
+     },
+     {
+      "printed": "15.7(i)",
+      "code": "15.7",
+      "point_id": "IAL_CHEMISTRY:Chemistry-15.7",
+      "resolution": "exact",
+      "admission": "SUFFIXED",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u15_c8_pdf126_0617",
+       "ych2_v2_u15_c8_pdf126_0617"
+      ],
+      "sub_item": 1
+     },
+     {
+      "printed": "15.8(ii)",
+      "code": "15.8",
+      "point_id": "IAL_CHEMISTRY:Chemistry-15.8",
+      "resolution": "exact",
+      "admission": "SUFFIXED",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u15_c8_pdf131_0638"
+      ],
+      "sub_item": 2
+     },
+     {
+      "printed": "15.8(iv)",
+      "code": "15.8",
+      "point_id": "IAL_CHEMISTRY:Chemistry-15.8",
+      "resolution": "exact",
+      "admission": "SUFFIXED",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u15_c8_pdf131_0638"
+      ],
+      "sub_item": 4
+     }
+    ]
+   },
+   "join_key": "J3_BODY_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "chunk_ids": [
+     "ych2_v2_u15_c8_pdf126_0617",
+     "ych2_v2_u15_c8_pdf131_0638"
+    ],
+    "n_chunks": 38,
+    "printed_codes": [
+     "15.6",
+     "15.7(i)",
+     "15.8(ii)",
+     "15.8(iv)"
+    ],
+    "pages": [
+     126,
+     133
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u15:c9",
+   "book_key": "ych12-sb2",
+   "chapter_title": "15C Carboxylic Acids",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T15",
+     "number": "15",
+     "title": "Organic Chemistry: Carbonyls, Carboxylic Acids",
+     "basis": "J5_CONTAINS_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 15: Organic Chemistry: Carbonyls, Carboxylic Acids and Chirality"
+    },
+    "subsections": [],
+    "points": [
+     {
+      "printed": "15.9",
+      "code": "15.9",
+      "point_id": "IAL_CHEMISTRY:Chemistry-15.9",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u15_c9_pdf134_0654"
+      ]
+     },
+     {
+      "printed": "15.10",
+      "code": "15.10",
+      "point_id": "IAL_CHEMISTRY:Chemistry-15.10",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u15_c9_pdf134_0654"
+      ]
+     },
+     {
+      "printed": "15.12(i)",
+      "code": "15.12",
+      "point_id": "IAL_CHEMISTRY:Chemistry-15.12",
+      "resolution": "exact",
+      "admission": "SUFFIXED",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u15_c9_pdf136_0670"
+      ],
+      "sub_item": 1
+     },
+     {
+      "printed": "15.12(iv)",
+      "code": "15.12",
+      "point_id": "IAL_CHEMISTRY:Chemistry-15.12",
+      "resolution": "exact",
+      "admission": "SUFFIXED",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u15_c9_pdf136_0670"
+      ],
+      "sub_item": 4
+     }
+    ]
+   },
+   "join_key": "J3_BODY_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "chunk_ids": [
+     "ych2_v2_u15_c9_pdf134_0654",
+     "ych2_v2_u15_c9_pdf136_0670"
+    ],
+    "n_chunks": 30,
+    "printed_codes": [
+     "15.9",
+     "15.10",
+     "15.12(i)",
+     "15.12(iv)"
+    ],
+    "pages": [
+     134,
+     137
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u15:c10",
+   "book_key": "ych12-sb2",
+   "chapter_title": "15D Carboxylic Acid Derivatives",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T15",
+     "number": "15",
+     "title": "Organic Chemistry: Carbonyls, Carboxylic Acids",
+     "basis": "J5_CONTAINS_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 15: Organic Chemistry: Carbonyls, Carboxylic Acids and Chirality"
+    },
+    "subsections": [],
+    "points": [
+     {
+      "printed": "15.13",
+      "code": "15.13",
+      "point_id": "IAL_CHEMISTRY:Chemistry-15.13",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u15_c10_pdf138_0684"
+      ]
+     },
+     {
+      "printed": "15.14(i)",
+      "code": "15.14",
+      "point_id": "IAL_CHEMISTRY:Chemistry-15.14",
+      "resolution": "exact",
+      "admission": "SUFFIXED",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u15_c10_pdf138_0684",
+       "ych2_v2_u15_c10_pdf138_0684"
+      ],
+      "sub_item": 1
+     },
+     {
+      "printed": "15.14(ii)",
+      "code": "15.14",
+      "point_id": "IAL_CHEMISTRY:Chemistry-15.14",
+      "resolution": "exact",
+      "admission": "SUFFIXED",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u15_c10_pdf138_0684"
+      ],
+      "sub_item": 2
+     },
+     {
+      "printed": "15.14(iv)",
+      "code": "15.14",
+      "point_id": "IAL_CHEMISTRY:Chemistry-15.14",
+      "resolution": "exact",
+      "admission": "SUFFIXED",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u15_c10_pdf138_0684"
+      ],
+      "sub_item": 4
+     }
+    ]
+   },
+   "join_key": "J3_BODY_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "chunk_ids": [
+     "ych2_v2_u15_c10_pdf138_0684"
+    ],
+    "n_chunks": 30,
+    "printed_codes": [
+     "15.13",
+     "15.14(i)",
+     "15.14(ii)",
+     "15.14(iv)"
+    ],
+    "pages": [
+     138,
+     145
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u15:c11",
+   "book_key": "ych12-sb2",
+   "chapter_title": "15E Spectroscopy and Chromatography",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T15",
+     "number": "15",
+     "title": "Organic Chemistry: Carbonyls, Carboxylic Acids",
+     "basis": "J5_CONTAINS_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 15: Organic Chemistry: Carbonyls, Carboxylic Acids and Chirality"
+    },
+    "subsections": [],
+    "points": [
+     {
+      "printed": "15.20(ii)",
+      "code": "15.20",
+      "point_id": "IAL_CHEMISTRY:Chemistry-15.20",
+      "resolution": "exact",
+      "admission": "SUFFIXED",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u15_c11_pdf163_0794"
+      ],
+      "sub_item": 2
+     },
+     {
+      "printed": "15.20(iv)",
+      "code": "15.20",
+      "point_id": "IAL_CHEMISTRY:Chemistry-15.20",
+      "resolution": "exact",
+      "admission": "SUFFIXED",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u15_c11_pdf163_0794"
+      ],
+      "sub_item": 4
+     }
+    ]
+   },
+   "join_key": "J3_BODY_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "chunk_ids": [
+     "ych2_v2_u15_c11_pdf163_0794"
+    ],
+    "n_chunks": 94,
+    "printed_codes": [
+     "15.20(ii)",
+     "15.20(iv)"
+    ],
+    "pages": [
+     146,
+     165
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u16:c12",
+   "book_key": "ych12-sb2",
+   "chapter_title": "16A Standard Electrode Potential",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T16",
+     "number": "16",
+     "title": "Redox Equilibria",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 16: Redox Equilibria"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 57,
+    "printed_codes": [],
+    "pages": [
+     172,
+     183
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u16:c13",
+   "book_key": "ych12-sb2",
+   "chapter_title": "16B Redox in Action",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T16",
+     "number": "16",
+     "title": "Redox Equilibria",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 16: Redox Equilibria"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 25,
+    "printed_codes": [],
+    "pages": [
+     184,
+     189
+    ]
+   },
+   "flags": [
+    {
+     "kind": "practicals_lane",
+     "printed_cp_markers": [
+      "CP1"
+     ],
+     "note": "CP chips route to the practicals lane (W-F4-T1 §8.2; Lab Book owns Core Practicals — CATALOG §3.5/§3.6)"
+    }
+   ]
+  },
+  {
+   "chapter_key": "u17:c14",
+   "book_key": "ych12-sb2",
+   "chapter_title": "17A Principles of Transition Metal Chemistry",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T17",
+     "number": "17",
+     "title": "Transition Metals and their Chemistry",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 17: Transition Metals and Their Chemistry"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 76,
+    "printed_codes": [],
+    "pages": [
+     196,
+     210
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u17:c15",
+   "book_key": "ych12-sb2",
+   "chapter_title": "17B Transition Metal Reactions",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T17",
+     "number": "17",
+     "title": "Transition Metals and their Chemistry",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 17: Transition Metals and Their Chemistry"
+    },
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "none",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [],
+    "n_chunks": 60,
+    "printed_codes": [],
+    "pages": [
+     211,
+     223
+    ]
+   },
+   "flags": [
+    {
+     "kind": "practicals_lane",
+     "printed_cp_markers": [
+      "CP1"
+     ],
+     "note": "CP chips route to the practicals lane (W-F4-T1 §8.2; Lab Book owns Core Practicals — CATALOG §3.5/§3.6)"
+    }
+   ]
+  },
+  {
+   "chapter_key": "u17:c16",
+   "book_key": "ych12-sb2",
+   "chapter_title": "17C Transition Metals as Catalysts",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T17",
+     "number": "17",
+     "title": "Transition Metals and their Chemistry",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 17: Transition Metals and Their Chemistry"
+    },
+    "subsections": [],
+    "points": [
+     {
+      "printed": "17.26",
+      "code": "17.26",
+      "point_id": "IAL_CHEMISTRY:Chemistry-17.26",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "LO",
+      "chunk_ids": [
+       "ych2_v2_u17_c16_pdf224_1091"
+      ]
+     },
+     {
+      "printed": "17.27",
+      "code": "17.27",
+      "point_id": "IAL_CHEMISTRY:Chemistry-17.27",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "LO",
+      "chunk_ids": [
+       "ych2_v2_u17_c16_pdf224_1091"
+      ]
+     },
+     {
+      "printed": "17.28",
+      "code": "17.28",
+      "point_id": "IAL_CHEMISTRY:Chemistry-17.28",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "LO",
+      "chunk_ids": [
+       "ych2_v2_u17_c16_pdf224_1091"
+      ]
+     },
+     {
+      "printed": "17.29(i)",
+      "code": "17.29",
+      "point_id": "IAL_CHEMISTRY:Chemistry-17.29",
+      "resolution": "exact",
+      "admission": "SUFFIXED",
+      "family": "LO",
+      "chunk_ids": [
+       "ych2_v2_u17_c16_pdf224_1091"
+      ],
+      "sub_item": 1
+     },
+     {
+      "printed": "17.29(ii)",
+      "code": "17.29",
+      "point_id": "IAL_CHEMISTRY:Chemistry-17.29",
+      "resolution": "exact",
+      "admission": "SUFFIXED",
+      "family": "LO",
+      "chunk_ids": [
+       "ych2_v2_u17_c16_pdf224_1091"
+      ],
+      "sub_item": 2
+     }
+    ]
+   },
+   "join_key": "J2_LO_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "chunk_ids": [
+     "ych2_v2_u17_c16_pdf224_1091"
+    ],
+    "n_chunks": 21,
+    "printed_codes": [
+     "17.26",
+     "17.27",
+     "17.28",
+     "17.29(i)",
+     "17.29(ii)"
+    ],
+    "pages": [
+     224,
+     227
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u18:c17",
+   "book_key": "ych12-sb2",
+   "chapter_title": "18A Arenes: Benzene",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T18",
+     "number": "18",
+     "title": "Organic Chemistry – Arenes",
+     "basis": "J5_NUMBER_IDENTITY_TITLE_VARIANT",
+     "book_unit_title": "Topic 18: Organic Chemistry: Arenes"
+    },
+    "subsections": [],
+    "points": [
+     {
+      "printed": "18.3",
+      "code": "18.3",
+      "point_id": "IAL_CHEMISTRY:Chemistry-18.3",
+      "resolution": "exact",
+      "admission": "TAIL",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u18_c17_pdf234_1141"
+      ]
+     }
+    ]
+   },
+   "join_key": "J3_BODY_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "chunk_ids": [
+     "ych2_v2_u18_c17_pdf234_1141"
+    ],
+    "n_chunks": 52,
+    "printed_codes": [
+     "18.3"
+    ],
+    "pages": [
+     234,
+     243
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u19:c18",
+   "book_key": "ych12-sb2",
+   "chapter_title": "19A Amines, Amides, Amino Acids and Proteins",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T19",
+     "number": "19",
+     "title": "Organic Nitrogen Compounds: Amines, Amides,",
+     "basis": "J5_CONTAINS_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 19: Organic Nitrogen Compounds: Amines, Amides, Amino Acids and Proteins"
+    },
+    "subsections": [],
+    "points": [
+     {
+      "printed": "19.3",
+      "code": "19.3",
+      "point_id": "IAL_CHEMISTRY:Chemistry-19.3",
+      "resolution": "exact",
+      "admission": "TAIL",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u19_c18_pdf252_1231"
+      ]
+     },
+     {
+      "printed": "19.1",
+      "code": "19.1",
+      "point_id": "IAL_CHEMISTRY:Chemistry-19.1",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u19_c18_pdf257_1258"
+      ]
+     },
+     {
+      "printed": "19.7",
+      "code": "19.7",
+      "point_id": "IAL_CHEMISTRY:Chemistry-19.7",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u19_c18_pdf257_1258"
+      ]
+     },
+     {
+      "printed": "19.8(i)",
+      "code": "19.8",
+      "point_id": "IAL_CHEMISTRY:Chemistry-19.8",
+      "resolution": "exact",
+      "admission": "SUFFIXED",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u19_c18_pdf257_1258"
+      ],
+      "sub_item": 1
+     },
+     {
+      "printed": "19.9",
+      "code": "19.9",
+      "point_id": "IAL_CHEMISTRY:Chemistry-19.9",
+      "resolution": "exact",
+      "admission": "RUN",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u19_c18_pdf257_1258"
+      ]
+     }
+    ]
+   },
+   "join_key": "J3_BODY_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "chunk_ids": [
+     "ych2_v2_u19_c18_pdf252_1231",
+     "ych2_v2_u19_c18_pdf257_1258"
+    ],
+    "n_chunks": 76,
+    "printed_codes": [
+     "19.3",
+     "19.1",
+     "19.7",
+     "19.8(i)",
+     "19.9"
+    ],
+    "pages": [
+     250,
+     265
+    ]
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u20:c19",
+   "book_key": "ych12-sb2",
+   "chapter_title": "20A Organic Structures",
+   "spec_refs": {
+    "topic": {
+     "code": "XCH11/YCH11-T20",
+     "number": "20",
+     "title": "Organic Synthesis",
+     "basis": "J5_EQUAL_AFTER_PREFIX_STRIP",
+     "book_unit_title": "Topic 20: Organic Synthesis"
+    },
+    "subsections": [],
+    "points": [
+     {
+      "printed": "20.5(i)",
+      "code": "20.5",
+      "point_id": "IAL_CHEMISTRY:Chemistry-20.5",
+      "resolution": "exact",
+      "admission": "SUFFIXED",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u20_c19_pdf284_1383"
+      ],
+      "sub_item": 1
+     },
+     {
+      "printed": "20.5(vi)",
+      "code": "20.5",
+      "point_id": "IAL_CHEMISTRY:Chemistry-20.5",
+      "resolution": "exact",
+      "admission": "SUFFIXED",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u20_c19_pdf284_1383"
+      ],
+      "sub_item": 6
+     },
+     {
+      "printed": "20.5(vii)",
+      "code": "20.5",
+      "point_id": "IAL_CHEMISTRY:Chemistry-20.5",
+      "resolution": "exact",
+      "admission": "SUFFIXED",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u20_c19_pdf284_1383",
+       "ych2_v2_u20_c19_pdf286_1391"
+      ],
+      "sub_item": 7
+     },
+     {
+      "printed": "20.5(ii)",
+      "code": "20.5",
+      "point_id": "IAL_CHEMISTRY:Chemistry-20.5",
+      "resolution": "exact",
+      "admission": "SUFFIXED",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u20_c19_pdf286_1391",
+       "ych2_v2_u20_c19_pdf286_1391"
+      ],
+      "sub_item": 2
+     },
+     {
+      "printed": "20.5(iv)",
+      "code": "20.5",
+      "point_id": "IAL_CHEMISTRY:Chemistry-20.5",
+      "resolution": "exact",
+      "admission": "SUFFIXED",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u20_c19_pdf286_1391"
+      ],
+      "sub_item": 4
+     },
+     {
+      "printed": "20.5(v)",
+      "code": "20.5",
+      "point_id": "IAL_CHEMISTRY:Chemistry-20.5",
+      "resolution": "exact",
+      "admission": "SUFFIXED",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u20_c19_pdf286_1391"
+      ],
+      "sub_item": 5
+     },
+     {
+      "printed": "20.5(ix)",
+      "code": "20.5",
+      "point_id": "IAL_CHEMISTRY:Chemistry-20.5",
+      "resolution": "exact",
+      "admission": "SUFFIXED",
+      "family": "BODY",
+      "chunk_ids": [
+       "ych2_v2_u20_c19_pdf286_1391"
+      ],
+      "sub_item": 9
+     }
+    ]
+   },
+   "join_key": "J3_BODY_CODE_CHIPS",
+   "verdict": "JOIN_POINT",
+   "evidence": {
+    "chunk_ids": [
+     "ych2_v2_u20_c19_pdf284_1383",
+     "ych2_v2_u20_c19_pdf286_1391"
+    ],
+    "n_chunks": 81,
+    "printed_codes": [
+     "20.5(i)",
+     "20.5(vi)",
+     "20.5(vii)",
+     "20.5(ii)",
+     "20.5(iv)",
+     "20.5(v)",
+     "20.5(ix)"
+    ],
+    "pages": [
+     272,
+     289
+    ]
+   },
+   "flags": []
+  }
+ ],
+ "coverage": {
+  "chapters_total": 54,
+  "chapters_joined": 54,
+  "chapters_unjoined": [],
+  "topics_total": 20,
+  "topics_covered": [
+   "XCH11/YCH11-T1",
+   "XCH11/YCH11-T10",
+   "XCH11/YCH11-T11",
+   "XCH11/YCH11-T12",
+   "XCH11/YCH11-T13",
+   "XCH11/YCH11-T14",
+   "XCH11/YCH11-T15",
+   "XCH11/YCH11-T16",
+   "XCH11/YCH11-T17",
+   "XCH11/YCH11-T18",
+   "XCH11/YCH11-T19",
+   "XCH11/YCH11-T2",
+   "XCH11/YCH11-T20",
+   "XCH11/YCH11-T3",
+   "XCH11/YCH11-T4",
+   "XCH11/YCH11-T5",
+   "XCH11/YCH11-T6",
+   "XCH11/YCH11-T7",
+   "XCH11/YCH11-T8",
+   "XCH11/YCH11-T9"
+  ],
+  "topics_uncovered": [],
+  "points_total": 319,
+  "points_keyed": 48,
+  "points_topic_only": 271,
+  "points_uncovered": [],
+  "uncovered_reasons": {
+   "no_printed_key": 271
+  },
+  "point_keying": {
+   "route_tried": {
+    "J1": "anchored-only, topic-level of record: 1 entry (printed section '1 COMPARING MASSES OF SUBSTANCES': 1.1, 1.2, 1.4 as printed) — recorded verbatim in coverage.j1_anchored_lists, not attributed to a chapter row (L-2)",
+    "J2": "7 chips / 6 codes (10.8, 10.9, 17.26-17.29 incl. sub-item forms), unit-consistent",
+    "J3": "69 admitted chips / 48 distinct codes over 18 chapters (RUN 33 / SUFFIXED 31 / TAIL 5 per probe2; exclusions: ratio colon adjacency, letter-glued units, non-run non-tail singles)",
+    "J4": "0/714 exact — honest zero (book paraphrases; OCR space-joins noted per the ial-physics precedent)",
+    "J6": "cross-document; N/A"
+   },
+   "result": "point-level corroboration is real but sparse (the IAL books carry margin chips, not full printed code lists): 48/319 points keyed, the rest topic-level only — honest sparsity is a result, not a failure (L-2)",
+   "reason_of_record": "no_printed_key"
+  },
+  "practicals_lane": {
+   "cp_marker_chunks": 8,
+   "note": "printed CP chips ride row flags (M-4); the 63 practical-suggestion markers of the W-F2-T2 routing stay practicals_lane; the Lab Book owns Core Practicals"
+  },
+  "divider_chunks_note": "0 unit-consistent chips in topic-divider chunks (c0) — recorded here per M-7, not invented into rows",
+  "j1_anchored_lists": [
+   {
+    "book": "ych11-sb1",
+    "printed_heading": "COMPARING MASSES OF SUBSTANCES",
+    "printed_codes": [
+     "1.1",
+     "1.2",
+     "1.4"
+    ],
+    "chunk": "ych1_v1_u0_c0_pdf009_0039",
+    "attribution": "topic-level of record (Topic 1); section title != manifest chapter title, chapter attribution not deterministically available (L-2)"
+   }
+  ]
+ },
+ "generated_utc": "2026-11-18T00:00:00Z",
+ "generator": "agent:scripts/wf7_emit_join.py (W-F7-T2 build per the W-F7-T1 design of record; repo-side scripts/book_layer/ generator proposed, not installed)",
+ "inputs": [
+  "Official-Specifications/parsed/ial-chemistry/spec_points.json @ 5608e2e1ccb34945036b26c23275488e3a0e43ff (blob 7454867cbf02a175c43c4a3c078af6e3114a7e8c)",
+  "Official-Specifications/parsed/ial-chemistry/topics.json @ 5608e2e1ccb34945036b26c23275488e3a0e43ff (blob 58b818fe9d966db450f9084c673cd4fcf5df89d8)",
+  "book-structure--ych11-sb1.json @ 5608e2e1ccb34945036b26c23275488e3a0e43ff",
+  "book-structure--ych12-sb2.json @ 5608e2e1ccb34945036b26c23275488e3a0e43ff",
+  "ych11 corpus blob 5924f3d9dfa857bb9def2da2f7ad56ee0f847583",
+  "ych12 corpus blob 7a22b6b94444e9e37f9656c33f9f030a870262f5",
+  "books/CATALOG.md §3.5/§3.6/§4.2 (staged copy of record)",
+  "cache/w-f7/probe.json + probe2.json (W-F7-T1 probes of record)"
+ ]
+}
