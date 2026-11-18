@@ -1,0 +1,49 @@
+{
+ "schema": "syllabai.exec-receipt/1",
+ "trace": "1a1ea997f79862e1",
+ "order": "operator message 'push' — push the two pending W-F6 commits (build 6a9e13ce + records 109f04a8) to GitHub main",
+ "executed_utc": "2026-11-18",
+ "outcome": "PUSH_BLOCKED_NO_CREDENTIALS",
+ "pending_push": {
+  "base": "062a4c3463af9a45a9f086dd42d7637ed24b35bc (remote tip, confirmed via anonymous ls-remote pre- and post-attempt)",
+  "tip": "109f04a8c78f4e3bfbbf94bb75222c0e88708446 (local refs/heads/main == HEAD)",
+  "commits": [
+   {"sha": "6a9e13ce83515134b24299ff42111d702d17ae47", "what": "W-F6-T2 build: 136 NEW loader-contract YAMLs under Official-Specifications/parsed/_derived/graph/cie-*/ (34 quals x {specification_points,topics,relationships,practicals})"},
+   {"sha": "109f04a8c78f4e3bfbbf94bb75222c0e88708446", "what": "records of record: W-F6 task file + T1/T2 receipts + Wave-43 push-confirm ride-along + LEDGER Waves 44-45"}
+  ],
+  "condition": "clean fast-forward (remote tip == base == parent of first pending commit); no race, no re-parent needed"
+ },
+ "preflight": {
+  "battery": "independent push preflight P1-P9 (scripts/wf6_push_preflight.py)",
+  "verdict": "11/11 ALL PASS",
+  "evidence": "cache/w-f6/push-preflight-1a1ea997f79862e1.json",
+  "key_results": [
+   "surfaces exact: 136 A (build) / 8A+1M (records), verified from commit objects",
+   "LEDGER append-only: prefix property holds, +2,136 bytes, Wave 44/45 in appended region",
+   "YAML battery over 136 committed blobs: totals 6,920 points / 467 topics / 1,646 SUBTOPICs / 8,561 edges (1,646 sub->topic + 6,915 point->topic); honest nulls 5 topic / 1,019 subsection; code law SF 59 / #k 52 / multi-span 47; zero text_render leak; per-qual counts blocks == actual rows; endpoints resolve",
+   "committed bytes == gated swap bytes 136/136 sha256 (cache/w-f6/det-check/swap-manifest.json pins)",
+   "ride-along receipts byte-identity: committed blobs == workspace files (2/2)",
+   "object connectivity: 191 objects over push range, rev-list clean",
+   "identity: SyllabAI <hussaina269a@gmail.com> author+committer on both commits; trace 1a1e9d9c217c8e75 in messages"
+  ]
+ },
+ "push_attempt": {
+  "method": "GIT_TERMINAL_PROMPT=0 GIT_ASKPASS=/bin/true git push origin main (anonymous; no credential to embed)",
+  "exit_code": 128,
+  "remote_response": "remote: No anonymous write access. / fatal: Authentication failed for 'https://github.com/SyllabAI/syllabai-resources.git/'",
+  "output_evidence": "cache/w-f6/push-attempt-output.txt",
+  "state_after": "no drift — local HEAD 109f04a8, remote tip 062a4c34, refs unchanged, zero objects written"
+ },
+ "credential_handling": {
+  "delegated_this_round": "none — the order carried no PAT",
+  "availability_check": "no credential.helper, no ~/.git-credentials, no ~/.netrc, no GITHUB_TOKEN/GH_TOKEN/GIT_TOKEN/GITHUB_PAT env vars, remote.origin.url clean",
+  "exposures_to_date": "6 chat-channel transits (latest in trace 1a1e9cc2677bbfd1 round)",
+  "rotation": "OUTSTANDING — rotate the exposed PAT; the next push needs a fresh PAT, used transiently in the push URL only, output redacted, never persisted"
+ },
+ "repo_writes_this_round": "0 commits, 0 pushes, 0 ref changes; workspace receipts only (this file + W-F6 push-attempt worklog entry)",
+ "next_operator_actions": [
+  "send a fresh PAT in the next message — I will then: pre-push race check (tip-match), fast-forward push 062a4c34..109f04a8, post-push ls-remote/fetch/ancestor verification, and land the push-confirm records commit (task status -> pushed; this receipt + the W-F6 push-attempt worklog entry ride per the append-only convention)",
+  "rotate any outstanding exposed PAT first",
+  "backlog after push: book-alignment lane"
+ ]
+}

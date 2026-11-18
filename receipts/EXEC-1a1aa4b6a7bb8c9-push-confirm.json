@@ -1,0 +1,64 @@
+{
+ "schema": "syllabai.exec-receipt/1",
+ "trace": "1a1aa4b6a7bb8c9",
+ "order": "operator message with PAT — execute the pending push of the two W-F6 commits (build + records) to GitHub main",
+ "executed_utc": "2026-11-18",
+ "outcome": "PUSH_LANDED_AFTER_RACE_REPARENT",
+ "preflight_of_record": {
+  "battery": "independent push preflight P1-P9 (scripts/wf6_push_preflight.py, trace 1a1ea997f79862e1 round)",
+  "verdict": "11/11 ALL PASS (evidence cache/w-f6/push-preflight-1a1ea997f79862e1.json)",
+  "carry_over": "the 136 gated YAML blobs are byte-identical through the rebuild (blob oids unchanged; swap-manifest sha256 pins), so the P6 YAML battery and P6b byte-identity checks carry over by identity"
+ },
+ "race": {
+  "found_at": "pre-push tip-match gate (anonymous ls-remote); first two attempts timed out, explicit-URL retry revealed the advance",
+  "remote_advanced": "062a4c34..6e35df7f — 6 parallel commits (5 Videos P14 lane commits c1823e71/5dcdc222/4268456d/13d3fc71/20277bcb + the 'Merge pull request #357 from SyllabAI/videos/p14-channel-recon' merge 6e35df7f)",
+  "surface": "99A+2M, all under Videos/ (README.md modified; lane doc + 34x2 drafts + pipeline scripts added)",
+  "overlap_with_wf6": "none — LEDGER.md, tasks/, receipts/, Official-Specifications/** untouched by them (LEDGER base blob 8536c091 byte-identical at both tips; entry-level equality asserted for tasks/, receipts/, receipts/W-F5)",
+  "decision": "Wave-43 rebuild law: autonomous re-parent onto the advanced tip (linear ancestry intact, parallel surface disjoint), fully documented in commit messages + this receipt"
+ },
+ "rebuild": {
+  "method": "zero-index plumbing (hash-object -w / mktree --missing / commit-tree / update-ref); index + worktree untouched",
+  "law_upgrade": "the build tree was RECOMPOSED, not reused: tree(6e35df7f) + exactly the 136 gated graph paths. Reusing tree(6a9e13ce) would have reverted the entire Videos advance on main (first candidate did exactly that and was rejected by the V1 surface assert: 237-line diff). Graph subtree union legality asserted (common entries byte-identical, 34 cie-* additions, no collisions).",
+  "commits": [
+   {"role": "build", "new": "276c84aff1a0a8ed2151397d6ebdbd31a3e1d090", "old_orphan": "6a9e13ce83515134b24299ff42111d702d17ae47",
+    "surface_vs_tip": "exactly 136 A paths (swap-manifest set); Videos advance carried in intact (101 A/M vs pre-race tree, zero deletions)"},
+   {"role": "records", "new": "d799fc2ce856e5e39fa12ef8465d9a9af7c3bcba", "old_orphan": "109f04a8c78f4e3bfbbf94bb75222c0e88708446",
+    "surface_vs_build": "exactly 1M + 8A"}
+  ],
+  "repointed_paths": [
+   "LEDGER.md (appended region: Wave-44/45 landing pins, +2,206 B delta, prefix property holds)",
+   "tasks/W-F6-cie-graph-yamls.md (2 landing clauses)",
+   "receipts/W-F6/W-F6-T2-build-receipt.json (landing block commit/parent + repo_writes)",
+   "receipts/W-F6/W-F6-T2-worklog-entry.md (landing line)"
+  ],
+  "byte_identical_paths": ["receipts/W-F6/W-F6-T1-* (3)", "receipts/EXEC-1a1e9cc2677bbfd1-wave43-push.json", "receipts/W-F5/W-F5-wave43-push-worklog-entry.md", "136 graph YAMLs"],
+  "verification": "20/20 checks ALL PASS (evidence cache/w-f6/rebuild-1a1aa4b6a7bb8c9.json): surfaces, LEDGER append-only + re-point counts, JSON validity, ancestry (8-commit linear range), identity, messages carry both traces + old SHAs, ride-along blob-oid identity, object connectivity",
+  "intermediate_orphans": "failed candidates from two aborted build attempts (incl. a first B' with the stale pre-race tree) remain unreferenced in the local object store — harmless, of record here"
+ },
+ "push": {
+  "range": "6e35df7f..d799fc2c",
+  "result": "fast-forward, exit 0, no force",
+  "method": "one authenticated git push with the PAT in the transient command URL; output redacted; never written to any file, config, receipt or ref",
+  "tip_reconfirmed_after": "anonymous ls-remote == d799fc2c"
+ },
+ "post_push_verification": [
+  "origin/main fetched + tracking ref synced to d799fc2c",
+  "ancestry: 062a4c34, 6e35df7f, 276c84af, d799fc2c all ancestors of origin/main",
+  "git diff-tree origin/main vs local HEAD: 0 lines (remote tree == local verified tree)",
+  "range 062a4c34..origin/main = 8 commits (6 parallel + 2 rebuilt)",
+  "remote LEDGER blob 3d036fcd == local",
+  "remote.origin.url unchanged and clean; project-wide grep for the delegated token: zero hits"
+ ],
+ "credential_handling": {
+  "delegated_token": "ghp_rW7z…71xD — per the P14 lane commit messages on the remote, this is the SAME token repeatedly exposed before",
+  "exposures": "7th+ chat-channel transit of this token",
+  "usage_this_round": "exactly ONE authenticated push; all reads (ls-remote, fetch) anonymous",
+  "rotation": "ROTATION NOW CRITICAL — rotate this PAT immediately; every future round can use a fresh token transiently"
+ },
+ "repo_writes_this_round": "push only (the rebuilt W-F6 pair 276c84af + d799fc2c now on GitHub main); no new records commit — task status still says 'push pending' in the repo and flips to 'pushed' at the next records landing per the append-only convention",
+ "next_operator_actions": [
+  "ROTATE THE PAT (7+ exposures of ghp_rW7z…71xD)",
+  "next records landing (any subsequent order) rides: this receipt + W-F6 push-confirm worklog + the two earlier W-F6 entries (land-confirm + push-attempt) + LEDGER Wave-46 push-confirm section + the task status flip to 'pushed'",
+  "remaining backlog: book-alignment lane"
+ ]
+}

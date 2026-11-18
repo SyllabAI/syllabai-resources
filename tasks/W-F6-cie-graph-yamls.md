@@ -38,8 +38,14 @@ status: W-F6-T1 COMPLETE 2026-11-17 — design of record filed at
   honest-empty x34; official_wording = frozen text (text_render stays
   bundle-layer); gates G-F6-C1..C8 PASS; the 136 files landed as commit
   276c84aff1a0a8ed2151397d6ebdbd31a3e1d090 (re-parented 2026-11-18 from the pre-race 6a9e13ce83515134b24299ff42111d702d17ae47, tree byte-identical — race details in the LEDGER Wave-44 entry and the commit messages); the records landing (this task file,
-  T1/T2 receipts, Wave-43 ride-along, LEDGER Waves 44-45) follows as the next
-  commit of the same order; PUSH PENDING OPERATOR ORDER. Zero bundle changes,
+  T1/T2 receipts, Wave-43 ride-along, LEDGER Waves 44-45) landed as commit
+  d799fc2ce856e5e39fa12ef8465d9a9af7c3bcba (re-parented 2026-11-18 from the
+  pre-race 109f04a8c78f4e3bfbbf94bb75222c0e88708446 — race details in the
+  LEDGER Wave-44 entry and the commit messages); both commits PUSHED to GitHub
+  main 2026-11-18 — race-checked fast-forward
+  6e35df7f44a390548118d96a875578cec80b0913..d799fc2ce856e5e39fa12ef8465d9a9af7c3bcba,
+  no force (trace 1a1aa4b6a7bb8c9; receipt
+  receipts/EXEC-1a1aa4b6a7bb8c9-push-confirm.json). Zero bundle changes,
   zero parsed-tree changes outside _derived/graph/cie-*.
 write_surface: Official-Specifications/parsed/_derived/graph/cie-*/ (NEW, 136
   files) + tasks/W-F6-cie-graph-yamls.md (NEW, this file) + receipts/W-F6/
@@ -78,4 +84,4 @@ write_surface: Official-Specifications/parsed/_derived/graph/cie-*/ (NEW, 136
 - Landing: zero-index plumbing commit (`scripts/wf6t2_land.py`, mktree
   bottom-up, 4-level tree chain), candidate + post-commit surface verified
   exactly 136 A paths; commit `276c84aff1a0a8ed2151397d6ebdbd31a3e1d090`
-  (parent 6e35df7f44a390548118d96a875578cec80b0913, re-parented 2026-11-18 from the original parent 062a4c34 after the pre-push race found the parallel Videos P14 advance 062a4c34..6e35df7f, surface untouched). Push PENDING OPERATOR ORDER.
+  (parent 6e35df7f44a390548118d96a875578cec80b0913, re-parented 2026-11-18 from the original parent 062a4c34 after the pre-push race found the parallel Videos P14 advance 062a4c34..6e35df7f, surface untouched). PUSHED 2026-11-18 — race-checked fast-forward 6e35df7f44a390548118d96a875578cec80b0913..d799fc2ce856e5e39fa12ef8465d9a9af7c3bcba, no force (trace 1a1aa4b6a7bb8c9).
