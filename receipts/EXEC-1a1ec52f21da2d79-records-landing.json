@@ -1,0 +1,54 @@
+{
+ "schema": "syllabai.exec-receipt/1",
+ "trace": "1a1ec52f21da2d79",
+ "order": "operator message 'Proceed' — the queued W-F6 push-confirm records landing rides this order, per the plan of record in receipts/EXEC-1a1aa4b6a7bb8c9-push-confirm.json (\"next records landing (any subsequent order) rides: this receipt + W-F6 push-confirm worklog + the two earlier W-F6 entries (land-confirm + push-attempt) + LEDGER Wave-46 push-confirm section + the task status flip to 'pushed'\") plus the ride clause in receipts/EXEC-1a1ea997f79862e1-push-attempt.json (\"this receipt + the W-F6 push-attempt worklog entry ride\")",
+ "executed_utc": "2026-11-18",
+ "outcome": "RECORDS_LANDING_LANDED_LOCAL_PUSH_PENDING",
+ "landing": {
+  "base": "d799fc2ce856e5e39fa12ef8465d9a9af7c3bcba (== remote tip at gate time; confirmed via anonymous ls-remote pre-commit)",
+  "commit": "5608e2e1ccb34945036b26c23275488e3a0e43ff (local refs/heads/main == HEAD)",
+  "surface": "exactly 5A + 2M",
+  "added": [
+   "receipts/EXEC-1a1aa4b6a7bb8c9-push-confirm.json (workspace copy of record, byte-identical blob)",
+   "receipts/EXEC-1a1ea997f79862e1-push-attempt.json (workspace copy of record, byte-identical blob)",
+   "receipts/W-F6/W-F6-land-confirm-worklog-entry.md",
+   "receipts/W-F6/W-F6-push-attempt-worklog-entry.md",
+   "receipts/W-F6/W-F6-push-confirm-worklog-entry.md"
+  ],
+  "modified": [
+   "tasks/W-F6-cie-graph-yamls.md (status flip: records landing pinned at d799fc2c + both commits PUSHED 2026-11-18, race-checked fast-forward 6e35df7f..d799fc2c, trace 1a1aa4b6a7bb8c9; section-2 pending clause flipped; zero PENDING left)",
+   "LEDGER.md (Wave-46 push-confirm section appended, +1,746 bytes, append-only prefix property held)"
+  ]
+ },
+ "gates": {
+  "battery": "scripts/wf6_pushconfirm_land.py — 29/29 ALL PASS (evidence cache/w-f6/records-landing-1a1ec52f21da2d79.json)",
+  "key_results": [
+   "sources: 5 workspace files of record non-empty; both EXEC JSONs parse and carry their traces",
+   "task flip: both old clauses found exactly once; flipped text carries the landing pin, PUSHED x2 and trace 1a1aa4b6a7bb8c9",
+   "LEDGER: Wave 46 absent at base, prefix property holds, +1,746 bytes",
+   "candidate + post-commit surface == exactly 5A + 2M",
+   "ride-along blobs byte-identical to workspace copies of record (5/5)",
+   "identity SyllabAI <hussaina269a@gmail.com> author+committer; message carries order trace 1a1ec52f21da2d79 + records traces 1a1aa4b6a7bb8c9/1a1ea997f79862e1 + all six SHA pins",
+   "object connectivity over d799fc2c..5608e2e1 clean",
+   "race gate at commit time: anonymous ls-remote == d799fc2c (tip-match, no advance since the push-confirm round)"
+  ]
+ },
+ "method": "zero-index plumbing (hash-object -w from workspace/staged files, ls-tree at base, mktree bottom-up, commit-tree, update-ref); the git index and the worktree were never touched; zero bundle changes, zero parsed-tree changes",
+ "push": {
+  "state": "PENDING OPERATOR ORDER — the order carried no PAT",
+  "pending_range": "d799fc2ce856e5e39fa12ef8465d9a9af7c3bcba..5608e2e1ccb34945036b26c23275488e3a0e43ff",
+  "condition": "clean fast-forward while the remote tip stays d799fc2c; remote tip re-confirmed d799fc2c after landing (post-landing ls-remote of record)",
+  "preflight_note": "content gates 29/29 done at commit time; the push round re-runs the tip-match race gate before pushing"
+ },
+ "credential_handling": {
+  "delegated_this_round": "none — the order carried no PAT",
+  "availability_check": "no credential used; remote.origin.url clean; nothing persisted",
+  "exposures_to_date": "7+ chat-channel transits of the same token (ghp_rW7z…71xD per the push-confirm receipt)",
+  "rotation": "OUTSTANDING and takes precedence — the next push needs a fresh PAT, used transiently in the push URL only, output redacted, never persisted"
+ },
+ "repo_writes_this_round": "1 local commit (5608e2e1) via zero-index plumbing; 0 pushes, 0 ref changes on the remote; agent-side: this receipt + W-F6 records-landing worklog entry + the flipped task file mirrored to download/tasks/ + gates evidence in cache/w-f6/",
+ "next_operator_actions": [
+  "rotate the 7+-exposure PAT, then send a fresh PAT in the next message — I will then: tip-match race check (anonymous ls-remote), fast-forward push d799fc2c..5608e2e1, post-push ls-remote/fetch/ancestor verification, and file the push-confirm receipt + worklog (they ride the next records landing per the append-only convention)",
+  "backlog after push: book-alignment lane (design of record tasks/W-F4-lane-b-book-join-design.md)"
+ ]
+}

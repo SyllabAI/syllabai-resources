@@ -1,0 +1,38 @@
+{
+ "schema": "syllabai.task-receipt/1",
+ "task": "W-F7-T2",
+ "wave": "W-F7",
+ "origin_trace": "1a1ef43dcfda2a59",
+ "trace_id": "1a1ef43dcfda2a59",
+ "executed_utc": "2026-11-18",
+ "operator": "SyllabAI operator (zai-web 1a1ef43dcfda2a59)",
+ "order": "book-alignment lane (same order as T1, per the W-F6 T1+T2 precedent)",
+ "tree_of_record": "5608e2e1ccb34945036b26c23275488e3a0e43ff",
+ "what": "Build + local land of the ial-chemistry V-lane corroboration book-join: book-join.json (NEW, 54 rows / 20 topics / 48/319 points keyed honestly) + book-layer-index.json (M: join_status JOINED + the Wave-37 no_book_units errata correction). Zero LLM, zero worktree dependency (all inputs read from pinned blobs).",
+ "emitter": "scripts/wf7_emit_join.py — pure function of the pinned blobs (spec side @ 5608e2e1, corpora blobs 5924f3d9 + 7a22b6b9, landed structures @ HEAD); BUILD_TS pinned 2026-11-18T00:00:00Z; deterministic (sha256 re-run)",
+ "gates": {
+  "battery": "scripts/wf7t2_gates.py — G-F7-B1..B6, 23/23 ALL PASS (evidence cache/w-f7/gate-verdicts.json)",
+  "key_results": [
+   "B1: chips re-derived independently from the pinned corpora == row sets exactly (54 chapters, zero extra); every ref resolves (code+point_id+sub_item bounds); admission mode + family + chunk evidence on every ref; M-2 unit-consistency universal",
+   "B1/B3: M-6 J5 bases re-derived — 42 J5_EQUAL_AFTER_PREFIX_STRIP + 11 J5_CONTAINS_AFTER_PREFIX_STRIP + 1 J5_NUMBER_IDENTITY_TITLE_VARIANT (T18), variant pair as-printed",
+   "B3: coverage 54/54 chapters, 20/20 topics, points 319 = 48 keyed + 271 no_printed_key; route_tried records every regime incl. the honest J4 0/714 zero; the J1 anchored list recorded verbatim topic-level",
+   "B4: rows == manifest lesson chapters (54, titles byte-equal to the structures); swap carries exactly the 2 artifact files",
+   "B6: index edited regions exactly {no_book_units, exam_unit_note, join_status, book_join_file, generated_utc, generator, inputs}; books/schema/qual byte-preserved; join_status JOINED + honest route summary; exam_unit_note supersedes with 3 evidence rows",
+   "B5: determinism — emitter re-run byte-identical (sha256)"
+  ]
+ },
+ "landing": {
+  "method": "zero-index plumbing (hash-object -w from the gated swap staging, ls-tree at HEAD, mktree bottom-up, commit-tree, update-ref); index + worktree untouched",
+  "surface": "exactly 1A + 1M: Official-Specifications/parsed/_derived/book_layer/ial-chemistry/book-join.json (A) + book-layer-index.json (M)",
+  "parent": "5608e2e1ccb34945036b26c23275488e3a0e43ff (== remote tip at gate time)",
+  "revert": "git revert of the build commit deletes book-join.json and restores the index blob",
+  "push": "PENDING OPERATOR ORDER — the order carried no PAT; rotation of the 8+-exposure token outstanding"
+ },
+ "errata_of_record": [
+  "Wave-37 index no_book_units correction (namespace conflation; see W-F7-T1 §4) — applied in the index rewrite, old state preserved in git history",
+  "spec topics.json T19 title truncation ('...Amines, Amides,') — routed to the Lane C owners, NOT edited (write surface closed)",
+  "W-F4-T2 J2 probe '≈ empty' vs 7 chips/6 codes — W-F4-T2 errata candidate, no retro-edit"
+ ],
+ "repo_writes_this_task": "1 local commit (the build) via zero-index plumbing; 0 pushes; agent-side receipts + swap staging + gates evidence",
+ "next": "the records landing of the same order (task file + W-F7 receipts + the Wave-46/47 ride-alongs + W-F6 push clause + LEDGER Waves 47-49) follows as the next commit; push by separate operator order"
+}

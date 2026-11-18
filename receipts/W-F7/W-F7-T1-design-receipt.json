@@ -1,0 +1,43 @@
+{
+ "schema": "syllabai.task-receipt/1",
+ "task": "W-F7-T1",
+ "wave": "W-F7",
+ "origin_trace": "1a1ef43dcfda2a59",
+ "trace_id": "1a1ef43dcfda2a59",
+ "executed_utc": "2026-11-18",
+ "operator": "SyllabAI operator (zai-web 1a1ef43dcfda2a59)",
+ "order": "book-alignment lane",
+ "tree_of_record": "5608e2e1ccb34945036b26c23275488e3a0e43ff",
+ "what": "Design of record for the ial-chemistry V-lane corroboration book-join — the single actionable item of the book-alignment lane per the W-F4-T1 eligibility ledger; schema/ladder/verdict classes adopted unchanged from W-F4-T1, build-time laws M-1..M-7 pinned from the probes of record; Wave-37 no_book_units errata of record documented; gates G-F7-B1..B6 fixed",
+ "inputs_of_record": [
+  "receipts/W-F4/W-F4-T1-book-join-design.md (design authority; gates G-F4-D1..D3 PASS)",
+  "receipts/W-F4/W-F4-T2-wave-report.md (deferral of record: 'the V-lane corroboration join waits for the W-F2-T2 swap to land' — landed as Waves 35-36)",
+  "Official-Specifications/parsed/ial-chemistry/spec_points.json @ 5608e2e1 (319 points, official_code 1.1-20.5 all present+unique; Stage-R sub_items on 71 rows)",
+  "Official-Specifications/parsed/ial-chemistry/topics.json @ 5608e2e1 (20 content topics XCH11/YCH11-T1..T20; 0 subsections)",
+  "books/pearson-edexcel/international-a-level/chemistry/ych11/parsed/edexcel_ial_chemistry_ych11_sb1_chunks_v1.jsonl (blob 5924f3d9dfa857bb9def2da2f7ad56ee0f847583, 1571 chunks; present in object store)",
+  "books/pearson-edexcel/international-a-level/chemistry/ych12/parsed/edexcel_ial_chemistry_ych12_sb2_chunks_v2.jsonl (blob 7a22b6b94444e9e37f9656c33f9f030a870262f5, 1406 chunks; present in object store)",
+  "Official-Specifications/parsed/_derived/book_layer/ial-chemistry/{book-structure--ych11-sb1.json,book-structure--ych12-sb2.json,book-layer-index.json} @ 5608e2e1 (the Wave-37 structures + the BUILT_NOT_JOINED index of record)",
+  "books/CATALOG.md (staged copy of record; §4.2 prints 'Units 3/6 are practicals, no SB' in the PHYSICS row only; §3.5/§3.6 chemistry rows)",
+  "cache/w-f7/probe.json + cache/w-f7/probe2.json (the probes of record for this design)"
+ ],
+ "probes": {
+  "J1": "1 anchored course-structure entry (u1:c1: printed 1.1 1.2 1.4); scattered front-matter tokens = OCR noise/cross-refs — findings, not rows",
+  "J2": "7 tokens / 6 codes, 100% unit-consistent (10.8, 10.9, 17.26, 17.27, 17.28, 17.29(i), 17.29(ii)) — W-F4-T2 '≈ empty' recorded as errata candidate (looser regex); sparse-chip conclusion unchanged",
+  "J3": "265 raw unit-consistent tokens -> 69 admitted / 48 distinct codes / 18 of 54 chapters under the conservative law M-1; false-positive classes excluded deterministically (ratios, unit-glued, arithmetic, formula subscripts)",
+  "J4": "0/714 exact (incl. space-free diagnostic) — honest zero",
+  "J5": "20/20 expected via printed 'Topic N:' prefix-strip + normalised equality (gate, not assumption)",
+  "J6": "NOT_APPLICABLE (cross-document)"
+ },
+ "errata_of_record": [
+  "Wave-37 ial-chemistry book-layer-index.json no_book_units (units 3/6 NO_BOOK_PRACTICAL_UNIT) conflates the exam-unit namespace (WCH13/WCH16, no SB) with the content-topic namespace (topics 3/6 = 'Bonding and Structure'/'Energetics', covered by SB1: 12 manifest chapters, 254 chunks, LO present). Correction confined to the index rewrite in W-F7-T2; old state preserved in git history.",
+  "W-F4-T2 J2 probe '≈ empty' vs the 7-chip full run — looser regex of record; both agree chips are sparse. Candidate routed to the W-F4 receipt owner; no retro-edit."
+ ],
+ "gates": {
+  "G-F4-D1 (design authority inheritance)": "PASS — every law of this design cites the W-F4-T1 design + a probe artifact of record; no invented shapes",
+  "G-F7-D1 (probes deterministic)": "PASS — probe.json/probe2.json reproduce from the pinned blobs; zero LLM",
+  "G-F7-D2 (honest scope)": "PASS — 10 NO_BOOK quals + ial-biology + CIE SOURCE_ONLY stay honest-blocked; no fetches",
+  "G-F7-D3 (zero repo writes this task)": "PASS — design wave wrote receipts/W-F7/ + task file draft + cache/w-f7/ only"
+ },
+ "verdict": "DESIGN_OF_RECORD — W-F7-T2 (build + land) fires in the same order per the W-F6 T1+T2 precedent; push by separate operator order",
+ "repo_writes_this_task": "0 commits, 0 pushes; agent-side receipts + probes only"
+}

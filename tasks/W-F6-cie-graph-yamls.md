@@ -45,7 +45,11 @@ status: W-F6-T1 COMPLETE 2026-11-17 — design of record filed at
   main 2026-11-18 — race-checked fast-forward
   6e35df7f44a390548118d96a875578cec80b0913..d799fc2ce856e5e39fa12ef8465d9a9af7c3bcba,
   no force (trace 1a1aa4b6a7bb8c9; receipt
-  receipts/EXEC-1a1aa4b6a7bb8c9-push-confirm.json). Zero bundle changes,
+  receipts/EXEC-1a1aa4b6a7bb8c9-push-confirm.json). The Wave-46 records
+  landing commit 5608e2e1ccb34945036b26c23275488e3a0e43ff was PUSHED to GitHub
+  main 2026-11-18 — clean fast-forward d799fc2c..5608e2e1, no force,
+  tip-match gate PASS (trace 1a1ed65dd731eb69; receipt
+  receipts/EXEC-1a1ed65dd731eb69-push-confirm.json). Zero bundle changes,
   zero parsed-tree changes outside _derived/graph/cie-*.
 write_surface: Official-Specifications/parsed/_derived/graph/cie-*/ (NEW, 136
   files) + tasks/W-F6-cie-graph-yamls.md (NEW, this file) + receipts/W-F6/

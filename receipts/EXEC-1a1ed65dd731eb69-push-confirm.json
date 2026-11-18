@@ -1,0 +1,38 @@
+{
+ "schema": "syllabai.exec-receipt/1",
+ "trace": "1a1ed65dd731eb69",
+ "order": "operator message with PAT — execute the pending push of the W-F6 push-confirm records landing commit 5608e2e1 to GitHub main",
+ "executed_utc": "2026-11-18",
+ "outcome": "PUSH_LANDED_CLEAN_FAST_FORWARD",
+ "race": {
+  "gate": "pre-push anonymous ls-remote tip-match",
+  "result": "remote tip == d799fc2c == push parent — clean fast-forward, no advance since the landing round (order 1a1ec52f21da2d79), no re-parent needed"
+ },
+ "push": {
+  "range": "d799fc2ce856e5e39fa12ef8465d9a9af7c3bcba..5608e2e1ccb34945036b26c23275488e3a0e43ff",
+  "result": "fast-forward, exit 0, no force",
+  "method": "one authenticated git push with the PAT in the transient command URL; output piped through sed redaction; the token was never written to any file, config, receipt, ref or script",
+  "carried": "the Wave-46 records landing (5A + 2M): W-F6 push-confirm + push-attempt receipts, land-confirm/push-attempt/push-confirm worklogs, tasks/W-F6-cie-graph-yamls.md status -> PUSHED, LEDGER Wave-46 push-confirm section"
+ },
+ "post_push_verification": [
+  "anonymous ls-remote == 5608e2e1 == local HEAD",
+  "origin/main fetched + tracking ref synced to 5608e2e1",
+  "git diff-tree origin/main vs local HEAD: 0 lines (remote tree == local verified tree)",
+  "ancestry: 062a4c34, 6e35df7f, 276c84af, d799fc2c all ancestors of origin/main",
+  "remote.origin.url unchanged and clean",
+  "no credential helper files created (~/.git-credentials, ~/.netrc absent)",
+  "project-wide grep for the delegated token: zero hits"
+ ],
+ "credential_handling": {
+  "delegated_token": "ghp_rW7z…71xD (redacted form) — SAME token as all prior exposures (7+ per the push-confirm receipt of record); this round is the 8th+ chat-channel transit",
+  "usage_this_round": "exactly ONE authenticated push; all reads (ls-remote, fetch) anonymous",
+  "persistence": "zero — nothing written to files/config/receipts/refs; remote URL clean; grep zero hits",
+  "rotation": "ROTATION NOW CRITICAL — rotate this PAT immediately; every future round can use a fresh token transiently"
+ },
+ "repo_writes_this_round": "push only (5608e2e1 now on GitHub main); no new records commit — this receipt + the W-F6 records-push worklog entry + the Wave-46 records-landing receipt (EXEC-1a1ec52f21da2d79-records-landing.json) + its worklog entry ride the NEXT records landing per the append-only convention, with the LEDGER Wave-47 push-confirm section and the W-F6 task-file push clause for 5608e2e1",
+ "next_operator_actions": [
+  "ROTATE THE PAT (8th+ exposure of ghp_rW7z…71xD)",
+  "next records landing (any subsequent order) rides: this receipt + the W-F6 records-push worklog + EXEC-1a1ec52f21da2d79-records-landing.json + W-F6-records-landing-worklog-entry.md + LEDGER Wave-47 push-confirm section + the W-F6 task-file push clause (5608e2e1)",
+  "remaining backlog: book-alignment lane (design of record tasks/W-F4-lane-b-book-join-design.md)"
+ ]
+}
