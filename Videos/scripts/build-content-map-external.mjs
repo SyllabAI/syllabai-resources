@@ -164,10 +164,18 @@ for (const course of [...FRESH, ...MERGE, ...P4_FRESH]) {
   }
 
   // ------------------------------------------------ review-law + integrity gates
+  // method gate: site rows carry no method; external lanes carry
+  // llm-draft-external; the P9+ committed anchor law adds paper-code rows and
+  // the P4 inherit lane adds inherited-external rows to shipped MERGE-course
+  // files — the pristine-read keeps them and the P15/P16-era wipe-and-re-add
+  // sections own their ids, so the gate must tolerate all three (the P15
+  // Belal-Sir anchors on this MERGE course tripped the pre-P9 gate in the
+  // P16 replay; disclosed builder fix, 2026-11-20).
   for (const m of rows) {
     if (m.reviewed !== true || !m.reviewer || !m.reviewedUtc)
       errors.push(`${course}: unreviewed row leaking into content (${m.video})`);
-    if (m.method !== undefined && m.method !== "llm-draft-external")
+    if (m.method !== undefined && m.method !== "llm-draft-external"
+        && m.method !== "paper-code" && m.method !== "inherited-external")
       errors.push(`${course}: row has unexpected method (${m.video})`);
   }
   for (const m of draft.mappings) {
@@ -2982,6 +2990,178 @@ for (const course of P15B) {
   );
 }
 
+// ================================================= P16 lit-21 opening lane =====
+// Owner chat 2026-11-20: "open lit-21" — the P12 terminal declaration is
+// overturned for cie-igcse-english-literature-21 (this course ONLY), and the
+// 252 RESERVED lit-0475 titles (P14 IGCSESUCCESS 0475 x9 + P15 Claire's Notes
+// x243) are adjudicated onto the freshly opened course. Class W set-text work
+// binds over the 0475 2023-2025 set-text spine (Songs of Ourselves Vol 1 P4 /
+// Vol 2 P3 / Vol 2 P4, the Ted Hughes 15 two-per-line pairs, the prose novels,
+// the Stories of Ourselves Vol 2 per-year lists, the per-year drama set
+// texts): a title naming a set-text WORK binds EVERY spec point carrying that
+// work — multi-year occurrences disclosed per row (the P13 shared-unit
+// precedent). Match rule suffix-anchored (span == work, span ends with the
+// work at a word boundary, or the title dropped a leading article;
+// mid-phrase coincidences like 'night sweat' inside 'The Man with Night
+// Sweats' do NOT bind). Confidence medium on author+work verbatim titles, low
+// under the title-only posture (work-only scene commentary, multi-work tips
+// rows as ONE multi-spec row — the four-gate topic-lecture class analog);
+// boardMismatch true on every spec row (the committed builder law). oEmbed
+// identity 100/100 author==channel-of-record (0 fallbacks). Honest skips 152
+// ledgered (scripts/p16/skips.json by class: guidance/skills 15, out-of-spine
+// board 16, character-study 15, no-set-text 106). No paper-code anchors (no
+// session codes in the reserved titles) — every row is a spec row.
+// Fresh-create (the P12 shape): the course has no video-map file; lit-21
+// takes no inherit rows (no containment children), so no P16B section.
+const P16 = ["cie-igcse-english-literature-21"];
+for (const course of P16) {
+  const D = join(VIDEOS, "drafts", course);
+  const draft = JSON.parse(readFileSync(join(D, "video-map.draft.external-p16.json"), "utf8"));
+  const verdicts = JSON.parse(readFileSync(join(D, "owner-review-verdicts.p16.json"), "utf8"));
+  if (draft.reviewState !== "owner-reviewed-external")
+    throw new Error(`${course}: p16 reviewState is "${draft.reviewState}" — apply review first`);
+  const spine = JSON.parse(readFileSync(join(SPINES, `${course}.json`), "utf8"));
+  const specByCode = new Map(
+    spine.curriculum.nodes.filter((n) => n.family === "SPEC_POINT").map((n) => [n.code, n])
+  );
+  assertSpineMirror(course, spine);
+  const contentPath = join(MAPDIR, `${course}.json`);
+  let content;
+  if (existsSync(contentPath)) {
+    content = JSON.parse(readFileSync(contentPath, "utf8"));
+    if (!content.review) errors.push(`${course}: existing content file has no review block`);
+    if (!content.inputs) errors.push(`${course}: existing content file has no inputs block`);
+    if (errors.length) break;
+  } else {
+    content = {
+      schema: "hub.video-map/1",
+      course,
+      qual: draft.qual,
+      source: {
+        provider: draft.source.provider,
+        label: course,
+        method: draft.source.method,
+        enumeratedUtc: draft.source.enumeratedUtc,
+      },
+      review: {
+        task: verdicts.task,
+        ruledUtc: verdicts.ruledUtc,
+        ruling: verdicts.source,
+        reviewer: verdicts.reviewer,
+        evidenceBasis: verdicts.evidenceBasis,
+        rowsApproved: 0,
+        rowsRejected: (verdicts.rejects || []).length,
+        rejects: REJECTS_OF(verdicts, verdicts.task),
+      },
+      videos: [],
+      mappings: [],
+      coverage: null,
+      inputs: {
+        spine: { file: `apps/hub/spines/${course}.json`, sha256: sha256(join(SPINES, `${course}.json`)) },
+      },
+      generatedUtc: new Date().toISOString(),
+    };
+  }
+
+  // idempotency (the P2B law, video-keyed): the draft is the only source for
+  // p16 rows — drop prior p16-lane rows (by video id) and the prior p16 lane
+  // entry before re-appending, so a re-emit from post-p16 state is a no-op.
+  const p16Vids = new Set(draft.videos.map((v) => v.id));
+  content.mappings = content.mappings.filter((m) => !p16Vids.has(m.video));
+  content.review.lanes = (content.review.lanes || []).filter(
+    (l) => !String(l.lane || "").includes("lit-21 opening lane")
+  );
+  for (const m of draft.mappings) {
+    if (m.reviewed !== true || !m.reviewer || !m.reviewedUtc)
+      errors.push(`${course}: unreviewed p16 row leaking into content (${m.video})`);
+    if (!/^[\w-]{11}$/.test(m.video)) errors.push(`${course}: bad p16 video id ${m.video}`);
+    if (m.method === "llm-draft-external") {
+      if (!m.specs || m.specs.length === 0)
+        errors.push(`${course}: p16 spec rows must carry non-empty specs (${m.video})`);
+      if (m.boardMismatch !== true)
+        errors.push(`${course}: p16 spec rows carry the title-only posture — boardMismatch must be true (${m.video})`);
+      if (m.confidence !== "medium" && m.confidence !== "low")
+        errors.push(`${course}: p16 spec rows are medium/low — high would violate the inherit posture (${m.video})`);
+      for (const code of m.specs || [])
+        if (!specByCode.has(code)) errors.push(`${course}: p16 spec ${code} not in spine (${m.video})`);
+    } else {
+      errors.push(`${course}: p16 row has unexpected method ${m.method} (${m.video})`);
+    }
+  }
+  const haveKeysP16 = new Set(content.mappings.map((m) => m.video + "|" + JSON.stringify(m.specs)));
+  for (const m of draft.mappings) {
+    const k = m.video + "|" + JSON.stringify(m.specs);
+    if (haveKeysP16.has(k)) errors.push(`${course}: duplicate p16 row across union ${k}`);
+    haveKeysP16.add(k);
+  }
+  const haveVidsP16 = new Set(content.videos.map((v) => v.id));
+  for (const v of draft.videos) {
+    if (!haveVidsP16.has(v.id)) content.videos.push(v);
+    if (!v.provider || !v.watchUrl) errors.push(`${course}: p16 video ${v.id} missing provider/watchUrl`);
+    if (!v.identityMethod) errors.push(`${course}: p16 video ${v.id} missing identityMethod`);
+  }
+  if (errors.length) break;
+
+  content.mappings = [...content.mappings, ...draft.mappings];
+  const allSpecsP16 = new Set(content.mappings.flatMap((m) => m.specs));
+  const mappedVidsP16 = new Set(content.mappings.map((m) => m.video));
+  content.coverage = {
+    specPointsTotal: specByCode.size,
+    specPointsMapped: allSpecsP16.size,
+    specPointsUnmapped: specByCode.size - allSpecsP16.size,
+    videosTotal: content.videos.length,
+    videosMapped: mappedVidsP16.size,
+    videosUnmapped: content.videos.length - mappedVidsP16.size,
+    mappingRows: content.mappings.length,
+    byConfidence: {
+      high: content.mappings.filter((m) => m.confidence === "high").length,
+      medium: content.mappings.filter((m) => m.confidence === "medium").length,
+      low: content.mappings.filter((m) => m.confidence === "low").length,
+    },
+  };
+  const p16Lane = {
+    lane: "external-channels-p16 (lit-21 opening lane: the P12 terminal declaration overturned by owner decision \"open lit-21\" 2026-11-20 — the P14+P15 RESERVED lit-0475 sets adjudicated onto the freshly opened course; Class W set-text work binds: Songs of Ourselves Vol 1 P4 / Vol 2 P3 / Vol 2 P4 poem guides, the Ted Hughes 15 pair-lines, Othello / A Midsummer Night's Dream / Journey's End / Twelfth Night / A Streetcar Named Desire scene commentary, the Stories of Ourselves Vol 2 story guides)", task: verdicts.task,
+    ruling: verdicts.source, reviewer: verdicts.reviewer, ruledUtc: verdicts.ruledUtc,
+    evidenceBasis: verdicts.evidenceBasis,
+    rowsApproved: draft.mappings.length, rowsRejected: (verdicts.rejects || []).length,
+    rejects: REJECTS_OF(verdicts, verdicts.task),
+  };
+  content.review.lanes = [
+    ...(content.review.lanes || [{
+      lane: "external-channels (primary)", task: content.review.task,
+      ruling: content.review.ruling, reviewer: content.review.reviewer,
+      ruledUtc: content.review.ruledUtc, evidenceBasis: content.review.evidenceBasis,
+      rowsApproved: content.review.rowsApproved, rowsRejected: content.review.rowsRejected,
+      rejects: content.review.rejects || [],
+    }]),
+    p16Lane,
+  ];
+  content.review.rowsApproved = content.mappings.length;
+  content.source.p16 = {
+    provider: draft.source.provider, method: draft.source.method,
+    enumeratedUtc: draft.source.enumeratedUtc,
+  };
+  content.inputs.p16 = {
+    repo: "SyllabAI/syllabai-resources",
+    path: `Videos/drafts/${course}/video-map.draft.external-p16.json`,
+    task: verdicts.task, reviewAppliedUtc: verdicts.ruledUtc,
+  };
+  content.generatedUtc = new Date().toISOString();
+  writeFileSync(contentPath, JSON.stringify(content, null, 1) + "\n");
+  const baseLaneP16 = registry.courses[course]?.lane || "external-channels";
+  registry.courses[course] = {
+    videos: content.videos.length,
+    mapped: content.coverage.videosMapped,
+    shelf: registry.courses[course]?.shelf ?? null,
+    lane: baseLaneP16.includes("p16-lit21") ? baseLaneP16 : baseLaneP16 + " + p16-lit21",
+    updatedUtc: new Date().toISOString(),
+  };
+  registry.generatedUtc = new Date().toISOString();
+  console.log(
+    `${course}: SHIPPED +p16 specs ${content.coverage.specPointsMapped}/${content.coverage.specPointsTotal} · videos ${content.coverage.videosMapped}/${content.coverage.videosTotal} · rows ${content.coverage.mappingRows} (+${draft.mappings.length} lit-21 opening rows) · 0 reviewed:false in content`
+  );
+}
+
 // ================================================= P2F Edexcel-native lane =====
 // 4 courses gain ANCHOR rows (docs/ANCHOR-GRANULARITY.md): course-level
 // past-paper walkthroughs bound by machine-verified Edexcel paper codes
@@ -3118,7 +3298,7 @@ console.log(`wrote ${registryPath} (${Object.keys(registry.courses).length} cour
 const flagsPath = join(HUB, "apps/hub/content/flags.json");
 const flags = JSON.parse(readFileSync(flagsPath, "utf8"));
 const want = [...new Set([
-  "igcse-biology-19", ...FRESH, ...P4_FRESH, ...P9, ...P9B, ...P10, ...P11, ...P12, ...P11B, ...P13, ...P13B, ...P14, ...P14B, ...P15, ...P15B, ...Object.keys(inhMap.parents),
+  "igcse-biology-19", ...FRESH, ...P4_FRESH, ...P9, ...P9B, ...P10, ...P11, ...P12, ...P11B, ...P13, ...P13B, ...P14, ...P14B, ...P15, ...P15B, ...P16, ...Object.keys(inhMap.parents),
 ])];
 const have = new Set(flags.flags.videoMap.courses);
 const coursesCurrent = want.every((c) => have.has(c)) && flags.flags.videoMap.courses.length === want.length;
@@ -3201,6 +3381,7 @@ if (coursesCurrent && statusCurrent) {
     + "(cie-as-biology-25, cie-as-chemistry-25, cie-as-physics-25, cie-igcse-maths-25-core, ial-chemistry-17) append "
     + "post-inherit via P14B. "
     + "P15 discovery judgment lane: 1,562 owner-reviewed rows onto 32 courses (1,033 Tier B paper-code anchors + 529 spec rows at 529 low / 0 medium) from eighteen discovery pools (T1 x14 + T2 x4; 5,591 uploads found by the gap-targeted search sweep over the corpus residual — 4,711 unmapped spec points, 24 gap clusters, 231 channels harvested, 0 overlap with the shipped union 8,783 incl. P14 AND all prior lane inventories 38,773 AND 0 intra-P15): CIE IGCSE sciences 0610/0620/0625 session/paper registers (chem bio by Hosni — the densest find of the sweep, 0610 x342 + WBI x213 over the two biggest residual gaps — CAIE made easier, Learn Today IGCSE), 0654/0653 shared-paper anchors binding all three sciences of the family (the P13 shared-unit precedent; Science and Stuff), 0417/4IT0 ICT dual register (Nicos Paphitis 0417 x121; Mark Harrison Ed-ICT/CS x93 + 0417 x58), 4MA1 maths-A higher/foundation/modular-24 routing (The Math Pad x197 + Libra Maths x127 — 339 rows onto a-18-higher alone), 0606 additional maths (127 rows onto further-maths-additional-25 via Libra/Gilbert Phoon/Shawn Hew), IAL WPH/WBI/WCH Unit-N session anchors per the P14 Assil law analog (Doctor No Does Science WPH x74 -> ial-physics-19; Hosni WBI -> ial-biology-18), 0452 accounting (Keen Mindz x64 at 100% register), 0455/9708 economics (Learn Economics with Anjuli), 0680/8291 environmental management (Dr. Maria Emam + Everything E.M.), 0460/4GE0 geography (GEO-HACKS), 0500 FLE (Taughtly, both english-language courses), Edexcel IGCSE chemistry/biology (Belal Sir, the AQA-only remainder skipped honestly); oEmbed identity 1,365/1,365 routed videos author==channel-of-record (0 mismatch, 0 dead, 0 thumb fallbacks); honest skips 3,983 ledgered by class with exactly-once disposition of all 5,591 accounts incl. 243 RESERVED lit-0475 titles (Claire Notes) folded into the lit-21 owner decision point; the eleven P4-children with direct rows (the 0654 trio, ial-physics-19, ial-biology-18, ial-chemistry-17, igcse-maths-a-18-foundation, the igcse-maths-a-modular-24 units x4) append post-inherit via P15B. "
+    + "P16 lit-21 opening lane: the owner's 2026-11-20 decision \"open lit-21\" overturns the P12 terminal declaration for cie-igcse-english-literature-21 (that course only) and admits the first-ever lit-21 content — the 252 RESERVED lit-0475 titles (P14 IGCSESUCCESS 0475 x9 + P15 Claire's Notes x243) adjudicated onto the freshly opened course: 100 owner-reviewed rows (56 medium / 44 low) binding 101 of 203 spec points through Class W set-text work binds (Songs of Ourselves Vol 1 P4 / Vol 2 P3 / Vol 2 P4 poem guides incl. the full 2025 Part 3 list, the Ted Hughes 15 pair-lines, Othello x23 / A Midsummer Night's Dream x5 / Journey's End x8 / Twelfth Night x2 / A Streetcar Named Desire scene commentary across their per-year drama specs, the Stories of Ourselves Vol 2 story guides); suffix-anchored match rule with the author cross-check, multi-year occurrences disclosed per row (the P13 shared-unit precedent), multi-work tips rows as ONE multi-spec row at low, oEmbed identity 100/100 author==channel-of-record (0 fallbacks); honest skips 152 ledgered by class (scripts/p16/skips.json: no-set-text 106 incl. Macbeth/Kumukanda/the AQA anthologies, character-study 15, out-of-spine board 16, guidance 15); exactly-once disposition of all 252 reserved accounts, 0 collisions. "
     + "Links resolve lessonUrl (site lane, Cognito) then watchUrl (external lanes, YouTube). Rows are "
     + "owner-reviewed (title-only evidence, confidence + boardMismatch disclosed per row; inherited rows carry "
     + "their derivation in inherit); the loader re-filters reviewed:true as defense in depth. One-flip kill "

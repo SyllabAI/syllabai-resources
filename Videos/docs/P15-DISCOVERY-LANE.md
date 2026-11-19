@@ -96,7 +96,7 @@ The owner's "Continue working" ran the lane on the filed pool set as proposed (T
 ## Open work
 
 1. ~~Merge both PRs (resources #358 + hub #1121)~~ DONE 2026-11-20 — resources #358 → `c24da20e`, hub #1121 → `44058422`, independent review receipts in the merge commits.
-2. **lit-21 decision** now carries TWO evidence pools: IGCSESUCCESS's 9 RESERVED titles + Claire's Notes' 243 (0475 at content level) — owner rules, then a lit append tranche.
+2. ~~lit-21 decision~~ **DECIDED 2026-11-20 — owner: "open lit-21"** — the P12 terminal declaration overturned for that course only; both reserved pools (IGCSESUCCESS 9 + Claire's Notes 243) adjudicated onto the freshly opened course by **lane P16** (`docs/P16-LIT21-OPENING-LANE.md`).
 3. Residual recon slots stay reserved (7 lost names + Skip the Tutor / Bizcon Sessions / Dr Demina).
 
 ## Artifacts
