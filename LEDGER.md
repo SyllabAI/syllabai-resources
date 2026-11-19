@@ -1397,3 +1397,68 @@ the three new parsed/ + pipeline/ subtrees. The records landing (this task's
 task file + T1/T2 receipts + the Wave-53 push-confirm ride-alongs + LEDGER)
 follows as the next commit of the same order. Push of both commits PENDING
 OPERATOR ORDER.
+
+# LEDGER append — Wave 55 (staged; rides the next records landing)
+# Append-only: everything above this block stays byte-identical.
+
+---
+
+## Wave 55 — W-F9 push confirm lands: push-confirm receipt + push-confirm worklog + W-F9 task status push clause + LEDGER (trace 1a1f4c6c31cd1601)
+
+`receipts/EXEC-1a1f4c6c31cd1601-push-confirm.json` (NEW) records the push of the
+complete W-F9 wave to GitHub main: fast-forward `ba94b1e7..d9fdee97` (build
+`ac856da02e181f7697b1d40f03c1dcc0f3895ac4` — the CIE text-layer quartet: 9701
+reconciled + 9702/9700/0625 PARSED v1, CATALOG rows 4/5/6/7 → PARSED, four lane
+READMEs, per-book pipeline scripts — plus records
+`d9fdee974dfa7dc0694f26e1c7965a0e05350ee4` — the W-F9 task file, T1/T2 receipts,
+the W-F8 push-confirm ride-alongs, the W-F8 push clause, LEDGER Waves 53-54),
+exit 0, no force. Independent pre-push verification 12/12 PASS
+(scripts/wf9_prepush_verify.py); pre-push anonymous ls-remote race gate tip-match
+PASS (remote tip == `ba94b1e7` == push base — the re-parent race rebuild of record
+had already absorbed the Videos P15 advance `02325c5b..ba94b1e7` during the
+landing round); post-push verification 7/7 PASS (remote tree == local tree
+`813f4b6518d8bae2078f99261ab8036f93dab44b`, both pins ancestors, tip stable, URL
+clean, token zero-persist — .git grep AND project-wide full-literal grep zero
+hits, no credential files). The books rollout queue's text-layer quartet is
+COMPLETE on main; ial-biology joins are now UNBLOCKED (9700 PARSED) as the next
+actionable lane. Credential note of record: SAME token, 11th+ transit — ROTATION
+OVERDUE: rotate before the next push order. This section lands with the next
+records landing (append-only convention).
+
+# LEDGER append — Wave 56 (lands with the W-F10 records commit)
+# Append-only: everything above this block stays byte-identical.
+
+---
+
+## Wave 56 — W-F10 records land: the CIE 9700 book-layer join (first CIE join lane) + the W-F9 push-confirm ride-alongs + the W-F9 task push clause + LEDGER (committed under operator order trace 1a1f4cf26af71de1)
+
+`W-F10` executes the lane named by the W-F9 push-confirm report, with the
+correction of record: the Edexcel ial-biology-18 (YBI11) join stays honest-
+blocked on sourcing (CATALOG §4.2 state —, operator purchases, never
+agent-fetches, W-F7-T1 §7 law); the executable lane is the CIE 9700
+book-layer join (Lane C follow-on — the quartet is PARSED). Build commit (2
+NEW files under `Official-Specifications/parsed/_derived/book_layer/
+cie-a-level-biology-2025-2027/`): **book-structure--9700-coursebook.json**
+(19 chapters u0:c1..c19 contiguous pdf 11..499 / book 1..489 + 13 non-lesson
+sections of record — front matter, P1 pdf 256-276 in the AS→A2 gap, P2 pdf
+500-521, Appendices 1-2, Glossary, Index, Acknowledgements, exam advice ×2,
+Answers SAQs/EOCQs, Recommended resources; honest units [] with AS/A2 scope
+carried from the spec side) + **book-join.json** (19 rows, the M-6 three-tier
+J5 law 19/19 — 15 EQUAL / 2 CONTAINS / 2 NUMBER_IDENTITY / 0 UNMATCHED; the
+book's 4th-ed chapter structure = the 2025-2027 topic structure; subsections
+44/44; points_keyed 0/257 honest figure-void; edition disclosure on the header
+and every row — the 5th ed ISBN 9781108859028 remains the upgrade candidate of
+record). Family law of record (the CIE analog of the W-F8 M-11 correction):
+the CIE coursebook family prints no spec-reference codes — ZERO admitted spec
+chips under the full law stack (M-1 × M-8 × M-9 × M-2 + row scope; M-1 raw
+admission 22 chips all resolved to the book's internal Table/Box/Figure
+numbering; the J2 LO route void at source — zero namespace tokens in all 21 LO
+chunks; probe2 classified the 198 post-exclusion candidates; probe3 pinned the
+admission law). The first probe's subsection-namespace check used a wrong key
+and was AMENDED POST-GATE (probe2 + probe3 supersede; amendment noted in the
+design of record, the T1 receipt, the worklogs and the task file). Gates
+G-F10-B1..B6 ALL PASS (6/6). The records landing (the W-F10 task file + T1/T2
+receipts + the Wave-55 W-F9 push-confirm ride-alongs + the W-F9 task push
+clause for ba94b1e7/d9fdee97 + this LEDGER append) is the next commit of the
+same order. Push of both commits PENDING OPERATOR ORDER (PAT rotation overdue —
+11th+ transit of the same token).

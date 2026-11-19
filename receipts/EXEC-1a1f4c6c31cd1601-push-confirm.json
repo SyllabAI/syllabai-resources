@@ -1,0 +1,45 @@
+{
+ "schema": "syllabai.exec-receipt/1",
+ "trace": "1a1f4c6c31cd1601",
+ "order": "operator message with PAT, no other text — read as push delegation for the pending W-F9 wave (build commit ac856da0 + records landing commit d9fdee97) per the bare-PAT precedent of trace 1a1f27218b046a15; the wave's own order of record is 1a1f4951330253b5 ('Proceed with books rollout queueu')",
+ "executed_utc": "2026-11-20",
+ "outcome": "PUSH_LANDED_CLEAN_FAST_FORWARD",
+ "preconditions_verified_before_push": [
+  "independent pre-push verification scripts/wf9_prepush_verify.py: 12/12 ALL PASS (V1 chain ba94b1e7->ac856da0->d9fdee97; V2 build surface exactly 27A + 5M all under books/; V3 records surface exactly 8A + 2M; V4 all eight records A-blobs byte-equal the swap staging + the W-F8 task M-blob byte-equal; V5 LEDGER append-only prefix property with Waves 53-54 in the append; V6 CATALOG PARSED flips present + corpus chunk counts 2046/1971/896 matching the build receipt; V7 fresh anonymous race gate)",
+  "gates of record: G-F9-B1..B6 ALL PASS (6/6) per tasks/W-F9-cie-books-parse.md section 2 and receipts/W-F9/W-F9-T2-build-receipt.json",
+  "re-parent race rebuild of record already applied during the landing round (main had advanced 02325c5b..ba94b1e7 by 4 parallel Videos P15 lane commits — 106 paths all under Videos/, zero overlap with this surface; LEDGER.md and tasks/W-F8-igcse-trio-join-completion.md base blobs byte-identical at both tips; documented in both W-F9 commit messages)",
+  "fresh pre-push race gate: anonymous ls-remote tip == ba94b1e7 == push base"
+ ],
+ "race": {
+  "gate": "pre-push anonymous ls-remote tip-match",
+  "result": "remote tip == ba94b1e79baef1c6fa184af218c0043905b61c08 == push base (parent of build commit ac856da02e181f7697b1d40f03c1dcc0f3895ac4) — clean fast-forward, no advance between verification and push"
+ },
+ "push": {
+  "range": "ba94b1e79baef1c6fa184af218c0043905b61c08..d9fdee974dfa7dc0694f26e1c7965a0e05350ee4",
+  "result": "fast-forward, exit 0, no force",
+  "method": "one authenticated git push with the PAT in the transient command URL; output piped through sed redaction (script scripts/wf9_push.sh); the token was never written to any file, config, receipt, ref or script",
+  "carried": "the complete W-F9 wave (order trace 1a1f4951330253b5): build commit ac856da02e181f7697b1d40f03c1dcc0f3895ac4 (books/** surface 5M + 27A — books/CATALOG.md tracker rows 4/5/6/7 -> PARSED + change log row; the 9701 catalog-lag errata: corpus v1 re-validated 18/18, pristine byte-identical; 9702 PARSED v1 2046 chunks c9702_v1_ per-page gutter vote 340/744, offset book=pdf-12, EOC anchored 32/32; 9700 PARSED v1 1971 chunks c9700_v1_ equal-column 410/696, offset pdf-10, EOC 21/21; 0625 PARSED v1 896 chunks c0625_v1_u{1-5}_ fixed gutter x=307, offset pdf-13, checklists 50/50, D-2 ligature-loss class disclosed 488 occurrences unrepaired v1; four lane README parse-of-record sections; per-book pipeline scripts; gates G-F9-B1..B6 ALL PASS 6/6) + records landing commit d9fdee974dfa7dc0694f26e1c7965a0e05350ee4 (tasks/W-F9-cie-books-parse.md NEW + W-F9 T1 design-of-record/design-receipt/worklog + T2 build-receipt/worklog + the W-F8 push-confirm ride-alongs EXEC-1a1f48dd27c13881-push-confirm.json and W-F8-push-confirm-worklog-entry.md + tasks/W-F8-igcse-trio-join-completion.md push clause for b6c09f82/02325c5b + LEDGER Waves 53-54)"
+ },
+ "post_push_verification": [
+  "anonymous ls-remote == d9fdee97 == local HEAD",
+  "origin/main fetched: FETCH_HEAD == d9fdee97",
+  "remote tree == local tree: FETCH_HEAD^{tree} == HEAD^{tree} == 813f4b6518d8bae2078f99261ab8036f93dab44b",
+  "ancestry: ba94b1e7 ancestor of d9fdee97 (merge-base --is-ancestor PASS); both ac856da0 and d9fdee97 now on GitHub main",
+  "remote tip stable on independent re-check (== d9fdee97)",
+  "remote.origin.url unchanged and clean (https://github.com/SyllabAI/syllabai-resources.git)",
+  "no credential helper files created (~/.git-credentials, ~/.netrc absent)",
+  "grep for the delegated token across the repository .git directory: zero hits; project-wide grep for the full literal token: zero hits (double-verified zero persistence)"
+ ],
+ "credential_handling": {
+  "delegated_token": "ghp_rW7z…71xD (redacted form) — SAME token as every prior exposure (10th+ per the Wave-53 push-confirm receipt of record EXEC-1a1f48dd27c13881-push-confirm.json, now on main); this round is the 11th+ chat-channel transit",
+  "usage_this_round": "exactly ONE authenticated push; all reads (pre-push verify ls-remote, race gate, post-push ls-remote x2, fetch) anonymous",
+  "persistence": "zero — nothing written to files/config/receipts/refs; remote URL clean; .git grep zero hits; project-wide full-literal grep zero hits",
+  "rotation": "ROTATION OVERDUE — 11th+ transit of the same credential; rotate BEFORE the next push order (no further push rounds should ride this token)"
+ },
+ "repo_writes_this_round": "push only (ba94b1e7..d9fdee97 now on GitHub main); no new records commit — this receipt + the W-F9 push-confirm worklog entry + the W-F9 task-file push clause for d9fdee97 + the LEDGER Wave-55 push-confirm section ride the NEXT records landing per the append-only convention (staged agent-side at cache/w-f9/)",
+ "next_operator_actions": [
+  "ROTATE THE PAT (11th+ exposure of ghp_rW7z…71xD) — overdue",
+  "next records landing (any subsequent order) rides: this receipt + receipts/W-F9/W-F9-push-confirm-worklog-entry.md + the W-F9 task-file push clause (ba94b1e7/d9fdee97) + LEDGER Wave-55 push-confirm section",
+  "remaining books rollout queue state (all honest): ial-biology joins now UNBLOCKED (9700 PARSED landed — next actionable lane, join-key regimes J1-J6 per download/tasks/W-F4-lane-b-book-join-design.md); 0610/0620 OCR-route quota-walled (BOOK_OCR_RUNBOOK); the 10 NO_BOOK Edexcel IGCSE lanes + YBI11/YMA01/YFM01 + unsourced CIE lanes operator-purchase gated (never agent-fetches, W-F7-T1 section 7 law); LLM fidelity polish for all four corpora quota-walled; CIE practicals honest-empty x34, 5 topic-null rows, 29 text_render rows unrecovered (unchanged)"
+ ]
+}

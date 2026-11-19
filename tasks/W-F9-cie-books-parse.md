@@ -11,11 +11,24 @@ status: W-F9-T1 COMPLETE 2026-11-20 — design of record filed at
   receipts/W-F9/W-F9-T1-design-of-record.md (probes cache/w-f9/probe*.json +
   probe2-structure.txt + probe3-display.txt + determinism.json, zero repo writes).
   W-F9-T2 COMPLETE 2026-11-20 — build landed locally as the books commit of this
-  order (parent = the pushed tip 02325c5bcdd4f08ab02643a4e4823c847422fa8a); gates
+  order (build parent = pushed tip 02325c5bcdd4f08ab02643a4e4823c847422fa8a at build
+  time; the landed build commit ac856da02e181f7697b1d40f03c1dcc0f3895ac4 is the
+  race-rebuild re-parent onto ba94b1e79baef1c6fa184af218c0043905b61c08 — main had
+  advanced 02325c5b..ba94b1e7 via the Videos P15 lane, 106 paths all under Videos/,
+  zero overlap, gated paths byte-unchanged); gates
   G-F9-B1..B6 ALL PASS (6/6, evidence cache/w-f9/ + build logs); the records
   landing (this task file, T1/T2 receipts, the W-F8 push-confirm ride-alongs, the
   W-F8 task push clause, LEDGER Waves 53-54) follows as the next commit of the
-  same order; PUSH PENDING OPERATOR ORDER (no PAT delegated this round).
+  same order. PUSHED 2026-11-20 (trace 1a1f4c6c31cd1601): both commits on GitHub main
+  via clean fast-forward ba94b1e79baef1c6fa184af218c0043905b61c08..
+  d9fdee974dfa7dc0694f26e1c7965a0e05350ee4, no force; pre-push anonymous ls-remote
+  race gate tip-match PASS + independent pre-push verification 12/12 PASS
+  (scripts/wf9_prepush_verify.py: chain / build surface 27A+5M / records surface
+  8A+2M / swap-blob equality / LEDGER prefix property / corpus chunk counts / race
+  gate); post-push verification 7/7 PASS (tip / tree 813f4b65 / ancestor / stability
+  / url-clean / token-zero-hit / no-credential-files); push-confirm receipt
+  EXEC-1a1f4c6c31cd1601-push-confirm.json staged agent-side, rides the next landing
+  per the append-only convention.
 ```
 
 ## 1. Scope of record (what "proceed with the books rollout queue" can honestly mean)

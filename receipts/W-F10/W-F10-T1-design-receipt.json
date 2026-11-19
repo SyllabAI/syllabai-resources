@@ -1,0 +1,34 @@
+{
+ "schema": "syllabai.task-receipt/1",
+ "task": "W-F10-T1",
+ "title": "design of record — the CIE 9700 book-layer join (first CIE join lane)",
+ "order_trace": "1a1f4cf26af71de1",
+ "executed_utc": "2026-11-20",
+ "outcome": "DESIGN_COMPLETE",
+ "design_of_record": "receipts/W-F10/W-F10-T1-design-of-record.md",
+ "probes_of_record": {
+  "path": "cache/w-f10/probe.json",
+  "probe2_classification": "cache/w-f10/probe2-subns.json (the 198 post-exclusion 2-part candidates classified: internal box/figure/table/question/credit numbering + prose constants)",
+  "probe3_admission": "cache/w-f10/probe3-admission.json (the M-1 admission law of record: 22 raw chips, 0 admitted under the full stack; LO route void at source)",
+  "scripts": "scripts/wf10_probe.py + wf10_probe2_subns.py + wf10_probe3_admission.py (zero-LLM, zero-network, zero repo writes; pinned blobs at d9fdee974dfa7dc0694f26e1c7965a0e05350ee4)",
+  "verdicts": {
+   "P1_spine": "19 content chapters (u0:c1..c19) contiguous pdf 11..499 / book 1..489; per-chapter LO x19 + EOC x19",
+   "P1b_cx_groups": "13 disjoint title groups (front matter, P1 256-276, P2 500-521, Appendices 1-2, Glossary, Index, Acknowledgements, exam advice x2, Answers SAQs/EOCQs, Recommended resources) — 624 chunks chapter_no=None",
+   "P3_j5": "19/19 mapped, 0 UNMATCHED — 15 EQUAL / 2 CONTAINS / 2 NUMBER_IDENTITY_TITLE_VARIANT",
+   "P4_code_census": "AMENDED POST-GATE (probe2 + probe3 supersede the first census, whose subsection-namespace check used a wrong key): zero admitted spec chips under the full law stack of record — M-1 raw admission 22 chips; the 6 M-2-consistent TAIL survivors are internal Table/Box/Figure refs (M-8 window excludes); the 16 RUN survivors M-2-inconsistent or out of row scope; 198 post-exclusion candidates classified (probe2) as internal box/figure/table/question/credit numbering or prose constants; zero 3-part tokens; LO route void at source (zero namespace tokens in 21 LO chunks, 0 coded line starts)",
+   "P5_j4": "0/119 LO lines exact (space-free diagnostic 0) — honest zero",
+   "P6_mentions": "syllabus x23, learning outcomes x28, practical x44, cross-link x7",
+   "P7_source_pin": "probe sha256 == lane README pin fa4954c88855a587a63deeb2725f6abb22aed8b3551ed02462dfbf53c036bfe7"
+  }
+ },
+ "correction_of_record": "the W-F9 push-confirm report's 'ial-biology joins now UNBLOCKED (9700 PARSED)' conflated the archive-path segment ial/biology (CIE 9700) with the Edexcel spec lane ial-biology-18 (YBI11) — the YBI11 join stays honest-blocked on sourcing (CATALOG section 4.2 state em-dash, operator purchases, never agent-fetches, W-F7-T1 section 7 law); the executable lane is the CIE 9700 book-layer join",
+ "laws": "N-1..N-8 pinned (the CIE adaptations of the W-F7 M-laws + W-F8 M-8/M-9 exclusions) — see the design of record section 4",
+ "gates": "G-F10-B1..B6 fixed (B1 pins, B2 tiles, B3 rows, B4 figure-void law, B5 surface, B6 determinism)",
+ "write_surface_this_task": "tasks/W-F10-cie-9700-book-join.md (NEW) + receipts/W-F10/ + cache/w-f10/ probes + download/w-f10-swap/ staging — zero repo writes, zero census writes, zero graph writes",
+ "honest_non_actions": [
+  "Edexcel ial-biology-18 (YBI11) join — honest-blocked on sourcing",
+  "9702/9701/0625 joins — NOT STARTED (own probes + designs needed)",
+  "no artifact emission in T1 (W-F10-T2 fires in the same order, W-F6/W-F7 precedent)"
+ ],
+ "next": "W-F10-T2 build + gates + local landing (same order); push PENDING OPERATOR ORDER (PAT rotation overdue)"
+}

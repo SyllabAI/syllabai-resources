@@ -1,0 +1,44 @@
+{
+ "schema": "syllabai.task-receipt/1",
+ "task": "W-F10-T2",
+ "title": "build + gates + local landing — the CIE 9700 book-layer join (first CIE join lane)",
+ "order_trace": "1a1f4cf26af71de1",
+ "executed_utc": "2026-11-20",
+ "outcome": "BUILD_LANDED_LOCAL",
+ "parent": "d9fdee974dfa7dc0694f26e1c7965a0e05350ee4",
+ "build": {
+  "lane": "Official-Specifications/parsed/_derived/book_layer/cie-a-level-biology-2025-2027/",
+  "artifacts": {
+   "book-structure--9700-coursebook.json": "NEW — schema syllabai.book-structure/1.0; qual cie-a-level-biology-2025-2027; book key 9700-coursebook; 19 chapters (u0:c1..c19, tier CORPUS_REGISTERED, page ranges pdf 11..499 / book 1..489, contiguous + non-overlapping) + 13 non-lesson sections of record (the probe P1b cx title groups, disjoint pdf ranges) + honest units [] (single-unit corpus u0; AS/A2 scope carried from the spec side per point) + notes (P1/P2 practicals routing, EOC 21/21, edition law); sha256 3b3f1277207c74f69b80cd6f154393f94c73a9e204c982b180f6e62954d33a0f",
+   "book-join.json": "NEW — schema syllabai.book-spec-join/1.0; 19 rows (chapter_key u0:c{n}), each topic-mapped via the M-6 three-tier J5 law (15 J5_EQUAL / 2 J5_CONTAINS / 2 J5_NUMBER_IDENTITY_TITLE_VARIANT / 0 UNMATCHED); spec_refs.subsections = the topic's subsections of record (44 across 19 rows); spec_refs.points = [] honest no_printed_key (N-3, as amended by probes 2-3); coverage {topics_covered 19/19, subsections_listed 44/44, points_keyed 0/257 honest figure-void}; edition_disclosure on the header; sha256 a650635a3083e701c0d0e46b03ed55941859c1a02ebd305ab8f9d07945dcb3af — see the landing manifest for the full pins"
+  },
+  "laws": "N-1..N-8 per the W-F10-T1 design of record (the CIE adaptations of the W-F7 M-laws + the W-F8 M-8/M-9 exclusions); the P4 census of record AMENDED POST-GATE (probe2 classification + probe3 admission supersede the first census whose subsection-namespace check used a wrong key) — the family law verdict stands: zero admitted spec chips under the full law stack (M-1 x M-8 x M-9 x M-2 + row scope); M-1 raw admission 22 chips all resolved to the book's internal numbering (6 TAIL = Table 1.2 / Box 7.1 / Figure 7.2 / Figure 8.3 / Figure 12.2 / Table 15.2, window-excluded; 16 RUN = M-2-inconsistent or out of row scope); J2 LO route void at source (zero namespace tokens in all 21 LO chunks)",
+  "determinism": "byte-identical re-runs (sha256 stable across emitter re-invocations; gate B6)",
+  "gates": "G-F10-B1..B6 ALL PASS (6/6) — cache/w-f10/gate-verdicts.json"
+ },
+ "surface": {
+  "build_commit_files": [
+   "Official-Specifications/parsed/_derived/book_layer/cie-a-level-biology-2025-2027/book-structure--9700-coursebook.json (A)",
+   "Official-Specifications/parsed/_derived/book_layer/cie-a-level-biology-2025-2027/book-join.json (A)"
+  ],
+  "records_commit_files": [
+   "tasks/W-F10-cie-9700-book-join.md (A)",
+   "receipts/W-F10/W-F10-T1-design-of-record.md (A)",
+   "receipts/W-F10/W-F10-T1-design-receipt.json (A)",
+   "receipts/W-F10/W-F10-T1-worklog-entry.md (A)",
+   "receipts/W-F10/W-F10-T2-build-receipt.json (A)",
+   "receipts/W-F10/W-F10-T2-worklog-entry.md (A)",
+   "receipts/EXEC-1a1f4c6c31cd1601-push-confirm.json (A — W-F9 ride-along)",
+   "receipts/W-F9/W-F9-push-confirm-worklog-entry.md (A — W-F9 ride-along)",
+   "tasks/W-F9-cie-books-parse.md (M — push clause for ba94b1e7/d9fdee97)",
+   "LEDGER.md (M — Waves 55-56)"
+  ]
+ },
+ "honest_non_actions": [
+  "Edexcel ial-biology-18 (YBI11) join — honest-blocked on sourcing (operator purchases, never agent-fetches; the correction of record for the W-F9 push-confirm report phrasing)",
+  "9702/9701/0625 joins — NOT STARTED (own probes + designs needed under the same laws)",
+  "LLM fidelity polish for the 9700 corpus — NOT STARTED (quota-walled; pristine snapshots are the anchor-diff targets)",
+  "INTEGRATED/LIVE for the quartet — the v2-repo/DB lever, not this repo's write face"
+ ],
+ "next": "records landing (this task file, T1/T2 receipts, the W-F9 push-confirm ride-alongs, the W-F9 task push clause, LEDGER Waves 55-56) follows as the next commit of the same order; push of both commits PENDING OPERATOR ORDER (PAT rotation overdue — 11th+ transit of the same token)"
+}
