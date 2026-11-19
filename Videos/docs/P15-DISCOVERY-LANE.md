@@ -1,6 +1,6 @@
 # P15 — DISCOVERY LANE (gap-targeted channel search sweep)
 
-**State: FILED 2026-11-18 — search + enumerate + classify + inventories; no judgment, no emit, until the owner admits pools.**
+**State: JUDGMENT RUN + BUILDER EMIT + HUB GATES 2026-11-18 (owner "Continue working" same day = run the lane; resources branch `videos/p15-discovery` PR #358; hub emit branch `t-videomap-p15/run-001` -> SyllabAI/syllabai-v2 PR #1121, opened 2026-11-18 with commit 364ffa13).**
 **Authorization: owner, this session — "How about you search for channels and videos to map?" (2026-11-18), opening a discovery lane after the owner-supplied recon list was exhausted by P14.**
 **Branch: `videos/p15-discovery` (resources). Hub side: none yet — this is a filing-only tranche.**
 
@@ -82,11 +82,21 @@ Top unmapped spec-point deficits at main:
 - ANCHOR-GRANULARITY applies in full at judgment (GCE/9MA0, OCR/AQA, IB, NCERT out-of-spine; O-Level register skip; the P9 IAL-cross-register bar; the P13 gate ladder).
 - Sweep is search-derived, so nothing here duplicates the reserved recon slots: the 7 lost pool names + Skip the Tutor / Bizcon Sessions / Dr Demina remain **reserved pending owner re-supply** and would join a follow-up tranche, not this one.
 
+## Judgment run (2026-11-18)
+
+The owner's "Continue working" ran the lane on the filed pool set as proposed (T1 x14 + T2 x4; claires-notes RESERVED):
+
+- **Exactly-once disposition of all 5,591 accounts**: 1,033 Tier B anchor rows (over 836 videos) + 529 Tier A spec keeps + 3,983 honest skips + 243 RESERVED lit-0475 = 5,591 (0 collisions).
+- **Identity: oEmbed 1,365/1,365 routed videos author_url == channel-of-record** via UC id (0 mismatch, 0 dead, 0 thumb fallbacks).
+- **Emit: 1,562 rows onto 32 courses (21 pre-inherit + 11 P4-children post-inherit via P15B)**; emit exit 0 x2, full re-emit replay machine-checked a no-op modulo timestamps.
+- **Coverage deltas of record**: ial-physics-19 10/171 -> 54/171, igcse-maths-a-18-foundation 20/162 -> 65/162, co-ordinated trio 34/230 -> 150/230 + 112/181 -> 141/181 + 118/221 -> 142/221, a-18-higher 36/188 -> 109/188, further-maths-additional-25 24/77 -> 65/77, ict-21 19/95 -> 39/95, ict-17 8/138 -> 22/138, EM-25 2/142 -> 12/142, geography pair +8 each, english-language 6/18 -> 14/18 + 5/18 -> 11/18.
+- **Hub gates**: video-map tests 16/16 (7,191 expects; at-rest pins receipt-synced — ial-chemistry-17 517 rows/111 anchors, ial-biology-18 21, ial-physics-19 73, igcse-chemistry-19 66, anchorBuckets ial-physics-19 73); spec-join census 95 courses / 16,198 rows / 58,796 refs / 0 violations; flags status synced to P3..P15 (template + emitted file).
+
 ## Open work
 
-1. Owner admits pools (or amends the list) →
-2. **P15 judgment lane** (per-row class tables over the admitted pools, the P14 shape: route → candidates → judgment, degenerate-bind re-adjudication bar, oEmbed identity sweep, honest-skip ledger, lit-0475 titles reserved not skipped) →
-3. builder P15 section + hub gates + hub PR (the two-step gate as in P14).
+1. Merge both PRs (resources #358 + hub #1121) — owner review of record.
+2. **lit-21 decision** now carries TWO evidence pools: IGCSESUCCESS's 9 RESERVED titles + Claire's Notes' 243 (0475 at content level) — owner rules, then a lit append tranche.
+3. Residual recon slots stay reserved (7 lost names + Skip the Tutor / Bizcon Sessions / Dr Demina).
 
 ## Artifacts
 
