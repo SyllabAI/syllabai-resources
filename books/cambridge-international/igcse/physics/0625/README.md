@@ -1,6 +1,6 @@
 # Cambridge IGCSE Physics (0625) — Student Book Intake (2026-10-21)
 
-**Status:** SOURCE (wave-2 intake, T-MIG-141) — parse lane NOT started.
+**Status:** PARSED (v1 corpus, W-F9 2026-11-20 — trace 1a1f4951330253b5; validator ALL CHECKS PASSED; LLM polish NOT STARTED, quota-walled).
 Scaffold per `books/README.md` §5 (copy of `physics/4ph1/`).
 
 ## Books of this lane
@@ -36,3 +36,22 @@ courses — T-MIG-140 receipt, multibook_disclosure).
    `../../PARSE_STANDARD.md` where applicable, else the same 8 points).
 2. Serving lane (TEXTBOOK doc + book_chapters + slices manifest + T-C20 flip).
 3. Update `books/CATALOG.md` tracker in the same commit as each state change.
+
+## Parse of record (W-F9, 2026-11-20 — trace 1a1f4951330253b5)
+
+**Status: PARSED (v1).** Corpus `parsed/cie_igcse_physics_0625_chunks_v1.jsonl` — **896
+chunks** (`c0625_v1_u{unit}_c{n}_pdf{p}_{i}`), 13-key v1 grammar. Text-layer lane, no
+OCR: PyMuPDF span-pool assembly, **fixed-gutter x=307** column law (the PDFium render has
+an irregular two-band grid — text right band, figures/margins left; per-page gap votes
+are unreliable; 258/328 pages two-column). Page law `book = pdf - 13` (verified 5 ways).
+**Unit law:** the 5 printed section dividers become units (unit_no/unit_name on chapter
+chunks). 50 chapters; opener phase law (head → at-a-glance box → body; box bullet glyphs
+render as 'l' or single '●'); '●● Worked example(s)' → worked_example, '●● Practical …'
+→ practical; back banks forced types (revision/exam/practical-test/alt-practical banks +
+Answers + Index). Checklists anchored 50/50; openers 50/50. **DAMAGE CLASS D-2 of
+record:** fi/fl ligature loss in the render ('Specifi c', 'classifi cation', ' elds'; 488
+glue occurrences) — NOT repaired in v1 body text (transcription-only polish pending,
+quota-walled). In-chapter revision-question sets print no heading — typed body honestly
+(routed limitation; the banks carry the serving anchors). Validator
+`pipeline/scripts/validate_0625.py` **ALL CHECKS PASSED** (2026-11-20); determinism
+sha256 byte-identical re-run. See `parsed/parse_report_v1.json` (decisions D-1…D-7).

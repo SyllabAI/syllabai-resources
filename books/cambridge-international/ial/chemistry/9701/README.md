@@ -1,6 +1,6 @@
 # Cambridge International AS & A Level Chemistry (9701) — Student Book Intake (2026-10-21)
 
-**Status:** SOURCE (wave-2 intake, T-MIG-141) — parse lane NOT started.
+**Status:** PARSED (corpus v1 of record; W-F9 reconcile 2026-11-20, trace 1a1f4951330253b5 — validate_9701 re-run ALL CHECKS PASSED under the 8-point gate, pristine byte-identical; the parsed/ corpus landed with the lane earlier but this README and the CATALOG row had not been synced — corrected of record; LLM polish NOT STARTED, quota-walled).
 Scaffold per `books/README.md` §5 (copy of `physics/4ph1/`).
 
 ## Books of this lane
