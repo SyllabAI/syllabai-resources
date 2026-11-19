@@ -4,12 +4,9 @@
 delivered same day: 24 new pools adjudicated T1 16,064 / T2 3,323 / NT 6,003 = 25,390 uploads, 0 overlap,
 no new-course exits proposed) · owner chat 2026-11-17 "**Proceed**" (= file it as P14) · owner chat
 2026-11-17 "**run the P14 judgment lane**" · owner chat 2026-11-17 "**run the P14 builder**" · **Status:**
-FILED + PUSHED + **JUDGMENT RUN 2026-11-17** + **BUILDER EMIT + HUB GATES 2026-11-17**, **PR #357 open**
-(branch `videos/p14-channel-recon` → main; carries filing + judgment + builder) and **hub PR
-[`t-videomap-p14/run-001` #1062 open](https://github.com/SyllabAI/syllabai-v2/pull/1062)** (branch → `SyllabAI/syllabai-v2` main) — 3,138 rows (1,012 Tier B anchors +
+FILED + PUSHED + **JUDGMENT RUN 2026-11-17** + **BUILDER EMIT + HUB GATES 2026-11-17** + **SHIPPED — both PRs merged 2026-11-18 by owner order with independent review receipts in the merge commits (resources PR #357 → `6e35df7f`, hub PR [`t-videomap-p14/run-001` #1062](https://github.com/SyllabAI/syllabai-v2/pull/1062) → `ad716b0d`)** — 3,138 rows (1,012 Tier B anchors +
 2,126 spec rows) across 34 courses drafted, emitted through the P14/P14B sections, hub gates green
-(video-map tests 16/16 at 6,056 expects; spec-join census 95 courses / 14,299 rows / 0 violations);
-**merge of both PRs remains open (owner review).**
+(video-map tests 16/16 at 6,056 expects; spec-join census 95 courses / 14,299 rows / 0 violations).
 
 ## Judgment run (2026-11-17)
 

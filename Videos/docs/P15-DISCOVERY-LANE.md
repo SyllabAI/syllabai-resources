@@ -1,8 +1,8 @@
 # P15 — DISCOVERY LANE (gap-targeted channel search sweep)
 
-**State: JUDGMENT RUN + BUILDER EMIT + HUB GATES 2026-11-18 (owner "Continue working" same day = run the lane; resources branch `videos/p15-discovery` PR #358; hub emit branch `t-videomap-p15/run-001` -> SyllabAI/syllabai-v2 PR #1121, opened 2026-11-18 with commit 364ffa13).**
+**State: SHIPPED 2026-11-20 — resources PR #358 → `c24da20e`, hub PR [`t-videomap-p15/run-001` #1121](https://github.com/SyllabAI/syllabai-v2/pull/1121) → `44058422`; both merged by owner order "Process it" with independent review receipts in the merge commits (resources gates R1–R7, hub gates G1–G8, bun video-map tests 16/16 at 7,191 expects; corrected receipt claims recorded in the receipts — see the corrections bullet below).**
 **Authorization: owner, this session — "How about you search for channels and videos to map?" (2026-11-18), opening a discovery lane after the owner-supplied recon list was exhausted by P14.**
-**Branch: `videos/p15-discovery` (resources). Hub side: none yet — this is a filing-only tranche.**
+**Branch: `videos/p15-discovery` (resources, merged as `c24da20e`). Hub side: `t-videomap-p15/run-001` (merged as `44058422`).**
 
 ## Why
 
@@ -36,7 +36,7 @@ Top unmapped spec-point deficits at main:
 1. **Gap-targeted sweep** (`scripts/p15/sweep.json`): 24 gap clusters × 1–5 register/code-targeted queries each (`yt-dlp ytsearch15`), harvesting `(channelId, channel, title)` rows; **231 distinct channels harvested, 208 new** after deduping against every prior lane inventory UC + the P14 pool set.
 2. **Shortlist** by register density × gap weight → **19 pools** (`scripts/p15/p15_pools.json`). Exam Essentials excluded (P2F pool of record); known channels (Cognito, Omar's Biology Lab, A-star Solution…) skipped by UC.
 3. **Identity gate** (`p15_run.py resolve`): every pool's UC verified via the page-identity gate (`externalId` + `og:title` agree) — **19/19 resolved**, zero squats.
-4. **Enumeration** (`p15_run.py enum`): flat enumeration of each channel's UPLOADS PLAYLIST (`UU<id>`, cap 15,000) — the P14 methodology; **5,591 uploads across 19 pools, enumeratedUtc 2026-11-18**.
+4. **Enumeration** (`p15_run.py enum`): flat enumeration of each channel's UPLOADS PLAYLIST (`UU<id>`, cap 15,000) — the P14 methodology; **5,591 uploads across 19 pools, enumeratedUtc 2026-11-19T14:37:11Z**.
 5. **Register classification** (`p15_run.py classify`, `classify.json`): textual register families (spine paper codes, session patterns, NT boards) over every title — the P14 textual-classification shape, case-insensitive, incl. the Ed-IGCSE sciences and ICT/CS families and content-level lit markers (`Study Guide for Cambridge iGCSE`).
 6. **Inventory assemble** (`p15_file.py`): P11–P14 inventory shape ×19 under `inventory/channels/`.
 7. **Overlap law — ALL PASS**: pool ids **0 overlap vs the hub shipped union at main (8,783 ids incl. P14's 2,899)** and **0 overlap vs all prior lane inventories (38,773 ids)** and **0 intra-P15 sharing** (5,591 uploads = 5,591 distinct ids).
@@ -87,20 +87,21 @@ Top unmapped spec-point deficits at main:
 The owner's "Continue working" ran the lane on the filed pool set as proposed (T1 x14 + T2 x4; claires-notes RESERVED):
 
 - **Exactly-once disposition of all 5,591 accounts**: 1,033 Tier B anchor rows (over 836 videos) + 529 Tier A spec keeps + 3,983 honest skips + 243 RESERVED lit-0475 = 5,591 (0 collisions).
-- **Identity: oEmbed 1,365/1,365 routed videos author_url == channel-of-record** via UC id (0 mismatch, 0 dead, 0 thumb fallbacks).
+- **Identity: oEmbed 1,365/1,365 routed videos author == channel-of-record** via UC id (0 mismatch, 0 dead; split of record 1,356 direct oembed + 9 thumb-fallback — oembed HTTPError/URLError with identity verified via the fallback route, ok=true, the P14 XrTzkSfaJBI precedent; the hub-side videos[] entries record identityMethod thumb-fallback for those 9).
 - **Emit: 1,562 rows onto 32 courses (21 pre-inherit + 11 P4-children post-inherit via P15B)**; emit exit 0 x2, full re-emit replay machine-checked a no-op modulo timestamps.
 - **Coverage deltas of record**: ial-physics-19 10/171 -> 54/171, igcse-maths-a-18-foundation 20/162 -> 65/162, co-ordinated trio 34/230 -> 150/230 + 112/181 -> 141/181 + 118/221 -> 142/221, a-18-higher 36/188 -> 109/188, further-maths-additional-25 24/77 -> 65/77, ict-21 19/95 -> 39/95, ict-17 8/138 -> 22/138, EM-25 2/142 -> 12/142, geography pair +8 each, english-language 6/18 -> 14/18 + 5/18 -> 11/18.
 - **Hub gates**: video-map tests 16/16 (7,191 expects; at-rest pins receipt-synced — ial-chemistry-17 517 rows/111 anchors, ial-biology-18 21, ial-physics-19 73, igcse-chemistry-19 66, anchorBuckets ial-physics-19 73); spec-join census 95 courses / 16,198 rows / 58,796 refs / 0 violations; flags status synced to P3..P15 (template + emitted file).
+- **Review corrections of record (2026-11-20, independent review receipts in both merge commits)**: spec-confidence split is **319 medium / 210 low** (the run's receipts had said "529 low / 0 medium" — drafts and shipped data agree on 319/210); the P4 inherit loop cascaded **+337 rows onto 14 courses** beyond the 32 direct courses (modular-24 units, foundation via inherit.from igcse-maths-a-18-higher threshold 0.55, the combined-science children; rowsApproved 1,899 = 1,562 + 337, all reviewed:true); enumeratedUtc of record **2026-11-19T14:37:11Z**.
 
 ## Open work
 
-1. Merge both PRs (resources #358 + hub #1121) — owner review of record.
+1. ~~Merge both PRs (resources #358 + hub #1121)~~ DONE 2026-11-20 — resources #358 → `c24da20e`, hub #1121 → `44058422`, independent review receipts in the merge commits.
 2. **lit-21 decision** now carries TWO evidence pools: IGCSESUCCESS's 9 RESERVED titles + Claire's Notes' 243 (0475 at content level) — owner rules, then a lit append tranche.
 3. Residual recon slots stay reserved (7 lost names + Skip the Tutor / Bizcon Sessions / Dr Demina).
 
 ## Artifacts
 
-- Inventories: `inventory/channels/<pool>-uploads.json` ×19 (5,591 uploads, enumeratedUtc 2026-11-18)
+- Inventories: `inventory/channels/<pool>-uploads.json` ×19 (5,591 uploads, enumeratedUtc 2026-11-19T14:37:11Z)
 - Pipeline: `scripts/p15/` (sweep → pools → resolve → enumerate → classify → file)
 - Evidence: `scripts/p15/sweep.json` (231 channels × query hits), `classify.json`, `filing_stats.json`, `p15_pools.json`
 - Gap profile: `scripts/p15/p15_gap_profile.py` + the table above
