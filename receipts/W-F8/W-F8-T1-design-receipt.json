@@ -1,0 +1,31 @@
+{
+ "schema": "syllabai.task-receipt/1",
+ "task": "W-F8-T1",
+ "wave": "W-F8",
+ "origin_trace": "1a1f3f29f14afce5",
+ "order": "Proceed with the three W-F4-T2",
+ "executed_utc": "2026-11-19",
+ "tree_of_record": "cf1c8378b7ffdb581360c1e6b79bac157443c08c",
+ "deliverables": {
+  "design_of_record": "receipts/W-F8/W-F8-T1-design-of-record.md (staged agent-side cache/w-f8/, lands with this order's records commit)",
+  "probes_of_record": ["cache/w-f8/probe.json", "cache/w-f8/probe2.json"]
+ },
+ "gates": {
+  "G-F8-D1": "PASS — every schema field, law and gate rule cites a real artifact of record (pinned blob paths + shas in probe.json pins; landed joins read at HEAD cf1c8378); no invented shapes; the M-8..M-11 deltas are derived from the probe evidence, not assumed",
+  "G-F8-D2": "PASS — the wave scope covers exactly the three W-F4-T2 quals named in the order (igcse-chemistry, igcse-biology, igcse-physics), each carrying its landed-state baseline (rows/coverage/keys from the pinned landed joins) and its honest blocked/unchanged neighbours (10 NO_BOOK quals, ial-biology, CIE SOURCE_ONLY = Lane C)",
+  "G-F8-D3": "PASS — zero repo writes this round: probes read pinned blobs only and wrote cache/w-f8/ + download/w-f8-swap/ staging; design/receipt/worklog staged agent-side; the correction surface (3 M join files) is fixed by the design and not yet written"
+ },
+ "key_findings": [
+  "F1 figure-void: the IGCSE student books print no spec-reference codes (0 coded LO line starts across 2,833 chunks; 0 M-1 chip-position tokens); the IAL margin-chip phenomenon does not exist in this family",
+  "F2 false keys proven: the landed 4CH1 62 entries and 4PH1 7 entries are figure-caption numbers and numeric constants, including the resolved 'points_keyed' 7 + 7 — correction required per L-2 (M-11 law)",
+  "F3 4BI1 J1 stands: 172/176 keys from the W-F1-T1 COURSE STRUCTURE ToC transcription (page-cited); the 4 uncovered codes have 0 corpus hits — honest stay with evidence of record",
+  "F4 J5 deepening: 8 of 10 uncovered 4CH1 subsections map deterministically (equality + W-F4-T1 spec-in-book CONTAINS + unit/topic vetting; SUB5 multi-chapter u1:c5+u1:c6); SUB10/SUB11 reverse-direction only — not admitted; 4PH1's 8 uncovered 'Units' SUBs stay unmapped",
+  "F5 J1 anchored: probed-empty in all trio corpora; 4CH1 ToC stays not-of-record",
+  "F6 single-book quals: no book-layer-index artifacts (the multi-book registration law does not fire); corpus pins ride the joins' inputs"
+ ],
+ "errata_of_record": [
+  "the Wave-50 push report's backlog phrasing 'staged joins (BUILT_NOT_JOINED from W-F4-T2)' mischaracterized the trio — their W-F4-T2 joins were landed and pushed (Wave 37/38); the open program was the unapplied law set + corrections, as this design records",
+  "the landed 4CH1/4PH1 W-F4-T2 joins carry figure-derived point keys (F2) — a W-F4-T2 errata candidate corrected by W-F8-T2 under M-11, old state preserved in git history"
+ ],
+ "next": "W-F8-T2 (same order, W-F6/W-F7 precedent): emitter scripts/wf8_emit_join.py + gates scripts/wf8t2_gates.py + swap staging download/w-f8-swap/ + one revertible commit (3M); records landing follows; push by separate operator order"
+}

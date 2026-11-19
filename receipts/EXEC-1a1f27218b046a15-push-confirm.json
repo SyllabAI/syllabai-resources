@@ -1,0 +1,38 @@
+{
+ "schema": "syllabai.exec-receipt/1",
+ "trace": "1a1f27218b046a15",
+ "order": "operator message with PAT — execute the pending push of the W-F7 wave (build commit 3bfbe69f + records landing commit cf1c8378) to GitHub main",
+ "executed_utc": "2026-11-19",
+ "outcome": "PUSH_LANDED_CLEAN_FAST_FORWARD",
+ "race": {
+  "gate": "pre-push anonymous ls-remote tip-match",
+  "result": "remote tip == 5608e2e1 == push parent — clean fast-forward, no advance since the landing round (order 1a1ef43dcfda2a59), no re-parent needed"
+ },
+ "push": {
+  "range": "5608e2e1ccb34945036b26c23275488e3a0e43ff..cf1c8378b7ffdb581360c1e6b79bac157443c08c",
+  "result": "fast-forward, exit 0, no force",
+  "method": "one authenticated git push with the PAT in the transient command URL; output piped through sed redaction; the token was never written to any file, config, receipt, ref or script",
+  "carried": "the complete W-F7 wave: build commit 3bfbe69f179a06c560fc0c489b2cf4d9eb92fbf7 (Official-Specifications/parsed/_derived/book_layer/ial-chemistry/book-join.json NEW + book-layer-index.json M, join_status JOINED, gates G-F7-B1..B6 ALL PASS 23/23) + records landing commit cf1c8378b7ffdb581360c1e6b79bac157443c08c (tasks/W-F7-book-alignment.md NEW + W-F7 T1 design doc/JSON receipt/worklog + T2 build receipt/worklog + Wave-46/47 ride-alongs EXEC-1a1ed65dd731eb69-push-confirm.json, W-F6-records-push-worklog, EXEC-1a1ec52f21da2d79-records-landing.json, W-F6-records-landing-worklog + tasks/W-F6-cie-graph-yamls.md push clause for 5608e2e1 + LEDGER Waves 47-49)"
+ },
+ "post_push_verification": [
+  "anonymous ls-remote == cf1c8378 == local HEAD",
+  "origin/main fetched + tracking ref synced to cf1c8378 (FETCH_HEAD == cf1c8378)",
+  "remote tree == local tree: FETCH_HEAD^{tree} == HEAD^{tree} == f7982423a337aa2c0fa1df77a58ab848083529c9",
+  "ancestry: 5608e2e1 and 3bfbe69f both ancestors of origin/main (merge-base --is-ancestor PASS)",
+  "remote.origin.url unchanged and clean (https://github.com/SyllabAI/syllabai-resources.git)",
+  "no credential helper files created (~/.git-credentials, ~/.netrc absent)",
+  "grep for the delegated token across the repository .git directory: zero hits"
+ ],
+ "credential_handling": {
+  "delegated_token": "ghp_rW7z…71xD (redacted form) — SAME token as all prior exposures (8+ per the Wave-46 push-confirm receipt of record); this round is the 9th+ chat-channel transit",
+  "usage_this_round": "exactly ONE authenticated push; all reads (ls-remote pre-gate, ls-remote post-push, fetch) anonymous",
+  "persistence": "zero — nothing written to files/config/receipts/refs; remote URL clean; .git grep zero hits",
+  "rotation": "ROTATION NOW CRITICAL — 9th+ transit of the same credential; rotate immediately"
+ },
+ "repo_writes_this_round": "push only (5608e2e1..cf1c8378 now on GitHub main); no new records commit — this receipt + the W-F7 push-confirm worklog entry + the W-F7 task-file push clause for cf1c8378 + the LEDGER Wave-50 push-confirm section ride the NEXT records landing per the append-only convention (staged agent-side at cache/w-f7/)",
+ "next_operator_actions": [
+  "ROTATE THE PAT (9th+ exposure of ghp_rW7z…71xD)",
+  "next records landing (any subsequent order) rides: this receipt + receipts/W-F7/W-F7-push-confirm-worklog-entry.md + the W-F7 task-file push clause (3bfbe69f/cf1c8378) + LEDGER Wave-50 push-confirm section",
+  "remaining backlog (all honest-blocked, no order pending): 10 NO_BOOK quals + ial-biology joins blocked on the books rollout queue; CIE SOURCE_ONLY books = Lane C follow-on; W-F4-T2 staged joins for igcse-chemistry/igcse-biology/igcse-physics (BUILT_NOT_JOINED) available as a future V-lane wave on operator order"
+ ]
+}

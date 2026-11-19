@@ -39,8 +39,11 @@ status: W-F7-T1 COMPLETE 2026-11-18 — design of record filed at
   G-F7-B1..B6 PASS (23/23); the 2 files landed as commit 3bfbe69f179a06c560fc0c489b2cf4d9eb92fbf7 (parent 5608e2e1);
   the records landing (this task file, T1/T2 receipts, the Wave-46/47 ride-alongs, the W-F6
   push clause, LEDGER Waves 47-49) follows as the next commit of the same order;
-  PUSH PENDING OPERATOR ORDER. Zero spec-side changes, zero books-lane changes, zero
-  structure-file changes, zero census changes.
+  BOTH COMMITS PUSHED 2026-11-19 (trace 1a1f27218b046a15): fast-forward
+  5608e2e1..cf1c8378, exit 0, no race, no force; post-push verified (remote tree ==
+  local tree f7982423, ancestry, URL clean, token zero-persist); push-confirm receipt
+  of record receipts/EXEC-1a1f27218b046a15-push-confirm.json. Zero spec-side changes,
+  zero books-lane changes, zero structure-file changes, zero census changes.
 write_surface: Official-Specifications/parsed/_derived/book_layer/ial-chemistry/
   book-join.json (NEW) + book-layer-index.json (M, edited regions only) +
   tasks/W-F7-book-alignment.md (NEW, this file) + tasks/W-F6-cie-graph-yamls.md (M, push
@@ -70,4 +73,8 @@ write_surface: Official-Specifications/parsed/_derived/book_layer/ial-chemistry/
   re-derivation == rows exactly, M-law verification, coverage accounting, index edited-region
   confinement, structure files byte-untouched, determinism sha256 re-run.
 - Landing: zero-index plumbing commit, surface exactly 1A + 1M; commit `3bfbe69f179a06c560fc0c489b2cf4d9eb92fbf7`
-  (parent 5608e2e1). Push PENDING OPERATOR ORDER.
+  (parent 5608e2e1). Pushed to GitHub main 2026-11-19 (trace 1a1f27218b046a15),
+  fast-forward 5608e2e1..cf1c8378 with the records landing commit cf1c8378
+  (parent 3bfbe69f); no race, no force; post-push verification ALL PASS
+  (receipts/EXEC-1a1f27218b046a15-push-confirm.json, riding the next records
+  landing with this clause and the LEDGER Wave-50 section).

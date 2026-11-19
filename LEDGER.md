@@ -1290,3 +1290,59 @@ First `tasks/` + `receipts/` records in the repo: `tasks/W-F3-cie-lane-c-canonic
 ## Wave 49 — W-F7 records land: task file + W-F7 T1/T2 receipts + Wave-46/47 ride-alongs + W-F6 push clause + LEDGER (committed under operator order trace 1a1ef43dcfda2a59)
 
 `tasks/W-F7-book-alignment.md` (NEW) records the wave: T1 design of record + T2 build/local-land (trace 1a1ef43dcfda2a59). `receipts/W-F7/` gains the T1 design doc + JSON receipt + worklog entry and the T2 build receipt + worklog entry. The append-only ride-alongs land `receipts/EXEC-1a1ed65dd731eb69-push-confirm.json` + `receipts/W-F6/W-F6-records-push-worklog-entry.md` + `receipts/EXEC-1a1ec52f21da2d79-records-landing.json` + `receipts/W-F6/W-F6-records-landing-worklog-entry.md`. `tasks/W-F6-cie-graph-yamls.md` gains the `5608e2e1` push clause. This commit (the records landing of the same operator order, on top of the Wave-48 commit `3bfbe69f179a06c560fc0c489b2cf4d9eb92fbf7`). Push of both commits PENDING OPERATOR ORDER.
+---
+
+## Wave 50 — W-F7 push confirm lands: push-confirm receipt + push-confirm worklog + W-F7 task status push clause + LEDGER (trace 1a1f27218b046a15)
+
+`receipts/EXEC-1a1f27218b046a15-push-confirm.json` (NEW) records the push of
+the complete W-F7 wave to GitHub main: fast-forward
+`5608e2e1..cf1c8378` (build `3bfbe69f179a06c560fc0c489b2cf4d9eb92fbf7` — the
+ial-chemistry V-lane corroboration book-join — plus records
+`cf1c8378b7ffdb581360c1e6b79bac157443c08c` — the W-F7 task file, T1/T2
+receipts, Wave-46/47 ride-alongs, W-F6 push clause, LEDGER Waves 47-49),
+exit 0, no force, pre-push anonymous tip-match gate PASS (remote tip ==
+`5608e2e1` == push parent), post-push verification ALL PASS (remote tree ==
+local tree `f7982423`, both pins ancestors, URL clean, token zero-persist,
+grep zero hits). `receipts/W-F7/W-F7-push-confirm-worklog-entry.md` (NEW)
+records the same round. `tasks/W-F7-book-alignment.md` gains the
+`cf1c8378` push clause (status -> BOTH COMMITS PUSHED 2026-11-19). This
+commit (the records landing of push order trace 1a1f27218b046a15, on top of
+the Wave-49 commit `cf1c8378b7ffdb581360c1e6b79bac157443c08c`). Credential
+note of record: SAME token, 9th+ transit — rotation outstanding.
+
+---
+
+## Wave 51 — W-F8-T2 the igcse trio joins corrected and deepened (trace 1a1f3f29f14afce5; committed under operator order trace 1a1f3f29f14afce5)
+
+`W-F8-T2` lands the igcse trio completion per the W-F8-T1 design of record (W-F4-T1
+schema authority + W-F7 M-1..M-7; IGCSE-family laws M-8..M-11): `igcse-chemistry/book-join.json` M —
+all 62 landed point entries removed (figure-caption numbers and numeric constants; the
+W-F4-T2 'points_keyed' 7 were false per L-2; errata block enumerates each removal with
+re-derived context evidence), J5 deepening +9 CONTAINS mappings with unit/topic vetting
+(SUB5 -> u1:c5 + u1:c6 multi-chapter), subsections covered 18 -> 26/28, SUB10/SUB11
+honest stays; `igcse-physics/book-join.json` M — the 7 landed entries removed (5
+figure_adjacent + 2 not_in_cited_evidence), J5 unchanged 22/30 (the 8 'Units' SUBs have
+no title hits); `igcse-biology/book-join.json` M — additive enrichment only (rows
+byte-preserved, the 172 J1 COURSE-STRUCTURE keys stand, the 4 uncovered codes stay with
+the 0-hit corpus search as evidence, J2/J3 re-stated figure-void). Family law of record:
+the IGCSE books print NO spec-reference codes (0 coded LO line starts across 2,833
+chunks) — the chip route is figure-void (M-8 figure-token exclusion with the OCR-glue
+branch + M-9 zero-integer constants). Zero-LLM deterministic transform from the pinned
+blobs at `cf1c8378`; gates G-F8-B1..B6 ALL PASS (6/6; determinism sha256 re-run). One
+revertible commit `b6c09f8250740251fdc9b2329beaa8ec7155e458`; revert = restore the three landed join blobs. No index
+files (single-book quals). Zero spec-side/books-lane/structure/census changes.
+
+---
+
+## Wave 52 — W-F8 records land: task file + W-F8 T1/T2 receipts + the W-F7 push-confirm ride-alongs + W-F7 push clause + LEDGER (committed under operator order trace 1a1f3f29f14afce5)
+
+`tasks/W-F8-igcse-trio-join-completion.md` (NEW) records the wave: T1 design of record +
+T2 build/local-land (trace 1a1f3f29f14afce5). `receipts/W-F8/` gains the T1 design doc +
+JSON receipt + worklog entry and the T2 build receipt + worklog entry. The append-only
+ride-alongs land `receipts/EXEC-1a1f27218b046a15-push-confirm.json` +
+`receipts/W-F7/W-F7-push-confirm-worklog-entry.md` (the W-F7 wave push: fast-forward
+`5608e2e1..cf1c8378` 2026-11-19, 9th+ transit of the same credential — rotation
+outstanding). `tasks/W-F7-book-alignment.md` gains the push clause for
+`3bfbe69f`/`cf1c8378` (status -> BOTH COMMITS PUSHED). This commit (the records landing
+of the same operator order, on top of the Wave-51 commit `b6c09f8250740251fdc9b2329beaa8ec7155e458`). Push of both
+commits PENDING OPERATOR ORDER.

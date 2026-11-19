@@ -1,0 +1,39 @@
+{
+ "schema": "syllabai.task-receipt/1",
+ "task": "W-F8-T2",
+ "wave": "W-F8",
+ "origin_trace": "1a1f3f29f14afce5",
+ "order": "Proceed with the three W-F4-T2",
+ "executed_utc": "2026-11-19",
+ "tree_of_record": "cf1c8378b7ffdb581360c1e6b79bac157443c08c",
+ "deliverables": {
+  "emitter": "scripts/wf8_emit_join.py (zero-LLM deterministic, pinned blobs at cf1c8378 only)",
+  "gates": "scripts/wf8t2_gates.py (independent re-derivation, own M-8 window scan, own tree walk)",
+  "staged": "download/w-f8-swap/.../_derived/book_layer/{igcse-chemistry,igcse-physics,igcse-biology}/book-join.json",
+  "build_commit": "b6c09f8250740251fdc9b2329beaa8ec7155e458",
+  "landing_evidence": "cache/w-f8/landing-1a1f3f29f14afce5-build.json + -records.json"
+ },
+ "gates": {
+  "G-F8-B1": "PASS — preservation: 4BI1 rows byte-identical; trio rows meta-identical (chapter keys/titles/evidence/flags/subsections preserved), landed points 62+7 -> 0; 4CH1 reference + spec_side blocks identical",
+  "G-F8-B2": "PASS — correction soundness: removal set identity (Counter equality) for both corrected quals; independent window scan (own implementation) finds no non-figure occurrence behind any allowed-only claim; 2 x not_in_cited_evidence entries honest (u1:c1 '1.2', u2:c6 '6.2' — printed forms absent from cited chunks, removal rests on F1)",
+  "G-F8-B3": "PASS — deepening soundness: uncovered sets recomputed == coverage for all three (4CH1 {SUB10,SUB11}; 4PH1 8 x 'Units'; 4BI1 {} via printed_code_list grain); the 9 CONTAINS additions re-derived independently incl. the SUB5 -> u1:c5 + u1:c6 multi-chapter mapping with unit/topic vetting",
+  "G-F8-B4": "PASS — resolution: zero unresolved point_id/subsection citations; surface exactly 3M (git hash-object vs landed blob oids)",
+  "G-F8-B5": "PASS — confinement: staged set exactly the 3 files; 17 neighbor blobs (structures, spec sides, ial-* artifacts incl. both indexes) pinned untouched at HEAD",
+  "G-F8-B6": "PASS — determinism: emitter re-run reproduces all three staged files sha256-identical, exit 0"
+ },
+ "build_summary": {
+  "igcse-chemistry": {"removed_point_entries": 62, "all_figure_or_constant_or_absent": true,
+                      "j5_deepening": "9 CONTAINS mappings added (SUB5 multi-chapter u1:c5+u1:c6, SUB8->u1:c9, SUB9->u1:c10, SUB14->u2:c15, SUB21->u4:c22, SUB25->u4:c26, SUB26->u4:c27, SUB27->u4:c28)",
+                      "subsections_covered": "18 -> 26/28", "points_keyed": "7 -> 0 (figure-void correction)",
+                      "honest_stays": ["4CH1-SUB10 (Group 1...) reverse-direction only", "4CH1-SUB11 (Group 7...) reverse-direction only"]},
+  "igcse-physics": {"removed_point_entries": 7, "all_figure_or_constant_or_absent": true,
+                    "j5_deepening": "none — the 8 uncovered 'Units' SUBs have 0 title hits (honest stay)",
+                    "subsections_covered": "22/30 unchanged", "points_keyed": "7 -> 0 (figure-void correction)",
+                    "errata_classes": {"figure_adjacent": 5, "not_in_cited_evidence": 2}},
+  "igcse-biology": {"mode": "additive enrichment — rows byte-preserved",
+                    "j1_keys_preserved": 172, "uncovered": "4 codes stay honest no_printed_key with the 0-hit corpus search as evidence of record",
+                    "route_verdicts": "J2/J3 re-stated figure-void under M-8; J1 remains the sole point-key route of record"}
+ },
+ "laws_of_record": "W-F8-T1 design of record (M-8 figure-token exclusion with the OCR-glue branch, M-9 zero-integer constants, M-10 trio J5 deepening, M-11 correction law); probes cache/w-f8/probe.json + probe2.json",
+ "next": "records landing (same order): tasks/W-F8 task file + W-F8 T1/T2 receipts + worklogs + the staged W-F7 push-confirm ride-alongs (EXEC-1a1f27218b046a15-push-confirm.json + W-F7-push-confirm-worklog-entry.md) + the W-F7 task push clause + LEDGER Waves 50-52; push by separate operator order"
+}
