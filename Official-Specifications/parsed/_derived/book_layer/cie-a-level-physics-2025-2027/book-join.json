@@ -1,0 +1,2761 @@
+{
+ "schema": "syllabai.book-spec-join/1.0",
+ "qual": "cie-a-level-physics-2025-2027",
+ "lane": "books/cambridge-international/ial/physics/9702",
+ "spec_side": {
+  "spec_parse": "Official-Specifications/parsed/cie-a-level-physics-2025-2027",
+  "topics_blob": "14c4a8bfbcdb8677b796ae1e5399f950fd0222ee",
+  "points_blob": "7a6dcbbb541e6d89da97f3ac693b4daf82f798c6",
+  "n_topics": 25,
+  "n_subsections": 76,
+  "n_points": 303
+ },
+ "join_keys": {
+  "J1_PRINTED_CODE_LIST": "not applicable — the CIE coursebook family prints no specification-reference lists (no 'SPECIFICATION REFERENCE' anchor family; P6 mentions census recorded as routing evidence only)",
+  "J2_LO_CODE_CHIPS": "honest zero by family law (N-3) — the J2 route is void at the source: all 34 LO chunks carry zero admitted chips and 0 coded line starts; the CIE coursebook family prints no spec-reference codes (the CIE analog of the W-F8 M-11 IGCSE-family law)",
+  "J3_BODY_CODE_CHIPS": "honest zero under the full law stack of record (N-3 + N-3a + N-3b) — M-1 admission (RUN/SUFFIXED/TAIL) yields 17 raw chips; the M-8 figure-window (with the N-3a plural fold) excludes 7 (Figure 2.1 / Figure 4.1 / Table 11.2 / Box 14.1 / Box 15.1 / Table 24.3 / 'Figures 9.1, 9.2 and 9.3'); the self-reference exclusion (N-3b) excludes 1 ('9.2' in c9's figure-credit context — topic number == host chapter number, the book's internal chapter.t.s numbering); 9 are out of row scope (c0: the P1/P2 measurement values and the Acknowledgements photo-credit lists); M-9 excludes none additionally; ZERO admitted spec chips; 517 corpus-wide 2-part namespace survivors classified by P4b (measurement values + internal numbering + photo credits); zero 3-part tokens corpus-wide (P4c)",
+  "J4_LO_TEXT_EQUALITY": "ACTIVE with exactly one key (N-4, the W-F11 family amendment): 1/255 LO bullet lines verbatim — c11 'state Ohm's law' == point 9.3.5 (T9 Electricity, subsection 9.3, AS Level), keyed under the c11 row with the LO chunk pinned; zero space-free matches beyond it; the family law holds for the CODE routes and the TEXT route carries the single verbatim key",
+  "J5_TITLE_ADJUDICATED": "ACTIVE, three-tier per M-6 with the N-2b longest-contained refinement (the probe pins the one naive-first-match collision it resolves: c14 -> T8 not T7) and the N-2c honest-UNMATCHED rows: 10 EQUAL + 5 CONTAINS + 0 NUMBER_IDENTITY + 17 NO_TOPIC_MAPPING; 14/25 topics covered at title level",
+  "J6_PAGE_SPAN_ADJACENCY": "not applicable (cross-document page adjacency is meaningless between a book corpus and a spec parse)"
+ },
+ "edition_disclosure": {
+  "book_edition": "2nd edition, CIE 9702 2016 syllabus line (Sang/Jones/Chadha/Woodside, 744 pp)",
+  "spec_lane": "cie-a-level-physics-2025-2027 (syllabus 9702, 2025-2027)",
+  "law": "UNLIKE the 9700 case, the syllabus revision RESTRUCTURED the topic map (25 topics vs 32 chapters): the join is a PARTIAL topic-level spine — 15/32 rows title-evidenced, 14/25 topics covered at title level, 17 honest NO_TOPIC_MAPPING rows, 1/303 points keyed via the J4 text route — consumed as such; the 3rd edition (ISBN 9781108859035) remains the upgrade candidate of record (CATALOG section 4.3)"
+ },
+ "rows": [
+  {
+   "chapter_key": "u0:c1",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Kinematics – describing motion",
+   "spec_refs": {
+    "topic": {
+     "code": "CIE_A_LEVEL_PHYSICS_2025_2027-T2",
+     "number": "2",
+     "title": "Kinematics",
+     "basis": "J5_CONTAINS"
+    },
+    "subsections": [
+     {
+      "code": "2.1",
+      "title": "Equations of motion"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c1_pdf013_0016",
+     "c9702_v1_u0_c1_pdf014_0017",
+     "c9702_v1_u0_c1_pdf014_0018",
+     "c9702_v1_u0_c1_pdf014_0019",
+     "c9702_v1_u0_c1_pdf014_0020",
+     "c9702_v1_u0_c1_pdf014_0021",
+     "c9702_v1_u0_c1_pdf015_0022",
+     "c9702_v1_u0_c1_pdf015_0023",
+     "c9702_v1_u0_c1_pdf015_0024",
+     "c9702_v1_u0_c1_pdf015_0025",
+     "c9702_v1_u0_c1_pdf015_0026",
+     "c9702_v1_u0_c1_pdf016_0027",
+     "c9702_v1_u0_c1_pdf016_0028",
+     "c9702_v1_u0_c1_pdf016_0029",
+     "c9702_v1_u0_c1_pdf016_0030",
+     "c9702_v1_u0_c1_pdf016_0031",
+     "c9702_v1_u0_c1_pdf016_0032",
+     "c9702_v1_u0_c1_pdf017_0033",
+     "c9702_v1_u0_c1_pdf017_0034",
+     "c9702_v1_u0_c1_pdf017_0035",
+     "c9702_v1_u0_c1_pdf017_0036",
+     "c9702_v1_u0_c1_pdf018_0037",
+     "c9702_v1_u0_c1_pdf018_0038",
+     "c9702_v1_u0_c1_pdf018_0039",
+     "c9702_v1_u0_c1_pdf018_0040",
+     "c9702_v1_u0_c1_pdf018_0041",
+     "c9702_v1_u0_c1_pdf019_0042",
+     "c9702_v1_u0_c1_pdf019_0043",
+     "c9702_v1_u0_c1_pdf020_0044",
+     "c9702_v1_u0_c1_pdf020_0045",
+     "c9702_v1_u0_c1_pdf021_0046",
+     "c9702_v1_u0_c1_pdf021_0047",
+     "c9702_v1_u0_c1_pdf022_0048",
+     "c9702_v1_u0_c1_pdf022_0049",
+     "c9702_v1_u0_c1_pdf022_0050",
+     "c9702_v1_u0_c1_pdf022_0051",
+     "c9702_v1_u0_c1_pdf023_0052",
+     "c9702_v1_u0_c1_pdf023_0053",
+     "c9702_v1_u0_c1_pdf024_0054",
+     "c9702_v1_u0_c1_pdf025_0055"
+    ],
+    "n_chunks": 40,
+    "page_range_pdf": [
+     13,
+     25
+    ],
+    "page_range_book": [
+     1,
+     13
+    ],
+    "lo_chunk": "c9702_v1_u0_c1_pdf013_0016"
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u0:c2",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Accelerated motion",
+   "spec_refs": {
+    "topic": null,
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "NO_TOPIC_MAPPING",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c2_pdf026_0056",
+     "c9702_v1_u0_c2_pdf027_0057",
+     "c9702_v1_u0_c2_pdf027_0058",
+     "c9702_v1_u0_c2_pdf027_0059",
+     "c9702_v1_u0_c2_pdf027_0060",
+     "c9702_v1_u0_c2_pdf028_0061",
+     "c9702_v1_u0_c2_pdf028_0062",
+     "c9702_v1_u0_c2_pdf028_0063",
+     "c9702_v1_u0_c2_pdf028_0064",
+     "c9702_v1_u0_c2_pdf029_0065",
+     "c9702_v1_u0_c2_pdf029_0066",
+     "c9702_v1_u0_c2_pdf030_0067",
+     "c9702_v1_u0_c2_pdf030_0068",
+     "c9702_v1_u0_c2_pdf030_0069",
+     "c9702_v1_u0_c2_pdf030_0070",
+     "c9702_v1_u0_c2_pdf030_0071",
+     "c9702_v1_u0_c2_pdf031_0072",
+     "c9702_v1_u0_c2_pdf031_0073",
+     "c9702_v1_u0_c2_pdf031_0074",
+     "c9702_v1_u0_c2_pdf032_0075",
+     "c9702_v1_u0_c2_pdf032_0076",
+     "c9702_v1_u0_c2_pdf032_0077",
+     "c9702_v1_u0_c2_pdf033_0078",
+     "c9702_v1_u0_c2_pdf033_0079",
+     "c9702_v1_u0_c2_pdf034_0080",
+     "c9702_v1_u0_c2_pdf034_0081",
+     "c9702_v1_u0_c2_pdf034_0082",
+     "c9702_v1_u0_c2_pdf034_0083",
+     "c9702_v1_u0_c2_pdf035_0084",
+     "c9702_v1_u0_c2_pdf035_0085",
+     "c9702_v1_u0_c2_pdf035_0086",
+     "c9702_v1_u0_c2_pdf035_0087",
+     "c9702_v1_u0_c2_pdf035_0088",
+     "c9702_v1_u0_c2_pdf036_0089",
+     "c9702_v1_u0_c2_pdf036_0090",
+     "c9702_v1_u0_c2_pdf036_0091",
+     "c9702_v1_u0_c2_pdf036_0092",
+     "c9702_v1_u0_c2_pdf036_0093",
+     "c9702_v1_u0_c2_pdf037_0094",
+     "c9702_v1_u0_c2_pdf037_0095",
+     "c9702_v1_u0_c2_pdf037_0096",
+     "c9702_v1_u0_c2_pdf038_0097",
+     "c9702_v1_u0_c2_pdf038_0098",
+     "c9702_v1_u0_c2_pdf038_0099",
+     "c9702_v1_u0_c2_pdf039_0100",
+     "c9702_v1_u0_c2_pdf039_0101",
+     "c9702_v1_u0_c2_pdf039_0102",
+     "c9702_v1_u0_c2_pdf039_0103",
+     "c9702_v1_u0_c2_pdf040_0104",
+     "c9702_v1_u0_c2_pdf040_0105",
+     "c9702_v1_u0_c2_pdf040_0106",
+     "c9702_v1_u0_c2_pdf040_0107",
+     "c9702_v1_u0_c2_pdf040_0108",
+     "c9702_v1_u0_c2_pdf041_0109",
+     "c9702_v1_u0_c2_pdf041_0110",
+     "c9702_v1_u0_c2_pdf041_0111",
+     "c9702_v1_u0_c2_pdf041_0112",
+     "c9702_v1_u0_c2_pdf042_0113",
+     "c9702_v1_u0_c2_pdf042_0114",
+     "c9702_v1_u0_c2_pdf042_0115",
+     "c9702_v1_u0_c2_pdf042_0116",
+     "c9702_v1_u0_c2_pdf043_0117",
+     "c9702_v1_u0_c2_pdf043_0118",
+     "c9702_v1_u0_c2_pdf043_0119",
+     "c9702_v1_u0_c2_pdf044_0120",
+     "c9702_v1_u0_c2_pdf044_0121",
+     "c9702_v1_u0_c2_pdf045_0122",
+     "c9702_v1_u0_c2_pdf046_0123",
+     "c9702_v1_u0_c2_pdf047_0124",
+     "c9702_v1_u0_c2_pdf048_0125"
+    ],
+    "n_chunks": 70,
+    "page_range_pdf": [
+     26,
+     48
+    ],
+    "page_range_book": [
+     14,
+     36
+    ],
+    "lo_chunk": "c9702_v1_u0_c2_pdf026_0056"
+   },
+   "flags": [
+    "no_title_match"
+   ]
+  },
+  {
+   "chapter_key": "u0:c3",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Dynamics – explaining motion",
+   "spec_refs": {
+    "topic": {
+     "code": "CIE_A_LEVEL_PHYSICS_2025_2027-T3",
+     "number": "3",
+     "title": "Dynamics",
+     "basis": "J5_CONTAINS"
+    },
+    "subsections": [
+     {
+      "code": "3.1",
+      "title": "Momentum and Newton’s laws of motion"
+     },
+     {
+      "code": "3.2",
+      "title": "Non-uniform motion"
+     },
+     {
+      "code": "3.3",
+      "title": "Linear momentum and its conservation"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c3_pdf049_0126",
+     "c9702_v1_u0_c3_pdf050_0127",
+     "c9702_v1_u0_c3_pdf050_0128",
+     "c9702_v1_u0_c3_pdf050_0129",
+     "c9702_v1_u0_c3_pdf051_0130",
+     "c9702_v1_u0_c3_pdf051_0131",
+     "c9702_v1_u0_c3_pdf051_0132",
+     "c9702_v1_u0_c3_pdf051_0133",
+     "c9702_v1_u0_c3_pdf051_0134",
+     "c9702_v1_u0_c3_pdf052_0135",
+     "c9702_v1_u0_c3_pdf052_0136",
+     "c9702_v1_u0_c3_pdf052_0137",
+     "c9702_v1_u0_c3_pdf052_0138",
+     "c9702_v1_u0_c3_pdf052_0139",
+     "c9702_v1_u0_c3_pdf052_0140",
+     "c9702_v1_u0_c3_pdf053_0141",
+     "c9702_v1_u0_c3_pdf053_0142",
+     "c9702_v1_u0_c3_pdf053_0143",
+     "c9702_v1_u0_c3_pdf053_0144",
+     "c9702_v1_u0_c3_pdf054_0145",
+     "c9702_v1_u0_c3_pdf054_0146",
+     "c9702_v1_u0_c3_pdf054_0147",
+     "c9702_v1_u0_c3_pdf054_0148",
+     "c9702_v1_u0_c3_pdf054_0149",
+     "c9702_v1_u0_c3_pdf055_0150",
+     "c9702_v1_u0_c3_pdf055_0151",
+     "c9702_v1_u0_c3_pdf055_0152",
+     "c9702_v1_u0_c3_pdf055_0153",
+     "c9702_v1_u0_c3_pdf055_0154",
+     "c9702_v1_u0_c3_pdf056_0155",
+     "c9702_v1_u0_c3_pdf056_0156",
+     "c9702_v1_u0_c3_pdf056_0157",
+     "c9702_v1_u0_c3_pdf056_0158",
+     "c9702_v1_u0_c3_pdf056_0159",
+     "c9702_v1_u0_c3_pdf057_0160",
+     "c9702_v1_u0_c3_pdf057_0161",
+     "c9702_v1_u0_c3_pdf057_0162",
+     "c9702_v1_u0_c3_pdf057_0163",
+     "c9702_v1_u0_c3_pdf058_0164",
+     "c9702_v1_u0_c3_pdf058_0165",
+     "c9702_v1_u0_c3_pdf058_0166",
+     "c9702_v1_u0_c3_pdf059_0167",
+     "c9702_v1_u0_c3_pdf059_0168",
+     "c9702_v1_u0_c3_pdf059_0169",
+     "c9702_v1_u0_c3_pdf060_0170",
+     "c9702_v1_u0_c3_pdf060_0171",
+     "c9702_v1_u0_c3_pdf060_0172",
+     "c9702_v1_u0_c3_pdf061_0173",
+     "c9702_v1_u0_c3_pdf061_0174",
+     "c9702_v1_u0_c3_pdf062_0175",
+     "c9702_v1_u0_c3_pdf062_0176",
+     "c9702_v1_u0_c3_pdf063_0177",
+     "c9702_v1_u0_c3_pdf064_0178",
+     "c9702_v1_u0_c3_pdf064_0179"
+    ],
+    "n_chunks": 54,
+    "page_range_pdf": [
+     49,
+     64
+    ],
+    "page_range_book": [
+     37,
+     52
+    ],
+    "lo_chunk": "c9702_v1_u0_c3_pdf049_0126"
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u0:c4",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Forces – vectors and moments",
+   "spec_refs": {
+    "topic": null,
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "NO_TOPIC_MAPPING",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c4_pdf065_0180",
+     "c9702_v1_u0_c4_pdf066_0181",
+     "c9702_v1_u0_c4_pdf066_0182",
+     "c9702_v1_u0_c4_pdf066_0183",
+     "c9702_v1_u0_c4_pdf066_0184",
+     "c9702_v1_u0_c4_pdf067_0185",
+     "c9702_v1_u0_c4_pdf067_0186",
+     "c9702_v1_u0_c4_pdf067_0187",
+     "c9702_v1_u0_c4_pdf068_0188",
+     "c9702_v1_u0_c4_pdf068_0189",
+     "c9702_v1_u0_c4_pdf068_0190",
+     "c9702_v1_u0_c4_pdf069_0191",
+     "c9702_v1_u0_c4_pdf069_0192",
+     "c9702_v1_u0_c4_pdf070_0193",
+     "c9702_v1_u0_c4_pdf070_0194",
+     "c9702_v1_u0_c4_pdf070_0195",
+     "c9702_v1_u0_c4_pdf070_0196",
+     "c9702_v1_u0_c4_pdf071_0197",
+     "c9702_v1_u0_c4_pdf071_0198",
+     "c9702_v1_u0_c4_pdf072_0199",
+     "c9702_v1_u0_c4_pdf072_0200",
+     "c9702_v1_u0_c4_pdf072_0201",
+     "c9702_v1_u0_c4_pdf073_0202",
+     "c9702_v1_u0_c4_pdf073_0203",
+     "c9702_v1_u0_c4_pdf074_0204",
+     "c9702_v1_u0_c4_pdf074_0205",
+     "c9702_v1_u0_c4_pdf075_0206",
+     "c9702_v1_u0_c4_pdf075_0207",
+     "c9702_v1_u0_c4_pdf076_0208",
+     "c9702_v1_u0_c4_pdf076_0209",
+     "c9702_v1_u0_c4_pdf076_0210",
+     "c9702_v1_u0_c4_pdf077_0211",
+     "c9702_v1_u0_c4_pdf078_0212",
+     "c9702_v1_u0_c4_pdf079_0213",
+     "c9702_v1_u0_c4_pdf080_0214"
+    ],
+    "n_chunks": 35,
+    "page_range_pdf": [
+     65,
+     80
+    ],
+    "page_range_book": [
+     53,
+     68
+    ],
+    "lo_chunk": "c9702_v1_u0_c4_pdf065_0180"
+   },
+   "flags": [
+    "no_title_match"
+   ]
+  },
+  {
+   "chapter_key": "u0:c5",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Work, energy and power",
+   "spec_refs": {
+    "topic": {
+     "code": "CIE_A_LEVEL_PHYSICS_2025_2027-T5",
+     "number": "5",
+     "title": "Work, energy and power",
+     "basis": "J5_EQUAL"
+    },
+    "subsections": [
+     {
+      "code": "5.1",
+      "title": "Energy conservation"
+     },
+     {
+      "code": "5.2",
+      "title": "Gravitational potential energy and kinetic energy"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c5_pdf081_0215",
+     "c9702_v1_u0_c5_pdf082_0216",
+     "c9702_v1_u0_c5_pdf082_0217",
+     "c9702_v1_u0_c5_pdf083_0218",
+     "c9702_v1_u0_c5_pdf083_0219",
+     "c9702_v1_u0_c5_pdf083_0220",
+     "c9702_v1_u0_c5_pdf084_0221",
+     "c9702_v1_u0_c5_pdf084_0222",
+     "c9702_v1_u0_c5_pdf084_0223",
+     "c9702_v1_u0_c5_pdf084_0224",
+     "c9702_v1_u0_c5_pdf084_0225",
+     "c9702_v1_u0_c5_pdf085_0226",
+     "c9702_v1_u0_c5_pdf085_0227",
+     "c9702_v1_u0_c5_pdf085_0228",
+     "c9702_v1_u0_c5_pdf086_0229",
+     "c9702_v1_u0_c5_pdf086_0230",
+     "c9702_v1_u0_c5_pdf087_0231",
+     "c9702_v1_u0_c5_pdf087_0232",
+     "c9702_v1_u0_c5_pdf087_0233",
+     "c9702_v1_u0_c5_pdf087_0234",
+     "c9702_v1_u0_c5_pdf087_0235",
+     "c9702_v1_u0_c5_pdf088_0236",
+     "c9702_v1_u0_c5_pdf088_0237",
+     "c9702_v1_u0_c5_pdf088_0238",
+     "c9702_v1_u0_c5_pdf088_0239",
+     "c9702_v1_u0_c5_pdf088_0240",
+     "c9702_v1_u0_c5_pdf088_0241",
+     "c9702_v1_u0_c5_pdf089_0242",
+     "c9702_v1_u0_c5_pdf089_0243",
+     "c9702_v1_u0_c5_pdf090_0244",
+     "c9702_v1_u0_c5_pdf090_0245",
+     "c9702_v1_u0_c5_pdf090_0246",
+     "c9702_v1_u0_c5_pdf090_0247",
+     "c9702_v1_u0_c5_pdf090_0248",
+     "c9702_v1_u0_c5_pdf091_0249",
+     "c9702_v1_u0_c5_pdf091_0250",
+     "c9702_v1_u0_c5_pdf091_0251",
+     "c9702_v1_u0_c5_pdf092_0252",
+     "c9702_v1_u0_c5_pdf092_0253",
+     "c9702_v1_u0_c5_pdf092_0254",
+     "c9702_v1_u0_c5_pdf092_0255",
+     "c9702_v1_u0_c5_pdf093_0256",
+     "c9702_v1_u0_c5_pdf093_0257",
+     "c9702_v1_u0_c5_pdf093_0258",
+     "c9702_v1_u0_c5_pdf093_0259",
+     "c9702_v1_u0_c5_pdf093_0260",
+     "c9702_v1_u0_c5_pdf094_0261",
+     "c9702_v1_u0_c5_pdf094_0262",
+     "c9702_v1_u0_c5_pdf094_0263",
+     "c9702_v1_u0_c5_pdf095_0264",
+     "c9702_v1_u0_c5_pdf096_0265",
+     "c9702_v1_u0_c5_pdf096_0266"
+    ],
+    "n_chunks": 52,
+    "page_range_pdf": [
+     81,
+     96
+    ],
+    "page_range_book": [
+     69,
+     84
+    ],
+    "lo_chunk": "c9702_v1_u0_c5_pdf081_0215"
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u0:c6",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Momentum",
+   "spec_refs": {
+    "topic": null,
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "NO_TOPIC_MAPPING",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c6_pdf097_0267",
+     "c9702_v1_u0_c6_pdf098_0268",
+     "c9702_v1_u0_c6_pdf098_0269",
+     "c9702_v1_u0_c6_pdf098_0270",
+     "c9702_v1_u0_c6_pdf098_0271",
+     "c9702_v1_u0_c6_pdf099_0272",
+     "c9702_v1_u0_c6_pdf099_0273",
+     "c9702_v1_u0_c6_pdf099_0274",
+     "c9702_v1_u0_c6_pdf099_0275",
+     "c9702_v1_u0_c6_pdf100_0276",
+     "c9702_v1_u0_c6_pdf100_0277",
+     "c9702_v1_u0_c6_pdf100_0278",
+     "c9702_v1_u0_c6_pdf100_0279",
+     "c9702_v1_u0_c6_pdf101_0280",
+     "c9702_v1_u0_c6_pdf101_0281",
+     "c9702_v1_u0_c6_pdf101_0282",
+     "c9702_v1_u0_c6_pdf102_0283",
+     "c9702_v1_u0_c6_pdf102_0284",
+     "c9702_v1_u0_c6_pdf102_0285",
+     "c9702_v1_u0_c6_pdf103_0286",
+     "c9702_v1_u0_c6_pdf103_0287",
+     "c9702_v1_u0_c6_pdf103_0288",
+     "c9702_v1_u0_c6_pdf104_0289",
+     "c9702_v1_u0_c6_pdf104_0290",
+     "c9702_v1_u0_c6_pdf104_0291",
+     "c9702_v1_u0_c6_pdf105_0292",
+     "c9702_v1_u0_c6_pdf105_0293",
+     "c9702_v1_u0_c6_pdf105_0294",
+     "c9702_v1_u0_c6_pdf105_0295",
+     "c9702_v1_u0_c6_pdf106_0296",
+     "c9702_v1_u0_c6_pdf106_0297",
+     "c9702_v1_u0_c6_pdf107_0298",
+     "c9702_v1_u0_c6_pdf107_0299",
+     "c9702_v1_u0_c6_pdf108_0300",
+     "c9702_v1_u0_c6_pdf108_0301",
+     "c9702_v1_u0_c6_pdf108_0302",
+     "c9702_v1_u0_c6_pdf108_0303",
+     "c9702_v1_u0_c6_pdf108_0304",
+     "c9702_v1_u0_c6_pdf108_0305",
+     "c9702_v1_u0_c6_pdf109_0306",
+     "c9702_v1_u0_c6_pdf109_0307",
+     "c9702_v1_u0_c6_pdf109_0308",
+     "c9702_v1_u0_c6_pdf109_0309",
+     "c9702_v1_u0_c6_pdf109_0310",
+     "c9702_v1_u0_c6_pdf110_0311",
+     "c9702_v1_u0_c6_pdf110_0312",
+     "c9702_v1_u0_c6_pdf111_0313",
+     "c9702_v1_u0_c6_pdf111_0314",
+     "c9702_v1_u0_c6_pdf112_0315"
+    ],
+    "n_chunks": 49,
+    "page_range_pdf": [
+     97,
+     112
+    ],
+    "page_range_book": [
+     85,
+     100
+    ],
+    "lo_chunk": "c9702_v1_u0_c6_pdf097_0267"
+   },
+   "flags": [
+    "no_title_match"
+   ]
+  },
+  {
+   "chapter_key": "u0:c7",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Matter and materials",
+   "spec_refs": {
+    "topic": null,
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "NO_TOPIC_MAPPING",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c7_pdf113_0316",
+     "c9702_v1_u0_c7_pdf114_0317",
+     "c9702_v1_u0_c7_pdf114_0318",
+     "c9702_v1_u0_c7_pdf114_0319",
+     "c9702_v1_u0_c7_pdf114_0320",
+     "c9702_v1_u0_c7_pdf114_0321",
+     "c9702_v1_u0_c7_pdf115_0322",
+     "c9702_v1_u0_c7_pdf115_0323",
+     "c9702_v1_u0_c7_pdf115_0324",
+     "c9702_v1_u0_c7_pdf115_0325",
+     "c9702_v1_u0_c7_pdf116_0326",
+     "c9702_v1_u0_c7_pdf116_0327",
+     "c9702_v1_u0_c7_pdf116_0328",
+     "c9702_v1_u0_c7_pdf117_0329",
+     "c9702_v1_u0_c7_pdf117_0330",
+     "c9702_v1_u0_c7_pdf117_0331",
+     "c9702_v1_u0_c7_pdf117_0332",
+     "c9702_v1_u0_c7_pdf118_0333",
+     "c9702_v1_u0_c7_pdf118_0334",
+     "c9702_v1_u0_c7_pdf118_0335",
+     "c9702_v1_u0_c7_pdf118_0336",
+     "c9702_v1_u0_c7_pdf119_0337",
+     "c9702_v1_u0_c7_pdf119_0338",
+     "c9702_v1_u0_c7_pdf120_0339",
+     "c9702_v1_u0_c7_pdf120_0340",
+     "c9702_v1_u0_c7_pdf120_0341",
+     "c9702_v1_u0_c7_pdf120_0342",
+     "c9702_v1_u0_c7_pdf121_0343",
+     "c9702_v1_u0_c7_pdf121_0344",
+     "c9702_v1_u0_c7_pdf121_0345",
+     "c9702_v1_u0_c7_pdf122_0346",
+     "c9702_v1_u0_c7_pdf123_0347",
+     "c9702_v1_u0_c7_pdf124_0348",
+     "c9702_v1_u0_c7_pdf125_0349",
+     "c9702_v1_u0_c7_pdf125_0350",
+     "c9702_v1_u0_c7_pdf126_0351",
+     "c9702_v1_u0_c7_pdf127_0352"
+    ],
+    "n_chunks": 37,
+    "page_range_pdf": [
+     113,
+     127
+    ],
+    "page_range_book": [
+     101,
+     115
+    ],
+    "lo_chunk": "c9702_v1_u0_c7_pdf113_0316"
+   },
+   "flags": [
+    "no_title_match"
+   ]
+  },
+  {
+   "chapter_key": "u0:c8",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Electric fields",
+   "spec_refs": {
+    "topic": {
+     "code": "CIE_A_LEVEL_PHYSICS_2025_2027-T18",
+     "number": "18",
+     "title": "Electric fields",
+     "basis": "J5_EQUAL"
+    },
+    "subsections": [
+     {
+      "code": "18.1",
+      "title": "Electric fields and field lines"
+     },
+     {
+      "code": "18.2",
+      "title": "Uniform electric fields"
+     },
+     {
+      "code": "18.3",
+      "title": "Electric force between point charges"
+     },
+     {
+      "code": "18.4",
+      "title": "Electric field of a point charge"
+     },
+     {
+      "code": "18.5",
+      "title": "Electric potential"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c8_pdf128_0353",
+     "c9702_v1_u0_c8_pdf129_0354",
+     "c9702_v1_u0_c8_pdf129_0355",
+     "c9702_v1_u0_c8_pdf129_0356",
+     "c9702_v1_u0_c8_pdf130_0357",
+     "c9702_v1_u0_c8_pdf130_0358",
+     "c9702_v1_u0_c8_pdf130_0359",
+     "c9702_v1_u0_c8_pdf131_0360",
+     "c9702_v1_u0_c8_pdf131_0361",
+     "c9702_v1_u0_c8_pdf132_0362",
+     "c9702_v1_u0_c8_pdf132_0363",
+     "c9702_v1_u0_c8_pdf132_0364",
+     "c9702_v1_u0_c8_pdf132_0365",
+     "c9702_v1_u0_c8_pdf132_0366",
+     "c9702_v1_u0_c8_pdf132_0367",
+     "c9702_v1_u0_c8_pdf133_0368",
+     "c9702_v1_u0_c8_pdf133_0369",
+     "c9702_v1_u0_c8_pdf134_0370",
+     "c9702_v1_u0_c8_pdf134_0371",
+     "c9702_v1_u0_c8_pdf134_0372",
+     "c9702_v1_u0_c8_pdf135_0373",
+     "c9702_v1_u0_c8_pdf135_0374",
+     "c9702_v1_u0_c8_pdf135_0375",
+     "c9702_v1_u0_c8_pdf136_0376",
+     "c9702_v1_u0_c8_pdf137_0377",
+     "c9702_v1_u0_c8_pdf138_0378"
+    ],
+    "n_chunks": 26,
+    "page_range_pdf": [
+     128,
+     138
+    ],
+    "page_range_book": [
+     116,
+     126
+    ],
+    "lo_chunk": "c9702_v1_u0_c8_pdf128_0353"
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u0:c9",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Electric current, potential difference and resistance",
+   "spec_refs": {
+    "topic": null,
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "NO_TOPIC_MAPPING",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c9_pdf139_0379",
+     "c9702_v1_u0_c9_pdf140_0380",
+     "c9702_v1_u0_c9_pdf140_0381",
+     "c9702_v1_u0_c9_pdf140_0382",
+     "c9702_v1_u0_c9_pdf141_0383",
+     "c9702_v1_u0_c9_pdf141_0384",
+     "c9702_v1_u0_c9_pdf142_0385",
+     "c9702_v1_u0_c9_pdf142_0386",
+     "c9702_v1_u0_c9_pdf142_0387",
+     "c9702_v1_u0_c9_pdf143_0388",
+     "c9702_v1_u0_c9_pdf143_0389",
+     "c9702_v1_u0_c9_pdf143_0390",
+     "c9702_v1_u0_c9_pdf143_0391",
+     "c9702_v1_u0_c9_pdf144_0392",
+     "c9702_v1_u0_c9_pdf144_0393",
+     "c9702_v1_u0_c9_pdf144_0394",
+     "c9702_v1_u0_c9_pdf145_0395",
+     "c9702_v1_u0_c9_pdf145_0396",
+     "c9702_v1_u0_c9_pdf145_0397",
+     "c9702_v1_u0_c9_pdf145_0398",
+     "c9702_v1_u0_c9_pdf146_0399",
+     "c9702_v1_u0_c9_pdf146_0400",
+     "c9702_v1_u0_c9_pdf146_0401",
+     "c9702_v1_u0_c9_pdf147_0402",
+     "c9702_v1_u0_c9_pdf147_0403",
+     "c9702_v1_u0_c9_pdf147_0404",
+     "c9702_v1_u0_c9_pdf147_0405",
+     "c9702_v1_u0_c9_pdf148_0406",
+     "c9702_v1_u0_c9_pdf148_0407",
+     "c9702_v1_u0_c9_pdf148_0408",
+     "c9702_v1_u0_c9_pdf148_0409",
+     "c9702_v1_u0_c9_pdf148_0410",
+     "c9702_v1_u0_c9_pdf149_0411",
+     "c9702_v1_u0_c9_pdf149_0412",
+     "c9702_v1_u0_c9_pdf149_0413",
+     "c9702_v1_u0_c9_pdf150_0414",
+     "c9702_v1_u0_c9_pdf150_0415",
+     "c9702_v1_u0_c9_pdf150_0416",
+     "c9702_v1_u0_c9_pdf150_0417",
+     "c9702_v1_u0_c9_pdf151_0418",
+     "c9702_v1_u0_c9_pdf151_0419",
+     "c9702_v1_u0_c9_pdf152_0420",
+     "c9702_v1_u0_c9_pdf153_0421",
+     "c9702_v1_u0_c9_pdf154_0422"
+    ],
+    "n_chunks": 44,
+    "page_range_pdf": [
+     139,
+     154
+    ],
+    "page_range_book": [
+     127,
+     142
+    ],
+    "lo_chunk": "c9702_v1_u0_c9_pdf139_0379"
+   },
+   "flags": [
+    "no_title_match"
+   ]
+  },
+  {
+   "chapter_key": "u0:c10",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Kirchhoff’s laws",
+   "spec_refs": {
+    "topic": null,
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "NO_TOPIC_MAPPING",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c10_pdf155_0423",
+     "c9702_v1_u0_c10_pdf156_0424",
+     "c9702_v1_u0_c10_pdf156_0425",
+     "c9702_v1_u0_c10_pdf156_0426",
+     "c9702_v1_u0_c10_pdf157_0427",
+     "c9702_v1_u0_c10_pdf157_0428",
+     "c9702_v1_u0_c10_pdf157_0429",
+     "c9702_v1_u0_c10_pdf158_0430",
+     "c9702_v1_u0_c10_pdf158_0431",
+     "c9702_v1_u0_c10_pdf158_0432",
+     "c9702_v1_u0_c10_pdf158_0433",
+     "c9702_v1_u0_c10_pdf159_0434",
+     "c9702_v1_u0_c10_pdf159_0435",
+     "c9702_v1_u0_c10_pdf159_0436",
+     "c9702_v1_u0_c10_pdf160_0437",
+     "c9702_v1_u0_c10_pdf160_0438",
+     "c9702_v1_u0_c10_pdf160_0439",
+     "c9702_v1_u0_c10_pdf160_0440",
+     "c9702_v1_u0_c10_pdf160_0441",
+     "c9702_v1_u0_c10_pdf161_0442",
+     "c9702_v1_u0_c10_pdf161_0443",
+     "c9702_v1_u0_c10_pdf161_0444",
+     "c9702_v1_u0_c10_pdf161_0445",
+     "c9702_v1_u0_c10_pdf162_0446",
+     "c9702_v1_u0_c10_pdf162_0447",
+     "c9702_v1_u0_c10_pdf162_0448",
+     "c9702_v1_u0_c10_pdf163_0449",
+     "c9702_v1_u0_c10_pdf163_0450",
+     "c9702_v1_u0_c10_pdf164_0451",
+     "c9702_v1_u0_c10_pdf164_0452",
+     "c9702_v1_u0_c10_pdf164_0453",
+     "c9702_v1_u0_c10_pdf165_0454",
+     "c9702_v1_u0_c10_pdf166_0455",
+     "c9702_v1_u0_c10_pdf167_0456"
+    ],
+    "n_chunks": 34,
+    "page_range_pdf": [
+     155,
+     167
+    ],
+    "page_range_book": [
+     143,
+     155
+    ],
+    "lo_chunk": "c9702_v1_u0_c10_pdf155_0423"
+   },
+   "flags": [
+    "no_title_match"
+   ]
+  },
+  {
+   "chapter_key": "u0:c11",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Resistance and resistivity",
+   "spec_refs": {
+    "topic": null,
+    "subsections": [],
+    "points": [
+     {
+      "id": "CIE_A_LEVEL_PHYSICS_2025_2027:9.3.5",
+      "official_code": "9.3.5",
+      "text": "state Ohm’s law",
+      "route": "J4_LO_TEXT_EQUALITY",
+      "evidence": {
+       "lo_chunk": "c9702_v1_u0_c11_pdf168_0457",
+       "line": "state Ohm’s law"
+      }
+     }
+    ]
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "NO_TOPIC_MAPPING",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c11_pdf168_0457",
+     "c9702_v1_u0_c11_pdf169_0458",
+     "c9702_v1_u0_c11_pdf169_0459",
+     "c9702_v1_u0_c11_pdf169_0460",
+     "c9702_v1_u0_c11_pdf169_0461",
+     "c9702_v1_u0_c11_pdf170_0462",
+     "c9702_v1_u0_c11_pdf170_0463",
+     "c9702_v1_u0_c11_pdf170_0464",
+     "c9702_v1_u0_c11_pdf171_0465",
+     "c9702_v1_u0_c11_pdf171_0466",
+     "c9702_v1_u0_c11_pdf171_0467",
+     "c9702_v1_u0_c11_pdf171_0468",
+     "c9702_v1_u0_c11_pdf172_0469",
+     "c9702_v1_u0_c11_pdf172_0470",
+     "c9702_v1_u0_c11_pdf172_0471",
+     "c9702_v1_u0_c11_pdf173_0472",
+     "c9702_v1_u0_c11_pdf173_0473",
+     "c9702_v1_u0_c11_pdf174_0474",
+     "c9702_v1_u0_c11_pdf174_0475",
+     "c9702_v1_u0_c11_pdf174_0476",
+     "c9702_v1_u0_c11_pdf174_0477",
+     "c9702_v1_u0_c11_pdf175_0478",
+     "c9702_v1_u0_c11_pdf175_0479",
+     "c9702_v1_u0_c11_pdf175_0480",
+     "c9702_v1_u0_c11_pdf175_0481",
+     "c9702_v1_u0_c11_pdf176_0482",
+     "c9702_v1_u0_c11_pdf176_0483",
+     "c9702_v1_u0_c11_pdf176_0484",
+     "c9702_v1_u0_c11_pdf177_0485",
+     "c9702_v1_u0_c11_pdf178_0486",
+     "c9702_v1_u0_c11_pdf179_0487"
+    ],
+    "n_chunks": 31,
+    "page_range_pdf": [
+     168,
+     179
+    ],
+    "page_range_book": [
+     156,
+     167
+    ],
+    "lo_chunk": "c9702_v1_u0_c11_pdf168_0457"
+   },
+   "flags": [
+    "no_title_match",
+    "j4_point_keyed"
+   ]
+  },
+  {
+   "chapter_key": "u0:c12",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Practical circuits",
+   "spec_refs": {
+    "topic": null,
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "NO_TOPIC_MAPPING",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c12_pdf180_0488",
+     "c9702_v1_u0_c12_pdf181_0489",
+     "c9702_v1_u0_c12_pdf181_0490",
+     "c9702_v1_u0_c12_pdf181_0491",
+     "c9702_v1_u0_c12_pdf181_0492",
+     "c9702_v1_u0_c12_pdf182_0493",
+     "c9702_v1_u0_c12_pdf182_0494",
+     "c9702_v1_u0_c12_pdf182_0495",
+     "c9702_v1_u0_c12_pdf183_0496",
+     "c9702_v1_u0_c12_pdf183_0497",
+     "c9702_v1_u0_c12_pdf183_0498",
+     "c9702_v1_u0_c12_pdf183_0499",
+     "c9702_v1_u0_c12_pdf183_0500",
+     "c9702_v1_u0_c12_pdf184_0501",
+     "c9702_v1_u0_c12_pdf184_0502",
+     "c9702_v1_u0_c12_pdf185_0503",
+     "c9702_v1_u0_c12_pdf185_0504",
+     "c9702_v1_u0_c12_pdf186_0505",
+     "c9702_v1_u0_c12_pdf186_0506",
+     "c9702_v1_u0_c12_pdf186_0507",
+     "c9702_v1_u0_c12_pdf187_0508",
+     "c9702_v1_u0_c12_pdf187_0509",
+     "c9702_v1_u0_c12_pdf188_0510",
+     "c9702_v1_u0_c12_pdf189_0511"
+    ],
+    "n_chunks": 24,
+    "page_range_pdf": [
+     180,
+     189
+    ],
+    "page_range_book": [
+     168,
+     177
+    ],
+    "lo_chunk": "c9702_v1_u0_c12_pdf180_0488"
+   },
+   "flags": [
+    "no_title_match"
+   ]
+  },
+  {
+   "chapter_key": "u0:c13",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Waves",
+   "spec_refs": {
+    "topic": {
+     "code": "CIE_A_LEVEL_PHYSICS_2025_2027-T7",
+     "number": "7",
+     "title": "Waves",
+     "basis": "J5_EQUAL"
+    },
+    "subsections": [
+     {
+      "code": "7.1",
+      "title": "Progressive waves"
+     },
+     {
+      "code": "7.2",
+      "title": "Transverse and longitudinal waves"
+     },
+     {
+      "code": "7.3",
+      "title": "Doppler effect for sound waves"
+     },
+     {
+      "code": "7.4",
+      "title": "Electromagnetic spectrum"
+     },
+     {
+      "code": "7.5",
+      "title": "Polarisation"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c13_pdf190_0512",
+     "c9702_v1_u0_c13_pdf191_0513",
+     "c9702_v1_u0_c13_pdf191_0514",
+     "c9702_v1_u0_c13_pdf192_0515",
+     "c9702_v1_u0_c13_pdf192_0516",
+     "c9702_v1_u0_c13_pdf192_0517",
+     "c9702_v1_u0_c13_pdf193_0518",
+     "c9702_v1_u0_c13_pdf193_0519",
+     "c9702_v1_u0_c13_pdf193_0520",
+     "c9702_v1_u0_c13_pdf193_0521",
+     "c9702_v1_u0_c13_pdf194_0522",
+     "c9702_v1_u0_c13_pdf194_0523",
+     "c9702_v1_u0_c13_pdf194_0524",
+     "c9702_v1_u0_c13_pdf194_0525",
+     "c9702_v1_u0_c13_pdf194_0526",
+     "c9702_v1_u0_c13_pdf194_0527",
+     "c9702_v1_u0_c13_pdf194_0528",
+     "c9702_v1_u0_c13_pdf195_0529",
+     "c9702_v1_u0_c13_pdf195_0530",
+     "c9702_v1_u0_c13_pdf195_0531",
+     "c9702_v1_u0_c13_pdf195_0532",
+     "c9702_v1_u0_c13_pdf195_0533",
+     "c9702_v1_u0_c13_pdf195_0534",
+     "c9702_v1_u0_c13_pdf196_0535",
+     "c9702_v1_u0_c13_pdf196_0536",
+     "c9702_v1_u0_c13_pdf196_0537",
+     "c9702_v1_u0_c13_pdf196_0538",
+     "c9702_v1_u0_c13_pdf197_0539",
+     "c9702_v1_u0_c13_pdf197_0540",
+     "c9702_v1_u0_c13_pdf197_0541",
+     "c9702_v1_u0_c13_pdf197_0542",
+     "c9702_v1_u0_c13_pdf198_0543",
+     "c9702_v1_u0_c13_pdf198_0544",
+     "c9702_v1_u0_c13_pdf198_0545",
+     "c9702_v1_u0_c13_pdf199_0546",
+     "c9702_v1_u0_c13_pdf199_0547",
+     "c9702_v1_u0_c13_pdf199_0548",
+     "c9702_v1_u0_c13_pdf199_0549",
+     "c9702_v1_u0_c13_pdf199_0550",
+     "c9702_v1_u0_c13_pdf200_0551",
+     "c9702_v1_u0_c13_pdf200_0552",
+     "c9702_v1_u0_c13_pdf200_0553",
+     "c9702_v1_u0_c13_pdf201_0554",
+     "c9702_v1_u0_c13_pdf202_0555",
+     "c9702_v1_u0_c13_pdf203_0556"
+    ],
+    "n_chunks": 45,
+    "page_range_pdf": [
+     190,
+     203
+    ],
+    "page_range_book": [
+     178,
+     191
+    ],
+    "lo_chunk": "c9702_v1_u0_c13_pdf190_0512"
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u0:c14",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Superposition of waves",
+   "spec_refs": {
+    "topic": {
+     "code": "CIE_A_LEVEL_PHYSICS_2025_2027-T8",
+     "number": "8",
+     "title": "Superposition",
+     "basis": "J5_CONTAINS"
+    },
+    "subsections": [
+     {
+      "code": "8.1",
+      "title": "Stationary waves"
+     },
+     {
+      "code": "8.2",
+      "title": "Diffraction"
+     },
+     {
+      "code": "8.3",
+      "title": "Interference"
+     },
+     {
+      "code": "8.4",
+      "title": "The diffraction grating"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c14_pdf204_0557",
+     "c9702_v1_u0_c14_pdf205_0558",
+     "c9702_v1_u0_c14_pdf205_0559",
+     "c9702_v1_u0_c14_pdf205_0560",
+     "c9702_v1_u0_c14_pdf206_0561",
+     "c9702_v1_u0_c14_pdf206_0562",
+     "c9702_v1_u0_c14_pdf206_0563",
+     "c9702_v1_u0_c14_pdf206_0564",
+     "c9702_v1_u0_c14_pdf207_0565",
+     "c9702_v1_u0_c14_pdf207_0566",
+     "c9702_v1_u0_c14_pdf208_0567",
+     "c9702_v1_u0_c14_pdf208_0568",
+     "c9702_v1_u0_c14_pdf208_0569",
+     "c9702_v1_u0_c14_pdf208_0570",
+     "c9702_v1_u0_c14_pdf208_0571",
+     "c9702_v1_u0_c14_pdf209_0572",
+     "c9702_v1_u0_c14_pdf209_0573",
+     "c9702_v1_u0_c14_pdf209_0574",
+     "c9702_v1_u0_c14_pdf210_0575",
+     "c9702_v1_u0_c14_pdf210_0576",
+     "c9702_v1_u0_c14_pdf211_0577",
+     "c9702_v1_u0_c14_pdf211_0578",
+     "c9702_v1_u0_c14_pdf211_0579",
+     "c9702_v1_u0_c14_pdf211_0580",
+     "c9702_v1_u0_c14_pdf211_0581",
+     "c9702_v1_u0_c14_pdf212_0582",
+     "c9702_v1_u0_c14_pdf212_0583",
+     "c9702_v1_u0_c14_pdf212_0584",
+     "c9702_v1_u0_c14_pdf212_0585",
+     "c9702_v1_u0_c14_pdf212_0586",
+     "c9702_v1_u0_c14_pdf213_0587",
+     "c9702_v1_u0_c14_pdf213_0588",
+     "c9702_v1_u0_c14_pdf213_0589",
+     "c9702_v1_u0_c14_pdf213_0590",
+     "c9702_v1_u0_c14_pdf214_0591",
+     "c9702_v1_u0_c14_pdf214_0592",
+     "c9702_v1_u0_c14_pdf214_0593",
+     "c9702_v1_u0_c14_pdf215_0594",
+     "c9702_v1_u0_c14_pdf215_0595",
+     "c9702_v1_u0_c14_pdf215_0596",
+     "c9702_v1_u0_c14_pdf215_0597",
+     "c9702_v1_u0_c14_pdf215_0598",
+     "c9702_v1_u0_c14_pdf216_0599",
+     "c9702_v1_u0_c14_pdf216_0600",
+     "c9702_v1_u0_c14_pdf216_0601",
+     "c9702_v1_u0_c14_pdf216_0602",
+     "c9702_v1_u0_c14_pdf216_0603",
+     "c9702_v1_u0_c14_pdf216_0604",
+     "c9702_v1_u0_c14_pdf217_0605",
+     "c9702_v1_u0_c14_pdf217_0606",
+     "c9702_v1_u0_c14_pdf217_0607",
+     "c9702_v1_u0_c14_pdf217_0608",
+     "c9702_v1_u0_c14_pdf218_0609",
+     "c9702_v1_u0_c14_pdf218_0610",
+     "c9702_v1_u0_c14_pdf219_0611",
+     "c9702_v1_u0_c14_pdf220_0612",
+     "c9702_v1_u0_c14_pdf221_0613"
+    ],
+    "n_chunks": 57,
+    "page_range_pdf": [
+     204,
+     221
+    ],
+    "page_range_book": [
+     192,
+     209
+    ],
+    "lo_chunk": "c9702_v1_u0_c14_pdf204_0557"
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u0:c15",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Stationary waves",
+   "spec_refs": {
+    "topic": {
+     "code": "CIE_A_LEVEL_PHYSICS_2025_2027-T7",
+     "number": "7",
+     "title": "Waves",
+     "basis": "J5_CONTAINS"
+    },
+    "subsections": [
+     {
+      "code": "7.1",
+      "title": "Progressive waves"
+     },
+     {
+      "code": "7.2",
+      "title": "Transverse and longitudinal waves"
+     },
+     {
+      "code": "7.3",
+      "title": "Doppler effect for sound waves"
+     },
+     {
+      "code": "7.4",
+      "title": "Electromagnetic spectrum"
+     },
+     {
+      "code": "7.5",
+      "title": "Polarisation"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c15_pdf222_0614",
+     "c9702_v1_u0_c15_pdf223_0615",
+     "c9702_v1_u0_c15_pdf223_0616",
+     "c9702_v1_u0_c15_pdf223_0617",
+     "c9702_v1_u0_c15_pdf224_0618",
+     "c9702_v1_u0_c15_pdf224_0619",
+     "c9702_v1_u0_c15_pdf225_0620",
+     "c9702_v1_u0_c15_pdf225_0621",
+     "c9702_v1_u0_c15_pdf225_0622",
+     "c9702_v1_u0_c15_pdf225_0623",
+     "c9702_v1_u0_c15_pdf226_0624",
+     "c9702_v1_u0_c15_pdf226_0625",
+     "c9702_v1_u0_c15_pdf226_0626",
+     "c9702_v1_u0_c15_pdf227_0627",
+     "c9702_v1_u0_c15_pdf227_0628",
+     "c9702_v1_u0_c15_pdf227_0629",
+     "c9702_v1_u0_c15_pdf228_0630",
+     "c9702_v1_u0_c15_pdf228_0631",
+     "c9702_v1_u0_c15_pdf228_0632",
+     "c9702_v1_u0_c15_pdf228_0633",
+     "c9702_v1_u0_c15_pdf229_0634",
+     "c9702_v1_u0_c15_pdf229_0635",
+     "c9702_v1_u0_c15_pdf230_0636",
+     "c9702_v1_u0_c15_pdf230_0637",
+     "c9702_v1_u0_c15_pdf230_0638",
+     "c9702_v1_u0_c15_pdf231_0639",
+     "c9702_v1_u0_c15_pdf232_0640",
+     "c9702_v1_u0_c15_pdf233_0641"
+    ],
+    "n_chunks": 28,
+    "page_range_pdf": [
+     222,
+     233
+    ],
+    "page_range_book": [
+     210,
+     221
+    ],
+    "lo_chunk": "c9702_v1_u0_c15_pdf222_0614"
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u0:c16",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Radioactivity",
+   "spec_refs": {
+    "topic": null,
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "NO_TOPIC_MAPPING",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c16_pdf234_0642",
+     "c9702_v1_u0_c16_pdf235_0643",
+     "c9702_v1_u0_c16_pdf235_0644",
+     "c9702_v1_u0_c16_pdf235_0645",
+     "c9702_v1_u0_c16_pdf235_0646",
+     "c9702_v1_u0_c16_pdf236_0647",
+     "c9702_v1_u0_c16_pdf236_0648",
+     "c9702_v1_u0_c16_pdf236_0649",
+     "c9702_v1_u0_c16_pdf236_0650",
+     "c9702_v1_u0_c16_pdf237_0651",
+     "c9702_v1_u0_c16_pdf237_0652",
+     "c9702_v1_u0_c16_pdf237_0653",
+     "c9702_v1_u0_c16_pdf237_0654",
+     "c9702_v1_u0_c16_pdf238_0655",
+     "c9702_v1_u0_c16_pdf238_0656",
+     "c9702_v1_u0_c16_pdf238_0657",
+     "c9702_v1_u0_c16_pdf238_0658",
+     "c9702_v1_u0_c16_pdf238_0659",
+     "c9702_v1_u0_c16_pdf238_0660",
+     "c9702_v1_u0_c16_pdf239_0661",
+     "c9702_v1_u0_c16_pdf239_0662",
+     "c9702_v1_u0_c16_pdf240_0663",
+     "c9702_v1_u0_c16_pdf240_0664",
+     "c9702_v1_u0_c16_pdf241_0665",
+     "c9702_v1_u0_c16_pdf241_0666",
+     "c9702_v1_u0_c16_pdf241_0667",
+     "c9702_v1_u0_c16_pdf241_0668",
+     "c9702_v1_u0_c16_pdf241_0669",
+     "c9702_v1_u0_c16_pdf242_0670",
+     "c9702_v1_u0_c16_pdf242_0671",
+     "c9702_v1_u0_c16_pdf242_0672",
+     "c9702_v1_u0_c16_pdf242_0673",
+     "c9702_v1_u0_c16_pdf243_0674",
+     "c9702_v1_u0_c16_pdf243_0675",
+     "c9702_v1_u0_c16_pdf243_0676",
+     "c9702_v1_u0_c16_pdf244_0677",
+     "c9702_v1_u0_c16_pdf244_0678",
+     "c9702_v1_u0_c16_pdf244_0679",
+     "c9702_v1_u0_c16_pdf244_0680",
+     "c9702_v1_u0_c16_pdf245_0681",
+     "c9702_v1_u0_c16_pdf245_0682",
+     "c9702_v1_u0_c16_pdf245_0683",
+     "c9702_v1_u0_c16_pdf245_0684",
+     "c9702_v1_u0_c16_pdf245_0685",
+     "c9702_v1_u0_c16_pdf245_0686",
+     "c9702_v1_u0_c16_pdf245_0687",
+     "c9702_v1_u0_c16_pdf246_0688",
+     "c9702_v1_u0_c16_pdf246_0689",
+     "c9702_v1_u0_c16_pdf246_0690",
+     "c9702_v1_u0_c16_pdf246_0691",
+     "c9702_v1_u0_c16_pdf246_0692",
+     "c9702_v1_u0_c16_pdf247_0693",
+     "c9702_v1_u0_c16_pdf247_0694",
+     "c9702_v1_u0_c16_pdf247_0695",
+     "c9702_v1_u0_c16_pdf247_0696",
+     "c9702_v1_u0_c16_pdf248_0697",
+     "c9702_v1_u0_c16_pdf248_0698",
+     "c9702_v1_u0_c16_pdf249_0699",
+     "c9702_v1_u0_c16_pdf250_0700",
+     "c9702_v1_u0_c16_pdf250_0701"
+    ],
+    "n_chunks": 60,
+    "page_range_pdf": [
+     234,
+     250
+    ],
+    "page_range_book": [
+     222,
+     238
+    ],
+    "lo_chunk": "c9702_v1_u0_c16_pdf234_0642"
+   },
+   "flags": [
+    "no_title_match"
+   ]
+  },
+  {
+   "chapter_key": "u0:c17",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Circular motion",
+   "spec_refs": {
+    "topic": null,
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "NO_TOPIC_MAPPING",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c17_pdf270_0763",
+     "c9702_v1_u0_c17_pdf271_0764",
+     "c9702_v1_u0_c17_pdf271_0765",
+     "c9702_v1_u0_c17_pdf271_0766",
+     "c9702_v1_u0_c17_pdf272_0767",
+     "c9702_v1_u0_c17_pdf273_0768",
+     "c9702_v1_u0_c17_pdf273_0769",
+     "c9702_v1_u0_c17_pdf273_0770",
+     "c9702_v1_u0_c17_pdf273_0771",
+     "c9702_v1_u0_c17_pdf273_0772",
+     "c9702_v1_u0_c17_pdf274_0773",
+     "c9702_v1_u0_c17_pdf274_0774",
+     "c9702_v1_u0_c17_pdf274_0775",
+     "c9702_v1_u0_c17_pdf274_0776",
+     "c9702_v1_u0_c17_pdf275_0777",
+     "c9702_v1_u0_c17_pdf275_0778",
+     "c9702_v1_u0_c17_pdf275_0779",
+     "c9702_v1_u0_c17_pdf275_0780",
+     "c9702_v1_u0_c17_pdf275_0781",
+     "c9702_v1_u0_c17_pdf275_0782",
+     "c9702_v1_u0_c17_pdf276_0783",
+     "c9702_v1_u0_c17_pdf276_0784",
+     "c9702_v1_u0_c17_pdf276_0785",
+     "c9702_v1_u0_c17_pdf276_0786",
+     "c9702_v1_u0_c17_pdf277_0787",
+     "c9702_v1_u0_c17_pdf277_0788",
+     "c9702_v1_u0_c17_pdf277_0789",
+     "c9702_v1_u0_c17_pdf277_0790",
+     "c9702_v1_u0_c17_pdf278_0791",
+     "c9702_v1_u0_c17_pdf278_0792",
+     "c9702_v1_u0_c17_pdf278_0793",
+     "c9702_v1_u0_c17_pdf279_0794",
+     "c9702_v1_u0_c17_pdf279_0795",
+     "c9702_v1_u0_c17_pdf280_0796",
+     "c9702_v1_u0_c17_pdf281_0797",
+     "c9702_v1_u0_c17_pdf282_0798"
+    ],
+    "n_chunks": 36,
+    "page_range_pdf": [
+     270,
+     282
+    ],
+    "page_range_book": [
+     258,
+     270
+    ],
+    "lo_chunk": "c9702_v1_u0_c17_pdf270_0763"
+   },
+   "flags": [
+    "no_title_match"
+   ]
+  },
+  {
+   "chapter_key": "u0:c18",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Gravitational fields",
+   "spec_refs": {
+    "topic": {
+     "code": "CIE_A_LEVEL_PHYSICS_2025_2027-T13",
+     "number": "13",
+     "title": "Gravitational fields",
+     "basis": "J5_EQUAL"
+    },
+    "subsections": [
+     {
+      "code": "13.1",
+      "title": "Gravitational field"
+     },
+     {
+      "code": "13.2",
+      "title": "Gravitational force between point masses"
+     },
+     {
+      "code": "13.3",
+      "title": "Gravitational field of a point mass"
+     },
+     {
+      "code": "13.4",
+      "title": "Gravitational potential"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c18_pdf283_0799",
+     "c9702_v1_u0_c18_pdf284_0800",
+     "c9702_v1_u0_c18_pdf284_0801",
+     "c9702_v1_u0_c18_pdf284_0802",
+     "c9702_v1_u0_c18_pdf285_0803",
+     "c9702_v1_u0_c18_pdf285_0804",
+     "c9702_v1_u0_c18_pdf285_0805",
+     "c9702_v1_u0_c18_pdf286_0806",
+     "c9702_v1_u0_c18_pdf286_0807",
+     "c9702_v1_u0_c18_pdf286_0808",
+     "c9702_v1_u0_c18_pdf287_0809",
+     "c9702_v1_u0_c18_pdf287_0810",
+     "c9702_v1_u0_c18_pdf287_0811",
+     "c9702_v1_u0_c18_pdf288_0812",
+     "c9702_v1_u0_c18_pdf288_0813",
+     "c9702_v1_u0_c18_pdf288_0814",
+     "c9702_v1_u0_c18_pdf288_0815",
+     "c9702_v1_u0_c18_pdf289_0816",
+     "c9702_v1_u0_c18_pdf289_0817",
+     "c9702_v1_u0_c18_pdf289_0818",
+     "c9702_v1_u0_c18_pdf289_0819",
+     "c9702_v1_u0_c18_pdf289_0820",
+     "c9702_v1_u0_c18_pdf290_0821",
+     "c9702_v1_u0_c18_pdf290_0822",
+     "c9702_v1_u0_c18_pdf290_0823",
+     "c9702_v1_u0_c18_pdf290_0824",
+     "c9702_v1_u0_c18_pdf291_0825",
+     "c9702_v1_u0_c18_pdf291_0826",
+     "c9702_v1_u0_c18_pdf291_0827",
+     "c9702_v1_u0_c18_pdf291_0828",
+     "c9702_v1_u0_c18_pdf291_0829",
+     "c9702_v1_u0_c18_pdf292_0830",
+     "c9702_v1_u0_c18_pdf292_0831",
+     "c9702_v1_u0_c18_pdf292_0832",
+     "c9702_v1_u0_c18_pdf293_0833",
+     "c9702_v1_u0_c18_pdf293_0834",
+     "c9702_v1_u0_c18_pdf293_0835",
+     "c9702_v1_u0_c18_pdf294_0836",
+     "c9702_v1_u0_c18_pdf294_0837",
+     "c9702_v1_u0_c18_pdf295_0838",
+     "c9702_v1_u0_c18_pdf296_0839"
+    ],
+    "n_chunks": 41,
+    "page_range_pdf": [
+     283,
+     296
+    ],
+    "page_range_book": [
+     271,
+     284
+    ],
+    "lo_chunk": "c9702_v1_u0_c18_pdf283_0799"
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u0:c19",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Oscillations",
+   "spec_refs": {
+    "topic": {
+     "code": "CIE_A_LEVEL_PHYSICS_2025_2027-T17",
+     "number": "17",
+     "title": "Oscillations",
+     "basis": "J5_EQUAL"
+    },
+    "subsections": [
+     {
+      "code": "17.1",
+      "title": "Simple harmonic oscillations"
+     },
+     {
+      "code": "17.2",
+      "title": "Energy in simple harmonic motion"
+     },
+     {
+      "code": "17.3",
+      "title": "Damped and forced oscillations, resonance"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c19_pdf297_0840",
+     "c9702_v1_u0_c19_pdf298_0841",
+     "c9702_v1_u0_c19_pdf298_0842",
+     "c9702_v1_u0_c19_pdf298_0843",
+     "c9702_v1_u0_c19_pdf299_0844",
+     "c9702_v1_u0_c19_pdf299_0845",
+     "c9702_v1_u0_c19_pdf299_0846",
+     "c9702_v1_u0_c19_pdf300_0847",
+     "c9702_v1_u0_c19_pdf300_0848",
+     "c9702_v1_u0_c19_pdf300_0849",
+     "c9702_v1_u0_c19_pdf300_0850",
+     "c9702_v1_u0_c19_pdf300_0851",
+     "c9702_v1_u0_c19_pdf301_0852",
+     "c9702_v1_u0_c19_pdf301_0853",
+     "c9702_v1_u0_c19_pdf302_0854",
+     "c9702_v1_u0_c19_pdf302_0855",
+     "c9702_v1_u0_c19_pdf303_0856",
+     "c9702_v1_u0_c19_pdf303_0857",
+     "c9702_v1_u0_c19_pdf303_0858",
+     "c9702_v1_u0_c19_pdf304_0859",
+     "c9702_v1_u0_c19_pdf304_0860",
+     "c9702_v1_u0_c19_pdf304_0861",
+     "c9702_v1_u0_c19_pdf304_0862",
+     "c9702_v1_u0_c19_pdf304_0863",
+     "c9702_v1_u0_c19_pdf305_0864",
+     "c9702_v1_u0_c19_pdf305_0865",
+     "c9702_v1_u0_c19_pdf306_0866",
+     "c9702_v1_u0_c19_pdf306_0867",
+     "c9702_v1_u0_c19_pdf306_0868",
+     "c9702_v1_u0_c19_pdf306_0869",
+     "c9702_v1_u0_c19_pdf307_0870",
+     "c9702_v1_u0_c19_pdf307_0871",
+     "c9702_v1_u0_c19_pdf308_0872",
+     "c9702_v1_u0_c19_pdf308_0873",
+     "c9702_v1_u0_c19_pdf308_0874",
+     "c9702_v1_u0_c19_pdf308_0875",
+     "c9702_v1_u0_c19_pdf309_0876",
+     "c9702_v1_u0_c19_pdf309_0877",
+     "c9702_v1_u0_c19_pdf309_0878",
+     "c9702_v1_u0_c19_pdf310_0879",
+     "c9702_v1_u0_c19_pdf310_0880",
+     "c9702_v1_u0_c19_pdf310_0881",
+     "c9702_v1_u0_c19_pdf311_0882",
+     "c9702_v1_u0_c19_pdf311_0883",
+     "c9702_v1_u0_c19_pdf311_0884",
+     "c9702_v1_u0_c19_pdf311_0885",
+     "c9702_v1_u0_c19_pdf311_0886",
+     "c9702_v1_u0_c19_pdf312_0887",
+     "c9702_v1_u0_c19_pdf312_0888",
+     "c9702_v1_u0_c19_pdf312_0889",
+     "c9702_v1_u0_c19_pdf312_0890",
+     "c9702_v1_u0_c19_pdf313_0891",
+     "c9702_v1_u0_c19_pdf313_0892",
+     "c9702_v1_u0_c19_pdf313_0893",
+     "c9702_v1_u0_c19_pdf314_0894",
+     "c9702_v1_u0_c19_pdf314_0895",
+     "c9702_v1_u0_c19_pdf314_0896",
+     "c9702_v1_u0_c19_pdf315_0897",
+     "c9702_v1_u0_c19_pdf316_0898",
+     "c9702_v1_u0_c19_pdf317_0899",
+     "c9702_v1_u0_c19_pdf318_0900",
+     "c9702_v1_u0_c19_pdf319_0901",
+     "c9702_v1_u0_c19_pdf320_0902"
+    ],
+    "n_chunks": 63,
+    "page_range_pdf": [
+     297,
+     320
+    ],
+    "page_range_book": [
+     285,
+     308
+    ],
+    "lo_chunk": "c9702_v1_u0_c19_pdf297_0840"
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u0:c20",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Communications systems",
+   "spec_refs": {
+    "topic": null,
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "NO_TOPIC_MAPPING",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c20_pdf321_0903",
+     "c9702_v1_u0_c20_pdf322_0904",
+     "c9702_v1_u0_c20_pdf322_0905",
+     "c9702_v1_u0_c20_pdf322_0906",
+     "c9702_v1_u0_c20_pdf323_0907",
+     "c9702_v1_u0_c20_pdf323_0908",
+     "c9702_v1_u0_c20_pdf323_0909",
+     "c9702_v1_u0_c20_pdf323_0910",
+     "c9702_v1_u0_c20_pdf324_0911",
+     "c9702_v1_u0_c20_pdf324_0912",
+     "c9702_v1_u0_c20_pdf324_0913",
+     "c9702_v1_u0_c20_pdf324_0914",
+     "c9702_v1_u0_c20_pdf324_0915",
+     "c9702_v1_u0_c20_pdf325_0916",
+     "c9702_v1_u0_c20_pdf325_0917",
+     "c9702_v1_u0_c20_pdf325_0918",
+     "c9702_v1_u0_c20_pdf326_0919",
+     "c9702_v1_u0_c20_pdf326_0920",
+     "c9702_v1_u0_c20_pdf326_0921",
+     "c9702_v1_u0_c20_pdf327_0922",
+     "c9702_v1_u0_c20_pdf327_0923",
+     "c9702_v1_u0_c20_pdf327_0924",
+     "c9702_v1_u0_c20_pdf328_0925",
+     "c9702_v1_u0_c20_pdf328_0926",
+     "c9702_v1_u0_c20_pdf329_0927",
+     "c9702_v1_u0_c20_pdf329_0928",
+     "c9702_v1_u0_c20_pdf329_0929",
+     "c9702_v1_u0_c20_pdf329_0930",
+     "c9702_v1_u0_c20_pdf329_0931",
+     "c9702_v1_u0_c20_pdf330_0932",
+     "c9702_v1_u0_c20_pdf330_0933",
+     "c9702_v1_u0_c20_pdf330_0934",
+     "c9702_v1_u0_c20_pdf331_0935",
+     "c9702_v1_u0_c20_pdf331_0936",
+     "c9702_v1_u0_c20_pdf331_0937",
+     "c9702_v1_u0_c20_pdf331_0938",
+     "c9702_v1_u0_c20_pdf332_0939",
+     "c9702_v1_u0_c20_pdf332_0940",
+     "c9702_v1_u0_c20_pdf332_0941",
+     "c9702_v1_u0_c20_pdf333_0942",
+     "c9702_v1_u0_c20_pdf333_0943",
+     "c9702_v1_u0_c20_pdf333_0944",
+     "c9702_v1_u0_c20_pdf334_0945",
+     "c9702_v1_u0_c20_pdf334_0946",
+     "c9702_v1_u0_c20_pdf334_0947",
+     "c9702_v1_u0_c20_pdf334_0948",
+     "c9702_v1_u0_c20_pdf335_0949",
+     "c9702_v1_u0_c20_pdf335_0950",
+     "c9702_v1_u0_c20_pdf335_0951",
+     "c9702_v1_u0_c20_pdf335_0952",
+     "c9702_v1_u0_c20_pdf336_0953",
+     "c9702_v1_u0_c20_pdf336_0954",
+     "c9702_v1_u0_c20_pdf336_0955",
+     "c9702_v1_u0_c20_pdf337_0956",
+     "c9702_v1_u0_c20_pdf338_0957"
+    ],
+    "n_chunks": 55,
+    "page_range_pdf": [
+     321,
+     338
+    ],
+    "page_range_book": [
+     309,
+     326
+    ],
+    "lo_chunk": "c9702_v1_u0_c20_pdf321_0903"
+   },
+   "flags": [
+    "no_title_match"
+   ]
+  },
+  {
+   "chapter_key": "u0:c21",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Thermal physics",
+   "spec_refs": {
+    "topic": null,
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "NO_TOPIC_MAPPING",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c21_pdf339_0958",
+     "c9702_v1_u0_c21_pdf340_0959",
+     "c9702_v1_u0_c21_pdf340_0960",
+     "c9702_v1_u0_c21_pdf340_0961",
+     "c9702_v1_u0_c21_pdf341_0962",
+     "c9702_v1_u0_c21_pdf341_0963",
+     "c9702_v1_u0_c21_pdf341_0964",
+     "c9702_v1_u0_c21_pdf342_0965",
+     "c9702_v1_u0_c21_pdf342_0966",
+     "c9702_v1_u0_c21_pdf342_0967",
+     "c9702_v1_u0_c21_pdf342_0968",
+     "c9702_v1_u0_c21_pdf343_0969",
+     "c9702_v1_u0_c21_pdf343_0970",
+     "c9702_v1_u0_c21_pdf343_0971",
+     "c9702_v1_u0_c21_pdf343_0972",
+     "c9702_v1_u0_c21_pdf344_0973",
+     "c9702_v1_u0_c21_pdf344_0974",
+     "c9702_v1_u0_c21_pdf344_0975",
+     "c9702_v1_u0_c21_pdf344_0976",
+     "c9702_v1_u0_c21_pdf345_0977",
+     "c9702_v1_u0_c21_pdf345_0978",
+     "c9702_v1_u0_c21_pdf346_0979",
+     "c9702_v1_u0_c21_pdf346_0980",
+     "c9702_v1_u0_c21_pdf346_0981",
+     "c9702_v1_u0_c21_pdf346_0982",
+     "c9702_v1_u0_c21_pdf347_0983",
+     "c9702_v1_u0_c21_pdf347_0984",
+     "c9702_v1_u0_c21_pdf347_0985",
+     "c9702_v1_u0_c21_pdf348_0986",
+     "c9702_v1_u0_c21_pdf348_0987",
+     "c9702_v1_u0_c21_pdf348_0988",
+     "c9702_v1_u0_c21_pdf348_0989",
+     "c9702_v1_u0_c21_pdf348_0990",
+     "c9702_v1_u0_c21_pdf348_0991",
+     "c9702_v1_u0_c21_pdf349_0992",
+     "c9702_v1_u0_c21_pdf349_0993",
+     "c9702_v1_u0_c21_pdf349_0994",
+     "c9702_v1_u0_c21_pdf349_0995",
+     "c9702_v1_u0_c21_pdf350_0996",
+     "c9702_v1_u0_c21_pdf350_0997",
+     "c9702_v1_u0_c21_pdf350_0998",
+     "c9702_v1_u0_c21_pdf350_0999",
+     "c9702_v1_u0_c21_pdf351_1000",
+     "c9702_v1_u0_c21_pdf351_1001",
+     "c9702_v1_u0_c21_pdf351_1002",
+     "c9702_v1_u0_c21_pdf351_1003",
+     "c9702_v1_u0_c21_pdf352_1004",
+     "c9702_v1_u0_c21_pdf352_1005",
+     "c9702_v1_u0_c21_pdf352_1006",
+     "c9702_v1_u0_c21_pdf353_1007",
+     "c9702_v1_u0_c21_pdf353_1008",
+     "c9702_v1_u0_c21_pdf354_1009",
+     "c9702_v1_u0_c21_pdf355_1010",
+     "c9702_v1_u0_c21_pdf356_1011"
+    ],
+    "n_chunks": 54,
+    "page_range_pdf": [
+     339,
+     356
+    ],
+    "page_range_book": [
+     327,
+     344
+    ],
+    "lo_chunk": "c9702_v1_u0_c21_pdf339_0958"
+   },
+   "flags": [
+    "no_title_match"
+   ]
+  },
+  {
+   "chapter_key": "u0:c22",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Ideal gases",
+   "spec_refs": {
+    "topic": {
+     "code": "CIE_A_LEVEL_PHYSICS_2025_2027-T15",
+     "number": "15",
+     "title": "Ideal gases",
+     "basis": "J5_EQUAL"
+    },
+    "subsections": [
+     {
+      "code": "15.1",
+      "title": "The mole"
+     },
+     {
+      "code": "15.2",
+      "title": "Equation of state"
+     },
+     {
+      "code": "15.3",
+      "title": "Kinetic theory of gases"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c22_pdf357_1012",
+     "c9702_v1_u0_c22_pdf358_1013",
+     "c9702_v1_u0_c22_pdf358_1014",
+     "c9702_v1_u0_c22_pdf358_1015",
+     "c9702_v1_u0_c22_pdf358_1016",
+     "c9702_v1_u0_c22_pdf359_1017",
+     "c9702_v1_u0_c22_pdf359_1018",
+     "c9702_v1_u0_c22_pdf360_1019",
+     "c9702_v1_u0_c22_pdf360_1020",
+     "c9702_v1_u0_c22_pdf360_1021",
+     "c9702_v1_u0_c22_pdf360_1022",
+     "c9702_v1_u0_c22_pdf360_1023",
+     "c9702_v1_u0_c22_pdf361_1024",
+     "c9702_v1_u0_c22_pdf361_1025",
+     "c9702_v1_u0_c22_pdf361_1026",
+     "c9702_v1_u0_c22_pdf361_1027",
+     "c9702_v1_u0_c22_pdf362_1028",
+     "c9702_v1_u0_c22_pdf362_1029",
+     "c9702_v1_u0_c22_pdf362_1030",
+     "c9702_v1_u0_c22_pdf362_1031",
+     "c9702_v1_u0_c22_pdf362_1032",
+     "c9702_v1_u0_c22_pdf363_1033",
+     "c9702_v1_u0_c22_pdf363_1034",
+     "c9702_v1_u0_c22_pdf363_1035",
+     "c9702_v1_u0_c22_pdf363_1036",
+     "c9702_v1_u0_c22_pdf363_1037",
+     "c9702_v1_u0_c22_pdf364_1038",
+     "c9702_v1_u0_c22_pdf364_1039",
+     "c9702_v1_u0_c22_pdf364_1040",
+     "c9702_v1_u0_c22_pdf364_1041",
+     "c9702_v1_u0_c22_pdf365_1042",
+     "c9702_v1_u0_c22_pdf365_1043",
+     "c9702_v1_u0_c22_pdf365_1044",
+     "c9702_v1_u0_c22_pdf366_1045",
+     "c9702_v1_u0_c22_pdf366_1046",
+     "c9702_v1_u0_c22_pdf366_1047",
+     "c9702_v1_u0_c22_pdf366_1048",
+     "c9702_v1_u0_c22_pdf367_1049",
+     "c9702_v1_u0_c22_pdf367_1050",
+     "c9702_v1_u0_c22_pdf367_1051",
+     "c9702_v1_u0_c22_pdf367_1052",
+     "c9702_v1_u0_c22_pdf368_1053",
+     "c9702_v1_u0_c22_pdf368_1054",
+     "c9702_v1_u0_c22_pdf369_1055",
+     "c9702_v1_u0_c22_pdf369_1056",
+     "c9702_v1_u0_c22_pdf370_1057"
+    ],
+    "n_chunks": 46,
+    "page_range_pdf": [
+     357,
+     370
+    ],
+    "page_range_book": [
+     345,
+     358
+    ],
+    "lo_chunk": "c9702_v1_u0_c22_pdf357_1012"
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u0:c23",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Coulomb’s law",
+   "spec_refs": {
+    "topic": null,
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "NO_TOPIC_MAPPING",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c23_pdf371_1058",
+     "c9702_v1_u0_c23_pdf372_1059",
+     "c9702_v1_u0_c23_pdf372_1060",
+     "c9702_v1_u0_c23_pdf372_1061",
+     "c9702_v1_u0_c23_pdf372_1062",
+     "c9702_v1_u0_c23_pdf373_1063",
+     "c9702_v1_u0_c23_pdf373_1064",
+     "c9702_v1_u0_c23_pdf373_1065",
+     "c9702_v1_u0_c23_pdf374_1066",
+     "c9702_v1_u0_c23_pdf374_1067",
+     "c9702_v1_u0_c23_pdf374_1068",
+     "c9702_v1_u0_c23_pdf374_1069",
+     "c9702_v1_u0_c23_pdf375_1070",
+     "c9702_v1_u0_c23_pdf375_1071",
+     "c9702_v1_u0_c23_pdf375_1072",
+     "c9702_v1_u0_c23_pdf375_1073",
+     "c9702_v1_u0_c23_pdf376_1074",
+     "c9702_v1_u0_c23_pdf376_1075",
+     "c9702_v1_u0_c23_pdf377_1076",
+     "c9702_v1_u0_c23_pdf377_1077",
+     "c9702_v1_u0_c23_pdf377_1078",
+     "c9702_v1_u0_c23_pdf377_1079",
+     "c9702_v1_u0_c23_pdf377_1080",
+     "c9702_v1_u0_c23_pdf378_1081",
+     "c9702_v1_u0_c23_pdf378_1082",
+     "c9702_v1_u0_c23_pdf378_1083",
+     "c9702_v1_u0_c23_pdf378_1084",
+     "c9702_v1_u0_c23_pdf379_1085",
+     "c9702_v1_u0_c23_pdf379_1086",
+     "c9702_v1_u0_c23_pdf380_1087",
+     "c9702_v1_u0_c23_pdf380_1088",
+     "c9702_v1_u0_c23_pdf381_1089",
+     "c9702_v1_u0_c23_pdf381_1090",
+     "c9702_v1_u0_c23_pdf382_1091",
+     "c9702_v1_u0_c23_pdf383_1092"
+    ],
+    "n_chunks": 35,
+    "page_range_pdf": [
+     371,
+     383
+    ],
+    "page_range_book": [
+     359,
+     371
+    ],
+    "lo_chunk": "c9702_v1_u0_c23_pdf371_1058"
+   },
+   "flags": [
+    "no_title_match"
+   ]
+  },
+  {
+   "chapter_key": "u0:c24",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Capacitance",
+   "spec_refs": {
+    "topic": {
+     "code": "CIE_A_LEVEL_PHYSICS_2025_2027-T19",
+     "number": "19",
+     "title": "Capacitance",
+     "basis": "J5_EQUAL"
+    },
+    "subsections": [
+     {
+      "code": "19.1",
+      "title": "Capacitors and capacitance"
+     },
+     {
+      "code": "19.2",
+      "title": "Energy stored in a capacitor"
+     },
+     {
+      "code": "19.3",
+      "title": "Discharging a capacitor"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c24_pdf384_1093",
+     "c9702_v1_u0_c24_pdf385_1094",
+     "c9702_v1_u0_c24_pdf385_1095",
+     "c9702_v1_u0_c24_pdf386_1096",
+     "c9702_v1_u0_c24_pdf386_1097",
+     "c9702_v1_u0_c24_pdf386_1098",
+     "c9702_v1_u0_c24_pdf386_1099",
+     "c9702_v1_u0_c24_pdf386_1100",
+     "c9702_v1_u0_c24_pdf386_1101",
+     "c9702_v1_u0_c24_pdf387_1102",
+     "c9702_v1_u0_c24_pdf387_1103",
+     "c9702_v1_u0_c24_pdf387_1104",
+     "c9702_v1_u0_c24_pdf388_1105",
+     "c9702_v1_u0_c24_pdf388_1106",
+     "c9702_v1_u0_c24_pdf388_1107",
+     "c9702_v1_u0_c24_pdf388_1108",
+     "c9702_v1_u0_c24_pdf389_1109",
+     "c9702_v1_u0_c24_pdf389_1110",
+     "c9702_v1_u0_c24_pdf390_1111",
+     "c9702_v1_u0_c24_pdf390_1112",
+     "c9702_v1_u0_c24_pdf390_1113",
+     "c9702_v1_u0_c24_pdf390_1114",
+     "c9702_v1_u0_c24_pdf390_1115",
+     "c9702_v1_u0_c24_pdf390_1116",
+     "c9702_v1_u0_c24_pdf391_1117",
+     "c9702_v1_u0_c24_pdf391_1118",
+     "c9702_v1_u0_c24_pdf391_1119",
+     "c9702_v1_u0_c24_pdf391_1120",
+     "c9702_v1_u0_c24_pdf391_1121",
+     "c9702_v1_u0_c24_pdf391_1122",
+     "c9702_v1_u0_c24_pdf392_1123",
+     "c9702_v1_u0_c24_pdf392_1124",
+     "c9702_v1_u0_c24_pdf392_1125",
+     "c9702_v1_u0_c24_pdf393_1126",
+     "c9702_v1_u0_c24_pdf393_1127",
+     "c9702_v1_u0_c24_pdf393_1128",
+     "c9702_v1_u0_c24_pdf393_1129",
+     "c9702_v1_u0_c24_pdf393_1130",
+     "c9702_v1_u0_c24_pdf393_1131",
+     "c9702_v1_u0_c24_pdf394_1132",
+     "c9702_v1_u0_c24_pdf394_1133",
+     "c9702_v1_u0_c24_pdf395_1134",
+     "c9702_v1_u0_c24_pdf396_1135",
+     "c9702_v1_u0_c24_pdf397_1136"
+    ],
+    "n_chunks": 44,
+    "page_range_pdf": [
+     384,
+     397
+    ],
+    "page_range_book": [
+     372,
+     385
+    ],
+    "lo_chunk": "c9702_v1_u0_c24_pdf384_1093"
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u0:c25",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Electronics",
+   "spec_refs": {
+    "topic": null,
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "NO_TOPIC_MAPPING",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c25_pdf398_1137",
+     "c9702_v1_u0_c25_pdf399_1138",
+     "c9702_v1_u0_c25_pdf399_1139",
+     "c9702_v1_u0_c25_pdf399_1140",
+     "c9702_v1_u0_c25_pdf399_1141",
+     "c9702_v1_u0_c25_pdf400_1142",
+     "c9702_v1_u0_c25_pdf400_1143",
+     "c9702_v1_u0_c25_pdf400_1144",
+     "c9702_v1_u0_c25_pdf400_1145",
+     "c9702_v1_u0_c25_pdf400_1146",
+     "c9702_v1_u0_c25_pdf401_1147",
+     "c9702_v1_u0_c25_pdf401_1148",
+     "c9702_v1_u0_c25_pdf401_1149",
+     "c9702_v1_u0_c25_pdf402_1150",
+     "c9702_v1_u0_c25_pdf402_1151",
+     "c9702_v1_u0_c25_pdf402_1152",
+     "c9702_v1_u0_c25_pdf403_1153",
+     "c9702_v1_u0_c25_pdf403_1154",
+     "c9702_v1_u0_c25_pdf404_1155",
+     "c9702_v1_u0_c25_pdf404_1156",
+     "c9702_v1_u0_c25_pdf404_1157",
+     "c9702_v1_u0_c25_pdf405_1158",
+     "c9702_v1_u0_c25_pdf405_1159",
+     "c9702_v1_u0_c25_pdf406_1160",
+     "c9702_v1_u0_c25_pdf406_1161",
+     "c9702_v1_u0_c25_pdf406_1162",
+     "c9702_v1_u0_c25_pdf406_1163",
+     "c9702_v1_u0_c25_pdf406_1164",
+     "c9702_v1_u0_c25_pdf407_1165",
+     "c9702_v1_u0_c25_pdf407_1166",
+     "c9702_v1_u0_c25_pdf407_1167",
+     "c9702_v1_u0_c25_pdf407_1168",
+     "c9702_v1_u0_c25_pdf408_1169",
+     "c9702_v1_u0_c25_pdf408_1170",
+     "c9702_v1_u0_c25_pdf409_1171",
+     "c9702_v1_u0_c25_pdf409_1172",
+     "c9702_v1_u0_c25_pdf409_1173",
+     "c9702_v1_u0_c25_pdf409_1174",
+     "c9702_v1_u0_c25_pdf410_1175",
+     "c9702_v1_u0_c25_pdf410_1176",
+     "c9702_v1_u0_c25_pdf410_1177",
+     "c9702_v1_u0_c25_pdf410_1178",
+     "c9702_v1_u0_c25_pdf410_1179",
+     "c9702_v1_u0_c25_pdf410_1180",
+     "c9702_v1_u0_c25_pdf411_1181",
+     "c9702_v1_u0_c25_pdf411_1182",
+     "c9702_v1_u0_c25_pdf412_1183",
+     "c9702_v1_u0_c25_pdf412_1184",
+     "c9702_v1_u0_c25_pdf412_1185",
+     "c9702_v1_u0_c25_pdf412_1186",
+     "c9702_v1_u0_c25_pdf413_1187",
+     "c9702_v1_u0_c25_pdf413_1188",
+     "c9702_v1_u0_c25_pdf414_1189",
+     "c9702_v1_u0_c25_pdf415_1190",
+     "c9702_v1_u0_c25_pdf416_1191",
+     "c9702_v1_u0_c25_pdf417_1192"
+    ],
+    "n_chunks": 56,
+    "page_range_pdf": [
+     398,
+     417
+    ],
+    "page_range_book": [
+     386,
+     405
+    ],
+    "lo_chunk": "c9702_v1_u0_c25_pdf398_1137"
+   },
+   "flags": [
+    "no_title_match"
+   ]
+  },
+  {
+   "chapter_key": "u0:c26",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Magnetic fields and electromagnetism",
+   "spec_refs": {
+    "topic": {
+     "code": "CIE_A_LEVEL_PHYSICS_2025_2027-T20",
+     "number": "20",
+     "title": "Magnetic fields",
+     "basis": "J5_CONTAINS"
+    },
+    "subsections": [
+     {
+      "code": "20.1",
+      "title": "Concept of a magnetic field"
+     },
+     {
+      "code": "20.2",
+      "title": "Force on a current-carrying conductor"
+     },
+     {
+      "code": "20.3",
+      "title": "Force on a moving charge"
+     },
+     {
+      "code": "20.4",
+      "title": "Magnetic fields due to currents"
+     },
+     {
+      "code": "20.5",
+      "title": "Electromagnetic induction"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c26_pdf418_1193",
+     "c9702_v1_u0_c26_pdf419_1194",
+     "c9702_v1_u0_c26_pdf419_1195",
+     "c9702_v1_u0_c26_pdf419_1196",
+     "c9702_v1_u0_c26_pdf420_1197",
+     "c9702_v1_u0_c26_pdf420_1198",
+     "c9702_v1_u0_c26_pdf421_1199",
+     "c9702_v1_u0_c26_pdf421_1200",
+     "c9702_v1_u0_c26_pdf421_1201",
+     "c9702_v1_u0_c26_pdf422_1202",
+     "c9702_v1_u0_c26_pdf422_1203",
+     "c9702_v1_u0_c26_pdf422_1204",
+     "c9702_v1_u0_c26_pdf422_1205",
+     "c9702_v1_u0_c26_pdf423_1206",
+     "c9702_v1_u0_c26_pdf423_1207",
+     "c9702_v1_u0_c26_pdf423_1208",
+     "c9702_v1_u0_c26_pdf423_1209",
+     "c9702_v1_u0_c26_pdf423_1210",
+     "c9702_v1_u0_c26_pdf424_1211",
+     "c9702_v1_u0_c26_pdf424_1212",
+     "c9702_v1_u0_c26_pdf424_1213",
+     "c9702_v1_u0_c26_pdf425_1214",
+     "c9702_v1_u0_c26_pdf425_1215",
+     "c9702_v1_u0_c26_pdf425_1216",
+     "c9702_v1_u0_c26_pdf426_1217",
+     "c9702_v1_u0_c26_pdf426_1218",
+     "c9702_v1_u0_c26_pdf426_1219",
+     "c9702_v1_u0_c26_pdf426_1220",
+     "c9702_v1_u0_c26_pdf427_1221",
+     "c9702_v1_u0_c26_pdf427_1222",
+     "c9702_v1_u0_c26_pdf427_1223",
+     "c9702_v1_u0_c26_pdf427_1224",
+     "c9702_v1_u0_c26_pdf428_1225",
+     "c9702_v1_u0_c26_pdf428_1226",
+     "c9702_v1_u0_c26_pdf428_1227",
+     "c9702_v1_u0_c26_pdf428_1228",
+     "c9702_v1_u0_c26_pdf429_1229",
+     "c9702_v1_u0_c26_pdf429_1230",
+     "c9702_v1_u0_c26_pdf429_1231",
+     "c9702_v1_u0_c26_pdf430_1232",
+     "c9702_v1_u0_c26_pdf431_1233",
+     "c9702_v1_u0_c26_pdf432_1234",
+     "c9702_v1_u0_c26_pdf433_1235"
+    ],
+    "n_chunks": 43,
+    "page_range_pdf": [
+     418,
+     433
+    ],
+    "page_range_book": [
+     406,
+     421
+    ],
+    "lo_chunk": "c9702_v1_u0_c26_pdf418_1193"
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u0:c27",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Charged particles",
+   "spec_refs": {
+    "topic": null,
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "NO_TOPIC_MAPPING",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c27_pdf434_1236",
+     "c9702_v1_u0_c27_pdf435_1237",
+     "c9702_v1_u0_c27_pdf435_1238",
+     "c9702_v1_u0_c27_pdf435_1239",
+     "c9702_v1_u0_c27_pdf436_1240",
+     "c9702_v1_u0_c27_pdf436_1241",
+     "c9702_v1_u0_c27_pdf436_1242",
+     "c9702_v1_u0_c27_pdf437_1243",
+     "c9702_v1_u0_c27_pdf437_1244",
+     "c9702_v1_u0_c27_pdf437_1245",
+     "c9702_v1_u0_c27_pdf438_1246",
+     "c9702_v1_u0_c27_pdf438_1247",
+     "c9702_v1_u0_c27_pdf438_1248",
+     "c9702_v1_u0_c27_pdf438_1249",
+     "c9702_v1_u0_c27_pdf439_1250",
+     "c9702_v1_u0_c27_pdf439_1251",
+     "c9702_v1_u0_c27_pdf439_1252",
+     "c9702_v1_u0_c27_pdf439_1253",
+     "c9702_v1_u0_c27_pdf440_1254",
+     "c9702_v1_u0_c27_pdf440_1255",
+     "c9702_v1_u0_c27_pdf440_1256",
+     "c9702_v1_u0_c27_pdf440_1257",
+     "c9702_v1_u0_c27_pdf440_1258",
+     "c9702_v1_u0_c27_pdf441_1259",
+     "c9702_v1_u0_c27_pdf441_1260",
+     "c9702_v1_u0_c27_pdf441_1261",
+     "c9702_v1_u0_c27_pdf441_1262",
+     "c9702_v1_u0_c27_pdf442_1263",
+     "c9702_v1_u0_c27_pdf442_1264",
+     "c9702_v1_u0_c27_pdf442_1265",
+     "c9702_v1_u0_c27_pdf442_1266",
+     "c9702_v1_u0_c27_pdf443_1267",
+     "c9702_v1_u0_c27_pdf444_1268",
+     "c9702_v1_u0_c27_pdf445_1269",
+     "c9702_v1_u0_c27_pdf446_1270"
+    ],
+    "n_chunks": 35,
+    "page_range_pdf": [
+     434,
+     446
+    ],
+    "page_range_book": [
+     422,
+     434
+    ],
+    "lo_chunk": "c9702_v1_u0_c27_pdf434_1236"
+   },
+   "flags": [
+    "no_title_match"
+   ]
+  },
+  {
+   "chapter_key": "u0:c28",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Electromagnetic induction",
+   "spec_refs": {
+    "topic": null,
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "NO_TOPIC_MAPPING",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c28_pdf447_1271",
+     "c9702_v1_u0_c28_pdf448_1272",
+     "c9702_v1_u0_c28_pdf448_1273",
+     "c9702_v1_u0_c28_pdf448_1274",
+     "c9702_v1_u0_c28_pdf448_1275",
+     "c9702_v1_u0_c28_pdf449_1276",
+     "c9702_v1_u0_c28_pdf449_1277",
+     "c9702_v1_u0_c28_pdf449_1278",
+     "c9702_v1_u0_c28_pdf449_1279",
+     "c9702_v1_u0_c28_pdf449_1280",
+     "c9702_v1_u0_c28_pdf449_1281",
+     "c9702_v1_u0_c28_pdf450_1282",
+     "c9702_v1_u0_c28_pdf450_1283",
+     "c9702_v1_u0_c28_pdf451_1284",
+     "c9702_v1_u0_c28_pdf451_1285",
+     "c9702_v1_u0_c28_pdf451_1286",
+     "c9702_v1_u0_c28_pdf451_1287",
+     "c9702_v1_u0_c28_pdf452_1288",
+     "c9702_v1_u0_c28_pdf452_1289",
+     "c9702_v1_u0_c28_pdf452_1290",
+     "c9702_v1_u0_c28_pdf453_1291",
+     "c9702_v1_u0_c28_pdf453_1292",
+     "c9702_v1_u0_c28_pdf453_1293",
+     "c9702_v1_u0_c28_pdf453_1294",
+     "c9702_v1_u0_c28_pdf454_1295",
+     "c9702_v1_u0_c28_pdf454_1296",
+     "c9702_v1_u0_c28_pdf454_1297",
+     "c9702_v1_u0_c28_pdf455_1298",
+     "c9702_v1_u0_c28_pdf455_1299",
+     "c9702_v1_u0_c28_pdf455_1300",
+     "c9702_v1_u0_c28_pdf455_1301",
+     "c9702_v1_u0_c28_pdf456_1302",
+     "c9702_v1_u0_c28_pdf456_1303",
+     "c9702_v1_u0_c28_pdf456_1304",
+     "c9702_v1_u0_c28_pdf457_1305",
+     "c9702_v1_u0_c28_pdf457_1306",
+     "c9702_v1_u0_c28_pdf457_1307",
+     "c9702_v1_u0_c28_pdf457_1308",
+     "c9702_v1_u0_c28_pdf457_1309",
+     "c9702_v1_u0_c28_pdf458_1310",
+     "c9702_v1_u0_c28_pdf458_1311",
+     "c9702_v1_u0_c28_pdf458_1312",
+     "c9702_v1_u0_c28_pdf458_1313",
+     "c9702_v1_u0_c28_pdf459_1314",
+     "c9702_v1_u0_c28_pdf459_1315",
+     "c9702_v1_u0_c28_pdf459_1316",
+     "c9702_v1_u0_c28_pdf460_1317",
+     "c9702_v1_u0_c28_pdf461_1318",
+     "c9702_v1_u0_c28_pdf462_1319"
+    ],
+    "n_chunks": 49,
+    "page_range_pdf": [
+     447,
+     462
+    ],
+    "page_range_book": [
+     435,
+     450
+    ],
+    "lo_chunk": "c9702_v1_u0_c28_pdf447_1271"
+   },
+   "flags": [
+    "no_title_match"
+   ]
+  },
+  {
+   "chapter_key": "u0:c29",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Alternating currents",
+   "spec_refs": {
+    "topic": {
+     "code": "CIE_A_LEVEL_PHYSICS_2025_2027-T21",
+     "number": "21",
+     "title": "Alternating currents",
+     "basis": "J5_EQUAL"
+    },
+    "subsections": [
+     {
+      "code": "21.1",
+      "title": "Characteristics of alternating currents"
+     },
+     {
+      "code": "21.2",
+      "title": "Rectification and smoothing"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c29_pdf463_1320",
+     "c9702_v1_u0_c29_pdf464_1321",
+     "c9702_v1_u0_c29_pdf464_1322",
+     "c9702_v1_u0_c29_pdf464_1323",
+     "c9702_v1_u0_c29_pdf464_1324",
+     "c9702_v1_u0_c29_pdf465_1325",
+     "c9702_v1_u0_c29_pdf465_1326",
+     "c9702_v1_u0_c29_pdf465_1327",
+     "c9702_v1_u0_c29_pdf465_1328",
+     "c9702_v1_u0_c29_pdf466_1329",
+     "c9702_v1_u0_c29_pdf466_1330",
+     "c9702_v1_u0_c29_pdf466_1331",
+     "c9702_v1_u0_c29_pdf467_1332",
+     "c9702_v1_u0_c29_pdf467_1333",
+     "c9702_v1_u0_c29_pdf468_1334",
+     "c9702_v1_u0_c29_pdf468_1335",
+     "c9702_v1_u0_c29_pdf468_1336",
+     "c9702_v1_u0_c29_pdf469_1337",
+     "c9702_v1_u0_c29_pdf469_1338",
+     "c9702_v1_u0_c29_pdf469_1339",
+     "c9702_v1_u0_c29_pdf469_1340",
+     "c9702_v1_u0_c29_pdf470_1341",
+     "c9702_v1_u0_c29_pdf470_1342",
+     "c9702_v1_u0_c29_pdf470_1343",
+     "c9702_v1_u0_c29_pdf470_1344",
+     "c9702_v1_u0_c29_pdf471_1345",
+     "c9702_v1_u0_c29_pdf471_1346",
+     "c9702_v1_u0_c29_pdf471_1347",
+     "c9702_v1_u0_c29_pdf471_1348",
+     "c9702_v1_u0_c29_pdf472_1349",
+     "c9702_v1_u0_c29_pdf472_1350",
+     "c9702_v1_u0_c29_pdf473_1351",
+     "c9702_v1_u0_c29_pdf473_1352",
+     "c9702_v1_u0_c29_pdf474_1353",
+     "c9702_v1_u0_c29_pdf474_1354",
+     "c9702_v1_u0_c29_pdf475_1355",
+     "c9702_v1_u0_c29_pdf476_1356",
+     "c9702_v1_u0_c29_pdf477_1357"
+    ],
+    "n_chunks": 38,
+    "page_range_pdf": [
+     463,
+     477
+    ],
+    "page_range_book": [
+     451,
+     465
+    ],
+    "lo_chunk": "c9702_v1_u0_c29_pdf463_1320"
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u0:c30",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Quantum physics",
+   "spec_refs": {
+    "topic": {
+     "code": "CIE_A_LEVEL_PHYSICS_2025_2027-T22",
+     "number": "22",
+     "title": "Quantum physics",
+     "basis": "J5_EQUAL"
+    },
+    "subsections": [
+     {
+      "code": "22.1",
+      "title": "Energy and momentum of a photon"
+     },
+     {
+      "code": "22.2",
+      "title": "Photoelectric effect"
+     },
+     {
+      "code": "22.3",
+      "title": "Wave-particle duality"
+     },
+     {
+      "code": "22.4",
+      "title": "Energy levels in atoms and line spectra"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c30_pdf478_1358",
+     "c9702_v1_u0_c30_pdf479_1359",
+     "c9702_v1_u0_c30_pdf479_1360",
+     "c9702_v1_u0_c30_pdf479_1361",
+     "c9702_v1_u0_c30_pdf479_1362",
+     "c9702_v1_u0_c30_pdf480_1363",
+     "c9702_v1_u0_c30_pdf480_1364",
+     "c9702_v1_u0_c30_pdf480_1365",
+     "c9702_v1_u0_c30_pdf480_1366",
+     "c9702_v1_u0_c30_pdf481_1367",
+     "c9702_v1_u0_c30_pdf481_1368",
+     "c9702_v1_u0_c30_pdf481_1369",
+     "c9702_v1_u0_c30_pdf481_1370",
+     "c9702_v1_u0_c30_pdf482_1371",
+     "c9702_v1_u0_c30_pdf482_1372",
+     "c9702_v1_u0_c30_pdf482_1373",
+     "c9702_v1_u0_c30_pdf482_1374",
+     "c9702_v1_u0_c30_pdf483_1375",
+     "c9702_v1_u0_c30_pdf483_1376",
+     "c9702_v1_u0_c30_pdf483_1377",
+     "c9702_v1_u0_c30_pdf483_1378",
+     "c9702_v1_u0_c30_pdf484_1379",
+     "c9702_v1_u0_c30_pdf484_1380",
+     "c9702_v1_u0_c30_pdf484_1381",
+     "c9702_v1_u0_c30_pdf485_1382",
+     "c9702_v1_u0_c30_pdf485_1383",
+     "c9702_v1_u0_c30_pdf485_1384",
+     "c9702_v1_u0_c30_pdf486_1385",
+     "c9702_v1_u0_c30_pdf486_1386",
+     "c9702_v1_u0_c30_pdf486_1387",
+     "c9702_v1_u0_c30_pdf487_1388",
+     "c9702_v1_u0_c30_pdf487_1389",
+     "c9702_v1_u0_c30_pdf487_1390",
+     "c9702_v1_u0_c30_pdf488_1391",
+     "c9702_v1_u0_c30_pdf488_1392",
+     "c9702_v1_u0_c30_pdf488_1393",
+     "c9702_v1_u0_c30_pdf489_1394",
+     "c9702_v1_u0_c30_pdf489_1395",
+     "c9702_v1_u0_c30_pdf489_1396",
+     "c9702_v1_u0_c30_pdf490_1397",
+     "c9702_v1_u0_c30_pdf490_1398",
+     "c9702_v1_u0_c30_pdf490_1399",
+     "c9702_v1_u0_c30_pdf490_1400",
+     "c9702_v1_u0_c30_pdf491_1401",
+     "c9702_v1_u0_c30_pdf491_1402",
+     "c9702_v1_u0_c30_pdf491_1403",
+     "c9702_v1_u0_c30_pdf492_1404",
+     "c9702_v1_u0_c30_pdf492_1405",
+     "c9702_v1_u0_c30_pdf492_1406",
+     "c9702_v1_u0_c30_pdf492_1407",
+     "c9702_v1_u0_c30_pdf493_1408",
+     "c9702_v1_u0_c30_pdf493_1409",
+     "c9702_v1_u0_c30_pdf494_1410",
+     "c9702_v1_u0_c30_pdf494_1411",
+     "c9702_v1_u0_c30_pdf494_1412",
+     "c9702_v1_u0_c30_pdf494_1413",
+     "c9702_v1_u0_c30_pdf494_1414",
+     "c9702_v1_u0_c30_pdf495_1415",
+     "c9702_v1_u0_c30_pdf495_1416",
+     "c9702_v1_u0_c30_pdf496_1417",
+     "c9702_v1_u0_c30_pdf496_1418",
+     "c9702_v1_u0_c30_pdf497_1419",
+     "c9702_v1_u0_c30_pdf498_1420",
+     "c9702_v1_u0_c30_pdf499_1421",
+     "c9702_v1_u0_c30_pdf500_1422"
+    ],
+    "n_chunks": 65,
+    "page_range_pdf": [
+     478,
+     500
+    ],
+    "page_range_book": [
+     466,
+     488
+    ],
+    "lo_chunk": "c9702_v1_u0_c30_pdf478_1358"
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u0:c31",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Nuclear physics",
+   "spec_refs": {
+    "topic": {
+     "code": "CIE_A_LEVEL_PHYSICS_2025_2027-T23",
+     "number": "23",
+     "title": "Nuclear physics",
+     "basis": "J5_EQUAL"
+    },
+    "subsections": [
+     {
+      "code": "23.1",
+      "title": "Mass defect and nuclear binding energy"
+     },
+     {
+      "code": "23.2",
+      "title": "Radioactive decay"
+     }
+    ],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "JOIN_TOPIC",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c31_pdf501_1423",
+     "c9702_v1_u0_c31_pdf502_1424",
+     "c9702_v1_u0_c31_pdf502_1425",
+     "c9702_v1_u0_c31_pdf502_1426",
+     "c9702_v1_u0_c31_pdf503_1427",
+     "c9702_v1_u0_c31_pdf503_1428",
+     "c9702_v1_u0_c31_pdf503_1429",
+     "c9702_v1_u0_c31_pdf504_1430",
+     "c9702_v1_u0_c31_pdf504_1431",
+     "c9702_v1_u0_c31_pdf504_1432",
+     "c9702_v1_u0_c31_pdf504_1433",
+     "c9702_v1_u0_c31_pdf505_1434",
+     "c9702_v1_u0_c31_pdf505_1435",
+     "c9702_v1_u0_c31_pdf505_1436",
+     "c9702_v1_u0_c31_pdf506_1437",
+     "c9702_v1_u0_c31_pdf506_1438",
+     "c9702_v1_u0_c31_pdf506_1439",
+     "c9702_v1_u0_c31_pdf506_1440",
+     "c9702_v1_u0_c31_pdf506_1441",
+     "c9702_v1_u0_c31_pdf506_1442",
+     "c9702_v1_u0_c31_pdf507_1443",
+     "c9702_v1_u0_c31_pdf507_1444",
+     "c9702_v1_u0_c31_pdf508_1445",
+     "c9702_v1_u0_c31_pdf508_1446",
+     "c9702_v1_u0_c31_pdf508_1447",
+     "c9702_v1_u0_c31_pdf508_1448",
+     "c9702_v1_u0_c31_pdf508_1449",
+     "c9702_v1_u0_c31_pdf508_1450",
+     "c9702_v1_u0_c31_pdf508_1451",
+     "c9702_v1_u0_c31_pdf509_1452",
+     "c9702_v1_u0_c31_pdf509_1453",
+     "c9702_v1_u0_c31_pdf509_1454",
+     "c9702_v1_u0_c31_pdf509_1455",
+     "c9702_v1_u0_c31_pdf509_1456",
+     "c9702_v1_u0_c31_pdf510_1457",
+     "c9702_v1_u0_c31_pdf510_1458",
+     "c9702_v1_u0_c31_pdf510_1459",
+     "c9702_v1_u0_c31_pdf510_1460",
+     "c9702_v1_u0_c31_pdf511_1461",
+     "c9702_v1_u0_c31_pdf511_1462",
+     "c9702_v1_u0_c31_pdf511_1463",
+     "c9702_v1_u0_c31_pdf512_1464",
+     "c9702_v1_u0_c31_pdf512_1465",
+     "c9702_v1_u0_c31_pdf513_1466",
+     "c9702_v1_u0_c31_pdf513_1467",
+     "c9702_v1_u0_c31_pdf514_1468",
+     "c9702_v1_u0_c31_pdf514_1469",
+     "c9702_v1_u0_c31_pdf514_1470",
+     "c9702_v1_u0_c31_pdf515_1471",
+     "c9702_v1_u0_c31_pdf516_1472",
+     "c9702_v1_u0_c31_pdf517_1473"
+    ],
+    "n_chunks": 51,
+    "page_range_pdf": [
+     501,
+     517
+    ],
+    "page_range_book": [
+     489,
+     505
+    ],
+    "lo_chunk": "c9702_v1_u0_c31_pdf501_1423"
+   },
+   "flags": []
+  },
+  {
+   "chapter_key": "u0:c32",
+   "book_key": "9702-coursebook",
+   "chapter_title": "Medical imaging",
+   "spec_refs": {
+    "topic": null,
+    "subsections": [],
+    "points": []
+   },
+   "join_key": "J5_TITLE_ADJUDICATED",
+   "verdict": "NO_TOPIC_MAPPING",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c32_pdf518_1474",
+     "c9702_v1_u0_c32_pdf519_1475",
+     "c9702_v1_u0_c32_pdf519_1476",
+     "c9702_v1_u0_c32_pdf519_1477",
+     "c9702_v1_u0_c32_pdf519_1478",
+     "c9702_v1_u0_c32_pdf520_1479",
+     "c9702_v1_u0_c32_pdf520_1480",
+     "c9702_v1_u0_c32_pdf520_1481",
+     "c9702_v1_u0_c32_pdf521_1482",
+     "c9702_v1_u0_c32_pdf521_1483",
+     "c9702_v1_u0_c32_pdf521_1484",
+     "c9702_v1_u0_c32_pdf521_1485",
+     "c9702_v1_u0_c32_pdf521_1486",
+     "c9702_v1_u0_c32_pdf522_1487",
+     "c9702_v1_u0_c32_pdf522_1488",
+     "c9702_v1_u0_c32_pdf522_1489",
+     "c9702_v1_u0_c32_pdf522_1490",
+     "c9702_v1_u0_c32_pdf523_1491",
+     "c9702_v1_u0_c32_pdf523_1492",
+     "c9702_v1_u0_c32_pdf523_1493",
+     "c9702_v1_u0_c32_pdf523_1494",
+     "c9702_v1_u0_c32_pdf524_1495",
+     "c9702_v1_u0_c32_pdf524_1496",
+     "c9702_v1_u0_c32_pdf525_1497",
+     "c9702_v1_u0_c32_pdf525_1498",
+     "c9702_v1_u0_c32_pdf525_1499",
+     "c9702_v1_u0_c32_pdf525_1500",
+     "c9702_v1_u0_c32_pdf526_1501",
+     "c9702_v1_u0_c32_pdf526_1502",
+     "c9702_v1_u0_c32_pdf526_1503",
+     "c9702_v1_u0_c32_pdf527_1504",
+     "c9702_v1_u0_c32_pdf527_1505",
+     "c9702_v1_u0_c32_pdf528_1506",
+     "c9702_v1_u0_c32_pdf528_1507",
+     "c9702_v1_u0_c32_pdf528_1508",
+     "c9702_v1_u0_c32_pdf528_1509",
+     "c9702_v1_u0_c32_pdf528_1510",
+     "c9702_v1_u0_c32_pdf528_1511",
+     "c9702_v1_u0_c32_pdf529_1512",
+     "c9702_v1_u0_c32_pdf529_1513",
+     "c9702_v1_u0_c32_pdf529_1514",
+     "c9702_v1_u0_c32_pdf530_1515",
+     "c9702_v1_u0_c32_pdf530_1516",
+     "c9702_v1_u0_c32_pdf530_1517",
+     "c9702_v1_u0_c32_pdf530_1518",
+     "c9702_v1_u0_c32_pdf530_1519",
+     "c9702_v1_u0_c32_pdf531_1520",
+     "c9702_v1_u0_c32_pdf531_1521",
+     "c9702_v1_u0_c32_pdf531_1522",
+     "c9702_v1_u0_c32_pdf531_1523",
+     "c9702_v1_u0_c32_pdf532_1524",
+     "c9702_v1_u0_c32_pdf532_1525",
+     "c9702_v1_u0_c32_pdf532_1526",
+     "c9702_v1_u0_c32_pdf533_1527",
+     "c9702_v1_u0_c32_pdf533_1528",
+     "c9702_v1_u0_c32_pdf533_1529",
+     "c9702_v1_u0_c32_pdf533_1530",
+     "c9702_v1_u0_c32_pdf533_1531",
+     "c9702_v1_u0_c32_pdf534_1532",
+     "c9702_v1_u0_c32_pdf534_1533",
+     "c9702_v1_u0_c32_pdf534_1534",
+     "c9702_v1_u0_c32_pdf534_1535",
+     "c9702_v1_u0_c32_pdf535_1536",
+     "c9702_v1_u0_c32_pdf535_1537",
+     "c9702_v1_u0_c32_pdf536_1538",
+     "c9702_v1_u0_c32_pdf536_1539",
+     "c9702_v1_u0_c32_pdf536_1540",
+     "c9702_v1_u0_c32_pdf536_1541",
+     "c9702_v1_u0_c32_pdf536_1542",
+     "c9702_v1_u0_c32_pdf537_1543",
+     "c9702_v1_u0_c32_pdf537_1544",
+     "c9702_v1_u0_c32_pdf538_1545",
+     "c9702_v1_u0_c32_pdf538_1546",
+     "c9702_v1_u0_c32_pdf538_1547",
+     "c9702_v1_u0_c32_pdf539_1548",
+     "c9702_v1_u0_c32_pdf540_1549"
+    ],
+    "n_chunks": 76,
+    "page_range_pdf": [
+     518,
+     540
+    ],
+    "page_range_book": [
+     506,
+     528
+    ],
+    "lo_chunk": "c9702_v1_u0_c32_pdf518_1474"
+   },
+   "flags": [
+    "no_title_match"
+   ]
+  }
+ ],
+ "coverage": {
+  "chapters_total": 32,
+  "chapters_mapped": 15,
+  "unmatched_chapters": 17,
+  "unmatched_chapter_titles": [
+   "Accelerated motion",
+   "Forces – vectors and moments",
+   "Momentum",
+   "Matter and materials",
+   "Electric current, potential difference and resistance",
+   "Kirchhoff’s laws",
+   "Resistance and resistivity",
+   "Practical circuits",
+   "Radioactivity",
+   "Circular motion",
+   "Communications systems",
+   "Thermal physics",
+   "Coulomb’s law",
+   "Electronics",
+   "Charged particles",
+   "Electromagnetic induction",
+   "Medical imaging"
+  ],
+  "topics_covered": 14,
+  "topics_total": 25,
+  "topics_covered_note": "title-evidenced coverage at the topic level under N-2c (honest UNMATCHED rows carried, no number-identity fabrication, no semantic repair); the unmatched chapter set needs the 3rd-ed upgrade corpus or an operator-ordered semantic lane",
+  "subsections_listed": 51,
+  "subsections_distinct_covered": 46,
+  "subsections_total": 76,
+  "points_keyed": 1,
+  "points_total": 303,
+  "points_keyed_note": "the N-4 family amendment: the CIE coursebook family prints no spec-reference codes (J2/J3 honest zeros under the full law stack, P4/P4b/P4c evidence); the J4 TEXT route carries exactly one verbatim equality (c11 'state Ohm's law' == 9.3.5, LO chunk pinned); point-level serving consumes the topic-level spine plus this single keyed point"
+ },
+ "generated_utc": "2026-11-20T00:00:00Z",
+ "generator": "agent:scripts/wf11_emit.py (W-F11-T2 build per the W-F11-T1 design of record, laws N-1..N-9; repo-side scripts/book_layer/ generator proposed, not installed)",
+ "inputs": {
+  "head": "9605a43a9e7a911da86a350fe85d1008b97e76b7",
+  "corpus": {
+   "path": "books/cambridge-international/ial/physics/9702/parsed/cie_a_level_physics_9702_chunks_v1.jsonl",
+   "blob": "980210bca91dcd84328ea7c629c2f03767518bc5"
+  },
+  "topics": {
+   "path": "Official-Specifications/parsed/cie-a-level-physics-2025-2027/topics.json",
+   "blob": "14c4a8bfbcdb8677b796ae1e5399f950fd0222ee"
+  },
+  "points": {
+   "path": "Official-Specifications/parsed/cie-a-level-physics-2025-2027/spec_points.json",
+   "blob": "7a6dcbbb541e6d89da97f3ac693b4daf82f798c6"
+  },
+  "lane_readme": {
+   "path": "books/cambridge-international/ial/physics/9702/README.md",
+   "blob": "9d02aabef326ec44fbb10bbc358d2edd6eebbf75"
+  },
+  "probe_of_record": "cache/w-f11/probe.json",
+  "design_of_record": "receipts/W-F11/W-F11-T1-design-of-record.md"
+ }
+}

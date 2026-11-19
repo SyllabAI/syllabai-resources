@@ -1,0 +1,893 @@
+{
+ "schema": "syllabai.book-structure/1.0",
+ "qual": "cie-a-level-physics-2025-2027",
+ "book": {
+  "key": "9702-coursebook",
+  "lane": "books/cambridge-international/ial/physics/9702",
+  "title": "Cambridge International AS and A Level Physics Coursebook (2nd edition)",
+  "authors_printed": [
+   "David Sang",
+   "Graham Jones",
+   "Gurinder Chadha",
+   "Richard Woodside"
+  ],
+  "source_pdf": "books/cambridge-international/ial/physics/9702/source/student-book.pdf",
+  "sha256": "fa3e5ed25da0c3c1217959d50144e8e7291d09851ad8298bda5df2839e097ae6",
+  "pdf_pages": 744,
+  "page_law": "book = pdf - 12 (verified 4 ways at parse, W-F9 of record); corpus-registered book-page frames carried as printed",
+  "corpus": {
+   "chunks_jsonl": "books/cambridge-international/ial/physics/9702/parsed/cie_a_level_physics_9702_chunks_v1.jsonl",
+   "blob": "980210bca91dcd84328ea7c629c2f03767518bc5",
+   "n_chunks": 2046,
+   "prefix_id_law": "c9702_v1_u{unit|0}_c{chapter|0}_pdf{pdfpage:03d}_{n:04d}"
+  },
+  "catalog_rows": [
+   "CATALOG section 2 #5",
+   "CATALOG section 4.3 A-Level Physics 9702"
+  ]
+ },
+ "provenance_tiers": {
+  "CORPUS_REGISTERED": "the W-F9 parse of record (trace 1a1f4951330253b5, validator ALL CHECKS PASSED, determinism byte-identical)"
+ },
+ "units": [],
+ "chapters": [
+  {
+   "key": "u0:c1",
+   "title": "Kinematics – describing motion",
+   "page_range_pdf": [
+    13,
+    25
+   ],
+   "page_range_book": [
+    1,
+    13
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c1_pdf013_0016",
+     "c9702_v1_u0_c1_pdf014_0017"
+    ],
+    "opener_page": 13
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c2",
+   "title": "Accelerated motion",
+   "page_range_pdf": [
+    26,
+    48
+   ],
+   "page_range_book": [
+    14,
+    36
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c2_pdf026_0056",
+     "c9702_v1_u0_c2_pdf027_0057"
+    ],
+    "opener_page": 26
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c3",
+   "title": "Dynamics – explaining motion",
+   "page_range_pdf": [
+    49,
+    64
+   ],
+   "page_range_book": [
+    37,
+    52
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c3_pdf049_0126",
+     "c9702_v1_u0_c3_pdf050_0127"
+    ],
+    "opener_page": 49
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c4",
+   "title": "Forces – vectors and moments",
+   "page_range_pdf": [
+    65,
+    80
+   ],
+   "page_range_book": [
+    53,
+    68
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c4_pdf065_0180",
+     "c9702_v1_u0_c4_pdf066_0181"
+    ],
+    "opener_page": 65
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c5",
+   "title": "Work, energy and power",
+   "page_range_pdf": [
+    81,
+    96
+   ],
+   "page_range_book": [
+    69,
+    84
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c5_pdf081_0215",
+     "c9702_v1_u0_c5_pdf082_0216"
+    ],
+    "opener_page": 81
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c6",
+   "title": "Momentum",
+   "page_range_pdf": [
+    97,
+    112
+   ],
+   "page_range_book": [
+    85,
+    100
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c6_pdf097_0267",
+     "c9702_v1_u0_c6_pdf098_0268"
+    ],
+    "opener_page": 97
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c7",
+   "title": "Matter and materials",
+   "page_range_pdf": [
+    113,
+    127
+   ],
+   "page_range_book": [
+    101,
+    115
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c7_pdf113_0316",
+     "c9702_v1_u0_c7_pdf114_0317"
+    ],
+    "opener_page": 113
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c8",
+   "title": "Electric fields",
+   "page_range_pdf": [
+    128,
+    138
+   ],
+   "page_range_book": [
+    116,
+    126
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c8_pdf128_0353",
+     "c9702_v1_u0_c8_pdf129_0354"
+    ],
+    "opener_page": 128
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c9",
+   "title": "Electric current, potential difference and resistance",
+   "page_range_pdf": [
+    139,
+    154
+   ],
+   "page_range_book": [
+    127,
+    142
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c9_pdf139_0379",
+     "c9702_v1_u0_c9_pdf140_0380"
+    ],
+    "opener_page": 139
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c10",
+   "title": "Kirchhoff’s laws",
+   "page_range_pdf": [
+    155,
+    167
+   ],
+   "page_range_book": [
+    143,
+    155
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c10_pdf155_0423",
+     "c9702_v1_u0_c10_pdf156_0424"
+    ],
+    "opener_page": 155
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c11",
+   "title": "Resistance and resistivity",
+   "page_range_pdf": [
+    168,
+    179
+   ],
+   "page_range_book": [
+    156,
+    167
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c11_pdf168_0457",
+     "c9702_v1_u0_c11_pdf169_0458"
+    ],
+    "opener_page": 168
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c12",
+   "title": "Practical circuits",
+   "page_range_pdf": [
+    180,
+    189
+   ],
+   "page_range_book": [
+    168,
+    177
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c12_pdf180_0488",
+     "c9702_v1_u0_c12_pdf181_0489"
+    ],
+    "opener_page": 180
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c13",
+   "title": "Waves",
+   "page_range_pdf": [
+    190,
+    203
+   ],
+   "page_range_book": [
+    178,
+    191
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c13_pdf190_0512",
+     "c9702_v1_u0_c13_pdf191_0513"
+    ],
+    "opener_page": 190
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c14",
+   "title": "Superposition of waves",
+   "page_range_pdf": [
+    204,
+    221
+   ],
+   "page_range_book": [
+    192,
+    209
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c14_pdf204_0557",
+     "c9702_v1_u0_c14_pdf205_0558"
+    ],
+    "opener_page": 204
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c15",
+   "title": "Stationary waves",
+   "page_range_pdf": [
+    222,
+    233
+   ],
+   "page_range_book": [
+    210,
+    221
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c15_pdf222_0614",
+     "c9702_v1_u0_c15_pdf223_0615"
+    ],
+    "opener_page": 222
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c16",
+   "title": "Radioactivity",
+   "page_range_pdf": [
+    234,
+    250
+   ],
+   "page_range_book": [
+    222,
+    238
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c16_pdf234_0642",
+     "c9702_v1_u0_c16_pdf235_0643"
+    ],
+    "opener_page": 234
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c17",
+   "title": "Circular motion",
+   "page_range_pdf": [
+    270,
+    282
+   ],
+   "page_range_book": [
+    258,
+    270
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c17_pdf270_0763",
+     "c9702_v1_u0_c17_pdf271_0764"
+    ],
+    "opener_page": 270
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c18",
+   "title": "Gravitational fields",
+   "page_range_pdf": [
+    283,
+    296
+   ],
+   "page_range_book": [
+    271,
+    284
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c18_pdf283_0799",
+     "c9702_v1_u0_c18_pdf284_0800"
+    ],
+    "opener_page": 283
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c19",
+   "title": "Oscillations",
+   "page_range_pdf": [
+    297,
+    320
+   ],
+   "page_range_book": [
+    285,
+    308
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c19_pdf297_0840",
+     "c9702_v1_u0_c19_pdf298_0841"
+    ],
+    "opener_page": 297
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c20",
+   "title": "Communications systems",
+   "page_range_pdf": [
+    321,
+    338
+   ],
+   "page_range_book": [
+    309,
+    326
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c20_pdf321_0903",
+     "c9702_v1_u0_c20_pdf322_0904"
+    ],
+    "opener_page": 321
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c21",
+   "title": "Thermal physics",
+   "page_range_pdf": [
+    339,
+    356
+   ],
+   "page_range_book": [
+    327,
+    344
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c21_pdf339_0958",
+     "c9702_v1_u0_c21_pdf340_0959"
+    ],
+    "opener_page": 339
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c22",
+   "title": "Ideal gases",
+   "page_range_pdf": [
+    357,
+    370
+   ],
+   "page_range_book": [
+    345,
+    358
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c22_pdf357_1012",
+     "c9702_v1_u0_c22_pdf358_1013"
+    ],
+    "opener_page": 357
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c23",
+   "title": "Coulomb’s law",
+   "page_range_pdf": [
+    371,
+    383
+   ],
+   "page_range_book": [
+    359,
+    371
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c23_pdf371_1058",
+     "c9702_v1_u0_c23_pdf372_1059"
+    ],
+    "opener_page": 371
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c24",
+   "title": "Capacitance",
+   "page_range_pdf": [
+    384,
+    397
+   ],
+   "page_range_book": [
+    372,
+    385
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c24_pdf384_1093",
+     "c9702_v1_u0_c24_pdf385_1094"
+    ],
+    "opener_page": 384
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c25",
+   "title": "Electronics",
+   "page_range_pdf": [
+    398,
+    417
+   ],
+   "page_range_book": [
+    386,
+    405
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c25_pdf398_1137",
+     "c9702_v1_u0_c25_pdf399_1138"
+    ],
+    "opener_page": 398
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c26",
+   "title": "Magnetic fields and electromagnetism",
+   "page_range_pdf": [
+    418,
+    433
+   ],
+   "page_range_book": [
+    406,
+    421
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c26_pdf418_1193",
+     "c9702_v1_u0_c26_pdf419_1194"
+    ],
+    "opener_page": 418
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c27",
+   "title": "Charged particles",
+   "page_range_pdf": [
+    434,
+    446
+   ],
+   "page_range_book": [
+    422,
+    434
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c27_pdf434_1236",
+     "c9702_v1_u0_c27_pdf435_1237"
+    ],
+    "opener_page": 434
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c28",
+   "title": "Electromagnetic induction",
+   "page_range_pdf": [
+    447,
+    462
+   ],
+   "page_range_book": [
+    435,
+    450
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c28_pdf447_1271",
+     "c9702_v1_u0_c28_pdf448_1272"
+    ],
+    "opener_page": 447
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c29",
+   "title": "Alternating currents",
+   "page_range_pdf": [
+    463,
+    477
+   ],
+   "page_range_book": [
+    451,
+    465
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c29_pdf463_1320",
+     "c9702_v1_u0_c29_pdf464_1321"
+    ],
+    "opener_page": 463
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c30",
+   "title": "Quantum physics",
+   "page_range_pdf": [
+    478,
+    500
+   ],
+   "page_range_book": [
+    466,
+    488
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c30_pdf478_1358",
+     "c9702_v1_u0_c30_pdf479_1359"
+    ],
+    "opener_page": 478
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c31",
+   "title": "Nuclear physics",
+   "page_range_pdf": [
+    501,
+    517
+   ],
+   "page_range_book": [
+    489,
+    505
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c31_pdf501_1423",
+     "c9702_v1_u0_c31_pdf502_1424"
+    ],
+    "opener_page": 501
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c32",
+   "title": "Medical imaging",
+   "page_range_pdf": [
+    518,
+    540
+   ],
+   "page_range_book": [
+    506,
+    528
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9702_v1_u0_c32_pdf518_1474",
+     "c9702_v1_u0_c32_pdf519_1475"
+    ],
+    "opener_page": 518
+   },
+   "flags": []
+  }
+ ],
+ "non_lesson_sections": [
+  {
+   "title": "Front matter (cover, contents, introduction, how to use this book)",
+   "page_range_pdf": [
+    1,
+    11
+   ],
+   "n_chunks": 15,
+   "content_types": [
+    "front_matter"
+   ]
+  },
+  {
+   "title": "P1 Practical skills at AS level",
+   "page_range_pdf": [
+    251,
+    269
+   ],
+   "n_chunks": 61,
+   "content_types": [
+    "body",
+    "chapter_questions",
+    "learning_outcomes",
+    "questions",
+    "worked_example"
+   ]
+  },
+  {
+   "title": "P2 Planning, analysis and evaluation",
+   "page_range_pdf": [
+    541,
+    553
+   ],
+   "n_chunks": 39,
+   "content_types": [
+    "body",
+    "chapter_questions",
+    "learning_outcomes",
+    "questions",
+    "worked_example"
+   ]
+  },
+  {
+   "title": "Appendix 1: Physical quantities and units",
+   "page_range_pdf": [
+    554,
+    554
+   ],
+   "n_chunks": 4,
+   "content_types": [
+    "appendix"
+   ]
+  },
+  {
+   "title": "Appendix 2: Data, formulae and relationships",
+   "page_range_pdf": [
+    555,
+    556
+   ],
+   "n_chunks": 4,
+   "content_types": [
+    "appendix"
+   ]
+  },
+  {
+   "title": "Appendix 3: The Periodic Table",
+   "page_range_pdf": [
+    557,
+    557
+   ],
+   "n_chunks": 3,
+   "content_types": [
+    "appendix"
+   ]
+  },
+  {
+   "title": "Glossary",
+   "page_range_pdf": [
+    558,
+    566
+   ],
+   "n_chunks": 30,
+   "content_types": [
+    "glossary"
+   ]
+  },
+  {
+   "title": "Index",
+   "page_range_pdf": [
+    567,
+    575
+   ],
+   "n_chunks": 17,
+   "content_types": [
+    "index"
+   ]
+  },
+  {
+   "title": "Acknowledgements",
+   "page_range_pdf": [
+    576,
+    576
+   ],
+   "n_chunks": 4,
+   "content_types": [
+    "acknowledgements"
+   ]
+  },
+  {
+   "title": "Advice on how to revise for and approach examinations",
+   "page_range_pdf": [
+    577,
+    584
+   ],
+   "n_chunks": 22,
+   "content_types": [
+    "exam_advice"
+   ]
+  },
+  {
+   "title": "Introduction to the examination and changes to the syllabus",
+   "page_range_pdf": [
+    585,
+    587
+   ],
+   "n_chunks": 11,
+   "content_types": [
+    "exam_advice"
+   ]
+  },
+  {
+   "title": "Answers to SAQs",
+   "page_range_pdf": [
+    588,
+    645
+   ],
+   "n_chunks": 151,
+   "content_types": [
+    "answers_saqs"
+   ]
+  },
+  {
+   "title": "Answers to EOC questions",
+   "page_range_pdf": [
+    646,
+    711
+   ],
+   "n_chunks": 168,
+   "content_types": [
+    "answers_eoc"
+   ]
+  },
+  {
+   "title": "Recommended resources",
+   "page_range_pdf": [
+    712,
+    743
+   ],
+   "n_chunks": 44,
+   "content_types": [
+    "recommended_resources"
+   ]
+  }
+ ],
+ "notes": [
+  "single-unit corpus (u0): the parse carries no AS/A2 unit law — scope is carried from the spec side per point (AS Level / A Level)",
+  "P1 Practical skills at AS level (pdf 251-269) sits exactly in the c16->c17 gap (c16 ends pdf 250, c17 starts pdf 270) — the N-9 P1-in-gap tile law repeating (the W-F10 9700 precedent); P2 Planning, analysis and evaluation at pdf 541-553 after c32 — both route to the practicals lane (the W-F7 CP-routing analog; spec practicals of record = the graph practicals.yaml lane)",
+  "EOC sets anchored 32/32 (37 chapter_questions chunks — c12 and c21 each carry a second set; P1/P2 carry 3 cx question chunks) per the W-F9 parse of record",
+  "edition law: 2nd ed (2016 syllabus line) vs the 2025-2027 spec lane — the revision RESTRUCTURED the topic map (25 topics vs 32 chapters); the 3rd ed (ISBN 9781108859035) remains the upgrade candidate of record (CATALOG section 4.3)",
+  "damage census (W-F9 parse report): fi-glue 101 / fl-glue 33 / double-space 596 / ligature-char 2 — the N-1 ligature fold applies on both sides of every title/point comparison"
+ ],
+ "generated_utc": "2026-11-20T00:00:00Z",
+ "generator": "agent:scripts/wf11_emit.py (W-F11-T2 build per the W-F11-T1 design of record, laws N-1..N-9; repo-side scripts/book_layer/ generator proposed, not installed)",
+ "inputs": {
+  "head": "9605a43a9e7a911da86a350fe85d1008b97e76b7",
+  "corpus": {
+   "path": "books/cambridge-international/ial/physics/9702/parsed/cie_a_level_physics_9702_chunks_v1.jsonl",
+   "blob": "980210bca91dcd84328ea7c629c2f03767518bc5"
+  },
+  "lane_readme": {
+   "path": "books/cambridge-international/ial/physics/9702/README.md",
+   "blob": "9d02aabef326ec44fbb10bbc358d2edd6eebbf75"
+  },
+  "probe_of_record": "cache/w-f11/probe.json",
+  "design_of_record": "receipts/W-F11/W-F11-T1-design-of-record.md"
+ }
+}
