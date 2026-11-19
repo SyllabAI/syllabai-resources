@@ -1,0 +1,16 @@
+{
+ "schema": "syllabai.owner-review-verdicts/2",
+ "task": "T-VIDEOMAP-P16 (lit-21 opening lane: owner decision 2026-11-20 \"open lit-21\" — the P12 terminal declaration overturned for cie-igcse-english-literature-21; the 252 RESERVED lit-0475 titles (P14 IGCSESUCCESS 9 + P15 Claire's Notes 243) adjudicated onto the freshly opened course)",
+ "course": "cie-igcse-english-literature-21",
+ "ruledUtc": "2026-11-20T00:00:00Z",
+ "source": "delegated self-review — owner chat 2026-11-09 \"approve and review yourself\"; the lit-21 decision point carried RESERVED through P14 (9 titles) and P15 (243 titles); owner decision 2026-11-20 \"open lit-21\"; judgment run 2026-11-20",
+ "default": "keep",
+ "reviewer": "delegated self-review (agent, per owner chat 2026-11-09 \"approve and review yourself\"; lit-21 owner decision 2026-11-20 \"open lit-21\" — judgment run 2026-11-20)",
+ "evidenceBasis": "Identity: oEmbed sweep 100/100 kept videos author_name == channel-of-record via the committed inventories' UC ids (0 mismatch, 0 dead, 0 thumbnail fallbacks). Class W binds: suffix-anchored set-text matching (span == work, or span ends with the work at a word boundary, or the title dropped a leading article) with author cross-check where the title names an author; multi-year occurrences bound together and disclosed per row (the P13 shared-unit precedent); scene-by-scene commentary (Othello x23, A Midsummer Night's Dream x5, Journey's End x8, Twelfth Night x2) binds the play's set-text spec points per examination year; multi-work tips rows (x3) bound as ONE multi-spec row at low per the four-gate topic-lecture class analog. Skips ledgered with reasons (152 in scripts/p16/skips.json by class: {\"character-study title without a set-text token\": 15, \"guidance/skills register\": 15, \"out-of-spine board register\": 16, \"work not on the 2023-2025 set-text lists\": 106}); the character-study class (Malvolio/Caliban/Sybil Birling) carries no machine-checkable set-text token and no-binding is honest. Reserved-set lineage: P14 IGCSESUCCESS 0475 x9 re-derived by the committed p14_judgment.py predicate (2 keeps: Wind -> the three Hughes pair-lines, A Streetcar Named Desire -> the 2024/2025 drama specs; 7 honest skips incl. the two guidance titles) + P15 Claire's Notes x243 (scripts/p15/reserved.json == the pool, ids == inventory) — exactly-once disposition of all 252, 0 collisions machine-checked. The P12 terminal declaration is overturned for this course only by the owner's 2026-11-20 decision; the other ten terminal courses are untouched.",
+ "rejects": [],
+ "applied": {
+  "rowsApproved": 100,
+  "rowsRejected": 0,
+  "appliedUtc": "2026-11-20T00:00:00Z"
+ }
+}
