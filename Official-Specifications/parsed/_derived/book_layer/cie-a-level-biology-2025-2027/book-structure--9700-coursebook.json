@@ -1,0 +1,608 @@
+{
+ "schema": "syllabai.book-structure/1.0",
+ "qual": "cie-a-level-biology-2025-2027",
+ "book": {
+  "key": "9700-coursebook",
+  "lane": "books/cambridge-international/ial/biology/9700",
+  "title": "Cambridge International AS and A Level Biology Coursebook (4th edition)",
+  "authors_printed": [
+   "Mary Jones",
+   "Richard Fosbery",
+   "Jennifer Gregory",
+   "Dennis Taylor"
+  ],
+  "source_pdf": "books/cambridge-international/ial/biology/9700/source/student-book.pdf",
+  "sha256": "fa4954c88855a587a63deeb2725f6abb22aed8b3551ed02462dfbf53c036bfe7",
+  "pdf_pages": 696,
+  "page_law": "book = pdf - 10 (verified 4 ways at parse, W-F9 of record); corpus-registered book-page frames carried as printed",
+  "corpus": {
+   "chunks_jsonl": "books/cambridge-international/ial/biology/9700/parsed/cie_a_level_biology_9700_chunks_v1.jsonl",
+   "blob": "e2b38d4fca1fe36d63b0d96df21d60d3a9854411",
+   "n_chunks": 1971,
+   "prefix_id_law": "c9700_v1_u{u}_c{c}_pdf{p}_{i}"
+  },
+  "catalog_rows": [
+   "CATALOG section 2 #6",
+   "CATALOG section 4.3 A-Level Biology 9700"
+  ]
+ },
+ "provenance_tiers": {
+  "CORPUS_REGISTERED": "the W-F9 parse of record (trace 1a1f4951330253b5, validator ALL CHECKS PASSED, determinism byte-identical)"
+ },
+ "units": [],
+ "chapters": [
+  {
+   "key": "u0:c1",
+   "title": "Cell structure",
+   "page_range_pdf": [
+    11,
+    36
+   ],
+   "page_range_book": [
+    1,
+    26
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9700_v1_u0_c1_pdf011_0020",
+     "c9700_v1_u0_c1_pdf012_0021"
+    ],
+    "opener_page": 11
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c2",
+   "title": "Biological molecules",
+   "page_range_pdf": [
+    37,
+    62
+   ],
+   "page_range_book": [
+    27,
+    52
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9700_v1_u0_c2_pdf037_0113",
+     "c9700_v1_u0_c2_pdf038_0114"
+    ],
+    "opener_page": 37
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c3",
+   "title": "Enzymes",
+   "page_range_pdf": [
+    63,
+    81
+   ],
+   "page_range_book": [
+    53,
+    71
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9700_v1_u0_c3_pdf063_0189",
+     "c9700_v1_u0_c3_pdf064_0190"
+    ],
+    "opener_page": 63
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c4",
+   "title": "Cell membranes and transport",
+   "page_range_pdf": [
+    82,
+    102
+   ],
+   "page_range_book": [
+    72,
+    92
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9700_v1_u0_c4_pdf082_0238",
+     "c9700_v1_u0_c4_pdf083_0239"
+    ],
+    "opener_page": 82
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c5",
+   "title": "The mitotic cell cycle",
+   "page_range_pdf": [
+    103,
+    119
+   ],
+   "page_range_book": [
+    93,
+    109
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9700_v1_u0_c5_pdf103_0302",
+     "c9700_v1_u0_c5_pdf103_0303"
+    ],
+    "opener_page": 103
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c6",
+   "title": "Nucleic acids and protein synthesis",
+   "page_range_pdf": [
+    120,
+    135
+   ],
+   "page_range_book": [
+    110,
+    125
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9700_v1_u0_c6_pdf120_0345",
+     "c9700_v1_u0_c6_pdf121_0346"
+    ],
+    "opener_page": 120
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c7",
+   "title": "Transport in plants",
+   "page_range_pdf": [
+    136,
+    166
+   ],
+   "page_range_book": [
+    126,
+    156
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9700_v1_u0_c7_pdf136_0379",
+     "c9700_v1_u0_c7_pdf137_0380"
+    ],
+    "opener_page": 136
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c8",
+   "title": "Transport in mammals",
+   "page_range_pdf": [
+    167,
+    194
+   ],
+   "page_range_book": [
+    157,
+    184
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9700_v1_u0_c8_pdf167_0464",
+     "c9700_v1_u0_c8_pdf168_0465"
+    ],
+    "opener_page": 167
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c9",
+   "title": "Gas exchange and smoking",
+   "page_range_pdf": [
+    195,
+    207
+   ],
+   "page_range_book": [
+    185,
+    197
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9700_v1_u0_c9_pdf195_0540",
+     "c9700_v1_u0_c9_pdf195_0541"
+    ],
+    "opener_page": 195
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c10",
+   "title": "Infectious diseases",
+   "page_range_pdf": [
+    208,
+    231
+   ],
+   "page_range_book": [
+    198,
+    221
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9700_v1_u0_c10_pdf208_0574",
+     "c9700_v1_u0_c10_pdf208_0575"
+    ],
+    "opener_page": 208
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c11",
+   "title": "Immunity",
+   "page_range_pdf": [
+    232,
+    255
+   ],
+   "page_range_book": [
+    222,
+    245
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9700_v1_u0_c11_pdf232_0646",
+     "c9700_v1_u0_c11_pdf232_0647"
+    ],
+    "opener_page": 232
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c12",
+   "title": "Energy and respiration",
+   "page_range_pdf": [
+    277,
+    295
+   ],
+   "page_range_book": [
+    267,
+    285
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9700_v1_u0_c12_pdf277_0779",
+     "c9700_v1_u0_c12_pdf277_0780"
+    ],
+    "opener_page": 277
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c13",
+   "title": "Photosynthesis",
+   "page_range_pdf": [
+    296,
+    308
+   ],
+   "page_range_book": [
+    286,
+    298
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9700_v1_u0_c13_pdf296_0831",
+     "c9700_v1_u0_c13_pdf296_0832"
+    ],
+    "opener_page": 296
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c14",
+   "title": "Homeostasis",
+   "page_range_pdf": [
+    309,
+    338
+   ],
+   "page_range_book": [
+    299,
+    328
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9700_v1_u0_c14_pdf309_0870",
+     "c9700_v1_u0_c14_pdf309_0871"
+    ],
+    "opener_page": 309
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c15",
+   "title": "Coordination",
+   "page_range_pdf": [
+    339,
+    373
+   ],
+   "page_range_book": [
+    329,
+    363
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9700_v1_u0_c15_pdf339_0952",
+     "c9700_v1_u0_c15_pdf339_0953"
+    ],
+    "opener_page": 339
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c16",
+   "title": "Inherited change",
+   "page_range_pdf": [
+    374,
+    406
+   ],
+   "page_range_book": [
+    364,
+    396
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9700_v1_u0_c16_pdf374_1058",
+     "c9700_v1_u0_c16_pdf374_1059"
+    ],
+    "opener_page": 374
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c17",
+   "title": "Selection and evolution",
+   "page_range_pdf": [
+    407,
+    432
+   ],
+   "page_range_book": [
+    397,
+    422
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9700_v1_u0_c17_pdf407_1149",
+     "c9700_v1_u0_c17_pdf407_1150"
+    ],
+    "opener_page": 407
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c18",
+   "title": "Biodiversity, classification and conservation",
+   "page_range_pdf": [
+    433,
+    471
+   ],
+   "page_range_book": [
+    423,
+    461
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9700_v1_u0_c18_pdf433_1221",
+     "c9700_v1_u0_c18_pdf433_1222"
+    ],
+    "opener_page": 433
+   },
+   "flags": []
+  },
+  {
+   "key": "u0:c19",
+   "title": "Genetic technology",
+   "page_range_pdf": [
+    472,
+    499
+   ],
+   "page_range_book": [
+    462,
+    489
+   ],
+   "tier": "CORPUS_REGISTERED",
+   "evidence": {
+    "chunk_ids": [
+     "c9700_v1_u0_c19_pdf472_1338",
+     "c9700_v1_u0_c19_pdf472_1339"
+    ],
+    "opener_page": 472
+   },
+   "flags": []
+  }
+ ],
+ "non_lesson_sections": [
+  {
+   "title": "Front matter (cover, contents, how to use this book, introduction)",
+   "page_range_pdf": [
+    1,
+    10
+   ],
+   "n_chunks": 19,
+   "content_types": [
+    "front_matter"
+   ]
+  },
+  {
+   "title": "P1 Practical skills for AS",
+   "page_range_pdf": [
+    256,
+    276
+   ],
+   "n_chunks": 58,
+   "content_types": [
+    "body",
+    "chapter_questions",
+    "learning_outcomes",
+    "questions",
+    "summary"
+   ]
+  },
+  {
+   "title": "P2 Planning, analysis and evaluation",
+   "page_range_pdf": [
+    500,
+    521
+   ],
+   "n_chunks": 58,
+   "content_types": [
+    "body",
+    "chapter_questions",
+    "learning_outcomes",
+    "questions",
+    "summary"
+   ]
+  },
+  {
+   "title": "Appendix 1: Amino acid R groups",
+   "page_range_pdf": [
+    522,
+    522
+   ],
+   "n_chunks": 1,
+   "content_types": [
+    "appendix"
+   ]
+  },
+  {
+   "title": "Appendix 2: DNA and RNA triplet codes",
+   "page_range_pdf": [
+    523,
+    523
+   ],
+   "n_chunks": 1,
+   "content_types": [
+    "appendix"
+   ]
+  },
+  {
+   "title": "Glossary",
+   "page_range_pdf": [
+    524,
+    535
+   ],
+   "n_chunks": 44,
+   "content_types": [
+    "glossary"
+   ]
+  },
+  {
+   "title": "Index",
+   "page_range_pdf": [
+    536,
+    543
+   ],
+   "n_chunks": 17,
+   "content_types": [
+    "index"
+   ]
+  },
+  {
+   "title": "Acknowledgements",
+   "page_range_pdf": [
+    544,
+    545
+   ],
+   "n_chunks": 7,
+   "content_types": [
+    "acknowledgements"
+   ]
+  },
+  {
+   "title": "Advice on how to revise for and approach examinations",
+   "page_range_pdf": [
+    547,
+    561
+   ],
+   "n_chunks": 38,
+   "content_types": [
+    "exam_advice"
+   ]
+  },
+  {
+   "title": "Introduction to the examination and changes to the syllabus",
+   "page_range_pdf": [
+    562,
+    566
+   ],
+   "n_chunks": 12,
+   "content_types": [
+    "exam_advice"
+   ]
+  },
+  {
+   "title": "Answers to SAQs",
+   "page_range_pdf": [
+    567,
+    609
+   ],
+   "n_chunks": 151,
+   "content_types": [
+    "answers_saqs"
+   ]
+  },
+  {
+   "title": "Answers to EOCQs",
+   "page_range_pdf": [
+    610,
+    673
+   ],
+   "n_chunks": 170,
+   "content_types": [
+    "answers_eocq"
+   ]
+  },
+  {
+   "title": "Recommended resources",
+   "page_range_pdf": [
+    674,
+    696
+   ],
+   "n_chunks": 48,
+   "content_types": [
+    "recommended_resources"
+   ]
+  }
+ ],
+ "notes": [
+  "single-unit corpus (u0): the parse carries no AS/A2 unit law — scope is carried from the spec side per point (AS Level / A Level)",
+  "P1 Practical skills for AS (pdf 256-276) sits in the AS->A2 gap (c11 ends pdf 255, c12 starts pdf 277); P2 Planning, analysis and evaluation at pdf 500-521 — both route to the practicals lane (the W-F7 CP-routing analog; spec practicals of record = the graph practicals.yaml lane)",
+  "EOC sets anchored 21/21 (19 chapters + P1 + P2) per the W-F9 parse of record",
+  "edition law: 4th ed (2014 printing, ISBN 9781107636828) vs the 2025-2027 spec lane — the 19-topic structure carried through the syllabus revision (probe P3 19/19); the 5th ed (ISBN 9781108859028) remains the upgrade candidate of record (lane README)"
+ ],
+ "generated_utc": "2026-11-20T00:00:00Z",
+ "generator": "agent:scripts/wf10_emit.py (W-F10-T2 build per the W-F10-T1 design of record, laws N-1..N-8; repo-side scripts/book_layer/ generator proposed, not installed)",
+ "inputs": {
+  "head": "d9fdee974dfa7dc0694f26e1c7965a0e05350ee4",
+  "corpus": {
+   "path": "books/cambridge-international/ial/biology/9700/parsed/cie_a_level_biology_9700_chunks_v1.jsonl",
+   "blob": "e2b38d4fca1fe36d63b0d96df21d60d3a9854411"
+  },
+  "lane_readme": {
+   "path": "books/cambridge-international/ial/biology/9700/README.md",
+   "blob": "124c44e70649a6cc23fb8bb7c382285c629a0168"
+  },
+  "probe_of_record": "cache/w-f10/probe.json",
+  "design_of_record": "receipts/W-F10/W-F10-T1-design-of-record.md"
+ }
+}
