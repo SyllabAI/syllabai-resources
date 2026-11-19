@@ -1,0 +1,47 @@
+{
+  "stage": "P3 run-002 — guided-lessons interactions[] backfill (the 3 live courses), promotion of record",
+  "title": "P3-INTERACTIONS-PROMOTION-20261120",
+  "generated_at_utc": "2026-11-19T19:25:19Z",
+  "operator_trace": "29c51c3069283dca7c917c2f7ea18cfe",
+  "operator_directive": "\"P3 run-002\" (Discord DM, 2026-11-19 18:54:58Z, trace 29c51c3069283dca7c917c2f7ea18cfe) — the go signal for the P3 run-002 interactions[] backfill generation after run-001 (PR #1122) landed the chunking-law governance + QA harness",
+  "scope": {
+    "packages_reissued": 173,
+    "pkg_format": "sme-question-package/1.5 (generation-union over 1.0..1.4; adds the optional interactions[] check field, additive)",
+    "lesson_bytes_changed": 0,
+    "law": "interactions[] is not a §7 stream token — every per-note stream anchor is byte-identical to the prior records; conservation carries unchanged",
+    "cadence": "every opted-in module carries interactions on all 5 of its MCQ checks (>= ceil(9/2) = 5), per the G-CHUNK interaction-cadence law",
+    "widget_kinds": {
+      "drag-label": 789,
+      "table-fill": 458,
+      "sort-match": 70,
+      "eq-builder": 3,
+      "total": 1320
+    },
+    "opt_in_modules": 264,
+    "report_mode_note": "the beat-budget drift (chem 409 / phys 326 / bio 118 violations) remains grandfathered in report mode; the declared run-003 compression lane re-pins those beats and flips chunk_law to enforce"
+  },
+  "manifests": {
+    "igcse-chemistry-19": {
+      "manifest": "hub-import-manifest-v53.json",
+      "artifacts": 224,
+      "revised": 48,
+      "int3Notes": 112,
+      "pkgUpdated": 48
+    },
+    "igcse-physics-19": {
+      "manifest": "hub-import-manifest-v54.json",
+      "artifacts": 254,
+      "revised": 99,
+      "int3Notes": 127,
+      "pkgUpdated": 99
+    },
+    "igcse-biology-19": {
+      "manifest": "hub-import-manifest-v55.json",
+      "artifacts": 88,
+      "revised": 26,
+      "int3Notes": 44,
+      "pkgUpdated": 26
+    }
+  },
+  "gating": "hub import runs per-course feeds (v53/v54/v55) with the G-CHUNK gate in report mode; all gates fail-closed before any landing"
+}
