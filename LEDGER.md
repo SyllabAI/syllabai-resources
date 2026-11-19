@@ -1462,3 +1462,69 @@ receipts + the Wave-55 W-F9 push-confirm ride-alongs + the W-F9 task push
 clause for ba94b1e7/d9fdee97 + this LEDGER append) is the next commit of the
 same order. Push of both commits PENDING OPERATOR ORDER (PAT rotation overdue —
 11th+ transit of the same token).
+
+# LEDGER append — Wave 57 (staged; rides the next records landing)
+# Append-only: everything above this block stays byte-identical.
+
+---
+
+## Wave 57 — W-F10 push confirm lands: push-confirm receipt + push-confirm worklog + W-F10 task status push clause + LEDGER (trace 1a1f51885dc00ce5)
+
+`receipts/EXEC-1a1f51885dc00ce5-push-confirm.json` (NEW) records the push of the
+complete W-F10 wave to GitHub main: fast-forward `d9fdee97..9605a43a` (build
+`17916a3ca6558c0a212341c0ad7c0f612a0c08b1` — the first CIE join lane:
+book-structure--9700-coursebook.json + book-join.json NEW, 19 chapters + 13
+non-lesson sections, 19 join rows 15 J5_EQUAL + 2 J5_CONTAINS +
+2 J5_NUMBER_IDENTITY_TITLE_VARIANT / 0 UNMATCHED, 44/44 subsections, points_keyed
+0/257 honest figure-void, the CIE family law of record with the amended probe
+evidence — plus records `9605a43a9e7a911da86a350fe85d1008b97e76b7` — the W-F10
+task file, T1/T2 receipts, the W-F9 push-confirm ride-alongs, the W-F9 push
+clause, LEDGER Waves 55-56), exit 0, no force. Recovery of record: the r1 pair
+(`1d557433`/`6d1c9e2a`) was lost to the sandbox recycle pre-push — remote never
+touched — and the r2 re-land is proven byte-identical (all 12 staged blob SHAs
+match; r1 manifest preserved agent-side). Independent pre-push verification
+10/10 PASS (scripts/wf10_prepush_verify.py); pre-push anonymous ls-remote race
+gate tip-match PASS (remote tip == `d9fdee97` == push base); post-push
+verification 7/7 PASS (remote tree == local tree
+`d53579d9f8186a8ef489638f903e3fc8b6ec3a2d`, both pins ancestors, tip stable, URL
+clean, token zero-persist — .git grep AND project-wide full-literal grep zero
+hits, no credential files). The CIE 9700 join is COMPLETE on main; the join
+program's next actionable lanes are the other three quartet joins (9702 / 9701 /
+0625 — each needs its own probe + design; 0625 carries the D-2 ligature-loss
+class, N-1 folding law applies); YBI11 stays honest-blocked on sourcing.
+Credential note of record: SAME token, 12th+ transit — ROTATION OVERDUE: rotate
+before the next push order. This section lands with the next records landing
+(append-only convention).
+
+# LEDGER append — Wave 58 (staged; rides the next records landing)
+# Append-only: everything above this block stays byte-identical.
+
+---
+
+## Wave 58 — the W-F11 records landing: the CIE 9702 book-layer join, the first
+restructured-syllabus join (trace 1a1f524947d586d9)
+
+`tasks/W-F11-cie-9702-book-join.md` (NEW) + the W-F11 T1/T2 receipts (design of
+record + JSON receipts + worklog entries) land with the W-F10 push-confirm
+ride-alongs (the EXEC-1a1f51885dc00ce5 receipt + the W-F10 push-confirm worklog)
+and the W-F10 task push clause for 17916a3c/9605a43a. The build of record: 2 NEW
+artifacts under `Official-Specifications/parsed/_derived/book_layer/
+cie-a-level-physics-2025-2027/` — book-structure--9702-coursebook.json (32
+chapters u0:c1..c32 + 14 non-lesson sections; the N-9 P1-in-gap law: the single
+chapter-tile gap 251-269 IS the P1 range; envelope 1..743 minus the textless page
+12; book axis 1..528 zero holes) + book-join.json (32 rows: 15 JOIN_TOPIC — 10
+J5_EQUAL + 5 J5_CONTAINS under the N-2b longest-contained refinement — + 17 honest
+NO_TOPIC_MAPPING rows; the N-4 J4 amendment keys exactly one point, c11 "state
+Ohm's law" == 9.3.5; coverage 14/25 topics, 51 listed / 46 distinct subsections,
+1/303 points). The restructured-syllabus law of record: the 2016-line book's
+32 chapters do NOT coincide with the 2025-2027 spec's 25 topics — the join is a
+PARTIAL topic-level spine with the edition disclosure on the header and every
+row (3rd ed ISBN 9781108859035 = the CATALOG §4.3 upgrade candidate). The code
+routes stay honest zeros under the amended full stack (M-1 raw 17 = TAIL 6 + RUN
+11 + SUFFIXED 0; M-8 window 7 incl. the N-3a plural fold "Figures 9.1, 9.2 and
+9.3" + N-3b self-reference 1 + row-scope 9 -> admitted_full 0; zero 3-part
+tokens; LO route void at source; P4b 517 classified). Gates G-F11-B1..B6 ALL PASS
+(6/6). The remaining quartet lanes (9701, 0625 — the latter carries the D-2
+ligature-loss class) stay NOT STARTED; YBI11 stays honest-blocked on sourcing.
+Push of both W-F11 commits PENDING OPERATOR ORDER (PAT rotation overdue — 12th+
+transit of the same token).

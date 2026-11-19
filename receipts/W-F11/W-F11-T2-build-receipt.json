@@ -1,0 +1,45 @@
+{
+ "schema": "syllabai.task-receipt/1",
+ "task": "W-F11-T2",
+ "title": "build + gates + local landing — the CIE 9702 book-layer join (the first restructured-syllabus join)",
+ "order_trace": "1a1f524947d586d9",
+ "executed_utc": "2026-11-20",
+ "outcome": "BUILD_LANDED_LOCAL",
+ "parent": "9605a43a9e7a911da86a350fe85d1008b97e76b7",
+ "build": {
+  "lane": "Official-Specifications/parsed/_derived/book_layer/cie-a-level-physics-2025-2027/",
+  "artifacts": {
+   "book-structure--9702-coursebook.json": "NEW — schema syllabai.book-structure/1.0; qual cie-a-level-physics-2025-2027; book key 9702-coursebook; 32 chapters (u0:c1..c32, tier CORPUS_REGISTERED, page ranges pdf 13..540 / book 1..528, zero overlaps; the N-9 law: exactly one chapter-tile gap 251-269 == the P1 cx range) + 14 non-lesson sections of record (the probe P1b cx title groups; chapters + cx tile pdf 1..743 completely) + honest units [] (single-unit corpus u0) + notes (page law book = pdf - 12, EOC 32/32, edition law, damage-census fold, P1/P2 routing)",
+   "book-join.json": "NEW — schema syllabai.book-spec-join/1.0; 32 rows: 15 verdict JOIN_TOPIC (10 J5_EQUAL + 5 J5_CONTAINS under the N-2b longest-contained refinement, basis recorded per row; spec_refs.subsections = the mapped topic's subsections — 51 listed / 46 distinct of 76) + 17 verdict NO_TOPIC_MAPPING (spec_refs.topic null, flags [no_title_match], the N-7 all-chapters row grain); spec_refs.points = the single N-4 J4 key on c11 ('state Ohm's law' == 9.3.5, LO chunk pinned) and [] on 31 rows; coverage {chapters 32, mapped 15, unmatched 17 with titles enumerated, topics_covered 14/25, subsections 51/46/76, points_keyed 1/303}; edition_disclosure (2nd ed 2016 line vs 2025-2027 RESTRUCTURE; 3rd ed ISBN 9781108859035 upgrade candidate) on the header + rows"
+  },
+  "laws": "N-1..N-9 per the W-F11-T1 design of record (the W-F7 M-laws + W-F8 M-8/M-9 + W-F10 N-law adaptations, amended by N-2b longest-contained, N-2c honest UNMATCHED rows, N-3a M-8' plural fold, N-3b self-reference exclusion, N-4 J4 active-with-one, N-7 all-chapters row grain, N-9 P1-in-gap tile law) — the family law verdict stands: zero admitted CODE chips under the full law stack (M-1 raw 17 = TAIL 6 + RUN 11 + SUFFIXED 0; M-8 window 7 incl. the plural fold + self-ref 1 + row-scope 9 -> admitted_full 0); J2 LO route void at source (0 admitted chips in 34 LO chunks, 0 coded line starts); J4 carries exactly 1/255 verbatim",
+  "determinism": "byte-identical re-runs (sha256 stable across emitter re-invocations; gate B6)",
+  "gates": "G-F11-B1..B6 ALL PASS (6/6) — cache/w-f11/gate-verdicts.json"
+ },
+ "surface": {
+  "build_commit_files": [
+   "Official-Specifications/parsed/_derived/book_layer/cie-a-level-physics-2025-2027/book-structure--9702-coursebook.json (A)",
+   "Official-Specifications/parsed/_derived/book_layer/cie-a-level-physics-2025-2027/book-join.json (A)"
+  ],
+  "records_commit_files": [
+   "tasks/W-F11-cie-9702-book-join.md (A)",
+   "receipts/W-F11/W-F11-T1-design-of-record.md (A)",
+   "receipts/W-F11/W-F11-T1-design-receipt.json (A)",
+   "receipts/W-F11/W-F11-T1-worklog-entry.md (A)",
+   "receipts/W-F11/W-F11-T2-build-receipt.json (A)",
+   "receipts/W-F11/W-F11-T2-worklog-entry.md (A)",
+   "receipts/EXEC-1a1f51885dc00ce5-push-confirm.json (A — W-F10 ride-along)",
+   "receipts/W-F10/W-F10-push-confirm-worklog-entry.md (A — W-F10 ride-along)",
+   "tasks/W-F10-cie-9700-book-join.md (M — push clause for 17916a3c/9605a43a)",
+   "LEDGER.md (M — Waves 57-58)"
+  ]
+ },
+ "honest_non_actions": [
+  "the 17 NO_TOPIC_MAPPING chapters — honest rows; the 3rd-ed upgrade corpus or an operator-ordered semantic lane would be the levers (both out of this wave's write face)",
+  "9701 / 0625 joins — NOT STARTED (own probes + designs needed; 0625 carries the D-2 ligature-loss class, N-1 folding law applies)",
+  "Edexcel ial-biology-18 (YBI11) join — honest-blocked on sourcing (operator purchases, never agent-fetches)",
+  "LLM fidelity polish for the 9702 corpus — NOT STARTED (quota-walled; the pristine snapshot is the anchor-diff target)",
+  "INTEGRATED/LIVE for the quartet — the v2-repo/DB lever, not this repo's write face"
+ ],
+ "next": "records landing (this task file, T1/T2 receipts, the W-F10 push-confirm ride-alongs, the W-F10 task push clause, LEDGER Waves 57-58) follows as the next commit of the same order; push of both commits PENDING OPERATOR ORDER (PAT rotation overdue — 12th+ transit of the same token)"
+}

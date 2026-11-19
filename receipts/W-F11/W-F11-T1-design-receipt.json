@@ -1,0 +1,32 @@
+{
+ "schema": "syllabai.task-receipt/1",
+ "task": "W-F11-T1",
+ "title": "design of record — the CIE 9702 book-layer join (the first restructured-syllabus join)",
+ "order_trace": "1a1f524947d586d9",
+ "executed_utc": "2026-11-20",
+ "outcome": "DESIGN_COMPLETE",
+ "design_of_record": "receipts/W-F11/W-F11-T1-design-of-record.md",
+ "probes_of_record": {
+  "path": "cache/w-f11/probe.json (single probe of record: P1 spine + contiguity, P1b cx groups, P2 spec census, P3 J5 adjudication incl. the naive-vs-refined collision record, P4 M-1 admission with per-chip exclusion evidence, P4b 2-part classification, P4c 3-part census, P5 J4 equality, P6 mentions, P7 pins)",
+  "scripts": "scripts/wf11_probe.py (zero-LLM, zero-network, zero repo writes; pinned blobs at 9605a43a9e7a911da86a350fe85d1008b97e76b7); the W-F10 first-P4 official_code key bug known and avoided (sub_ns key = s['code'] everywhere)",
+  "verdicts": {
+   "P1_spine": "32 content chapters (u0:c1..c32, single-unit lane u0), pdf 13..540 / book 1..528, zero overlaps, exactly ONE pdf gap 251-269 + ONE book gap 239-257 both filled by the P1 cx group (N-9); LO x34, EOC 32/32 (37 chapter_questions chunks)",
+   "P1b_cx_groups": "14 disjoint title groups tiling pdf 1..743 with the chapters",
+   "P3_j5": "10 EQUAL / 5 CONTAINS / 0 NUMBER_IDENTITY / 17 UNMATCHED across 32 chapters, 14 distinct topics — the restructured-syllabus case (2016-line book vs 2025-2027 spec); the N-2b longest-contained refinement resolves exactly one naive-first-match collision (c14 -> T8 not T7); tier 3 fires 0 times",
+   "P4_code_census": "M-1 raw admission 17 chips (TAIL 6 + RUN 11 + SUFFIXED 0); the full stack admits ZERO spec chips — 7 M-8 window exclusions (Figure/Table/Box x6 + 'Figures 9.1, 9.2 and 9.3' via the N-3a plural fold), 1 self-reference exclusion (N-3b: '9.2' in c9's figure-credit context, t == host chapter), 9 row-scope c0 exclusions (P1/P2 measurement values + Acknowledgements photo credits); zero 3-part tokens (P4c); LO route void of codes (0 admitted in 34 LO chunks, 0 coded line starts); P4b: 517 corpus-wide 2-part namespace survivors classified (physics measurement values + internal numbering + photo credits)",
+   "P5_j4": "exactly 1/255 verbatim — c11 LO line 'state Ohm's law' == point 9.3.5 (CIE_A_LEVEL_PHYSICS_2025_2027:9.3.5); the N-4 family amendment: zero printed CODES, one verbatim TEXT equality, keyed under the c11 row",
+   "P6_mentions": "syllabus x19, learning outcomes x37, practical x40 (routing evidence only)",
+   "P7_source_pin": "probe sha256 == lane README pin == parse report pin == W-F9 T2 receipt pin (fa3e5ed2…); corpus file sha256 == the receipt's corpus pin (93552fed…)"
+  }
+ },
+ "laws": "N-1..N-9 pinned (the 9702 adaptations: N-2b longest-contained, N-2c honest UNMATCHED rows, N-3a M-8' plural fold, N-3b self-reference exclusion, N-4 J4 active-with-one, N-7 all-32-chapter row grain, N-8 partial-spine edition disclosure, N-9 P1-in-gap tile law) — see the design of record sections 4",
+ "gates": "G-F11-B1..B6 fixed (B1 pins, B2 tiles with the N-9 gap law, B3 rows incl. the J4 key resolution, B4 codes-void law incl. the M-8'/self-reference amendments, B5 surface, B6 determinism)",
+ "write_surface_this_task": "tasks/W-F11-cie-9702-book-join.md (NEW) + receipts/W-F11/ + cache/w-f11/ probes + download/w-f11-swap/ staging — zero repo writes, zero census writes, zero graph writes",
+ "honest_non_actions": [
+  "9701 / 0625 joins — NOT STARTED (own probes + designs needed; 0625 carries the D-2 ligature-loss class, N-1 folding law applies)",
+  "Edexcel ial-biology-18 (YBI11) join — honest-blocked on sourcing",
+  "the 17 unmatched 9702 chapters — honest NO_TOPIC_MAPPING rows; no semantic repair lane exists or is ordered (3rd-ed upgrade corpus or an operator-ordered semantic lane would be the levers, both out of this wave's write face)",
+  "no artifact emission in T1 (W-F11-T2 fires in the same order, the W-F6/W-F7/W-F10 precedent)"
+ ],
+ "next": "W-F11-T2 build + gates + local landing (same order); push PENDING OPERATOR ORDER (PAT rotation overdue — 12th+ transit of the same token)"
+}

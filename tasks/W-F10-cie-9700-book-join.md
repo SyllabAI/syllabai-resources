@@ -21,8 +21,22 @@ status: W-F10-T1 COMPLETE 2026-11-20 — design of record filed at
   Official-Specifications/parsed/_derived/book_layer/cie-a-level-biology-2025-2027/);
   gates G-F10-B1..B6 ALL PASS (6/6, evidence cache/w-f10/); the records landing (this
   task file, T1/T2 receipts, the W-F9 push-confirm ride-alongs, the W-F9 task push
-  clause, LEDGER Waves 55-56) follows as the next commit of the same order;
-  PUSH PENDING OPERATOR ORDER (PAT rotation overdue — 11th+ transit of the same token).
+  clause, LEDGER Waves 55-56) follows as the next commit of the same order.
+  PUSHED 2026-11-20 (trace 1a1f51885dc00ce5): both commits on GitHub main via clean
+  fast-forward d9fdee974dfa7dc0694f26e1c7965a0e05350ee4..
+  9605a43a9e7a911da86a350fe85d1008b97e76b7, no force — the r2 recovery re-land of
+  the r1 pair (1d557433/6d1c9e2a, objects lost to the sandbox recycle pre-push,
+  remote never touched) proven byte-identical, all 12 staged blob SHAs matching
+  (cache/w-f10/landing-1a1f4cf26af71de1-r1-lost-objects.json +
+  scripts/wf10_r2_compare.py); pre-push anonymous ls-remote race gate tip-match
+  PASS + independent pre-push verification 10/10 PASS
+  (scripts/wf10_prepush_verify.py: chain / build surface 2A / records surface
+  8A+2M / swap-blob equality / W-F9 task clause / LEDGER prefix property Waves
+  55-56 / artifact counts + sha256 pins / race gate); post-push verification 7/7
+  PASS (tip / tree d53579d9 / ancestor / stability / url-clean / token-zero-hit /
+  no-credential-files); push-confirm receipt
+  EXEC-1a1f51885dc00ce5-push-confirm.json staged agent-side, rides the next
+  landing per the append-only convention.
 ```
 
 ## 1. Scope of record

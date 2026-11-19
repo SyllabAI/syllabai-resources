@@ -1,0 +1,50 @@
+{
+ "schema": "syllabai.exec-receipt/1",
+ "trace": "1a1f51885dc00ce5",
+ "order": "operator message with PAT, no other text — read as push delegation for the pending W-F10 wave (build commit + records landing commit of order trace 1a1f4cf26af71de1 'proceed') per the bare-PAT precedent (traces 1a1f27218b046a15 and 1a1f4c6c31cd1601)",
+ "executed_utc": "2026-11-20",
+ "outcome": "PUSH_LANDED_CLEAN_FAST_FORWARD",
+ "recovery_of_record": {
+  "event": "the r1 landing pair (build 1d5574333a1cf567f447f9baa491ff777c69a3a7 + records 6d1c9e2a79b742823194aec6220e7652e1aaac56, manifest cache/w-f10/landing-1a1f4cf26af71de1-r1-lost-objects.json, verdict ALL PASS) was lost from the local object store by the sandbox recycle before any push — remote was never touched (remote tip stayed d9fdee97 throughout; anonymous ls-remote verified at order receipt)",
+  "response": "deterministic re-land (r2) via the unchanged scripts/wf10_land.py from the intact staging: every one of the 12 staged blob SHAs byte-identical to r1 (build 2 + records 10, scripts/wf10_r2_compare.py VERDICT BYTE-IDENTICAL RECOVERY); only the commit objects differ (irreproducible author/committer timestamps) — r2 build 17916a3ca6558c0a212341c0ad7c0f612a0c08b1 (tree ae32885997e966ca14c535ada2720d6e228e0cf0) + r2 records 9605a43a9e7a911da86a350fe85d1008b97e76b7 (tree d53579d9f8186a8ef489638f903e3fc8b6ec3a2d); no repo content references the r1 SHAs (project-wide grep: only the agent-side r1 manifest and the verifier, both updated/renamed agent-side), so the re-land is invisible to the repo's records of record",
+  "independence": "r1 and r2 SHAs and trees documented in both manifests; r1 preserved as landing-1a1f4cf26af71de1-r1-lost-objects.json (never deleted)"
+ },
+ "preconditions_verified_before_push": [
+  "independent pre-push verification scripts/wf10_prepush_verify.py: 10/10 ALL PASS (V1 chain d9fdee97->17916a3c->9605a43a; V2 build surface exactly 2A under book_layer/cie-a-level-biology-2025-2027/; V3 records surface exactly 8A + 2M; V4 all eight records A-blobs byte-equal the swap staging; V4b W-F9 task push clause applied (PUSHED 1a1f4c6c31cd1601 present, PENDING gone, re-parent correction present); V5 LEDGER append-only prefix property; V5b/V5c append carries Waves 55-56 verbatim (4285B); V6 artifact counts 19 rows 15/2/2 / 44 subsections / points_keyed 0 / 19 chapters / 13 non-lesson + sha256 == gate pins; V7 fresh anonymous race gate)",
+  "gates of record: G-F10-B1..B6 ALL PASS (6/6) per tasks/W-F10-cie-9700-book-join.md section 2 and receipts/W-F10/W-F10-T2-build-receipt.json (evidence cache/w-f10/gate-verdicts.json)",
+  "byte-identical recovery proof: scripts/wf10_r2_compare.py (12/12 blob SHAs == r1 manifest)",
+  "fresh pre-push race gate: anonymous ls-remote tip == d9fdee97 == push base"
+ ],
+ "race": {
+  "gate": "pre-push anonymous ls-remote tip-match",
+  "result": "remote tip == d9fdee974dfa7dc0694f26e1c7965a0e05350ee4 == push base (parent of build commit 17916a3ca6558c0a212341c0ad7c0f612a0c08b1) — clean fast-forward, no advance between verification and push"
+ },
+ "push": {
+  "range": "d9fdee974dfa7dc0694f26e1c7965a0e05350ee4..9605a43a9e7a911da86a350fe85d1008b97e76b7",
+  "result": "fast-forward, exit 0, no force",
+  "method": "one authenticated git push with the PAT in the transient command URL; output piped through sed redaction (script scripts/wf10_push.sh); the token was never written to any file, config, receipt, ref or script",
+  "carried": "the complete W-F10 wave (order trace 1a1f4cf26af71de1): build commit 17916a3c (the first CIE join lane — book-structure--9700-coursebook.json + book-join.json NEW under Official-Specifications/parsed/_derived/book_layer/cie-a-level-biology-2025-2027/: 19 chapters u0:c1..c19 CORPUS_REGISTERED + 13 non-lesson sections of record; 19 join rows 15 J5_EQUAL + 2 J5_CONTAINS + 2 J5_NUMBER_IDENTITY_TITLE_VARIANT, 0 UNMATCHED, 44/44 subsections, points_keyed 0/257 honest figure-void, edition disclosure 4th ed 2014 ISBN 9781107636828 vs 2025-2027 spec lane, 5th ed ISBN 9781108859028 upgrade candidate of record; CIE family law of record: zero admitted spec chips under the full M-1 x M-8 x M-9 x M-2 + row-scope stack, LO route void at source; gates G-F10-B1..B6 ALL PASS 6/6) + records landing commit 9605a43a (tasks/W-F10-cie-9700-book-join.md NEW + W-F10 T1 design-of-record/design-receipt/worklog + T2 build-receipt/worklog + the W-F9 push-confirm ride-alongs EXEC-1a1f4c6c31cd1601-push-confirm.json and W-F9-push-confirm-worklog-entry.md + tasks/W-F9-cie-books-parse.md push clause for ba94b1e7/d9fdee97 + LEDGER Waves 55-56)"
+ },
+ "post_push_verification": [
+  "anonymous ls-remote == 9605a43a == local HEAD",
+  "origin/main fetched: FETCH_HEAD == 9605a43a",
+  "remote tree == local tree: FETCH_HEAD^{tree} == HEAD^{tree} == d53579d9f8186a8ef489638f903e3fc8b6ec3a2d",
+  "ancestry: d9fdee97 ancestor of 9605a43a (merge-base --is-ancestor PASS); both 17916a3c and 9605a43a now on GitHub main",
+  "remote tip stable on independent re-check (== 9605a43a)",
+  "remote.origin.url unchanged and clean (https://github.com/SyllabAI/syllabai-resources.git)",
+  "grep for the delegated token across the repository .git directory: zero hits; project-wide grep for the full literal token: zero hits (double-verified zero persistence)",
+  "no credential helper files created (~/.git-credentials, ~/.netrc absent)"
+ ],
+ "credential_handling": {
+  "delegated_token": "ghp_rW7z…71xD (redacted form) — SAME token as every prior exposure (11th+ per the Wave-55 push-confirm receipt of record EXEC-1a1f4c6c31cd1601-push-confirm.json, now on main); this round is the 12th+ chat-channel transit",
+  "usage_this_round": "exactly ONE authenticated push; all reads (pre-push verify ls-remote, race gate, post-push ls-remote x2, fetch) anonymous",
+  "persistence": "zero — nothing written to files/config/receipts/refs; remote URL clean; .git grep zero hits; project-wide full-literal grep zero hits",
+  "rotation": "ROTATION OVERDUE — 12th+ transit of the same credential; rotate BEFORE the next push order (no further push rounds should ride this token)"
+ },
+ "repo_writes_this_round": "push only (d9fdee97..9605a43a now on GitHub main); no new records commit — this receipt + the W-F10 push-confirm worklog entry + the W-F10 task-file push clause for 17916a3c/9605a43a + the LEDGER Wave-57 push-confirm section ride the NEXT records landing per the append-only convention (staged agent-side at cache/w-f10/)",
+ "next_operator_actions": [
+  "ROTATE THE PAT (12th+ exposure of ghp_rW7z…71xD) — overdue",
+  "next records landing (any subsequent order) rides: this receipt + receipts/W-F10/W-F10-push-confirm-worklog-entry.md + the W-F10 task-file push clause (17916a3c/9605a43a) + LEDGER Wave-57 push-confirm section",
+  "join program queue state (all honest): CIE quartet joins for 9702 / 9701 / 0625 NOT STARTED (each needs its own probe + design under the same laws; 0625 carries the D-2 ligature-loss class — N-1 folding law applies) — the next actionable lanes; Edexcel ial-biology-18 (YBI11) join honest-blocked on sourcing (operator purchases, never agent-fetches, W-F7-T1 section 7 law); LLM fidelity polish for all four quartet corpora quota-walled; INTEGRATED/LIVE remains the v2-repo/DB lever (not this repo's write face, CATALOG section 1 state law)"
+ ]
+}
