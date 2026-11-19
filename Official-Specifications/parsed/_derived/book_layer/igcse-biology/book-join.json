@@ -3,8 +3,8 @@
  "qual": "igcse-biology",
  "join_keys": {
   "J1_PRINTED_CODE_LIST": "ACTIVE — the printed per-chapter spec-code lists of the COURSE STRUCTURE spread (W-F1-T1 ToC transcription of record, page-cited)",
-  "J2_LO_CODE_CHIPS": "corroborated sparsely (4/21 LO chunks carry incidental chips) — not needed",
-  "J3_BODY_CODE_CHIPS": "not applied",
+  "J2_LO_CODE_CHIPS": "CORRECTED FIGURE-VOID by W-F8 — the landed '4/21 LO chunks carry incidental chips' were figure-caption numbers (the family prints no spec codes); no LO keys stand; J1 remains the sole point-key route of record. M-8 figure-token exclusion + M-9 zero-integer constant exclusion (the W-F8-T1 design of record): a code-form token is excluded when the 60-char window before it ends with a figure/table/section reference word, or when its integer part is 0 — in the IGCSE family the only code-form tokens in body/LO text are figure/table/section numbers and prose constants (probe evidence: 0 coded LO line starts across 2,833 chunks)",
+  "J3_BODY_CODE_CHIPS": "CORRECTED FIGURE-VOID by W-F8 — the route was 'not applied' at W-F4-T2 and the probe confirms there is nothing to apply: body text carries no spec-reference chips, only figure/table numbers and numeric constants, all excluded by M-8/M-9. M-8 figure-token exclusion + M-9 zero-integer constant exclusion (the W-F8-T1 design of record): a code-form token is excluded when the 60-char window before it ends with a figure/table/section reference word, or when its integer part is 0 — in the IGCSE family the only code-form tokens in body/LO text are figure/table/section numbers and prose constants (probe evidence: 0 coded LO line starts across 2,833 chunks)",
   "J4_LO_TEXT_EQUALITY": "not applied (code_column family)",
   "J5_TITLE_ADJUDICATED": "not applied as key (J1 stronger; the 22-chapter re-partition is expressed as J1 rows per W-F4-T1 §8.2)",
   "J6_PAGE_SPAN_ADJACENCY": "not applied"
@@ -1843,7 +1843,17 @@
   ],
   "uncovered_reasons": {
    "points": "no_printed_key — code never printed in any chapter ToC list",
-   "unique_candidate_attributed": "1 points via as-printed->unique-candidate attribution (incl. 2.57B)"
+   "unique_candidate_attributed": "1 points via as-printed->unique-candidate attribution (incl. 2.57B)",
+   "w_f8_corpus_search": {
+    "codes": [
+     "IGCSE_BIOLOGY:2.10",
+     "IGCSE_BIOLOGY:2.38",
+     "IGCSE_BIOLOGY:2.40B",
+     "IGCSE_BIOLOGY:2.43B"
+    ],
+    "hits": 0,
+    "method": "corpus-wide exact-token search (trailing punctuation stripped) at the pinned corpus blob — honest no_printed_key stay, evidence of record"
+   }
   },
   "shared_codes_printed_in_two_chapters": {
    "2.15": [
@@ -1876,12 +1886,24 @@
    ]
   }
  },
- "generated_utc": "2026-11-13T14:54:01Z",
- "generator": "agent:scripts/wf4t2_build.py (W-F4-T2 staged build; repo-side scripts/book_layer/ generator proposed, not installed)",
+ "generated_utc": "2026-11-19T00:00:00Z",
+ "generator": "agent:scripts/wf8_emit_join.py (W-F8-T2 build per the W-F8-T1 design of record; repo-side scripts/book_layer/ generator proposed, not installed)",
  "inputs": [
   "fd10057231be89bac9e4ab36e405b37d94c01d6c",
   "d3fdd9342649278f07ec19fe15c4c166393c15f6",
   "269d31c91c4fa4ba291110afa5ac2e3856793ff4",
-  "receipts/W-F1/W-F1-T1-igcse-biology.json (local sha256 7616be2cbed7125648205509880a59bbcbf1614fb6c507e43d925bab2947cfe5)"
- ]
+  "receipts/W-F1/W-F1-T1-igcse-biology.json (local sha256 7616be2cbed7125648205509880a59bbcbf1614fb6c507e43d925bab2947cfe5)",
+  "books/pearson-edexcel/international-gcse/biology/4bi1/parsed/edexcel_igcse_biology_chunks_v1.jsonl @ cf1c8378b7ffdb581360c1e6b79bac157443c08c (blob 7d104844d1fd2df2420ce2f53c072a489c0af319)",
+  "Official-Specifications/parsed/_derived/book_layer/igcse-biology/book-structure--4bi1-student-book.json @ cf1c8378b7ffdb581360c1e6b79bac157443c08c (blob 967289060e06bfe48338b686ed5ffa3f1d56d896)",
+  "cache/w-f8/probe.json + probe2.json (W-F8-T1 probes of record)"
+ ],
+ "w_f8_enrichment": {
+  "j1_evidence_class": "the J1 keys ride spec_refs.printed_code_list from the COURSE STRUCTURE ToC spread — the W-F1-T1-igcse-biology transcription of record, page-cited (book pp. iv-vi, PDF pp. 5-7); rows preserved verbatim by this wave",
+  "figure_void": "M-8 figure-token exclusion + M-9 zero-integer constant exclusion (the W-F8-T1 design of record): a code-form token is excluded when the 60-char window before it ends with a figure/table/section reference word, or when its integer part is 0 — in the IGCSE family the only code-form tokens in body/LO text are figure/table/section numbers and prose constants (probe evidence: 0 coded LO line starts across 2,833 chunks)",
+  "probe_receipts": [
+   "cache/w-f8/probe.json",
+   "cache/w-f8/probe2.json"
+  ]
+ },
+ "lane": "W-F8 igcse trio completion (order trace 1a1f3f29f14afce5): additive enrichment only — J1 keys preserved verbatim, figure-void route verdicts of record"
 }
