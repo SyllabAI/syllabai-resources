@@ -48,7 +48,12 @@ status: W-F8-T1 COMPLETE 2026-11-19 — design of record filed at
   constants); gates G-F8-B1..B6 ALL PASS (6/6); the 3 files landed as build commit
   b6c09f8250740251fdc9b2329beaa8ec7155e458 (parent cf1c8378); the records landing (this task file, T1/T2 receipts, the
   W-F7 push-confirm ride-alongs, the W-F7 push clause, LEDGER Waves 50-52) follows as the
-  next commit of the same order; PUSH PENDING OPERATOR ORDER. Zero spec-side changes, zero
+  next commit of the same order; PUSHED 2026-11-20 (trace 1a1f48dd27c13881): both commits
+  on GitHub main via clean fast-forward cf1c8378..02325c5b, no force; pre-push anonymous
+  ls-remote race gate tip-match PASS; post-push verification 7/7 PASS (tip/tree/ancestor/
+  stability/url-clean/token-zero-hit/no-credential-files); push-confirm receipt
+  EXEC-1a1f48dd27c13881-push-confirm.json rides the next landing per the append-only
+  convention. Zero spec-side changes, zero
   books-lane changes, zero structure-file changes, zero census changes, no index files
   (single-book quals — the multi-book registration law does not fire).
 write_surface: Official-Specifications/parsed/_derived/book_layer/{igcse-chemistry,
@@ -82,4 +87,7 @@ write_surface: Official-Specifications/parsed/_derived/book_layer/{igcse-chemist
   identity + window re-scan (own implementation), deepening re-derivation, resolution,
   surface exactly 3M, confinement (17 neighbor blobs pinned), determinism sha256 re-run.
 - Landing: zero-index plumbing commit, surface exactly 3M; commit `b6c09f8250740251fdc9b2329beaa8ec7155e458`
-  (parent cf1c8378). Push PENDING OPERATOR ORDER.
+  (parent cf1c8378). PUSHED 2026-11-20 (trace 1a1f48dd27c13881): clean fast-forward
+  cf1c8378..02325c5b — build b6c09f82 + records 02325c5b both on GitHub main, no force;
+  race gate tip-match + post-push 7/7 PASS; push-confirm receipt of record
+  receipts/EXEC-1a1f48dd27c13881-push-confirm.json rides the next landing.

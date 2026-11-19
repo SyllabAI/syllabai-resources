@@ -1346,3 +1346,54 @@ outstanding). `tasks/W-F7-book-alignment.md` gains the push clause for
 `3bfbe69f`/`cf1c8378` (status -> BOTH COMMITS PUSHED). This commit (the records landing
 of the same operator order, on top of the Wave-51 commit `b6c09f8250740251fdc9b2329beaa8ec7155e458`). Push of both
 commits PENDING OPERATOR ORDER.
+
+# LEDGER append — Waves 53-54 (staged; lands with the W-F9 records commit)
+# Append-only: everything above this block stays byte-identical.
+
+---
+
+## Wave 53 — W-F8 push confirm lands: push-confirm receipt + push-confirm worklog + W-F8 task status push clause + LEDGER (trace 1a1f48dd27c13881)
+
+`receipts/EXEC-1a1f48dd27c13881-push-confirm.json` (NEW) records the push of the
+complete W-F8 wave to GitHub main: fast-forward `cf1c8378..02325c5b` (build
+`b6c09f8250740251fdc9b2329beaa8ec7155e458` — the three W-F4-T2 igcse joins — plus
+records `02325c5bcdd4f08ab02643a4e4823c847422fa8a` — the W-F8 task file, T1/T2
+receipts, the W-F7 push-confirm ride-alongs, the W-F7 push clause, LEDGER Waves
+50-52), exit 0, no force, pre-push anonymous ls-remote tip-match gate PASS (remote
+tip == `cf1c8378` == push base), post-push verification 7/7 PASS (remote tree ==
+local tree `5a0f3004`, both pins ancestors, tip stable, URL clean, token
+zero-persist, grep zero hits, no credential files). W-F4-T2 for the igcse trio is
+COMPLETE on main. Credential note of record: SAME token, 10th+ transit — ROTATION
+NOW CRITICAL. This section lands with the W-F9 records commit (append-only
+convention).
+
+---
+
+## Wave 54 — W-F9 books rollout: the CIE text-layer quartet lands (trace 1a1f4951330253b5; committed under operator order trace 1a1f4951330253b5)
+
+`W-F9` executes the books rollout queue's honest next-actionable set
+(books/CATALOG.md §4; the 10 NO_BOOK Edexcel lanes stay operator-purchase gated
+per the W-F7-T1 §7 law; 0610/0620 stay OCR-route quota-walled). Build commit:
+**9701 reconciled** (catalog-lag errata of record — the landed corpus v1, 1083
+chunks, re-validated under its own validator: ALL CHECKS PASSED 18/18, pristine
+byte-identical) + **9702 PARSED** (v1, **2046 chunks** `c9702_v1_`: born-digital
+two-column print replica, per-page gutter vote 340/744 pages, offset book=pdf−12,
+32 chapters + P1/P2, EOC anchored 32/32, sidebar QUESTION boxes typed `questions`)
++ **9700 PARSED** (v1, **1971 chunks** `c9700_v1_`: equal-column body 410/696,
+offset pdf−10, 19 chapters + P1/P2, EOC anchored 21/21 incl. the AS chapters'
+double-space 'End-of-chapter  questions' form normalized at marker time) +
+**0625 PARSED** (v1, **896 chunks** `c0625_v1_u{1-5}_…`: PDFium irregular
+two-band grid, fixed gutter x=307, offset pdf−13 verified 5 ways, 50 chapters in
+5 printed sections — the unit law with `u<unit>` in the ID grammar, checklists
+50/50, exam/revision/practical/alt-practical banks + Answers anchored; DAMAGE
+CLASS D-2 of record: fi/fl ligature loss, 488 occurrences, unrepaired v1) —
+13-key v1 grammar throughout, sub/superscripts rebuilt from span geometry,
+validators ALL CHECKS PASSED ×3, determinism sha256 byte-identical re-runs,
+CATALOG rows 4/5/6/7 → PARSED in the same commit (update law), four lane READMEs
+updated, per-book pipeline scripts landed. LLM fidelity polish NOT STARTED for
+all four corpora (quota-walled; pristine snapshots are the anchor-diff targets).
+One revertible commit: revert = restore the four CATALOG/README blobs and delete
+the three new parsed/ + pipeline/ subtrees. The records landing (this task's
+task file + T1/T2 receipts + the Wave-53 push-confirm ride-alongs + LEDGER)
+follows as the next commit of the same order. Push of both commits PENDING
+OPERATOR ORDER.

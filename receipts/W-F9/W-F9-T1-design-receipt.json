@@ -1,0 +1,28 @@
+{
+ "schema": "syllabai.task-receipt/1",
+ "task": "W-F9-T1",
+ "title": "design of record — books rollout queue triage + CIE text-layer quartet design",
+ "order_trace": "1a1f4951330253b5",
+ "executed_utc": "2026-11-20",
+ "outcome": "DESIGN_COMPLETE",
+ "deliverables": [
+  "receipts/W-F9/W-F9-T1-design-of-record.md (this wave's design of record)",
+  "tasks/W-F9-cie-books-parse.md (drafted; lands with the records commit)"
+ ],
+ "probes_of_record": [
+  "cache/w-f9/probe-9702.json + probe-9700.json + probe-0625.json (text-layer coverage 99.6/99.7/98.8%, TOC, headers, fonts, markers)",
+  "cache/w-f9/probe2-structure.txt (TOC dumps, openers, offset censuses, special sections)",
+  "cache/w-f9/probe3-display.txt (full display-heading scans — section maps)",
+  "cache/w-f9/probe4 marker+damage census (run log)",
+  "cache/w-f9/col-interleaved-*.json (superseded by the raw-span law; kept as history)",
+  "raw-span gutter probes in the build logs (9702 pdf 17/22; 9700 pdf 41; 0625 pdf 16/27/33/120)"
+ ],
+ "decisions": [
+  "wave scope = the CIE text-layer quartet (9701 reconcile, 9702/9700/0625 parse); OCR-route 0610/0620 honestly not executed (quota-walled); all never-sourced lanes stay operator-purchase gated (W-F7-T1 §7 law)",
+  "column laws: per-page gutter vote for the CUP two-column bodies; fixed gutter x=307 for the 0625 irregular grid; multi-column index pages = justified non-body exceptions",
+  "schema = 13-key v1 grammar; 0625 carries the printed-section unit law (u<unit> in the ID grammar); new content types additive only",
+  "0625 fi/fl ligature-loss class disclosed as D-2 damage of record, unrepaired in v1"
+ ],
+ "repo_writes": "zero (probe-only round; all evidence agent-side under cache/w-f9/)",
+ "next": "W-F9-T2 executes the build + gates + landing in the same order (W-F6/W-F7/W-F8 precedent)"
+}

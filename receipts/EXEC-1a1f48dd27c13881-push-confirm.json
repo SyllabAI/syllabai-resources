@@ -1,0 +1,45 @@
+{
+ "schema": "syllabai.exec-receipt/1",
+ "trace": "1a1f48dd27c13881",
+ "order": "operator message 'Push' with PAT — push the pending W-F8 wave (the three W-F4-T2 staged joins igcse-chemistry/igcse-biology/igcse-physics: build commit b6c09f82 + records landing commit 02325c5b) to GitHub main",
+ "executed_utc": "2026-11-20",
+ "outcome": "PUSH_LANDED_CLEAN_FAST_FORWARD",
+ "preconditions_verified_before_push": [
+  "build landing manifest cache/w-f8/landing-1a1f3f29f14afce5-build.json: ALL PASS (surface exactly 3M, commit parent == cf1c8378)",
+  "records landing manifest cache/w-f8/landing-1a1f3f29f14afce5-records.json: ALL PASS (surface exactly 8A + 2M, parent == build commit)",
+  "gates cache/w-f8/gate-verdicts.json: G-F8-B1..B6 ALL PASS (6/6), wave W-F8-T2, head cf1c8378",
+  "fresh pre-push race gate: anonymous ls-remote tip == cf1c8378 == push base"
+ ],
+ "race": {
+  "gate": "pre-push anonymous ls-remote tip-match",
+  "result": "remote tip == cf1c8378 == push base (parent of build commit b6c09f82) — clean fast-forward, no advance since the landing round (order 1a1f3f29f14afce5), no re-parent needed"
+ },
+ "push": {
+  "range": "cf1c8378b7ffdb581360c1e6b79bac157443c08c..02325c5bcdd4f08ab02643a4e4823c847422fa8a",
+  "result": "fast-forward, exit 0, no force",
+  "method": "one authenticated git push with the PAT in the transient command URL; output piped through sed redaction (script scripts/wf8_push.sh); the token was never written to any file, config, receipt, ref or script",
+  "carried": "the complete W-F8 wave (order trace 1a1f3f29f14afce5): build commit b6c09f8250740251fdc9b2329beaa8ec7155e458 (the three W-F4-T2 book-join.json M — igcse-chemistry: 62 landed point entries removed as figure-caption false positives, points_keyed 7 -> 0 honest figure-void, J5 deepening +9 CONTAINS, subsections covered 18 -> 26/28; igcse-physics: 7 landed entries removed, points_keyed 7 -> 0, J5 22/30 unchanged; igcse-biology: additive only, 172 J1 keys stand — the IGCSE family law of record: student books print NO spec-reference codes, corrected under M-11; gates G-F8-B1..B6 ALL PASS 6/6) + records landing commit 02325c5bcdd4f08ab02643a4e4823c847422fa8a (tasks/W-F8-igcse-trio-join-completion.md NEW + W-F8 T1 design-of-record/design-receipt/worklog + T2 build-receipt/worklog + the W-F7 push-confirm ride-alongs EXEC-1a1f27218b046a15-push-confirm.json and W-F7-push-confirm-worklog-entry.md + tasks/W-F7-book-alignment.md push clause for 3bfbe69f/cf1c8378 + LEDGER Waves 50-52)"
+ },
+ "post_push_verification": [
+  "anonymous ls-remote == 02325c5b == local HEAD",
+  "origin/main fetched: FETCH_HEAD == 02325c5b",
+  "remote tree == local tree: FETCH_HEAD^{tree} == HEAD^{tree} == 5a0f30047d5023f51265de97ba319f57fb7844c2",
+  "ancestry: cf1c8378 ancestor of 02325c5b (merge-base --is-ancestor PASS); both b6c09f82 and 02325c5b now on GitHub main",
+  "remote tip stable on independent re-check (== 02325c5b)",
+  "remote.origin.url unchanged and clean (https://github.com/SyllabAI/syllabai-resources.git)",
+  "no credential helper files created (~/.git-credentials, ~/.netrc absent)",
+  "grep for the delegated token across the repository .git directory: zero hits"
+ ],
+ "credential_handling": {
+  "delegated_token": "ghp_rW7z…71xD (redacted form) — SAME token as every prior exposure (9+ per the Wave-50 push-confirm receipt of record EXEC-1a1f27218b046a15-push-confirm.json, now on main); this round is the 10th+ chat-channel transit",
+  "usage_this_round": "exactly ONE authenticated push; all reads (pre-push ls-remote, post-push ls-remote x2, fetch) anonymous",
+  "persistence": "zero — nothing written to files/config/receipts/refs; remote URL clean; .git grep zero hits",
+  "rotation": "ROTATION NOW CRITICAL — 10th+ transit of the same credential; rotate immediately"
+ },
+ "repo_writes_this_round": "push only (cf1c8378..02325c5b now on GitHub main); no new records commit — this receipt + the W-F8 push-confirm worklog entry + the W-F8 task-file push clause for 02325c5b + the LEDGER Wave-53 push-confirm section ride the NEXT records landing per the append-only convention (staged agent-side at cache/w-f8/)",
+ "next_operator_actions": [
+  "ROTATE THE PAT (10th+ exposure of ghp_rW7z…71xD)",
+  "next records landing (any subsequent order) rides: this receipt + receipts/W-F8/W-F8-push-confirm-worklog-entry.md + the W-F8 task-file push clause (b6c09f82/02325c5b) + LEDGER Wave-53 push-confirm section",
+  "remaining backlog (all honest-blocked, no order pending): 10 NO_BOOK quals + ial-biology joins blocked on the books rollout queue; CIE SOURCE_ONLY books = Lane C follow-on; CIE practicals honest-empty x34, 5 topic-null rows, 29 text_render rows unrecovered (unchanged)"
+ ]
+}
