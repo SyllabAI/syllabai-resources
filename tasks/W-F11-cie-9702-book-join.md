@@ -38,6 +38,29 @@ status: W-F11-T1 COMPLETE 2026-11-20 — design of record filed at
   / token-zero-hit incl. project-wide full-literal grep / no-credential-files);
   push-confirm receipt EXEC-1a1f57a68d63bfc5-push-confirm.json staged
   agent-side, rides the next landing per the append-only convention.
+  W-F11c ride-alongs landing PUSHED 2026-11-20 (trace 1a1f790e13db6e91): the
+  ride-alongs commit 230a6fff98a9699879ea2a31b4ffc9640fe03c09 (tree
+  4bce8b0ace5454aff5a71013209254b3d70f806f — 2A + 2M: the push-confirm receipt
+  + the W-F11 push-confirm worklog entry + the LEDGER Wave-59 push-confirm
+  section + this push clause for 5722fb3e/8ba70993) is on GitHub main via
+  clean fast-forward 8a9e8730d2e8c27cf018a26f3e763ebb322ccdf1..
+  230a6fff98a9699879ea2a31b4ffc9640fe03c09, no force — composed directly on
+  the advanced tip 8a9e8730 per the Wave-46 re-base law (base advance
+  8ba70993..8a9e8730 = merge 5b2f23063a2700941d4e6194a1f2379f0949c144, PR #359
+  videos/p16-lit21-opening, 14 paths ALL under Videos/, zero overlap with this
+  4-path surface, LEDGER.md and this task file base blobs byte-identical at
+  both tips, no rebuild needed); landing verification V0..V10 ALL PASS (22
+  gates, scripts/wf11c_ridealong_land.py, manifest
+  cache/w-f11/landing-1a1f72110c568331.json); the push executed ONLY on the
+  fresh rotated credential per the ROTATION OVERDUE law (the unrotated token
+  had been withheld at trace 1a1f737f16f9f791 with zero rework;
+  redacted-form comparison ghp_G7n2…gJU4 != form of record ghp_rW7z…71xD);
+  pre-push race gate tip-match PASS twice; post-push verification POST-1..9
+  ALL PASS (tip / tree 4bce8b0a / ancestor / stability / url-clean /
+  token-zero-hit incl. project-wide full-literal grep / no-credential-files /
+  blob pins / local CAS 8ba70993->230a6fff); push-confirm receipt
+  EXEC-1a1f790e13db6e91-push-confirm.json staged agent-side, rides the next
+  landing per the append-only convention.
 ```
 
 ## 1. Scope of record

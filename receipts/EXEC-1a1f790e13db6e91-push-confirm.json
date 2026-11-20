@@ -1,0 +1,48 @@
+{
+ "schema": "syllabai.exec-receipt/1",
+ "trace": "1a1f790e13db6e91",
+ "order": "operator message with a bearer credential and no other text — read per the PREFERRED path of EXEC-1a1f737f16f9f791-push-withheld.json: the operator rotated the credential and sent the FRESH token, i.e. the push delegation for the pinned W-F11c ride-alongs commit 230a6fff98a9699879ea2a31b4ffc9640fe03c09 (withheld last round solely on the ROTATION OVERDUE law)",
+ "executed_utc": "2026-11-20",
+ "outcome": "PUSH_LANDED_CLEAN_FAST_FORWARD__WAVE59_ON_MAIN",
+ "credential_identification": {
+  "method": "redacted-form comparison against the credential ledger of record (first 8 + last 4 chars; no authenticated probe call was made with the credential — the form check precedes the single authenticated push)",
+  "sent_form_redacted": "ghp_G7n2…gJU4",
+  "form_of_record": "ghp_rW7z…71xD — the unrotated token, 14th+ documented transit, withheld at trace 1a1f737f16f9f791",
+  "verdict": "DIFFERENT credential — a fresh rotation product; the FRESH-ROTATED-PAT-ONLY law (the pushed commit's own message, LEDGER Wave 59, EXEC-1a1f57a68d63bfc5-push-confirm.json) is satisfied and the withheld push executes"
+ },
+ "preconditions_verified_before_push": [
+  "PRE-0 credential form check inside scripts/wf11c_push.sh: computed redacted form ghp_G7n2…gJU4 != form of record ghp_rW7z…71xD — rotation product, push un-withheld",
+  "PRE-1 local pins: refs/local/wf11c-ridealong-1a1f72110c568331 == 230a6fff98a9699879ea2a31b4ffc9640fe03c09; tree == 4bce8b0ace5454aff5a71013209254b3d70f806f; parent == 8a9e8730d2e8c27cf018a26f3e763ebb322ccdf1 — all match cache/w-f11/landing-1a1f72110c568331.json",
+  "PRE-2 the commit message of 230a6fff carries the FRESH ROTATED PAT clause (grep PASS)",
+  "race gate anonymous ls-remote tip == 8a9e8730d2e8c27cf018a26f3e763ebb322ccdf1 == push parent, verified TWICE (at round start and immediately before push inside the script) — clean fast-forward path, no race advance, no re-base needed"
+ ],
+ "push": {
+  "range": "8a9e8730d2e8c27cf018a26f3e763ebb322ccdf1..230a6fff98a9699879ea2a31b4ffc9640fe03c09",
+  "result": "fast-forward, exit 0, no force",
+  "method": "one authenticated git push of 230a6fff98a9699879ea2a31b4ffc9640fe03c09:refs/heads/main with the PAT in the transient command URL; all output piped through sed redaction (script scripts/wf11c_push.sh); the token was never written to any file, config, receipt, ref or script",
+  "carried": "the complete W-F11c push-confirm ride-alongs (2A + 2M): receipts/EXEC-1a1f57a68d63bfc5-push-confirm.json NEW + receipts/W-F11/W-F11-push-confirm-worklog-entry.md NEW + LEDGER.md (Wave-59 push-confirm section) + tasks/W-F11-cie-9702-book-join.md (push clause for 5722fb3e/8ba70993)"
+ },
+ "post_push_verification": [
+  "POST-1 PASS: anonymous ls-remote tip == 230a6fff == push head",
+  "POST-2 PASS: fetched FETCH_HEAD^{tree} == 230a6fff^{tree} == 4bce8b0ace5454aff5a71013209254b3d70f806f (remote tree == pushed tree)",
+  "POST-3a PASS: merge-base --is-ancestor(8a9e8730, 230a6fff); POST-3b PASS: remote tip stable on independent re-check",
+  "POST-4 PASS: remote.origin.url unchanged and clean (https://github.com/SyllabAI/syllabai-resources.git)",
+  "POST-5 PASS: ghp_ grep across the clone's .git — zero hits",
+  "POST-6 PASS: ~/.git-credentials and ~/.netrc absent",
+  "POST-7 PASS: project-wide full-literal token grep across /home/z/my-project and HOME (excluding .git) — zero hits (double-verified zero persistence)",
+  "POST-8 PASS: all four blob pins on the pushed commit match the landing manifest of record — receipts/EXEC-1a1f57a68d63bfc5-push-confirm.json 1083dd36e08585b6e26eb2e00a5af703b44b9e1d, receipts/W-F11/W-F11-push-confirm-worklog-entry.md ae7df5fd2cd2548f77f68ea470be9ead28092475, LEDGER.md 6106d887e64900b4df9eb3c5468982225867212a, tasks/W-F11-cie-9702-book-join.md b53cc3b64a53e107ce02adf24886697cc86ddb76",
+  "POST-9 PASS: local refs/heads/main CAS-updated 8ba70993 -> 230a6fff (update-ref only, no worktree touch, partial-clone discipline held)"
+ ],
+ "credential_handling": {
+  "delegated_token": "ghp_G7n2…gJU4 (redacted form) — the FRESH ROTATED credential; distinct from the unrotated ghp_rW7z…71xD of record",
+  "usage_this_round": "exactly ONE authenticated push; every read (state-check ls-remote, race gate x2, POST-1/3b/summary ls-remotes, fetch) anonymous",
+  "persistence": "zero — nothing written to files/config/receipts/refs; remote URL clean; .git ghp_ grep zero hits; project-wide full-literal grep zero hits; no credential helper files (POST-5/6/7)",
+  "rotation": "THIS fresh token has now made its 1st chat-channel transit and its 1st authenticated push — ROTATE IT AGAIN after this push per discipline; the OLD token ghp_rW7z…71xD must be confirmed REVOKED (rotation is incomplete until revocation is verified); no further push rounds should ride either token"
+ },
+ "repo_writes_this_round": "push only (8a9e8730..230a6fff now on GitHub main); no new records commit — this receipt + the W-F11c push-confirm worklog entry + the W-F11 task-file push clause for 230a6fff + the LEDGER Wave-60 push-confirm section ride the NEXT records landing per the append-only convention (staged agent-side at cache/w-f11/)",
+ "next_operator_actions": [
+  "ROTATE the fresh token now (1 transit + 1 push on it) and CONFIRM REVOCATION of the old ghp_rW7z…71xD",
+  "next records landing (any subsequent order) rides: this receipt + receipts/W-F11/W-F11c-push-confirm-worklog-entry.md + the W-F11 task-file push clause for 230a6fff (draft cache/w-f11/wf11c-task-push-clause.md) + LEDGER Wave-60 (draft cache/w-f11/ledger-w60.md)",
+  "join program queue state (honest, unchanged): the remaining CIE quartet joins (9701, 0625) NOT STARTED — each needs its own probe + design order; 0625 carries the D-2 ligature-loss class (N-1 folding law applies); the Edexcel ial-biology-18 (YBI11) join stays honest-blocked on sourcing (operator purchases, never agent-fetches, W-F7-T1 section 7 law); the 17 unmatched 9702 chapters stay honest NO_TOPIC_MAPPING rows (levers: the 3rd-ed upgrade corpus or an operator-ordered semantic lane — both out of this wave's write face); LLM fidelity polish quota-walled; INTEGRATED/LIVE remains the v2-repo/DB lever (not this repo's write face, CATALOG section 1 state law)"
+ ]
+}

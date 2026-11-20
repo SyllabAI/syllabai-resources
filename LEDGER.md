@@ -1565,3 +1565,44 @@ applies); YBI11 stays honest-blocked on sourcing. Credential note of record:
 SAME token, 13th+ transit — ROTATION OVERDUE: rotate before the next push
 order. This section lands with the next records landing (append-only
 convention).
+
+---
+
+## Wave 60 — W-F11c ride-alongs land: the rotation-gated push executes on the fresh rotated credential (trace 1a1f790e13db6e91)
+
+The ride-alongs commit of record
+`230a6fff98a9699879ea2a31b4ffc9640fe03c09` (tree
+`4bce8b0ace5454aff5a71013209254b3d70f806f` — 2A + 2M: the W-F11 push-confirm
+receipt + the W-F11 push-confirm worklog entry + the W-F11 task push clause for
+`5722fb3e`/`8ba70993` + LEDGER Wave 59) is on GitHub main via clean
+fast-forward `8a9e8730d2e8c27cf018a26f3e763ebb322ccdf1..230a6fff`, exit 0, no
+force. Precedent chain of record: the landing was built and verified under
+trace `1a1f72110c568331` ("Proceed with next" — V0..V10, 22 gates ALL PASS,
+manifest cache/w-f11/landing-1a1f72110c568331.json, composed directly on the
+advanced tip `8a9e8730` per the Wave-46 re-base law: base advance
+`8ba70993..8a9e8730` = merge `5b2f23063a2700941d4e6194a1f2379f0949c144`, PR
+#359 videos/p16-lit21-opening, 14 paths ALL under Videos/, zero overlap with
+the 4-path surface, base blobs byte-identical at both tips); its push was then
+WITHHELD at trace `1a1f737f16f9f791` because the delegated credential was the
+SAME unrotated token (`ghp_rW7z…71xD`, 14th+ transit) while this commit's own
+message, LEDGER Wave 59 and the prior receipt demand a FRESH ROTATED PAT —
+READY_AND_HELD, zero rework. This round the operator sent the fresh rotated
+credential (trace `1a1f790e13db6e91`): redacted-form comparison (first 8 +
+last 4, the withholding round's method of record) returned `ghp_G7n2…gJU4` !=
+form of record, the push un-withheld and executed with zero rework (script
+scripts/wf11c_push.sh, transient env, sed-redacted output): pre-checks PRE-0/1/
+2 PASS, anonymous race gate tip == push parent twice, ONE authenticated push,
+POST-1..9 ALL PASS (tip/tree `4bce8b0a`/ancestor/stability/url-clean/
+token-zero-hit incl. project-wide full-literal grep/no-credential-files/blob
+pins/local CAS 8ba70993->230a6fff, no worktree touch). Credential note of
+record: the fresh token has 1 chat transit + 1 authenticated push — rotate it
+again after this push; the OLD token `ghp_rW7z…71xD` must be confirmed REVOKED
+(rotation is incomplete until revocation is verified); no further push rounds
+ride either token. Wave 59 is now on main and the W-F11 push-confirm record
+chain is complete. Queue state (honest, unchanged): the remaining CIE quartet
+joins (9701 / 0625 — the latter carries the D-2 ligature-loss class, N-1
+folding law applies) NOT STARTED, each needs its own probe + design order;
+YBI11 stays honest-blocked on sourcing; the 17 unmatched 9702 chapters stay
+honest NO_TOPIC_MAPPING rows; LLM fidelity polish quota-walled; INTEGRATED/
+LIVE remains the v2-repo/DB lever, not this repo's write face. This section
+lands with the next records landing (append-only convention).
