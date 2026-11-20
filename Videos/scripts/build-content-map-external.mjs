@@ -2107,6 +2107,188 @@ for (const course of P15) {
   );
 }
 
+// ================================================= P17 gap-profile judgment lane =====
+// Owner 2026-11-20: "P17 profile" (the next search round after P15/P16) -> the
+// fresh residual profile at main (scripts/p17/gap_profile_p17.json: 3,668 unmapped
+// of 10,814) -> 24 gap clusters / 75 code-targeted queries -> 292 channels -> the
+// register gate -> 21 pools filed (resources PR #360: 8,927 uploads, 0 overlap vs
+// the shipped union 10,248 incl. P15+P16 AND all prior lane inventories 44,364 AND
+// 0 intra-P17) -> owner "run P17 judgment" 2026-11-20. 2,574 owner-reviewed rows
+// onto 36 courses: 1,185 Tier B paper-code anchors (method paper-code, high, zero
+// spec weight) + 1,389 spec rows (the P13/P15 ladder + the P16 Class W predicate
+// with the disclosed P17 amendment: possessive Author-Work extraction and
+// hashtag-suffixed quote lookahead). New Tier B laws of record on top of P15: the
+// Pearson-pipe IAL register ('A level | subject | Unit N | session | Pearson
+// Edexcel' — chem-bio-math-revision-hub x171 unit-paper anchors, the P14 Assil law
+// extended); 4GE1 International GCSE Geography A; 4IT1 ICT; 4MB1 maths-B; the 4WM1/
+// 4WM2 modular-maths paper codes + 4XM; 0607 international maths (ext+core dual);
+// 4BS1 business; 9609 -> the AS+A2 business pair (shared-code, disclosed); 0450;
+// Ed-IGCSE sciences 4CH1/4BI1/4PH1/4SD0 + modular chemistry 4WCH1/4WCH2; 0606 with
+// the disclosed 4037-dual-branding precedence. Honest register calls of record:
+// wilson-chong is the 2012-era UK GCSE modular register (1MA0 — NOT the 2024 4XM
+// IGCSE; 0 binds), nevdoes-econ carries no 9708 codes (3 ladder binds), first-rate-
+// tutors and gcse-ready's lit families are UK GCSE English Literature (0 CIE 0475),
+// business-teacher-t is Edexcel UK A-level business (0 codes), mathman's 171 9709
+// titles SKIP per ANCHOR-GRANULARITY §6 (the P9 precedent). Identity: oEmbed
+// 2,474/2,474 routed videos author_url == channel-of-record via UC id (0 mismatch,
+// 0 dead, 0 thumb fallbacks). Honest skips 6,453 ledgered by class with
+// exactly-once disposition of all 8,927 accounts (0 collisions). 21 courses append
+// here BEFORE the P4 inherit loop; the 15 P4 inherit CHILDREN with direct P17 rows
+// (scripts/p17/p17-courses.json is the committed partition of record) append AFTER
+// the loop in P17B below (the P11B/P13B/P14B/P15B shape).
+const P17 = [
+  "cie-a-level-business-23",
+  "cie-a-level-economics-23",
+  "cie-as-business-23",
+  "cie-igcse-biology-23",
+  "cie-igcse-business-23",
+  "cie-igcse-business-25",
+  "cie-igcse-chemistry-23",
+  "cie-igcse-economics-20",
+  "cie-igcse-economics-25",
+  "cie-igcse-english-literature-21",
+  "cie-igcse-further-maths-additional-maths-25",
+  "cie-igcse-geography-20",
+  "cie-igcse-physics-23",
+  "igcse-biology-19",
+  "igcse-business-19",
+  "igcse-chemistry-19",
+  "igcse-geography-19",
+  "igcse-ict-17",
+  "igcse-maths-a-18-higher",
+  "igcse-maths-b-16",
+  "igcse-physics-19",
+];
+const P17_LANE_NAME = "external-channels-p17 (gap-profile judgment lane: the corrected-code sweep over the fresh post-P15/P16 residual \u2014 4GE1/4IT1/4XM/4WM/4MB1/4CH1/4SD0/4WCH registers where the P15 queries carried the old codes; the Pearson-pipe IAL unit-session family; the 4BS1/9609 business pair; the P16 Class W predicate with the disclosed P17 possessive/hashtag amendment; the honest register calls: wilson-chong 2012 UK GCSE modular 0-bind, nevdoes-econ no-code 3 binds, first-rate/gcse-ready lit = UK GCSE, mathman 9709 §6 skips)";
+for (const course of P17) {
+  const D = join(VIDEOS, "drafts", course);
+  const draft = JSON.parse(readFileSync(join(D, "video-map.draft.external-p17.json"), "utf8"));
+  const verdicts = JSON.parse(readFileSync(join(D, "owner-review-verdicts.p17.json"), "utf8"));
+  if (draft.reviewState !== "owner-reviewed-external")
+    throw new Error(`${course}: p17 reviewState is "${draft.reviewState}" — apply review first`);
+  const spine = JSON.parse(readFileSync(join(SPINES, `${course}.json`), "utf8"));
+  const specByCode = new Map(
+    spine.curriculum.nodes.filter((n) => n.family === "SPEC_POINT").map((n) => [n.code, n])
+  );
+  assertSpineMirror(course, spine);
+  const contentPath = join(MAPDIR, `${course}.json`);
+  if (!existsSync(contentPath))
+    throw new Error(`${course}: p17 targets only existing covered courses — content file missing`);
+  const content = JSON.parse(readFileSync(contentPath, "utf8"));
+  if (!content.review) errors.push(`${course}: existing content file has no review block`);
+  if (!content.inputs) errors.push(`${course}: existing content file has no inputs block`);
+  if (errors.length) break;
+
+  // idempotency (the P2B law, video-keyed): the draft is the only source for
+  // p17 rows — drop prior rows by video id and the prior p17 lane entry before
+  // re-appending, so a re-emit from post-p17 state is a no-op.
+  const p17Vids = new Set(draft.videos.map((v) => v.id));
+  content.mappings = content.mappings.filter((m) => !p17Vids.has(m.video));
+  content.review.lanes = (content.review.lanes || []).filter(
+    (l) => !String(l.lane || "").includes("gap-profile judgment lane")
+  );
+  for (const m of draft.mappings) {
+    if (m.reviewed !== true || !m.reviewer || !m.reviewedUtc)
+      errors.push(`${course}: unreviewed p17 row leaking into content (${m.video})`);
+    if (!/^[\w-]{11}$/.test(m.video)) errors.push(`${course}: bad p17 video id ${m.video}`);
+    if (m.method === "paper-code") {
+      if (!m.anchor || m.anchor.level !== "course" || m.anchor.ref !== course)
+        errors.push(`${course}: p17 paper-code row must carry anchor{level:course, ref:course} (${m.video})`);
+      if (!m.specs || m.specs.length !== 0)
+        errors.push(`${course}: p17 anchor rows carry specs:[] — zero spec weight (§4) (${m.video})`);
+      if (m.confidence !== "high")
+        errors.push(`${course}: p17 paper-code anchor must be high confidence (${m.video})`);
+      if (m.boardMismatch !== false)
+        errors.push(`${course}: p17 paper-code anchor is same-qualification — boardMismatch must be false (${m.video})`);
+      if (m.kind !== "past-paper-walkthrough")
+        errors.push(`${course}: p17 anchor row must carry kind past-paper-walkthrough (${m.video})`);
+    } else if (m.method === "llm-draft-external") {
+      if (!m.specs || m.specs.length === 0)
+        errors.push(`${course}: p17 spec rows must carry non-empty specs (${m.video})`);
+      if (m.boardMismatch !== true)
+        errors.push(`${course}: p17 spec rows carry the title-only posture — boardMismatch must be true (${m.video})`);
+      if (m.confidence !== "medium" && m.confidence !== "low")
+        errors.push(`${course}: p17 spec rows are medium/low — high would violate the inherit posture (${m.video})`);
+      for (const code of m.specs || [])
+        if (!specByCode.has(code)) errors.push(`${course}: p17 spec ${code} not in spine (${m.video})`);
+    } else {
+      errors.push(`${course}: p17 row has unexpected method ${m.method} (${m.video})`);
+    }
+  }
+  const haveKeysP17 = new Set(content.mappings.map((m) => m.video + "|" + JSON.stringify(m.specs)));
+  for (const m of draft.mappings) {
+    const k = m.video + "|" + JSON.stringify(m.specs);
+    if (haveKeysP17.has(k)) errors.push(`${course}: duplicate p17 row across union ${k}`);
+    haveKeysP17.add(k);
+  }
+  const haveVidsP17 = new Set(content.videos.map((v) => v.id));
+  for (const v of draft.videos) {
+    if (!haveVidsP17.has(v.id)) content.videos.push(v);
+    if (!v.provider || !v.watchUrl) errors.push(`${course}: p17 video ${v.id} missing provider/watchUrl`);
+    if (!v.identityMethod) errors.push(`${course}: p17 video ${v.id} missing identityMethod`);
+  }
+  if (errors.length) break;
+
+  content.mappings = [...content.mappings, ...draft.mappings];
+  const allSpecsP17 = new Set(content.mappings.flatMap((m) => m.specs));
+  const mappedVidsP17 = new Set(content.mappings.map((m) => m.video));
+  content.coverage = {
+    specPointsTotal: specByCode.size,
+    specPointsMapped: allSpecsP17.size,
+    specPointsUnmapped: specByCode.size - allSpecsP17.size,
+    videosTotal: content.videos.length,
+    videosMapped: mappedVidsP17.size,
+    videosUnmapped: content.videos.length - mappedVidsP17.size,
+    mappingRows: content.mappings.length,
+    byConfidence: {
+      high: content.mappings.filter((m) => m.confidence === "high").length,
+      medium: content.mappings.filter((m) => m.confidence === "medium").length,
+      low: content.mappings.filter((m) => m.confidence === "low").length,
+    },
+  };
+  const p17Lane = {
+    lane: P17_LANE_NAME, task: verdicts.task,
+    ruling: verdicts.source, reviewer: verdicts.reviewer, ruledUtc: verdicts.ruledUtc,
+    evidenceBasis: verdicts.evidenceBasis,
+    rowsApproved: draft.mappings.length, rowsRejected: (verdicts.rejects || []).length,
+    rejects: REJECTS_OF(verdicts, verdicts.task),
+  };
+  content.review.lanes = [
+    ...(content.review.lanes || [{
+      lane: "external-channels (primary)", task: content.review.task,
+      ruling: content.review.ruling, reviewer: content.review.reviewer,
+      ruledUtc: content.review.ruledUtc, evidenceBasis: content.review.evidenceBasis,
+      rowsApproved: content.review.rowsApproved, rowsRejected: content.review.rowsRejected,
+      rejects: content.review.rejects || [],
+    }]),
+    p17Lane,
+  ];
+  content.review.rowsApproved = content.mappings.length;
+  content.source.p17 = {
+    provider: draft.source.provider, method: draft.source.method,
+    enumeratedUtc: draft.source.enumeratedUtc,
+  };
+  content.inputs.p17 = {
+    repo: "SyllabAI/syllabai-resources",
+    path: `Videos/drafts/${course}/video-map.draft.external-p17.json`,
+    task: verdicts.task, reviewAppliedUtc: verdicts.ruledUtc,
+  };
+  content.generatedUtc = new Date().toISOString();
+  writeFileSync(join(MAPDIR, `${course}.json`), JSON.stringify(content, null, 1) + "\n");
+  const baseLaneP17 = registry.courses[course]?.lane || "external-channels";
+  registry.courses[course] = {
+    videos: content.videos.length,
+    mapped: content.coverage.videosMapped,
+    shelf: registry.courses[course]?.shelf ?? null,
+    lane: baseLaneP17.includes("p17-gap-profile") ? baseLaneP17 : baseLaneP17 + " + p17-gap-profile",
+    updatedUtc: new Date().toISOString(),
+  };
+  registry.generatedUtc = new Date().toISOString();
+  console.log(
+    `${course}: SHIPPED +p17 specs ${content.coverage.specPointsMapped}/${content.coverage.specPointsTotal} · videos ${content.coverage.videosMapped}/${content.coverage.videosTotal} · rows ${content.coverage.mappingRows} (+${draft.mappings.length} gap-profile rows, pre-inherit) · 0 reviewed:false in content`
+  );
+}
+
 // ================================================= P4 inheritance lane =====
 // 35 child courses derive their external lane from ONE parent course's
 // owner-approved rows via the committed containment map. Child spec -> best
@@ -3280,6 +3462,158 @@ for (const course of P2F) {
   );
 }
 
+// ================================================= P17B — inherit-child append-after-inherit =====
+// Fifteen P4 inherit CHILDREN carry DIRECT P17 rows (scripts/p17/p17-courses.json is
+// the committed partition of record): the 0607 international-maths pair, the IAL trio
+// (the Pearson-pipe unit-paper anchors), the igcse-maths-a-18-foundation + modular-24
+// maths units x4 (4WM1/4WM2 sample assessments + modular routing), the modular chemistry
+// units x2 (4WCH1/4WCH2) and the igcse-science-double-award-17 trio (4SD0 dual-coded
+// anchors) are rebuilt fresh by the inherit section above (their parent courses gained
+// P17 rows in the P17 section — igcse-maths-a-18-higher, igcse-physics-19, igcse-chemistry-19,
+// cie-igcse-biology-23 and the other P17 pre courses), so the children's own drafts cannot
+// be appended before it. Same lane, same drafts, the P11B/P13B/P14B/P15B shape. These
+// drafts carry BOTH methods, so the validation mirrors the P15B dual law.
+const P17B = [
+  "cie-igcse-maths-international-maths-23-core",
+  "cie-igcse-maths-international-maths-23-extended",
+  "ial-biology-18",
+  "ial-chemistry-17",
+  "ial-physics-19",
+  "igcse-chemistry-modular-24-unit-1",
+  "igcse-chemistry-modular-24-unit-2",
+  "igcse-maths-a-18-foundation",
+  "igcse-maths-a-modular-24-foundation-unit-1",
+  "igcse-maths-a-modular-24-foundation-unit-2",
+  "igcse-maths-a-modular-24-higher-unit-1",
+  "igcse-maths-a-modular-24-higher-unit-2",
+  "igcse-science-double-award-17-biology",
+  "igcse-science-double-award-17-chemistry",
+  "igcse-science-double-award-17-physics",
+];
+for (const course of P17B) {
+  const D = join(VIDEOS, "drafts", course);
+  const draft = JSON.parse(readFileSync(join(D, "video-map.draft.external-p17.json"), "utf8"));
+  const verdicts = JSON.parse(readFileSync(join(D, "owner-review-verdicts.p17.json"), "utf8"));
+  if (draft.reviewState !== "owner-reviewed-external")
+    throw new Error(`${course}: p17 reviewState is "${draft.reviewState}" — apply review first`);
+  const spine = JSON.parse(readFileSync(join(SPINES, `${course}.json`), "utf8"));
+  const specByCode = new Map(
+    spine.curriculum.nodes.filter((n) => n.family === "SPEC_POINT").map((n) => [n.code, n])
+  );
+  assertSpineMirror(course, spine);
+  const content = JSON.parse(readFileSync(join(MAPDIR, `${course}.json`), "utf8"));
+
+  // idempotency (the P2B law, video-keyed): the inherit section re-derived the
+  // child's rows from the PARENT's fresh P17 rows; drop prior rows by video id
+  // and the prior p17 lane entry before re-appending so the replay is a no-op.
+  const p17bVids = new Set(draft.videos.map((v) => v.id));
+  content.mappings = content.mappings.filter((m) => !p17bVids.has(m.video));
+  content.review.lanes = (content.review.lanes || []).filter(
+    (l) => !String(l.lane || "").includes("gap-profile judgment lane")
+  );
+
+  for (const m of draft.mappings) {
+    if (m.reviewed !== true || !m.reviewer || !m.reviewedUtc)
+      errors.push(`${course}: unreviewed p17 row leaking into content (${m.video})`);
+    if (!/^[\w-]{11}$/.test(m.video)) errors.push(`${course}: bad p17 video id ${m.video}`);
+    if (m.method === "paper-code") {
+      if (!m.anchor || m.anchor.level !== "course" || m.anchor.ref !== course)
+        errors.push(`${course}: p17b paper-code row must carry anchor{level:course, ref:course} (${m.video})`);
+      if (!m.specs || m.specs.length !== 0)
+        errors.push(`${course}: p17b anchor rows carry specs:[] — zero spec weight (§4) (${m.video})`);
+      if (m.confidence !== "high")
+        errors.push(`${course}: p17b paper-code anchor must be high confidence (${m.video})`);
+      if (m.boardMismatch !== false)
+        errors.push(`${course}: p17b paper-code anchor is same-qualification — boardMismatch must be false (${m.video})`);
+      if (m.kind !== "past-paper-walkthrough")
+        errors.push(`${course}: p17b anchor row must carry kind past-paper-walkthrough (${m.video})`);
+    } else if (m.method === "llm-draft-external") {
+      if (m.boardMismatch !== true)
+        errors.push(`${course}: p17b row must carry boardMismatch:true (${m.video})`);
+      if (!m.specs || m.specs.length === 0)
+        errors.push(`${course}: p17b rows are spec rows — specs must be non-empty (${m.video})`);
+      if (m.confidence !== "medium" && m.confidence !== "low")
+        errors.push(`${course}: p17b rows are medium/low (${m.video})`);
+      for (const code of m.specs || [])
+        if (!specByCode.has(code)) errors.push(`${course}: p17 spec ${code} not in spine (${m.video})`);
+    } else {
+      errors.push(`${course}: p17b rows are paper-code or llm-draft-external — unexpected method (${m.video})`);
+    }
+  }
+  const haveKeysP17b = new Set(content.mappings.map((m) => m.video + "|" + JSON.stringify(m.specs)));
+  for (const m of draft.mappings) {
+    const k = m.video + "|" + JSON.stringify(m.specs);
+    if (haveKeysP17b.has(k)) errors.push(`${course}: duplicate p17 row across union ${k}`);
+    haveKeysP17b.add(k);
+  }
+  const haveVidsP17b = new Set(content.videos.map((v) => v.id));
+  for (const v of draft.videos) {
+    if (!haveVidsP17b.has(v.id)) content.videos.push(v);
+    if (!v.provider || !v.watchUrl) errors.push(`${course}: p17 video ${v.id} missing provider/watchUrl`);
+    if (!v.identityMethod) errors.push(`${course}: p17 video ${v.id} missing identityMethod`);
+  }
+  if (errors.length) break;
+
+  content.mappings = [...content.mappings, ...draft.mappings];
+  const allSpecsP17b = new Set(content.mappings.flatMap((m) => m.specs));
+  const mappedVidsP17b = new Set(content.mappings.map((m) => m.video));
+  content.coverage = {
+    specPointsTotal: specByCode.size,
+    specPointsMapped: allSpecsP17b.size,
+    specPointsUnmapped: specByCode.size - allSpecsP17b.size,
+    videosTotal: content.videos.length,
+    videosMapped: mappedVidsP17b.size,
+    videosUnmapped: content.videos.length - mappedVidsP17b.size,
+    mappingRows: content.mappings.length,
+    byConfidence: {
+      high: content.mappings.filter((m) => m.confidence === "high").length,
+      medium: content.mappings.filter((m) => m.confidence === "medium").length,
+      low: content.mappings.filter((m) => m.confidence === "low").length,
+    },
+  };
+  const p17bLane = {
+    lane: P17_LANE_NAME, task: verdicts.task,
+    ruling: verdicts.source, reviewer: verdicts.reviewer, ruledUtc: verdicts.ruledUtc,
+    evidenceBasis: verdicts.evidenceBasis,
+    rowsApproved: draft.mappings.length, rowsRejected: (verdicts.rejects || []).length,
+    rejects: REJECTS_OF(verdicts, verdicts.task),
+  };
+  content.review.lanes = [
+    ...(content.review.lanes || [{
+      lane: "external-channels (primary)", task: content.review.task,
+      ruling: content.review.ruling, reviewer: content.review.reviewer,
+      ruledUtc: content.review.ruledUtc, evidenceBasis: content.review.evidenceBasis,
+      rowsApproved: content.review.rowsApproved, rowsRejected: content.review.rowsRejected,
+      rejects: content.review.rejects || [],
+    }]),
+    p17bLane,
+  ];
+  content.review.rowsApproved = content.mappings.length;
+  content.source.p17 = {
+    provider: draft.source.provider, method: draft.source.method,
+    enumeratedUtc: draft.source.enumeratedUtc,
+  };
+  content.inputs.p17 = {
+    repo: "SyllabAI/syllabai-resources",
+    path: `Videos/drafts/${course}/video-map.draft.external-p17.json`,
+    task: verdicts.task, reviewAppliedUtc: verdicts.ruledUtc,
+  };
+  content.generatedUtc = new Date().toISOString();
+  writeFileSync(join(MAPDIR, `${course}.json`), JSON.stringify(content, null, 1) + "\n");
+  const baseLaneP17b = registry.courses[course]?.lane || "external-channels";
+  registry.courses[course] = {
+    videos: content.videos.length,
+    mapped: content.coverage.videosMapped,
+    shelf: registry.courses[course]?.shelf ?? null,
+    lane: baseLaneP17b.includes("p17-gap-profile") ? baseLaneP17b : baseLaneP17b + " + p17-gap-profile",
+    updatedUtc: new Date().toISOString(),
+  };
+  registry.generatedUtc = new Date().toISOString();
+  console.log(
+    `${course}: SHIPPED +p17 specs ${content.coverage.specPointsMapped}/${content.coverage.specPointsTotal} · videos ${content.coverage.videosMapped}/${content.coverage.videosTotal} · rows ${content.coverage.mappingRows} (+${draft.mappings.length} gap-profile rows, post-inherit) · 0 reviewed:false in content`
+  );
+}
+
 if (errors.length) {
   console.error("GATE FAILURES:\n" + errors.map((e) => "  - " + e).join("\n"));
   process.exit(1);
@@ -3298,7 +3632,7 @@ console.log(`wrote ${registryPath} (${Object.keys(registry.courses).length} cour
 const flagsPath = join(HUB, "apps/hub/content/flags.json");
 const flags = JSON.parse(readFileSync(flagsPath, "utf8"));
 const want = [...new Set([
-  "igcse-biology-19", ...FRESH, ...P4_FRESH, ...P9, ...P9B, ...P10, ...P11, ...P12, ...P11B, ...P13, ...P13B, ...P14, ...P14B, ...P15, ...P15B, ...P16, ...Object.keys(inhMap.parents),
+  "igcse-biology-19", ...FRESH, ...P4_FRESH, ...P9, ...P9B, ...P10, ...P11, ...P12, ...P11B, ...P13, ...P13B, ...P14, ...P14B, ...P15, ...P15B, ...P16, ...P17, ...P17B, ...Object.keys(inhMap.parents),
 ])];
 const have = new Set(flags.flags.videoMap.courses);
 const coursesCurrent = want.every((c) => have.has(c)) && flags.flags.videoMap.courses.length === want.length;
@@ -3382,6 +3716,7 @@ if (coursesCurrent && statusCurrent) {
     + "post-inherit via P14B. "
     + "P15 discovery judgment lane: 1,562 owner-reviewed rows onto 32 courses (1,033 Tier B paper-code anchors + 529 spec rows at 529 low / 0 medium) from eighteen discovery pools (T1 x14 + T2 x4; 5,591 uploads found by the gap-targeted search sweep over the corpus residual — 4,711 unmapped spec points, 24 gap clusters, 231 channels harvested, 0 overlap with the shipped union 8,783 incl. P14 AND all prior lane inventories 38,773 AND 0 intra-P15): CIE IGCSE sciences 0610/0620/0625 session/paper registers (chem bio by Hosni — the densest find of the sweep, 0610 x342 + WBI x213 over the two biggest residual gaps — CAIE made easier, Learn Today IGCSE), 0654/0653 shared-paper anchors binding all three sciences of the family (the P13 shared-unit precedent; Science and Stuff), 0417/4IT0 ICT dual register (Nicos Paphitis 0417 x121; Mark Harrison Ed-ICT/CS x93 + 0417 x58), 4MA1 maths-A higher/foundation/modular-24 routing (The Math Pad x197 + Libra Maths x127 — 339 rows onto a-18-higher alone), 0606 additional maths (127 rows onto further-maths-additional-25 via Libra/Gilbert Phoon/Shawn Hew), IAL WPH/WBI/WCH Unit-N session anchors per the P14 Assil law analog (Doctor No Does Science WPH x74 -> ial-physics-19; Hosni WBI -> ial-biology-18), 0452 accounting (Keen Mindz x64 at 100% register), 0455/9708 economics (Learn Economics with Anjuli), 0680/8291 environmental management (Dr. Maria Emam + Everything E.M.), 0460/4GE0 geography (GEO-HACKS), 0500 FLE (Taughtly, both english-language courses), Edexcel IGCSE chemistry/biology (Belal Sir, the AQA-only remainder skipped honestly); oEmbed identity 1,365/1,365 routed videos author==channel-of-record (0 mismatch, 0 dead, 0 thumb fallbacks); honest skips 3,983 ledgered by class with exactly-once disposition of all 5,591 accounts incl. 243 RESERVED lit-0475 titles (Claire Notes) folded into the lit-21 owner decision point; the eleven P4-children with direct rows (the 0654 trio, ial-physics-19, ial-biology-18, ial-chemistry-17, igcse-maths-a-18-foundation, the igcse-maths-a-modular-24 units x4) append post-inherit via P15B. "
     + "P16 lit-21 opening lane: the owner's 2026-11-20 decision \"open lit-21\" overturns the P12 terminal declaration for cie-igcse-english-literature-21 (that course only) and admits the first-ever lit-21 content — the 252 RESERVED lit-0475 titles (P14 IGCSESUCCESS 0475 x9 + P15 Claire's Notes x243) adjudicated onto the freshly opened course: 100 owner-reviewed rows (56 medium / 44 low) binding 101 of 203 spec points through Class W set-text work binds (Songs of Ourselves Vol 1 P4 / Vol 2 P3 / Vol 2 P4 poem guides incl. the full 2025 Part 3 list, the Ted Hughes 15 pair-lines, Othello x23 / A Midsummer Night's Dream x5 / Journey's End x8 / Twelfth Night x2 / A Streetcar Named Desire scene commentary across their per-year drama specs, the Stories of Ourselves Vol 2 story guides); suffix-anchored match rule with the author cross-check, multi-year occurrences disclosed per row (the P13 shared-unit precedent), multi-work tips rows as ONE multi-spec row at low, oEmbed identity 100/100 author==channel-of-record (0 fallbacks); honest skips 152 ledgered by class (scripts/p16/skips.json: no-set-text 106 incl. Macbeth/Kumukanda/the AQA anthologies, character-study 15, out-of-spine board 16, guidance 15); exactly-once disposition of all 252 reserved accounts, 0 collisions. "
+    + "P17 gap-profile judgment lane: 2,574 owner-reviewed rows onto 36 courses (1,185 Tier B paper-code anchors + 1,389 spec rows) from the 21 admitted pools of the corrected-code gap sweep (8,927 uploads, 0 overlap vs the shipped union 10,248 incl. P15+P16 AND all prior lane inventories 44,364 AND 0 intra-P17; fresh residual 3,668 unmapped of 10,814): the Pearson-pipe IAL unit-session register ('A level | subject | Unit N | session | Pearson Edexcel' — 171 unit-paper anchors onto the IAL trio, the P14 Assil law extended), 4BS1/9609 business (606 + 129 + 324 + 60 rows across the business courses from Adebayo ABT's on-register library), Ed-IGCSE sciences 4CH1/4BI1/4PH1/4SD0 + modular chemistry 4WCH1/4WCH2, 4MA1/4WM/4MB1 maths, 0606 (4037 dual-branding disclosed) + 0607, 9708 econ (Daniyal Aslam x374), 4GE1 geography-A, 4IT1 ICT, and the lit-21 Class W amendment (possessive Author-Work + hashtag lookahead; mr-quakers 15 rows); honest register calls of record: wilson-chong is the 2012-era UK GCSE modular register (0 binds), nevdoes-econ carries no 9708 codes (3 binds), first-rate/gcse-ready lit families are UK GCSE (0 CIE 0475), mathman's 171 9709 titles SKIP per ANCHOR-GRANULARITY section 6; oEmbed identity 2,474/2,474 routed videos author==channel-of-record (0 mismatch, 0 dead, 0 thumb fallbacks); honest skips 6,453 ledgered by class with exactly-once disposition of all 8,927 accounts; the fifteen P4-children with direct rows (the IAL trio, the 0607 pair, a-18-foundation, modular maths x4, modular chemistry x2, the science-double-award-17 trio) append post-inherit via P17B. "
     + "Links resolve lessonUrl (site lane, Cognito) then watchUrl (external lanes, YouTube). Rows are "
     + "owner-reviewed (title-only evidence, confidence + boardMismatch disclosed per row; inherited rows carry "
     + "their derivation in inherit); the loader re-filters reviewed:true as defense in depth. One-flip kill "
