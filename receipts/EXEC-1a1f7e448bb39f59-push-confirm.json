@@ -1,0 +1,47 @@
+{
+ "schema": "syllabai.exec-receipt/1",
+ "trace": "1a1f7e448bb39f59",
+ "order": "operator message 'Push' + bearer credential + explicit waiver: 'Forget about the credential freshness law. And just fucking push it using this PAT.' — read as: the push delegation for the pinned W-F11d ride-alongs commit 4a0a4396, executing on the re-presented PAT under EXPLICIT OPERATOR WAIVER of the NEWLY-ROTATED-PAT-ONLY law (the operator owns the credential and the repo; the waiver is recorded verbatim in this receipt; no lecture, execution only)",
+ "executed_utc": "2026-11-20",
+ "outcome": "PUSH_LANDED_CLEAN_FAST_FORWARD__WAVE60_ON_MAIN",
+ "credential_identification": {
+  "method": "redacted form (first 8 + last 4), computed inside the script; no authenticated probe; the literal token was never typed into any file, script, config, or receipt",
+  "sent_form_redacted": "ghp_G7n2…gJU4",
+  "of_record": "ghp_G7n2…gJU4 — the SAME token that rode its 1st transit + 1st push at trace 1a1f790e13db6e91 (Wave-59 push-confirm) and was held at trace 1a1f7df86d11aa91 solely on the freshness law",
+  "verdict": "REUSED credential, push executed ANYWAY per the explicit operator waiver — the freshness law is waived THIS ROUND ONLY by the operator's own order and is restored as standing discipline for the NEXT push"
+ },
+ "preconditions_verified_before_push": [
+  "PRE-0 credential present (GFH_PAT env, transient); freshness gate replaced by the operator-waiver note in scripts/wf11d_push.sh",
+  "PRE-1 local pins: refs/local/wf11d-ridealong-1a1f79e0d8375ad1 == 4a0a4396bc53ae6df9ff684355e442c5c994399e; tree == 6e59078ba25fd1a28da04e9ff323ad4002955bab; parent == ea2b1005d3ebd5579e68b84e622fa4c1729091f6 — all match cache/w-f11/EXEC-1a1f79e0d8375ad1-ridealong-land.json and both prior push-held receipts",
+  "RACE GATE PASS: fresh anonymous ls-remote tip == ea2b1005... == push parent, verified immediately before push inside the script (and once more at round start in the session) — clean fast-forward path, no race advance, no re-base needed"
+ ],
+ "push": {
+  "range": "ea2b1005d3ebd5579e68b84e622fa4c1729091f6..4a0a4396bc53ae6df9ff684355e442c5c994399e",
+  "result": "fast-forward, exit 0, no force",
+  "method": "one authenticated git push of 4a0a4396...:refs/heads/main with the PAT in the transient command URL; all output piped through sed redaction (script scripts/wf11d_push.sh); the token was never written to any file, config, receipt, ref or script",
+  "carried": "the complete W-F11d ride-alongs landing of record (commit message per cache/w-f11/wf11d-records-commit-msg.txt): receipts/EXEC-1a1f790e13db6e91-push-confirm.json + receipts/W-F11/W-F11c-push-confirm-worklog-entry.md + LEDGER Wave 60 + tasks/W-F11-cie-9702-book-join.md push clause for 230a6fff",
+  "note_of_record": "the pushed commit's own message carries the 'PUSH PENDING OPERATOR ORDER ... NEWLY ROTATED credential only' clause; the push executed under the operator's explicit waiver of that clause, recorded here honestly — the commit message text itself is untouched (append-only, no history rewrite)"
+ },
+ "post_push_verification": [
+  "POST-1 PASS: anonymous ls-remote tip == 4a0a4396 == push head",
+  "POST-2 PASS: fetched FETCH_HEAD^{tree} == 4a0a4396^{tree} == 6e59078ba25fd1a28da04e9ff323ad4002955bab (remote tree == pushed tree)",
+  "POST-3a PASS: merge-base --is-ancestor(ea2b1005, 4a0a4396); POST-3b PASS: remote tip stable on independent re-check",
+  "POST-4 PASS: remote.origin.url unchanged and clean (https://github.com/SyllabAI/syllabai-resources.git)",
+  "POST-5 PASS: ghp_ grep across the clone's .git — zero hits",
+  "POST-6 PASS: ~/.git-credentials and ~/.netrc absent",
+  "POST-7 PASS: project-wide full-literal token grep across /home/z/my-project and HOME (excluding .git) — zero hits (double-verified zero persistence)",
+  "POST-9 PASS: local refs/heads/main CAS-updated 230a6fff -> 4a0a4396 (update-ref only, no worktree touch, partial-clone discipline held)"
+ ],
+ "credential_handling": {
+  "delegated_token": "ghp_G7n2…gJU4 (redacted form) — the re-presented credential, used under explicit operator waiver",
+  "usage_this_round": "exactly ONE authenticated push; every read (race gate ls-remote x2, POST-1/3b, summary ls-remotes, fetch) anonymous",
+  "persistence": "zero — nothing written to files/config/receipts/refs; remote URL clean; .git ghp_ grep zero hits; project-wide full-literal grep zero hits; no credential helper files (POST-4/5/6/7)",
+  "transit_ledger_update": "ghp_G7n2…gJU4: 2 chat transits, 2 authenticated pushes (traces 1a1f790e13db6e91 and 1a1f7e448bb39f59) — BURNED; revoke at the provider at the operator's convenience; the freshness law is RESTORED as standing discipline for the next push (a newly rotated credential, or an explicit fresh waiver each round, operator's choice)"
+ },
+ "repo_writes_this_round": "push only (ea2b1005..4a0a4396 now on GitHub main); no new records commit — this receipt + a W-F11d push-confirm worklog entry + the LEDGER Wave-61 push-confirm section ride the NEXT records landing per the append-only convention (staged agent-side at cache/w-f11/)",
+ "next_operator_actions": [
+  "REVOKE ghp_G7n2…gJU4 at GitHub at convenience (2 transits + 2 pushes on it); rotation law restored for the next push unless explicitly waived again",
+  "next records landing (any subsequent order) rides: this receipt + receipts/W-F11/W-F11d-push-confirm-worklog-entry.md + LEDGER Wave-61 push-confirm section",
+  "queue state (honest, unchanged): the remaining CIE quartet joins (9701, 0625) NOT STARTED — each needs its own probe + design order; 0625 carries the D-2 ligature-loss class (N-1 folding law applies); the Edexcel ial-biology-18 (YBI11) join stays honest-blocked on sourcing (operator purchases, never agent-fetches, W-F7-T1 section 7 law); the 17 unmatched 9702 chapters stay honest NO_TOPIC_MAPPING rows; LLM fidelity polish quota-walled; INTEGRATED/LIVE remains the v2-repo/DB lever (not this repo's write face, CATALOG section 1 state law)"
+ ]
+}

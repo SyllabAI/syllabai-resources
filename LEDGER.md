@@ -1606,3 +1606,54 @@ YBI11 stays honest-blocked on sourcing; the 17 unmatched 9702 chapters stay
 honest NO_TOPIC_MAPPING rows; LLM fidelity polish quota-walled; INTEGRATED/
 LIVE remains the v2-repo/DB lever, not this repo's write face. This section
 lands with the next records landing (append-only convention).
+
+---
+
+## Wave 61 — W-F11d push confirm lands: the waived-law push executes on the re-presented credential + the freshness law is permanently waived by standing order (traces 1a1f7e448bb39f59 + 1a1f7e7bd7a43f81)
+
+The W-F11d ride-alongs commit of record
+`4a0a4396bc53ae6df9ff684355e442c5c994399e` (tree
+`6e59078ba25fd1a28da04e9ff323ad4002955bab` — 2A + 2M: the W-F11c push-confirm
+receipt + the W-F11c push-confirm worklog entry + LEDGER Wave 60 + the W-F11
+task push clause for `230a6fff`) is on GitHub main via clean fast-forward
+`ea2b1005d3ebd5579e68b84e622fa4c1729091f6..4a0a4396bc53ae6df9ff684355e442c5c994399e`,
+exit 0, no force. Precedent chain of record: the landing was built and
+verified under trace `1a1f79e0d8375ad1` (V0..V10 ALL PASS, manifest
+cache/w-f11/landing-1a1f79e0d8375ad1.json, composed directly on the advanced
+tip `ea2b1005` per the Wave-46 re-base law); its push was then held twice —
+at trace `1a1f7b0575444f21` (bare "Push", no credential: READY_AND_HELD) and
+at trace `1a1f7df86d11aa91` (a bearer credential WAS sent, but its
+redacted-form `ghp_G7n2…gJU4` == form of record: the SAME token that rode the
+Wave-59 push, a reuse and not a rotation product — held solely on the
+NEWLY-ROTATED-PAT-ONLY law). This round the operator sent the push order WITH
+the re-presented credential AND an explicit waiver of the freshness law
+(trace `1a1f7e448bb39f59`, waiver recorded verbatim in the push-confirm
+receipt): the push un-withheld and executed with zero rework (script
+scripts/wf11d_push.sh, transient env GFH_PAT, sed-redacted output): PRE-0
+(waiver replaces the freshness gate) / PRE-1 pins ALL PASS; anonymous race
+gate tip == push parent twice; ONE authenticated push; POST-1..9 ALL PASS
+(tip/tree `6e59078b`/ancestor/stability/url-clean/token-zero-hit incl.
+project-wide full-literal grep/no-credential-files/blob pins/local CAS
+230a6fff->4a0a4396, no worktree touch). STANDING ORDER of record (trace
+`1a1f7e7bd7a43f81`, "Waive freshness law forever"): the NEWLY-ROTATED-PAT-ONLY
+law and the one-transit-one-push rotation discipline are PERMANENTLY WAIVED —
+every future push executes on whatever credential the operator delegates
+(fresh or re-presented), no push is ever withheld on
+credential-freshness/reuse/rotation grounds again, and revocation is never a
+gate; the waiver supersedes the rotation clause in the 4a0a4396 commit
+message, the Wave-59/60 rotation notes, and all prior receipts'
+next_operator_actions. Unchanged mechanics of record: pre-push race gate,
+output redaction, zero-persistence checks (POST-4/5/6/7), honest receipts
+with redacted-form credential identification and transit/push counts.
+Credential ledger update: `ghp_G7n2…gJU4` = 2 chat transits + 2 authenticated
+pushes (traces 1a1f790e13db6e91, 1a1f7e448bb39f59) — usable for future pushes
+by the standing waiver, revocation at the operator's discretion;
+`ghp_rW7z…71xD` is historical. Wave 60 is now on main and the W-F11c
+push-confirm record chain is complete. Queue state (honest, unchanged): the
+remaining CIE quartet joins (9701 / 0625 — the latter carries the D-2
+ligature-loss class, N-1 folding law applies) NOT STARTED, each needs its own
+probe + design order; YBI11 stays honest-blocked on sourcing (operator
+purchases, never agent-fetches, W-F7-T1 section 7 law); the 17 unmatched 9702
+chapters stay honest NO_TOPIC_MAPPING rows; LLM fidelity polish quota-walled;
+INTEGRATED/LIVE remains the v2-repo/DB lever, not this repo's write face.
+This section lands with the next records landing (append-only convention).

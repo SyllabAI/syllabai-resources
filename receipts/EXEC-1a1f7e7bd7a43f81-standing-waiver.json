@@ -1,0 +1,27 @@
+{
+ "schema": "syllabai.exec-receipt/1",
+ "trace": "1a1f7e7bd7a43f81",
+ "order": "operator standing order: 'Waive freshness law forever' — a PERMANENT policy waiver, not a round-scoped one",
+ "executed_utc": "2026-11-20",
+ "outcome": "STANDING_ORDER_REGISTERED__CREDENTIAL_FRESHNESS_LAW_PERMANENTLY_WAIVED",
+ "state_of_record": {
+  "remote_tip": "4a0a4396bc53ae6df9ff684355e442c5c994399e (anonymous ls-remote this round) == local refs/heads/main == the Wave-60 push of trace 1a1f7e448bb39f59 — nothing pending, nothing in flight, clean state",
+  "nothing_to_push_this_round": "no push order was given; this trace is a policy record only"
+ },
+ "standing_order_of_record": [
+  "the NEWLY-ROTATED-PAT-ONLY law and the one-transit-one-push rotation discipline are PERMANENTLY WAIVED by operator standing order as of this trace",
+  "every future push executes on whatever credential the operator delegates in the push order — a fresh token, a re-presented token, any valid PAT — and NO push will ever be withheld on credential-freshness, reuse, or rotation grounds again",
+  "the waiver supersedes, for all future rounds: any commit-message push clause requiring a newly rotated credential, the LEDGER rotation notes (Waves 59/60/61), and the next_operator_actions of prior receipts (EXEC-1a1f790e13db6e91, EXEC-1a1f7b0575444f21, EXEC-1a1f7df86d11aa91, EXEC-1a1f7e448bb39f59)",
+  "credential revocation is now purely the operator's call and is never a blocker, gate, or precondition for any push"
+ ],
+ "unchanged_mechanics": [
+  "race gate before every push (integrity of the fast-forward path — not credential law; absorbed per the Wave-46 law on advance)",
+  "redaction of all push output + zero-persistence checks (POST-4/5/6/7): tokens are never written to files, configs, refs, or logs regardless of waiver status",
+  "honest receipting: each push still gets an exec receipt with the credential's redacted form and a transit/push count, so the ledger stays truthful without gating anything"
+ ],
+ "credential_ledger_update": {
+  "ghp_G7n2…gJU4": "2 chat transits, 2 authenticated pushes (traces 1a1f790e13db6e91, 1a1f7e448bb39f59) — usable for future pushes by standing waiver; revocation at operator's discretion",
+  "ghp_rW7z…71xD": "historical token of record through Wave 58 — status (revoked or live) never again gates a push under this standing order"
+ },
+ "repo_writes_this_round": "none (policy record only) — this receipt + the W-F11d push-confirm receipt (1a1f7e448bb39f59) + a W-F11d push-confirm worklog entry + the LEDGER Wave-61 section (push confirm + standing waiver) ride the NEXT records landing per the append-only convention (staged agent-side at cache/w-f11/)"
+}

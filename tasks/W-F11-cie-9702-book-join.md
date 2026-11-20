@@ -61,6 +61,31 @@ status: W-F11-T1 COMPLETE 2026-11-20 — design of record filed at
   blob pins / local CAS 8ba70993->230a6fff); push-confirm receipt
   EXEC-1a1f790e13db6e91-push-confirm.json staged agent-side, rides the next
   landing per the append-only convention.
+  W-F11d ride-alongs landing PUSHED 2026-11-20 (trace 1a1f7e448bb39f59): the
+  ride-alongs commit 4a0a4396bc53ae6df9ff684355e442c5c994399e (tree
+  6e59078ba25fd1a28da04e9ff323ad4002955bab — 2A + 2M: the W-F11c push-confirm
+  receipt + the W-F11c push-confirm worklog entry + the LEDGER Wave-60
+  section + this push clause for 230a6fff) is on GitHub main via clean
+  fast-forward ea2b1005d3ebd5579e68b84e622fa4c1729091f6..
+  4a0a4396bc53ae6df9ff684355e442c5c994399e, no force — composed directly on
+  the tip of record (no base advance this cycle: race gate tip == parent ==
+  base of record at round start and immediately before push); landing
+  verification V0..V10 ALL PASS (scripts/wf11d_ridealong_land.py, manifest
+  cache/w-f11/landing-1a1f79e0d8375ad1.json); the push executed on the
+  RE-PRESENTED credential ghp_G7n2…gJU4 under the OPERATOR'S EXPLICIT WAIVER
+  of the credential-freshness law (waiver recorded verbatim in the
+  push-confirm receipt; the same token had ridden the Wave-59 push and was
+  held at trace 1a1f7df86d11aa91 solely on the freshness law);
+  FRESHNESS LAW PERMANENTLY WAIVED by standing order trace
+  1a1f7e7bd7a43f81 ("Waive freshness law forever") — no push will ever be
+  withheld on credential-freshness/reuse/rotation grounds again, and
+  revocation is never a gate; pre-push race gate tip-match PASS twice;
+  post-push verification POST-1..9 ALL PASS (tip / tree 6e59078b / ancestor
+  / stability / url-clean / token-zero-hit incl. project-wide full-literal
+  grep / no-credential-files / blob pins / local CAS 230a6fff->4a0a4396);
+  push-confirm receipt EXEC-1a1f7e448bb39f59-push-confirm.json +
+  standing-waiver receipt EXEC-1a1f7e7bd7a43f81-standing-waiver.json staged
+  agent-side, ride the next landing per the append-only convention.
 ```
 
 ## 1. Scope of record
