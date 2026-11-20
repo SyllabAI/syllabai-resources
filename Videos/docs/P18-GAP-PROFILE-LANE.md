@@ -1,7 +1,7 @@
 # P18 — GAP-PROFILE LANE (fresh residual sweep over the post-P17 corpus)
 
-**State: FILED 2026-11-20 — filing-only tranche. Judgment + builder emit GATED pending owner pool admission (the P15/P17 convention: no judgment, no emit until the owner admits the pools). Branch: `videos/p18-gap-profile` (resources). No hub-side changes in this tranche.**
-**Authorization: owner — "P18 profile" (2026-11-20), the next search round after the P17 gap-profile judgment lane shipped (hub `cb0f9c3f`).**
+**State: JUDGMENT SHIPPED 2026-11-20 — owner order "run P18 judgment" (2026-11-20) admits the 21 filed pools (the P15/P17 convention) and opens the judgment gate. Judgment + oEmbed identity sweep + hub emit + gates landed this tranche; resources PR + hub PR open, merge receipts to follow.**
+**Authorization: owner — "P18 profile" (2026-11-20) filed the tranche; "run P18 judgment" (2026-11-20) admitted the pools and ordered the judgment.**
 
 ## Why
 
@@ -31,6 +31,28 @@ Filed inventories ×21 in the P11–P17 shape (additive `provenance` key on the 
 
 7 lost recon pool names + Skip the Tutor / Bizcon Sessions / Dr Demina stay reserved pending owner re-supply. **PAT rotation still outstanding.**
 
+## Judgment (2026-11-20, scripts/p18/p18_judgment.py)
+
+Exactly-once disposition of all **5,843** accounts, 0 collisions machine-checked: **1,433 Tier B paper-code anchor rows over 1,056 videos** (method paper-code, high, zero spec weight) + **510 Tier A spec rows** (the P13/P15 gate ladder + the P16 Class W predicate; 4 lit-21 Class W rows) + **4,277 honest skips** ledgered by class (`work/p18/skips.json`, committed to `scripts/p18/skips.json`).
+
+**New Tier B registers of record** (on top of the P15/P17 set): **4PM0/4PM1 Edexcel IGCSE Further Pure** (the NEW P18 register → igcse-further-maths-19 — 89 rows, the biggest further-pure find of any sweep); **8021 General Paper** (the NEW P18 register → cie-as-english-general-paper-21); **CIE A-level sciences 9700/9701/9702** papers 1-3 AS / 4-5 A2 (the P13/P14 paper-number routing law); **0580** papers 2/4 extended vs 1/3 core (the P9/P14 law, code-required — bare 'IGCSE Maths' titles skip honestly); **the International-GCSE-ICT register text** (ict-at-tda's 'Edexcel GCSE ICT' topic library — 44 anchors — and fiifi's dual '4IT1 + 0417/0983' lessons, both sides bound, disclosed).
+
+**Honest register calls of record** (the false-density disclosure duty): indigo-education-group's '8021 x14' family read was tuition marketing — **0 binds**; no-waffle-gcse's '0475 x31' family read was UK GCSE lit — **1 genuine bind** ('Ozymandias', a work on BOTH the AQA Power & Conflict cluster and the CIE 0475 Songs of Ourselves list); the unit-summary pools (chemistry-that-counts WCH 'Summary (Unit N)' x104, really-academics 'Last Minute Revision' x45) bind only where tokens are distinctive at the df<=3 bar — the summary remainder ledgered honest-no-bind (the P17 team-elevare precedent); examcrack's 9709 maths walkthroughs skip per ANCHOR-GRANULARITY section 6 (the P9/P17 precedent); watchme-do-math's off-register vlog remainder skipped.
+
+**P18 disclosed regex amendments** (the P17 Class W amendment precedent):
+1. RE_GUIDE's bare 'vision' token — a substring match inside 'revision' (re-VISION) present since P14 — is **word-bounded**; the P17 skips ledger carries the same latent effect (disclosed, not re-opened — P17 is shipped).
+2. RE_4IT0 gains the 'International GCSE ICT' register text (made explicit alongside the i?-optional form the committed law already accepted).
+3. Class W **suffix-collision ledger** (the P16 NOBIND_CHARS precedent): a span tail naming a LONGER off-spine work whose name ends in a short on-spine work name must not suffix-bind the short work ('singh song' → Szirtes' 'Song' rejected; Nagra's 'Singh Song!' is the AQA Love & Relationships poem, not the CIE set text).
+4. The O-Level gate generalizes the P14 zainematics law: spine-code tokens (0580/0606/0452/0455/0610/9708/...) take precedence over O-Level branding — the 4024/2281/5090/7707 duals exempt when a spine code is present.
+
+## oEmbed identity sweep (scripts/p18/p18_oembed.py)
+
+**1,566/1,566 routed videos alive, 0 bad**: 1,562 author_url channel == channel-of-record via UC id (0 mismatch) + **4 thumbnail-liveness fallbacks disclosed per the P2D law** — oembed HTTP 200 all-null payload (the restricted-embed form), identity rides on the channel-of-record upload provenance, liveness adjudicated by the thumbnail endpoint: K7A87pAXLaI / dak_yozkgZg / 5YuMWveG29o (igcse-a-level-examcrack), pf7vPcjH_yM (tsil-maths).
+
+## Emit + gates (scripts/p18/p18_assemble.py, build-content-map-external.mjs P18/P18B)
+
+**1,943 owner-reviewed rows onto 41 courses** (28 pre-inherit + 13 P4-children post-inherit via the P18B shape): 1,433 anchors + 510 spec rows. Hub gates: **tests 16/16 (10,884 expects; the four P2F at-rest pins updated for the P18 increment: ial-chem-17 639→654 mappings / 233→236 anchors, ial-phys-19 262→268, ial-bio-18 111→114, igcse-chem-19 86→91)**, census **96 courses / 21,248 rows / 69,233 refs / 0 violations** (`scripts/p18/specjoin-census-p18.json`; +2,242 rows = +1,943 direct + 299 P4-inherit cascade), corpus **12,722 → 14,288 distinct videos** (+1,566, exact), fresh residual **3,268 → 2,932 unmapped of 10,814**, flags videoMap.courses 96 (skip-if-current; the status template gained the P18 sentence and the P17 sentence's thumb-fallback disclosure was restored in the builder template itself — the P18 lane also fixed the builder's stale `statusCurrent` prefix check that had been silently rewriting flags.json on every emit since P15). Reserved slots unchanged; **PAT rotation still outstanding.**
+
 ## Next
 
-The owner admits the pools (or says "run it"), then the judgment micro-lane runs under the committed laws (Tier B paper-code anchors per the unit-session/family registers; Tier A spec rows via the P13/P15 ladder + the P16/P17 Class W predicate; oEmbed identity; skips ledger; P4 inherit loop; hub emit + tests).
+Merge receipts; the 4GE1 183-point deficit stays open (no P18 pool carries the register — re-sweepable next lane); the drops stay re-sweepable; the owner may order the next search round.
