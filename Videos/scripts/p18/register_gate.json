@@ -1,0 +1,21 @@
+{
+ "schema": "syllabai.p18-register-gate/1",
+ "utc": "2026-11-20",
+ "resolved": "28/28 identity gate (externalId + og:title agree)",
+ "enumerated": 28,
+ "filed": ["a-levels-revision-videos", "brian-kemp", "chemistry-that-counts", "economics-by-abdul-hadi", "fiifi-aubbin", "ial-science-notes-topicals", "ict-at-tda", "igcse-a-level-examcrack", "indigo-education-group", "jmr-teaching-tech", "my-grade9-maths-tutor", "no-waffle-gcse", "omar-nassar-accounting", "really-academics", "scinova-education", "sense-business-studies", "sir-usman-econ-business", "the-maths-centre", "tutoring-with-gavin", "tsil-maths", "watchme-do-math"],
+ "tiers": {
+  "T1-judgment-ready": ["my-grade9-maths-tutor (4MA1 x317/435 — the densest 4MA1-content find of the sweep; targets higher 100 + foundation 95 left)", "omar-nassar-accounting (0452 x59/59 — 100% register; targets accounting-25 76 left)", "economics-by-abdul-hadi (9708 x295 + 0455 x109/520 — p15-swept resurfaced w/ disclosure; targets econ-25 92 + econ-20 87 + a-level-23 73)", "chemistry-that-counts (WCH11-16 x104/135 — the IAL chemistry CONTENT class the P17 walkthrough pools did not carry; targets ial-chem 169 left; p17-swept resurfaced w/ disclosure)", "brian-kemp (0455 x44 + 4BS1 x31 + 0460 x23 + 4MA1 x22/645 — multi-cluster; p15-swept resurfaced w/ disclosure)", "sense-business-studies (4BS1 x85 + 0610 x35 + 0625 x30 + 0452 x11/641)", "igcse-a-level-examcrack (session x295 + 4-sciences x42 + 0625 x40 + 4MA1 x35/464; p15-swept resurfaced w/ disclosure)", "fiifi-aubbin (0417 x19 + 4IT1 x14 + 4MA1 x9/788 — targets ict-17 4IT1 111 left + ict-21 0417 30; p17-swept resurfaced w/ disclosure)", "the-maths-centre (0606 x141 + 0452 x36 + 4PM0 x19/552)", "watchme-do-math (4PM0 further pure x66/111 — targets igcse-further-maths-19 28 left)", "ict-at-tda (4IT1 x44/64 — dense 4IT1 register)", "a-levels-revision-videos (9708 x23/62)", "really-academics (WCH x23 + WBI x22 + 0610 x4/121 — IAL chem+bio content; p15-swept resurfaced w/ disclosure)"],
+  "T2-small-or-thin": ["jmr-teaching-tech (0680 x13/26 — targets EM-25 118 left)", "sir-usman-econ-business (0455 x36/73)", "indigo-education-group (8021 x14/370 — low density, on-register)", "tsil-maths (4PM0 x3 + 4MB1 x2 / 23)", "tutoring-with-gavin (0475 x19/74 — lit register)", "no-waffle-gcse (0475 x31/578 — UK-GCSE-dominant register, the 0475 subset only, Class W posture)", "scinova-education (WPH x15/100 — thin WPH content class)", "ial-science-notes-topicals (2 uploads, WPH x1 + WCH x1 — micro, disclosed)"]
+ },
+ "drops": [
+  {"slug": "corbettmaths", "reason": "UK GCSE 1MA1 register — 0 International-spine tokens across 1,656 uploads (the P9/P14 UK-GCSE exclusion class)"},
+  {"slug": "jspark-academy", "reason": "0 register density across 265 uploads (top family NT x1) — sweep noise"},
+  {"slug": "brainstorm-maths-science", "reason": "NT-dominant (x75) with thin 0653 x6 — below the register-density bar"},
+  {"slug": "1st-class-maths", "reason": "0 4MA1/IGCSE tokens across 332 uploads — UK GCSE register despite the 4MA1 query hits"},
+  {"slug": "english-with-issy", "reason": "0 register density across 631 uploads (top family session x1)"},
+  {"slug": "the-a-level-english-guide", "reason": "the 8291 sweep hits were noise — 0 8291 tokens in the titles of 134 uploads (register-suspect confirmed)"},
+  {"slug": "zphysics", "reason": "WPH x2/716 — below the density bar (NT x49 dominant)"}
+ ],
+ "dropPolicy": "re-sweepable next lane; the drops are register-level, not overlap-level; nothing silently dropped"
+}
