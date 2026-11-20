@@ -20,8 +20,24 @@ status: W-F11-T1 COMPLETE 2026-11-20 — design of record filed at
   Official-Specifications/parsed/_derived/book_layer/cie-a-level-physics-2025-2027/);
   gates G-F11-B1..B6 ALL PASS (6/6, evidence cache/w-f11/); the records landing (this
   task file, T1/T2 receipts, the W-F10 push-confirm ride-alongs, the W-F10 task push
-  clause, LEDGER Waves 57-58) follows as the next commit of the same order;
-  PUSH PENDING OPERATOR ORDER (PAT rotation overdue — 12th+ transit of the same token).
+  clause, LEDGER Waves 57-58) follows as the next commit of the same order.
+  PUSHED 2026-11-20 (trace 1a1f57a68d63bfc5): both commits on GitHub main via clean
+  fast-forward 9af4550151029be5a275303c53dd3bfc2a49749e..
+  8ba709932f42ce64d7fd8270b610829e4d5d7c64, no force — the r2 re-parent race
+  rebuild of the pre-race pair c8d46be2/95426508 (local orphans of record; main
+  had advanced 9605a43a..9af45501 by 2 parallel T-GL-STAGE-P3 run-002 commits,
+  181 paths all under SME-GuidedLessons/, zero overlap, LEDGER.md and
+  tasks/W-F10-cie-9700-book-join.md base blobs byte-identical at both tips,
+  every gated blob byte-identical — scripts/wf11_race_rebuild.py +
+  cache/w-f11/race-rebuild-1a1f524947d586d9.json); pre-push anonymous ls-remote
+  race gate tip-match PASS + independent pre-push verification 10/10 PASS
+  (scripts/wf11_prepush_verify.py: chain / build surface 2A / records surface
+  8A+2M / staging-blob equality / W-F10 task clause / LEDGER prefix property
+  Waves 57-58 / artifact counts + sha256 pins / race gate); post-push
+  verification 7/7 PASS (tip / tree a807b4aa / ancestor / stability / url-clean
+  / token-zero-hit incl. project-wide full-literal grep / no-credential-files);
+  push-confirm receipt EXEC-1a1f57a68d63bfc5-push-confirm.json staged
+  agent-side, rides the next landing per the append-only convention.
 ```
 
 ## 1. Scope of record
