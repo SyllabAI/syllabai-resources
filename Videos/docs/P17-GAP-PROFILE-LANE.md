@@ -1,6 +1,6 @@
 # P17 — GAP-PROFILE LANE (fresh residual sweep over the post-P15/P16 corpus)
 
-**State: FILED 2026-11-20 — filing-only tranche. Judgment + builder emit GATED pending owner pool admission (the P15 convention: no judgment, no emit until the owner admits the pools). Branch: `videos/p17-gap-profile` (resources). No hub-side changes in this tranche.**
+**State: SHIPPED 2026-11-20 — filing (resources PR #360 commit `9982b750`) + judgment/builder emit (commit `4887c4f5`) → hub PR #1142 (`t-videomap-p17/run-001`); both merged by owner 'review + merge' 2026-11-20 (resources `3a889a0e`, hub `cb0f9c3f`) with the independent review receipts in the merge commits. Judgment: 2,574 owner-reviewed rows onto 36 courses; exactly-once 8,927, 0 collisions; census 96 courses / 19,006 rows / 63,447 refs / 0 violations; tests 16/16 (9,413 expects). One review finding of record — see 'Post-merge review finding' at the end.**
 **Authorization: owner, this session — "P17 profile" (2026-11-20), opening the next search round after P15 and the P16 lit-21 opening.**
 
 ## Why
@@ -98,3 +98,10 @@ Tiering at judgment time (owner to confirm): T1 judgment-ready = the register-pu
 No judgment, no oEmbed sweep, no builder emit in this tranche. The owner admits pools (or says "run it"), then the judgment micro-lane runs under the committed laws (Tier B paper-code anchors per unit-session format; Tier A spec rows; oEmbed identity; skips ledger; P4 inherit loop; hub emit + tests).
 
 **Reserved slots unchanged**: 7 lost recon pool names + Skip the Tutor / Bizcon Sessions / Dr Demina stay reserved pending owner re-supply. **PAT rotation still outstanding.**
+
+## Post-merge review finding (2026-11-20, owner order "P17 disclosure fix")
+
+The independent review of PRs #360/#1142 (owner "review + merge" 2026-11-20) reproduced every gate from the raw artifacts — exactly-once re-derived from the inventories (8,927 distinct; 0 overlap vs the prior union 44,364, the hub union 10,248, intra-P17 0); oEmbed full sweep author==channel-of-record 0 mismatch; drafts sum == 2,574 rows; hub tests 16/16 at 9,413 expects; the committed census re-run 96 courses / 19,006 rows / 63,447 refs / 0 violations — and caught ONE claim-vs-artifact mismatch of record:
+
+- **The shipped claim text said "0 thumb fallbacks" (flags.videoMap.status + PR bodies + commit messages — the latter immutable) while the committed honest artifact `scripts/p17/oembed-p17.json` records 3 of the 2,474 routed videos with method `thumb-fallback` (oembed HTTPError): `SV-3cSIc-go` (business-teacher-t → cie-igcse-business-23), `ozy72GpnBVA` (aravinth-physics-maths → ial-physics-19), `uk86cQ8K-Ys` (mr-quakers-teaches → cie-igcse-english-literature-21). Identity for these rests on the channel-of-record upload provenance + thumbnail liveness per the P2D law — the P14 precedent (1 thumbnail-liveness fallback disclosed) applied. The 3 rows ship unchanged; the artifact is honest; the claim text was the bug. Corrected hub-side by the disclosure-fix PR (`t-videomap-p17-disclosure/run-001`).**
+- `scripts/p17/p17_summary.json`'s oembed block (`verified: 2,614, bad: 0`) is the stale run-1 snapshot taken before the 30 further-maths wrong-register re-adjudications shrank the routed set to 2,474; the FINAL oEmbed evidence of record is `oembed-p17.json` (2,474 entries = 2,471 oembed + 3 thumb-fallback, 0 bad). The summary file is left untouched as the historical run-1 record; this note is the correction of record.
