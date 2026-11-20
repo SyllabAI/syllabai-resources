@@ -1,0 +1,55 @@
+{
+  "stage": "P3 run-003 — guided-lessons beat compression + chunk_law enforce flip (the 3 live courses), promotion of record",
+  "title": "P3-COMPRESSION-PROMOTION-20261120",
+  "generated_at_utc": "2026-11-20T06:23:14Z",
+  "operator_trace": "a7d483b00dfcd098f78245352f0ff1e3",
+  "operator_directive": "\"run-003\" (Discord DM, 2026-11-20 04:06:17Z, trace a7d483b00dfcd098f78245352f0ff1e3) — the go signal for the P3 run-003 compression lane committed to the checklist of record by PR #1122 (run-001) and PR #1138 (run-002 review follow-up aa23d6a9): hand-authored compression of the 853 over-budget beats, the 4 configuration sort-match re-derivations under the strict thousands-grouping gate, and the chunk_law enforce flip",
+  "scope": {
+    "violations_before": {
+      "igcse-chemistry-19": 409,
+      "igcse-physics-19": 326,
+      "igcse-biology-19": 118,
+      "total": 853,
+      "classes": {
+        "bridge-beat-45": 212,
+        "opener-beat-45": 407,
+        "beat-45": 232,
+        "key-point-30": 2
+      }
+    },
+    "violations_after": 0,
+    "lessons_revised": 270,
+    "packages_reissued": 2,
+    "payload_rederivations": 4,
+    "law": "the beats are §7 stream tokens — every compressed note re-pins its stream anchor; sourceLayerSha256 + pinnedRef unchanged; structural counts (notes/lessons/checks/keyPoints/distractors/glossaryTerms) unchanged; only authored_chars_conserved moves",
+    "chunk_law": "chunk_law: enforce on all three run-003 feeds — the G-CHUNK gate is fail-closed at violations === 0 from this run on",
+    "parity_note": "interleave-rate parity anchors re-derived at the run-003 bake; the only mapping-input change is the 2 compressed physics key points (rn_ZgGMNrRGBKvYxxFf L1/L2)"
+  },
+  "manifests": {
+    "igcse-chemistry-19": {
+      "manifest": "hub-import-manifest-v56.json",
+      "artifacts": 224,
+      "revisedLessons": 107,
+      "revisedPkgs": 2,
+      "anchorUpdates": 107,
+      "waves": 1
+    },
+    "igcse-physics-19": {
+      "manifest": "hub-import-manifest-v57.json",
+      "artifacts": 254,
+      "revisedLessons": 119,
+      "revisedPkgs": 0,
+      "anchorUpdates": 119,
+      "waves": 13
+    },
+    "igcse-biology-19": {
+      "manifest": "hub-import-manifest-v58.json",
+      "artifacts": 88,
+      "revisedLessons": 44,
+      "revisedPkgs": 0,
+      "anchorUpdates": 44,
+      "waves": 4
+    }
+  },
+  "gating": "hub import runs per-course feeds (v56/v57/v58) with the G-CHUNK gate in ENFORCE mode; all gates fail-closed before any landing"
+}
