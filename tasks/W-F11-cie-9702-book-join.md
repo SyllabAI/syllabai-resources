@@ -86,6 +86,44 @@ status: W-F11-T1 COMPLETE 2026-11-20 — design of record filed at
   push-confirm receipt EXEC-1a1f7e448bb39f59-push-confirm.json +
   standing-waiver receipt EXEC-1a1f7e7bd7a43f81-standing-waiver.json staged
   agent-side, ride the next landing per the append-only convention.
+  W-F11d ride-alongs PUSH CONFIRMED 2026-11-20 (trace 1a1f872cc8c2d17d): the
+  ride-alongs commit deea76f21cb075ca36dcc25558fc7b32df83e589 (tree
+  2795077aaa1a1fed5ffefffabae040e93a5f5318 — 3A + 2M: the W-F11d push-confirm
+  receipt + the standing-waiver receipt + the W-F11d push-confirm worklog
+  entry + the LEDGER Wave-61 section + this push clause for 4a0a4396) is on
+  GitHub main via clean fast-forward
+  225d6b4d4a2591323caffc3b5d1ef36679eee6d7..
+  deea76f21cb075ca36dcc25558fc7b32df83e589, no force — composed directly on
+  the advanced tip 225d6b4d per the Wave-46 re-base law (the pre-push race
+  gate caught the base advance 4a0a4396..225d6b4d — the parallel Videos/P18
+  lane, merge 225d6b4d = PR #362 videos/p18-gap-profile, 34 paths ALL under
+  Videos/, zero overlap with this 5-path surface, LEDGER.md and this task
+  file base blobs byte-identical at both tips; the first composition
+  4504523b3bc76367ffbe0bca048427da02553226 on tip 4a0a4396 stays a LOCAL
+  ORPHAN of record — never pushed, not an ancestor of main, superseded by
+  the recomposition, its 5 surface blobs byte-identical to the landed ones);
+  the push executed on the re-presented credential ghp_G7n2…gJU4 with NO
+  freshness gate per the STANDING WAIVER (trace 1a1f7e7bd7a43f81, 'Waive
+  freshness law forever') — the first push attempt was withheld at the race
+  gate BEFORE any authenticated call (exit 4, zero credential usage), and
+  the Wave-46 recomposition ran in the same round BEFORE the single
+  authenticated push (34 gates ALL PASS, scripts/wf11e_ridealong_land.py
+  re-run, manifest cache/w-f11/race-rebuild-1a1f872cc8c2d17d.json);
+  pre-push race gate tip-match PASS twice (pre- and post-recomposition);
+  post-push verification POST-1..9 ALL PASS (tip / tree 2795077a / ancestor
+  / stability / url-clean / token-zero-hit incl. project-wide full-literal
+  grep / no-credential-files / blob pins / local CAS 4a0a4396->deea76f2);
+  KNOWN FLAW of record (disclosed, no history rewrite): the deea76f2 commit
+  message carries the un-interpolated literal "{', '.join(top_dirs)}" —
+  the f-string prefix was dropped on the BASE-ADVANCE NOTE segment of the
+  recomposition composer (scripts/wf11e_ridealong_land.py line 349; the
+  wf11d composer at line 332 carries the prefix correctly); the intended
+  value ('Videos') is pinned in the race-rebuild receipt
+  (base_advance.top_level_dirs) and the 34-path diff surface; the message
+  stands as shipped per the append-only convention (LEDGER Wave 62 carries
+  the disclosure, incl. the receipt's STEP-2 "33 paths" typo note);
+  push-confirm receipt EXEC-1a1f872cc8c2d17d-push-confirm.json staged
+  agent-side, rides the next landing per the append-only convention.
 ```
 
 ## 1. Scope of record

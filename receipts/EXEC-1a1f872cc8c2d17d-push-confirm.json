@@ -1,0 +1,45 @@
+{
+ "schema": "syllabai.exec-receipt/1",
+ "trace": "1a1f872cc8c2d17d",
+ "order": "operator message 'Push' + bearer credential and no other text — read per the STANDING WAIVER of record (trace 1a1f7e7bd7a43f81, 'Waive freshness law forever'): the push of the pinned Wave-61 ride-alongs commit executes on the delegated credential with NO freshness gate; the race advance caught by the pre-push gate triggers the Wave-46 recomposition in the same round, BEFORE the single authenticated push",
+ "executed_utc": "2026-11-20",
+ "outcome": "RACE_ADVANCE_ABSORBED__WAVE46_RECOMPOSITION__PUSH_LANDED_CLEAN_FAST_FORWARD__WAVE61_ON_MAIN",
+ "credential_identification": {
+  "method": "redacted form (first 8 + last 4), computed inside the script; no authenticated probe; the literal token was never typed into any file, script, config, or receipt",
+  "sent_form_redacted": "ghp_G7n2…gJU4",
+  "verdict": "any-credential accepted per the standing waiver — freshness/reuse/rotation is never a gate"
+ },
+ "round_sequence_of_record": [
+  "STEP 1 — first push attempt withheld at the RACE GATE, exit 4, ZERO credential usage (the gate fires before any authenticated call): anonymous ls-remote tip 225d6b4d4a2591323caffc3b5d1ef36679eee6d7 != expected parent 4a0a4396bc53ae6df9ff684355e442c5c994399e — the remote advanced while the Wave-61 landing awaited its push order",
+  "STEP 2 — advance inspection (anonymous fetch + diff-tree): 33 paths ALL under Videos/ (merge 225d6b4d = PR #362 videos/p18-gap-profile, the parallel P18 lane); LEDGER.md blob at the new tip == dfd41855… and tasks/W-F11-cie-9702-book-join.md blob == b529ab30… — both BYTE-IDENTICAL to the composition-time pins; zero '## Wave 61' collision — Wave-46 re-base law preconditions hold",
+  "STEP 3 — Wave-46 recomposition under this trace (scripts/wf11e_ridealong_land.py re-run; manifest cache/w-f11/race-rebuild-1a1f872cc8c2d17d.json): the commit recomposed DIRECTLY on the advanced tip — 34 gates ALL PASS; new commit deea76f21cb075ca36dcc25558fc7b32df83e589 (tree 2795077aaa1a1fed5ffefffabae040e93a5f5318, includes the Videos/P18 advance), same 5 composed blob pins (LEDGER 76a95110 / task f817b5e0 / the three NEW receipt blobs byte-identical to the first composition); commit message carries the BASE-ADVANCE NOTE of record; the first composition 4504523b3bc76367ffbe0bca048427da02553226 (on tip 4a0a4396) stays a LOCAL ORPHAN of record; local pin refs/local/wf11e-ridealong-1a1f7ea3bf64bd49 CAS-updated 4504523b -> deea76f2",
+  "STEP 4 — push script re-pointed (scripts/wf11e_push.sh) and executed: PRE-0/PRE-1 PASS, race gate re-checked fresh — tip == 225d6b4d == recomposition parent, ONE authenticated push, exit 0, no force"
+ ],
+ "push": {
+  "range": "225d6b4d4a2591323caffc3b5d1ef36679eee6d7..deea76f21cb075ca36dcc25558fc7b32df83e589",
+  "result": "fast-forward, exit 0, no force",
+  "method": "one authenticated git push of deea76f2...:refs/heads/main with the PAT in the transient command URL; all output piped through sed redaction; the token was never written to any file, config, receipt, ref or script",
+  "carried": "the complete Wave-61 ride-alongs (3A + 2M): receipts/EXEC-1a1f7e448bb39f59-push-confirm.json NEW + receipts/EXEC-1a1f7e7bd7a43f81-standing-waiver.json NEW + receipts/W-F11/W-F11d-push-confirm-worklog-entry.md NEW + LEDGER Wave 61 (the W-F11d push confirm + the standing waiver) + tasks/W-F11-cie-9702-book-join.md push clause for 4a0a4396"
+ },
+ "post_push_verification": [
+  "POST-1 PASS: anonymous ls-remote tip == deea76f2 == push head",
+  "POST-2 PASS: fetched FETCH_HEAD^{tree} == 2795077a == pushed tree (remote tree == pushed tree incl. the Videos/P18 advance)",
+  "POST-3a PASS: merge-base --is-ancestor(225d6b4d, deea76f2); POST-3b PASS: remote tip stable on independent re-check",
+  "POST-4 PASS: remote.origin.url unchanged and clean (https://github.com/SyllabAI/syllabai-resources.git)",
+  "POST-5 PASS: ghp_ grep across the clone's .git — zero hits",
+  "POST-6 PASS: ~/.git-credentials and ~/.netrc absent",
+  "POST-7 PASS: project-wide full-literal token grep across /home/z/my-project and HOME (excluding .git) — zero hits (double-verified zero persistence)",
+  "POST-9 PASS: local refs/heads/main CAS-updated 4a0a4396 -> deea76f2 (update-ref only, no worktree touch, partial-clone discipline held)"
+ ],
+ "credential_handling": {
+  "delegated_token": "ghp_G7n2…gJU4 (redacted form) — accepted per the standing waiver",
+  "usage_this_round": "exactly ONE authenticated push (in STEP 4; STEP 1 was withheld pre-authentication with zero credential usage); every read (advance inspection, race gates x2, POST-1/3b, fetch, summary ls-remotes) anonymous",
+  "persistence": "zero — nothing written to files/config/receipts/refs; remote URL clean; .git ghp_ grep zero hits; project-wide full-literal grep zero hits; no credential helper files (POST-4/5/6/7)",
+  "transit_ledger_update": "ghp_G7n2…gJU4: 3 chat transits, 3 authenticated pushes (traces 1a1f790e13db6e91, 1a1f7e448bb39f59, 1a1f872cc8c2d17d) — usable for future pushes by the standing waiver; revocation at the operator's discretion"
+ },
+ "repo_writes_this_round": "push only (225d6b4d..deea76f2 now on GitHub main); no new records commit — this receipt + a W-F11e push-confirm worklog entry + the W-F11 task push clause for deea76f2 + the LEDGER Wave-62 section (push confirm + race-rebuild) ride the NEXT records landing per the append-only convention (staged agent-side at cache/w-f11/)",
+ "next_operator_actions": [
+  "next records landing (any subsequent order) rides: this receipt + receipts/W-F11/W-F11e-push-confirm-worklog-entry.md + the W-F11 task-file push clause for deea76f2 (draft: cache/w-f11/wf11f-task-push-clause.md) + LEDGER Wave-62 (draft: cache/w-f11/ledger-w62.md)",
+  "queue state (honest, unchanged): the remaining CIE quartet joins (9701, 0625) NOT STARTED — each needs its own probe + design order; 0625 carries the D-2 ligature-loss class (N-1 folding law applies); the Edexcel ial-biology-18 (YBI11) join stays honest-blocked on sourcing (operator purchases, never agent-fetches, W-F7-T1 section 7 law); the 17 unmatched 9702 chapters stay honest NO_TOPIC_MAPPING rows; LLM fidelity polish quota-walled; INTEGRATED/LIVE remains the v2-repo/DB lever (not this repo's write face, CATALOG section 1 state law)"
+ ]
+}

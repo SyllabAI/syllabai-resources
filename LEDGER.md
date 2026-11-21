@@ -1657,3 +1657,89 @@ purchases, never agent-fetches, W-F7-T1 section 7 law); the 17 unmatched 9702
 chapters stay honest NO_TOPIC_MAPPING rows; LLM fidelity polish quota-walled;
 INTEGRATED/LIVE remains the v2-repo/DB lever, not this repo's write face.
 This section lands with the next records landing (append-only convention).
+
+---
+
+## Wave 62 — the W-F11d push confirm lands: the race-absorbed recomposition deea76f2 is on main, the f-string message flaw is disclosed, and the 9701 join design order enters (traces 1a1f872cc8c2d17d + 1a1fbb71dc98ef81)
+
+The W-F11d ride-alongs commit of record
+`deea76f21cb075ca36dcc25558fc7b32df83e589` (tree
+`2795077aaa1a1fed5ffefffabae040e93a5f5318` — 3A + 2M: the W-F11d push-confirm
+receipt + the standing-waiver receipt + the W-F11d push-confirm worklog entry
++ the LEDGER Wave-61 section + the W-F11 task push clause for `4a0a4396`) is
+on GitHub main via clean fast-forward
+`225d6b4d4a2591323caffc3b5d1ef36679eee6d7..deea76f21cb075ca36dcc25558fc7b32df83e589`,
+exit 0, no force — pushed under trace `1a1f872cc8c2d17d` (operator order
+"Push" + bearer credential, the STANDING WAIVER trace `1a1f7e7bd7a43f81`
+"Waive freshness law forever" in force — no freshness gate; credential of
+record `ghp_G7n2…gJU4`, exactly ONE authenticated push, every read
+anonymous). The round absorbed a base advance at the race gate of record:
+the FIRST push attempt was withheld BEFORE any authenticated call (exit 4,
+zero credential usage) because the remote tip had advanced
+`4a0a4396..225d6b4d` while the landing awaited its push order (the parallel
+Videos/P18 lane — merge `225d6b4d` = PR #362 videos/p18-gap-profile; 34
+paths ALL under Videos/, zero overlap with the 5-path surface, LEDGER.md
+`dfd41855` and tasks/W-F11-cie-9702-book-join.md `b529ab30` byte-identical
+at both tips — the Wave-46 re-base law preconditions held); the landing was
+recomposed DIRECTLY on the advanced tip in the same round
+(scripts/wf11e_ridealong_land.py re-run, 34 gates ALL PASS, manifest
+cache/w-f11/race-rebuild-1a1f872cc8c2d17d.json) — the first composition
+`4504523b3bc76367ffbe0bca048427da02553226` (on tip 4a0a4396) stays a LOCAL
+ORPHAN of record: never pushed, not an ancestor of main, superseded by the
+recomposition, its 5 surface blobs byte-identical to the landed ones (local
+pin refs/local/wf11e-ridealong-1a1f7ea3bf64bd49 CAS-updated 4504523b ->
+deea76f2; the item-(a) verification of record, trace `1a1fbb71dc98ef81`,
+re-proved all four facts this round — pin resolution, non-ancestry exit 1,
+5-path blob identity, staged-set sha256 pins). Pre-push race gate tip-match
+PASS twice (pre- and post-recomposition); post-push verification POST-1..9
+ALL PASS (tip / tree 2795077a / ancestor / stability / url-clean /
+token-zero-hit incl. project-wide full-literal grep / no-credential-files /
+blob pins / local CAS 4a0a4396->deea76f2, update-ref only, no worktree
+touch). KNOWN FLAW of record (disclosed, no history rewrite): the deea76f2
+commit message carries the un-interpolated literal `{', '.join(top_dirs)}`
+where the BASE-ADVANCE NOTE meant to name the advance's top-level
+directories — the f-string prefix was dropped on that segment of the
+recomposition composer (scripts/wf11e_ridealong_land.py line 349; the wf11d
+composer at line 332 carries the prefix correctly); the intended value is
+pinned in the race-rebuild receipt (base_advance.top_level_dirs = "Videos")
+and the 34-path diff surface; the message stands as shipped per the
+append-only convention and this disclosure completes the record (the
+push-confirm receipt's STEP-2 line reads "33 paths" — a typo; the manifest,
+the commit message and the diff surface all carry 34). THE 9701 JOIN DESIGN
+ORDER ENTERS with this wave (trace `1a1fbb71dc98ef81`, operator order
+"Proceed", items (a)-(d) of the standing queue): W-F11-T1 (9701) COMPLETE —
+the probe manifest + design of record + T1 worklog + the task file
+tasks/W-F11-cie-9701-book-join.md land here; the join build (T2) is NOT
+STARTED and follows as its own ordered wave on the v1 corpus. Facts of
+record: the 9701 corpus v1 (1083 chunks; W-F9 PARSED, reconcile 18/18 ALL
+CHECKS PASSED at trace 1a1f4951330253b5, pristine byte-identical — sha256
+774d616c… re-verified against the tip blobs this round) parses the
+THIRD-edition coursebook (Ryan & Norris, 889 pdf pages, source sha256
+1fa8afa3…c3e4928, native text layer, no OCR) — a 2017-LINE book (exams from
+2022) to be joined to the RESTRUCTURED spec of record
+cie-a-level-chemistry-2025-2027 (syllabus 2025-2027, 98 pages, sha1
+acc8c02b…; parsed side 35 topics / 91 subsections / 356 points, family
+int_statements; sme_courses cie-a-level-chemistry-25 +
+cie-as-chemistry-25) — a CROSS-LINE join consumed as a PARTIAL topic-level
+spine, the edition+line disclosure riding the header AND every row; the
+probe decisions D-1..D-6 pin the honest constraints (D-1 book_pages None on
+all chunks — the 9702 page law book = pdf − 12 is NOT portable; D-2 margin
+features absent from the render — source-state fact, disclosed; D-3 WeChat
+watermark stripped, zero-CJK gate; D-4 sub/superscripts rebuilt from span
+geometry — 553 subscript / 533 superscript chunks; D-5 chapter map = 30
+chapters + P1 pdf 522-536 + P2 pdf 870-882 + appendices/acks; D-6 22
+residual <80-char fragments (2%) routed to the polish lane); join row keys
+u0:c0..c30 (c0 = the 62 non-chapter chunks, c1..c30 = the 30 chapters,
+census re-verified this round: 31 keys summing 1083), verdicts JOIN_TOPIC |
+NO_TOPIC_MAPPING only, NO_TOPIC_MAPPING rows honest and never repaired,
+P1/P2 entering as gap rows per the W-F10 P1-in-gap precedent. Queue state
+(honest): the 0625 join NOT STARTED (D-2 ligature-loss class 488
+occurrences, the N-1 folding law applies) — its spec basis is PINNABLE at
+the tip of record (Official-Specifications/cie-igcse-physics-2023-2025/,
+cover_code 0625, 61 pages, sha1 794defb5…; the prior round's provisional
+"no cie-igcse-physics-* directory" note is CORRECTED by this census);
+YBI11 stays honest-blocked on sourcing (operator purchases, never
+agent-fetches, W-F7-T1 section 7 law); the 17 unmatched 9702 chapters stay
+honest NO_TOPIC_MAPPING rows; LLM fidelity polish quota-walled;
+INTEGRATED/LIVE remains the v2-repo/DB lever, not this repo's write face.
+This section lands with the next records landing (append-only convention).

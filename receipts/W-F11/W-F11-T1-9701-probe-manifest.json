@@ -1,0 +1,203 @@
+{
+ "schema": "syllabai.wf11-t1-9701-probe-manifest/1",
+ "trace": "1a1fbb71dc98ef81",
+ "order": "operator message 'Proceed' (2026-11-21) — read as: execute the standing queue items (a)-(d); item (a) = the local pin/orphan verification (scripts/wf11g_verify_orphan_pins.sh, sections A..H, executed verbatim this round: core proofs ALL PASS, two honest notes in the record); item (b) = this probe manifest + the 9701 design order stage, riding the Wave-62 records landing; item (c) = the Wave-62 landing build (the same commit); item (d) = the push executes on ANY operator-delegated credential per the standing waiver trace 1a1f7e7bd7a43f81 (no credential delegated this round — push pending, commit pinned locally at refs/local/wf11f-ridealong-1a1fbb71dc98ef81)",
+ "executed_utc": "2026-11-21",
+ "evidence_basis": "the 9701 probe ran REMOTE-ONLY during the sandbox outage (traces 1a1f93bb6424e909 + 1a1fa58df8d73e4d, anonymous GitHub API reads) and was RE-VERIFIED this round by direct blob reads at the tip of record 1202aaf373c4db43aa836d5fd052fe939f4c2369 (git cat-file) — every pin below is computed from the fetched blobs, not from prior session notes",
+ "tip_of_record": "1202aaf373c4db43aa836d5fd052fe939f4c2369",
+ "base_of_record": "deea76f21cb075ca36dcc25558fc7b32df83e589",
+ "book": {
+  "title": "Cambridge International AS & A Level Chemistry Coursebook (3rd edition)",
+  "authors": "Lawrie Ryan, Roger Norris",
+  "qual_code": "CIE 9701 (2017 line, exams from 2022)",
+  "source_pdf": "source/student-book.pdf",
+  "source_sha256": "1fa8afa3b3a3dc7dd4b981041e7bd9e2019c19095a0f59d75858e5c12c3e4928",
+  "source_blob": "08176a0e0cb452ce7cf949eb22e4e59341970ca0",
+  "source_bytes": 38227604,
+  "source_pages": 889,
+  "source_class": "regenerated/accessibility re-layout (DejaVu/STIX, single column, 9.2pt body)",
+  "extractor": "PyMuPDF dict-mode span-pool assembly (extract_9701.py) — no OCR"
+ },
+ "corpus": {
+  "path": "books/cambridge-international/ial/chemistry/9701/parsed/cie_a_level_chemistry_9701_chunks_v1.jsonl",
+  "n_chunks": 1083,
+  "content_types": {
+   "body": 668,
+   "learning_objectives": 36,
+   "before_you_start": 64,
+   "science_in_context": 1,
+   "reflection": 70,
+   "chapter_questions": 86,
+   "self_evaluation": 38,
+   "activity": 27,
+   "worked_example": 58,
+   "summary": 35
+  },
+  "git_blob": "1cf9a9895b9573366763b5b09e2056e55d12e30e",
+  "sha256": "774d616c1db882fbfd870482aae67f23651a6ee1cfbc0a728933ff5086ec1de2",
+  "bytes": 1867874,
+  "pristine_git_blob": "1cf9a9895b9573366763b5b09e2056e55d12e30e",
+  "pristine_sha256": "774d616c1db882fbfd870482aae67f23651a6ee1cfbc0a728933ff5086ec1de2",
+  "pristine_bytes": 1867874,
+  "pristine_byte_identical": true,
+  "textlayer_git_blob": "bf86dbe0073d2d4e80e226933a3628ce7942870b",
+  "textlayer_sha256": "f1d51e9bda1a813bfae3f68de17683ab083b464e2b92a82a550810af62b1e76f",
+  "textlayer_bytes": 1432100,
+  "parse_report_git_blob": "fb0f5c42d371f0e5050e92980903fe2e4b149c8d",
+  "chunk_id_scheme": "c9701_v1_u0_c{n}_pdf{p}_{i}",
+  "first_chunk_id": "c9701_v1_u0_c0_pdf002_0001",
+  "last_chunk_id": "c9701_v1_u0_c0_pdf889_1083",
+  "row_key_census": {
+   "c0": 62,
+   "c1": 21,
+   "c2": 36,
+   "c3": 79,
+   "c4": 50,
+   "c5": 36,
+   "c6": 38,
+   "c7": 34,
+   "c8": 63,
+   "c9": 26,
+   "c10": 35,
+   "c11": 20,
+   "c12": 23,
+   "c13": 15,
+   "c14": 32,
+   "c15": 31,
+   "c16": 18,
+   "c17": 23,
+   "c18": 26,
+   "c19": 35,
+   "c20": 58,
+   "c21": 48,
+   "c22": 46,
+   "c23": 48,
+   "c24": 36,
+   "c25": 25,
+   "c26": 21,
+   "c27": 23,
+   "c28": 26,
+   "c29": 18,
+   "c30": 31
+  },
+  "row_key_sum": 1083,
+  "unit_field": "None on all chunks (single-unit corpus u0)",
+  "unicode_subscript_chunks": 553,
+  "unicode_superscript_chunks": 533,
+  "reconcile_of_record": "W-F9 18/18 ALL CHECKS PASSED, trace 1a1f4951330253b5"
+ },
+ "decisions": {
+  "D-1": "pdf-page-anchored: the re-layout carries NO printed page numbers (TOC numberless, no edge digits, zero 'page N' self-refs) — book_pages=None on all chunks",
+  "D-2": "margin features (Study tip / Link / Extension) are absent from this render as text — types tip/cross_link/extension_work not emitted",
+  "D-3": "watermark (WeChat CLASS0608 ad overlay, pdf 31+66) stripped at line level; validator asserts zero CJK/CLASS0608",
+  "D-4": "sub/superscripts rebuilt from span geometry (6.9pt spans offset vs 9.2pt baseline); stacked isotope pairs ordered sup-before-sub: ⁵²₂₄Cr²⁺",
+  "D-5": "chapter map = 30 LEARNING INTENTIONS openers + P1 (pdf 522) + P2 (pdf 870) + appendices/acks; TOC used for titles only",
+  "D-6": "'images' alt-text junk lines (32) dropped; 22 residual <80-char fragments accepted for v1 (2%)"
+ },
+ "spec_side": {
+  "slug": "cie-a-level-chemistry-2025-2027",
+  "syllabus_pdf": "664563-2025-2027-syllabus.pdf",
+  "syllabus_sha1": "acc8c02b6c6e185aeb31fbf9423637eed507f3bb",
+  "syllabus_bytes": 4091637,
+  "syllabus_pages": 98,
+  "edition_window": "2025-2027",
+  "spec_codes": [
+   "9701"
+  ],
+  "cover_code": "9701",
+  "sme_courses": [
+   "cie-a-level-chemistry-25",
+   "cie-as-chemistry-25"
+  ],
+  "parsed_topics": {
+   "topics": 35,
+   "subsections": 91,
+   "source_topic_rows": 35
+  },
+  "parsed_spec_points": {
+   "spec_points": 356,
+   "practicals": 0,
+   "flagged": 356
+  },
+  "topic_scope_split": {
+   "AS Level": 21,
+   "A Level": 14
+  },
+  "spec_points_family": "int_statements",
+  "spec_points_issue": "2",
+  "spec_points_git_blob": "cfd8beb53b4e53bae070e06bd6b7005e8a99d94a",
+  "topics_git_blob": "4af7fc82f7c4de54d84411883f72692ee01a61b9"
+ },
+ "join_design_decisions": {
+  "row_keys": "u0:c0..c30 (c0 = non-chapter matter, c1..c30 = the 30 chapters per D-5)",
+  "verdicts": "JOIN_TOPIC | NO_TOPIC_MAPPING only (N-7: honest rows, never repaired)",
+  "join_key_regime": "J5 three-tier title evidence (EQUAL > CONTAINS under N-2b > Tier 3 number identity, title-variant gated) + the J4 verbatim-TEXT route per the W-F11 family law (zero printed codes; expected near-zero, full-stack evidence)",
+  "p1_p2": "P1 pdf 522-536 + P2 pdf 870-882 enter as gap rows per the W-F10 P1-in-gap precedent (N-9 analog)",
+  "disclosure": "edition+line disclosure (3rd ed, 2017 line, exams from 2022 vs the 2025-2027 lane) on header + every row (N-8 analog)",
+  "corpus_basis": "join built on the v1 corpus; the LLM fidelity polish lane is separate (quota-walled)",
+  "gates_at_t2": "G-F11-B1..B6 (9702 definitions adapted) + landing V0..V10; manifests + dual pins",
+  "t2_status": "NOT STARTED"
+ },
+ "gates": [
+  {
+   "gate": "P1 book source pin (sha256 == parse_report source_sha256, 38227604 B, 889 pp)",
+   "verdict": "PASS",
+   "detail": "sha256=1fa8afa3… blob=08176a0e…"
+  },
+  {
+   "gate": "P2 pristine byte-identity + textlayer/parse-report pins",
+   "verdict": "PASS",
+   "detail": "chunks/pristine sha256=774d616c… textlayer=f1d51e9b…"
+  },
+  {
+   "gate": "P3 corpus census (1083 chunks; content types == parse report; unit None single-u0)",
+   "verdict": "PASS",
+   "detail": "n=1083 types={\"activity\": 27, \"before_you_start\": 64, \"body\": 668, \"chapter_questions\": 86, \"learning_objectives\": 36, \"reflection\": 70, \"science_in_context\": 1, \"self_evaluation\": 38, \"summary\": 35, \"worked_example\": 58}"
+  },
+  {
+   "gate": "P3b chunk-id row-key census (c0..c30, 31 keys, sum 1083)",
+   "verdict": "PASS",
+   "detail": "c0=62 c30=31 first=c9701_v1_u0_c0_pdf002_0001 last=c9701_v1_u0_c0_pdf889_1083"
+  },
+  {
+   "gate": "P4 probe decisions D-1..D-6 verbatim in parse report",
+   "verdict": "PASS",
+   "detail": "D-1 pdf-page-anchored: the re-layout carries NO printed page num…; D-2 margin features (Study tip / Link / Extension) are absent fr…; D-3 watermark (WeChat CLASS0608 ad overlay, pdf 31+66) stripped …; D-4 sub/superscripts rebuilt from span geometry (6.9pt spans off…; D-5 chapter map = 30 LEARNING INTENTIONS openers + P1 (pdf 522) …; D-6 'images' alt-text junk lines (32) dropped; 22 residual <80-c…"
+  },
+  {
+   "gate": "P5 spec-side pins (35/91 topics+subsections, 356 points, sme_courses x2, sha1)",
+   "verdict": "PASS",
+   "detail": "topics=35 subsections=91 points=356 sha1=acc8c02b6c6e185aeb31fbf9423637eed507f3bb"
+  },
+  {
+   "gate": "P5b syllabus sha1 recomputed == spec.json pin",
+   "verdict": "PASS",
+   "detail": "acc8c02b6c6e185aeb31fbf9423637eed507f3bb"
+  },
+  {
+   "gate": "P6 W-F9 reconcile of record present (18/18 ALL CHECKS PASSED + trace 1a1f4951330253b5)",
+   "verdict": "PASS",
+   "detail": "tasks/W-F9-cie-books-parse.md at tip"
+  },
+  {
+   "gate": "P7 0625 spec basis pinnable at tip (cover_code 0625)",
+   "verdict": "PASS",
+   "detail": "cie-igcse-physics-2023-2025 sha1=794defb5a684b969a4e893f0a4054c834cdc0f7b pages=61"
+  },
+  {
+   "gate": "P8 probe-time zero repo writes (remote-only probe + blob-read re-verification)",
+   "verdict": "PASS",
+   "detail": "this builder performs blob reads + local staging only"
+  }
+ ],
+ "honest_gaps": [
+  "W-F11-T2 (the join build) NOT STARTED — it follows as its own ordered wave",
+  "book_pages None on all chunks (D-1): no printed-page axis; serving anchors on pdf pages + chunk ids",
+  "margin features absent from the render (D-2): a source-state fact, disclosed not repaired",
+  "22 residual <80-char fragments (2%) routed to the LLM polish lane (quota-walled)",
+  "P1/P2 chunk registration sits in c0; the T2 build routes them via the gap rows",
+  "the 2017-line book vs the 2025-2027 spec is a CROSS-LINE join: partial topic-level spine consumed as such",
+  "the prior round's provisional 'no cie-igcse-physics-* directory' note is CORRECTED: Official-Specifications/cie-igcse-physics-2023-2025/ exists at the tip of record (cover_code 0625, sha1 794defb5a684b969a4e893f0a4054c834cdc0f7b) — the 0625 spec basis is pinnable when its design order enters"
+ ],
+ "verdict": "ALL PASS"
+}
