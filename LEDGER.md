@@ -1743,3 +1743,77 @@ agent-fetches, W-F7-T1 section 7 law); the 17 unmatched 9702 chapters stay
 honest NO_TOPIC_MAPPING rows; LLM fidelity polish quota-walled;
 INTEGRATED/LIVE remains the v2-repo/DB lever, not this repo's write face.
 This section lands with the next records landing (append-only convention).
+
+---
+
+## Wave 63 — the Wave-62 records landing is on main: the 9701 design-order set enters the remote record (trace 1a204760b14cb459)
+
+The Wave-62 records landing commit of record
+`4f68a8381881d9ef8aea3bd1b1e2f4ef188d40a6` (tree
+`0525d45c8c80720e6c21fb068dbd09946b3afc36` — 6A + 2M: the W-F11d push-confirm
+receipt + the W-F11e push-confirm worklog entry + the 9701 T1 receipt set
+(probe manifest + design of record + T1 worklog) + tasks/W-F11-cie-9701-book-join.md
++ the LEDGER Wave-62 section + the W-F11 task push clause for `deea76f2`) is
+on GitHub main via clean fast-forward
+`1202aaf373c4db43aa836d5fd052fe939f4c2369..4f68a8381881d9ef8aea3bd1b1e2f4ef188d40a6`,
+exit 0, no force — pushed under trace `1a204760b14cb459` (operator order
+"push" + bearer credential, the STANDING WAIVER trace `1a1f7e7bd7a43f81`
+"Waive freshness law forever" in force — no freshness gate; credential of
+record `ghp_G7n2…gJU4`, exactly ONE authenticated push, every read anonymous;
+the push executed via one-shot credential-helper injection — the token never
+entered any URL, file, config, receipt, ref or script). NO BASE ADVANCE at
+push time: the fresh race gate tip == the composition parent `1202aaf3` (the
+prior advance deea76f2..1202aaf3 — the parallel Videos/P18 judgment lane,
+merge 1202aaf3 = PR #363 videos/p18-judgment, 96 paths ALL under Videos/,
+zero overlap with the 8-path surface — had been absorbed at build time by the
+Wave-46 re-base law, trace `1a1fbb71dc98ef81`, manifest
+cache/w-f11/landing-1a1fbb71dc98ef81.json verdict ALL PASS). Pre-push gate of
+record (scripts/wf11f_prepush_gate.py): P0..P9, 30 checks, ALL PASS after one
+adjudication — P4's initial byte-count mismatch (committed 6753B vs staged
+6752B) was adjudicated BEFORE any authenticated call: the committed message
+equals the staged composer text cache/w-f11/wf11f-records-commit-msg.txt PLUS
+its trailing newline (text byte-identical — the same trailing-newline
+convention the wf11g section-G diff shows); gate contents: pin resolve,
+parent/tree pins, author/committer SyllabAI <hussaina269a@gmail.com>, surface
+exactly 6A + 2M, 8 committed blob pins, 8 sha256 pins (6 cache-file + 2
+composed-blob), orphan-of-record non-ancestry + 5-path blob identity
+(`76a95110` / `67967d9b` / `1347540a` / `225fdf93` / `f817b5e0`), remote
+stability twice. The item-(a) script of record
+(scripts/wf11g_verify_orphan_pins.sh, operator order trace
+`1a1fa5d2c5553729`) re-run the same round: core proofs ALL PASS; section E's
+"FAIL" is the documented base advance — adjudicated, not a defect. Post-push
+verification POST-1..9 ALL PASS (tip / tree `0525d45c` / ancestor / stability
+/ url-clean / token-zero-hit incl. project-wide full-literal grep — the first
+POST run skipped the scan because the persistent shell does not retain
+exported env between tool calls and the scan was re-executed with the token
+in the environment only, both runs disclosed / no-credential-files / local
+CAS `deea76f2`->`4f68a838`, update-ref only, no worktree touch); the
+anonymous compare-API cross-check returned a 279-byte non-compare JSON
+payload (unauthenticated API refusal) — the git-transport proofs POST-1/2/3
+carry the remote verification; no authenticated API call was made. THE 9701
+DESIGN-ORDER SET IS ON MAIN with this wave: W-F11-T1 (9701) COMPLETE — the
+probe manifest + design of record + T1 worklog + the task file
+tasks/W-F11-cie-9701-book-join.md (the CROSS-LINE join design: the 3rd-ed
+2017-line coursebook corpus v1, 1083 chunks, W-F9 PARSED, reconcile 18/18
+ALL CHECKS PASSED at trace `1a1f4951330253b5`, source sha256 `1fa8afa3…`,
+889 pdf pages, native text layer, no OCR, x the restructured spec of record
+cie-a-level-chemistry-2025-2027, 35 topics / 91 subsections / 356 points,
+syllabus sha1 `acc8c02b…`; row keys u0:c0..c30; verdicts JOIN_TOPIC |
+NO_TOPIC_MAPPING only, NO_TOPIC_MAPPING rows honest and never repaired;
+D-1..D-6 pinned; P1 pdf 522-536 + P2 pdf 870-882 gap rows per the W-F10
+P1-in-gap precedent; edition+line disclosure on header + rows). The
+task-clause carrier of record moves to the 9701 task file as of this wave
+(its first clause — for `4f68a838` — rides the next landing, draft
+cache/w-f11/wf11g-task-push-clause.md, anchor verified against the 4f68a838
+blob `5b208fc8` exactly-once); the 9702 clause chain closes at `deea76f2`
+with its five clauses of record. Queue state (honest): W-F11-T2 (the 9701
+join build) NOT STARTED — it follows as its own ordered wave on the v1
+corpus; the 0625 join NOT STARTED (D-2 ligature-loss class 488 occurrences,
+the N-1 folding law applies; spec basis pinnable at tip:
+Official-Specifications/cie-igcse-physics-2023-2025/, cover_code 0625, 61
+pages, sha1 `794defb5…`); YBI11 stays honest-blocked on sourcing (operator
+purchases, never agent-fetches, W-F7-T1 section 7 law); the 17 unmatched
+9702 chapters stay honest NO_TOPIC_MAPPING rows; LLM fidelity polish
+quota-walled; INTEGRATED/LIVE remains the v2-repo/DB lever, not this repo's
+write face. This section lands with the next records landing (append-only
+convention).

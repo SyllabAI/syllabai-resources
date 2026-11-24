@@ -31,6 +31,37 @@ status: W-F11-T1 (9701) COMPLETE 2026-11-21 — probe manifest + design of recor
   Wave-62 records landing (trace 1a1fbb71dc98ef81, append-only convention); the
   push executes on any operator-delegated credential per the standing waiver
   (trace 1a1f7e7bd7a43f81).
+  W-F11-T1 (9701) design-order set PUSHED 2026-11-22 UTC (trace
+  1a204760b14cb459): the Wave-62 records landing commit 4f68a8381881d9ef8aea3bd1b1e2f4ef188d40a6 (tree
+  0525d45c8c80720e6c21fb068dbd09946b3afc36 — 6A + 2M: the W-F11d push-confirm
+  receipt + the W-F11e push-confirm worklog entry + the 9701 T1 receipt set
+  (probe manifest + design of record + T1 worklog) + this task file + the LEDGER
+  Wave-62 section + the W-F11 task push clause for deea76f2) is on GitHub main
+  via clean fast-forward
+  1202aaf373c4db43aa836d5fd052fe939f4c2369..
+  4f68a8381881d9ef8aea3bd1b1e2f4ef188d40a6, exit 0, no force — composed
+  directly on the advanced tip 1202aaf3 per the Wave-46 re-base law at build
+  time (the parallel Videos/P18 judgment lane, merge 1202aaf3 = PR #363
+  videos/p18-judgment, 96 paths ALL under Videos/, zero overlap with the
+  8-path surface; LEDGER.md 76a95110 and the 9702 task blob f817b5e0
+  byte-identical at both tips); NO base advance at push time (the fresh race
+  gate tip == the composition parent); the push executed on the delegated
+  credential ghp_G7n2…gJU4 with NO freshness gate per the STANDING WAIVER
+  (trace 1a1f7e7bd7a43f81, 'Waive freshness law forever') — one-shot
+  credential-helper injection, the token never entered any URL, file, config,
+  receipt or ref; pre-push gate scripts/wf11f_prepush_gate.py P0..P9 ALL PASS
+  (pin/parent/tree pins, identity, message-vs-staged adjudicated
+  trailing-newline-only, surface 6A + 2M, 8 blob pins + 8 sha256 pins, orphan
+  non-ancestry + 5-path blob identity, remote stability x2; the item-(a)
+  script wf11g_verify_orphan_pins.sh re-run the same round — core proofs ALL
+  PASS, section E = the documented base advance, adjudicated); post-push
+  POST-1..9 ALL PASS (tip / tree 0525d45c / ancestor / stability / url-clean /
+  token-zero-hit incl. project-wide full-literal grep / no-credential-files /
+  local CAS deea76f2->4f68a838, update-ref only, no worktree touch);
+  push-confirm receipt EXEC-1a204760b14cb459-push-confirm.json staged
+  agent-side, rides the next landing per the append-only convention (the
+  task-clause carrier of record moves to this file as of this wave — the
+  9702 clause chain closes at deea76f2 with its five clauses of record).
 ```
 
 ## 1. Scope of record
