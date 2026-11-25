@@ -1,0 +1,53 @@
+{
+ "schema": "syllabai.exec-receipt/1",
+ "trace": "1a20ec582343d02d",
+ "order": "operator message: bearer credential re-presented ('here is PAT') — read per the STANDING WAIVER of record (trace 1a1f7e7bd7a43f81, 'Waive freshness law forever'): the push of the pinned Wave-63 records landing executes on the delegated credential with NO freshness gate — the redacted form ghp_rW7z…71xD is the Wave-59-era form of record, RE-PRESENTED by the operator; freshness/reuse/rotation is never a gate, revocation never a gate. The commit of record 4fcb7a29 had been built, verified (37 gates ALL PASS, manifest cache/w-f11/landing-1a20eaac6feec34d.json) and pinned locally at refs/local/wf11g-ridealong-1a20eaac6feec34d by the prior round (trace 1a20eaac6feec34d), so this round is the pre-push gate + the push, zero rework",
+ "executed_utc": "2026-11-24",
+ "outcome": "PUSH_LANDED_CLEAN_FAST_FORWARD__WAVE63_ON_MAIN",
+ "credential_identification": {
+  "method": "redacted form (first 8 + last 4), computed inside the scripts; the literal token existed ONLY in the process environment of the push invocations — one-shot credential-helper injection (git -c credential.helper= -c credential.helper='!f() { printf \"username=x-access-token\\npassword=%s\\n\" \"$GFH_PAT\"; }; f'); it was never typed into any file, script, config, receipt, ref or push URL",
+  "sent_form_redacted": "ghp_rW7z…71xD",
+  "verdict": "any-credential accepted per the standing waiver — the re-presented era-form (superseded since Wave-60 by the ghp_G7n2…gJU4 form) is accepted with NO freshness gate; the form-mismatch fact is informational only, never a gate"
+ },
+ "round_sequence_of_record": [
+  "STEP 0 — state of record at round start: local main == origin/main == remote tip == 4f68a838 (the Wave-62 landing), pinned Wave-63 commit 4fcb7a29 verified and pinned; item-(a) script wf11g_verify_orphan_pins.sh had re-run earlier the same session (trace 1a20eaac6feec34d) with FAIL=0 across all eight sections (disclosed skip this round)",
+  "STEP 1 — pre-push gate of record (scripts/wf11g_prepush_gate.py): P0..P9 + P4b + P6b, 30 checks, ALL PASS — run TWICE this round (immediately before attempt 1 and again before attempt 2): pin resolve 4fcb7a29, parent pin 4f68a838, fresh anonymous race gates, tree pin f41a5c92, identity SyllabAI <hussaina269a@gmail.com>, P4 message == staged composer BYTE-IDENTICAL (6096B, delta=0 — no trailing-newline adjudication needed this round), P4b braces=0, surface exactly 2A + 2M, 4 blob pins + 9702 untouched (3ee8fa3e), sha256 pins (2 cache-file + 2 composed-blob), orphan non-ancestry + 5-path blob identity vs the deea76f2 supersession anchor, remote stability twice",
+  "STEP 2 — item-(a) script: DISCLOSED skip (re-run earlier this session, FAIL=0, recorded in the landing manifest preflight)",
+  "STEP 3 — race gates: fresh anonymous ls-remote tip == 4f68a838 == the commit's parent — PASS before attempt 1 and again before attempt 2 (NO base advance at any point this round: the Wave-46 re-base law was armed and NEVER triggered; diff-tree 4f68a838..origin/main empty, 0 advance paths, verified after attempt 1)",
+  "STEP 4 — PUSH ATTEMPT 1 (scripts/wf11g_push.sh): authenticated push REJECTED client-side '! [rejected] 4fcb7a29 -> main (fetch first)', exit 1, BEFORE any update was sent — zero landing; the credential authenticated (the rejection is a ref-compare verdict, not a 401)",
+  "STEP 5 — diagnostics after attempt 1 (all anonymous): fetch + ls-remote + diff-tree — origin/main == 4f68a838, ancestry holds, ZERO advance paths (the fetch-side view never moved)",
+  "STEP 6 — PUSH ATTEMPT 2 (full gate re-run P0..P9 ALL PASS + race gate PASS, then the push): REJECTED client-side '(fetch first)' again, exit 1, zero landing — deterministic, not transient",
+  "STEP 7 — protocol-level diagnostics of record: (a) anonymous cache-busted upload-pack advertisement (info/refs?service=git-upload-pack, correct Accept header) — refs/heads/main = 4f68a838; (b) anonymous receive-pack advertisement — HTTP 401 (the push-side advertisement is auth-gated, only served WITH credentials); (c) ONE authenticated read-only ls-remote (disclosed credential read, the only non-push credential use this round) — refs/heads/main = 4f68a838. ALL fetch-side views agreed on 4f68a838 throughout; the two '(fetch first)' verdicts therefore came from a receive-pack advertisement serving a tip SHA unknown to the clone at those instants",
+  "STEP 8 — PUSH ATTEMPT 3 (the landing push, GIT_TRACE_PACKET ground truth): the receive-pack advertisement had CONVERGED — trace pins: advertised '4f68a838… refs/heads/main'; client sent exactly '4f68a838 4fcb7a29 refs/heads/main' (old == advertised tip == parent — clean fast-forward); server verdict 'ok refs/heads/main', push exit 0. NO force, NO recomposition (nothing was rebuilt: the Wave-46 law was armed but no advance ever existed on the fetch side)",
+  "ATTRIBUTION OF RECORD: the two '(fetch first)' rejections are attributed to the push-side (receive-pack) advertisement service state — serving a tip unknown to the clone at those instants, self-resolved by attempt 3 — NOT to any local defect and NOT to any real base advance; anomaly-of-record disclosed for future gates: a '(fetch first)' rejection with a VERIFIED-stable fetch-side tip warrants advertisement re-check and re-attempt, not blind recomposition",
+  "CLONE-CONDITION FACTS OF RECORD: the clone is shallow + blob:none promisor (pre-existing, is-shallow-repository true; shallow boundary dd280e8d observed in the packet trace) — no action taken; pushes land once the push-side advertisement converges"
+ ],
+ "push": {
+  "range": "4f68a8381881d9ef8aea3bd1b1e2f4ef188d40a6..4fcb7a293701b8ed32c65623f57142d2f17ed00c",
+  "result": "fast-forward, exit 0, no force (attempt 3 of record)",
+  "method": "authenticated git push of 4fcb7a29…:refs/heads/main with the PAT injected through a one-shot credential helper (env-only transit); all reads anonymous except the ONE disclosed authenticated read-only ls-remote; the token was never written to any file, config, receipt, ref, script or push URL",
+  "carried": "the complete Wave-63 records landing (2A + 2M): receipts/EXEC-1a204760b14cb459-push-confirm.json NEW + receipts/W-F11/W-F11f-push-confirm-worklog-entry.md NEW + LEDGER Wave 63 (the Wave-62 landing is on main — the 9701 design-order set enters the remote record; W-F11-T1 (9701) COMPLETE) + tasks/W-F11-cie-9701-book-join.md first clause of record (PUSHED 2026-11-22 trace 1a204760b14cb459 — the task-clause carrier of record moved to the 9701 task file; the 9702 clause chain closed at deea76f2 with its five clauses of record)"
+ },
+ "post_push_verification": [
+  "POST-1 PASS: anonymous ls-remote tip == 4fcb7a29 == pushed head",
+  "POST-2 PASS: fetched FETCH_HEAD^{tree} == f41a5c92 == pushed tree",
+  "POST-3a PASS: merge-base --is-ancestor(4f68a838, 4fcb7a29); POST-3b PASS: remote tip stable on independent re-check",
+  "POST-4 PASS: remote.origin.url unchanged and clean (https://github.com/SyllabAI/syllabai-resources.git)",
+  "POST-5 PASS: ghp_ grep across the clone's .git — zero hits",
+  "POST-6 PASS: ~/.git-credentials and ~/.netrc absent",
+  "POST-7 PASS — zero persistence PROVEN (deterministic python walk scripts/wf11f_post7_scan.py across /home/z/my-project + HOME excluding .git — scanned=96156 errors=0 hits=0) + POST-7b belt-and-braces full-literal grep for BOTH session tokens (the ghp_G7n2-era form and the ghp_rW7z-era form) — zero hits; the literal tokens exist nowhere on disk",
+  "POST-9 PASS: local refs/heads/main CAS-updated 4f68a838 -> 4fcb7a29 (update-ref only, no worktree touch, partial-clone discipline held)",
+  "POST-NOTE (BETTER THAN PRIOR ROUNDS): the anonymous compare-API cross-check WORKED this round — compare 4f68a838...4fcb7a29 returned the live compare JSON (no rate-limit refusal); git-transport proofs POST-1/2/3 AND the API cross-check together carry the remote verification; no authenticated API call was made"
+ ],
+ "credential_handling": {
+  "delegated_token": "ghp_rW7z…71xD (redacted form) — accepted per the standing waiver",
+  "usage_this_round": "authenticated calls of record: 3 push attempts (attempts 1 and 2 rejected client-side BEFORE any update was sent, exit 1 each, zero landing; attempt 3 landed, exit 0) + 1 disclosed authenticated read-only ls-remote (the advertisement-divergence diagnostic); every other read anonymous",
+  "persistence": "zero — nothing written to files/config/receipts/refs; remote URL clean; .git ghp_ grep zero hits; project-wide full-literal grep zero hits for both session tokens (POST-4/5/6/7/7b)",
+  "transit_ledger_update": "ghp_rW7z…71xD: 14th+ chat exposure of record (13th+ at the Wave-59-era receipt EXEC-1a1f57a68d63bfc5-push-confirm.json; superseded by the ghp_G7n2…gJU4 form from Wave-60 through the Wave-62 push trace 1a204760b14cb459; RE-PRESENTED by the operator this round) — this round adds 1 chat transit + the 4 authenticated calls above (1 landing); accepted with NO freshness gate per the standing waiver trace 1a1f7e7bd7a43f81; revocation at the operator's discretion, never a gate"
+ },
+ "repo_writes_this_round": "push only (4f68a838..4fcb7a29 now on GitHub main); no new records commit — this receipt + a W-F11g push-confirm worklog entry + the 9701 task-file push clause for 4fcb7a29 (draft: cache/w-f11/wf11h-task-push-clause.md; anchor verified against the 4fcb7a29 blob e99e9f73 exactly-once) + the LEDGER Wave-64 section ride the NEXT records landing per the append-only convention (staged agent-side at cache/w-f11/)",
+ "next_operator_actions": [
+  "next records landing (any subsequent order) rides the staged Wave-64 set: this receipt + receipts/W-F11/W-F11g-push-confirm-worklog-entry.md + the 9701 task-file push clause for 4fcb7a29 (draft: cache/w-f11/wf11h-task-push-clause.md) + LEDGER Wave-64 (draft: cache/w-f11/ledger-w64.md)",
+  "queue state (honest, unchanged): W-F11-T2 (the 9701 join build) NOT STARTED — it follows as its own ordered wave on the v1 corpus; the 0625 join NOT STARTED (D-2 ligature-loss class 488 occurrences, the N-1 folding law applies; spec basis pinnable at tip: Official-Specifications/cie-igcse-physics-2023-2025/, cover_code 0625, 61 pages, sha1 794defb5…); the Edexcel ial-biology-18 (YBI11) join stays honest-blocked on sourcing (operator purchases, never agent-fetches, W-F7-T1 section 7 law); the 17 unmatched 9702 chapters stay honest NO_TOPIC_MAPPING rows; LLM fidelity polish quota-walled; INTEGRATED/LIVE remains the v2-repo/DB lever (not this repo's write face, CATALOG section 1 state law)"
+ ]
+}

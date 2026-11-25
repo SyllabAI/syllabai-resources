@@ -62,6 +62,40 @@ status: W-F11-T1 (9701) COMPLETE 2026-11-21 — probe manifest + design of recor
   agent-side, rides the next landing per the append-only convention (the
   task-clause carrier of record moves to this file as of this wave — the
   9702 clause chain closes at deea76f2 with its five clauses of record).
+  The Wave-63 records landing PUSHED 2026-11-24 UTC (trace 1a20ec582343d02d):
+  the Wave-63 records landing commit
+  4fcb7a293701b8ed32c65623f57142d2f17ed00c (tree
+  f41a5c92d6a8719fc27b6fdce76b0b474f4b6d8f — 2A + 2M: the W-F11f push-confirm
+  receipt + the W-F11f push-confirm worklog entry + the LEDGER Wave-63 section
+  + the first clause of record in this file) is on GitHub main via clean
+  fast-forward
+  4f68a8381881d9ef8aea3bd1b1e2f4ef188d40a6..4fcb7a293701b8ed32c65623f57142d2f17ed00c,
+  exit 0, no force — pushed on the RE-PRESENTED era-form credential
+  ghp_rW7z…71xD with NO freshness gate per the STANDING WAIVER (trace
+  1a1f7e7bd7a43f81, 'Waive freshness law forever' — freshness/reuse/rotation
+  never a gate). The landing round needed THREE authenticated push attempts of
+  record: attempts 1 and 2 were rejected CLIENT-side '(fetch first)' BEFORE
+  any update was sent (exit 1 each, zero landing) while EVERY fetch-side view
+  (anonymous cache-busted upload-pack advertisement; ONE disclosed
+  authenticated read-only ls-remote) consistently showed the true tip
+  4f68a838; the packet trace of record (GIT_TRACE_PACKET on attempt 3) pins
+  the ground truth: the receive-pack advertisement had CONVERGED to 4f68a838
+  and the update 4f68a838..4fcb7a29 was accepted — 'ok refs/heads/main',
+  exit 0; the two rejections are attributed of record to the push-side
+  advertisement serving a tip unknown to the clone at those instants
+  (server-side, self-resolved; anomaly-of-record: a '(fetch first)' rejection
+  with a VERIFIED-stable fetch-side tip warrants advertisement re-check and
+  re-attempt, not blind recomposition — the Wave-46 re-base law was armed and
+  never triggered, zero advance ever verified); pre-push gate
+  scripts/wf11g_prepush_gate.py 30 checks ALL PASS twice (before attempts 1
+  and 2), race gate PASS twice; POST-1..9 ALL PASS incl. POST-7 zero
+  persistence (deterministic walk scanned=96156 errors=0 hits=0, BOTH session
+  tokens zero-hit) and the anonymous compare-API cross-check LIVE this round
+  (compare 4f68a838...4fcb7a29 returned the compare JSON — no rate-limit
+  refusal); local CAS 4f68a838->4fcb7a29, update-ref only, no worktree touch;
+  clone-condition facts of record: shallow + blob:none promisor
+  (pre-existing), shallow boundary dd280e8d observed in the packet trace — no
+  action taken.
 ```
 
 ## 1. Scope of record

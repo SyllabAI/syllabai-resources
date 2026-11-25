@@ -1817,3 +1817,76 @@ purchases, never agent-fetches, W-F7-T1 section 7 law); the 17 unmatched
 quota-walled; INTEGRATED/LIVE remains the v2-repo/DB lever, not this repo's
 write face. This section lands with the next records landing (append-only
 convention).
+
+---
+
+## Wave 64 — the Wave-63 records landing is on main: the first 9701 task-file clause enters the remote record (trace 1a20ec582343d02d)
+
+The Wave-63 records landing commit of record
+`4fcb7a293701b8ed32c65623f57142d2f17ed00c` (tree
+`f41a5c92d6a8719fc27b6fdce76b0b474f4b6d8f` — 2A + 2M: the W-F11f push-confirm
+receipt + the W-F11f push-confirm worklog entry + the LEDGER Wave-63 section
++ the first clause of record in tasks/W-F11-cie-9701-book-join.md) is on
+GitHub main via clean fast-forward
+`4f68a8381881d9ef8aea3bd1b1e2f4ef188d40a6..4fcb7a293701b8ed32c65623f57142d2f17ed00c`,
+exit 0, no force — pushed under trace `1a20ec582343d02d` (re-presented bearer
+credential, the STANDING WAIVER trace `1a1f7e7bd7a43f81` "Waive freshness law
+forever" in force — no freshness gate; credential of record `ghp_rW7z…71xD`,
+the Wave-59-era form of record at its 14th+ chat exposure, RE-PRESENTED by
+the operator; the push executed via one-shot credential-helper injection —
+the token never entered any URL, file, config, receipt, ref or script). NO
+BASE ADVANCE this cycle: the fresh race gate tip == the composition parent
+`4f68a838` at round start and immediately before build (the Wave-63 landing
+had been composed cleanly on the tip of record at trace `1a20eaac6feec34d`,
+37 gates ALL PASS, manifest cache/w-f11/landing-1a20eaac6feec34d.json verdict
+ALL PASS). THE PUSH NEEDED THREE AUTHENTICATED ATTEMPTS OF RECORD: attempts 1
+and 2 were rejected CLIENT-side "(fetch first)" BEFORE any update was sent
+(exit 1 each, zero landing) while EVERY fetch-side view (anonymous
+cache-busted upload-pack advertisement; ONE disclosed authenticated read-only
+ls-remote) consistently showed the true tip `4f68a838`; the packet trace of
+record (GIT_TRACE_PACKET on attempt 3) pins the ground truth — the
+receive-pack advertisement had CONVERGED to `4f68a838` and the update
+`4f68a838..4fcb7a29` was accepted ("ok refs/heads/main", exit 0). The two
+rejections are attributed of record to the push-side advertisement serving a
+tip SHA unknown to the clone at those instants (server-side,
+self-resolved) — anomaly-of-record for future gates: a "(fetch first)"
+rejection with a VERIFIED-stable fetch-side tip warrants advertisement
+re-check and re-attempt, not blind recomposition; the Wave-46 re-base law was
+armed and never triggered. Pre-push gate of record
+(scripts/wf11g_prepush_gate.py): 30 checks, ALL PASS twice (before attempts 1
+and 2) — pin/parent/tree pins, identity SyllabAI
+<hussaina269a@gmail.com>, P4 message == staged composer BYTE-IDENTICAL
+(6096B, delta=0 — the trailing-newline adjudication class did not recur),
+braces=0 flaw-guard, surface exactly 2A + 2M, 4 blob pins + the 9702 blob
+untouched (`3ee8fa3e`), sha256 dual pins, orphan `4504523b` non-ancestry +
+5-path blob identity vs the `deea76f2` supersession anchor, remote stability
+twice; the item-(a) script wf11g_verify_orphan_pins.sh had re-run earlier the
+same session (trace `1a20eaac6feec34d`) FAIL=0 across all eight sections —
+disclosed skip this round. Post-push verification POST-1..9 ALL PASS (tip /
+tree `f41a5c92` / ancestor / stability / url-clean / token-zero-hit incl.
+POST-7 of record — the deterministic python walk
+scripts/wf11f_post7_scan.py: scanned=96156 errors=0 hits=0 — plus
+belt-and-braces full-literal greps for BOTH session tokens, zero hits / no
+credential files / local CAS `4f68a838`->`4fcb7a29`, update-ref only, no
+worktree touch); the anonymous compare-API cross-check WORKED this round —
+compare `4f68a838...4fcb7a29` returned the live compare JSON (no rate-limit
+refusal) — no authenticated API call was made. Clone-condition facts of
+record: the clone is shallow + blob:none promisor (pre-existing; shallow
+boundary `dd280e8d` observed in the packet trace) — no action taken. THE
+9701 TASK-FILE CLAUSE CHAIN OPENS ON MAIN with this wave: the FIRST clause of
+record in tasks/W-F11-cie-9701-book-join.md (PUSHED 2026-11-22 trace
+`1a204760b14cb459`) is on main, the clause-carrier chain continues in the
+9701 task file (the 9702 chain closed at `deea76f2` with its five clauses of
+record), and the SECOND clause — for `4fcb7a29` — rides the next landing
+(draft cache/w-f11/wf11h-task-push-clause.md, anchor verified against the
+4fcb7a29 blob `e99e9f73` exactly-once). Queue state (honest): W-F11-T2 (the
+9701 join build) NOT STARTED — it follows as its own ordered wave on the v1
+corpus; the 0625 join NOT STARTED (D-2 ligature-loss class 488 occurrences,
+the N-1 folding law applies; spec basis pinnable at tip:
+Official-Specifications/cie-igcse-physics-2023-2025/, cover_code 0625, 61
+pages, sha1 `794defb5…`); YBI11 stays honest-blocked on sourcing (operator
+purchases, never agent-fetches, W-F7-T1 section 7 law); the 17 unmatched
+9702 chapters stay honest NO_TOPIC_MAPPING rows; LLM fidelity polish
+quota-walled; INTEGRATED/LIVE remains the v2-repo/DB lever, not this repo's
+write face. This section lands with the next records landing (append-only
+convention).
