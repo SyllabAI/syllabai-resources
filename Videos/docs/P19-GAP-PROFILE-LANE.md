@@ -1,7 +1,7 @@
 # P19 — GAP-PROFILE LANE (fresh residual sweep over the post-P18 corpus)
 
-**State: PROFILE FILED 2026-11-25 — owner order "run the P19 profile lane" (2026-11-25) filed the tranche (the P18 convention: sweep + register gate + filing; the judgment gate stays closed until the owner admits the pools per the P15/P17/P18 convention). Resources PR open, merge receipts to follow.**
-**Authorization: owner — "run the P19 profile lane" (2026-11-25).**
+**State: JUDGMENT SHIPPED 2026-11-26 — owner order "run P19 judgment" (2026-11-26) admits the 25 filed pools (the P15/P17/P18 convention) and opens the judgment gate. Judgment + oEmbed identity sweep + hub emit + gates landed this tranche; resources PR + hub PR open, merge receipts to follow.**
+**Authorization: owner — "run the P19 profile lane" (2026-11-25) filed the tranche; "run P19 judgment" (2026-11-26) admitted the pools and ordered the judgment.**
 
 ## Why
 
@@ -42,3 +42,25 @@ The P19 sweep ran a dedicated 4GE1 cluster pair (6 queries: paper-2/fieldwork/ph
 ## Next
 
 Merge receipts; the owner may order "run P19 judgment" (admits the 25 pools, opens the judgment gate — the P15/P17/P18 convention). **PAT rotation still outstanding.**
+
+## Judgment (2026-11-26, scripts/p19/p19_judgment.py)
+
+Exactly-once disposition of all **7,098** accounts, 0 collisions machine-checked: **614 Tier B anchor rows over 419 videos** (method paper-code, high, zero spec weight) + **477 Tier A spec rows** (94 medium / 383 low; 0 lit-21 Class W binds — the save-my-exams "GCSE English Literature" subset carries no spine set text at the committed predicate bar) + **6,220 honest skips** ledgered by class (`work/p19/skips.json`, committed to `scripts/p19/skips.json`).
+
+**New Tier B/anchor registers of record** (on top of the P15/P17/P18 set): **0607 International Maths** (the NEW P19 register — ginger-mathematician's 52-title paper family onto the international-maths-23 pair, papers 2/4/6 extended vs 1/3/5 core); **0450 business** (+ the disclosed 7115 O-Level dual — the NEW P19 register onto cie-igcse-business-25 from muzammil-ameer-acma/saifullah-ajaz/edubbey); the **topic-number register** (igbiocomplete's "(topic N.M.K)" 2023-2025 point-number binds — the exact trio point, plus the co-ordinated P/B/C-prefixed twin where the 2025-2027 co-ord spine carries the same number, the shared-0625-structure law; the combined-23 numbering diverges and is honestly NOT bound; the study-buddy leading/pipe "N. {Topic}" form binds the trio topic at index N with stem token-agreement); the **0654 section-scoped B/P/C register** (sciencewithchun's "Questions by Topic B9 ..." binds the co-ordinated same-science topic at that index with stem token-agreement — B7's old-numbering "Animal nutrition" fails the token bar honest); the **chapter-scoped 0417 register** (tatchen's chapter-structured series — the chapter index is the bind evidence, the series' paren concept labels self-verify); the **"IGCSE (9-1) Maths B" infix form** (maths-with-mohaiminul 4MB1); the **"O level/ IGCSE Accounting" form** (rapid-revision-with-shayan 0452 x127 + 0455 x31); the **"Cambridge AS/A2 Economics" form** (the-visible-hand 9708); the **"AS/A Level Business" unit-series forms** (muzammil/saifullah 9609, pool-scoped to the CIE-declared pools); the **spaced "WPH 16" IAL form** (the-physics-examiner — unit 6, the P14 Assil-law analog); **0417 skills videos** bind at the ladder bar (miss-tech-teacher's "(0417) Using X in spreadsheets" subset — the 0417 code anchors adjudicate before the guidance gate, the P18 fiifi pattern).
+
+**Honest register calls of record** (the false-density disclosure duty): ginger-mathematician's gate "4MA1 x159" family read re-adjudicated of record — the generic "iGCSE Maths" bare titles are CIE 0580 per the channel's Cambridge branding ("That Cambridge Made", 0580/0607 paper forms) — the 4MA1 deficits stay open, re-sweepable next lane; benzakademi's "8291 x13" was the **Anna-university "GE8291 EVS" Indian register** — 0 binds (the P17 nevdoes/indigo precedent); academic-plus's "A-Level Business" family (x380) was **board-agnostic** — only explicit 9609/4BS1 titles bind (x11, 0 at the df bar); the-revision-notebook's old-unit topic names ("Size of Business") fail the 2023-spec token bar honestly (0 binds, the micro-pool disclosure); save-my-exams' CIE subject-name subset binds at the committed ladder bar only (the compound-topic forms like "Gas Exchange" fail the verbatim/bar honestly); the "Explaining X using video games/fiction" edutainment-shorts series (revwise) skipped as a register class; the combined-23 science deficits stay open (the numbering divergence).
+
+**P19 disclosed amendments** (the P17/P18 amendment precedent): the tokenizer stems to singular so plural-form title tokens agree with spine tokens (applied to BOTH sides of the df tables — the P18 RE_GUIDE word-bound precedent); split_fields gains the dash-run separator (the "Biology- {topic}" forms); RE_SESSION gains the Winter/Summer session forms; RE_4MB1 gains the "(9-1)" infix; RE_WPH gains the spaced "WPH NN" paper form; RE_0452/RE_0455 gain the "O level/ IGCSE X" forms; RE_9708 gains the "Cambridge AS/A2 Economics" form.
+
+## oEmbed identity sweep (scripts/p19/p19_oembed.py)
+
+**878/878 routed videos alive, 0 bad**: 837 author_url channel == channel-of-record via UC id (0 mismatch) + **41 thumbnail-liveness fallbacks disclosed per the P2D law** — oembed HTTP 200 all-null payload (the restricted-embed form), identity rides on the channel-of-record upload provenance, liveness adjudicated by the thumbnail endpoint: miss-tech-teacher x22, education-for-success x16, the-physics-examiner x3 (the P14/P17/P18 precedent).
+
+## Emit + gates (scripts/p19/p19_assemble.py, build-content-map-external.mjs P19/P19B)
+
+**1,091 owner-reviewed rows onto 28 courses** (19 pre-inherit + 9 P4-children post-inherit via the P19B shape): 614 anchors + 477 spec rows. Hub gates: **tests 16/16 (11,528 expects; the ial-physics-19 P2F at-rest pin updated 268 → 278 anchors for the 10 P19 WPH rows)**, census **96 courses / 22,684 rows / 76,780 refs / 0 violations** (`scripts/p19/specjoin-census-p19.json`; +1,436 rows = +1,091 direct + 345 P4-inherit cascade), corpus **14,288 → 15,166 distinct videos** (+878, exact), fresh residual **2,932 → 2,660 unmapped of 10,814** (the flags videoMap status sentence hand-synced in the hub PR per the committed unchanged-course-set law; videoMap.courses unchanged at 96). Reserved slots unchanged; **PAT rotation still outstanding.**
+
+## Next
+
+Merge receipts; the open deficits of record re-sweepable next lane: **4GE1 183** (carried from P18, no P19 pool), 4MA1-H 100 / 4MA1-F 95 (the ginger register re-adjudication), ial-chem WCH 164 / ial-bio WBI 107, 4IT1 109 (only 1 of the tatchen pool carries the Edexcel side), GP-21 8021 70, EM-20 8291 64 (the benzakademi false density), 0460 48+37, lit-21 unseen 96, 0607 43 (the paper anchors carry zero spec weight), combined-23 54+43+24; the drops stay re-sweepable; the owner may order the next search round.
