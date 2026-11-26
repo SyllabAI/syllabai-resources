@@ -24,6 +24,10 @@ far (chemistry 4CH1, physics 4PH1), including their mistakes and dead ends.
 - The golden rules (§3) and the commit protocol (§5 phase 10) are
   **non-negotiable**; two of them (serving-critical question typing, per-chunk
   dual page numbering) come from an operator directive.
+- Book acquisition law (W-SRC-L1, 2026-11-26): agents NEVER fetch a book unless it
+  carries source class **LIC** in `books/CATALOG.md` §4 with a pinned permission of
+  record in the lane (`source/PERMISSION-<work>.md`) AND an explicit operator order
+  naming that work. Otherwise the W-F7-T1 §7 law stands: sourcing is an operator act.
 - Hit something surprising (OCR behavior, tool crash, gateway wall)? Check
   §7 findings and §8 post-mortems first — most known failure modes already
   have a documented remedy. Whatever is NOT there yet, you must add (§9).
