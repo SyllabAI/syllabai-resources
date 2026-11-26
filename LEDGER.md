@@ -1971,3 +1971,71 @@ law); the 17 unmatched 9702 chapters stay honest NO_TOPIC_MAPPING rows;
 LLM fidelity polish quota-walled; INTEGRATED/LIVE remains the v2-repo/DB
 lever, not this repo's write face. This section lands with the next
 records landing (append-only convention).
+
+---
+
+## Wave 66 — the Wave-65 records landing is on main: the third 9701
+task-file clause enters the remote record (trace 1a215b726aa67db9)
+
+The Wave-65 records landing commit of record
+4d8b9f0374b35b6df697577e9586818bbb7d76b7 (tree
+efca310bb0fb3dc51d62e02cdc7e0ed11d38667b — 2A + 2M: the W-F11h push-confirm
+receipt + the W-F11h push-confirm worklog entry + the LEDGER Wave-65
+section + the third clause of record in tasks/W-F11-cie-9701-book-join.md)
+is on GitHub main via clean fast-forward
+718edfa2ee876c3f77dc552fa53e99f1f032a4dc.4d8b9f0374b35b6df697577e9586818bbb7d76b7,
+exit 0, no force, attempt 1 of record — pushed under trace
+1a215b726aa67db9 (standing delegated credential, the STANDING WAIVER
+trace 1a1f7e7bd7a43f81 'Waive freshness law forever' in force — no
+freshness gate; credential of record ghp_rW7z…71xD — NO NEW chat
+transit this round, the delegated form rides the standing context; the
+push executed via one-shot credential-helper injection — the token
+never entered any URL, file, config, receipt, ref or script).
+NO-ADVANCE CYCLE of record: the fresh anonymous race gate at round start
+and immediately before the push showed remote tip == local main ==
+parent == prior tip == 718edfa2 — ZERO advance paths since the Wave-64
+push (the Wave-46 re-base law armed and never triggered; composition
+base of record IS the prior tip; the clone fully converged). Landing
+engine of record scripts/wf11i_wave65_land.py: 37 gates ALL PASS
+(manifest cache/w-f11/landing-1a215b726aa67db9.json verdict ALL PASS);
+pre-push gate of record scripts/wf11i_prepush_gate.py: 24 checks ALL
+PASS twice (standalone + inside the push script STEP 1) — pin/parent/
+tree pins, identity SyllabAI <hussaina269a@gmail.com>, P4 message ==
+staged composer BYTE-IDENTICAL (7294B, delta=0), braces=0 flaw-guard,
+surface exactly 2A + 2M, 4 blob pins + the 9702 blob untouched
+(3ee8fa3e), sha256 dual pins, orphan 4504523b non-ancestry + 5-path
+blob identity vs the deea76f2 supersession anchor, remote stability
+twice; the staging audit re-run scripts/wf11i_stage_audit.py FAILS=0
+(staging set clean; ONE disclosed gate-spec correction — the clause
+trace-mention convention re-specified to the precise disclosed form,
+one '(trace …)' citation + one manifest-filename reference + zero
+receipt-filename citations, the Wave-63 V5e precedent; the staged bytes
+never touched); the item-(a) script wf11g_verify_orphan_pins.sh NOT
+re-run (disclosed — its pinned remote-tip expectation 4f68a838
+predates the advances; the orphan/identity proofs carried by the engine
+gates + pre-push gate P8 for the current lineage). POST-1..9 ALL PASS
+— ZERO incidents this round: POST-7 zero-persistence of record (the
+deterministic python walk scripts/wf11f_post7_scan.py across
+/home/z/my-project + HOME excluding .git — scanned=96189 errors=0
+hits=0) + POST-7b belt-and-braces re-run PASS (literal-token files 0,
+full-form-token files 0); the Wave-64 remediation holds. The anonymous
+compare-API cross-check was rate-limit refused this round (the Wave-62
+refusal class, disclosed — the git-transport proofs POST-1/2/3 carry
+the remote verification; no authenticated API call was made). Local CAS
+718edfa2->4d8b9f03, update-ref only, no worktree touch; clone-condition
+facts of record: shallow + blob:none promisor (pre-existing) — no action
+taken. THE 9701 TASK-FILE CLAUSE CHAIN CONTINUES ON MAIN: the third
+clause of record (PUSHED 2026-11-25 trace 1a213b454bb73105) is on main,
+and the FOURTH clause — for 4d8b9f03 — rides the next landing
+(draft cache/w-f11/wf11j-task-push-clause.md, anchor verified against
+the 4d8b9f03 blob 08fe4a22 exactly-once). Queue state (honest):
+W-F11-T2 (the 9701 join build) NOT STARTED — it follows as its own
+ordered wave on the v1 corpus; the 0625 join NOT STARTED (D-2
+ligature-loss class 488 occurrences, the N-1 folding law applies; spec
+basis pinnable at tip: Official-Specifications/cie-igcse-physics-2023-2025/,
+cover_code 0625, 61 pages, sha1 794defb5…); YBI11 stays honest-blocked
+on sourcing (operator purchases, never agent-fetches, W-F7-T1 section 7
+law); the 17 unmatched 9702 chapters stay honest NO_TOPIC_MAPPING rows;
+LLM fidelity polish quota-walled; INTEGRATED/LIVE remains the v2-repo/DB
+lever, not this repo's write face. This section lands with the next
+records landing (append-only convention).

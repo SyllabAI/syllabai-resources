@@ -140,6 +140,41 @@ status: W-F11-T1 (9701) COMPLETE 2026-11-21 — probe manifest + design of recor
   4fcb7a29->718edfa2, update-ref only, no worktree touch; clone-condition
   facts of record: shallow + blob:none promisor (pre-existing) — no action
   taken.
+  The Wave-65 records landing PUSHED 2026-11-26 UTC (trace 1a215b726aa67db9):
+  the Wave-65 records landing commit
+  4d8b9f0374b35b6df697577e9586818bbb7d76b7 (tree
+  efca310bb0fb3dc51d62e02cdc7e0ed11d38667b — 2A + 2M: the W-F11h push-confirm
+  receipt + the W-F11h push-confirm worklog entry + the LEDGER Wave-65
+  section + the third clause of record in this file) is on GitHub main
+  via clean fast-forward
+  718edfa2ee876c3f77dc552fa53e99f1f032a4dc.4d8b9f0374b35b6df697577e9586818bbb7d76b7,
+  exit 0, no force, attempt 1 of record — pushed on the standing
+  delegated credential ghp_rW7z…71xD with NO freshness gate per the
+  STANDING WAIVER (trace 1a1f7e7bd7a43f81, 'Waive freshness law forever'
+  — freshness/reuse/rotation never a gate). NO-ADVANCE CYCLE of record:
+  the fresh anonymous race gate at round start and immediately before
+  the push showed remote tip == local main == parent == prior tip ==
+  718edfa2 — ZERO advance paths since the Wave-64 push (the Wave-46
+  re-base law armed and never triggered; the composition base of record
+  IS the prior tip). Pre-push gate scripts/wf11i_prepush_gate.py 24
+  checks ALL PASS twice (standalone + inside the push script STEP 1),
+  race gate PASS; the landing engine scripts/wf11i_wave65_land.py 37
+  gates ALL PASS (manifest
+  cache/w-f11/landing-1a215b726aa67db9.json verdict ALL PASS); the
+  preflight staging audit re-run (scripts/wf11i_stage_audit.py)
+  FAILS=0 with one disclosed gate-spec correction (the clause
+  trace-mention convention re-specified to the precise disclosed form —
+  one '(trace …)' citation + one manifest-filename reference + zero
+  receipt-filename citations, the Wave-63 V5e precedent; the staged
+  bytes never touched). POST-1..9 ALL PASS — zero incidents this round:
+  POST-7 zero-persistence of record (deterministic walk scanned=96189
+  errors=0 hits=0) + POST-7b re-run PASS (literal 0 / full-form 0); the
+  anonymous compare-API cross-check was rate-limit refused this round
+  (the Wave-62 refusal class, disclosed — the git-transport proofs
+  POST-1/2/3 carry the remote verification; no authenticated API call
+  was made); local CAS 718edfa2->4d8b9f03, update-ref only, no worktree
+  touch; clone-condition facts of record: shallow + blob:none promisor
+  (pre-existing) — no action taken.
 ```
 
 ## 1. Scope of record
