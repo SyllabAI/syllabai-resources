@@ -175,6 +175,44 @@ status: W-F11-T1 (9701) COMPLETE 2026-11-21 — probe manifest + design of recor
   was made); local CAS 718edfa2->4d8b9f03, update-ref only, no worktree
   touch; clone-condition facts of record: shallow + blob:none promisor
   (pre-existing) — no action taken.
+  The Wave-66 records landing PUSHED 2026-11-26 UTC (trace 1a2171f5b747e005):
+  the Wave-66 records landing commit
+  83c49654eb4db0c09077b217d831df0384f22f6a (tree
+  a53afdd41cf95f741e80a7b9e7b3dfe105e993d7 — 2A + 2M: the W-F11i push-confirm
+  receipt + the W-F11i push-confirm worklog entry + the LEDGER Wave-66
+  section + the fourth clause of record in this file) is on GitHub main
+  via clean fast-forward
+  5f6ecb70c9c8219059ab82bc159e658546242c78.83c49654eb4db0c09077b217d831df0384f22f6a,
+  exit 0, no force, attempt 1 of record — pushed on the standing
+  delegated credential ghp_rW7z…71xD with NO freshness gate per the
+  STANDING WAIVER (trace 1a1f7e7bd7a43f81, 'Waive freshness law forever'
+  — freshness/reuse/rotation never a gate). BASE ADVANCE ABSORBED this
+  cycle: the external advance 4d8b9f03..5f6ecb70 landed on main after
+  the Wave-65 push (merge 5f6ecb70 = PR #365 videos/p19-judgment,
+  committer GitHub <noreply@github.com>, two parents 4d8b9f03 +
+  f1bc0f72 — 71 paths, 68 A + 3 M, ALL under Videos/, ZERO overlap
+  with the 4-path surface; the LEDGER/9701/9702 anchor blobs were
+  byte-identical at both tips so the staged append + clause applied
+  byte-identically at the advanced tip; the Wave-46 re-base law
+  TRIGGERED and satisfied — the landing composed directly on 5f6ecb70,
+  the composition base of record IS the fresh tip, observed BEFORE any
+  authenticated call; the staged payload bytes rode unchanged,
+  disclosed). Pre-push gate scripts/wf11j_prepush_gate.py 24 checks
+  ALL PASS twice (standalone + inside the push script STEP 1), race
+  gate PASS; the landing engine scripts/wf11j_wave66_land.py 40 gates
+  ALL PASS (manifest
+  cache/w-f11/landing-1a2171f5b747e005.json verdict ALL PASS); the
+  preflight staging audit re-run (scripts/wf11j_stage_audit.py)
+  FAILS=0 (the staged bytes rode unchanged, disclosed). POST-1..9 ALL
+  PASS — zero incidents this round: POST-7 zero-persistence of record
+  (deterministic walk scanned=96208 errors=0 hits=0) + POST-7b re-run
+  PASS (literal 0 / full-form 0); the anonymous compare-API cross-check
+  was rate-limit refused this round (the Wave-62 refusal class,
+  disclosed — the git-transport proofs POST-1/2/3 carry the remote
+  verification; no authenticated API call was made); local CAS
+  4d8b9f03->83c49654, update-ref only, no worktree touch;
+  clone-condition facts of record: shallow + blob:none promisor
+  (pre-existing) — no action taken.
 ```
 
 ## 1. Scope of record
