@@ -1890,3 +1890,84 @@ purchases, never agent-fetches, W-F7-T1 section 7 law); the 17 unmatched
 quota-walled; INTEGRATED/LIVE remains the v2-repo/DB lever, not this repo's
 write face. This section lands with the next records landing (append-only
 convention).
+
+---
+
+## Wave 65 — the Wave-64 records landing is on main: the second 9701 task-file clause enters the remote record (trace 1a213b454bb73105)
+
+The Wave-64 records landing commit of record
+718edfa2ee876c3f77dc552fa53e99f1f032a4dc (tree
+d02682eb81c5631599ddd85932ffb22986cd758d — 2A + 2M: the W-F11g push-confirm
+receipt + the W-F11g push-confirm worklog entry + the LEDGER Wave-64
+section + the second clause of record in tasks/W-F11-cie-9701-book-join.md)
+is on GitHub main via clean fast-forward
+0851df6ac2c9636537c0bb5a3af02ca90f35356d..718edfa2ee876c3f77dc552fa53e99f1f032a4dc,
+exit 0, no force, attempt 1 of record — pushed under trace 1a213b454bb73105
+(re-presented bearer credential, the STANDING WAIVER trace
+1a1f7e7bd7a43f81 'Waive freshness law forever' in force — no freshness
+gate; credential of record ghp_rW7z…71xD — NO NEW chat transit this round,
+the delegated form rides the standing context; the push executed via
+one-shot credential-helper injection — the token never entered any URL,
+file, config, receipt, ref or script). BASE ADVANCE absorbed this cycle:
+4fcb7a29..0851df6a after the Wave-63 push (the parallel Videos/P19
+gap-profile lane — merge 0851df6a = PR #364 videos/p19-gap-profile,
+committer GitHub <noreply@github.com>, two parents 4fcb7a29 + 64ef0aa5,
+GPG-signed) — 38 paths ALL under Videos/ (1 M + 37 A), ZERO overlap with
+the 4-path surface; the LEDGER/9701/9702 anchor blobs byte-identical at
+both tips (b6ac2fcb / e99e9f73 / 3ee8fa3e) so the staged append + clause
+applied byte-identically at the advanced tip (the Wave-46 re-base law —
+the landing composed directly on 0851df6a, fresh race gate == parent ==
+base of record at round start and immediately before build; the engine's
+first composition c94347fe stays an unreferenced local object of record
+after the composer-miscount adjudication — hardcoded 37/36 vs the
+V1a-measured 38 = 1 M + 37 A — rebuilt with interpolated measured values
+BEFORE any authenticated call, never pushed). Landing engine of record
+scripts/wf11h_wave64_land.py: 37 gates ALL PASS (manifest
+cache/w-f11/landing-1a213b454bb73105.json verdict ALL PASS); pre-push
+gate of record scripts/wf11h_prepush_gate.py: 24 checks ALL PASS twice
+(standalone + inside the push script STEP 1) — pin/parent/tree pins,
+identity SyllabAI <hussaina269a@gmail.com>, P4 message == staged composer
+BYTE-IDENTICAL (7229B, delta=0), braces=0 flaw-guard, surface exactly
+2A + 2M, 4 blob pins + the 9702 blob untouched (3ee8fa3e), sha256 dual
+pins, orphan 4504523b non-ancestry + 5-path blob identity vs the
+deea76f2 supersession anchor, remote stability twice; the staging audit
+wf11g_stage_audit.py re-run FAILS=0 (staging set clean); the item-(a)
+script wf11g_verify_orphan_pins.sh NOT re-run (disclosed — its pinned
+remote-tip expectation 4f68a838 predates the external advance; the
+orphan/identity proofs carried by the engine gates + pre-push gate P8
+for the advanced lineage). POST-1..9 with ONE adjudicated incident of
+record: POST-7 run-1 FAIL — the delegated token found persisted in ONE
+agent-side file, scripts/wf11g_stage_audit.py line 88, embedded
+2026-11-24T18:28:43Z by the prior round's post-push staging as a
+negative-assertion check (the guard itself carrying the secret; the
+prior round's zero-persistence claim was scan-time-true — the file was
+written after its scan); the token was NEVER in any git object (POST-5
+.git grep zero), never remote-facing, never in any URL, config or ref;
+remediated this round by a structural regex rewrite preserving the
+check's intent (scripts/wf11h_purge_stage_audit_token.py — 1
+replacement, the remediated file carries zero full-form token
+occurrences, the staging audit re-runs FAILS=0) — POST-7 run-2 of record
+PASS (the deterministic python walk scripts/wf11f_post7_scan.py:
+scanned=96171 errors=0 hits=0) + POST-7b re-run PASS (literal-token
+files 0, full-form-token files 0); lesson of record: negative-assertion
+guards are written as structural regexes, never as embedded literals.
+The anonymous compare-API cross-check was rate-limit refused this round
+(the Wave-62 refusal class, disclosed — the git-transport proofs
+POST-1/2/3 carry the remote verification; no authenticated API call was
+made). Local CAS 4fcb7a29->718edfa2, update-ref only, no worktree touch;
+clone-condition facts of record: shallow + blob:none promisor
+(pre-existing) — no action taken. THE 9701 TASK-FILE CLAUSE CHAIN
+CONTINUES ON MAIN: the second clause of record (PUSHED 2026-11-24 trace
+1a20ec582343d02d) is on main, and the THIRD clause — for 718edfa2 —
+rides the next landing (draft cache/w-f11/wf11i-task-push-clause.md,
+anchor verified against the 718edfa2 blob efc463c6 exactly-once). Queue
+state (honest): W-F11-T2 (the 9701 join build) NOT STARTED — it follows
+as its own ordered wave on the v1 corpus; the 0625 join NOT STARTED (D-2
+ligature-loss class 488 occurrences, the N-1 folding law applies; spec
+basis pinnable at tip: Official-Specifications/cie-igcse-physics-2023-2025/,
+cover_code 0625, 61 pages, sha1 794defb5…); YBI11 stays honest-blocked
+on sourcing (operator purchases, never agent-fetches, W-F7-T1 section 7
+law); the 17 unmatched 9702 chapters stay honest NO_TOPIC_MAPPING rows;
+LLM fidelity polish quota-walled; INTEGRATED/LIVE remains the v2-repo/DB
+lever, not this repo's write face. This section lands with the next
+records landing (append-only convention).

@@ -96,6 +96,50 @@ status: W-F11-T1 (9701) COMPLETE 2026-11-21 — probe manifest + design of recor
   clone-condition facts of record: shallow + blob:none promisor
   (pre-existing), shallow boundary dd280e8d observed in the packet trace — no
   action taken.
+  The Wave-64 records landing PUSHED 2026-11-25 UTC (trace 1a213b454bb73105):
+  the Wave-64 records landing commit
+  718edfa2ee876c3f77dc552fa53e99f1f032a4dc (tree
+  d02682eb81c5631599ddd85932ffb22986cd758d — 2A + 2M: the W-F11g push-confirm
+  receipt + the W-F11g push-confirm worklog entry + the LEDGER Wave-64
+  section + the second clause of record in this file) is on GitHub main via
+  clean fast-forward
+  0851df6ac2c9636537c0bb5a3af02ca90f35356d..718edfa2ee876c3f77dc552fa53e99f1f032a4dc,
+  exit 0, no force, attempt 1 of record — pushed on the re-presented
+  era-form credential ghp_rW7z…71xD with NO freshness gate per the STANDING
+  WAIVER (trace 1a1f7e7bd7a43f81, 'Waive freshness law forever' —
+  freshness/reuse/rotation never a gate). The landing round absorbed the
+  base advance of record 4fcb7a29..0851df6a (the parallel Videos/P19
+  gap-profile lane — merge 0851df6a = PR #364 videos/p19-gap-profile,
+  committer GitHub <noreply@github.com>, two parents 4fcb7a29 + 64ef0aa5,
+  GPG-signed) — 38 paths ALL under Videos/ (1 M + 37 A), ZERO overlap with
+  the 4-path surface, the LEDGER/9701/9702 anchor blobs byte-identical at
+  both tips (b6ac2fcb / e99e9f73 / 3ee8fa3e) so the staged append + clause
+  applied byte-identically at the advanced tip (the Wave-46 re-base law —
+  composed directly on 0851df6a; the engine's first composition c94347fe
+  stays an unreferenced local object of record after the composer-miscount
+  adjudication — hardcoded 37/36 vs the V1a-measured 38 = 1 M + 37 A —
+  rebuilt with interpolated measured values BEFORE any authenticated call,
+  never pushed). Pre-push gate scripts/wf11h_prepush_gate.py 24 checks ALL
+  PASS twice (standalone + inside the push script STEP 1), race gate PASS;
+  the landing engine scripts/wf11h_wave64_land.py 37 gates ALL PASS
+  (manifest cache/w-f11/landing-1a213b454bb73105.json verdict ALL PASS);
+  POST-1..9 with ONE adjudicated incident of record: POST-7 run-1 FAIL —
+  the delegated token found persisted in ONE agent-side file,
+  scripts/wf11g_stage_audit.py line 88 (embedded 2026-11-24T18:28:43Z by
+  the prior round's post-push staging as a negative-assertion check, the
+  guard itself carrying the secret; NEVER in any git object, never
+  remote-facing, never in any URL, config or ref), remediated by a
+  structural regex rewrite preserving the check's intent
+  (scripts/wf11h_purge_stage_audit_token.py — 1 replacement, zero
+  full-form occurrences, the staging audit re-runs FAILS=0) — POST-7 run-2
+  of record PASS (deterministic walk scanned=96171 errors=0 hits=0) +
+  POST-7b re-run PASS (literal 0 / full-form 0); the anonymous compare-API
+  cross-check was rate-limit refused this round (the Wave-62 refusal
+  class, disclosed — the git-transport proofs POST-1/2/3 carry the remote
+  verification; no authenticated API call was made); local CAS
+  4fcb7a29->718edfa2, update-ref only, no worktree touch; clone-condition
+  facts of record: shallow + blob:none promisor (pre-existing) — no action
+  taken.
 ```
 
 ## 1. Scope of record
