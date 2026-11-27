@@ -1,0 +1,579 @@
+{
+ "schema": "syllabai.p20-pools/1",
+ "utc": "2026-11-26",
+ "gapBase": {
+  "hub": "1389bf21",
+  "unmapped": 2660,
+  "of": 10814
+ },
+ "note": "P20 filing shortlist from the post-P19 sweep (p20_sweep.py, 102 NEW-angle queries over 34 clusters, 476 distinct channels, 248 truly new \u2014 every query string machine-checked new vs the P15/P17/P18/P19 caches, so the deduped are sentinel resurfacing, not re-harvest). Shortlist: 46 truly-new channels at density >= 2 + 10 re-proposable swept-uninventoried/priorDrop sentinels WITH disclosure (the corrected-code cluster law: ptet-chemistry's 0653 register, Miss Natalie's WCH register, Pla Academy's WPH/4PH1, Mr Mathew's 8291/0460, Edex World's 0452, Mr Lee's 0455, Accounting Stuff's 9706, Adora Yin's lit-unseen, Henry Brand's 4GE1 re-proposal, Keducate's 4GE1). Legacy pools of record still surfacing and NOT re-proposed: Cognito x74, Freesciencelessons x15, Allery Chemistry x9 (p2f tsv inventory of record), Exam Essentials excluded-of-record; standing drops re-surfacing without new evidence and NOT re-proposed: The Organic Chemistry Tutor x20, Science Shorts x20, 1st Class Maths x22, The GCSE Maths Tutor x6.",
+ "pools": [
+  {
+   "slug": "pla-academy-igcse-and-a-level-buddy",
+   "label": "Pla Academy: IGCSE and A level buddy",
+   "knownUc": "UCf8-xRmjGC_ejWCHMnm6i6g",
+   "clusterEvidence": {
+    "wph-classes": 2,
+    "modular-science-classes": 4,
+    "modular-da-classes": 6,
+    "4sd0-classes": 1,
+    "0625-physics-classes": 7
+   },
+   "provenance": {
+    "sweptIn": "p15-sweep-2025",
+    "uninventoried": true
+   }
+  },
+  {
+   "slug": "mr-lee-business-econ",
+   "label": "Mr Lee - Business Econ",
+   "knownUc": "UCnei0C20hDuCczU7dYa6BCg",
+   "clusterEvidence": {
+    "9708-alevel-econ": 2,
+    "0452-0455-classes": 4,
+    "0455-econ-more": 11
+   },
+   "provenance": {
+    "sweptIn": "p15-sweep-2025",
+    "uninventoried": true
+   }
+  },
+  {
+   "slug": "ptet-chemistry",
+   "label": "ptet chemistry (ptet.chemistry)",
+   "knownUc": "UCmBBpiJ1E7OThp22nRhCptg",
+   "clusterEvidence": {
+    "combined-0653-classes": 17
+   },
+   "provenance": {
+    "sweptIn": "p19-sweep-2026-11-25",
+    "uninventoried": true,
+    "correctedCluster": "0653 combined-science dedicated register (the P19 sweep carried no 0653-specific cluster)"
+   }
+  },
+  {
+   "slug": "mathlete-by-saad",
+   "label": "Mathlete by Saad",
+   "knownUc": "UC6MExc-ZeDFb4VFoGfU4Nfw",
+   "clusterEvidence": {
+    "4mb1-more": 1,
+    "0607-content-classes": 1,
+    "9709-pure-maths": 4,
+    "0606-add-maths": 6
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "otterbiotutor",
+   "label": "OtterBioTutor",
+   "knownUc": "UCZih-4ks9pgz_mVsEgoa3TA",
+   "clusterEvidence": {
+    "9700-alevel-bio": 10
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "accounting-stuff",
+   "label": "Accounting Stuff",
+   "knownUc": "UCYJLdSmyKoXCbnd-pklMn5Q",
+   "clusterEvidence": {
+    "0452-0455-classes": 2,
+    "9706-alevel-acc": 6
+   },
+   "provenance": {
+    "sweptIn": "p17-sweep-2025",
+    "uninventoried": true
+   }
+  },
+  {
+   "slug": "miss-natalie-chemistry",
+   "label": "Miss Natalie Chemistry",
+   "knownUc": "UCisk3cEqEpvISUjpxyF3WUw",
+   "clusterEvidence": {
+    "wch-unit-classes": 1,
+    "wch-analysis-classes": 6,
+    "modular-da-classes": 1
+   },
+   "provenance": {
+    "sweptIn": "p15-sweep-2025",
+    "uninventoried": true
+   }
+  },
+  {
+   "slug": "mr-mathew",
+   "label": "Mr Mathew",
+   "knownUc": "UCUqTT7uAV5zmabYoxqRwPzg",
+   "clusterEvidence": {
+    "8291-topic-classes": 3,
+    "0460-topic-classes": 2,
+    "0460-urban-classes": 3
+   },
+   "provenance": {
+    "sweptIn": "p15-sweep-2025",
+    "uninventoried": true
+   }
+  },
+  {
+   "slug": "edex-world",
+   "label": "Edex World",
+   "knownUc": "UC9PJT2TggkhAufvJEVW15Yw",
+   "clusterEvidence": {
+    "0452-0455-classes": 4,
+    "9706-alevel-acc": 3
+   },
+   "provenance": {
+    "sweptIn": "p17-sweep-2025",
+    "uninventoried": true
+   }
+  },
+  {
+   "slug": "adora-yin",
+   "label": "Adora Yin",
+   "knownUc": "UCB6lFuLZ7F3hn5n94LD032A",
+   "clusterEvidence": {
+    "lit-unseen-craft": 2,
+    "0607-content-classes": 2,
+    "0606-add-maths": 1,
+    "0455-econ-more": 1
+   },
+   "provenance": {
+    "sweptIn": "p15-sweep-2025",
+    "uninventoried": true
+   }
+  },
+  {
+   "slug": "cswithmrg",
+   "label": "CSWITHMRG",
+   "knownUc": "UCaG02k9Z6TWlce8jXsWNUmA",
+   "clusterEvidence": {
+    "9618-alevel-cs": 6
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "y-mx-c",
+   "label": "Y=mx+c",
+   "knownUc": "UC3fhr4YanZXeNk431FFgAKg",
+   "clusterEvidence": {
+    "0606-add-maths": 6
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "henry-brand",
+   "label": "Henry Brand",
+   "knownUc": "UCUKye2fWoutcREjsbZ_J5Sw",
+   "clusterEvidence": {
+    "4ge1-case-classes": 1,
+    "4ge1-pearson-angles": 4
+   },
+   "provenance": {
+    "sweptIn": "p15-sweep-2025",
+    "uninventoried": true,
+    "priorDrop": "p17 register-gate drop (0 geography tokens of 232); p19 re-drop (0 International families of 232)"
+   }
+  },
+  {
+   "slug": "keducate",
+   "label": "Keducate",
+   "knownUc": "UCr62Py7RW4DxRpr1Rnf7Sgw",
+   "clusterEvidence": {
+    "4ge1-pearson-angles": 3,
+    "0460-topic-classes": 2
+   },
+   "provenance": {
+    "sweptIn": "p17-sweep-2025",
+    "uninventoried": true
+   }
+  },
+  {
+   "slug": "miss-estruch-biology",
+   "label": "Miss Estruch Biology",
+   "knownUc": "UCN4caNO-iJ8-4jGB1WOdo9w",
+   "clusterEvidence": {
+    "wbi-higher-classes": 1,
+    "9700-alevel-bio": 4
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "study-with-prashna",
+   "label": "Study with Prashna",
+   "knownUc": "UClNpjFiTv_iGQ_kSKivo7Bg",
+   "clusterEvidence": {
+    "9706-alevel-acc": 5
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "haguin-school",
+   "label": "Haguin School",
+   "knownUc": "UC0R6_FWEaDjlJaXVedzRqBw",
+   "clusterEvidence": {
+    "9618-alevel-cs": 4
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "adam-viceroy",
+   "label": "Adam Viceroy",
+   "knownUc": "UCUbrgd4p8Lfpoe1yIYKOQZQ",
+   "clusterEvidence": {
+    "9706-alevel-acc": 3
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "aslaug-eggertsdottir",
+   "label": "Aslaug Eggertsdottir",
+   "knownUc": "UCvYzutfd5YkhF-v7FfHtP5w",
+   "clusterEvidence": {
+    "4it1-skills-classes": 3
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "maths-camp",
+   "label": "Maths Camp",
+   "knownUc": "UCywbgXYxGyL9Av1nDMmFzvw",
+   "clusterEvidence": {
+    "9709-pure-maths": 3
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "minity-maths",
+   "label": "Minity Maths",
+   "knownUc": "UCipj0YO3Ryj5NNCLjPFZBww",
+   "clusterEvidence": {
+    "4ma1-topic-classes": 1,
+    "4ma1-foundation-classes": 1,
+    "0607-content-classes": 1
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "the-cs-classroom",
+   "label": "The CS Classroom",
+   "knownUc": "UCoBI5yMrJ3sMVEkIIO-s8AQ",
+   "clusterEvidence": {
+    "9618-alevel-cs": 3
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "walter-maths-tutoring",
+   "label": "Walter Maths Tutoring",
+   "knownUc": "UCLUHLhlSOFyDy99qFyWPqVQ",
+   "clusterEvidence": {
+    "9709-pure-maths": 3
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "accounting-basics",
+   "label": "Accounting Basics",
+   "knownUc": "UCPB5lrKC5wTdi9pCQ3oxuBw",
+   "clusterEvidence": {
+    "0452-0455-classes": 1,
+    "9706-alevel-acc": 1
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "ace-tutors",
+   "label": "Ace Tutors",
+   "knownUc": "UCq0s6dTna0C6b0vKkg3mexg",
+   "clusterEvidence": {
+    "4ma1-topic-classes": 2
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "biochemlogy",
+   "label": "BioChemLogy",
+   "knownUc": "UCJeCzUu7YzS2ZB94YYhP0cw",
+   "clusterEvidence": {
+    "9700-alevel-bio": 2
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "biology-box",
+   "label": "Biology Box",
+   "knownUc": "UCLLBTPRx3bI4K-fV_2te0zg",
+   "clusterEvidence": {
+    "modular-da-classes": 1,
+    "4sd0-classes": 1
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "brendan-ng",
+   "label": "Brendan Ng",
+   "knownUc": "UCDWCTMFsdDEtifewTuRoK3Q",
+   "clusterEvidence": {
+    "9701-alevel-chem": 2
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "chembase-school-of-chemistry",
+   "label": "Chembase School of Chemistry",
+   "knownUc": "UC-NCVi9ByK5VN98Dq_A6YAA",
+   "clusterEvidence": {
+    "wch-unit-classes": 1,
+    "9701-alevel-chem": 1
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "commerce-lecturer-online",
+   "label": "Commerce Lecturer Online",
+   "knownUc": "UCMo45bzixHrgxycvWDOU2IA",
+   "clusterEvidence": {
+    "0452-0455-classes": 2
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "counttuts",
+   "label": "Counttuts",
+   "knownUc": "UCVGjL-fl6zDA2sLvoNI2Fww",
+   "clusterEvidence": {
+    "0452-0455-classes": 2
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "e-geo",
+   "label": "E-GeO",
+   "knownUc": "UCqPJcJHGr1VjlSVPfIETPqQ",
+   "clusterEvidence": {
+    "0460-topic-classes": 2
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "eduelfie",
+   "label": "EduElfie",
+   "knownUc": "UCt50F3VgA7aggw8_b_UFORw",
+   "clusterEvidence": {
+    "4mb1-more": 2
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "explainitychannel",
+   "label": "explainitychannel",
+   "knownUc": "UCOo8aKrwtWmlLUEpatJ2nyg",
+   "clusterEvidence": {
+    "gp-8021-craft": 1,
+    "0460-topic-classes": 1
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "fuseschool-global-education",
+   "label": "FuseSchool - Global Education",
+   "knownUc": "UCS3wWlfGUijnRIf745lRl2A",
+   "clusterEvidence": {
+    "0620-topic-classes": 1,
+    "0625-physics-classes": 1
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "hendrik-academy",
+   "label": "Hendrik Academy",
+   "knownUc": "UC_eOnO2shsmK95udvDe7NwQ",
+   "clusterEvidence": {
+    "9709-pure-maths": 2
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "ilm-online-academy",
+   "label": "ILM ONLINE ACADEMY",
+   "knownUc": "UC8nwp7Gs9wlWfkoWikQvERQ",
+   "clusterEvidence": {
+    "0620-topic-classes": 2
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "infinity-math-center-myanmar",
+   "label": "Infinity Math Center (Myanmar)",
+   "knownUc": "UClX0FlA4PPtV47418xy0s_w",
+   "clusterEvidence": {
+    "4mb1-more": 2
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "intelletics-institute",
+   "label": "Intelletics Institute",
+   "knownUc": "UC7OdboQkDDk_wMSn4x45aCQ",
+   "clusterEvidence": {
+    "8291-topic-classes": 2
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "ishan",
+   "label": "Ishan",
+   "knownUc": "UCvEUWEQSDXfkO53yrWV5RvA",
+   "clusterEvidence": {
+    "9708-alevel-econ": 2
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "mathprep-with-ahmad-bilal",
+   "label": "MathPrep with Ahmad Bilal",
+   "knownUc": "UCECbPKaoGGxBdsKNu-FmBSQ",
+   "clusterEvidence": {
+    "9709-pure-maths": 2
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "mohammad-umar-memon-md",
+   "label": "Mohammad Umar Memon, MD",
+   "knownUc": "UCCwIJHeJOl__odyz1UJj3NA",
+   "clusterEvidence": {
+    "9700-alevel-bio": 2
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "moomoomath-and-science",
+   "label": "MooMooMath and Science",
+   "knownUc": "UCE_WiQFez8FZcICpbwblyyg",
+   "clusterEvidence": {
+    "8291-topic-classes": 2
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "mysecondteacher",
+   "label": "mySecondTeacher",
+   "knownUc": "UC6UzfTB3Psc3pJwQfh7-qkg",
+   "clusterEvidence": {
+    "9706-alevel-acc": 2
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "onmaths",
+   "label": "onmaths",
+   "knownUc": "UCYypEyzw5jLRE2QdCJIB3ZA",
+   "clusterEvidence": {
+    "4ma1-foundation-classes": 2
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "refactor-lab",
+   "label": "Refactor Lab",
+   "knownUc": "UC4_iZyDgFcSDvq9w2Q6O68g",
+   "clusterEvidence": {
+    "0606-add-maths": 2
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "s-q",
+   "label": "S Q",
+   "knownUc": "UCo_lXJGeNq1fOJdERXxlDxw",
+   "clusterEvidence": {
+    "4it1-skills-classes": 2
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "salihath-syed-basheer",
+   "label": "salihath syed basheer",
+   "knownUc": "UCv9y75ZuP2fH5dyc7YgkFtA",
+   "clusterEvidence": {
+    "9609-business-classes": 2
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "sayo-enoch-aluko",
+   "label": "Sayo Enoch Aluko",
+   "knownUc": "UCzF5saLKU8CxfOqnY-TvHmA",
+   "clusterEvidence": {
+    "0606-add-maths": 2
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "science-workshop",
+   "label": "Science Workshop",
+   "knownUc": "UC13rNvj1ZU0dQ7IU3WY9aTw",
+   "clusterEvidence": {
+    "0620-topic-classes": 1,
+    "9701-alevel-chem": 1
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "simple-geography",
+   "label": "Simple Geography",
+   "knownUc": "UCcSvzCp3G7ZFjlm4xqvwryQ",
+   "clusterEvidence": {
+    "4ge1-case-classes": 1,
+    "0460-topic-classes": 1
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "the-future-professionals",
+   "label": "The Future Professionals",
+   "knownUc": "UCuwkjaW3ZA-Ec-LS2QzCUDg",
+   "clusterEvidence": {
+    "9706-alevel-acc": 2
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "the-lightup-hub",
+   "label": "The Lightup Hub",
+   "knownUc": "UCkW0Uf42pv00-qBhJ7X3Isg",
+   "clusterEvidence": {
+    "lit-unseen-craft": 2
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "ukmathsteacher",
+   "label": "ukmathsteacher",
+   "knownUc": "UCTzAco9cOFj9gm9ihRxm0iQ",
+   "clusterEvidence": {
+    "4mb1-more": 2
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "umara-ratnayake",
+   "label": "Umara Ratnayake",
+   "knownUc": "UCdq950TW2afutmyGLbvxjiQ",
+   "clusterEvidence": {
+    "4it1-skills-classes": 2
+   },
+   "provenance": "new"
+  },
+  {
+   "slug": "wimzee-cambridge-academy",
+   "label": "Wimzee Cambridge Academy",
+   "knownUc": "UC01AnesPSgjMWsZ_gLL8mWw",
+   "clusterEvidence": {
+    "0620-topic-classes": 1,
+    "9701-alevel-chem": 1
+   },
+   "provenance": "new"
+  }
+ ]
+}
