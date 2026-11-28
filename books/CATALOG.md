@@ -139,6 +139,27 @@ Board-wise sourcing plan (v2 hub lanes; book picks = the de-facto standard
 endorsed/official series per board). State letters: `—` not sourced · `S`
 SOURCE · `P` PARSED · `I` INTEGRATED · `L` LIVE.
 
+> **Source classes (W-SRC-L1, 2026-11-26):** every sourced book row carries a source
+> class of record, orthogonal to the S/P/I/L state letters above:
+> - **OP — OPERATOR-PURCHASED:** the operator acquires the copy (print or eBook);
+>   agents never fetch (W-F7-T1 §7 law, unchanged). The lane provenance discloses the
+>   purchase channel.
+> - **LIC — LICENSED:** agents may fetch/ingest a copy ONLY when ALL of: (1) a
+>   **permission of record** — an explicit written grant from the rights holder
+>   covering that work (publisher email export / license agreement / signed letter) —
+>   is landed in the lane at `source/PERMISSION-<work>.md` + the original file,
+>   sha256-pinned and cited in the lane README; (2) the CATALOG row + lane README
+>   disclose grantor, grant date, covered ISBNs/editions, use class (parse/research
+>   vs production serving) and conditions (attribution / no-derivatives / takedown),
+>   plus the fetch URL of the copy actually ingested; (3) the fetch runs on an
+>   explicit operator order naming that work — one order per work, never a
+>   class-wide blanket. No pinned permission ⇒ W-F7-T1 §7 applies unchanged.
+> - **NO — NOT INGESTED:** unauthorized copies identified and refused (precedent
+>   rows: 4CH1/4PH1 native-text upgrade searches, run-003 Notes cells).
+> Edition/ISBN pinning law unchanged: exact edition + ISBN pinned per lane at SOURCE
+> time in that lane's README.
+
+
 ### 4.1 Pearson Edexcel International GCSE (2017 lines)
 
 | Lane | Course slug | Book | State |
@@ -186,7 +207,7 @@ component.
 
 | Lane | Course slug | Book (CUP unless noted) | State |
 |---|---|---|---|
-| A-Level Physics 9702 | `cie-a-level-physics-25` | Coursebook 3rd ed — Sang, Jones, Chadha, Woodside (ISBN 9781108859035) | **S** (2nd ed sourced 2026-10-21, 744pp; 3rd ed = upgrade candidate) |
+| A-Level Physics 9702 | `cie-a-level-physics-25` | Coursebook 3rd ed — Sang, Jones, Chadha, Woodside (ISBN 9781108859035) | **S** (2nd ed sourced 2026-10-21, 744pp; 3rd ed = upgrade candidate; 3rd-ed route opened under source class **LIC** (W-SRC-L1) — permission of record PENDING operator landing) |
 | A-Level Chemistry 9701 | `cie-a-level-chemistry-25` | Coursebook 3rd ed — Ryan & Norris | **S** (2026-10-21, 889pp text layer) |
 | A-Level Biology 9700 | `cie-a-level-biology-25` | Coursebook — Jones, Fosbery, Taylor, Widger | **S** (4th ed sourced 2026-10-21, 696pp; 5th ed = upgrade candidate) |
 | A-Level Maths 9709 (6 lanes) | `cie-a-level-maths-20-*` | per-component Coursebooks: Pure Math 1; Pure Math 2&3; Mechanics; Prob & Stats 1; Prob & Stats 2 | — |
@@ -239,3 +260,4 @@ component.
 | 2026-10-30 | YPH11 SB2 polish R1 COMPLETE (T-PARSE-YPH11-1, five quota windows of the account-level 429 wall, 2026-10-25 → 10-30): **794/794 terminal** (774 applied all text-changed, 20 guard-rejected evidence kept; PM-3 probe/resume, crash-safe JSONL); merge anchor diff vs pristine 0 drift, MD + report regenerated; audit space-run 4610→15 on repaired chunks / 0 Unicode-unit regressions (7 residual long-run chunks verified genuine source content vs text_original); validator ALL CHECKS PASSED post-polish (826 chunks, 13/13 chapters, 7/7 units, 26/26 question pages); chain scripts of record replaced — the 2026-10-25 commit shipped pre-fix phantom-path SB2 scripts and omitted the wrapper (books/README.md E-006); tracker row 3 + §3.4 + §4.2 updated | this commit (lane evidence) |
 | 2026-11-20 | W-F9 books rollout wave (operator order trace 1a1f4951330253b5 "Proceed with books rollout queue"): the CIE text-layer quartet — **9701** catalog lag corrected (corpus v1 verified under the 8-point gate, 1083 chunks) + **9702** (2046 chunks) + **9700** (1971 chunks) + **0625** (896 chunks) PARSED from the wave-2 sources; column-law PyMuPDF text-layer lanes (no OCR), validators ALL CHECKS PASSED, determinism sha256 byte-identical re-runs; sub/superscripts rebuilt from span geometry; 0610/0620 stay OCR-route (quota-walled, honest); the 10 NO_BOOK Edexcel IGCSE lanes stay operator-purchase gated (never agent-fetches, W-F7-T1 §7 law) | this commit (lane parsed/ + pipeline/ + receipts/W-F9/) |
 | 2026-10-31 | T-BOOK-SERVE IAL r0 (operator order trace 1a18fe1f9cace659 — "proceed with YPH11 + YCH11/YCH12"): FOUR serving packages landed, no-parse shelf law. YPH11 SB1 (11 lesson slices, 11/11 anchored, sb1/ scope dir) + SB2 (13 lesson, 13/13 anchored, sb2/) with the **MULTI-BOOK MANIFEST LAW** — one manifest file per book (`manifest-sb1.json`/`manifest-sb2.json`), unit = TOPIC, root student-book-1/2.pdf blob-reuse; YCH11 (35 lesson + 10 per-topic unit-exam banks, T9 4pp) + YCH12 (19 + 10) with `manifest.json` per lane; 98 slice PDFs / 236.6MB; documentIds derived ibm-docling@v3 of the archived bytes (`7e6891e1-e41c-5eaf-8aa4-003baffc3907`, `a767d89e-d678-5b75-9513-1b325915c189`, `5fe299af-08a7-53e1-85fc-c914e997062d`, `c40f6853-a50c-5743-9a53-611ade397fba`); per-lane `pipeline/slices-gen-receipt.json` (anchors in-range, ranges non-overlapping); §3.4/§3.5/§3.6 + §4.2 + source-digest corrections (E-008) | this commit (serving packages + receipts) |
+| 2026-11-26 | W-SRC-L1 (operator directive, Discord trace b4975a04ee93d2268f20c4026934059c): source classes OP/LIC/NO defined in §4 — class LIC opens rights-holder-licensed agent fetching per-work (permission of record pinned in-lane at source/PERMISSION-<work>.md, per-work operator order, full disclosure row); W-F7-T1 §7 unchanged absent a pinned permission; first application: CIE 9702 3rd-ed upgrade candidate (permission of record PENDING) | branch staging commit (PR review; the LEDGER wave record rides the next scheduled records landing after merge) |
