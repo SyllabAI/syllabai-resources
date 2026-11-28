@@ -46,6 +46,10 @@ to the hydrochloric acid end**, because ammonia particles (relative
 molecular mass 17) are **lighter** than hydrogen chloride particles (36.5)
 and therefore move faster, travelling further in the same time.
 
+:::plain-words
+Gas particles fly at hundreds of metres per second, yet the smell of a gas released across the lab takes minutes to reach you. Why? Because each particle travels a **zig-zag**: it bounces off billions of air particles on the way. Diffusion is simply that spreading — from where particles are crowded (high [[concentration]]) to where they are sparse (low concentration), until they are spread out evenly.
+:::
+
 :::safety
 These are **teacher demonstrations only**. The bromine and
 ammonia/hydrogen chloride demos must be prepared in a working fume
@@ -74,7 +78,9 @@ in *both* jars.
 marks): ammonia particles are **lighter** (smaller relative molecular
 mass) so they move **faster** and travel **further in the same time**.
 Mark schemes accept "lighter/smaller mass particles move faster"; avoid
-teleology like "ammonia wants to travel further".
+teleology like "ammonia wants to travel further". Real mark scheme of record (4CH1/1C JUN 2021 Q3(a)(i)): the complete
+1-mark answer was the single word "diffusion" — name the process; do
+not narrate it.
 :::
 
 :::quick-check

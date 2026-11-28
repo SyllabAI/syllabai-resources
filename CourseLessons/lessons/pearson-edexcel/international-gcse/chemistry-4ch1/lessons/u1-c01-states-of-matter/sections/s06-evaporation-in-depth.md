@@ -37,6 +37,10 @@ Finally, a definitions note you will use in §s08: in science,
 one fixed value, so when a change of state happens near room temperature,
 always make clear which value you are using.
 
+:::plain-words
+Puddles disappear without ever boiling — that is the puzzle this section solves. At any temperature, a few particles at the surface are moving fast enough to break straight off into the air. Warm liquid, more escape; in a closed container some escapees fall back, so both processes run at once. Boiling is the whole liquid doing at once what evaporation does quietly at the surface.
+:::
+
 :::key-point
 Sublimation = solid → gas directly. Deposition = gas → solid directly.
 Both happen without a liquid forming, at normal pressure.

@@ -27,6 +27,10 @@ all directions. The energy story runs in the same order: the particles in
 a solid have less [[kinetic-energy]] than the particles in a liquid, which
 have less [[kinetic-energy]] than the particles in a gas.
 
+:::plain-words
+This is the section examiners love, so make the three descriptions yours. **Solid:** particles packed close in a regular pattern, vibrating on the spot. **Liquid:** particles still touching but with gaps, sliding around each other. **Gas:** particles far apart, flying fast in straight lines until they collide. Then bolt on the energy ladder — solid lowest, gas highest — and you can answer any "describe the particles" question in the paper.
+:::
+
 :::key-point
 Learn the three-part description for each state — **arrangement**
 (regular/random), **separation** (touching / touching with gaps / far

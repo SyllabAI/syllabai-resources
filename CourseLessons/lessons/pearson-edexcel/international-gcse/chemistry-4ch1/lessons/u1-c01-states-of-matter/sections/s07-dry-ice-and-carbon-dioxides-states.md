@@ -21,6 +21,10 @@ This section is short by design: a dry-ice story that closes out the
 changes of state before the move into diffusion. Master it, then follow us
 into diffusion.
 
+:::plain-words
+Dry ice skips a step that every other frozen liquid you know takes: it never melts. At ordinary pressure, solid carbon dioxide turns **straight into gas** at −78.5 °C — that skipping of the liquid state is what sublimation means. So if an exam question offers you "liquid carbon dioxide" at room conditions, it is a trap: there is no such thing.
+:::
+
 :::key-point
 At ordinary pressures carbon dioxide sublimes at −78.5 °C — solid dry ice
 becomes gas with no liquid in between.
